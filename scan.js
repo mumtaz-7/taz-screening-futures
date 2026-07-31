@@ -39,9 +39,11 @@ const TG_CHAT     = process.env.TELEGRAM_CHAT_ID;
 const STABLE_BASES = new Set(["USDC","FDUSD","TUSD","BUSD","DAI","USDP","UST","USTC","EUR","GBP","AEUR","USD1","XUSD","PYUSD","EURI","TRY","BRL","ARS","ZAR","BIDR","IDRT","NGN","UAH","RUB","PLN","RON","JPY","MXN","COP","CZK"]);
 
 // ---------- NETWORK ----------
+// UA browser: Bybit/CloudFront nolak request tanpa identitas browser (403 WAF). Header ini biar keliatan kayak browser biasa.
+const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36';
 async function apiGet(path, params){
   const qs = params ? '?' + new URLSearchParams(params).toString() : '';
-  const r = await fetch(BASE + path + qs);
+  const r = await fetch(BASE + path + qs, { headers: { 'User-Agent': UA, 'Accept': 'application/json' } });
   if(!r.ok) throw new Error('HTTP ' + r.status + ' ' + path);
   const j = await r.json();
   if(j.retCode !== 0) throw new Error('Bybit retCode ' + j.retCode + ' (' + j.retMsg + ') ' + path);
