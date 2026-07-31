@@ -56,18 +56,18 @@ console.log(`   mirror beda: ${mirrorDiff}/${sig} (${mirrorPct.toFixed(1)}%) —
 chk(mirrorPct <= 12, `mirror asimetri ${mirrorPct.toFixed(1)}% terlalu tinggi (harusnya ≤12%)`);
 chk(sig > 500, 'cukup banyak sinyal buat uji');
 
-// ---- 4) parser kline Bybit (mock: newest-first → oldest-first + drop forming) ----
-console.log('4) parser kline Bybit (mock newest-first)');
+// ---- 4) parser kline Binance (mock: oldest-first, drop forming via closeTime idx6) ----
+console.log('4) parser kline Binance (mock oldest-first)');
 { const now=1000000, tfMs=900000;
-  const row=(t,o,h,l,c)=>[String(t),String(o),String(h),String(l),String(c),"1","1"];
-  const forming=[ row(now,10,11,9,10), row(now-tfMs,9,10,8,9), row(now-2*tfMs,8,9,7,8) ]; // Bybit: terbaru dulu, yg pertama masih forming
-  const p=A.parseKlines(forming, tfMs, now);
+  // Binance: [openTime,o,h,l,c,vol,closeTime,...], oldest-first
+  const row=(t,o,h,l,c,ct)=>[t,String(o),String(h),String(l),String(c),"1",ct];
+  const forming=[ row(now-2*tfMs,8,9,7,8, now-tfMs-1), row(now-tfMs,9,10,8,9, now-1), row(now,10,11,9,10, now+tfMs-1) ]; // terakhir masih forming (closeTime > now)
+  const p=A.parseKlines(forming, now);
   chk(p.length===2, 'candle forming dibuang (len jadi 2)');
-  chk(p[0].t===now-2*tfMs && p[1].t===now-tfMs, 'urutan dibalik jadi oldest-first');
-  chk(p[1].t+tfMs<=now, 'candle terakhir udah tutup');
+  chk(p[0].t===now-2*tfMs && p[1].t===now-tfMs, 'urutan oldest-first kejaga');
   chk(p[0].o===8 && p[0].h===9 && p[0].l===7 && p[0].c===8, 'mapping OHLC bener');
-  const closed=[ row(now-tfMs,9,10,8,9), row(now-2*tfMs,8,9,7,8) ]; // terbaru udah tutup
-  chk(A.parseKlines(closed, tfMs, now).length===2, 'newest udah closed → ga ada yg dibuang');
+  const closed=[ row(now-2*tfMs,8,9,7,8, now-tfMs-1), row(now-tfMs,9,10,8,9, now-1) ]; // terakhir closeTime <= now
+  chk(A.parseKlines(closed, now).length===2, 'terakhir udah closed → ga ada yg dibuang');
 }
 
 console.log(fails===0 ? '\n✅ SEMUA PASS' : `\n❌ ${fails} GAGAL`);

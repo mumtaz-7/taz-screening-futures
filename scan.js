@@ -1,7 +1,8 @@
 /* =====================================================================
    Crypto SMC FUTURES Scanner → Telegram  (ChoCh + BoS READY · LONG + SHORT · M15)
-   Fork dari scanner spot (scan.js) → Bybit USDT Perpetual (linear), dua arah.
-   Beda dari spot: (1) data api.bybit.com v5 (linear); (2) TANPA filter halal (futures sengaja
+   Fork dari scanner spot (scan.js) → data Binance SPOT via data-api.binance.vision (host kebal-blokir
+   datacenter → gratis 24/7 di GitHub; fapi & Bybit diblok). Eksekusi di BINANCE PERP (basis spot↔perp ≈ 0).
+   Beda dari spot: (1) data host = vision spot; (2) TANPA filter halal (futures sengaja
    di luar filter, sesuai keputusan); (3) sisi SHORT ditambah (mirror penuh long);
    (4) tiap sinyal bawa REKOMENDASI LEVERAGE AMAN (MMR-aware, sama kayak sizing calculator).
    v1 = SINYAL-ONLY (track record menyusul di step berikutnya).
@@ -10,8 +11,8 @@
 const fs = require('fs');
 
 // ---------- KONFIG ----------
-const BASE        = 'https://api.bybit.com';      // Bybit v5 (linear perp)
-const TF          = '15';                          // Bybit interval buat M15 (menit)
+const BASE        = 'https://data-api.binance.vision';   // mirror data publik Binance SPOT (kebal-blokir datacenter)
+const TF          = '15m';                                // interval Binance
 const TF_MS       = 15*60*1000;
 const LIMIT       = 700;
 const SWING_LEN   = 50;
@@ -37,23 +38,19 @@ const TG_TOKEN    = process.env.TELEGRAM_TOKEN;
 const TG_CHAT     = process.env.TELEGRAM_CHAT_ID;
 
 const STABLE_BASES = new Set(["USDC","FDUSD","TUSD","BUSD","DAI","USDP","UST","USTC","EUR","GBP","AEUR","USD1","XUSD","PYUSD","EURI","TRY","BRL","ARS","ZAR","BIDR","IDRT","NGN","UAH","RUB","PLN","RON","JPY","MXN","COP","CZK"]);
+const LEVERAGE_TAGS = ["UP","DOWN","BULL","BEAR"];   // buang leveraged token spot (BTCUPUSDT dll)
 
 // ---------- NETWORK ----------
-// UA browser: Bybit/CloudFront nolak request tanpa identitas browser (403 WAF). Header ini biar keliatan kayak browser biasa.
-const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36';
 async function apiGet(path, params){
   const qs = params ? '?' + new URLSearchParams(params).toString() : '';
-  const r = await fetch(BASE + path + qs, { headers: { 'User-Agent': UA, 'Accept': 'application/json' } });
+  const r = await fetch(BASE + path + qs);
   if(!r.ok) throw new Error('HTTP ' + r.status + ' ' + path);
-  const j = await r.json();
-  if(j.retCode !== 0) throw new Error('Bybit retCode ' + j.retCode + ' (' + j.retMsg + ') ' + path);
-  return j.result;
+  return r.json();
 }
-// Bybit kline: newest-first → balik ke oldest-first + buang candle terakhir yg belum tutup (act-on-close)
-function parseKlines(list, tfMs, now){
-  const c = list.slice().reverse().map(k => ({t:+k[0], o:+k[1], h:+k[2], l:+k[3], c:+k[4]}));
-  if(c.length && c[c.length-1].t + tfMs > now) c.pop();
-  return c;
+// Binance kline: udah oldest-first. Buang candle terakhir kalau belum tutup (closeTime idx 6 di masa depan) → act-on-close.
+function parseKlines(raw, now){
+  const rows = (raw.length && raw[raw.length-1][6] > now) ? raw.slice(0, -1) : raw;
+  return rows.map(k => ({t:k[0], o:+k[1], h:+k[2], l:+k[3], c:+k[4]}));
 }
 
 // ---------- ENGINE LUXALGO (dua arah — parity screener futures) ----------
@@ -229,10 +226,10 @@ async function notify(fresh, ready){
   const nL = fresh.filter(k => ready[k.split('::')[0]].dir==='LONG').length;
   const nS = fresh.length - nL;
   let msg = `▸ <b>${fresh.length} Sinyal Futures Ready baru</b> · <b>M15</b>\n`;
-  msg += `<i>LONG ${nL} · SHORT ${nS} · Bybit USDT Perp</i>\n\n`;
+  msg += `<i>LONG ${nL} · SHORT ${nS} · Binance USDT Perp</i>\n\n`;
   for(const k of shown){ const s = k.split('::')[0], a = ready[s];
     const arrow = a.dir==='LONG' ? '▲ LONG' : '▼ SHORT';
-    const tvSym = `BYBIT:${s}.P`;
+    const tvSym = `BINANCE:${s}.P`;
     if(isExtended(a)){
       msg += `<b>${s}</b> · ${arrow} · ${a.setup} · <i>Extended</i>\n`;
       msg += `<i>• Struktur terkonfirmasi — harga sudah lewat TP. Buat watchlist, bukan entry.</i>\n`;
@@ -268,28 +265,23 @@ function pickFloor(gains){
 
 // ---------- MAIN ----------
 async function main(){
-  // universe: linear perp USDT status Trading (paginasi cursor kalau >1000)
-  const valid = new Set(); let cursor = null, guard = 0;
-  do{
-    const p = {category:'linear', limit:1000}; if(cursor) p.cursor = cursor;
-    const inst = await apiGet('/v5/market/instruments-info', p);
-    for(const s of inst.list){
-      if(s.contractType !== 'LinearPerpetual' || s.quoteCoin !== 'USDT' || s.status !== 'Trading') continue;
-      if(STABLE_BASES.has(s.baseCoin)) continue;
-      valid.add(s.symbol);
-    }
-    cursor = inst.nextPageCursor; guard++;
-  }while(cursor && guard < 6);
-
-  const tk = await apiGet('/v5/market/tickers', {category:'linear'});
-  const liquid = tk.list.filter(x => valid.has(x.symbol) && parseFloat(x.turnover24h) >= MIN_VOL).map(x => x.symbol);
+  // universe: spot USDT trading (data-api.binance.vision), TANPA filter halal (futures)
+  const info = await apiGet('/api/v3/exchangeInfo');
+  const valid = new Set();
+  for(const s of info.symbols){
+    if(s.quoteAsset !== 'USDT' || s.status !== 'TRADING' || !s.isSpotTradingAllowed) continue;
+    if(STABLE_BASES.has(s.baseAsset) || LEVERAGE_TAGS.some(t => s.baseAsset.endsWith(t))) continue;
+    valid.add(s.symbol);
+  }
+  const tick = await apiGet('/api/v3/ticker/24hr');
+  const liquid = tick.filter(x => valid.has(x.symbol) && parseFloat(x.quoteVolume) >= MIN_VOL).map(x => x.symbol);
 
   const ready = {}; let i = 0;
   async function worker(){
     while(i < liquid.length){ const sym = liquid[i++];
       try{
-        const res = await apiGet('/v5/market/kline', {category:'linear', symbol: sym, interval: TF, limit: LIMIT});
-        const c = parseKlines(res.list, TF_MS, Date.now());   // reverse newest-first + drop forming candle
+        const raw = await apiGet('/api/v3/klines', {symbol: sym, interval: TF, limit: LIMIT});
+        const c = parseKlines(raw, Date.now());   // drop forming candle (act-on-close)
         const a = analyze(c);
         if(a && a.gainPct >= MIN_TP_FLOOR && a.rr >= MIN_RR && a.barsSince <= MAX_FRESH)
           ready[sym] = {...a, signalTime: c[c.length-1].t + TF_MS};
