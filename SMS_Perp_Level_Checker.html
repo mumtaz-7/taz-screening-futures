@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="id"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>SMS · Perp Level Checker</title>
+<style>
+:root{--bg:#0a0b0d;--panel:#131519;--panel2:#181a1f;--border:#23262d;--border2:#2c2f38;--txt:#eceef2;--txt2:#b7bac2;--muted:#7c808a;--faint:#565a63;--green:#4ec49a;--red:#e57b6c;--gold:#d8c27a;--violet:#a99cec;}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent;}
+html,body{background:var(--bg);}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,sans-serif;color:var(--txt);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased;min-height:100vh;}
+.wrap{max-width:480px;margin:0 auto;padding:20px 16px 40px;}
+header{display:flex;align-items:center;gap:10px;margin-bottom:18px;}
+.mark{width:34px;height:34px;border-radius:10px;border:1.5px solid var(--border2);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:11px;background:linear-gradient(160deg,#1a1d22,#0f1114);}
+header h1{font-size:17px;font-weight:650;letter-spacing:-.2px;line-height:1.1;}
+header .sub{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;}
+.searchbar{margin-bottom:12px;}
+.searchbar input{width:100%;background:var(--panel2);border:1px solid var(--border);color:var(--txt);border-radius:13px;padding:16px 18px;font-size:19px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;}
+.searchbar input:focus{outline:none;border-color:var(--violet);box-shadow:0 0 0 3px rgba(169,156,236,.14);}
+.tfsel{display:flex;gap:7px;margin-bottom:14px;}
+.tfsel button{flex:1;background:var(--panel2);border:1px solid var(--border);color:var(--txt2);border-radius:11px;padding:12px;font-size:14px;font-weight:650;cursor:pointer;}
+.tfsel button.on{background:rgba(169,156,236,.18);color:#c9c0f0;border-color:var(--violet);}
+button.go{width:100%;background:linear-gradient(135deg,#b8abe8,#9c8fe0);color:#141019;border:none;border-radius:14px;padding:17px;font-size:16px;font-weight:750;letter-spacing:.2px;cursor:pointer;}
+button.go:disabled{opacity:.5;}
+.status{margin-top:14px;font-size:13px;color:var(--muted);text-align:center;min-height:18px;line-height:1.5;}
+.err{margin-top:16px;background:rgba(229,123,108,.09);border:1px solid rgba(229,123,108,.3);color:#f0968a;border-radius:12px;padding:14px;font-size:13px;text-align:center;display:none;line-height:1.5;}
+.card{margin-top:16px;background:var(--panel);border:1px solid var(--border);border-radius:16px;overflow:hidden;display:none;}
+.card .top{display:flex;align-items:center;gap:9px;padding:15px 18px;border-bottom:1px solid var(--border);flex-wrap:wrap;}
+.card .sym{font-size:20px;font-weight:700;letter-spacing:-.2px;}
+.tag{display:inline-flex;align-items:center;padding:4px 11px;border-radius:999px;font-size:12px;font-weight:700;}
+.d-LONG{background:rgba(78,196,154,.16);color:#6fd4ac;} .d-SHORT{background:rgba(229,123,108,.16);color:#f0968a;}
+.t-ready{background:rgba(78,196,154,.16);color:#6fd4ac;} .t-watch{background:rgba(127,155,216,.15);color:#a7c0ef;}
+.lvl{display:flex;align-items:center;justify-content:space-between;padding:16px 18px;border-bottom:1px solid #1c1e23;cursor:pointer;}
+.lvl:active{background:var(--panel2);}
+.lvl .k{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;}
+.lvl .v{font-size:23px;font-weight:700;font-variant-numeric:tabular-nums;display:flex;align-items:center;gap:9px;}
+.lvl .v .cp{font-size:12px;color:var(--faint);font-weight:500;}
+.lvl.sl .v{color:var(--red);} .lvl.tp .v{color:var(--green);}
+.meta{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);}
+.meta .m{background:var(--panel);padding:13px 18px;}
+.meta .m .k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;}
+.meta .m .v{font-size:18px;font-weight:700;font-variant-numeric:tabular-nums;margin-top:3px;}
+.meta .m.lev .v{color:var(--gold);}
+.hint{font-size:12px;color:var(--faint);text-align:center;margin-top:16px;line-height:1.65;}
+.toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(20px);background:var(--violet);color:#141019;padding:11px 20px;border-radius:999px;font-size:13px;font-weight:700;opacity:0;transition:.2s;pointer-events:none;z-index:9;}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+</style></head><body>
+<div class="wrap">
+<header><div class="mark">SMS</div><div><h1>Perp Level Checker</h1><div class="sub">Binance USDT-M · harga perp exact</div></div></header>
+<div class="searchbar"><input id="sym" type="text" inputmode="text" autocapitalize="characters" autocomplete="off" spellcheck="false" placeholder="BTCUSDT" enterkeyhint="go"></div>
+<div class="tfsel" id="tfsel"><button data-tf="15m" class="on">M15</button><button data-tf="1h">H1</button><button data-tf="4h">H4</button></div>
+<button id="go" class="go">Cek Level Perp</button>
+<div class="status" id="status">Ketik symbol (mis. BTCUSDT) → level entry/SL/TP perp presisi, tinggal copas.</div>
+<div class="err" id="err"></div>
+<div class="card" id="card"></div>
+<div class="hint">Data = Binance PERP live (fapi). Tap angka buat copy. Konfirmasi di chart (LuxAlgo swing=50, internal=5) sebelum entry. Lev = plafon aman terhadap SL. NFA · DYOR.</div>
+</div>
+<div class="toast" id="toast">tersalin</div>
+<script>
+const INTERNAL_LEN=5,CONFLUENCE_DEFAULT=true,SL_BUFFER_DEFAULT=0.5,OB_EXTEND_BELOW=5,WATCH_MAX_RETR=0.786,LEV_CEILING_DEFAULT=25,LIQ_BUFFER_DEFAULT=1.5;
+/* ================= ENGINE LUXALGO SMC — dua arah ================= */
+function computeLeg(c, t, size, prevLeg){
+  if(t<size) return prevLeg;
+  const hAgo=c[t-size].h, lAgo=c[t-size].l;
+  let maxR=-Infinity, minR=Infinity;
+  for(let k=t-size+1;k<=t;k++){ if(c[k].h>maxR)maxR=c[k].h; if(c[k].l<minR)minR=c[k].l; }
+  if(hAgo>maxR) return 0;
+  if(lAgo<minR) return 1;
+  return prevLeg;
+}
+const ATR_LEN=200;
+function luxStructure(c, swingLen, confluence){
+  const n=c.length;
+  const sH={level:NaN,crossed:false,idx:-1}, sL={level:NaN,crossed:false,idx:-1};
+  const iH={level:NaN,crossed:false,idx:-1}, iL={level:NaN,crossed:false,idx:-1};
+  let swingTrend=0, internalTrend=0, legS=0, legI=0;
+  let trailTop=c[0].h, trailBot=c[0].l, trailBotIdx=0, trailTopIdx=0;
+  const events=[];
+  const pHigh=new Array(n), pLow=new Array(n);
+  const obsBear=[], obsBull=[];
+  let atr=0, trSum=0;
+  for(let t=0;t<n;t++){
+    const tr = t>0 ? Math.max(c[t].h-c[t].l, Math.abs(c[t].h-c[t-1].c), Math.abs(c[t].l-c[t-1].c)) : (c[t].h-c[t].l);
+    if(t<ATR_LEN){ trSum+=tr; atr=trSum/(t+1); } else { atr=(atr*(ATR_LEN-1)+tr)/ATR_LEN; }
+    const highVol=(c[t].h-c[t].l) >= 2*atr;
+    pHigh[t]=highVol? c[t].l : c[t].h;
+    pLow[t] =highVol? c[t].h : c[t].l;
+    if(c[t].h>trailTop){ trailTop=c[t].h; trailTopIdx=t; }
+    if(c[t].l<trailBot){ trailBot=c[t].l; trailBotIdx=t; }
+    const pS=legS; legS=computeLeg(c,t,swingLen,legS);
+    if(legS!==pS && t>=swingLen){
+      if(legS===1){ sL.level=c[t-swingLen].l; sL.crossed=false; sL.idx=t-swingLen; trailBot=sL.level; trailBotIdx=t-swingLen; }
+      else        { sH.level=c[t-swingLen].h; sH.crossed=false; sH.idx=t-swingLen; trailTop=sH.level; trailTopIdx=t-swingLen; }
+    }
+    const pI=legI; legI=computeLeg(c,t,INTERNAL_LEN,legI);
+    if(legI!==pI && t>=INTERNAL_LEN){
+      if(legI===1){ iL.level=c[t-INTERNAL_LEN].l; iL.crossed=false; iL.idx=t-INTERNAL_LEN; }
+      else        { iH.level=c[t-INTERNAL_LEN].h; iH.crossed=false; iH.idx=t-INTERNAL_LEN; }
+    }
+    if(t>0){
+      const cl=c[t].c, clp=c[t-1].c, o=c[t].o, h=c[t].h, l=c[t].l;
+      let bullishBar=true, bearishBar=true;
+      if(confluence){ const upper=h-Math.max(cl,o), m=Math.min(cl,o)-l; bullishBar=upper>m; bearishBar=upper<m; }
+      // BULL internal break
+      if(!isNaN(iH.level) && clp<=iH.level && cl>iH.level && !iH.crossed && iH.level!==sH.level && bullishBar){
+        const tag=internalTrend===-1?'CHoCH':'BOS'; internalTrend=1; iH.crossed=true;
+        let obTP=null;
+        for(const o2 of obsBear){ const bot=Math.min(o2.barHigh,o2.barLow); if(bot>trailTop && (obTP===null || bot<obTP)) obTP=bot; }
+        events.push({idx:t,dir:'bull',tag,level:iH.level,strongLow:trailBot,weakHigh:trailTop,swingTrend,
+                     internalLow:isNaN(iL.level)?null:iL.level, obTP});
+        if(iH.idx>=0){ let minL=Infinity, mi=iH.idx;
+          for(let k=iH.idx;k<t;k++){ if(pLow[k]<minL){ minL=pLow[k]; mi=k; } }
+          obsBull.unshift({barHigh:pHigh[mi], barLow:pLow[mi], idx:mi});
+          if(obsBull.length>100) obsBull.pop();
+        }
+      }
+      // BEAR internal break
+      if(!isNaN(iL.level) && clp>=iL.level && cl<iL.level && !iL.crossed && iL.level!==sL.level && bearishBar){
+        const tag=internalTrend===1?'CHoCH':'BOS'; internalTrend=-1; iL.crossed=true;
+        let obTP=null;
+        for(const o2 of obsBull){ const top=Math.max(o2.barHigh,o2.barLow); if(top<trailBot && (obTP===null || top>obTP)) obTP=top; }
+        events.push({idx:t,dir:'bear',tag,level:iL.level,strongLow:trailBot,weakHigh:trailTop,swingTrend,
+                     internalHigh:isNaN(iH.level)?null:iH.level, obTP});
+        if(iL.idx>=0){ let maxH=-Infinity, mi=iL.idx;
+          for(let k=iL.idx;k<t;k++){ if(pHigh[k]>maxH){ maxH=pHigh[k]; mi=k; } }
+          obsBear.unshift({barHigh:pHigh[mi], barLow:pLow[mi], idx:mi});
+          if(obsBear.length>100) obsBear.pop();
+        }
+      }
+      if(!isNaN(sH.level) && clp<=sH.level && cl>sH.level && !sH.crossed){ swingTrend=1; sH.crossed=true; }
+      if(!isNaN(sL.level) && clp>=sL.level && cl<sL.level && !sL.crossed){ swingTrend=-1; sL.crossed=true; }
+    }
+    for(let i2=obsBear.length-1; i2>=0; i2--){ if(c[t].h > obsBear[i2].barHigh) obsBear.splice(i2,1); }
+    for(let i2=obsBull.length-1; i2>=0; i2--){ if(c[t].l < obsBull[i2].barLow) obsBull.splice(i2,1); }
+  }
+  return {swingTrend, internalTrend, trailBot, trailBotIdx, trailTop, trailTopIdx, events};
+}
+// fib retracement 0=weak(target) 1=strong(SL)
+function fibRetrLong(price, strongLow, weakHigh){ const r=weakHigh-strongLow; return r>0 ? (weakHigh-price)/r : null; }
+function fibRetrShort(price, strongHigh, weakLow){ const r=strongHigh-weakLow; return r>0 ? (price-weakLow)/r : null; }
+function watchProjGainLong(sl, wh){ const eq=(sl+wh)/2; return eq>0 ? (wh-eq)/eq*100 : null; }
+function watchProjGainShort(sh, wl){ const eq=(sh+wl)/2; return eq>0 ? (eq-wl)/eq*100 : null; }
+// SL Opsi 3 arah-sadar
+function slOpt3Long(entry, internalLow, strongLow, buffer){
+  const lo=(internalLow!=null && internalLow<entry)?internalLow:strongLow;
+  const sl=lo - buffer*(entry-lo);
+  return (sl>0 && sl<entry)?sl:(strongLow>0 && strongLow<entry?strongLow:entry*0.5);
+}
+function slOpt3Short(entry, internalHigh, strongHigh, buffer){
+  const hi=(internalHigh!=null && internalHigh>entry)?internalHigh:strongHigh;
+  const sl=hi + buffer*(hi-entry);
+  return (sl>entry)?sl:(strongHigh>entry?strongHigh:entry*1.5);
+}
+// leverage aman dari SL
+function maxSafeLeverage(slPct, buffer, ceiling){
+  if(slPct==null || slPct<=0) return null;
+  const raw=Math.floor(100/(slPct*buffer));
+  return Math.max(1, Math.min(ceiling, raw));
+}
+function pickSetup(a,b){
+  const rank=s=>s==null?0:(s.status==='READY'?2:1);
+  const ra=rank(a), rb=rank(b);
+  if(ra===0&&rb===0) return null;
+  if(ra!==rb) return ra>rb ? a : b;
+  const ia=(a&&a.evIdx!=null)?a.evIdx:-1, ib=(b&&b.evIdx!=null)?b.evIdx:-1;
+  return ia>=ib ? a : b;
+}
+function analyzeLux(c, swingLen, maxBars, confluence, slBuffer, liqBuf, levCeil){
+  confluence=(confluence===undefined)?CONFLUENCE_DEFAULT:confluence;
+  slBuffer=(slBuffer===undefined)?SL_BUFFER_DEFAULT:slBuffer;
+  liqBuf=(liqBuf===undefined)?LIQ_BUFFER_DEFAULT:liqBuf;
+  levCeil=(levCeil===undefined)?LEV_CEILING_DEFAULT:levCeil;
+  const n=c.length; if(n < swingLen*4+20) return null;
+  const st=luxStructure(c, swingLen, confluence);
+  const price=c[n-1].c, strongLow=st.trailBot, weakHigh=st.trailTop, strongHigh=st.trailTop, weakLow=st.trailBot;
+
+  let pick=null, dir=null, refStrong=null, refWeak=null, retrOut=null;
+
+  if(st.swingTrend===1 && price>strongLow){
+    // ===== LONG =====
+    const retr=fibRetrLong(price, strongLow, weakHigh);
+    let choch=null;
+    const bullChochs=st.events.filter(e=>e.dir==='bull'&&e.tag==='CHoCH');
+    if(bullChochs.length){
+      const ev=bullChochs[bullChochs.length-1];
+      const bearAfter=st.events.some(e=>e.dir==='bear'&&e.idx>ev.idx);
+      if(st.internalTrend===1 && !bearAfter && (n-1-ev.idx)<=maxBars && ev.level>strongLow && weakHigh>ev.level){
+        const entry=ev.level, eq=(strongLow+weakHigh)/2, cr=fibRetrLong(entry, strongLow, weakHigh);
+        let tp, tpSrc;
+        if(cr!=null && cr>0.618 && eq>entry){ tp=eq; tpSrc='EQ'; }
+        else { const whGain=(weakHigh-entry)/entry*100;
+          if(whGain<OB_EXTEND_BELOW && ev.obTP!=null && ev.obTP>weakHigh){ tp=ev.obTP; tpSrc='OB'; }
+          else { tp=weakHigh; tpSrc='WH'; } }
+        const sl=slOpt3Long(entry, ev.internalLow, strongLow, slBuffer);
+        choch={setup:'ChoCh',status:'READY',entry,sl,evIdx:ev.idx,barsSince:n-1-ev.idx,tp,tpSrc,
+          slPct:(entry-sl)/entry*100, gainPct:(tp-entry)/entry*100};
+      }
+    }
+    if(!choch && st.internalTrend===-1 && retr!=null && retr<WATCH_MAX_RETR){
+      choch={setup:'ChoCh',status:'WATCH',entry:null,sl:null,evIdx:null,barsSince:null,tp:weakHigh,tpSrc:'WH',
+        slPct:null, gainPct:watchProjGainLong(strongLow, weakHigh)};
+    }
+    let bos=null;
+    const bullBos=st.events.filter(e=>e.dir==='bull'&&e.tag==='BOS');
+    if(bullBos.length){
+      const ev=bullBos[bullBos.length-1];
+      const bearAfter=st.events.some(e=>e.dir==='bear'&&e.idx>ev.idx);
+      if(st.internalTrend===1 && !bearAfter && (n-1-ev.idx)<=maxBars && ev.level>strongLow && weakHigh>ev.level){
+        const entry=ev.level, useOB=(ev.obTP!=null && ev.obTP>weakHigh), tp=useOB?ev.obTP:weakHigh;
+        const sl=slOpt3Long(entry, ev.internalLow, strongLow, slBuffer);
+        bos={setup:'BoS',status:'READY',entry,sl,evIdx:ev.idx,barsSince:n-1-ev.idx,tp,tpSrc:useOB?'OB':'WH',
+          slPct:(entry-sl)/entry*100, gainPct:(tp-entry)/entry*100};
+      }
+    }
+    pick=pickSetup(choch, bos); dir='LONG'; refStrong=strongLow; refWeak=weakHigh; retrOut=retr;
+  } else if(st.swingTrend===-1 && price<strongHigh){
+    // ===== SHORT (mirror) =====
+    const retr=fibRetrShort(price, strongHigh, weakLow);
+    let choch=null;
+    const bearChochs=st.events.filter(e=>e.dir==='bear'&&e.tag==='CHoCH');
+    if(bearChochs.length){
+      const ev=bearChochs[bearChochs.length-1];
+      const bullAfter=st.events.some(e=>e.dir==='bull'&&e.idx>ev.idx);
+      if(st.internalTrend===-1 && !bullAfter && (n-1-ev.idx)<=maxBars && ev.level<strongHigh && weakLow<ev.level){
+        const entry=ev.level, eq=(strongHigh+weakLow)/2, cr=fibRetrShort(entry, strongHigh, weakLow);
+        let tp, tpSrc;
+        if(cr!=null && cr>0.618 && eq<entry){ tp=eq; tpSrc='EQ'; }
+        else { const wlGain=(entry-weakLow)/entry*100;
+          if(wlGain<OB_EXTEND_BELOW && ev.obTP!=null && ev.obTP<weakLow){ tp=ev.obTP; tpSrc='OB'; }
+          else { tp=weakLow; tpSrc='WL'; } }
+        const sl=slOpt3Short(entry, ev.internalHigh, strongHigh, slBuffer);
+        choch={setup:'ChoCh',status:'READY',entry,sl,evIdx:ev.idx,barsSince:n-1-ev.idx,tp,tpSrc,
+          slPct:(sl-entry)/entry*100, gainPct:(entry-tp)/entry*100};
+      }
+    }
+    if(!choch && st.internalTrend===1 && retr!=null && retr<WATCH_MAX_RETR){
+      choch={setup:'ChoCh',status:'WATCH',entry:null,sl:null,evIdx:null,barsSince:null,tp:weakLow,tpSrc:'WL',
+        slPct:null, gainPct:watchProjGainShort(strongHigh, weakLow)};
+    }
+    let bos=null;
+    const bearBos=st.events.filter(e=>e.dir==='bear'&&e.tag==='BOS');
+    if(bearBos.length){
+      const ev=bearBos[bearBos.length-1];
+      const bullAfter=st.events.some(e=>e.dir==='bull'&&e.idx>ev.idx);
+      if(st.internalTrend===-1 && !bullAfter && (n-1-ev.idx)<=maxBars && ev.level<strongHigh && weakLow<ev.level){
+        const entry=ev.level, useOB=(ev.obTP!=null && ev.obTP<weakLow), tp=useOB?ev.obTP:weakLow;
+        const sl=slOpt3Short(entry, ev.internalHigh, strongHigh, slBuffer);
+        bos={setup:'BoS',status:'READY',entry,sl,evIdx:ev.idx,barsSince:n-1-ev.idx,tp,tpSrc:useOB?'OB':'WL',
+          slPct:(sl-entry)/entry*100, gainPct:(entry-tp)/entry*100};
+      }
+    }
+    pick=pickSetup(choch, bos); dir='SHORT'; refStrong=strongHigh; refWeak=weakLow; retrOut=retr;
+  } else {
+    return null;
+  }
+
+  if(!pick) return null;
+  const sp=pick.slPct, gp=pick.gainPct;
+  const lev=maxSafeLeverage(sp, liqBuf, levCeil);
+  return { dir, setup:pick.setup, status:pick.status, entry:pick.entry, sl:pick.sl, tp:pick.tp, tpSrc:pick.tpSrc,
+    strongRef:refStrong, weakRef:refWeak, fibRetr: retrOut==null?null:Math.round(retrOut*1000)/1000,
+    slPct: sp==null?null:Math.round(sp*100)/100, gainPct: gp==null?null:Math.round(gp*100)/100,
+    rr:(sp==null||gp==null||sp===0)?null:Math.round(gp/sp*100)/100,
+    lev, barsSince:pick.barsSince, price };
+}
+
+/* ================= BACKTEST act-on-close (dua arah) ================= */
+function simulateTradeLong(c, sigIdx, entry, sl, tp, retestWindow){
+  const n=c.length;
+  if(!(entry>sl) || !(tp>entry)) return {filled:false, outcome:null, R:0};
+  const RR=(tp-entry)/(entry-sl);
+  let fill=-1;
+  for(let t=sigIdx+1; t<=Math.min(n-1, sigIdx+retestWindow); t++){
+    if(c[t].l<=entry){ fill=t; break; }
+    if(c[t].h>=tp) return {filled:false, outcome:null, R:0};
+  }
+  if(fill<0) return {filled:false, outcome:null, R:0};
+  for(let t=fill; t<n; t++){
+    if(c[t].l<=sl) return {filled:true, outcome:'loss', R:-1};
+    if(c[t].h>=tp) return {filled:true, outcome:'win', R:RR};
+  }
+  return {filled:true, outcome:'open', R:0};
+}
+function simulateTradeShort(c, sigIdx, entry, sl, tp, retestWindow){
+  const n=c.length;
+  if(!(sl>entry) || !(entry>tp)) return {filled:false, outcome:null, R:0};
+  const RR=(entry-tp)/(sl-entry);
+  let fill=-1;
+  for(let t=sigIdx+1; t<=Math.min(n-1, sigIdx+retestWindow); t++){
+    if(c[t].h>=entry){ fill=t; break; }
+    if(c[t].l<=tp) return {filled:false, outcome:null, R:0};
+  }
+  if(fill<0) return {filled:false, outcome:null, R:0};
+  for(let t=fill; t<n; t++){
+    if(c[t].h>=sl) return {filled:true, outcome:'loss', R:-1};
+    if(c[t].l<=tp) return {filled:true, outcome:'win', R:RR};
+  }
+  return {filled:true, outcome:'open', R:0};
+}
+function collectSignals(st, slBuffer, dir){
+  const sig={ChoCh:[],BoS:[]}, ev=st.events;
+  for(let i=0;i<ev.length;i++){ const e=ev[i];
+    if(dir==='LONG'){
+      if(e.dir!=='bull' || e.swingTrend!==1) continue;
+      if(e.tag==='CHoCH'){ const entry=e.level, eq=(e.strongLow+e.weakHigh)/2, cr=fibRetrLong(entry, e.strongLow, e.weakHigh);
+        let tp;
+        if(cr!=null && cr>0.618 && eq>entry){ tp=eq; }
+        else { const whGain=(e.weakHigh-entry)/entry*100; tp=(whGain<OB_EXTEND_BELOW && e.obTP!=null && e.obTP>e.weakHigh)? e.obTP : e.weakHigh; }
+        const sl=slOpt3Long(entry, e.internalLow, e.strongLow, slBuffer);
+        if(entry>sl && tp>entry) sig.ChoCh.push({idx:e.idx,entry,sl,tp}); }
+      else { const entry=e.level, useOB=(e.obTP!=null && e.obTP>e.weakHigh), tp=useOB?e.obTP:e.weakHigh;
+        const sl=slOpt3Long(entry, e.internalLow, e.strongLow, slBuffer);
+        if(entry>sl && tp>entry) sig.BoS.push({idx:e.idx,entry,sl,tp}); }
+    } else {
+      if(e.dir!=='bear' || e.swingTrend!==-1) continue;
+      if(e.tag==='CHoCH'){ const entry=e.level, eq=(e.weakHigh+e.strongLow)/2, cr=fibRetrShort(entry, e.weakHigh, e.strongLow);
+        let tp;
+        if(cr!=null && cr>0.618 && eq<entry){ tp=eq; }
+        else { const wlGain=(entry-e.strongLow)/entry*100; tp=(wlGain<OB_EXTEND_BELOW && e.obTP!=null && e.obTP<e.strongLow)? e.obTP : e.strongLow; }
+        const sl=slOpt3Short(entry, e.internalHigh, e.weakHigh, slBuffer);
+        if(sl>entry && entry>tp) sig.ChoCh.push({idx:e.idx,entry,sl,tp}); }
+      else { const entry=e.level, useOB=(e.obTP!=null && e.obTP<e.strongLow), tp=useOB?e.obTP:e.strongLow;
+        const sl=slOpt3Short(entry, e.internalHigh, e.weakHigh, slBuffer);
+        if(sl>entry && entry>tp) sig.BoS.push({idx:e.idx,entry,sl,tp}); }
+    }
+  }
+  return sig;
+}
+function backtestLux(c, swingLen, confluence, retestWindow, slBuffer, dir){
+  const sig=collectSignals(luxStructure(c, swingLen, confluence), slBuffer, dir);
+  const sim=dir==='LONG'?simulateTradeLong:simulateTradeShort;
+  const agg=list=>{ const m=list.length; if(!m) return {n:0,win:null,er:null};
+    const wins=list.filter(t=>t.win).length, er=list.reduce((s,t)=>s+t.R,0)/m;
+    return {n:m, win:Math.round(wins/m*1000)/10, er:Math.round(er*100)/100}; };
+  const out={};
+  for(const k of ['ChoCh','BoS']){
+    const trades=[]; let cand=0, noFill=0;
+    for(const s of sig[k]){ cand++; const r=sim(c, s.idx, s.entry, s.sl, s.tp, retestWindow);
+      if(!r.filled){ noFill++; continue; } if(r.outcome==='open') continue;
+      trades.push({R:r.R, win:r.outcome==='win'}); }
+    out[k]={ all:agg(trades), candidates:cand, fillRate: cand?Math.round((cand-noFill)/cand*1000)/10:null };
+  }
+  return out;
+}
+/* leverage MMR-aware (otoritas, sama bot & sizing calculator) */
+function levMMR(slPct){ if(slPct==null||slPct<=0)return null; const raw=Math.floor(1/((slPct/100)*1.5+0.005)); return Math.max(1,Math.min(25,raw)); }
+const BASES=["https://fapi.binance.com","https://fapi1.binance.com","https://fapi2.binance.com"];
+let AB=null;
+async function apiGet(path,params){ const qs=params?"?"+new URLSearchParams(params):""; const bases=(AB?[AB]:[]).concat(BASES.filter(b=>b!==AB)); let e;
+  for(const b of bases){ try{ const r=await fetch(b+path+qs); if(r.ok){AB=b;return r.json();} e="HTTP "+r.status; }catch(x){e=x.message;} } throw new Error("Gagal akses Binance perp ("+e+")"); }
+async function getKlines(sym,tf){ const raw=await apiGet("/fapi/v1/klines",{symbol:sym,interval:tf,limit:700});
+  if(raw.length&&raw[raw.length-1][6]>Date.now())raw.pop(); return raw.map(k=>({t:k[0],o:+k[1],h:+k[2],l:+k[3],c:+k[4],v:+k[5]})); }
+let TICKMAP=null;
+async function getTick(sym){ if(!TICKMAP){ const info=await apiGet("/fapi/v1/exchangeInfo"); TICKMAP={}; for(const s of info.symbols){ const f=(s.filters||[]).find(x=>x.filterType==="PRICE_FILTER"); if(f)TICKMAP[s.symbol]=f.tickSize; } } return TICKMAP[sym]||null; }
+function decs(x){ const s=""+x; const i=s.indexOf("."); return i<0?0:s.length-i-1; }
+function rndTick(x,tick,dir){ const q=x/tick; const r=dir==="up"?Math.ceil(q-1e-9):Math.floor(q+1e-9); return r*tick; }
+function g(x){ if(x==null)return"–"; const a=Math.abs(x); if(a>=1000)return x.toFixed(2); return parseFloat(x.toPrecision(6)).toString(); }
+let TF="15m";
+document.querySelectorAll("#tfsel button").forEach(b=>b.onclick=()=>{TF=b.dataset.tf;document.querySelectorAll("#tfsel button").forEach(x=>x.classList.remove("on"));b.classList.add("on");});
+function toast(t){const el=document.getElementById("toast");el.textContent=t;el.classList.add("show");setTimeout(()=>el.classList.remove("show"),1200);}
+async function copy(v){ try{ await navigator.clipboard.writeText(String(v)); toast(v+" tersalin"); }catch(e){ toast("gagal copy"); } }
+function render(sym,a,tickStr){
+  const card=document.getElementById("card"), err=document.getElementById("err");
+  if(!a){ card.style.display="none"; err.style.display="block"; err.textContent="Nggak ada setup SMC aktif di "+sym+" ("+TF.toUpperCase()+"). Coba TF lain."; return; }
+  err.style.display="none";
+  const st=a.status==="READY"?'<span class="tag t-ready">READY</span>':'<span class="tag t-watch">WATCH</span>';
+  let rows;
+  if(a.status==="READY"&&a.entry!=null){
+    // buletin ke tick size exchange: LONG → TP ke bawah, SL ke atas · SHORT → kebalikannya (biar bisa dipaste + konservatif)
+    const tick = tickStr ? parseFloat(tickStr) : Math.pow(10, -decs(a.entry));
+    const N = tickStr ? decs(parseFloat(tickStr)) : decs(a.entry);
+    const isL = a.dir==="LONG";
+    const E = Math.round(a.entry/tick)*tick;
+    const SL = rndTick(a.sl, tick, isL?"up":"down");
+    const TP = rndTick(a.tp, tick, isL?"down":"up");
+    const slPct=Math.abs(SL-E)/E*100, gainPct=Math.abs(TP-E)/E*100, rr=slPct>0?gainPct/slPct:null;
+    const lev=levMMR(slPct), liq=lev?(100/lev-0.5):null;
+    const fE=E.toFixed(N), fSL=SL.toFixed(N), fTP=TP.toFixed(N);
+    rows=`<div class="lvl entry" onclick="copy('${fE}')"><span class="k">Entry</span><span class="v">${fE} <span class="cp">tap copy</span></span></div>
+    <div class="lvl sl" onclick="copy('${fSL}')"><span class="k">Stop Loss</span><span class="v">${fSL} <span class="cp">tap copy</span></span></div>
+    <div class="lvl tp" onclick="copy('${fTP}')"><span class="k">Take Profit</span><span class="v">${fTP} <span class="cp">tap copy</span></span></div>
+    <div class="meta">
+      <div class="m"><div class="k">R : R</div><div class="v">${rr!=null?rr.toFixed(2):'–'}</div></div>
+      <div class="m"><div class="k">Risk (SL%)</div><div class="v" style="color:var(--red)">${slPct.toFixed(1)}%</div></div>
+      <div class="m"><div class="k">Target (Gain%)</div><div class="v" style="color:var(--green)">+${gainPct.toFixed(1)}%</div></div>
+      <div class="m lev"><div class="k">Lev aman</div><div class="v">${lev?lev+'×':'–'}${liq!=null?' <span style="font-size:12px;color:var(--faint)">liq -'+liq.toFixed(1)+'%</span>':''}</div></div>
+    </div>`;
+  } else {
+    rows=`<div style="padding:18px;font-size:14px;color:var(--txt2);line-height:1.65">Status <b>WATCH</b> — struktur ada tapi belum ada level entry fresh. Tunggu break (ChoCh/BoS) terkonfirmasi, atau cek TF lain.</div>`;
+  }
+  card.innerHTML=`<div class="top"><span class="sym">${sym}</span><span class="tag d-${a.dir}">${a.dir}</span>${st}<span style="margin-left:auto;font-size:12px;color:var(--muted)">${a.setup||''} · ${TF.toUpperCase()}</span></div>${rows}`;
+  card.style.display="block";
+}
+async function run(){
+  let sym=document.getElementById("sym").value.trim().toUpperCase().replace(/[^A-Z0-9]/g,"");
+  if(!sym){toast("ketik symbol dulu");return;}
+  if(!sym.endsWith("USDT"))sym+="USDT";
+  const go=document.getElementById("go"),status=document.getElementById("status"),err=document.getElementById("err");
+  go.disabled=true;go.textContent="Ngambil data…";status.textContent="Ambil candle perp "+sym+" ("+TF.toUpperCase()+")…";
+  document.getElementById("card").style.display="none";err.style.display="none";
+  try{
+    const [c,tickStr]=await Promise.all([getKlines(sym,TF), getTick(sym).catch(()=>null)]);
+    if(!c||c.length<220){ err.style.display="block"; err.textContent="Data "+sym+" kurang / symbol nggak ada di perp Binance."; status.textContent=""; }
+    else { const a=analyzeLux(c,50,25,true,0.5,LIQ_BUFFER_DEFAULT,LEV_CEILING_DEFAULT); render(sym,a,tickStr); status.textContent="Live perp "+sym+" · update "+new Date().toLocaleTimeString("id-ID"); }
+  }catch(e){ err.style.display="block"; err.textContent="⚠ "+e.message+". Kalau CORS, kabari."; status.textContent=""; }
+  finally{ go.disabled=false; go.textContent="Cek Level Perp"; }
+}
+document.getElementById("go").onclick=run;
+document.getElementById("sym").addEventListener("keydown",e=>{if(e.key==="Enter")run();});
+</script></body></html>
