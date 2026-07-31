@@ -1,7 +1,7 @@
 /* =====================================================================
    Crypto SMC FUTURES Scanner → Telegram  (ChoCh + BoS READY · LONG + SHORT · M15)
-   Fork dari scanner spot (scan.js) → Binance USDT-M Perpetual, dua arah.
-   Beda dari spot: (1) data fapi.binance.com; (2) TANPA filter halal (futures sengaja
+   Fork dari scanner spot (scan.js) → Bybit USDT Perpetual (linear), dua arah.
+   Beda dari spot: (1) data api.bybit.com v5 (linear); (2) TANPA filter halal (futures sengaja
    di luar filter, sesuai keputusan); (3) sisi SHORT ditambah (mirror penuh long);
    (4) tiap sinyal bawa REKOMENDASI LEVERAGE AMAN (MMR-aware, sama kayak sizing calculator).
    v1 = SINYAL-ONLY (track record menyusul di step berikutnya).
@@ -10,8 +10,8 @@
 const fs = require('fs');
 
 // ---------- KONFIG ----------
-const BASE        = 'https://fapi.binance.com';   // USDT-M Futures
-const TF          = '15m';
+const BASE        = 'https://api.bybit.com';      // Bybit v5 (linear perp)
+const TF          = '15';                          // Bybit interval buat M15 (menit)
 const TF_MS       = 15*60*1000;
 const LIMIT       = 700;
 const SWING_LEN   = 50;
@@ -43,7 +43,15 @@ async function apiGet(path, params){
   const qs = params ? '?' + new URLSearchParams(params).toString() : '';
   const r = await fetch(BASE + path + qs);
   if(!r.ok) throw new Error('HTTP ' + r.status + ' ' + path);
-  return r.json();
+  const j = await r.json();
+  if(j.retCode !== 0) throw new Error('Bybit retCode ' + j.retCode + ' (' + j.retMsg + ') ' + path);
+  return j.result;
+}
+// Bybit kline: newest-first → balik ke oldest-first + buang candle terakhir yg belum tutup (act-on-close)
+function parseKlines(list, tfMs, now){
+  const c = list.slice().reverse().map(k => ({t:+k[0], o:+k[1], h:+k[2], l:+k[3], c:+k[4]}));
+  if(c.length && c[c.length-1].t + tfMs > now) c.pop();
+  return c;
 }
 
 // ---------- ENGINE LUXALGO (dua arah — parity screener futures) ----------
@@ -219,10 +227,10 @@ async function notify(fresh, ready){
   const nL = fresh.filter(k => ready[k.split('::')[0]].dir==='LONG').length;
   const nS = fresh.length - nL;
   let msg = `▸ <b>${fresh.length} Sinyal Futures Ready baru</b> · <b>M15</b>\n`;
-  msg += `<i>LONG ${nL} · SHORT ${nS} · USDT-M Perp</i>\n\n`;
+  msg += `<i>LONG ${nL} · SHORT ${nS} · Bybit USDT Perp</i>\n\n`;
   for(const k of shown){ const s = k.split('::')[0], a = ready[s];
     const arrow = a.dir==='LONG' ? '▲ LONG' : '▼ SHORT';
-    const tvSym = `BINANCE:${s}.P`;
+    const tvSym = `BYBIT:${s}.P`;
     if(isExtended(a)){
       msg += `<b>${s}</b> · ${arrow} · ${a.setup} · <i>Extended</i>\n`;
       msg += `<i>• Struktur terkonfirmasi — harga sudah lewat TP. Buat watchlist, bukan entry.</i>\n`;
@@ -258,23 +266,28 @@ function pickFloor(gains){
 
 // ---------- MAIN ----------
 async function main(){
-  const info = await apiGet('/fapi/v1/exchangeInfo');
-  const valid = new Set();
-  for(const s of info.symbols){
-    if(s.quoteAsset !== 'USDT' || s.status !== 'TRADING' || s.contractType !== 'PERPETUAL') continue;
-    if(STABLE_BASES.has(s.baseAsset)) continue;
-    valid.add(s.symbol);
-  }
-  const tick = await apiGet('/fapi/v1/ticker/24hr');
-  const liquid = tick.filter(x => valid.has(x.symbol) && parseFloat(x.quoteVolume) >= MIN_VOL).map(x => x.symbol);
+  // universe: linear perp USDT status Trading (paginasi cursor kalau >1000)
+  const valid = new Set(); let cursor = null, guard = 0;
+  do{
+    const p = {category:'linear', limit:1000}; if(cursor) p.cursor = cursor;
+    const inst = await apiGet('/v5/market/instruments-info', p);
+    for(const s of inst.list){
+      if(s.contractType !== 'LinearPerpetual' || s.quoteCoin !== 'USDT' || s.status !== 'Trading') continue;
+      if(STABLE_BASES.has(s.baseCoin)) continue;
+      valid.add(s.symbol);
+    }
+    cursor = inst.nextPageCursor; guard++;
+  }while(cursor && guard < 6);
+
+  const tk = await apiGet('/v5/market/tickers', {category:'linear'});
+  const liquid = tk.list.filter(x => valid.has(x.symbol) && parseFloat(x.turnover24h) >= MIN_VOL).map(x => x.symbol);
 
   const ready = {}; let i = 0;
   async function worker(){
     while(i < liquid.length){ const sym = liquid[i++];
       try{
-        const raw = await apiGet('/fapi/v1/klines', {symbol: sym, interval: TF, limit: LIMIT});
-        if(raw.length && raw[raw.length-1][6] > Date.now()) raw.pop();   // ACT ON CLOSE
-        const c = raw.map(k => ({t:k[0], o:+k[1], h:+k[2], l:+k[3], c:+k[4]}));
+        const res = await apiGet('/v5/market/kline', {category:'linear', symbol: sym, interval: TF, limit: LIMIT});
+        const c = parseKlines(res.list, TF_MS, Date.now());   // reverse newest-first + drop forming candle
         const a = analyze(c);
         if(a && a.gainPct >= MIN_TP_FLOOR && a.rr >= MIN_RR && a.barsSince <= MAX_FRESH)
           ready[sym] = {...a, signalTime: c[c.length-1].t + TF_MS};
@@ -300,5 +313,5 @@ async function main(){
 }
 
 if(require.main === module){ main().catch(e => { console.error(e); process.exit(1); }); }
-module.exports = { analyze, luxStructure, computeLeg, maxSafeLeverage, liqInfo, pickFloor,
+module.exports = { analyze, luxStructure, computeLeg, maxSafeLeverage, liqInfo, pickFloor, parseKlines,
   MIN_TP, MIN_TP_FLOOR, MIN_RR, MAX_FRESH, LEV_CEILING, LIQ_BUFFER, MMR };
