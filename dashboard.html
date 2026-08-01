@@ -1,110 +1,371 @@
 <!DOCTYPE html>
-<html lang="id"><head>
+<html lang="id">
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SMS · Futures Track Record</title>
 <style>
-:root{--bg:#0a0b0d;--panel:#131519;--panel2:#181a1f;--border:#23262d;--border2:#2c2f38;--txt:#eceef2;--txt2:#b7bac2;--muted:#7c808a;--faint:#565a63;--green:#4ec49a;--red:#e57b6c;--gold:#d8c27a;--violet:#a99cec;--blue:#7f9bd8;}
-*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent;}
-html,body{background:var(--bg);}
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,sans-serif;color:var(--txt);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased;min-height:100vh;}
-.wrap{max-width:640px;margin:0 auto;padding:20px 16px 44px;}
-.num{font-variant-numeric:tabular-nums;}
-header{display:flex;align-items:center;gap:11px;margin-bottom:6px;}
-.mark{width:36px;height:36px;border-radius:10px;border:1.5px solid var(--border2);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:11px;background:linear-gradient(160deg,#1a1d22,#0f1114);flex:none;}
-header h1{font-size:17px;font-weight:650;letter-spacing:-.2px;line-height:1.1;}
-header .sub{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;}
-.bar{display:flex;align-items:center;gap:10px;margin:8px 0 18px;}
-.bar .upd{font-size:11.5px;color:var(--faint);}
-.bar button{margin-left:auto;background:var(--panel2);color:var(--txt2);border:1px solid var(--border);border-radius:9px;padding:8px 14px;font-size:12.5px;font-weight:600;cursor:pointer;}
-.bar button:active{background:var(--hover);}
-.hero{background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:20px;margin-bottom:14px;display:flex;align-items:center;gap:20px;flex-wrap:wrap;}
-.hero .big{font-size:44px;font-weight:750;font-variant-numeric:tabular-nums;line-height:1;}
-.hero .big.pos{color:var(--green);} .hero .big.neg{color:var(--red);} .hero .big.na{color:var(--faint);}
-.hero .side{display:flex;flex-direction:column;gap:9px;}
-.hero .side .row{display:flex;gap:8px;align-items:baseline;font-size:13px;}
-.hero .side .row .k{color:var(--muted);min-width:78px;}
-.hero .side .row .v{font-weight:650;font-variant-numeric:tabular-nums;}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-bottom:14px;}
-.cell{background:var(--panel);border:1px solid var(--border);border-radius:13px;padding:14px 16px;}
-.cell .k{font-size:11.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;}
-.cell .v{font-size:22px;font-weight:700;font-variant-numeric:tabular-nums;margin-top:4px;}
-.cell .s{font-size:11.5px;color:var(--faint);margin-top:2px;}
-.cell .v.pos{color:var(--green);} .cell .v.neg{color:var(--red);} .cell .v.na{color:var(--faint);}
-h2{font-size:12.5px;color:var(--txt2);text-transform:uppercase;letter-spacing:.6px;font-weight:650;margin:18px 0 10px;}
-.statusrow{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px;}
-.chip{font-size:12px;background:var(--panel);border:1px solid var(--border);border-radius:999px;padding:6px 12px;color:var(--txt2);}
-.chip b{color:var(--txt);font-variant-numeric:tabular-nums;}
-.twrap{background:var(--panel);border:1px solid var(--border);border-radius:14px;overflow:hidden;}
-.trow{display:flex;align-items:center;gap:9px;padding:12px 15px;border-bottom:1px solid #1c1e23;font-size:13px;}
-.trow:last-child{border-bottom:none;}
-.trow .sym{font-weight:650;min-width:74px;}
-.tag{display:inline-flex;align-items:center;padding:2px 8px;border-radius:999px;font-size:11px;font-weight:650;}
-.d-LONG{background:rgba(78,196,154,.16);color:#6fd4ac;} .d-SHORT{background:rgba(229,123,108,.16);color:#f0968a;}
-.st{margin-left:auto;font-size:11.5px;font-weight:650;padding:3px 9px;border-radius:999px;}
-.st-win{background:rgba(78,196,154,.16);color:#6fd4ac;} .st-loss{background:rgba(229,123,108,.16);color:#f0968a;}
-.st-open{background:rgba(127,155,216,.15);color:#a7c0ef;} .st-pending{background:rgba(216,194,122,.14);color:#e0c46f;}
-.st-void{background:rgba(124,128,138,.15);color:#9aa0ab;} .st-expired{background:rgba(124,128,138,.12);color:#7c808a;}
-.msg{text-align:center;color:var(--muted);font-size:13.5px;padding:30px 16px;line-height:1.6;}
-.disc{font-size:11.5px;color:var(--faint);text-align:center;margin-top:18px;line-height:1.6;}
-</style></head><body>
-<div class="wrap">
-<header><div class="mark">SMS</div><div><h1>Futures Track Record</h1><div class="sub">Binance perp · act-on-close</div></div></header>
-<div class="bar"><span class="upd" id="upd">memuat…</span><button id="reload">↻ Refresh</button></div>
-<div id="content"><div class="msg">Memuat data track record…</div></div>
-<div class="disc">Angka = ekspektasi mekanis dari rule sistem (act-on-close, retest-fill, same-bar=loss). Bukan hasil trading real, bukan nasihat keuangan. Sinyal WATCH/Extended tidak di-track.</div>
-</div>
-<script>
-const REPO="https://raw.githubusercontent.com/mumtaz-7/taz-screening-futures/main/";
-async function loadJSON(name){
-  for(const p of ["./"+name, REPO+name]){ try{ const r=await fetch(p,{cache:"no-store"}); if(r.ok) return await r.json(); }catch(e){} }
-  return null;
-}
-function pct(x){ return x==null?"–":x+"%"; }
-function rcls(x){ return x==null?"na":(x>0?"pos":(x<0?"neg":"")); }
-function fmtR(x){ return x==null?"":(x>=0?"+":"")+x+"R"; }
-function g(x){ if(x==null)return"–"; const a=Math.abs(x); if(a>=1000)return x.toFixed(2); return parseFloat((+x).toPrecision(6)).toString(); }
-function aggCell(k,a){ if(!a||a.n===0) return `<div class="cell"><div class="k">${k}</div><div class="v na">–</div><div class="s">belum ada</div></div>`;
-  return `<div class="cell"><div class="k">${k}</div><div class="v ${a.win>=50?'pos':'neg'}">${pct(a.win)}</div><div class="s">${a.n}× · ${fmtR(a.er)} · ${a.wins}W/${a.losses}L</div></div>`; }
-function statusName(s){ return {win:"WIN",loss:"LOSS",open:"OPEN",pending:"PENDING",void:"VOID",expired:"EXPIRED"}[s]||s; }
-async function render(){
-  document.getElementById("content").innerHTML=`<div class="msg">Memuat…</div>`;
-  const [stats,journal]=await Promise.all([loadJSON("stats.json"),loadJSON("journal.json")]);
-  const upd=document.getElementById("upd");
-  if(!stats && !journal){ document.getElementById("content").innerHTML=`<div class="msg">Belum bisa ambil data.<br>Pastikan dashboard di-host di GitHub Pages repo <b>taz-screening-futures</b>, dan bot udah jalan minimal sekali (bikin journal.json &amp; stats.json).</div>`; upd.textContent="—"; return; }
-  const a=(stats&&stats.all)||{n:0};
-  upd.textContent = stats&&stats.updatedAt ? "update "+new Date(stats.updatedAt).toLocaleString("id-ID") : "—";
-  let html="";
-  // hero
-  const winCls = a.n===0?"na":(a.win>=50?"pos":"neg");
-  html+=`<div class="hero"><div class="big ${winCls}">${a.n===0?"–":pct(a.win)}</div><div class="side">
-    <div class="row"><span class="k">Resolved</span><span class="v">${a.n||0} trade</span></div>
-    <div class="row"><span class="k">W / L</span><span class="v">${a.wins||0} / ${a.losses||0}</span></div>
-    <div class="row"><span class="k">Expectancy</span><span class="v ${rcls(a.er)}">${a.er==null?"–":fmtR(a.er)}</span></div>
-    <div class="row"><span class="k">Avg win</span><span class="v">${a.avgWin==null?"–":fmtR(a.avgWin)}</span></div>
-  </div></div>`;
-  // breakdown
-  if(stats){ html+=`<h2>Per Arah &amp; Setup</h2><div class="grid">
-    ${aggCell("LONG",stats.LONG)}${aggCell("SHORT",stats.SHORT)}${aggCell("ChoCh",stats.ChoCh)}${aggCell("BoS",stats.BoS)}</div>`;
-    html+=`<div class="statusrow">
-      <span class="chip">Open <b>${stats.open||0}</b></span>
-      <span class="chip">Pending <b>${stats.pending||0}</b></span>
-      <span class="chip">Void <b>${stats.void||0}</b></span>
-      <span class="chip">Expired <b>${stats.expired||0}</b></span>
-      <span class="chip">Total sinyal <b>${stats.totalSignals||0}</b></span></div>`;
+  :root{
+    --bg:#0a0b0d; --bg2:#0d0e11; --panel:#131519; --panel2:#181a1f; --hover:#1e2127;
+    --border:#23262d; --border2:#2c2f38;
+    --txt:#eceef2; --txt2:#b7bac2; --muted:#7c808a; --faint:#565a63;
+    --green:#4ec49a; --green-d:#2f8f6f; --red:#e57b6c; --red-d:#b0503f;
+    --blue:#7f9bd8; --gold:#d8c27a; --violet:#a99cec;
+    --card-shadow:0 1px 0 rgba(255,255,255,.02) inset, 0 10px 30px -12px rgba(0,0,0,.5);
   }
-  // trades
-  if(journal && journal.length){
-    const rows=[...journal].sort((x,y)=>(y.signalTime||0)-(x.signalTime||0)).slice(0,40);
-    html+=`<h2>Trade Terakhir (${Math.min(40,journal.length)}/${journal.length})</h2><div class="twrap">`;
-    for(const t of rows){
-      const rtxt = (t.status==="win"||t.status==="loss") ? `<span class="num">${fmtR(t.R)}</span>` : `<span class="num" style="color:var(--faint)">@${g(t.entry)}</span>`;
-      html+=`<div class="trow"><span class="sym">${t.symbol}</span><span class="tag d-${t.dir}">${t.dir}</span><span style="color:var(--muted);font-size:12px">${t.setup}</span>${rtxt}<span class="st st-${t.status}">${statusName(t.status)}</span></div>`;
-    }
-    html+=`</div>`;
-  } else if(journal){ html+=`<div class="msg">Belum ada trade tercatat. Bot lagi ngumpulin sinyal — track record keisi seiring sinyal muncul &amp; resolve.</div>`; }
-  document.getElementById("content").innerHTML=html;
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html,body{background:var(--bg);}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Helvetica,Arial,sans-serif;
+    color:var(--txt);font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased;
+    background:radial-gradient(1200px 600px at 80% -10%, #14161b 0%, var(--bg) 55%);
+    min-height:100vh;
+  }
+  .wrap{width:100%;padding:clamp(16px,2.4vw,34px);}
+  .num{font-variant-numeric:tabular-nums;}
+
+  header{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:22px;}
+  .brand{display:flex;align-items:center;gap:12px;min-width:0;}
+  .mark{width:38px;height:38px;border-radius:11px;border:1.5px solid var(--border2);
+    display:flex;align-items:center;justify-content:center;font-weight:800;font-size:12px;letter-spacing:.5px;
+    color:var(--txt);background:linear-gradient(160deg,#1a1d22,#0f1114);flex:none;}
+  .brand h1{font-size:clamp(16px,1.5vw,20px);font-weight:650;letter-spacing:-.3px;line-height:1.1;}
+  .brand .sub{font-size:11.5px;color:var(--muted);letter-spacing:.3px;text-transform:uppercase;}
+  .hgroup{margin-left:auto;display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
+  .stamp{font-size:11.5px;color:var(--muted);background:var(--panel);border:1px solid var(--border);
+    padding:7px 13px;border-radius:9px;display:flex;align-items:center;gap:7px;}
+  .stamp .live{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 0 3px rgba(78,196,154,.15);}
+  button.refresh{background:var(--panel);color:var(--txt2);border:1px solid var(--border);border-radius:9px;
+    padding:8px 15px;font-size:12.5px;font-weight:550;cursor:pointer;transition:.14s;display:flex;align-items:center;gap:7px;}
+  button.refresh:hover{border-color:var(--border2);color:var(--txt);background:var(--hover);}
+
+  .note{background:linear-gradient(90deg,rgba(216,194,122,.09),rgba(216,194,122,.03));
+    border:1px solid rgba(216,194,122,.22);border-radius:12px;padding:12px 16px;font-size:12.5px;
+    color:#e2cd94;margin-bottom:20px;display:flex;gap:10px;align-items:flex-start;}
+  .note svg{flex:none;margin-top:1px;}
+
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:13px;margin-bottom:22px;}
+  .kpi{background:var(--panel);border:1px solid var(--border);border-radius:15px;padding:16px 18px;
+    box-shadow:var(--card-shadow);position:relative;overflow:hidden;}
+  .kpi .lab{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.6px;
+    margin-bottom:9px;display:flex;align-items:center;gap:6px;}
+  .kpi .val{font-size:clamp(23px,2vw,29px);font-weight:720;letter-spacing:-.6px;line-height:1;}
+  .kpi .sub{font-size:11.5px;color:var(--muted);margin-top:7px;}
+  .pos{color:var(--green);} .neg{color:var(--red);} .neu{color:var(--txt2);}
+  .kpi .rail{position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--border2);}
+  .kpi.good .rail{background:var(--green);} .kpi.bad .rail{background:var(--red);} .kpi.info .rail{background:var(--blue);}
+
+  .grid2{display:grid;grid-template-columns:1.35fr 1fr;gap:18px;margin-bottom:20px;align-items:start;}
+  @media(max-width:900px){ .grid2{grid-template-columns:1fr;} }
+  .panel{background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:20px 22px;
+    box-shadow:var(--card-shadow);margin-bottom:20px;}
+  .panel .ph{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:16px;flex-wrap:wrap;}
+  .panel h2{font-size:12.5px;color:var(--txt2);text-transform:uppercase;letter-spacing:.7px;font-weight:650;}
+  .panel .ph .hint{font-size:11px;color:var(--faint);}
+
+  .setgrid{display:grid;grid-template-columns:1fr 1fr;gap:13px;}
+  @media(max-width:560px){ .setgrid{grid-template-columns:1fr;} }
+  .setbox{background:var(--panel2);border:1px solid var(--border);border-radius:13px;padding:15px 17px;}
+  .setbox .top{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;}
+  .setbox .mrow{display:grid;grid-template-columns:1fr 1fr;gap:9px 14px;}
+  .setbox .mi .k{font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;}
+  .setbox .mi .v{font-size:15px;font-weight:650;margin-top:1px;}
+  .tag{display:inline-flex;align-items:center;padding:3px 10px;border-radius:999px;font-size:11px;font-weight:650;letter-spacing:.2px;}
+  .t-ChoCh{background:rgba(127,155,216,.15);color:#a7c0ef;}
+  .t-BoS{background:rgba(78,196,154,.15);color:#6fd4ac;}
+  .d-LONG{background:rgba(78,196,154,.16);color:#6fd4ac;} .d-SHORT{background:rgba(229,123,108,.16);color:#f0968a;}
+  .t-win{background:rgba(78,196,154,.16);color:#6fd4ac;} .t-loss{background:rgba(229,123,108,.16);color:#f0968a;}
+  .t-open{background:rgba(127,155,216,.15);color:#a7c0ef;} .t-pending{background:rgba(124,128,138,.16);color:#b7bac2;}
+  .t-void,.t-expired{background:rgba(124,128,138,.1);color:#7c808a;}
+
+  #equity svg{width:100%;height:auto;display:block;}
+  .empty{text-align:center;color:var(--muted);padding:38px 0;font-size:13px;}
+
+  .qbar{height:11px;border-radius:6px;background:var(--panel2);overflow:hidden;display:flex;border:1px solid var(--border);}
+  .qbar i{display:block;height:100%;}
+  .qlegend{display:flex;gap:16px;flex-wrap:wrap;margin-top:13px;font-size:12px;color:var(--txt2);}
+  .qlegend b{color:var(--txt);}
+  .qdot{width:9px;height:9px;border-radius:3px;display:inline-block;margin-right:6px;vertical-align:0px;}
+  .qgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px;margin-top:16px;}
+  .qcell{background:var(--panel2);border:1px solid var(--border);border-radius:11px;padding:12px 14px;}
+  .qcell .k{font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;}
+  .qcell .v{font-size:19px;font-weight:680;margin-top:3px;}
+
+  .filters{display:flex;gap:9px;flex-wrap:wrap;}
+  select{background:var(--panel2);border:1px solid var(--border);color:var(--txt2);border-radius:9px;
+    padding:7px 11px;font-size:12.5px;cursor:pointer;}
+  .tscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:10px;}
+  table{width:100%;border-collapse:separate;border-spacing:0;font-size:13px;min-width:900px;}
+  th,td{padding:10px 13px;text-align:left;white-space:nowrap;border-bottom:1px solid #1c1e23;}
+  thead th{position:sticky;top:0;background:var(--panel);color:var(--faint);font-weight:600;font-size:10.5px;
+    text-transform:uppercase;letter-spacing:.6px;z-index:1;}
+  tbody tr:hover{background:var(--hover);}
+  td.n{font-variant-numeric:tabular-nums;color:var(--txt2);}
+  td .pc{font-size:11px;color:var(--muted);}
+  .lev{font-weight:650;color:var(--gold);font-variant-numeric:tabular-nums;}
+  a{color:var(--violet);text-decoration:none;} a:hover{text-decoration:underline;}
+  .badge-src{font-size:9.5px;padding:1px 5px;border-radius:5px;margin-left:4px;vertical-align:1px;}
+  .b-OB{background:rgba(169,156,236,.16);color:#c3bce8;} .b-EQ{background:rgba(127,155,216,.16);color:#a7c0ef;}
+
+  .disc{border:1px solid var(--border);background:var(--panel);border-radius:13px;padding:14px 18px;
+    font-size:12px;color:var(--txt2);line-height:1.65;margin-top:4px;}
+  .disc b{color:var(--txt);}
+  footer{text-align:center;color:var(--faint);font-size:11px;margin-top:22px;letter-spacing:.3px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand">
+      <div class="mark">SMS</div>
+      <div>
+        <h1>Smart Money Society</h1>
+        <div class="sub">Track Record · Futures · LONG + SHORT</div>
+      </div>
+    </div>
+    <div class="hgroup">
+      <div class="stamp"><span class="live"></span><span id="updated">memuat…</span></div>
+      <button class="refresh" id="refreshBtn">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M23 4v6h-6M1 20v-6h6"/><path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/></svg>
+        Refresh
+      </button>
+    </div>
+  </header>
+
+  <div id="warn"></div>
+
+  <section class="kpis" id="kpis"></section>
+
+  <div class="grid2">
+    <div class="panel">
+      <div class="ph"><h2>Kurva Ekuitas</h2><span class="hint">kumulatif R · urut waktu resolve</span></div>
+      <div id="equity"></div>
+    </div>
+    <div class="panel">
+      <div class="ph"><h2>Per Setup &amp; Arah</h2></div>
+      <div class="setgrid" id="setups"></div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="ph"><h2>Kualitas Sinyal</h2><span class="hint">berapa sinyal yang benar-benar bisa dieksekusi</span></div>
+    <div id="quality"></div>
+  </div>
+
+  <div class="panel">
+    <div class="ph">
+      <h2>Riwayat Trade</h2>
+      <div class="filters">
+        <select id="fStatus"><option value="all">Semua status</option><option>win</option><option>loss</option><option>open</option><option>pending</option><option>void</option><option>expired</option></select>
+        <select id="fDir"><option value="all">Semua arah</option><option>LONG</option><option>SHORT</option></select>
+        <select id="fSetup"><option value="all">Semua setup</option><option>ChoCh</option><option>BoS</option></select>
+      </div>
+    </div>
+    <div class="tscroll">
+      <table><thead><tr>
+        <th>Waktu</th><th>Simbol</th><th>Arah</th><th>Setup</th><th>Entry</th><th>SL</th><th>TP</th><th>R:R</th><th>Lev</th><th>Status</th><th>Hasil</th>
+      </tr></thead><tbody id="tbody"></tbody></table>
+    </div>
+  </div>
+
+  <div class="disc">
+    Dashboard ini mengukur <b>performa sistem secara mekanis</b> — asumsi entry limit tepat di level, keluar di TP/SL, resolusi candle M15, dan skenario same-bar SL+TP dihitung sebagai kalah (konservatif). <b>Angka ini bukan cerminan hasil trading riil Anda</b>, melainkan ekspektasi statistik dari rule sistem. Semua metrik dinormalisasi dalam <b>R</b> (kelipatan risiko). Kolom <b>Lev</b> = plafon leverage aman terhadap SL (bukan anjuran pakai penuh); struktur dihitung dari data spot Binance, dieksekusi di perp (basis ≈ 0). <b>Bukan nasihat keuangan · Do Your Own Research.</b>
+  </div>
+
+  <footer>Smart Money Society — Futures · data live dari repositori sistem · diperbarui otomatis tiap ~15 menit</footer>
+</div>
+
+<script>
+const REPO="mumtaz-7/taz-screening-futures";
+const RAW=p=>`https://raw.githubusercontent.com/${REPO}/main/${p}?t=${Date.now()}`;
+let JOURNAL=[], STATS=null;
+
+const g=x=>{ if(x==null||isNaN(x))return"–"; const a=Math.abs(x); if(a>=1000)return(+x).toFixed(2); return parseFloat((+x).toPrecision(6)).toString(); };
+const rTxt=x=>x==null?"–":(x>=0?"+":"")+(+x).toFixed(2)+"R";
+const pTxt=x=>x==null?"":(x>=0?"+":"")+(+x).toFixed(1)+"%";
+
+async function load(){
+  document.getElementById("updated").textContent="memuat…";
+  try{
+    const [s,j]=await Promise.all([
+      fetch(RAW("stats.json")).then(r=>r.json()),
+      fetch(RAW("journal.json")).then(r=>r.json())
+    ]);
+    STATS=s; JOURNAL=Array.isArray(j)?j:[];
+  }catch(e){ document.getElementById("updated").textContent="gagal ambil data"; return; }
+  render();
 }
-document.getElementById("reload").onclick=render;
-render();
-</script></body></html>
+
+function metrics(list){
+  const done=list.filter(t=>t.status==='win'||t.status==='loss');
+  const wins=done.filter(t=>t.status==='win'), losses=done.filter(t=>t.status==='loss');
+  const n=done.length;
+  const sumR=done.reduce((a,t)=>a+(t.R||0),0);
+  const grossWin=wins.reduce((a,t)=>a+(t.R||0),0);
+  const grossLoss=Math.abs(losses.reduce((a,t)=>a+(t.R||0),0));
+  return {
+    n, wins:wins.length, losses:losses.length,
+    win: n? Math.round(wins.length/n*1000)/10 : null,
+    er: n? sumR/n : null,
+    pf: grossLoss>0 ? grossWin/grossLoss : (grossWin>0?Infinity:null),
+    avgWin: wins.length? grossWin/wins.length : null,
+    avgLoss: losses.length? losses.reduce((a,t)=>a+(t.R||0),0)/losses.length : null,
+    grossWin, grossLoss
+  };
+}
+
+function drawdown(list){
+  const seq=list.filter(t=>t.status==='win'||t.status==='loss')
+    .slice().sort((a,b)=>(a.resolvedTime||0)-(b.resolvedTime||0));
+  let cum=0,peak=0,maxDD=0;
+  for(const t of seq){ cum+=(t.R||0); if(cum>peak)peak=cum; const dd=peak-cum; if(dd>maxDD)maxDD=dd; }
+  return maxDD;
+}
+
+function render(){
+  const s=STATS||{};
+  document.getElementById("updated").textContent = s.updatedAt ? ("Update "+new Date(s.updatedAt).toLocaleString("id-ID",{day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit"})) : "belum ada data";
+
+  const m=metrics(JOURNAL);
+  const maxDD=drawdown(JOURNAL);
+  const open=s.open||0, pending=s.pending||0, active=open+pending;
+
+  const pfTxt = m.pf==null?"–":(m.pf===Infinity?"∞":m.pf.toFixed(2));
+  const pfCls = m.pf==null?"neu":(m.pf>=1.5?"pos":(m.pf>=1?"neu":"neg"));
+  const erCls = m.er==null?"neu":(m.er>=0?"pos":"neg");
+
+  const kpi=(cls,rail,lab,val,valCls,sub)=>`
+    <div class="kpi ${rail}"><span class="rail"></span>
+      <div class="lab">${lab}</div>
+      <div class="val ${valCls||''}">${val}</div>
+      <div class="sub">${sub||''}</div>
+    </div>`;
+
+  document.getElementById("kpis").innerHTML =
+    kpi("","","Total Trade", m.n, "", `${m.wins} menang · ${m.losses} kalah`) +
+    kpi("","","Win Rate", m.win==null?"–":m.win+"%", "", `dari ${m.n} trade selesai`) +
+    kpi("", m.er>=0?"good":"bad","Expectancy", m.er==null?"–":rTxt(m.er), erCls, "rata-rata per trade") +
+    kpi("", m.pf!=null&&m.pf>=1.5?"good":(m.pf!=null&&m.pf<1?"bad":""),"Profit Factor", pfTxt, pfCls, "untung ÷ rugi (≥1.5 sehat)") +
+    kpi("","bad","Max Drawdown", m.n? "-"+maxDD.toFixed(2)+"R":"–", "neg", "jurang terdalam ekuitas") +
+    kpi("","","Avg Win", m.avgWin==null?"–":rTxt(m.avgWin), "pos", "rata-rata trade menang") +
+    kpi("","","Avg Loss", m.avgLoss==null?"–":rTxt(m.avgLoss), "neg", "risiko seragam per trade") +
+    kpi("","info","Posisi Aktif", active, "", `${open} jalan · ${pending} nunggu retest`);
+
+  const w=document.getElementById("warn");
+  if(m.n<30) w.innerHTML=`<div class="note">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01"/><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/></svg>
+    <span>Sampel baru <b>${m.n} trade selesai</b> — masih di bawah ambang statistik (30–50). Angka belum representatif; hindari kesimpulan dini.</span></div>`;
+  else w.innerHTML="";
+
+  const setbox=(nm,d,cls)=>{
+    if(!d||!d.n) return `<div class="setbox"><div class="top"><span class="tag ${cls}">${nm}</span></div><div class="empty" style="padding:14px 0">belum ada trade selesai</div></div>`;
+    const pf=d.pf==null?"–":(d.pf===Infinity?"∞":d.pf.toFixed(2));
+    return `<div class="setbox">
+      <div class="top"><span class="tag ${cls}">${nm}</span><span class="num" style="font-size:12px;color:var(--muted)">${d.n} trade</span></div>
+      <div class="mrow">
+        <div class="mi"><div class="k">Win Rate</div><div class="v">${d.win}%</div></div>
+        <div class="mi"><div class="k">Expectancy</div><div class="v ${d.er>=0?'pos':'neg'}">${rTxt(d.er)}</div></div>
+        <div class="mi"><div class="k">Profit Factor</div><div class="v">${pf}</div></div>
+        <div class="mi"><div class="k">Avg Win</div><div class="v pos">${d.avgWin==null?'–':rTxt(d.avgWin)}</div></div>
+      </div></div>`;
+  };
+  document.getElementById("setups").innerHTML =
+    setbox("ChoCh", metrics(JOURNAL.filter(t=>t.setup==='ChoCh')), "t-ChoCh") +
+    setbox("BoS", metrics(JOURNAL.filter(t=>t.setup==='BoS')), "t-BoS") +
+    setbox("LONG", metrics(JOURNAL.filter(t=>t.dir==='LONG')), "d-LONG") +
+    setbox("SHORT", metrics(JOURNAL.filter(t=>t.dir==='SHORT')), "d-SHORT");
+
+  drawEquity();
+  drawQuality(s);
+  drawTable();
+}
+
+function drawEquity(){
+  const done=JOURNAL.filter(t=>t.status==='win'||t.status==='loss').sort((x,y)=>(x.resolvedTime||0)-(y.resolvedTime||0));
+  const el=document.getElementById("equity");
+  if(done.length<2){ el.innerHTML='<div class="empty">Kurva muncul setelah ≥2 trade selesai.</div>'; return; }
+  let cum=0; const pts=[0]; done.forEach(t=>{ cum+=(t.R||0); pts.push(cum); });
+  const W=1000,H=280,pad=34;
+  const mn=Math.min(0,...pts), mx=Math.max(0,...pts), rng=(mx-mn)||1;
+  const X=i=>pad+(i/(pts.length-1))*(W-2*pad);
+  const Y=r=>H-pad-((r-mn)/rng)*(H-2*pad);
+  const line=pts.map((r,i)=>`${X(i).toFixed(1)},${Y(r).toFixed(1)}`).join(" ");
+  const area=`${X(0).toFixed(1)},${Y(mn).toFixed(1)} `+line+` ${X(pts.length-1).toFixed(1)},${Y(mn).toFixed(1)}`;
+  const last=cum, col=last>=0?"var(--green)":"var(--red)";
+  const fillCol=last>=0?"rgba(78,196,154,.10)":"rgba(229,123,108,.10)";
+  const zy=Y(0).toFixed(1);
+  el.innerHTML=`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" style="max-height:280px">
+    <defs><linearGradient id="eg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${fillCol}"/><stop offset="1" stop-color="rgba(0,0,0,0)"/></linearGradient></defs>
+    <polygon points="${area}" fill="url(#eg)"/>
+    <line x1="${pad}" y1="${zy}" x2="${W-pad}" y2="${zy}" stroke="#31343c" stroke-width="1" stroke-dasharray="3 6"/>
+    <polyline points="${line}" fill="none" stroke="${col}" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="${X(pts.length-1)}" cy="${Y(last)}" r="4.5" fill="${col}"/>
+    <text x="${W-pad}" y="${Y(last)-11}" text-anchor="end" fill="${col}" style="font-weight:700;font-size:14px">${(last>=0?'+':'')+last.toFixed(2)}R</text>
+    <text x="${pad}" y="${H-10}" fill="var(--faint)" style="font-size:11px">${done.length} trade selesai</text>
+  </svg>`;
+}
+
+function drawQuality(s){
+  const total=s.totalSignals||0;
+  const voidN=s.void||0, pending=s.pending||0, expired=s.expired||0;
+  const filled=Math.max(0,(s.open||0)+ (JOURNAL.filter(t=>t.status==='win'||t.status==='loss').length) + expired);
+  const settled=filled+voidN;
+  const fillRate= settled>0 ? Math.round(filled/settled*1000)/10 : null;
+  const seg=(v,c)=> total>0? `<i style="width:${(v/total*100).toFixed(2)}%;background:${c}"></i>`:'';
+  const el=document.getElementById("quality");
+  if(!total){ el.innerHTML='<div class="empty">Belum ada sinyal tercatat.</div>'; return; }
+  el.innerHTML=`
+    <div class="qbar">
+      ${seg(filled,'var(--green-d)')}${seg(pending,'#4a4e58')}${seg(voidN,'var(--red-d)')}${seg(expired,'#3a3d45')}
+    </div>
+    <div class="qlegend">
+      <span><span class="qdot" style="background:var(--green-d)"></span>Kefill <b>${filled}</b></span>
+      <span><span class="qdot" style="background:#4a4e58"></span>Nunggu retest <b>${pending}</b></span>
+      <span><span class="qdot" style="background:var(--red-d)"></span>Void <b>${voidN}</b></span>
+      <span><span class="qdot" style="background:#3a3d45"></span>Expired <b>${expired}</b></span>
+    </div>
+    <div class="qgrid">
+      <div class="qcell"><div class="k">Total Sinyal</div><div class="v">${total}</div></div>
+      <div class="qcell"><div class="k">Fill Rate</div><div class="v ${fillRate!=null&&fillRate>=50?'pos':''}">${fillRate==null?'–':fillRate+'%'}</div></div>
+      <div class="qcell"><div class="k">Void Rate</div><div class="v ${settled&&voidN/settled>0.5?'neg':''}">${settled?Math.round(voidN/settled*1000)/10+'%':'–'}</div></div>
+      <div class="qcell"><div class="k">Belum Kelar</div><div class="v neu">${pending}</div></div>
+    </div>`;
+}
+
+function drawTable(){
+  const fs=document.getElementById("fStatus").value, fd=document.getElementById("fDir").value, fse=document.getElementById("fSetup").value;
+  const rows=JOURNAL.filter(t=>(fs==="all"||t.status===fs)&&(fd==="all"||t.dir===fd)&&(fse==="all"||t.setup===fse))
+    .sort((x,y)=>(y.signalTime||0)-(x.signalTime||0));
+  const tb=document.getElementById("tbody");
+  if(!rows.length){ tb.innerHTML='<tr><td colspan="11" class="empty">Belum ada trade.</td></tr>'; return; }
+  tb.innerHTML=rows.map(t=>{
+    const tv=`https://www.tradingview.com/chart/?symbol=BINANCE:${t.symbol}.P`;
+    const src=t.tpSrc==='OB'?'<span class="badge-src b-OB">OB</span>':t.tpSrc==='EQ'?'<span class="badge-src b-EQ">EQ</span>':'';
+    let hasil='<span class="n" style="color:var(--faint)">–</span>';
+    if(t.status==='win') hasil=`<span class="pos" style="font-weight:650">${rTxt(t.R)}</span> <span class="pc pos">${pTxt(t.gainPct)}</span>`;
+    else if(t.status==='loss') hasil=`<span class="neg" style="font-weight:650">${rTxt(t.R)}</span> <span class="pc neg">${pTxt(t.slPct!=null?-t.slPct:null)}</span>`;
+    return `<tr>
+      <td class="n">${t.signalTime?new Date(t.signalTime).toLocaleString("id-ID",{day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit"}):"–"}</td>
+      <td><a href="${tv}" target="_blank" rel="noopener">${t.symbol}</a></td>
+      <td><span class="tag d-${t.dir}">${t.dir||'–'}</span></td>
+      <td><span class="tag t-${t.setup}">${t.setup}</span></td>
+      <td class="n">${g(t.entry)}</td>
+      <td class="n">${g(t.sl)} <span class="pc neg">${t.slPct!=null?'-'+(+t.slPct).toFixed(1)+'%':''}</span></td>
+      <td class="n">${g(t.tp)}${src} <span class="pc pos">${t.gainPct!=null?'+'+(+t.gainPct).toFixed(1)+'%':''}</span></td>
+      <td class="n">${t.rr!=null?t.rr:"–"}</td>
+      <td class="lev">${t.lev?t.lev+'×':'–'}</td>
+      <td><span class="tag t-${t.status}">${t.status}</span></td>
+      <td class="n">${hasil}</td>
+    </tr>`;
+  }).join("");
+}
+
+document.getElementById("refreshBtn").addEventListener("click",load);
+document.getElementById("fStatus").addEventListener("change",drawTable);
+document.getElementById("fDir").addEventListener("change",drawTable);
+document.getElementById("fSetup").addEventListener("change",drawTable);
+load();
+</script>
+</body>
+</html>
