@@ -2,8 +2,7 @@
   "ready": [
     "DRAMBUSDT::LONG::ChoCh",
     "MUBUSDT::LONG::BoS",
-    "SNXXBUSDT::LONG::BoS",
-    "SYNUSDT::SHORT::ChoCh"
+    "SNXXBUSDT::LONG::BoS"
   ],
-  "at": "2026-08-01T09:00:40.980Z"
+  "at": "2026-08-01T09:15:30.705Z"
 }
