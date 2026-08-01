@@ -1,1 +1,38 @@
-{}
+{
+  "updatedAt": "2026-08-01T09:44:53.394Z",
+  "all": {
+    "n": 0,
+    "win": null,
+    "er": null,
+    "avgWin": null
+  },
+  "LONG": {
+    "n": 0,
+    "win": null,
+    "er": null,
+    "avgWin": null
+  },
+  "SHORT": {
+    "n": 0,
+    "win": null,
+    "er": null,
+    "avgWin": null
+  },
+  "ChoCh": {
+    "n": 0,
+    "win": null,
+    "er": null,
+    "avgWin": null
+  },
+  "BoS": {
+    "n": 0,
+    "win": null,
+    "er": null,
+    "avgWin": null
+  },
+  "open": 0,
+  "pending": 0,
+  "void": 0,
+  "expired": 0,
+  "totalSignals": 0
+}
