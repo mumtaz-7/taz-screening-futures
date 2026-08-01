@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMS · Futures Sizing Calculator</title>
+<style>
+  :root{
+    --bg:#0a0b0d; --panel:#131519; --panel2:#181a1f; --hover:#1e2127;
+    --border:#23262d; --border2:#2c2f38;
+    --txt:#eceef2; --txt2:#b7bac2; --muted:#7c808a; --faint:#565a63;
+    --green:#4ec49a; --red:#e57b6c; --gold:#d8c27a; --violet:#a99cec; --blue:#7f9bd8;
+    --card-shadow:0 1px 0 rgba(255,255,255,.02) inset, 0 10px 30px -12px rgba(0,0,0,.5);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html,body{background:var(--bg);}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Helvetica,Arial,sans-serif;
+    color:var(--txt);font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased;
+    background:radial-gradient(1000px 500px at 85% -10%, #14161b 0%, var(--bg) 55%);min-height:100vh;}
+  .wrap{width:100%;max-width:900px;margin:0 auto;padding:clamp(14px,2.4vw,30px);}
+  .num{font-variant-numeric:tabular-nums;}
+  header{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:18px;}
+  .mark{width:38px;height:38px;border-radius:11px;border:1.5px solid var(--border2);display:flex;align-items:center;
+    justify-content:center;font-weight:800;font-size:12px;color:var(--txt);background:linear-gradient(160deg,#1a1d22,#0f1114);}
+  header h1{font-size:clamp(16px,1.6vw,20px);font-weight:650;letter-spacing:-.3px;line-height:1.1;}
+  header .sub{font-size:11.5px;color:var(--muted);letter-spacing:.3px;text-transform:uppercase;}
+  .panel{background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:clamp(15px,2vw,22px);
+    box-shadow:var(--card-shadow);margin-bottom:16px;}
+  .panel h2{font-size:12px;color:var(--txt2);text-transform:uppercase;letter-spacing:.7px;font-weight:650;margin-bottom:14px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:13px;}
+  .field{display:flex;flex-direction:column;gap:6px;min-width:0;}
+  .field label{font-size:11px;color:var(--muted);}
+  .field input,.field select{width:100%;background:var(--panel2);border:1px solid var(--border);color:var(--txt);
+    border-radius:10px;padding:11px 12px;font-size:15px;transition:border-color .15s, box-shadow .15s;}
+  .field input:focus,.field select:focus{outline:none;border-color:var(--border2);box-shadow:0 0 0 3px rgba(169,156,236,.14);}
+  .field select{appearance:none;cursor:pointer;}
+  .seg{display:flex;gap:0;border:1px solid var(--border);border-radius:10px;overflow:hidden;}
+  .seg button{flex:1;background:var(--panel2);color:var(--txt2);border:none;padding:11px 8px;font-size:13px;font-weight:650;cursor:pointer;transition:.14s;}
+  .seg button.on.long{background:rgba(78,196,154,.18);color:#7fe0bb;}
+  .seg button.on.short{background:rgba(229,123,108,.18);color:#f0968a;}
+  .seg button.on.gen{background:rgba(169,156,236,.18);color:#c9c0f0;}
+  details.adv{margin-top:14px;}
+  details.adv summary{cursor:pointer;color:var(--txt2);font-size:11.5px;font-weight:650;list-style:none;text-transform:uppercase;letter-spacing:.5px;}
+  details.adv summary::-webkit-details-marker{display:none;}
+  details.adv summary::before{content:"›";display:inline-block;margin-right:7px;transition:transform .2s;color:var(--violet);}
+  details.adv[open] summary::before{transform:rotate(90deg);}
+  details.adv .grid{margin-top:12px;}
+
+  .verdict{border-radius:14px;padding:16px 18px;margin-bottom:16px;display:flex;align-items:flex-start;gap:13px;}
+  .verdict .ic{font-size:22px;line-height:1;flex:none;margin-top:1px;}
+  .verdict .vt{font-size:15px;font-weight:750;margin-bottom:3px;}
+  .verdict .vs{font-size:12.5px;line-height:1.55;}
+  .verdict.ok{background:rgba(78,196,154,.09);border:1px solid rgba(78,196,154,.32);color:#bfe9d7;}
+  .verdict.ok .vt{color:#7fe0bb;}
+  .verdict.danger{background:rgba(229,123,108,.1);border:1px solid rgba(229,123,108,.4);color:#f3c2b9;}
+  .verdict.danger .vt{color:#f0968a;}
+  .verdict.idle{background:var(--panel2);border:1px solid var(--border);color:var(--muted);}
+
+  .out{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--border);border:1px solid var(--border);border-radius:14px;overflow:hidden;}
+  .cell{background:var(--panel);padding:14px 15px;}
+  .cell .k{font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;margin-bottom:5px;}
+  .cell .v{font-size:19px;font-weight:700;font-variant-numeric:tabular-nums;color:var(--txt);line-height:1.15;}
+  .cell .v small{font-size:12px;color:var(--muted);font-weight:600;}
+  .cell.hl .v{color:var(--gold);}
+  .cell.risk .v{color:var(--red);}
+  .cell.prof .v{color:var(--green);}
+  .cell .sub2{font-size:11px;color:var(--faint);margin-top:3px;}
+
+  .warns{margin-top:14px;display:flex;flex-direction:column;gap:8px;}
+  .warn{font-size:12px;line-height:1.5;padding:10px 13px;border-radius:10px;background:rgba(216,194,122,.08);border:1px solid rgba(216,194,122,.28);color:#e6d29a;}
+  .warn.hard{background:rgba(229,123,108,.09);border-color:rgba(229,123,108,.34);color:#f0b5ab;}
+  .warn b{color:#fff;}
+  .principle{font-size:12px;color:var(--txt2);line-height:1.65;background:rgba(127,155,216,.06);border:1px solid rgba(127,155,216,.2);border-radius:12px;padding:13px 15px;margin-top:14px;}
+  .principle b{color:var(--blue);}
+  .disc{border:1px solid var(--border);background:var(--panel);border-radius:13px;padding:13px 16px;font-size:11.5px;color:var(--txt2);line-height:1.6;margin-top:4px;}
+  .disc b{color:var(--txt);}
+  footer{text-align:center;color:var(--faint);font-size:11px;margin-top:18px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="mark">SMS</div>
+    <div>
+      <h1>Futures Sizing Calculator</h1>
+      <div class="sub">Position size · leverage aman · likuidasi</div>
+    </div>
+  </header>
+
+  <div class="panel">
+    <h2>Input Trade</h2>
+    <div class="grid">
+      <div class="field"><label>Capital Futures (USDT)</label><input id="capital" type="number" value="1000" min="0" step="10" inputmode="decimal"></div>
+      <div class="field"><label>Risk per Trade (%)</label><input id="riskPct" type="number" value="3" min="0" max="100" step="0.1" inputmode="decimal"></div>
+      <div class="field"><label>Arah</label>
+        <div class="seg" id="dirSeg">
+          <button type="button" data-dir="LONG" class="on long">LONG</button>
+          <button type="button" data-dir="SHORT">SHORT</button>
+        </div></div>
+      <div class="field"><label>Entry Price</label><input id="entry" type="number" value="100" min="0" step="any" inputmode="decimal"></div>
+      <div class="field"><label>Stop Loss Price</label><input id="slPrice" type="number" value="96" min="0" step="any" inputmode="decimal"></div>
+      <div class="field"><label>atau SL % (opsional)</label><input id="slPct" type="number" placeholder="mis. 4" min="0" step="0.01" inputmode="decimal"></div>
+      <div class="field"><label>Take Profit Price (opsional)</label><input id="tpPrice" type="number" placeholder="mis. 110" min="0" step="any" inputmode="decimal"></div>
+      <div class="field"><label>Mode Leverage</label>
+        <select id="levMode"><option value="auto" selected>Auto (dari SL)</option><option value="manual">Manual</option></select></div>
+      <div class="field" id="levManualWrap" style="display:none;"><label>Leverage Manual (×)</label><input id="levManual" type="number" value="3" min="1" max="125" step="1" inputmode="decimal"></div>
+    </div>
+    <details class="adv">
+      <summary>Pengaturan Lanjutan</summary>
+      <div class="grid">
+        <div class="field"><label>Leverage Backstop (×)</label><input id="ceiling" type="number" value="25" min="1" max="125" step="1" inputmode="decimal"></div>
+        <div class="field"><label>Liq Buffer (×)</label><input id="buffer" type="number" value="1.5" min="1" max="5" step="0.1" inputmode="decimal"></div>
+        <div class="field"><label>Maint. Margin Rate (%)</label><input id="mmr" type="number" value="0.5" min="0" max="10" step="0.1" inputmode="decimal"></div>
+        <div class="field"><label>Taker Fee/side (%)</label><input id="fee" type="number" value="0.05" min="0" max="1" step="0.01" inputmode="decimal"></div>
+        <div class="field"><label>Warn: Margin > % Capital</label><input id="marginWarn" type="number" value="25" min="0" max="100" step="1" inputmode="decimal"></div>
+        <div class="field"><label>Warn: Risk > %</label><input id="riskWarn" type="number" value="3" min="0" max="100" step="0.5" inputmode="decimal"></div>
+      </div>
+    </details>
+  </div>
+
+  <div class="verdict idle" id="verdict"><div class="ic">·</div><div><div class="vt">Isi input di atas</div><div class="vs">Hasil sizing & cek likuidasi muncul otomatis.</div></div></div>
+
+  <div class="out" id="outGrid"></div>
+  <div class="warns" id="warns"></div>
+
+  <div class="principle">
+    <b>Prinsip:</b> ukuran posisi ditentukan oleh <b>risk-per-trade × jarak SL</b> — <b>bukan</b> oleh leverage. Leverage cuma menentukan berapa margin yang dikunci. Selama harga likuidasi berada di belakang SL, kerugianmu di SL = jumlah risk yang kamu tetapkan, apa pun leveragenya. Naikkan leverage hanya untuk efisiensi margin, sampai batas di mana likuidasi tetap lebih jauh dari SL.
+  </div>
+
+  <div class="disc">
+    Harga likuidasi = <b>perkiraan</b> (isolated margin, satu arah, pakai MMR yang kamu set) — abaikan funding &amp; slippage. Angka asli di Binance bisa sedikit beda; itu sebabnya ada buffer. Kalkulator ini alat disiplin risiko, <b>bukan nasihat keuangan</b>. Futures = risiko kehilangan seluruh margin &amp; lebih. DYOR.
+  </div>
+  <footer>Smart Money Society — Futures Sizing · position size dari risk & SL, leverage dari likuidasi</footer>
+</div>
+
+<script>
+let DIR="LONG";
+/* ENGINE-START (pure) */
+function sizeTrade(inp){
+  // inp: capital, riskPct, dir, entry, slPrice(nullable), slPctIn(nullable), tpPrice(nullable),
+  //      levMode, levManual, ceiling, buffer, mmr(%), feePct
+  const dir=inp.dir, entry=+inp.entry, capital=+inp.capital, riskPct=+inp.riskPct;
+  const buffer=Math.max(1,+inp.buffer), ceiling=Math.max(1,Math.floor(+inp.ceiling));
+  const mmr=Math.max(0,+inp.mmr)/100, feePct=Math.max(0,+inp.feePct)/100;
+  if(!(entry>0)||!(capital>0)||!(riskPct>0)) return {ok:false,err:"input"};
+  // resolve SL
+  let slPrice=null, slFrac=null;
+  if(inp.slPrice!=null && inp.slPrice!=="" && +inp.slPrice>0){
+    slPrice=+inp.slPrice; slFrac=Math.abs(entry-slPrice)/entry;
+  } else if(inp.slPctIn!=null && inp.slPctIn!=="" && +inp.slPctIn>0){
+    slFrac=(+inp.slPctIn)/100; slPrice = dir==="LONG"? entry*(1-slFrac) : entry*(1+slFrac);
+  } else return {ok:false,err:"sl"};
+  // SL must be correct side
+  const slValid = dir==="LONG" ? slPrice<entry : slPrice>entry;
+  if(!slValid || !(slFrac>0)) return {ok:false,err:"slside"};
+
+  const slPct=slFrac*100;
+  const riskAmt=capital*riskPct/100;
+  const notional=riskAmt/slFrac;          // position size (USDT), independent of leverage
+  const qty=notional/entry;
+
+  // safe leverage (MMR-aware): want liqFrac >= slFrac*buffer, liqFrac = 1/lev - mmr
+  //   1/lev >= slFrac*buffer + mmr  => lev <= 1/(slFrac*buffer+mmr)
+  const levCapByLiq=Math.floor(1/(slFrac*buffer+mmr));
+  const safeLev=Math.max(1, Math.min(ceiling, levCapByLiq));
+
+  let lev = inp.levMode==="manual" ? Math.max(1,+inp.levManual) : safeLev;
+  const margin=notional/lev;
+  const marginPct=margin/capital*100;
+  // MARGIN % dibuletin ke bilangan bulat → semua diitung ULANG dari sini (biar tinggal drag slider size Binance)
+  const marginPctR=Math.max(1, Math.round(marginPct));
+  const marginR=marginPctR/100*capital;
+  const notionalR=marginR*lev;
+  const qtyR=notionalR/entry;
+  const riskR=notionalR*slFrac;
+  const riskPctR=riskR/capital*100;
+
+  // liquidation (approx, isolated one-way)
+  const imr=1/lev;
+  const liqFrac=imr-mmr;                    // distance fraction from entry
+  const liqPrice = dir==="LONG" ? entry*(1-liqFrac) : entry*(1+liqFrac);
+  const liqDistPct=liqFrac*100;
+  const liqBeyondSL = liqDistPct > slPct;   // SAFE if liquidation is further than SL
+  const liqMultiple = slPct>0 ? liqDistPct/slPct : null;
+
+  // fees (entry+exit on notional)
+  const feeCost=notional*feePct*2;
+
+  // TP
+  let tp=null;
+  if(inp.tpPrice!=null && inp.tpPrice!=="" && +inp.tpPrice>0){
+    const tpPrice=+inp.tpPrice;
+    const tpValid = dir==="LONG" ? tpPrice>entry : tpPrice<entry;
+    if(tpValid){ const tpFrac=Math.abs(tpPrice-entry)/entry;
+      tp={tpPrice, tpFrac, profit:notional*tpFrac, rr:tpFrac/slFrac, profitNet:notional*tpFrac-feeCost}; }
+  }
+
+  // worst case if liquidated before SL = lose full margin
+  const lossAtSL=riskAmt;                    // by construction (if SL hits first)
+  const worstIfLiqFirst=margin;              // if lev too high, liq before SL
+
+  return {ok:true, dir, entry, slPrice, slPct, riskAmt, notional, qty, safeLev, levCapByLiq, lev,
+    margin, marginPct, marginPctR, marginR, notionalR, qtyR, riskR, riskPctR,
+    liqPrice, liqDistPct, liqBeyondSL, liqMultiple, feeCost, tp, lossAtSL, worstIfLiqFirst,
+    mmr, buffer, ceiling};
+}
+/* ENGINE-END */
+
+function fmt(x,d){ if(x==null||!isFinite(x))return"–"; const a=Math.abs(x);
+  if(d!=null) return x.toLocaleString("en-US",{minimumFractionDigits:d,maximumFractionDigits:d});
+  if(a>=1000) return x.toLocaleString("en-US",{maximumFractionDigits:2});
+  if(a>=1) return (+x.toPrecision(6)).toString();
+  return (+x.toPrecision(4)).toString(); }
+function $(id){return document.getElementById(id);}
+
+function render(){
+  const r=sizeTrade({
+    capital:$("capital").value, riskPct:$("riskPct").value, dir:DIR, entry:$("entry").value,
+    slPrice:$("slPrice").value, slPctIn:$("slPct").value, tpPrice:$("tpPrice").value,
+    levMode:$("levMode").value, levManual:$("levManual").value,
+    ceiling:$("ceiling").value, buffer:$("buffer").value, mmr:$("mmr").value, feePct:$("fee").value
+  });
+  const vd=$("verdict"), grid=$("outGrid"), warns=$("warns");
+  if(!r.ok){
+    vd.className="verdict idle";
+    vd.innerHTML=`<div class="ic">·</div><div><div class="vt">Lengkapi input</div><div class="vs">${
+      r.err==="slside"?"Stop Loss harus di sisi benar (LONG: SL &lt; entry, SHORT: SL &gt; entry).":
+      r.err==="sl"?"Isi Stop Loss (harga atau %).":"Isi capital, risk%, dan entry."}</div></div>`;
+    grid.innerHTML=""; warns.innerHTML=""; return;
+  }
+  // verdict
+  if(r.liqBeyondSL){
+    vd.className="verdict ok";
+    vd.innerHTML=`<div class="ic">✓</div><div><div class="vt">AMAN · likuidasi ${r.liqMultiple.toFixed(2)}× di belakang SL</div>
+      <div class="vs">Set lev <b>${r.lev}×</b> → entry limit ${fmt(r.entry)} → drag size ke <b>${r.marginPctR}%</b>. Rugi kalau SL kena ${fmt(r.riskR,2)} USDT (${r.riskPctR.toFixed(1)}% modal). Likuidasi ${fmt(r.liqPrice)} (${r.liqDistPct.toFixed(2)}%).</div></div>`;
+  } else {
+    vd.className="verdict danger";
+    vd.innerHTML=`<div class="ic">✕</div><div><div class="vt">BAHAYA · likuidasi SEBELUM SL</div>
+      <div class="vs">Dengan lev ${r.lev}×, likuidasi di ${r.liqDistPct.toFixed(2)}% tapi SL di ${r.slPct.toFixed(2)}% — kamu ke-liq duluan, rugi seluruh margin ${fmt(r.margin,2)} USDT. Turunkan leverage ke <b>${r.safeLev}×</b> (auto).</div></div>`;
+  }
+  // cells
+  const cells=[
+    {k:"Margin % · drag di Binance", v:`${r.marginPctR}<small>%</small>`, cls:"hl", sub:`set lev ${r.lev}× · entry limit ${fmt(r.entry)}`},
+    {k:"Leverage", v:`${r.lev}<small>×</small>`, cls:"", sub: $("levMode").value==="manual"?`aman maks: ${r.safeLev}×`:`auto dari SL · cap ${r.ceiling}×`},
+    {k:"Margin $", v:`${fmt(r.marginR,2)} <small>USDT</small>`, cls:"", sub:`${r.marginPctR}% dari capital`},
+    {k:"Risiko di SL", v:`${fmt(r.riskR,2)} <small>USDT</small>`, cls:"risk", sub:`${r.riskPctR.toFixed(1)}% · SL ${r.slPct.toFixed(2)}%`},
+    {k:"Position Size", v:`${fmt(r.notionalR,2)} <small>USDT</small>`, cls:"", sub:`${fmt(r.qtyR)} unit @ ${fmt(r.entry)}`},
+    {k:"Harga Likuidasi", v:`${fmt(r.liqPrice)}`, cls:"", sub:`${r.liqDistPct.toFixed(2)}% dari entry (perkiraan)`},
+    {k:"Buffer Likuidasi", v: r.liqMultiple!=null?`${r.liqMultiple.toFixed(2)}<small>×</small>`:"–", cls: r.liqBeyondSL?"prof":"risk", sub: r.liqBeyondSL?"liq di belakang SL":"liq di depan SL ⚠"},
+  ];
+  if(r.tp){
+    cells.push({k:"Profit di TP", v:`${fmt(r.tp.profit,2)} <small>USDT</small>`, cls:"prof", sub:`net ${fmt(r.tp.profitNet,2)} stlh fee`});
+    cells.push({k:"Risk : Reward", v:`${r.tp.rr.toFixed(2)}`, cls: r.tp.rr>=1?"prof":"risk", sub: r.tp.rr>=1?"reward > risk":"reward < risk"});
+  }
+  grid.innerHTML=cells.map(c=>`<div class="cell ${c.cls}"><div class="k">${c.k}</div><div class="v">${c.v}</div>${c.sub?`<div class="sub2">${c.sub}</div>`:""}</div>`).join("");
+  // warnings
+  const W=[];
+  if(!r.liqBeyondSL) W.push({h:true, t:`<b>Likuidasi sebelum SL.</b> Leverage ${r.lev}× kelewat tinggi untuk SL ${r.slPct.toFixed(2)}%. Pakai maksimal <b>${r.safeLev}×</b> supaya SL kena duluan.`});
+  const riskWarn=+$("riskWarn").value, marginWarn=+$("marginWarn").value, riskPctV=+$("riskPct").value;
+  if(riskPctV>riskWarn) W.push({t:`Risk per trade <b>${riskPctV}%</b> di atas ambang ${riskWarn}%. Modal pinjol — pertimbangkan turunkan ke 0.5–1%.`});
+  if(r.marginPct>marginWarn) W.push({t:`Margin <b>${r.marginPct.toFixed(1)}%</b> dari capital (ambang ${marginWarn}%). Satu posisi mengunci porsi besar — hati-hati overlap antar posisi.`});
+  if(r.slPct<1) W.push({t:`SL sangat ketat (<b>${r.slPct.toFixed(2)}%</b>). Rentan kena noise/wick &amp; likuidasi. Pastikan SL di balik struktur, bukan asal dekat.`});
+  if(r.slPct>15) W.push({t:`SL sangat lebar (<b>${r.slPct.toFixed(2)}%</b>) → leverage aman jadi rendah (${r.safeLev}×) &amp; margin besar. Cek ulang penempatan SL.`});
+  if($("levMode").value==="manual" && r.lev>r.safeLev && r.liqBeyondSL) W.push({t:`Leverage manual ${r.lev}× > aman ${r.safeLev}×, tapi masih lolos buffer. Ingat: naik leverage <b>tak menambah profit</b>, cuma mengurangi margin & mempersempit jarak likuidasi.`});
+  warns.innerHTML=W.map(w=>`<div class="warn ${w.h?'hard':''}">${w.t}</div>`).join("");
+}
+
+// wire
+document.querySelectorAll("#dirSeg button").forEach(b=>b.addEventListener("click",()=>{
+  DIR=b.dataset.dir;
+  document.querySelectorAll("#dirSeg button").forEach(x=>{x.className="";});
+  b.className="on "+(DIR==="LONG"?"long":"short");
+  render();
+}));
+$("levMode").addEventListener("change",()=>{ $("levManualWrap").style.display=$("levMode").value==="manual"?"flex":"none"; render(); });
+document.querySelectorAll("input,select").forEach(el=>el.addEventListener("input",render));
+render();
+</script>
+</body>
+</html>
