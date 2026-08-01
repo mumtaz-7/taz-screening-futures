@@ -1,1 +1,19 @@
-[]
+[
+ {
+  "id": "1000SATSUSDT::LONG::ChoCh::1785578400000",
+  "symbol": "1000SATSUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00001085,
+  "sl": 0.00000971,
+  "tp": 0.0000135,
+  "tpSrc": "WH",
+  "slPct": 10.51,
+  "gainPct": 24.42,
+  "rr": 2.32,
+  "lev": 6,
+  "signalTime": 1785578400000,
+  "status": "pending",
+  "createdAt": 1785578450524
+ }
+]
