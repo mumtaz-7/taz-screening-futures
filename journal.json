@@ -40,5 +40,22 @@
    "open"
   ],
   "fillTime": 1785609000000
+ },
+ {
+  "id": "GIGGLEUSDT::LONG::BoS::1785617100000",
+  "symbol": "GIGGLEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 39.91,
+  "sl": 38.155,
+  "tp": 55.71,
+  "tpSrc": "WH",
+  "slPct": 4.4,
+  "gainPct": 39.59,
+  "rr": 9,
+  "lev": 14,
+  "signalTime": 1785617100000,
+  "status": "pending",
+  "createdAt": 1785617129222
  }
 ]
