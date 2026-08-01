@@ -1,7 +1,9 @@
 {
   "ready": [
-    "MMTUSDT::LONG::ChoCh",
-    "MUBARAKUSDT::LONG::ChoCh"
+    "MUBARAKUSDT::LONG::ChoCh",
+    "MUBUSDT::LONG::ChoCh",
+    "MUUBUSDT::LONG::BoS",
+    "SNDKBUSDT::LONG::BoS"
   ],
-  "at": "2026-08-01T00:07:24.994Z"
+  "at": "2026-08-01T00:15:37.140Z"
 }
