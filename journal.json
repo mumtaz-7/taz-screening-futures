@@ -34,5 +34,22 @@
   "status": "pending",
   "createdAt": 1785580237190,
   "notified": []
+ },
+ {
+  "id": "EPICUSDT::LONG::BoS::1785583800000",
+  "symbol": "EPICUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.7924,
+  "sl": 0.7656999999999999,
+  "tp": 0.8517,
+  "tpSrc": "WH",
+  "slPct": 3.37,
+  "gainPct": 7.48,
+  "rr": 2.22,
+  "lev": 18,
+  "signalTime": 1785583800000,
+  "status": "pending",
+  "createdAt": 1785583836523
  }
 ]
