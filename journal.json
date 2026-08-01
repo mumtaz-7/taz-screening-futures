@@ -38,6 +38,7 @@
   "lev": 5,
   "signalTime": 1785601800000,
   "status": "pending",
-  "createdAt": 1785601836975
+  "createdAt": 1785601836975,
+  "notified": []
  }
 ]
