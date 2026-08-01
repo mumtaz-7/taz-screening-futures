@@ -19,5 +19,22 @@
    "open"
   ],
   "fillTime": 1785605400000
+ },
+ {
+  "id": "DEXEUSDT::SHORT::ChoCh::1785607200000",
+  "symbol": "DEXEUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 2.4,
+  "sl": 2.5649999999999995,
+  "tp": 2.201,
+  "tpSrc": "WL",
+  "slPct": 6.87,
+  "gainPct": 8.29,
+  "rr": 1.21,
+  "lev": 9,
+  "signalTime": 1785607200000,
+  "status": "pending",
+  "createdAt": 1785607243472
  }
 ]
