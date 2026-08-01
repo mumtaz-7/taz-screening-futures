@@ -45,14 +45,14 @@ button.go:disabled{opacity:.5;}
 .toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
 </style></head><body>
 <div class="wrap">
-<header><div class="mark">SMS</div><div><h1>Perp Level Checker</h1><div class="sub">Binance USDT-M · harga perp exact</div></div></header>
+<header><div class="mark">SMS</div><div><h1>Perp Level Checker</h1><div class="sub">Binance · level seragam bot &amp; track record</div></div></header>
 <div class="searchbar"><input id="sym" type="text" inputmode="text" autocapitalize="characters" autocomplete="off" spellcheck="false" placeholder="BTCUSDT" enterkeyhint="go"></div>
 <div class="tfsel" id="tfsel"><button data-tf="15m" class="on">M15</button><button data-tf="1h">H1</button><button data-tf="4h">H4</button></div>
 <button id="go" class="go">Cek Level Perp</button>
 <div class="status" id="status">Ketik symbol (mis. BTCUSDT) → level entry/SL/TP perp presisi, tinggal copas.</div>
 <div class="err" id="err"></div>
 <div class="card" id="card"></div>
-<div class="hint">Data = Binance PERP live (fapi). Tap angka buat copy. Konfirmasi di chart (LuxAlgo swing=50, internal=5) sebelum entry. Lev = plafon aman terhadap SL. NFA · DYOR.</div>
+<div class="hint">Data = Binance spot live — sumber & rumus SAMA persis bot + track record (leverage/SL% seragam). Eksekusi di perp (basis ≈ 0). Tap angka buat copy. Konfirmasi di chart (LuxAlgo swing=50, internal=5) sebelum entry. NFA · DYOR.</div>
 </div>
 <div class="toast" id="toast">tersalin</div>
 <script>
@@ -343,14 +343,14 @@ function backtestLux(c, swingLen, confluence, retestWindow, slBuffer, dir){
 }
 /* leverage MMR-aware (otoritas, sama bot & sizing calculator) */
 function levMMR(slPct){ if(slPct==null||slPct<=0)return null; const raw=Math.floor(1/((slPct/100)*1.5+0.005)); return Math.max(1,Math.min(25,raw)); }
-const BASES=["https://fapi.binance.com","https://fapi1.binance.com","https://fapi2.binance.com"];
+const BASES=["https://data-api.binance.vision","https://api.binance.com","https://api-gcp.binance.com"];   // SPOT — seragam sama bot & track record
 let AB=null;
 async function apiGet(path,params){ const qs=params?"?"+new URLSearchParams(params):""; const bases=(AB?[AB]:[]).concat(BASES.filter(b=>b!==AB)); let e;
   for(const b of bases){ try{ const r=await fetch(b+path+qs); if(r.ok){AB=b;return r.json();} e="HTTP "+r.status; }catch(x){e=x.message;} } throw new Error("Gagal akses Binance perp ("+e+")"); }
-async function getKlines(sym,tf){ const raw=await apiGet("/fapi/v1/klines",{symbol:sym,interval:tf,limit:700});
+async function getKlines(sym,tf){ const raw=await apiGet("/api/v3/klines",{symbol:sym,interval:tf,limit:700});
   if(raw.length&&raw[raw.length-1][6]>Date.now())raw.pop(); return raw.map(k=>({t:k[0],o:+k[1],h:+k[2],l:+k[3],c:+k[4],v:+k[5]})); }
 let TICKMAP=null;
-async function getTick(sym){ if(!TICKMAP){ const info=await apiGet("/fapi/v1/exchangeInfo"); TICKMAP={}; for(const s of info.symbols){ const f=(s.filters||[]).find(x=>x.filterType==="PRICE_FILTER"); if(f)TICKMAP[s.symbol]=f.tickSize; } } return TICKMAP[sym]||null; }
+async function getTick(sym){ if(!TICKMAP){ const info=await apiGet("/api/v3/exchangeInfo"); TICKMAP={}; for(const s of info.symbols){ const f=(s.filters||[]).find(x=>x.filterType==="PRICE_FILTER"); if(f)TICKMAP[s.symbol]=f.tickSize; } } return TICKMAP[sym]||null; }
 function decs(x){ const s=""+x; const i=s.indexOf("."); return i<0?0:s.length-i-1; }
 function rndTick(x,tick,dir){ const q=x/tick; const r=dir==="up"?Math.ceil(q-1e-9):Math.floor(q+1e-9); return r*tick; }
 function g(x){ if(x==null)return"–"; const a=Math.abs(x); if(a>=1000)return x.toFixed(2); return parseFloat(x.toPrecision(6)).toString(); }
@@ -372,8 +372,8 @@ function render(sym,a,tickStr){
     const E = Math.round(a.entry/tick)*tick;
     const SL = rndTick(a.sl, tick, isL?"up":"down");
     const TP = rndTick(a.tp, tick, isL?"down":"up");
-    const slPct=Math.abs(SL-E)/E*100, gainPct=Math.abs(TP-E)/E*100, rr=slPct>0?gainPct/slPct:null;
-    const lev=levMMR(slPct), liq=lev?(100/lev-0.5):null;
+    // metrik dari nilai MENTAH engine (seragam dgn bot & track record); harga cuma dibuletin buat display/paste
+    const slPct=a.slPct, gainPct=a.gainPct, rr=a.rr, lev=levMMR(a.slPct), liq=lev?(100/lev-0.5):null;
     const fE=E.toFixed(N), fSL=SL.toFixed(N), fTP=TP.toFixed(N);
     rows=`<div class="lvl entry" onclick="copy('${fE}')"><span class="k">Entry</span><span class="v">${fE} <span class="cp">tap copy</span></span></div>
     <div class="lvl sl" onclick="copy('${fSL}')"><span class="k">Stop Loss</span><span class="v">${fSL} <span class="cp">tap copy</span></span></div>
@@ -399,8 +399,8 @@ async function run(){
   document.getElementById("card").style.display="none";err.style.display="none";
   try{
     const [c,tickStr]=await Promise.all([getKlines(sym,TF), getTick(sym).catch(()=>null)]);
-    if(!c||c.length<220){ err.style.display="block"; err.textContent="Data "+sym+" kurang / symbol nggak ada di perp Binance."; status.textContent=""; }
-    else { const a=analyzeLux(c,50,25,true,0.5,LIQ_BUFFER_DEFAULT,LEV_CEILING_DEFAULT); render(sym,a,tickStr); status.textContent="Live perp "+sym+" · update "+new Date().toLocaleTimeString("id-ID"); }
+    if(!c||c.length<220){ err.style.display="block"; err.textContent="Data "+sym+" kurang / symbol nggak ada di spot Binance."; status.textContent=""; }
+    else { const a=analyzeLux(c,50,25,true,0.5,LIQ_BUFFER_DEFAULT,LEV_CEILING_DEFAULT); render(sym,a,tickStr); status.textContent="Live "+sym+" · update "+new Date().toLocaleTimeString("id-ID"); }
   }catch(e){ err.style.display="block"; err.textContent="⚠ "+e.message+". Kalau CORS, kabari."; status.textContent=""; }
   finally{ go.disabled=false; go.textContent="Cek Level Perp"; }
 }
