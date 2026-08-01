@@ -1,8 +1,6 @@
 {
   "ready": [
-    "DRAMBUSDT::LONG::ChoCh",
-    "MUBUSDT::LONG::BoS",
-    "SNXXBUSDT::LONG::BoS"
+    "MUBUSDT::LONG::BoS"
   ],
-  "at": "2026-08-01T09:15:30.705Z"
+  "at": "2026-08-01T09:30:36.765Z"
 }
