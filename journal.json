@@ -1,1 +1,19 @@
-[]
+[
+ {
+  "id": "AEVOUSDT::LONG::ChoCh::1785603600000",
+  "symbol": "AEVOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.02174,
+  "sl": 0.01931,
+  "tp": 0.026,
+  "tpSrc": "WH",
+  "slPct": 11.18,
+  "gainPct": 19.6,
+  "rr": 1.75,
+  "lev": 5,
+  "signalTime": 1785603600000,
+  "status": "pending",
+  "createdAt": 1785603643892
+ }
+]
