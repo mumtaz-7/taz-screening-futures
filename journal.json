@@ -1,1 +1,19 @@
-[]
+[
+ {
+  "id": "GIGGLEUSDT::LONG::ChoCh::1785593700000",
+  "symbol": "GIGGLEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 43.79,
+  "sl": 38.78,
+  "tp": 55.71,
+  "tpSrc": "WH",
+  "slPct": 11.44,
+  "gainPct": 27.22,
+  "rr": 2.38,
+  "lev": 5,
+  "signalTime": 1785593700000,
+  "status": "pending",
+  "createdAt": 1785593747866
+ }
+]
