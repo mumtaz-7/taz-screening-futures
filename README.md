@@ -64,7 +64,7 @@ SYMBOL · ▲ LONG / ▼ SHORT · ChoCh/BoS
 • Lev aman : Nx  (liq −xx% · Nx di belakang SL)
 • Buka chart   (link BINANCE:SYMBOL.P di TradingView)
 ```
-`Lev aman` = `min(25, floor(1/(SL_frac × 2 + 0.5%)))` — MMR-aware, likuidasi ≥ 2× lebih jauh dari SL. Backstop 25×. Ubah `LEV_CEILING` / `LIQ_BUFFER` / `MMR` di KONFIG `scan.js`.
+`Lev aman` = `min(25, floor(1/(SL_frac × 1.5 + 0.5%)))` — MMR-aware, likuidasi ≥ 1.5× lebih jauh dari SL. Backstop 25×. Ubah `LEV_CEILING` / `LIQ_BUFFER` / `MMR` di KONFIG `scan.js`.
 
 ## Catatan jujur
 - **`data-api.binance.vision`** proven jalan 24/7 dari GitHub runner (bot spot lo pakai host yang sama). Kalau suatu saat kena masalah, fallback: VPS region SG/EU.

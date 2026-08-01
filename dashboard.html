@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMS · Futures Track Record</title>
+<style>
+:root{--bg:#0a0b0d;--panel:#131519;--panel2:#181a1f;--border:#23262d;--border2:#2c2f38;--txt:#eceef2;--txt2:#b7bac2;--muted:#7c808a;--faint:#565a63;--green:#4ec49a;--red:#e57b6c;--gold:#d8c27a;--violet:#a99cec;--blue:#7f9bd8;}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent;}
+html,body{background:var(--bg);}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,sans-serif;color:var(--txt);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased;min-height:100vh;}
+.wrap{max-width:640px;margin:0 auto;padding:20px 16px 44px;}
+.num{font-variant-numeric:tabular-nums;}
+header{display:flex;align-items:center;gap:11px;margin-bottom:6px;}
+.mark{width:36px;height:36px;border-radius:10px;border:1.5px solid var(--border2);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:11px;background:linear-gradient(160deg,#1a1d22,#0f1114);flex:none;}
+header h1{font-size:17px;font-weight:650;letter-spacing:-.2px;line-height:1.1;}
+header .sub{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;}
+.bar{display:flex;align-items:center;gap:10px;margin:8px 0 18px;}
+.bar .upd{font-size:11.5px;color:var(--faint);}
+.bar button{margin-left:auto;background:var(--panel2);color:var(--txt2);border:1px solid var(--border);border-radius:9px;padding:8px 14px;font-size:12.5px;font-weight:600;cursor:pointer;}
+.bar button:active{background:var(--hover);}
+.hero{background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:20px;margin-bottom:14px;display:flex;align-items:center;gap:20px;flex-wrap:wrap;}
+.hero .big{font-size:44px;font-weight:750;font-variant-numeric:tabular-nums;line-height:1;}
+.hero .big.pos{color:var(--green);} .hero .big.neg{color:var(--red);} .hero .big.na{color:var(--faint);}
+.hero .side{display:flex;flex-direction:column;gap:9px;}
+.hero .side .row{display:flex;gap:8px;align-items:baseline;font-size:13px;}
+.hero .side .row .k{color:var(--muted);min-width:78px;}
+.hero .side .row .v{font-weight:650;font-variant-numeric:tabular-nums;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-bottom:14px;}
+.cell{background:var(--panel);border:1px solid var(--border);border-radius:13px;padding:14px 16px;}
+.cell .k{font-size:11.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;}
+.cell .v{font-size:22px;font-weight:700;font-variant-numeric:tabular-nums;margin-top:4px;}
+.cell .s{font-size:11.5px;color:var(--faint);margin-top:2px;}
+.cell .v.pos{color:var(--green);} .cell .v.neg{color:var(--red);} .cell .v.na{color:var(--faint);}
+h2{font-size:12.5px;color:var(--txt2);text-transform:uppercase;letter-spacing:.6px;font-weight:650;margin:18px 0 10px;}
+.statusrow{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px;}
+.chip{font-size:12px;background:var(--panel);border:1px solid var(--border);border-radius:999px;padding:6px 12px;color:var(--txt2);}
+.chip b{color:var(--txt);font-variant-numeric:tabular-nums;}
+.twrap{background:var(--panel);border:1px solid var(--border);border-radius:14px;overflow:hidden;}
+.trow{display:flex;align-items:center;gap:9px;padding:12px 15px;border-bottom:1px solid #1c1e23;font-size:13px;}
+.trow:last-child{border-bottom:none;}
+.trow .sym{font-weight:650;min-width:74px;}
+.tag{display:inline-flex;align-items:center;padding:2px 8px;border-radius:999px;font-size:11px;font-weight:650;}
+.d-LONG{background:rgba(78,196,154,.16);color:#6fd4ac;} .d-SHORT{background:rgba(229,123,108,.16);color:#f0968a;}
+.st{margin-left:auto;font-size:11.5px;font-weight:650;padding:3px 9px;border-radius:999px;}
+.st-win{background:rgba(78,196,154,.16);color:#6fd4ac;} .st-loss{background:rgba(229,123,108,.16);color:#f0968a;}
+.st-open{background:rgba(127,155,216,.15);color:#a7c0ef;} .st-pending{background:rgba(216,194,122,.14);color:#e0c46f;}
+.st-void{background:rgba(124,128,138,.15);color:#9aa0ab;} .st-expired{background:rgba(124,128,138,.12);color:#7c808a;}
+.msg{text-align:center;color:var(--muted);font-size:13.5px;padding:30px 16px;line-height:1.6;}
+.disc{font-size:11.5px;color:var(--faint);text-align:center;margin-top:18px;line-height:1.6;}
+</style></head><body>
+<div class="wrap">
+<header><div class="mark">SMS</div><div><h1>Futures Track Record</h1><div class="sub">Binance perp · act-on-close</div></div></header>
+<div class="bar"><span class="upd" id="upd">memuat…</span><button id="reload">↻ Refresh</button></div>
+<div id="content"><div class="msg">Memuat data track record…</div></div>
+<div class="disc">Angka = ekspektasi mekanis dari rule sistem (act-on-close, retest-fill, same-bar=loss). Bukan hasil trading real, bukan nasihat keuangan. Sinyal WATCH/Extended tidak di-track.</div>
+</div>
+<script>
+const REPO="https://raw.githubusercontent.com/mumtaz-7/taz-screening-futures/main/";
+async function loadJSON(name){
+  for(const p of ["./"+name, REPO+name]){ try{ const r=await fetch(p,{cache:"no-store"}); if(r.ok) return await r.json(); }catch(e){} }
+  return null;
+}
+function pct(x){ return x==null?"–":x+"%"; }
+function rcls(x){ return x==null?"na":(x>0?"pos":(x<0?"neg":"")); }
+function fmtR(x){ return x==null?"":(x>=0?"+":"")+x+"R"; }
+function g(x){ if(x==null)return"–"; const a=Math.abs(x); if(a>=1000)return x.toFixed(2); return parseFloat((+x).toPrecision(6)).toString(); }
+function aggCell(k,a){ if(!a||a.n===0) return `<div class="cell"><div class="k">${k}</div><div class="v na">–</div><div class="s">belum ada</div></div>`;
+  return `<div class="cell"><div class="k">${k}</div><div class="v ${a.win>=50?'pos':'neg'}">${pct(a.win)}</div><div class="s">${a.n}× · ${fmtR(a.er)} · ${a.wins}W/${a.losses}L</div></div>`; }
+function statusName(s){ return {win:"WIN",loss:"LOSS",open:"OPEN",pending:"PENDING",void:"VOID",expired:"EXPIRED"}[s]||s; }
+async function render(){
+  document.getElementById("content").innerHTML=`<div class="msg">Memuat…</div>`;
+  const [stats,journal]=await Promise.all([loadJSON("stats.json"),loadJSON("journal.json")]);
+  const upd=document.getElementById("upd");
+  if(!stats && !journal){ document.getElementById("content").innerHTML=`<div class="msg">Belum bisa ambil data.<br>Pastikan dashboard di-host di GitHub Pages repo <b>taz-screening-futures</b>, dan bot udah jalan minimal sekali (bikin journal.json &amp; stats.json).</div>`; upd.textContent="—"; return; }
+  const a=(stats&&stats.all)||{n:0};
+  upd.textContent = stats&&stats.updatedAt ? "update "+new Date(stats.updatedAt).toLocaleString("id-ID") : "—";
+  let html="";
+  // hero
+  const winCls = a.n===0?"na":(a.win>=50?"pos":"neg");
+  html+=`<div class="hero"><div class="big ${winCls}">${a.n===0?"–":pct(a.win)}</div><div class="side">
+    <div class="row"><span class="k">Resolved</span><span class="v">${a.n||0} trade</span></div>
+    <div class="row"><span class="k">W / L</span><span class="v">${a.wins||0} / ${a.losses||0}</span></div>
+    <div class="row"><span class="k">Expectancy</span><span class="v ${rcls(a.er)}">${a.er==null?"–":fmtR(a.er)}</span></div>
+    <div class="row"><span class="k">Avg win</span><span class="v">${a.avgWin==null?"–":fmtR(a.avgWin)}</span></div>
+  </div></div>`;
+  // breakdown
+  if(stats){ html+=`<h2>Per Arah &amp; Setup</h2><div class="grid">
+    ${aggCell("LONG",stats.LONG)}${aggCell("SHORT",stats.SHORT)}${aggCell("ChoCh",stats.ChoCh)}${aggCell("BoS",stats.BoS)}</div>`;
+    html+=`<div class="statusrow">
+      <span class="chip">Open <b>${stats.open||0}</b></span>
+      <span class="chip">Pending <b>${stats.pending||0}</b></span>
+      <span class="chip">Void <b>${stats.void||0}</b></span>
+      <span class="chip">Expired <b>${stats.expired||0}</b></span>
+      <span class="chip">Total sinyal <b>${stats.totalSignals||0}</b></span></div>`;
+  }
+  // trades
+  if(journal && journal.length){
+    const rows=[...journal].sort((x,y)=>(y.signalTime||0)-(x.signalTime||0)).slice(0,40);
+    html+=`<h2>Trade Terakhir (${Math.min(40,journal.length)}/${journal.length})</h2><div class="twrap">`;
+    for(const t of rows){
+      const rtxt = (t.status==="win"||t.status==="loss") ? `<span class="num">${fmtR(t.R)}</span>` : `<span class="num" style="color:var(--faint)">@${g(t.entry)}</span>`;
+      html+=`<div class="trow"><span class="sym">${t.symbol}</span><span class="tag d-${t.dir}">${t.dir}</span><span style="color:var(--muted);font-size:12px">${t.setup}</span>${rtxt}<span class="st st-${t.status}">${statusName(t.status)}</span></div>`;
+    }
+    html+=`</div>`;
+  } else if(journal){ html+=`<div class="msg">Belum ada trade tercatat. Bot lagi ngumpulin sinyal — track record keisi seiring sinyal muncul &amp; resolve.</div>`; }
+  document.getElementById("content").innerHTML=html;
+}
+document.getElementById("reload").onclick=render;
+render();
+</script></body></html>

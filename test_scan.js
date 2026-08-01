@@ -19,12 +19,11 @@ function mirror(c){ let mx=-Infinity; for(const k of c) if(k.h>mx)mx=k.h; const 
 const near=(a,b,K)=> Math.abs(a-(K-b)) < Math.abs(K)*1e-6;
 
 // ---- 1) rumus leverage vs nilai acuan sizing calculator ----
-console.log('1) rumus leverage aman (MMR-aware, backstop 25, buffer 2, mmr 0.5%)');
-chk(maxSafeLeverage(4)===11,  'SL 4% → 11x (ngalir ngikut SL)');
-chk(maxSafeLeverage(2)===22,  'SL 2% → 22x');
+console.log('1) rumus leverage aman (MMR-aware, backstop 25, buffer 1.5, mmr 0.5%)');
+chk(maxSafeLeverage(4)===15,  'SL 4% → 15x (ngalir ngikut SL)');
+chk(maxSafeLeverage(2)===25,  'SL 2% → 25x (kena backstop)');
 chk(maxSafeLeverage(1)===25,  'SL 1% → 25x (kena backstop)');
-chk(maxSafeLeverage(0.5)===25, 'SL 0.5% → 25x (kena backstop)');
-chk(maxSafeLeverage(20)===2,  'SL 20% → 2x');
+chk(maxSafeLeverage(20)===3,  'SL 20% → 3x');
 chk(maxSafeLeverage(0)===null && maxSafeLeverage(-1)===null, 'SL invalid → null');
 
 // ---- 2) invariant + 3) mirror simetri ----
@@ -68,6 +67,31 @@ console.log('4) parser kline Binance (mock oldest-first)');
   chk(p[0].o===8 && p[0].h===9 && p[0].l===7 && p[0].c===8, 'mapping OHLC bener');
   const closed=[ row(now-2*tfMs,8,9,7,8, now-tfMs-1), row(now-tfMs,9,10,8,9, now-1) ]; // terakhir closeTime <= now
   chk(A.parseKlines(closed, now).length===2, 'terakhir udah closed → ga ada yg dibuang');
+}
+
+// ---- 5) evalTrade dua arah (fill/win/loss/void) ----
+console.log('5) evalTrade (fill→TP/SL/void, LONG & SHORT)');
+{ const now2=Date.now(), tfMs=900000, base=now2-10*tfMs;
+  const mk=(i,o,h,l,c)=>({t:base+i*tfMs,o,h,l,c});
+  const sig=base+tfMs; // signalTime = close candle 0 = t candle 1
+  // LONG win: retest turun ke entry(96) lalu TP(108)
+  const Lwin=A.evalTrade({dir:'LONG',entry:96,sl:92,tp:108,signalTime:sig,status:'pending'},[mk(0,100,101,99,100),mk(1,100,100,95,97),mk(2,97,110,96,109)]);
+  chk(Lwin.status==='win' && Lwin.R===3, 'LONG win R=3 ('+Lwin.status+'/'+Lwin.R+')');
+  // LONG loss: fill lalu SL(92)
+  const Lloss=A.evalTrade({dir:'LONG',entry:96,sl:92,tp:108,signalTime:sig,status:'pending'},[mk(0,100,101,99,100),mk(1,100,100,95,97),mk(2,97,98,91,92)]);
+  chk(Lloss.status==='loss' && Lloss.R===-1, 'LONG loss ('+Lloss.status+')');
+  // LONG void: TP kesentuh sebelum retest ke entry
+  const Lvoid=A.evalTrade({dir:'LONG',entry:96,sl:92,tp:108,signalTime:sig,status:'pending'},[mk(0,100,101,99,100),mk(1,100,109,99,108)]);
+  chk(Lvoid.status==='void' && Lvoid.voidReason==='tp-duluan', 'LONG void tp-duluan ('+Lvoid.status+')');
+  // SHORT win: retest naik ke entry(100) lalu TP(92)
+  const Swin=A.evalTrade({dir:'SHORT',entry:100,sl:104,tp:92,signalTime:sig,status:'pending'},[mk(0,98,99,97,98),mk(1,98,101,97,99),mk(2,99,99,91,92)]);
+  chk(Swin.status==='win' && Swin.R===2, 'SHORT win R=2 ('+Swin.status+'/'+Swin.R+')');
+  // SHORT loss: fill lalu SL(104)
+  const Sloss=A.evalTrade({dir:'SHORT',entry:100,sl:104,tp:92,signalTime:sig,status:'pending'},[mk(0,98,99,97,98),mk(1,98,101,97,99),mk(2,99,105,99,104)]);
+  chk(Sloss.status==='loss' && Sloss.R===-1, 'SHORT loss ('+Sloss.status+')');
+  // stats
+  const st=A.computeStats([{status:'win',R:3,dir:'LONG',setup:'ChoCh'},{status:'loss',R:-1,dir:'SHORT',setup:'BoS'}]);
+  chk(st.all.n===2 && st.all.win===50 && st.all.er===1, 'computeStats: n2 win50% er+1R ('+st.all.win+'/'+st.all.er+')');
 }
 
 console.log(fails===0 ? '\n✅ SEMUA PASS' : `\n❌ ${fails} GAGAL`);

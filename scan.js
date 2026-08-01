@@ -30,15 +30,26 @@ const CONC        = 5;
 
 // --- Leverage aman (MMR-aware, PERSIS sizing calculator) ---
 const LEV_CEILING = 25;        // backstop leverage (nutup max mayoritas alt; jarang kepentok, cuma ngerem SL <1%)
-const LIQ_BUFFER  = 2;         // likuidasi minimal 2× lebih jauh dari SL
+const LIQ_BUFFER  = 1.5;       // likuidasi minimal 1.5× lebih jauh dari SL
 const MMR         = 0.5;       // maintenance margin rate (%) — perkiraan konservatif
 
 const STATE_FILE  = __dirname + '/state.json';
 const TG_TOKEN    = process.env.TELEGRAM_TOKEN;
 const TG_CHAT     = process.env.TELEGRAM_CHAT_ID;
+const TG_CHAT_UPDATES = process.env.TELEGRAM_CHAT_ID_UPDATES || TG_CHAT;   // channel terpisah buat UPDATE STATUS (fallback ke channel utama kalau belum di-set)
+
+// ---- TRACK RECORD ----
+const JOURNAL_FILE = __dirname + '/journal.json';
+const STATS_FILE   = __dirname + '/stats.json';
+const RETEST_WIN   = 25;          // jendela retest (bar) buat fill limit
+const MAX_HOLD_DAYS= 9;           // open > 9 hari & belum resolve → expired
+const TRACK_LIMIT  = 1000;        // candle khusus tracking (~10,4 hari M15)
+const TERMINAL     = ['win','loss','void','expired'];
+const round = x => x==null ? null : Math.round(x*100)/100;
 
 const STABLE_BASES = new Set(["USDC","FDUSD","TUSD","BUSD","DAI","USDP","UST","USTC","EUR","GBP","AEUR","USD1","XUSD","PYUSD","EURI","TRY","BRL","ARS","ZAR","BIDR","IDRT","NGN","UAH","RUB","PLN","RON","JPY","MXN","COP","CZK"]);
 const LEVERAGE_TAGS = ["UP","DOWN","BULL","BEAR"];   // buang leveraged token spot (BTCUPUSDT dll)
+const TOKENIZED_GRP = 'TRD_GRP_261';   // grup permission bStocks (tokenized stock: AAPLB/TSLAB/NVDAB dll) — DIBUANG (anomali, ngikut jam bursa)
 
 // ---------- NETWORK ----------
 async function apiGet(path, params){
@@ -263,6 +274,82 @@ function pickFloor(gains){
   return Math.min(MIN_TP, Math.floor(Math.max.apply(null, gains)));
 }
 
+// ---------- TRACK RECORD ENGINE (act-on-close · dua arah) ----------
+// LONG: fill saat harga retest TURUN ke entry; SL saat low<=sl; TP saat high>=tp.
+// SHORT: fill saat harga retest NAIK ke entry; SL saat high>=sl; TP saat low<=tp.
+// same-bar SL+TP = loss (SL dicek dulu). Sinyal dari candle tutup (signalTime=close) → mulai candle berikutnya (anti look-ahead).
+function evalTrade(tr, candles){
+  if(TERMINAL.includes(tr.status)) return tr;
+  const isL = tr.dir === 'LONG';
+  const ageDays = (Date.now() - tr.signalTime) / 86400000;
+  const start = candles.findIndex(c => c.t >= tr.signalTime);
+  if(start < 0) return ageDays > MAX_HOLD_DAYS ? {...tr, status:'void', voidReason:'ga-retest'} : tr;
+  // cari fill; kalau TP kesentuh DULUAN sebelum retest → void (setup basi)
+  let fill = -1;
+  for(let i = start; i < candles.length && (i-start) < RETEST_WIN; i++){
+    if(isL){ if(candles[i].l <= tr.entry){ fill = i; break; } if(candles[i].h >= tr.tp) return {...tr, status:'void', voidReason:'tp-duluan', resolvedTime:candles[i].t}; }
+    else   { if(candles[i].h >= tr.entry){ fill = i; break; } if(candles[i].l <= tr.tp) return {...tr, status:'void', voidReason:'tp-duluan', resolvedTime:candles[i].t}; }
+  }
+  if(fill < 0){
+    if((candles.length - start) >= RETEST_WIN || ageDays > MAX_HOLD_DAYS) return {...tr, status:'void', voidReason:'ga-retest'};
+    return {...tr, status:'pending'};
+  }
+  // resolusi dari bar fill
+  for(let i = fill; i < candles.length; i++){
+    if(isL){
+      if(candles[i].l <= tr.sl) return {...tr, status:'loss', R:-1, fillTime:candles[fill].t, resolvedTime:candles[i].t};
+      if(candles[i].h >= tr.tp){ const RR=(tr.tp-tr.entry)/(tr.entry-tr.sl); return {...tr, status:'win', R:round(RR), fillTime:candles[fill].t, resolvedTime:candles[i].t}; }
+    } else {
+      if(candles[i].h >= tr.sl) return {...tr, status:'loss', R:-1, fillTime:candles[fill].t, resolvedTime:candles[i].t};
+      if(candles[i].l <= tr.tp){ const RR=(tr.entry-tr.tp)/(tr.sl-tr.entry); return {...tr, status:'win', R:round(RR), fillTime:candles[fill].t, resolvedTime:candles[i].t}; }
+    }
+  }
+  if(ageDays > MAX_HOLD_DAYS) return {...tr, status:'expired', fillTime:candles[fill].t};
+  return {...tr, status:'open', fillTime:candles[fill].t};
+}
+
+function computeStats(journal){
+  const done = journal.filter(t => t.status==='win' || t.status==='loss');
+  const agg = list => { const n=list.length; if(!n) return {n:0, win:null, er:null, avgWin:null};
+    const wins=list.filter(t=>t.status==='win');
+    const er=list.reduce((s,t)=>s+t.R,0)/n, avgWin=wins.length?wins.reduce((s,t)=>s+t.R,0)/wins.length:null;
+    return {n, wins:wins.length, losses:n-wins.length, win:Math.round(wins.length/n*1000)/10, er:round(er), avgWin:round(avgWin)}; };
+  return {
+    updatedAt:new Date().toISOString(),
+    all:agg(done),
+    LONG:agg(done.filter(t=>t.dir==='LONG')), SHORT:agg(done.filter(t=>t.dir==='SHORT')),
+    ChoCh:agg(done.filter(t=>t.setup==='ChoCh')), BoS:agg(done.filter(t=>t.setup==='BoS')),
+    open:journal.filter(t=>t.status==='open').length, pending:journal.filter(t=>t.status==='pending').length,
+    void:journal.filter(t=>t.status==='void').length, expired:journal.filter(t=>t.status==='expired').length,
+    totalSignals:journal.length
+  };
+}
+
+async function notifyUpdates(updates){
+  if(!TG_TOKEN || !TG_CHAT_UPDATES){ console.log('TG kosong — skip update.'); return; }
+  let msg = `▸ <b>Update Posisi Futures</b> · <b>M15</b>\n\n`;
+  for(const t of updates){
+    const arrow = t.dir==='LONG' ? '▲ LONG' : '▼ SHORT';
+    msg += `<b>${t.symbol}</b> · ${arrow} · ${t.setup}\n`;
+    if(t.status==='open'){
+      const src = t.tpSrc==='OB' ? ' · OB' : t.tpSrc==='EQ' ? ' · EQ' : '';
+      msg += `• Status : ● Entry kefill — posisi jalan\n`;
+      msg += `• Entry : <code>${fmt(t.entry)}</code>\n`;
+      msg += `• TP +${t.gainPct.toFixed(1)}%${src} : <code>${fmt(t.tp)}</code>\n`;
+      msg += `• SL −${t.slPct.toFixed(1)}% : <code>${fmt(t.sl)}</code>\n`;
+    } else if(t.status==='win'){ msg += `• Status : ✓ TP kena · WIN +${t.R}R\n• Entry <code>${fmt(t.entry)}</code> → TP <code>${fmt(t.tp)}</code>\n`;
+    } else if(t.status==='loss'){ msg += `• Status : ✗ SL kena · LOSS -1R\n• Entry <code>${fmt(t.entry)}</code> → SL <code>${fmt(t.sl)}</code>\n`;
+    } else if(t.status==='void'){ const why=t.voidReason==='tp-duluan'?'harga ke TP duluan sebelum entry':'harga nggak retest ke entry'; msg += `• Status : ○ Void — ${why}\n`; }
+    msg += `\n`;
+  }
+  msg += `<i>Auto-tracking track record · bukan aba-aba entry/exit.</i>`;
+  const r = await fetch(`https://api.telegram.org/bot${TG_TOKEN}/sendMessage`, {
+    method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({chat_id: TG_CHAT_UPDATES, text: msg, parse_mode:'HTML', disable_web_page_preview:true})
+  });
+  console.log('telegram update:', r.status, `(${updates.length} posisi)`);
+}
+
 // ---------- MAIN ----------
 async function main(){
   // universe: spot USDT trading (data-api.binance.vision), TANPA filter halal (futures)
@@ -271,6 +358,7 @@ async function main(){
   for(const s of info.symbols){
     if(s.quoteAsset !== 'USDT' || s.status !== 'TRADING' || !s.isSpotTradingAllowed) continue;
     if(STABLE_BASES.has(s.baseAsset) || LEVERAGE_TAGS.some(t => s.baseAsset.endsWith(t))) continue;
+    if((s.permissionSets||[]).some(ps => ps.includes(TOKENIZED_GRP))) continue;   // buang tokenized stock (bStocks)
     valid.add(s.symbol);
   }
   const tick = await apiGet('/api/v3/ticker/24hr');
@@ -297,15 +385,64 @@ async function main(){
 
   let prev = [];
   try{ prev = JSON.parse(fs.readFileSync(STATE_FILE, 'utf8')).ready || []; }catch(e){}
+  // journal di-load DULU buat dedup: sinyal yg udah punya trade AKTIF jangan di-notif/journal lagi
+  let journal = [];
+  try{ journal = JSON.parse(fs.readFileSync(JOURNAL_FILE, 'utf8')); }catch(e){}
+  const hasActive = (sym,dir,setup) => journal.some(t => t.symbol===sym && t.dir===dir && t.setup===setup && !TERMINAL.includes(t.status));
   // kunci = SIMBOL::DIR::setup → arah / setup berubah dianggap sinyal baru
   const curr  = Object.keys(ready).map(s => `${s}::${ready[s].dir}::${ready[s].setup}`).sort();
-  const fresh = curr.filter(k => !prev.includes(k));
+  const fresh = curr.filter(k => {
+    if(prev.includes(k)) return false;                       // masih READY dari run sebelumnya
+    const sym=k.split('::')[0], a=ready[sym]; if(!a) return false;
+    if(isExtended(a)) return true;                            // Extended = radar, ga di-track, biarin lolos notif
+    return !hasActive(sym, a.dir, a.setup);                   // skip kalau udah ada trade AKTIF utk sym+dir+setup
+  });
   const nL = Object.values(ready).filter(a=>a.dir==='LONG').length, nS = Object.values(ready).filter(a=>a.dir==='SHORT').length;
   console.log(`scan: ${liquid.length} perp · ${curr.length} READY (L ${nL}/S ${nS}) · ${fresh.length} baru → ${fresh.join(', ') || '-'}`);
   if(fresh.length) await notify(fresh, ready);   // fresh = SYM::DIR::setup; notify baca simbol dari [0], detail dari ready
   fs.writeFileSync(STATE_FILE, JSON.stringify({ready: curr, at: new Date().toISOString()}, null, 2));
+
+  // ---------- TRACK RECORD ----------
+  // 1) catat sinyal BARU (status pending). Extended (radar) TIDAK di-track.
+  const ids = new Set(journal.map(t => t.id));
+  const justCreated = new Set();   // lahir run ini → tunda evaluasi fill ke run berikutnya (window entry + anti look-ahead)
+  for(const k of fresh){ const sym=k.split('::')[0], a=ready[sym]; if(!a) continue;
+    if(isExtended(a)) continue;
+    const id = `${sym}::${a.dir}::${a.setup}::${a.signalTime}`;
+    if(ids.has(id)) continue; ids.add(id); justCreated.add(id);
+    journal.push({ id, symbol:sym, dir:a.dir, setup:a.setup, entry:a.entry, sl:a.sl, tp:a.tp, tpSrc:a.tpSrc,
+      slPct:round(a.slPct), gainPct:round(a.gainPct), rr:round(a.rr), lev:a.lev, signalTime:a.signalTime,
+      status:'pending', createdAt:Date.now() });
+  }
+  // 2) update trade belum kelar (fetch klines dalam → cek fill/TP/SL)
+  const alive = journal.filter(t => !TERMINAL.includes(t.status) && !justCreated.has(t.id));
+  const symsNeeded = [...new Set(alive.map(t => t.symbol))];
+  const cache = {}; let ti2 = 0;
+  async function trackWorker(){ while(ti2 < symsNeeded.length){ const sym = symsNeeded[ti2++];
+    try{ const raw = await apiGet('/api/v3/klines', {symbol:sym, interval:TF, limit:TRACK_LIMIT}); cache[sym] = parseKlines(raw, Date.now()); }catch(e){ cache[sym] = null; } } }
+  await Promise.all(Array.from({length: CONC}, trackWorker));
+  const updates = [];
+  for(let j = 0; j < journal.length; j++){ const t = journal[j];
+    if(TERMINAL.includes(t.status)) continue;
+    if(justCreated.has(t.id)) continue;   // baru lahir → cek fill mulai run berikutnya
+    if(!cache[t.symbol]) continue;
+    const before = t.status;
+    const after  = evalTrade(t, cache[t.symbol]);
+    after.notified = Array.isArray(after.notified) ? after.notified : (Array.isArray(t.notified) ? t.notified : []);
+    journal[j] = after;
+    // notif sekali per status transisi ke open/win/loss/void (expired di-skip)
+    if(after.status !== before && ['open','win','loss','void'].includes(after.status) && !after.notified.includes(after.status)){
+      after.notified.push(after.status); updates.push(after);
+    }
+  }
+  if(updates.length) await notifyUpdates(updates);
+  // 3) hitung stats + simpan
+  const stats = computeStats(journal);
+  fs.writeFileSync(JOURNAL_FILE, JSON.stringify(journal, null, 1));
+  fs.writeFileSync(STATS_FILE, JSON.stringify(stats, null, 2));
+  console.log(`journal: ${journal.length} sinyal · resolved ${stats.all.n} (win ${stats.all.win}%) · open ${stats.open} · pending ${stats.pending}`);
 }
 
 if(require.main === module){ main().catch(e => { console.error(e); process.exit(1); }); }
 module.exports = { analyze, luxStructure, computeLeg, maxSafeLeverage, liqInfo, pickFloor, parseKlines,
-  MIN_TP, MIN_TP_FLOOR, MIN_RR, MAX_FRESH, LEV_CEILING, LIQ_BUFFER, MMR };
+  evalTrade, computeStats, round, MIN_TP, MIN_TP_FLOOR, MIN_RR, MAX_FRESH, LEV_CEILING, LIQ_BUFFER, MMR };
