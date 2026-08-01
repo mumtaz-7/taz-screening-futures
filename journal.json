@@ -31,9 +31,12 @@
   "rr": 3.36,
   "lev": 18,
   "signalTime": 1785580200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1785580237190,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1785586500000
  },
  {
   "id": "EPICUSDT::LONG::BoS::1785583800000",
