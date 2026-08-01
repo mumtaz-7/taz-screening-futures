@@ -33,6 +33,9 @@ const LEV_CEILING = 25;        // backstop leverage (nutup max mayoritas alt; ja
 const LIQ_BUFFER  = 1.5;       // likuidasi minimal 1.5× lebih jauh dari SL
 const MMR         = 0.5;       // maintenance margin rate (%) — perkiraan konservatif
 
+// Perp Level Checker (di-host di GitHub Pages) — link "Cek sizing" per sinyal. Ganti kalau host di URL lain.
+const CHECKER_URL = 'https://mumtaz-7.github.io/taz-screening-futures/SMS_Perp_Level_Checker.html';
+
 const STATE_FILE  = __dirname + '/state.json';
 const TG_TOKEN    = process.env.TELEGRAM_TOKEN;
 const TG_CHAT     = process.env.TELEGRAM_CHAT_ID;
@@ -234,33 +237,29 @@ async function notify(fresh, ready){
   if(!TG_TOKEN || !TG_CHAT){ console.log('TELEGRAM_TOKEN / CHAT_ID kosong — skip kirim.'); return; }
   const cap = 25;
   const shown = fresh.slice(0, cap);
-  const nL = fresh.filter(k => ready[k.split('::')[0]].dir==='LONG').length;
-  const nS = fresh.length - nL;
-  let msg = `▸ <b>${fresh.length} Sinyal Futures Ready baru</b> · <b>M15</b>\n`;
-  msg += `<i>LONG ${nL} · SHORT ${nS} · Binance USDT Perp</i>\n\n`;
+  let msg = `▸ <b>${fresh.length} Sinyal Futures Ready baru</b> · <b>M15</b>\n\n`;
   for(const k of shown){ const s = k.split('::')[0], a = ready[s];
     const arrow = a.dir==='LONG' ? '▲ LONG' : '▼ SHORT';
-    const tvSym = `BINANCE:${s}.P`;
+    const tv  = `https://www.tradingview.com/chart/?symbol=BINANCE:${s}.P`;
+    const chk = `${CHECKER_URL}?sym=${s}`;
     if(isExtended(a)){
       msg += `<b>${s}</b> · ${arrow} · ${a.setup} · <i>Extended</i>\n`;
-      msg += `<i>• Struktur terkonfirmasi — harga sudah lewat TP. Buat watchlist, bukan entry.</i>\n`;
-      msg += `• <a href="https://www.tradingview.com/chart/?symbol=${tvSym}">Buka chart</a>\n\n`;
+      msg += `<i>harga sudah lewat TP — watchlist, bukan entry.</i>\n`;
+      msg += `• <a href="${tv}">Buka chart</a>\n\n`;
       continue;
     }
     const src   = a.tpSrc==='OB' ? ' · OB' : a.tpSrc==='EQ' ? ' · EQ' : '';
     const inval = a.inval != null ? ` · inval ${fmt(a.inval)}` : '';
-    const liqTxt = a.liqMult != null ? ` (liq −${a.liqDist}% · ${a.liqMult}× di belakang SL)` : '';
     msg += `<b>${s}</b> · ${arrow} · ${a.setup}\n`;
     msg += `• Entry : <code>${fmt(a.entry)}</code>\n`;
     msg += `• TP +${a.gainPct.toFixed(1)}%${src} : <code>${fmt(a.tp)}</code>\n`;
     msg += `• SL −${a.slPct.toFixed(1)}%${inval} : <code>${fmt(a.sl)}</code>\n`;
-    msg += `• R:R : ${a.rr.toFixed(2)}\n`;
-    msg += `• Lev aman : <b>${a.lev}×</b>${liqTxt}\n`;
-    msg += `• <a href="https://www.tradingview.com/chart/?symbol=${tvSym}">Buka chart</a>\n\n`;
+    msg += `• R:R ${a.rr.toFixed(2)} · Lev ${a.lev}×\n`;
+    msg += `• <a href="${tv}">Buka chart</a> · <a href="${chk}">Cek sizing</a>\n\n`;
   }
   if(fresh.length > cap) msg += `…+${fresh.length - cap} lagi\n\n`;
   msg += `— Bukan sinyal buy/sell. Verifikasi di chart (LuxAlgo swing=50, internal=5) dulu.\n`;
-  msg += `<i>Lev = plafon aman terhadap SL, bukan anjuran pakai penuh. Sizing dari risk-per-trade. NFA · DYOR.</i>`;
+  msg += `<i>Not Financial Advice · Do Your Own Research.</i>`;
   const r = await fetch(`https://api.telegram.org/bot${TG_TOKEN}/sendMessage`, {
     method:'POST', headers:{'Content-Type':'application/json'},
     body: JSON.stringify({chat_id: TG_CHAT, text: msg, parse_mode: 'HTML', disable_web_page_preview: true})

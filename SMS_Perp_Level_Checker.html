@@ -406,4 +406,9 @@ async function run(){
 }
 document.getElementById("go").onclick=run;
 document.getElementById("sym").addEventListener("keydown",e=>{if(e.key==="Enter")run();});
+// auto-isi + auto-cek kalau dibuka dari link (?sym=BTCUSDT&tf=15m) — mis. dari notif bot
+(function(){ try{ const q=new URLSearchParams(location.search); const s=q.get("sym"), tf=q.get("tf");
+  if(tf && ["15m","1h","4h"].includes(tf)){ TF=tf; document.querySelectorAll("#tfsel button").forEach(b=>b.classList.toggle("on", b.dataset.tf===tf)); }
+  if(s){ document.getElementById("sym").value=s.toUpperCase(); run(); }
+}catch(e){} })();
 </script></body></html>
