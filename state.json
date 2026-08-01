@@ -3,7 +3,8 @@
     "DIAUSDT::SHORT::BoS",
     "MMTUSDT::LONG::BoS",
     "SOXLBUSDT::LONG::BoS",
-    "SOXSBUSDT::SHORT::ChoCh"
+    "SOXSBUSDT::SHORT::ChoCh",
+    "SYNUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-08-01T07:30:44.055Z"
+  "at": "2026-08-01T07:45:35.960Z"
 }
