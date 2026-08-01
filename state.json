@@ -1,8 +1,10 @@
 {
   "ready": [
+    "DIAUSDT::SHORT::BoS",
     "MUBARAKUSDT::LONG::ChoCh",
     "SKHYBUSDT::LONG::ChoCh",
-    "SNXXBUSDT::LONG::ChoCh"
+    "SOXLBUSDT::LONG::BoS",
+    "SOXSBUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-08-01T06:15:48.081Z"
+  "at": "2026-08-01T06:30:38.720Z"
 }
