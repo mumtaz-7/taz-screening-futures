@@ -166,5 +166,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "1000SATSUSDT::LONG::BoS::1785654000000",
+  "symbol": "1000SATSUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00001157,
+  "sl": 0.00001037,
+  "tp": 0.00001284,
+  "tpSrc": "OB",
+  "slPct": 10.37,
+  "gainPct": 10.98,
+  "rr": 1.06,
+  "lev": 6,
+  "signalTime": 1785654000000,
+  "status": "pending",
+  "createdAt": 1785654042227
+ },
+ {
+  "id": "ESPUSDT::LONG::BoS::1785654000000",
+  "symbol": "ESPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.07186,
+  "sl": 0.06767500000000001,
+  "tp": 0.08969,
+  "tpSrc": "OB",
+  "slPct": 5.82,
+  "gainPct": 24.81,
+  "rr": 4.26,
+  "lev": 10,
+  "signalTime": 1785654000000,
+  "status": "pending",
+  "createdAt": 1785654042227
  }
 ]

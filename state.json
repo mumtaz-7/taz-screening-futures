@@ -1,6 +1,7 @@
 {
   "ready": [
-    "HEIUSDT::LONG::ChoCh"
+    "1000SATSUSDT::LONG::BoS",
+    "ESPUSDT::LONG::BoS"
   ],
-  "at": "2026-08-02T06:45:36.044Z"
+  "at": "2026-08-02T07:00:42.226Z"
 }
