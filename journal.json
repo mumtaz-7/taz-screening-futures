@@ -256,5 +256,22 @@
    "open"
   ],
   "fillTime": 1785662100000
+ },
+ {
+  "id": "HYPERUSDT::SHORT::ChoCh::1785667500000",
+  "symbol": "HYPERUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.0666,
+  "sl": 0.07185,
+  "tp": 0.0549,
+  "tpSrc": "WL",
+  "slPct": 7.88,
+  "gainPct": 17.57,
+  "rr": 2.23,
+  "lev": 8,
+  "signalTime": 1785667500000,
+  "status": "pending",
+  "createdAt": 1785667531997
  }
 ]

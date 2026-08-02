@@ -1,6 +1,7 @@
 {
   "ready": [
-    "GIGGLEUSDT::LONG::BoS"
+    "GIGGLEUSDT::LONG::BoS",
+    "HYPERUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-08-02T10:30:35.386Z"
+  "at": "2026-08-02T10:45:31.997Z"
 }
