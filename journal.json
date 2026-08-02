@@ -325,5 +325,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "UNIUSDT::SHORT::ChoCh::1785695400000",
+  "symbol": "UNIUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 4.183,
+  "sl": 4.257999999999999,
+  "tp": 3.817,
+  "tpSrc": "OB",
+  "slPct": 1.79,
+  "gainPct": 8.75,
+  "rr": 4.88,
+  "lev": 25,
+  "signalTime": 1785695400000,
+  "status": "pending",
+  "createdAt": 1785695436615
  }
 ]
