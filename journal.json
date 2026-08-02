@@ -166,12 +166,15 @@
   "rr": 2.58,
   "lev": 17,
   "signalTime": 1785652200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785652236745,
   "fillTime": 1785652200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785712500000
  },
  {
   "id": "1000SATSUSDT::LONG::BoS::1785654000000",
