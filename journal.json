@@ -340,12 +340,15 @@
   "rr": 4.88,
   "lev": 25,
   "signalTime": 1785695400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785695436615,
   "fillTime": 1785695400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785707100000
  },
  {
   "id": "ORDIUSDT::SHORT::BoS::1785697200000",
