@@ -350,7 +350,10 @@ async function apiGet(path,params){ const qs=params?"?"+new URLSearchParams(para
 async function getKlines(sym,tf){ const raw=await apiGet("/fapi/v1/klines",{symbol:sym,interval:tf,limit:700});
   if(raw.length&&raw[raw.length-1][6]>Date.now())raw.pop(); return raw.map(k=>({t:k[0],o:+k[1],h:+k[2],l:+k[3],c:+k[4],v:+k[5]})); }
 let TICKMAP=null;
-async function getTick(sym){ if(!TICKMAP){ const info=await apiGet("/fapi/v1/exchangeInfo"); TICKMAP={}; for(const s of info.symbols){ const f=(s.filters||[]).find(x=>x.filterType==="PRICE_FILTER"); if(f)TICKMAP[s.symbol]=f.tickSize; } } return TICKMAP[sym]||null; }
+async function loadInfo(){ if(!TICKMAP){ const info=await apiGet("/fapi/v1/exchangeInfo"); TICKMAP={}; for(const s of info.symbols){ const f=(s.filters||[]).find(x=>x.filterType==="PRICE_FILTER"); if(f)TICKMAP[s.symbol]=f.tickSize; } } return TICKMAP; }
+async function getTick(sym){ await loadInfo(); return TICKMAP[sym]||null; }
+// perp Binance pake alias multiplier buat coin harga kecil (1000SHIB, 1000PEPE, 1MBABYDOGE, 1000000BOB...) sedang spot pake nama polos. Petakan biar bisa dieksekusi di perp.
+async function resolvePerp(sym){ await loadInfo(); for(const c of [sym,"1000"+sym,"1000000"+sym,"1M"+sym]){ if(TICKMAP[c]) return c; } return null; }
 function decs(x){ let s=typeof x==="string"?x:(""+x);
   const m=s.match(/^-?\d*\.?(\d*)[eE]([+-]?\d+)$/); // notasi ilmiah (mis. 1e-8) → JS nulis harga/tick super kecil begini
   if(m){ return Math.max(0, m[1].length - parseInt(m[2],10)); }
@@ -401,9 +404,11 @@ async function run(){
   go.disabled=true;go.textContent="Ngambil data…";status.textContent="Ambil candle perp "+sym+" ("+TF.toUpperCase()+")…";
   document.getElementById("card").style.display="none";err.style.display="none";
   try{
-    const [c,tickStr]=await Promise.all([getKlines(sym,TF), getTick(sym).catch(()=>null)]);
-    if(!c||c.length<220){ err.style.display="block"; err.textContent="Data "+sym+" kurang / symbol nggak ada di Binance Futures."; status.textContent=""; }
-    else { const a=analyzeLux(c,50,25,true,0.5,LIQ_BUFFER_DEFAULT,LEV_CEILING_DEFAULT); render(sym,a,tickStr); status.textContent="Live "+sym+" · update "+new Date().toLocaleTimeString("id-ID"); }
+    const usym=await resolvePerp(sym);
+    if(!usym){ err.style.display="block"; err.textContent=sym+" nggak ada di Binance Futures — kemungkinan spot-only, nggak bisa dieksekusi di perp. Skip aja."; status.textContent=""; return; }
+    const [c,tickStr]=await Promise.all([getKlines(usym,TF), getTick(usym).catch(()=>null)]);
+    if(!c||c.length<220){ err.style.display="block"; err.textContent="Data "+usym+" kurang di Binance Futures."; status.textContent=""; }
+    else { const a=analyzeLux(c,50,25,true,0.5,LIQ_BUFFER_DEFAULT,LEV_CEILING_DEFAULT); render(usym,a,tickStr); status.textContent="Live "+usym+(usym!==sym?" · dipetakan dari "+sym:"")+" · update "+new Date().toLocaleTimeString("id-ID"); }
   }catch(e){ err.style.display="block"; err.textContent="⚠ "+e.message+". Kalau CORS, kabari."; status.textContent=""; }
   finally{ go.disabled=false; go.textContent="Cek Level Perp"; }
 }

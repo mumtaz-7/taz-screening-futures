@@ -36,6 +36,16 @@ const MMR         = 0.5;       // maintenance margin rate (%) — perkiraan kons
 // Perp Level Checker (di-host di GitHub Pages) — link "Cek sizing" per sinyal. Ganti kalau host di URL lain.
 const CHECKER_URL = 'https://mumtaz-7.github.io/taz-screening-futures/SMS_Perp_Level_Checker.html';
 
+// Coin yg di perp Binance pake alias multiplier (spot nama polos → perp 1000x). Display notif dipetakan biar
+// SIMBOL + link chart + angka sesuai kontrak perp yg beneran dieksekusi. Track record INTERNAL tetap skala spot
+// (data & evaluasi jalan di spot). Kalau Binance nambah coin 1000x baru yg spot-nya nama polos, tambahin di sini.
+const PERP_ALIAS = {
+  SHIBUSDT:{perp:'1000SHIBUSDT',mult:1000},  PEPEUSDT:{perp:'1000PEPEUSDT',mult:1000},
+  BONKUSDT:{perp:'1000BONKUSDT',mult:1000},  FLOKIUSDT:{perp:'1000FLOKIUSDT',mult:1000},
+  LUNCUSDT:{perp:'1000LUNCUSDT',mult:1000},  XECUSDT:{perp:'1000XECUSDT',mult:1000},
+};
+const aliasOf = sym => PERP_ALIAS[sym] || {perp:sym, mult:1};
+
 const STATE_FILE  = __dirname + '/state.json';
 const TG_TOKEN    = process.env.TELEGRAM_TOKEN;
 const TG_CHAT     = process.env.TELEGRAM_CHAT_ID;
@@ -238,7 +248,8 @@ async function notify(fresh, ready){
   const cap = 25;
   const shown = fresh.slice(0, cap);
   let msg = `▸ <b>${fresh.length} Sinyal Futures Ready baru</b> · <b>M15</b>\n\n`;
-  for(const k of shown){ const s = k.split('::')[0], a = ready[s];
+  for(const k of shown){ const s0 = k.split('::')[0], a = ready[s0];
+    const al = aliasOf(s0), s = al.perp, M = al.mult;
     const arrow = a.dir==='LONG' ? '▲ LONG' : '▼ SHORT';
     const tv  = `https://www.tradingview.com/chart/?symbol=BINANCE:${s}.P`;
     const chk = `${CHECKER_URL}?sym=${s}`;
@@ -249,11 +260,11 @@ async function notify(fresh, ready){
       continue;
     }
     const src   = a.tpSrc==='OB' ? ' · OB' : a.tpSrc==='EQ' ? ' · EQ' : '';
-    const inval = a.inval != null ? ` · inval ${fmt(a.inval)}` : '';
+    const inval = a.inval != null ? ` · inval ${fmt(a.inval*M)}` : '';
     msg += `<b>${s}</b> · ${arrow} · ${a.setup}\n`;
-    msg += `• Entry : <code>${fmt(a.entry)}</code>\n`;
-    msg += `• TP +${a.gainPct.toFixed(1)}%${src} : <code>${fmt(a.tp)}</code>\n`;
-    msg += `• SL −${a.slPct.toFixed(1)}%${inval} : <code>${fmt(a.sl)}</code>\n`;
+    msg += `• Entry : <code>${fmt(a.entry*M)}</code>\n`;
+    msg += `• TP +${a.gainPct.toFixed(1)}%${src} : <code>${fmt(a.tp*M)}</code>\n`;
+    msg += `• SL −${a.slPct.toFixed(1)}%${inval} : <code>${fmt(a.sl*M)}</code>\n`;
     msg += `• R:R ${a.rr.toFixed(2)} · Lev ${a.lev}×\n`;
     msg += `• <a href="${tv}">Buka chart</a> · <a href="${chk}">Cek sizing</a>\n\n`;
   }
@@ -328,16 +339,17 @@ async function notifyUpdates(updates){
   if(!TG_TOKEN || !TG_CHAT_UPDATES){ console.log('TG kosong — skip update.'); return; }
   let msg = `▸ <b>Update Posisi Futures</b> · <b>M15</b>\n\n`;
   for(const t of updates){
+    const al = aliasOf(t.symbol), s = al.perp, M = al.mult;
     const arrow = t.dir==='LONG' ? '▲ LONG' : '▼ SHORT';
-    msg += `<b>${t.symbol}</b> · ${arrow} · ${t.setup}\n`;
+    msg += `<b>${s}</b> · ${arrow} · ${t.setup}\n`;
     if(t.status==='open'){
       const src = t.tpSrc==='OB' ? ' · OB' : t.tpSrc==='EQ' ? ' · EQ' : '';
       msg += `• Status : ● Entry kefill — posisi jalan\n`;
-      msg += `• Entry : <code>${fmt(t.entry)}</code>\n`;
-      msg += `• TP +${t.gainPct.toFixed(1)}%${src} : <code>${fmt(t.tp)}</code>\n`;
-      msg += `• SL −${t.slPct.toFixed(1)}% : <code>${fmt(t.sl)}</code>\n`;
-    } else if(t.status==='win'){ msg += `• Status : ✓ TP kena · WIN +${t.R}R\n• Entry <code>${fmt(t.entry)}</code> → TP <code>${fmt(t.tp)}</code>\n`;
-    } else if(t.status==='loss'){ msg += `• Status : ✗ SL kena · LOSS -1R\n• Entry <code>${fmt(t.entry)}</code> → SL <code>${fmt(t.sl)}</code>\n`;
+      msg += `• Entry : <code>${fmt(t.entry*M)}</code>\n`;
+      msg += `• TP +${t.gainPct.toFixed(1)}%${src} : <code>${fmt(t.tp*M)}</code>\n`;
+      msg += `• SL −${t.slPct.toFixed(1)}% : <code>${fmt(t.sl*M)}</code>\n`;
+    } else if(t.status==='win'){ msg += `• Status : ✓ TP kena · WIN +${t.R}R\n• Entry <code>${fmt(t.entry*M)}</code> → TP <code>${fmt(t.tp*M)}</code>\n`;
+    } else if(t.status==='loss'){ msg += `• Status : ✗ SL kena · LOSS -1R\n• Entry <code>${fmt(t.entry*M)}</code> → SL <code>${fmt(t.sl*M)}</code>\n`;
     } else if(t.status==='void'){ const why=t.voidReason==='tp-duluan'?'harga ke TP duluan sebelum entry':'harga nggak retest ke entry'; msg += `• Status : ○ Void — ${why}\n`; }
     msg += `\n`;
   }
