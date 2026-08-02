@@ -304,5 +304,22 @@
    "open"
   ],
   "fillTime": 1785686400000
+ },
+ {
+  "id": "HYPERUSDT::SHORT::BoS::1785690000000",
+  "symbol": "HYPERUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0667,
+  "sl": 0.07314999999999999,
+  "tp": 0.0549,
+  "tpSrc": "WL",
+  "slPct": 9.67,
+  "gainPct": 17.69,
+  "rr": 1.83,
+  "lev": 6,
+  "signalTime": 1785690000000,
+  "status": "pending",
+  "createdAt": 1785690038614
  }
 ]
