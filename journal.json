@@ -97,9 +97,12 @@
   "rr": 1.67,
   "lev": 7,
   "signalTime": 1785634200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1785634236857,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1785637800000
  },
  {
   "id": "FETUSDT::LONG::ChoCh::1785636900000",
