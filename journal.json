@@ -370,5 +370,22 @@
    "open"
   ],
   "fillTime": 1785708000000
+ },
+ {
+  "id": "COTIUSDT::SHORT::ChoCh::1785711600000",
+  "symbol": "COTIUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.01327,
+  "sl": 0.014199999999999999,
+  "tp": 0.01058,
+  "tpSrc": "OB",
+  "slPct": 7.01,
+  "gainPct": 20.27,
+  "rr": 2.89,
+  "lev": 9,
+  "signalTime": 1785711600000,
+  "status": "pending",
+  "createdAt": 1785711645266
  }
 ]

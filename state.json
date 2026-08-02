@@ -1,4 +1,7 @@
 {
-  "ready": [],
-  "at": "2026-08-02T22:45:29.221Z"
+  "ready": [
+    "COTIUSDT::SHORT::ChoCh",
+    "HYPERUSDT::SHORT::BoS"
+  ],
+  "at": "2026-08-02T23:00:45.265Z"
 }
