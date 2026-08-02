@@ -181,8 +181,12 @@
   "rr": 1.06,
   "lev": 6,
   "signalTime": 1785654000000,
-  "status": "pending",
-  "createdAt": 1785654042227
+  "status": "open",
+  "createdAt": 1785654042227,
+  "fillTime": 1785654000000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "ESPUSDT::LONG::BoS::1785654000000",
@@ -198,7 +202,11 @@
   "rr": 4.26,
   "lev": 10,
   "signalTime": 1785654000000,
-  "status": "pending",
-  "createdAt": 1785654042227
+  "status": "open",
+  "createdAt": 1785654042227,
+  "fillTime": 1785654000000,
+  "notified": [
+   "open"
+  ]
  }
 ]
