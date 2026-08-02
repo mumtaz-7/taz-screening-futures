@@ -121,5 +121,22 @@
   "status": "pending",
   "createdAt": 1785636932250,
   "notified": []
+ },
+ {
+  "id": "SHIBUSDT::LONG::ChoCh::1785645000000",
+  "symbol": "SHIBUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00000497,
+  "sl": 0.00000473,
+  "tp": 0.00000543,
+  "tpSrc": "OB",
+  "slPct": 4.83,
+  "gainPct": 9.26,
+  "rr": 1.92,
+  "lev": 12,
+  "signalTime": 1785645000000,
+  "status": "pending",
+  "createdAt": 1785645037630
  }
 ]
