@@ -82,5 +82,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "1000SATSUSDT::LONG::ChoCh::1785634200000",
+  "symbol": "1000SATSUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00001091,
+  "sl": 0.00000992,
+  "tp": 0.00001256,
+  "tpSrc": "WH",
+  "slPct": 9.07,
+  "gainPct": 15.12,
+  "rr": 1.67,
+  "lev": 7,
+  "signalTime": 1785634200000,
+  "status": "pending",
+  "createdAt": 1785634236857
  }
 ]
