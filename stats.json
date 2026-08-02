@@ -1,15 +1,19 @@
 {
-  "updatedAt": "2026-08-02T06:15:30.378Z",
+  "updatedAt": "2026-08-02T06:30:37.427Z",
   "all": {
-    "n": 0,
-    "win": null,
-    "er": null,
+    "n": 1,
+    "wins": 0,
+    "losses": 1,
+    "win": 0,
+    "er": -1,
     "avgWin": null
   },
   "LONG": {
-    "n": 0,
-    "win": null,
-    "er": null,
+    "n": 1,
+    "wins": 0,
+    "losses": 1,
+    "win": 0,
+    "er": -1,
     "avgWin": null
   },
   "SHORT": {
@@ -25,14 +29,16 @@
     "avgWin": null
   },
   "BoS": {
-    "n": 0,
-    "win": null,
-    "er": null,
+    "n": 1,
+    "wins": 0,
+    "losses": 1,
+    "win": 0,
+    "er": -1,
     "avgWin": null
   },
-  "open": 6,
-  "pending": 1,
+  "open": 5,
+  "pending": 2,
   "void": 0,
   "expired": 0,
-  "totalSignals": 7
+  "totalSignals": 8
 }

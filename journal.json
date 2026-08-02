@@ -76,12 +76,15 @@
   "rr": 4.62,
   "lev": 10,
   "signalTime": 1785631500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785631531156,
   "fillTime": 1785631500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785651300000
  },
  {
   "id": "1000SATSUSDT::LONG::ChoCh::1785634200000",
@@ -142,5 +145,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HEIUSDT::LONG::ChoCh::1785652200000",
+  "symbol": "HEIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0837,
+  "sl": 0.08085,
+  "tp": 0.09104999999999999,
+  "tpSrc": "EQ",
+  "slPct": 3.41,
+  "gainPct": 8.78,
+  "rr": 2.58,
+  "lev": 17,
+  "signalTime": 1785652200000,
+  "status": "pending",
+  "createdAt": 1785652236745
  }
 ]
