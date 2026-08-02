@@ -184,12 +184,15 @@
   "rr": 1.06,
   "lev": 6,
   "signalTime": 1785654000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785654042227,
   "fillTime": 1785654000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785672900000
  },
  {
   "id": "ESPUSDT::LONG::BoS::1785654000000",
