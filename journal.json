@@ -346,5 +346,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ORDIUSDT::SHORT::BoS::1785697200000",
+  "symbol": "ORDIUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 3.532,
+  "sl": 3.574,
+  "tp": 3.238,
+  "tpSrc": "OB",
+  "slPct": 1.19,
+  "gainPct": 8.32,
+  "rr": 7,
+  "lev": 25,
+  "signalTime": 1785697200000,
+  "status": "pending",
+  "createdAt": 1785697240478
  }
 ]
