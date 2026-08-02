@@ -208,5 +208,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GIGGLEUSDT::LONG::ChoCh::1785658500000",
+  "symbol": "GIGGLEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 41.69,
+  "sl": 38.330000000000005,
+  "tp": 46.39,
+  "tpSrc": "EQ",
+  "slPct": 8.06,
+  "gainPct": 11.27,
+  "rr": 1.4,
+  "lev": 7,
+  "signalTime": 1785658500000,
+  "status": "pending",
+  "createdAt": 1785658528997
  }
 ]
