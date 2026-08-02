@@ -205,12 +205,15 @@
   "rr": 4.26,
   "lev": 10,
   "signalTime": 1785654000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785654042227,
   "fillTime": 1785654000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785662100000
  },
  {
   "id": "GIGGLEUSDT::LONG::ChoCh::1785658500000",
@@ -247,8 +250,11 @@
   "rr": 4.07,
   "lev": 13,
   "signalTime": 1785660300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1785660330531,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1785662100000
  }
 ]
