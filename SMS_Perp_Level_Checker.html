@@ -351,7 +351,10 @@ async function getKlines(sym,tf){ const raw=await apiGet("/api/v3/klines",{symbo
   if(raw.length&&raw[raw.length-1][6]>Date.now())raw.pop(); return raw.map(k=>({t:k[0],o:+k[1],h:+k[2],l:+k[3],c:+k[4],v:+k[5]})); }
 let TICKMAP=null;
 async function getTick(sym){ if(!TICKMAP){ const info=await apiGet("/api/v3/exchangeInfo"); TICKMAP={}; for(const s of info.symbols){ const f=(s.filters||[]).find(x=>x.filterType==="PRICE_FILTER"); if(f)TICKMAP[s.symbol]=f.tickSize; } } return TICKMAP[sym]||null; }
-function decs(x){ const s=""+x; const i=s.indexOf("."); return i<0?0:s.length-i-1; }
+function decs(x){ let s=typeof x==="string"?x:(""+x);
+  const m=s.match(/^-?\d*\.?(\d*)[eE]([+-]?\d+)$/); // notasi ilmiah (mis. 1e-8) → JS nulis harga/tick super kecil begini
+  if(m){ return Math.max(0, m[1].length - parseInt(m[2],10)); }
+  const i=s.indexOf("."); return i<0?0:s.length-i-1; }
 function rndTick(x,tick,dir){ const q=x/tick; const r=dir==="up"?Math.ceil(q-1e-9):Math.floor(q+1e-9); return r*tick; }
 function g(x){ if(x==null)return"–"; const a=Math.abs(x); if(a>=1000)return x.toFixed(2); return parseFloat(x.toPrecision(6)).toString(); }
 let TF="15m";
