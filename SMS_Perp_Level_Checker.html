@@ -40,6 +40,8 @@ button.go:disabled{opacity:.5;}
 .meta .m .k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;}
 .meta .m .v{font-size:18px;font-weight:700;font-variant-numeric:tabular-nums;margin-top:3px;}
 .meta .m.lev .v{color:var(--gold);}
+.levbtn{display:inline-flex;width:26px;height:26px;align-items:center;justify-content:center;border:1px solid var(--border2);border-radius:8px;cursor:pointer;color:var(--txt2);user-select:none;font-size:17px;font-weight:600;line-height:1;}
+.levbtn:active{background:var(--panel2);}
 .hint{font-size:12px;color:var(--faint);text-align:center;margin-top:16px;line-height:1.65;}
 .toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(20px);background:var(--violet);color:#141019;padding:11px 20px;border-radius:999px;font-size:13px;font-weight:700;opacity:0;transition:.2s;pointer-events:none;z-index:9;}
 .toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
@@ -363,6 +365,13 @@ function g(x){ if(x==null)return"–"; const a=Math.abs(x); if(a>=1000)return x.
 let TF="15m";
 document.querySelectorAll("#tfsel button").forEach(b=>b.onclick=()=>{TF=b.dataset.tf;document.querySelectorAll("#tfsel button").forEach(x=>x.classList.remove("on"));b.classList.add("on");});
 function toast(t){const el=document.getElementById("toast");el.textContent=t;el.classList.add("show");setTimeout(()=>el.classList.remove("show"),1200);}
+// atur leverage manual (mis. dibatasin exchange / mau lebih konservatif). Turun = liq makin jauh (aman) tapi margin naik. Naik di atas rekomendasi = liq deket SL (bahaya).
+function stepLev(d){ let l=(window.__lev||1)+d; if(l<1)l=1; if(l>50)l=50; window.__lev=l;
+  const rec=window.__rec||25, over=l>rec, liq=100/l-0.5;
+  const vv=document.getElementById("levval"), ll=document.getElementById("levliq");
+  if(vv){ vv.textContent=l+"×"; vv.style.color=over?"var(--red)":"var(--gold)"; }
+  if(ll){ ll.innerHTML="liq -"+liq.toFixed(1)+"% · margin ×"+l+(over?' · <span style="color:var(--red)">di atas aman!</span>':''); }
+}
 async function copy(v){ try{ await navigator.clipboard.writeText(String(v)); toast(v+" tersalin"); }catch(e){ toast("gagal copy"); } }
 function render(sym,a,tickStr){
   const card=document.getElementById("card"), err=document.getElementById("err");
@@ -379,7 +388,8 @@ function render(sym,a,tickStr){
     const SL = rndTick(a.sl, tick, isL?"up":"down");
     const TP = rndTick(a.tp, tick, isL?"down":"up");
     // metrik dari nilai MENTAH engine data PERP; harga cuma dibuletin ke tick perp buat display/paste
-    const slPct=a.slPct, gainPct=a.gainPct, rr=a.rr, lev=levMMR(a.slPct), liq=lev?(100/lev-0.5):null;
+    const slPct=a.slPct, gainPct=a.gainPct, rr=a.rr;
+    const recLev=levMMR(a.slPct); window.__rec=recLev; window.__lev=recLev; window.__slpct=slPct;
     const fE=E.toFixed(N), fSL=SL.toFixed(N), fTP=TP.toFixed(N);
     rows=`<div class="lvl entry" onclick="copy('${fE}')"><span class="k">Entry</span><span class="v">${fE} <span class="cp">tap copy</span></span></div>
     <div class="lvl sl" onclick="copy('${fSL}')"><span class="k">Stop Loss</span><span class="v">${fSL} <span class="cp">tap copy</span></span></div>
@@ -388,7 +398,9 @@ function render(sym,a,tickStr){
       <div class="m"><div class="k">R : R</div><div class="v">${rr!=null?rr.toFixed(2):'–'}</div></div>
       <div class="m"><div class="k">Risk (SL%)</div><div class="v" style="color:var(--red)">${slPct.toFixed(1)}%</div></div>
       <div class="m"><div class="k">Target (Gain%)</div><div class="v" style="color:var(--green)">+${gainPct.toFixed(1)}%</div></div>
-      <div class="m lev"><div class="k">Lev aman</div><div class="v">${lev?lev+'×':'–'}${liq!=null?' <span style="font-size:12px;color:var(--faint)">liq -'+liq.toFixed(1)+'%</span>':''}</div></div>
+      <div class="m lev"><div class="k">Leverage <span style="color:var(--faint);text-transform:none;font-weight:500">· aman ≤${recLev?recLev+'×':'–'}</span></div>
+        <div class="v" style="gap:10px;align-items:center">${recLev?`<span class="levbtn" onclick="stepLev(-1)">−</span><span id="levval">${recLev}×</span><span class="levbtn" onclick="stepLev(1)">+</span>`:'–'}</div>
+        ${recLev?`<div id="levliq" style="font-size:11px;color:var(--faint);margin-top:5px;font-weight:500">liq -${(100/recLev-0.5).toFixed(1)}% · margin ×${recLev}</div>`:''}</div>
     </div>`;
   } else {
     rows=`<div style="padding:18px;font-size:14px;color:var(--txt2);line-height:1.65">Status <b>WATCH</b> — struktur ada tapi belum ada level entry fresh. Tunggu break (ChoCh/BoS) terkonfirmasi, atau cek TF lain.</div>`;
