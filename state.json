@@ -1,6 +1,7 @@
 {
   "ready": [
-    "HOMEUSDT::LONG::ChoCh"
+    "HOMEUSDT::LONG::ChoCh",
+    "UNIUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-08-03T07:30:57.553Z"
+  "at": "2026-08-03T07:45:35.135Z"
 }
