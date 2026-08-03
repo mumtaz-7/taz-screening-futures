@@ -433,12 +433,15 @@
   "rr": 1.33,
   "lev": 11,
   "signalTime": 1785740400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785740442994,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1785745800000
+  "fillTime": 1785745800000,
+  "R": -1,
+  "resolvedTime": 1785748500000
  },
  {
   "id": "UNIUSDT::SHORT::ChoCh::1785743100000",
@@ -457,5 +460,22 @@
   "status": "pending",
   "createdAt": 1785743135136,
   "notified": []
+ },
+ {
+  "id": "BICOUSDT::LONG::ChoCh::1785749400000",
+  "symbol": "BICOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01577,
+  "sl": 0.013685000000000001,
+  "tp": 0.01891,
+  "tpSrc": "WH",
+  "slPct": 13.22,
+  "gainPct": 19.91,
+  "rr": 1.51,
+  "lev": 4,
+  "signalTime": 1785749400000,
+  "status": "pending",
+  "createdAt": 1785749469821
  }
 ]
