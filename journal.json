@@ -563,9 +563,12 @@
   "rr": 1.83,
   "lev": 15,
   "signalTime": 1785776400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1785776444669,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1785794400000
  },
  {
   "id": "NILUSDT::LONG::BoS::1785782700000",
