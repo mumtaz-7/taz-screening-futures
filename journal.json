@@ -536,12 +536,15 @@
   "rr": 1.35,
   "lev": 11,
   "signalTime": 1785767400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785767444343,
   "fillTime": 1785767400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785776400000
  },
  {
   "id": "PUMPUSDT::LONG::BoS::1785776400000",
@@ -558,6 +561,7 @@
   "lev": 15,
   "signalTime": 1785776400000,
   "status": "pending",
-  "createdAt": 1785776444669
+  "createdAt": 1785776444669,
+  "notified": []
  }
 ]
