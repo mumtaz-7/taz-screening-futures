@@ -487,5 +487,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "VICUSDT::LONG::BoS::1785762000000",
+  "symbol": "VICUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0324,
+  "sl": 0.02925,
+  "tp": 0.0363,
+  "tpSrc": "WH",
+  "slPct": 9.72,
+  "gainPct": 12.04,
+  "rr": 1.24,
+  "lev": 6,
+  "signalTime": 1785762000000,
+  "status": "pending",
+  "createdAt": 1785762041758
  }
 ]
