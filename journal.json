@@ -388,9 +388,12 @@
   "rr": 2.89,
   "lev": 9,
   "signalTime": 1785711600000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1785711645266,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "EULUSDT::SHORT::ChoCh::1785731400000",
