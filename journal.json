@@ -481,12 +481,15 @@
   "rr": 1.51,
   "lev": 4,
   "signalTime": 1785749400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785749469821,
   "fillTime": 1785749400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.51,
+  "resolvedTime": 1785762900000
  },
  {
   "id": "VICUSDT::LONG::BoS::1785762000000",
