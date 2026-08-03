@@ -608,5 +608,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "VANRYUSDT::LONG::ChoCh::1785797100000",
+  "symbol": "VANRYUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.003524,
+  "sl": 0.0033485,
+  "tp": 0.004005,
+  "tpSrc": "WH",
+  "slPct": 4.98,
+  "gainPct": 13.65,
+  "rr": 2.74,
+  "lev": 12,
+  "signalTime": 1785797100000,
+  "status": "pending",
+  "createdAt": 1785797129522
  }
 ]
