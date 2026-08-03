@@ -415,9 +415,12 @@
   "rr": 1.63,
   "lev": 11,
   "signalTime": 1785731400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1785731437645,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1785749400000
  },
  {
   "id": "HOMEUSDT::LONG::ChoCh::1785740400000",
@@ -475,7 +478,11 @@
   "rr": 1.51,
   "lev": 4,
   "signalTime": 1785749400000,
-  "status": "pending",
-  "createdAt": 1785749469821
+  "status": "open",
+  "createdAt": 1785749469821,
+  "fillTime": 1785749400000,
+  "notified": [
+   "open"
+  ]
  }
 ]
