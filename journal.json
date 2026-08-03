@@ -515,5 +515,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "COTIUSDT::SHORT::BoS::1785767400000",
+  "symbol": "COTIUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.01143,
+  "sl": 0.01206,
+  "tp": 0.01058,
+  "tpSrc": "OB",
+  "slPct": 5.51,
+  "gainPct": 7.44,
+  "rr": 1.35,
+  "lev": 11,
+  "signalTime": 1785767400000,
+  "status": "pending",
+  "createdAt": 1785767444343
  }
 ]
