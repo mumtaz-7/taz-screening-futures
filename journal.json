@@ -310,12 +310,15 @@
   "rr": 1.84,
   "lev": 12,
   "signalTime": 1785685500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785685531197,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1785686400000
+  "fillTime": 1785686400000,
+  "R": -1,
+  "resolvedTime": 1785768300000
  },
  {
   "id": "HYPERUSDT::SHORT::BoS::1785690000000",
@@ -418,12 +421,15 @@
   "rr": 1.63,
   "lev": 11,
   "signalTime": 1785731400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785731437645,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1785749400000
+  "fillTime": 1785749400000,
+  "R": -1,
+  "resolvedTime": 1785768300000
  },
  {
   "id": "HOMEUSDT::LONG::ChoCh::1785740400000",
