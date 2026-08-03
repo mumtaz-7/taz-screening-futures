@@ -61,12 +61,15 @@
   "rr": 9,
   "lev": 14,
   "signalTime": 1785617100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785617129222,
   "fillTime": 1785617100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785786300000
  },
  {
   "id": "EULUSDT::LONG::BoS::1785631500000",
