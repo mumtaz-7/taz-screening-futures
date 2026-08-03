@@ -238,12 +238,15 @@
   "rr": 1.4,
   "lev": 7,
   "signalTime": 1785658500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785658528997,
   "fillTime": 1785658500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.4,
+  "resolvedTime": 1785736800000
  },
  {
   "id": "HEIUSDT::LONG::BoS::1785660300000",
