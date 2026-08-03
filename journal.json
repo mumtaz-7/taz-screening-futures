@@ -584,5 +584,22 @@
   "status": "pending",
   "createdAt": 1785782731660,
   "notified": []
+ },
+ {
+  "id": "EULUSDT::SHORT::ChoCh::1785790800000",
+  "symbol": "EULUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 1.478,
+  "sl": 1.5110000000000001,
+  "tp": 1.366,
+  "tpSrc": "WL",
+  "slPct": 2.23,
+  "gainPct": 7.58,
+  "rr": 3.39,
+  "lev": 25,
+  "signalTime": 1785790800000,
+  "status": "pending",
+  "createdAt": 1785790841271
  }
 ]
