@@ -103,12 +103,15 @@
   "rr": 1.67,
   "lev": 7,
   "signalTime": 1785634200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785634236857,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1785637800000
+  "fillTime": 1785637800000,
+  "R": -1,
+  "resolvedTime": 1785738600000
  },
  {
   "id": "FETUSDT::LONG::ChoCh::1785636900000",
