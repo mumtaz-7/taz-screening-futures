@@ -433,9 +433,12 @@
   "rr": 1.33,
   "lev": 11,
   "signalTime": 1785740400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1785740442994,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1785745800000
  },
  {
   "id": "UNIUSDT::SHORT::ChoCh::1785743100000",
