@@ -1,6 +1,7 @@
 {
   "ready": [
-    "BANKUSDT::SHORT::ChoCh"
+    "BANKUSDT::SHORT::ChoCh",
+    "BICOUSDT::LONG::BoS"
   ],
-  "at": "2026-08-04T22:00:44.147Z"
+  "at": "2026-08-04T22:15:31.850Z"
 }
