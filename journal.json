@@ -771,5 +771,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HFTUSDT::LONG::BoS::1785842100000",
+  "symbol": "HFTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.010017,
+  "sl": 0.0087165,
+  "tp": 0.01372,
+  "tpSrc": "WH",
+  "slPct": 12.98,
+  "gainPct": 36.97,
+  "rr": 2.85,
+  "lev": 5,
+  "signalTime": 1785842100000,
+  "status": "pending",
+  "createdAt": 1785842130367
  }
 ]
