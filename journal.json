@@ -271,12 +271,15 @@
   "rr": 4.07,
   "lev": 13,
   "signalTime": 1785660300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785660330531,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1785662100000
+  "fillTime": 1785662100000,
+  "R": 4.07,
+  "resolvedTime": 1785861900000
  },
  {
   "id": "HYPERUSDT::SHORT::ChoCh::1785667500000",
