@@ -883,9 +883,12 @@
   "rr": 3.1,
   "lev": 7,
   "signalTime": 1785879000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1785879037149,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1785881700000
  },
  {
   "id": "BICOUSDT::LONG::BoS::1785881700000",
@@ -902,6 +905,7 @@
   "lev": 6,
   "signalTime": 1785881700000,
   "status": "pending",
-  "createdAt": 1785881731851
+  "createdAt": 1785881731851,
+  "notified": []
  }
 ]
