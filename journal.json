@@ -635,5 +635,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HFTUSDT::LONG::ChoCh::1785810600000",
+  "symbol": "HFTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.009537,
+  "sl": 0.0077235,
+  "tp": 0.01372,
+  "tpSrc": "WH",
+  "slPct": 19.02,
+  "gainPct": 43.86,
+  "rr": 2.31,
+  "lev": 3,
+  "signalTime": 1785810600000,
+  "status": "pending",
+  "createdAt": 1785810636163
  }
 ]
