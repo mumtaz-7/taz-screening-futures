@@ -823,5 +823,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "SYNUSDT::LONG::BoS::1785871800000",
+  "symbol": "SYNUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.10059,
+  "sl": 0.08740500000000001,
+  "tp": 0.1186,
+  "tpSrc": "OB",
+  "slPct": 13.11,
+  "gainPct": 17.9,
+  "rr": 1.37,
+  "lev": 4,
+  "signalTime": 1785871800000,
+  "status": "pending",
+  "createdAt": 1785871839210
  }
 ]
