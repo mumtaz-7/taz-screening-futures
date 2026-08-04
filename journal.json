@@ -792,5 +792,22 @@
    "open"
   ],
   "fillTime": 1785843000000
+ },
+ {
+  "id": "LDOUSDT::SHORT::BoS::1785854700000",
+  "symbol": "LDOUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.299,
+  "sl": 0.30545,
+  "tp": 0.2777,
+  "tpSrc": "WL",
+  "slPct": 2.16,
+  "gainPct": 7.12,
+  "rr": 3.3,
+  "lev": 25,
+  "signalTime": 1785854700000,
+  "status": "pending",
+  "createdAt": 1785854733281
  }
 ]
