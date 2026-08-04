@@ -632,12 +632,15 @@
   "rr": 2.74,
   "lev": 12,
   "signalTime": 1785797100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785797129522,
   "fillTime": 1785797100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.74,
+  "resolvedTime": 1785816900000
  },
  {
   "id": "HFTUSDT::LONG::ChoCh::1785810600000",
@@ -674,9 +677,13 @@
   "rr": 1.77,
   "lev": 10,
   "signalTime": 1785814200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1785814238022,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1785816900000
  },
  {
   "id": "EULUSDT::SHORT::BoS::1785816000000",
