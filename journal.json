@@ -702,5 +702,39 @@
   "status": "pending",
   "createdAt": 1785816040435,
   "notified": []
+ },
+ {
+  "id": "BICOUSDT::LONG::ChoCh::1785818700000",
+  "symbol": "BICOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01732,
+  "sl": 0.015445000000000002,
+  "tp": 0.01985,
+  "tpSrc": "WH",
+  "slPct": 10.83,
+  "gainPct": 14.61,
+  "rr": 1.35,
+  "lev": 5,
+  "signalTime": 1785818700000,
+  "status": "pending",
+  "createdAt": 1785818728738
+ },
+ {
+  "id": "HOMEUSDT::LONG::ChoCh::1785818700000",
+  "symbol": "HOMEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00834,
+  "sl": 0.0069900000000000006,
+  "tp": 0.00971,
+  "tpSrc": "WH",
+  "slPct": 16.19,
+  "gainPct": 16.43,
+  "rr": 1.01,
+  "lev": 4,
+  "signalTime": 1785818700000,
+  "status": "pending",
+  "createdAt": 1785818728738
  }
 ]
