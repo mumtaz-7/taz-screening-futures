@@ -738,11 +738,14 @@
   "rr": 1.01,
   "lev": 4,
   "signalTime": 1785818700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785818728738,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1785819600000
+  "fillTime": 1785819600000,
+  "R": 1.01,
+  "resolvedTime": 1785825900000
  }
 ]
