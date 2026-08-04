@@ -750,5 +750,22 @@
   "fillTime": 1785819600000,
   "R": 1.01,
   "resolvedTime": 1785825900000
+ },
+ {
+  "id": "GIGGLEUSDT::SHORT::ChoCh::1785839400000",
+  "symbol": "GIGGLEUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 33.53,
+  "sl": 35.195,
+  "tp": 30.48,
+  "tpSrc": "OB",
+  "slPct": 4.97,
+  "gainPct": 9.1,
+  "rr": 1.83,
+  "lev": 12,
+  "signalTime": 1785839400000,
+  "status": "pending",
+  "createdAt": 1785839442718
  }
 ]
