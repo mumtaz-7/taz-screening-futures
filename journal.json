@@ -602,12 +602,15 @@
   "rr": 3.39,
   "lev": 25,
   "signalTime": 1785790800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785790841271,
   "fillTime": 1785790800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785802500000
  },
  {
   "id": "VANRYUSDT::LONG::ChoCh::1785797100000",
