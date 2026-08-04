@@ -566,12 +566,15 @@
   "rr": 1.83,
   "lev": 15,
   "signalTime": 1785776400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785776444669,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1785794400000
+  "fillTime": 1785794400000,
+  "R": 1.83,
+  "resolvedTime": 1785855600000
  },
  {
   "id": "NILUSDT::LONG::BoS::1785782700000",
