@@ -1,6 +1,7 @@
 {
   "ready": [
-    "HFTUSDT::LONG::ChoCh"
+    "HFTUSDT::LONG::ChoCh",
+    "VANRYUSDT::LONG::BoS"
   ],
-  "at": "2026-08-04T03:15:34.481Z"
+  "at": "2026-08-04T03:30:38.021Z"
 }

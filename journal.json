@@ -653,5 +653,22 @@
   "status": "pending",
   "createdAt": 1785810636163,
   "notified": []
+ },
+ {
+  "id": "VANRYUSDT::LONG::BoS::1785814200000",
+  "symbol": "VANRYUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.003618,
+  "sl": 0.003402,
+  "tp": 0.004,
+  "tpSrc": "WH",
+  "slPct": 5.97,
+  "gainPct": 10.56,
+  "rr": 1.77,
+  "lev": 10,
+  "signalTime": 1785814200000,
+  "status": "pending",
+  "createdAt": 1785814238022
  }
 ]
