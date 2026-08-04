@@ -723,12 +723,15 @@
   "rr": 1.35,
   "lev": 5,
   "signalTime": 1785818700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785818728738,
   "fillTime": 1785818700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.35,
+  "resolvedTime": 1785861000000
  },
  {
   "id": "HOMEUSDT::LONG::ChoCh::1785818700000",
