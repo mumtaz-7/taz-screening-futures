@@ -913,12 +913,15 @@
   "rr": 1.17,
   "lev": 6,
   "signalTime": 1785881700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785881731851,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1785887100000
+  "fillTime": 1785887100000,
+  "R": 1.17,
+  "resolvedTime": 1785906000000
  },
  {
   "id": "HOMEUSDT::LONG::ChoCh::1785889800000",
