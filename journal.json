@@ -943,12 +943,15 @@
   "rr": 2.59,
   "lev": 6,
   "signalTime": 1785889800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785889837766,
   "fillTime": 1785889800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785967200000
  },
  {
   "id": "GIGGLEUSDT::SHORT::BoS::1785895200000",
@@ -1296,5 +1299,22 @@
   "status": "pending",
   "createdAt": 1785966333468,
   "notified": []
+ },
+ {
+  "id": "HOMEUSDT::SHORT::BoS::1785968100000",
+  "symbol": "HOMEUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.00889,
+  "sl": 0.009444999999999999,
+  "tp": 0.0074,
+  "tpSrc": "OB",
+  "slPct": 6.24,
+  "gainPct": 16.76,
+  "rr": 2.68,
+  "lev": 10,
+  "signalTime": 1785968100000,
+  "status": "pending",
+  "createdAt": 1785968129491
  }
 ]
