@@ -883,12 +883,15 @@
   "rr": 3.1,
   "lev": 7,
   "signalTime": 1785879000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785879037149,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1785881700000
+  "fillTime": 1785881700000,
+  "R": -1,
+  "resolvedTime": 1785896100000
  },
  {
   "id": "BICOUSDT::LONG::BoS::1785881700000",
@@ -946,8 +949,28 @@
   "rr": 1.48,
   "lev": 12,
   "signalTime": 1785895200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1785895246217,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1785896100000
+ },
+ {
+  "id": "ERAUSDT::LONG::BoS::1785897000000",
+  "symbol": "ERAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0645,
+  "sl": 0.06330000000000001,
+  "tp": 0.0712,
+  "tpSrc": "WH",
+  "slPct": 1.86,
+  "gainPct": 10.39,
+  "rr": 5.58,
+  "lev": 25,
+  "signalTime": 1785897000000,
+  "status": "pending",
+  "createdAt": 1785897042564
  }
 ]
