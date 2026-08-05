@@ -777,12 +777,15 @@
   "rr": 1.83,
   "lev": 12,
   "signalTime": 1785839400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785839442718,
   "fillTime": 1785839400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785939300000
  },
  {
   "id": "HFTUSDT::LONG::BoS::1785842100000",
@@ -1145,5 +1148,22 @@
    "open"
   ],
   "fillTime": 1785936600000
+ },
+ {
+  "id": "ACEUSDT::LONG::ChoCh::1785940200000",
+  "symbol": "ACEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0729,
+  "sl": 0.06825,
+  "tp": 0.079,
+  "tpSrc": "WH",
+  "slPct": 6.38,
+  "gainPct": 8.37,
+  "rr": 1.31,
+  "lev": 9,
+  "signalTime": 1785940200000,
+  "status": "pending",
+  "createdAt": 1785940243079
  }
 ]
