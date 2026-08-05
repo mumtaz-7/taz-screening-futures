@@ -1003,5 +1003,39 @@
    "open"
   ],
   "fillTime": 1785902400000
+ },
+ {
+  "id": "BANKUSDT::SHORT::BoS::1785904200000",
+  "symbol": "BANKUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0502,
+  "sl": 0.0589,
+  "tp": 0.038,
+  "tpSrc": "WL",
+  "slPct": 17.33,
+  "gainPct": 24.3,
+  "rr": 1.4,
+  "lev": 3,
+  "signalTime": 1785904200000,
+  "status": "pending",
+  "createdAt": 1785904240533
+ },
+ {
+  "id": "VICUSDT::LONG::ChoCh::1785904200000",
+  "symbol": "VICUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0348,
+  "sl": 0.03180000000000001,
+  "tp": 0.045899999999999996,
+  "tpSrc": "EQ",
+  "slPct": 8.62,
+  "gainPct": 31.9,
+  "rr": 3.7,
+  "lev": 7,
+  "signalTime": 1785904200000,
+  "status": "pending",
+  "createdAt": 1785904240533
  }
 ]
