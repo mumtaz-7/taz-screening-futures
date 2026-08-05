@@ -1278,5 +1278,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MMTUSDT::SHORT::ChoCh::1785966300000",
+  "symbol": "MMTUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.1578,
+  "sl": 0.1725,
+  "tp": 0.141,
+  "tpSrc": "WL",
+  "slPct": 9.32,
+  "gainPct": 10.65,
+  "rr": 1.14,
+  "lev": 6,
+  "signalTime": 1785966300000,
+  "status": "pending",
+  "createdAt": 1785966333468
  }
 ]
