@@ -1226,9 +1226,13 @@
   "rr": 1.11,
   "lev": 2,
   "signalTime": 1785950100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1785950132368,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1785951900000
  },
  {
   "id": "GIGGLEUSDT::LONG::BoS::1785951900000",
@@ -1244,7 +1248,11 @@
   "rr": 1.85,
   "lev": 9,
   "signalTime": 1785951900000,
-  "status": "pending",
-  "createdAt": 1785951938225
+  "status": "open",
+  "createdAt": 1785951938225,
+  "fillTime": 1785951900000,
+  "notified": [
+   "open"
+  ]
  }
 ]
