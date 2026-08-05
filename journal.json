@@ -931,5 +931,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GIGGLEUSDT::SHORT::BoS::1785895200000",
+  "symbol": "GIGGLEUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 32.86,
+  "sl": 34.465,
+  "tp": 30.48,
+  "tpSrc": "OB",
+  "slPct": 4.88,
+  "gainPct": 7.24,
+  "rr": 1.48,
+  "lev": 12,
+  "signalTime": 1785895200000,
+  "status": "pending",
+  "createdAt": 1785895246217
  }
 ]
