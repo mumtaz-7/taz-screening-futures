@@ -1190,5 +1190,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BICOUSDT::LONG::ChoCh::1785949200000",
+  "symbol": "BICOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.02443,
+  "sl": 0.020515,
+  "tp": 0.02857,
+  "tpSrc": "WH",
+  "slPct": 16.03,
+  "gainPct": 16.95,
+  "rr": 1.06,
+  "lev": 4,
+  "signalTime": 1785949200000,
+  "status": "pending",
+  "createdAt": 1785949241112
  }
 ]
