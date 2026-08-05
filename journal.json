@@ -1205,9 +1205,12 @@
   "rr": 1.06,
   "lev": 4,
   "signalTime": 1785949200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1785949241112,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1785951000000
  },
  {
   "id": "HEIUSDT::LONG::BoS::1785950100000",
@@ -1226,5 +1229,22 @@
   "status": "pending",
   "createdAt": 1785950132368,
   "notified": []
+ },
+ {
+  "id": "GIGGLEUSDT::LONG::BoS::1785951900000",
+  "symbol": "GIGGLEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 35.49,
+  "sl": 33.18000000000001,
+  "tp": 39.76,
+  "tpSrc": "OB",
+  "slPct": 6.51,
+  "gainPct": 12.03,
+  "rr": 1.85,
+  "lev": 9,
+  "signalTime": 1785951900000,
+  "status": "pending",
+  "createdAt": 1785951938225
  }
 ]
