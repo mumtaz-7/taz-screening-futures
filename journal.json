@@ -1048,12 +1048,15 @@
   "rr": 3.7,
   "lev": 7,
   "signalTime": 1785904200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785904240533,
   "fillTime": 1785904200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.7,
+  "resolvedTime": 1785924000000
  },
  {
   "id": "HFTUSDT::LONG::BoS::1785907800000",
