@@ -1003,12 +1003,15 @@
   "rr": 1.58,
   "lev": 9,
   "signalTime": 1785901500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785901535432,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1785902400000
+  "fillTime": 1785902400000,
+  "R": -1,
+  "resolvedTime": 1785921300000
  },
  {
   "id": "BANKUSDT::SHORT::BoS::1785904200000",
@@ -1094,5 +1097,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "EULUSDT::SHORT::ChoCh::1785922200000",
+  "symbol": "EULUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 1.42,
+  "sl": 1.4995000000000003,
+  "tp": 1.315,
+  "tpSrc": "OB",
+  "slPct": 5.6,
+  "gainPct": 7.39,
+  "rr": 1.32,
+  "lev": 11,
+  "signalTime": 1785922200000,
+  "status": "pending",
+  "createdAt": 1785922245973
  }
 ]
