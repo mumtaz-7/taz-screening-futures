@@ -1205,12 +1205,15 @@
   "rr": 1.06,
   "lev": 4,
   "signalTime": 1785949200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785949241112,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1785951000000
+  "fillTime": 1785951000000,
+  "R": 1.06,
+  "resolvedTime": 1785961800000
  },
  {
   "id": "HEIUSDT::LONG::BoS::1785950100000",
@@ -1254,5 +1257,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "VANRYUSDT::SHORT::BoS::1785962700000",
+  "symbol": "VANRYUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.003553,
+  "sl": 0.0037419999999999997,
+  "tp": 0.003236,
+  "tpSrc": "WL",
+  "slPct": 5.32,
+  "gainPct": 8.92,
+  "rr": 1.68,
+  "lev": 11,
+  "signalTime": 1785962700000,
+  "status": "pending",
+  "createdAt": 1785962736814
  }
 ]
