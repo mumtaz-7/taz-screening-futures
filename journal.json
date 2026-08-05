@@ -1018,8 +1018,12 @@
   "rr": 1.4,
   "lev": 3,
   "signalTime": 1785904200000,
-  "status": "pending",
-  "createdAt": 1785904240533
+  "status": "open",
+  "createdAt": 1785904240533,
+  "fillTime": 1785904200000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "VICUSDT::LONG::ChoCh::1785904200000",
@@ -1035,7 +1039,11 @@
   "rr": 3.7,
   "lev": 7,
   "signalTime": 1785904200000,
-  "status": "pending",
-  "createdAt": 1785904240533
+  "status": "open",
+  "createdAt": 1785904240533,
+  "fillTime": 1785904200000,
+  "notified": [
+   "open"
+  ]
  }
 ]
