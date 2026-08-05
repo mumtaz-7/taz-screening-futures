@@ -910,5 +910,22 @@
    "open"
   ],
   "fillTime": 1785887100000
+ },
+ {
+  "id": "HOMEUSDT::LONG::ChoCh::1785889800000",
+  "symbol": "HOMEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00964,
+  "sl": 0.00874,
+  "tp": 0.01197,
+  "tpSrc": "WH",
+  "slPct": 9.34,
+  "gainPct": 24.17,
+  "rr": 2.59,
+  "lev": 6,
+  "signalTime": 1785889800000,
+  "status": "pending",
+  "createdAt": 1785889837766
  }
 ]
