@@ -844,12 +844,15 @@
   "rr": 1.37,
   "lev": 4,
   "signalTime": 1785871800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785871839210,
   "fillTime": 1785871800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.37,
+  "resolvedTime": 1785907800000
  },
  {
   "id": "HOMEUSDT::LONG::BoS::1785877200000",
@@ -1063,7 +1066,12 @@
   "rr": 1.41,
   "lev": 2,
   "signalTime": 1785907800000,
-  "status": "pending",
-  "createdAt": 1785907838257
+  "status": "void",
+  "createdAt": 1785907838257,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1785907800000,
+  "notified": [
+   "void"
+  ]
  }
 ]
