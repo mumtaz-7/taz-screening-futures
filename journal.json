@@ -997,12 +997,15 @@
   "rr": 5.58,
   "lev": 25,
   "signalTime": 1785897000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785897042564,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1785899700000
+  "fillTime": 1785899700000,
+  "R": 5.58,
+  "resolvedTime": 1786028400000
  },
  {
   "id": "EPICUSDT::LONG::BoS::1785901500000",
@@ -1497,7 +1500,11 @@
   "rr": 9.59,
   "lev": 25,
   "signalTime": 1786028400000,
-  "status": "pending",
-  "createdAt": 1786028446796
+  "status": "open",
+  "createdAt": 1786028446796,
+  "fillTime": 1786028400000,
+  "notified": [
+   "open"
+  ]
  }
 ]
