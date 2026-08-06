@@ -1296,9 +1296,12 @@
   "rr": 1.14,
   "lev": 6,
   "signalTime": 1785966300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1785966333468,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1785975300000
  },
  {
   "id": "HOMEUSDT::SHORT::BoS::1785968100000",
