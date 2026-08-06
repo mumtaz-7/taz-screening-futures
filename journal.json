@@ -1302,12 +1302,15 @@
   "rr": 1.14,
   "lev": 6,
   "signalTime": 1785966300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785966333468,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1785975300000
+  "fillTime": 1785975300000,
+  "R": -1,
+  "resolvedTime": 1786006800000
  },
  {
   "id": "HOMEUSDT::SHORT::BoS::1785968100000",
