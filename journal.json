@@ -1371,12 +1371,15 @@
   "rr": 2.35,
   "lev": 13,
   "signalTime": 1785991500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785991529926,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1785993300000
+  "fillTime": 1785993300000,
+  "R": -1,
+  "resolvedTime": 1786002300000
  },
  {
   "id": "ACXUSDT::LONG::ChoCh::1785992400000",
