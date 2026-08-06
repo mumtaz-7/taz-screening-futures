@@ -1521,12 +1521,15 @@
   "rr": 1.5,
   "lev": 7,
   "signalTime": 1786033800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786034120943,
   "fillTime": 1786033800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786053600000
  },
  {
   "id": "PORTALUSDT::LONG::BoS::1786034700000",
