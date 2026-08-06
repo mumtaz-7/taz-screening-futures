@@ -1112,12 +1112,15 @@
   "rr": 4.44,
   "lev": 3,
   "signalTime": 1785916800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785916843851,
   "fillTime": 1785916800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786058100000
  },
  {
   "id": "EULUSDT::SHORT::ChoCh::1785922200000",
