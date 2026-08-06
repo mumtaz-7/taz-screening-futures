@@ -1371,9 +1371,12 @@
   "rr": 2.35,
   "lev": 13,
   "signalTime": 1785991500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1785991529926,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1785993300000
  },
  {
   "id": "ACXUSDT::LONG::ChoCh::1785992400000",
