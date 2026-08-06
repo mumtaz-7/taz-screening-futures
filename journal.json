@@ -711,12 +711,15 @@
   "rr": 2.12,
   "lev": 12,
   "signalTime": 1785816000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785816040435,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1785836700000
+  "fillTime": 1785836700000,
+  "R": 2.12,
+  "resolvedTime": 1786024800000
  },
  {
   "id": "BICOUSDT::LONG::ChoCh::1785818700000",
@@ -1127,12 +1130,15 @@
   "rr": 1.32,
   "lev": 11,
   "signalTime": 1785922200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785922245973,
   "fillTime": 1785922200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.32,
+  "resolvedTime": 1786024800000
  },
  {
   "id": "GIGGLEUSDT::LONG::ChoCh::1785935700000",
