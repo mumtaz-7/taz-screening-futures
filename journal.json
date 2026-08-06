@@ -1429,5 +1429,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "EPICUSDT::SHORT::BoS::1786010400000",
+  "symbol": "EPICUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.8872,
+  "sl": 0.9832000000000001,
+  "tp": 0.7833,
+  "tpSrc": "OB",
+  "slPct": 10.82,
+  "gainPct": 11.71,
+  "rr": 1.08,
+  "lev": 5,
+  "signalTime": 1786010400000,
+  "status": "pending",
+  "createdAt": 1786010445467
  }
 ]
