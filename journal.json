@@ -1398,5 +1398,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "NOMUSDT::LONG::BoS::1785996000000",
+  "symbol": "NOMUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0017,
+  "sl": 0.0015650000000000002,
+  "tp": 0.0019,
+  "tpSrc": "WH",
+  "slPct": 7.94,
+  "gainPct": 11.76,
+  "rr": 1.48,
+  "lev": 8,
+  "signalTime": 1785996000000,
+  "status": "pending",
+  "createdAt": 1785996043748
  }
 ]
