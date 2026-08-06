@@ -1353,5 +1353,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MMTUSDT::SHORT::BoS::1785991500000",
+  "symbol": "MMTUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1586,
+  "sl": 0.1661,
+  "tp": 0.141,
+  "tpSrc": "WL",
+  "slPct": 4.73,
+  "gainPct": 11.1,
+  "rr": 2.35,
+  "lev": 13,
+  "signalTime": 1785991500000,
+  "status": "pending",
+  "createdAt": 1785991529926
  }
 ]
