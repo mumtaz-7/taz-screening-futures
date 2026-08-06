@@ -1187,12 +1187,15 @@
   "rr": 4.06,
   "lev": 16,
   "signalTime": 1785942000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785942044066,
   "fillTime": 1785942000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785987000000
  },
  {
   "id": "BICOUSDT::LONG::ChoCh::1785949200000",
