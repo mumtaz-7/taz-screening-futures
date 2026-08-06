@@ -1347,12 +1347,15 @@
   "rr": 2.05,
   "lev": 6,
   "signalTime": 1785978000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785978048016,
   "fillTime": 1785978000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.05,
+  "resolvedTime": 1785992400000
  },
  {
   "id": "MMTUSDT::SHORT::BoS::1785991500000",
@@ -1386,7 +1389,11 @@
   "rr": 3.53,
   "lev": 14,
   "signalTime": 1785992400000,
-  "status": "pending",
-  "createdAt": 1785992448239
+  "status": "open",
+  "createdAt": 1785992448239,
+  "fillTime": 1785992400000,
+  "notified": [
+   "open"
+  ]
  }
 ]
