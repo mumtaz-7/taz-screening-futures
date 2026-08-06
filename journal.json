@@ -1584,12 +1584,15 @@
   "rr": 2.05,
   "lev": 8,
   "signalTime": 1786037400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786037559015,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786040100000
+  "fillTime": 1786040100000,
+  "R": -1,
+  "resolvedTime": 1786050900000
  },
  {
   "id": "COTIUSDT::SHORT::ChoCh::1786044600000",
@@ -1608,5 +1611,39 @@
   "status": "pending",
   "createdAt": 1786044832938,
   "notified": []
+ },
+ {
+  "id": "COTIUSDT::SHORT::BoS::1786052700000",
+  "symbol": "COTIUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.01436,
+  "sl": 0.015845,
+  "tp": 0.01196,
+  "tpSrc": "OB",
+  "slPct": 10.34,
+  "gainPct": 16.71,
+  "rr": 1.62,
+  "lev": 6,
+  "signalTime": 1786052700000,
+  "status": "pending",
+  "createdAt": 1786053465286
+ },
+ {
+  "id": "NOMUSDT::LONG::BoS::1786052700000",
+  "symbol": "NOMUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00167,
+  "sl": 0.0015949999999999998,
+  "tp": 0.00199,
+  "tpSrc": "WH",
+  "slPct": 4.49,
+  "gainPct": 19.16,
+  "rr": 4.27,
+  "lev": 13,
+  "signalTime": 1786052700000,
+  "status": "pending",
+  "createdAt": 1786053465286
  }
 ]
