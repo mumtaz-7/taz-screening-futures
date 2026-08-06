@@ -1506,5 +1506,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SYNUSDT::LONG::ChoCh::1786033800000",
+  "symbol": "SYNUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.13199,
+  "sl": 0.12134,
+  "tp": 0.148,
+  "tpSrc": "WH",
+  "slPct": 8.07,
+  "gainPct": 12.13,
+  "rr": 1.5,
+  "lev": 7,
+  "signalTime": 1786033800000,
+  "status": "pending",
+  "createdAt": 1786034120943
  }
 ]
