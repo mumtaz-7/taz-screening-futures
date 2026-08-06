@@ -1,8 +1,6 @@
 {
   "ready": [
-    "ACXUSDT::LONG::ChoCh",
-    "MMTUSDT::SHORT::BoS",
-    "NOMUSDT::LONG::BoS"
+    "ACXUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-06T06:00:43.747Z"
+  "at": "2026-08-06T06:15:35.848Z"
 }
