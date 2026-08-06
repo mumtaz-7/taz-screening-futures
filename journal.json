@@ -1626,8 +1626,12 @@
   "rr": 1.62,
   "lev": 6,
   "signalTime": 1786052700000,
-  "status": "pending",
-  "createdAt": 1786053465286
+  "status": "open",
+  "createdAt": 1786053465286,
+  "fillTime": 1786052700000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "NOMUSDT::LONG::BoS::1786052700000",
@@ -1643,7 +1647,11 @@
   "rr": 4.27,
   "lev": 13,
   "signalTime": 1786052700000,
-  "status": "pending",
-  "createdAt": 1786053465286
+  "status": "open",
+  "createdAt": 1786053465286,
+  "fillTime": 1786052700000,
+  "notified": [
+   "open"
+  ]
  }
 ]
