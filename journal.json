@@ -1254,12 +1254,15 @@
   "rr": 1.85,
   "lev": 9,
   "signalTime": 1785951900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785951938225,
   "fillTime": 1785951900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785978900000
  },
  {
   "id": "VANRYUSDT::SHORT::BoS::1785962700000",
