@@ -1320,12 +1320,15 @@
   "rr": 2.68,
   "lev": 10,
   "signalTime": 1785968100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1785968129491,
   "fillTime": 1785968100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1785982500000
  },
  {
   "id": "VICUSDT::LONG::ChoCh::1785978000000",
