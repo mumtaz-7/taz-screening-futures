@@ -1369,6 +1369,24 @@
   "lev": 13,
   "signalTime": 1785991500000,
   "status": "pending",
-  "createdAt": 1785991529926
+  "createdAt": 1785991529926,
+  "notified": []
+ },
+ {
+  "id": "ACXUSDT::LONG::ChoCh::1785992400000",
+  "symbol": "ACXUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.03984,
+  "sl": 0.03808500000000001,
+  "tp": 0.046035,
+  "tpSrc": "EQ",
+  "slPct": 4.41,
+  "gainPct": 15.55,
+  "rr": 3.53,
+  "lev": 14,
+  "signalTime": 1785992400000,
+  "status": "pending",
+  "createdAt": 1785992448239
  }
 ]
