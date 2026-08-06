@@ -1,7 +1,9 @@
 {
   "ready": [
+    "HMSTRUSDT::LONG::ChoCh",
     "PORTALUSDT::LONG::BoS",
-    "SYNUSDT::LONG::ChoCh"
+    "SYNUSDT::LONG::ChoCh",
+    "TUTUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-06T16:48:11.956Z"
+  "at": "2026-08-06T17:32:39.014Z"
 }

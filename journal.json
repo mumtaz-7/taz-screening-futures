@@ -1543,6 +1543,41 @@
   "lev": 7,
   "signalTime": 1786034700000,
   "status": "pending",
-  "createdAt": 1786034891957
+  "createdAt": 1786034891957,
+  "notified": []
+ },
+ {
+  "id": "HMSTRUSDT::LONG::ChoCh::1786037400000",
+  "symbol": "HMSTRUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0001896,
+  "sl": 0.00018150000000000002,
+  "tp": 0.0002109,
+  "tpSrc": "WH",
+  "slPct": 4.27,
+  "gainPct": 11.23,
+  "rr": 2.63,
+  "lev": 14,
+  "signalTime": 1786037400000,
+  "status": "pending",
+  "createdAt": 1786037559015
+ },
+ {
+  "id": "TUTUSDT::LONG::ChoCh::1786037400000",
+  "symbol": "TUTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.02709,
+  "sl": 0.02502,
+  "tp": 0.03134,
+  "tpSrc": "WH",
+  "slPct": 7.64,
+  "gainPct": 15.69,
+  "rr": 2.05,
+  "lev": 8,
+  "signalTime": 1786037400000,
+  "status": "pending",
+  "createdAt": 1786037559015
  }
 ]
