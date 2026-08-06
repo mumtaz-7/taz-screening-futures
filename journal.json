@@ -1169,12 +1169,15 @@
   "rr": 1.31,
   "lev": 9,
   "signalTime": 1785940200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785940243079,
   "fillTime": 1785940200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.31,
+  "resolvedTime": 1786022100000
  },
  {
   "id": "COTIUSDT::SHORT::ChoCh::1785942000000",
@@ -1451,5 +1454,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1786015800000
+ },
+ {
+  "id": "BICOUSDT::LONG::ChoCh::1786023000000",
+  "symbol": "BICOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0297,
+  "sl": 0.02706,
+  "tp": 0.03336,
+  "tpSrc": "WH",
+  "slPct": 8.89,
+  "gainPct": 12.32,
+  "rr": 1.39,
+  "lev": 7,
+  "signalTime": 1786023000000,
+  "status": "pending",
+  "createdAt": 1786023038973
  }
 ]
