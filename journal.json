@@ -1542,9 +1542,12 @@
   "rr": 2.03,
   "lev": 7,
   "signalTime": 1786034700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786034891957,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786039200000
  },
  {
   "id": "HMSTRUSDT::LONG::ChoCh::1786037400000",
@@ -1581,8 +1584,11 @@
   "rr": 2.05,
   "lev": 8,
   "signalTime": 1786037400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786037559015,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786040100000
  }
 ]
