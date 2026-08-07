@@ -1728,5 +1728,22 @@
   "status": "pending",
   "createdAt": 1786086041728,
   "notified": []
+ },
+ {
+  "id": "GIGGLEUSDT::LONG::BoS::1786088700000",
+  "symbol": "GIGGLEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 32.97,
+  "sl": 30.42,
+  "tp": 39.76,
+  "tpSrc": "OB",
+  "slPct": 7.73,
+  "gainPct": 20.59,
+  "rr": 2.66,
+  "lev": 8,
+  "signalTime": 1786088700000,
+  "status": "pending",
+  "createdAt": 1786088731237
  }
 ]
