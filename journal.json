@@ -1934,5 +1934,22 @@
   "status": "pending",
   "createdAt": 1786140932908,
   "notified": []
+ },
+ {
+  "id": "HEIUSDT::LONG::BoS::1786146300000",
+  "symbol": "HEIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.2276,
+  "sl": 0.20795,
+  "tp": 0.2487,
+  "tpSrc": "WH",
+  "slPct": 8.63,
+  "gainPct": 9.27,
+  "rr": 1.07,
+  "lev": 7,
+  "signalTime": 1786146300000,
+  "status": "pending",
+  "createdAt": 1786146336746
  }
 ]
