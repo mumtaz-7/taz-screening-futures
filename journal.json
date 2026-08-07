@@ -1617,9 +1617,12 @@
   "rr": 3.77,
   "lev": 13,
   "signalTime": 1786044600000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786044832938,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "COTIUSDT::SHORT::BoS::1786052700000",
