@@ -1689,12 +1689,15 @@
   "rr": 4.5,
   "lev": 14,
   "signalTime": 1786068000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786068042604,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786068900000
+  "fillTime": 1786068900000,
+  "R": -1,
+  "resolvedTime": 1786104000000
  },
  {
   "id": "XAIUSDT::LONG::BoS::1786083300000",
@@ -1844,5 +1847,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ESPUSDT::LONG::BoS::1786104900000",
+  "symbol": "ESPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.07179,
+  "sl": 0.064665,
+  "tp": 0.08131,
+  "tpSrc": "WH",
+  "slPct": 9.92,
+  "gainPct": 13.26,
+  "rr": 1.34,
+  "lev": 6,
+  "signalTime": 1786104900000,
+  "status": "pending",
+  "createdAt": 1786104932366
  }
 ]
