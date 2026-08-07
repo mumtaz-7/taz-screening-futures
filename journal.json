@@ -1798,5 +1798,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "DODOUSDT::LONG::ChoCh::1786095900000",
+  "symbol": "DODOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01965,
+  "sl": 0.018750000000000003,
+  "tp": 0.025515,
+  "tpSrc": "EQ",
+  "slPct": 4.58,
+  "gainPct": 29.85,
+  "rr": 6.52,
+  "lev": 13,
+  "signalTime": 1786095900000,
+  "status": "pending",
+  "createdAt": 1786095929727
  }
 ]
