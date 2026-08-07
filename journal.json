@@ -1692,5 +1692,22 @@
    "open"
   ],
   "fillTime": 1786068900000
+ },
+ {
+  "id": "XAIUSDT::LONG::BoS::1786083300000",
+  "symbol": "XAIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00704,
+  "sl": 0.00659,
+  "tp": 0.00926,
+  "tpSrc": "WH",
+  "slPct": 6.39,
+  "gainPct": 31.53,
+  "rr": 4.93,
+  "lev": 9,
+  "signalTime": 1786083300000,
+  "status": "pending",
+  "createdAt": 1786083330002
  }
 ]
