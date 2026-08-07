@@ -1713,9 +1713,12 @@
   "rr": 4.93,
   "lev": 9,
   "signalTime": 1786083300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786083330002,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "HOMEUSDT::LONG::ChoCh::1786086000000",
@@ -1863,6 +1866,7 @@
   "lev": 6,
   "signalTime": 1786104900000,
   "status": "pending",
-  "createdAt": 1786104932366
+  "createdAt": 1786104932366,
+  "notified": []
  }
 ]
