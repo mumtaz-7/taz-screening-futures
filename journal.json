@@ -1865,9 +1865,12 @@
   "rr": 1.34,
   "lev": 6,
   "signalTime": 1786104900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786104932366,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786113000000
  },
  {
   "id": "SYNUSDT::LONG::ChoCh::1786108500000",
