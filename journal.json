@@ -1728,12 +1728,15 @@
   "rr": 1.97,
   "lev": 14,
   "signalTime": 1786086000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786086041728,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1786091400000
+  "fillTime": 1786091400000,
+  "R": 1.97,
+  "resolvedTime": 1786102200000
  },
  {
   "id": "GIGGLEUSDT::LONG::BoS::1786088700000",
