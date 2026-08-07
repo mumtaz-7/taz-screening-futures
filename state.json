@@ -1,7 +1,9 @@
 {
   "ready": [
     "GIGGLEUSDT::LONG::BoS",
-    "PORTALUSDT::LONG::ChoCh"
+    "HEIUSDT::LONG::ChoCh",
+    "PORTALUSDT::LONG::ChoCh",
+    "TSTUSDT::LONG::BoS"
   ],
-  "at": "2026-08-07T08:45:30.773Z"
+  "at": "2026-08-07T09:00:44.605Z"
 }

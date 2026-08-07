@@ -1755,5 +1755,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HEIUSDT::LONG::ChoCh::1786093200000",
+  "symbol": "HEIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.2135,
+  "sl": 0.16595,
+  "tp": 0.31045,
+  "tpSrc": "EQ",
+  "slPct": 22.27,
+  "gainPct": 45.41,
+  "rr": 2.04,
+  "lev": 2,
+  "signalTime": 1786093200000,
+  "status": "pending",
+  "createdAt": 1786093244606
+ },
+ {
+  "id": "TSTUSDT::LONG::BoS::1786093200000",
+  "symbol": "TSTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0114,
+  "sl": 0.010349999999999998,
+  "tp": 0.01327,
+  "tpSrc": "WH",
+  "slPct": 9.21,
+  "gainPct": 16.4,
+  "rr": 1.78,
+  "lev": 6,
+  "signalTime": 1786093200000,
+  "status": "pending",
+  "createdAt": 1786093244606
  }
 ]
