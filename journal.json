@@ -1770,8 +1770,12 @@
   "rr": 2.04,
   "lev": 2,
   "signalTime": 1786093200000,
-  "status": "pending",
-  "createdAt": 1786093244606
+  "status": "open",
+  "createdAt": 1786093244606,
+  "fillTime": 1786093200000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "TSTUSDT::LONG::BoS::1786093200000",
@@ -1787,7 +1791,12 @@
   "rr": 1.78,
   "lev": 6,
   "signalTime": 1786093200000,
-  "status": "pending",
-  "createdAt": 1786093244606
+  "status": "void",
+  "createdAt": 1786093244606,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1786093200000,
+  "notified": [
+   "void"
+  ]
  }
 ]
