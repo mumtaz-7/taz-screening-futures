@@ -1913,5 +1913,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MMTUSDT::LONG::BoS::1786140900000",
+  "symbol": "MMTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1826,
+  "sl": 0.17375,
+  "tp": 0.2108,
+  "tpSrc": "OB",
+  "slPct": 4.85,
+  "gainPct": 15.44,
+  "rr": 3.19,
+  "lev": 12,
+  "signalTime": 1786140900000,
+  "status": "pending",
+  "createdAt": 1786140932908
  }
 ]
