@@ -1892,5 +1892,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HOMEUSDT::LONG::ChoCh::1786136400000",
+  "symbol": "HOMEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00913,
+  "sl": 0.008755000000000002,
+  "tp": 0.009845,
+  "tpSrc": "EQ",
+  "slPct": 4.11,
+  "gainPct": 7.83,
+  "rr": 1.91,
+  "lev": 15,
+  "signalTime": 1786136400000,
+  "status": "pending",
+  "createdAt": 1786136442770
  }
 ]
