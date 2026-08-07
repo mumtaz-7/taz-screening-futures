@@ -1578,12 +1578,15 @@
   "rr": 2.63,
   "lev": 14,
   "signalTime": 1786037400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786037559015,
   "fillTime": 1786037400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.63,
+  "resolvedTime": 1786142700000
  },
  {
   "id": "TUTUSDT::LONG::ChoCh::1786037400000",
