@@ -2118,9 +2118,12 @@
   "rr": 3.72,
   "lev": 10,
   "signalTime": 1786184100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786184130608,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786185000000
  },
  {
   "id": "TSTUSDT::LONG::BoS::1786185000000",
@@ -2136,7 +2139,11 @@
   "rr": 1.24,
   "lev": 4,
   "signalTime": 1786185000000,
-  "status": "pending",
-  "createdAt": 1786185039062
+  "status": "open",
+  "createdAt": 1786185039062,
+  "fillTime": 1786185000000,
+  "notified": [
+   "open"
+  ]
  }
 ]
