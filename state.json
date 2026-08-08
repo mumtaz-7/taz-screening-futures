@@ -1,7 +1,7 @@
 {
   "ready": [
-    "EPICUSDT::LONG::ChoCh",
-    "TSTUSDT::LONG::BoS"
+    "ACEUSDT::LONG::ChoCh",
+    "EPICUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-08T11:45:34.572Z"
+  "at": "2026-08-08T12:00:40.459Z"
 }
