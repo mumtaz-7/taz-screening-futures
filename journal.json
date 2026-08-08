@@ -2037,12 +2037,15 @@
   "rr": 2.22,
   "lev": 11,
   "signalTime": 1786170600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786170637238,
   "fillTime": 1786170600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.22,
+  "resolvedTime": 1786222800000
  },
  {
   "id": "XAIUSDT::LONG::BoS::1786176000000",
