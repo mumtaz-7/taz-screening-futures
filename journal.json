@@ -2082,12 +2082,15 @@
   "rr": 1.5,
   "lev": 4,
   "signalTime": 1786177800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786177837118,
   "fillTime": 1786177800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786225500000
  },
  {
   "id": "ESPUSDT::LONG::ChoCh::1786183200000",
@@ -2260,5 +2263,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "TUTUSDT::LONG::BoS::1786226400000",
+  "symbol": "TUTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.08372,
+  "sl": 0.073055,
+  "tp": 0.10692,
+  "tpSrc": "WH",
+  "slPct": 12.74,
+  "gainPct": 27.71,
+  "rr": 2.18,
+  "lev": 5,
+  "signalTime": 1786226400000,
+  "status": "pending",
+  "createdAt": 1786226442572
  }
 ]
