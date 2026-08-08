@@ -1937,9 +1937,12 @@
   "rr": 3.19,
   "lev": 12,
   "signalTime": 1786140900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786140932908,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "HEIUSDT::LONG::BoS::1786146300000",
