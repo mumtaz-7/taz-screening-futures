@@ -2209,9 +2209,12 @@
   "rr": 3.8,
   "lev": 23,
   "signalTime": 1786195800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786195836990,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ACEUSDT::LONG::BoS::1786203000000",
