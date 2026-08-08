@@ -1828,12 +1828,15 @@
   "rr": 6.52,
   "lev": 13,
   "signalTime": 1786095900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786095929727,
   "fillTime": 1786095900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786149000000
  },
  {
   "id": "EPICUSDT::LONG::BoS::1786096800000",
