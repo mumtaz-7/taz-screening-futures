@@ -2012,8 +2012,13 @@
   "rr": 1.67,
   "lev": 8,
   "signalTime": 1786170600000,
-  "status": "pending",
-  "createdAt": 1786170637238
+  "status": "void",
+  "createdAt": 1786170637238,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1786170600000,
+  "notified": [
+   "void"
+  ]
  },
  {
   "id": "XAIUSDT::LONG::ChoCh::1786170600000",
@@ -2029,7 +2034,11 @@
   "rr": 2.22,
   "lev": 11,
   "signalTime": 1786170600000,
-  "status": "pending",
-  "createdAt": 1786170637238
+  "status": "open",
+  "createdAt": 1786170637238,
+  "fillTime": 1786170600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
