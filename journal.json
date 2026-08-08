@@ -2145,5 +2145,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "EPICUSDT::LONG::ChoCh::1786187700000",
+  "symbol": "EPICUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1.1166,
+  "sl": 1.0617,
+  "tp": 1.29,
+  "tpSrc": "WH",
+  "slPct": 4.92,
+  "gainPct": 15.53,
+  "rr": 3.16,
+  "lev": 12,
+  "signalTime": 1786187700000,
+  "status": "pending",
+  "createdAt": 1786187732407
  }
 ]
