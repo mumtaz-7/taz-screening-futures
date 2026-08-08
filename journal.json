@@ -1955,11 +1955,31 @@
   "rr": 1.07,
   "lev": 7,
   "signalTime": 1786146300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786146336746,
   "fillTime": 1786146300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.07,
+  "resolvedTime": 1786150800000
+ },
+ {
+  "id": "ESPUSDT::LONG::ChoCh::1786151700000",
+  "symbol": "ESPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.06971,
+  "sl": 0.06706999999999999,
+  "tp": 0.08131,
+  "tpSrc": "WH",
+  "slPct": 3.79,
+  "gainPct": 16.64,
+  "rr": 4.39,
+  "lev": 16,
+  "signalTime": 1786151700000,
+  "status": "pending",
+  "createdAt": 1786151736723
  }
 ]
