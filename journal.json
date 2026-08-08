@@ -2184,5 +2184,22 @@
   "status": "pending",
   "createdAt": 1786190440459,
   "notified": []
+ },
+ {
+  "id": "DEXEUSDT::LONG::BoS::1786195800000",
+  "symbol": "DEXEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 2.241,
+  "sl": 2.1855,
+  "tp": 2.452,
+  "tpSrc": "OB",
+  "slPct": 2.48,
+  "gainPct": 9.42,
+  "rr": 3.8,
+  "lev": 23,
+  "signalTime": 1786195800000,
+  "status": "pending",
+  "createdAt": 1786195836990
  }
 ]
