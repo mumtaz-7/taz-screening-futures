@@ -1922,12 +1922,15 @@
   "rr": 1.91,
   "lev": 15,
   "signalTime": 1786136400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786136442770,
   "fillTime": 1786136400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.91,
+  "resolvedTime": 1786202100000
  },
  {
   "id": "MMTUSDT::LONG::BoS::1786140900000",
@@ -2206,5 +2209,22 @@
   "status": "pending",
   "createdAt": 1786195836990,
   "notified": []
+ },
+ {
+  "id": "ACEUSDT::LONG::BoS::1786203000000",
+  "symbol": "ACEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1272,
+  "sl": 0.10754999999999998,
+  "tp": 0.1642,
+  "tpSrc": "WH",
+  "slPct": 15.45,
+  "gainPct": 29.09,
+  "rr": 1.88,
+  "lev": 4,
+  "signalTime": 1786203000000,
+  "status": "pending",
+  "createdAt": 1786203037600
  }
 ]
