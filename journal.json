@@ -388,12 +388,15 @@
   "rr": 7,
   "lev": 25,
   "signalTime": 1785697200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785697240478,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1785708000000
+  "fillTime": 1785708000000,
+  "R": 7,
+  "resolvedTime": 1786147200000
  },
  {
   "id": "COTIUSDT::SHORT::ChoCh::1785711600000",
