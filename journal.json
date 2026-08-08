@@ -1997,5 +1997,39 @@
   "fillTime": 1786156200000,
   "R": -1,
   "resolvedTime": 1786157100000
+ },
+ {
+  "id": "MMTUSDT::LONG::BoS::1786170600000",
+  "symbol": "MMTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.21,
+  "sl": 0.1935,
+  "tp": 0.2375,
+  "tpSrc": "WH",
+  "slPct": 7.86,
+  "gainPct": 13.1,
+  "rr": 1.67,
+  "lev": 8,
+  "signalTime": 1786170600000,
+  "status": "pending",
+  "createdAt": 1786170637238
+ },
+ {
+  "id": "XAIUSDT::LONG::ChoCh::1786170600000",
+  "symbol": "XAIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00682,
+  "sl": 0.00643,
+  "tp": 0.007684999999999999,
+  "tpSrc": "EQ",
+  "slPct": 5.72,
+  "gainPct": 12.68,
+  "rr": 2.22,
+  "lev": 11,
+  "signalTime": 1786170600000,
+  "status": "pending",
+  "createdAt": 1786170637238
  }
 ]
