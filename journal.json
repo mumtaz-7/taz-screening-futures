@@ -2142,12 +2142,15 @@
   "rr": 1.24,
   "lev": 4,
   "signalTime": 1786185000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786185039062,
   "fillTime": 1786185000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.24,
+  "resolvedTime": 1786204800000
  },
  {
   "id": "EPICUSDT::LONG::ChoCh::1786187700000",
