@@ -2181,9 +2181,13 @@
   "rr": 4.88,
   "lev": 13,
   "signalTime": 1786190400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786190440459,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1786199400000
  },
  {
   "id": "DEXEUSDT::LONG::BoS::1786195800000",
