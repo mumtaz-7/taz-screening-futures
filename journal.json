@@ -1048,12 +1048,15 @@
   "rr": 1.4,
   "lev": 3,
   "signalTime": 1785904200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1785904240533,
   "fillTime": 1785904200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.4,
+  "resolvedTime": 1786258800000
  },
  {
   "id": "VICUSDT::LONG::ChoCh::1785904200000",
@@ -2339,9 +2342,12 @@
   "rr": 3.39,
   "lev": 8,
   "signalTime": 1786237200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786237241437,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "EPICUSDT::SHORT::ChoCh::1786245300000",
@@ -2357,9 +2363,14 @@
   "rr": 3.96,
   "lev": 11,
   "signalTime": 1786245300000,
-  "status": "pending",
+  "status": "loss",
   "createdAt": 1786245331360,
-  "notified": []
+  "notified": [
+   "loss"
+  ],
+  "R": -1,
+  "fillTime": 1786258800000,
+  "resolvedTime": 1786258800000
  },
  {
   "id": "HFTUSDT::LONG::ChoCh::1786252500000",
@@ -2403,5 +2414,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "BICOUSDT::LONG::BoS::1786259700000",
+  "symbol": "BICOUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.07457,
+  "sl": 0.062090000000000006,
+  "tp": 0.09,
+  "tpSrc": "WH",
+  "slPct": 16.74,
+  "gainPct": 20.69,
+  "rr": 1.24,
+  "lev": 3,
+  "signalTime": 1786259700000,
+  "status": "pending",
+  "createdAt": 1786259731055
  }
 ]
