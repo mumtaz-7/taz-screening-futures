@@ -2386,12 +2386,15 @@
   "rr": 2.21,
   "lev": 7,
   "signalTime": 1786252500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786252530182,
   "fillTime": 1786252500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786275000000
  },
  {
   "id": "TUTUSDT::LONG::BoS::1786256100000",
