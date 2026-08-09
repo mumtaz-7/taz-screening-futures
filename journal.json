@@ -2130,12 +2130,15 @@
   "rr": 3.72,
   "lev": 10,
   "signalTime": 1786184100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786184130608,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786185000000
+  "fillTime": 1786185000000,
+  "R": -1,
+  "resolvedTime": 1786244400000
  },
  {
   "id": "TSTUSDT::LONG::BoS::1786185000000",
@@ -2175,12 +2178,15 @@
   "rr": 3.16,
   "lev": 12,
   "signalTime": 1786187700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786187732407,
   "fillTime": 1786187700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786244400000
  },
  {
   "id": "ACEUSDT::LONG::ChoCh::1786190400000",
@@ -2327,5 +2333,22 @@
   "status": "pending",
   "createdAt": 1786237241437,
   "notified": []
+ },
+ {
+  "id": "EPICUSDT::SHORT::ChoCh::1786245300000",
+  "symbol": "EPICUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 1.09,
+  "sl": 1.1488,
+  "tp": 0.8572,
+  "tpSrc": "OB",
+  "slPct": 5.39,
+  "gainPct": 21.36,
+  "rr": 3.96,
+  "lev": 11,
+  "signalTime": 1786245300000,
+  "status": "pending",
+  "createdAt": 1786245331360
  }
 ]
