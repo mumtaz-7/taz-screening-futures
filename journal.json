@@ -1650,12 +1650,15 @@
   "rr": 1.62,
   "lev": 6,
   "signalTime": 1786052700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786053465286,
   "fillTime": 1786052700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.62,
+  "resolvedTime": 1786246200000
  },
  {
   "id": "NOMUSDT::LONG::BoS::1786052700000",
