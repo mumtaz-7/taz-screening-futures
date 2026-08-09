@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-08-09T06:30:36.461Z",
+  "updatedAt": "2026-08-09T06:45:32.577Z",
   "all": {
-    "n": 69,
+    "n": 70,
     "wins": 30,
-    "losses": 39,
-    "win": 43.5,
-    "er": 0.38,
+    "losses": 40,
+    "win": 42.9,
+    "er": 0.36,
     "avgWin": 2.18
   },
   "LONG": {
-    "n": 50,
+    "n": 51,
     "wins": 23,
-    "losses": 27,
-    "win": 46,
-    "er": 0.42,
+    "losses": 28,
+    "win": 45.1,
+    "er": 0.39,
     "avgWin": 2.09
   },
   "SHORT": {
@@ -25,11 +25,11 @@
     "avgWin": 2.49
   },
   "ChoCh": {
-    "n": 41,
+    "n": 42,
     "wins": 18,
-    "losses": 23,
-    "win": 43.9,
-    "er": 0.27,
+    "losses": 24,
+    "win": 42.9,
+    "er": 0.24,
     "avgWin": 1.88
   },
   "BoS": {
@@ -40,7 +40,7 @@
     "er": 0.56,
     "avgWin": 2.63
   },
-  "open": 11,
+  "open": 10,
   "pending": 2,
   "void": 22,
   "expired": 0,
