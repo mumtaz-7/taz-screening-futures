@@ -2288,5 +2288,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1786230000000
+ },
+ {
+  "id": "ZBTUSDT::LONG::ChoCh::1786235400000",
+  "symbol": "ZBTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1051,
+  "sl": 0.10165,
+  "tp": 0.1538,
+  "tpSrc": "EQ",
+  "slPct": 3.28,
+  "gainPct": 46.34,
+  "rr": 14.12,
+  "lev": 18,
+  "signalTime": 1786235400000,
+  "status": "pending",
+  "createdAt": 1786235438262
  }
 ]
