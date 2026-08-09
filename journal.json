@@ -2429,7 +2429,28 @@
   "rr": 1.24,
   "lev": 3,
   "signalTime": 1786259700000,
+  "status": "open",
+  "createdAt": 1786259731055,
+  "fillTime": 1786259700000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "SYNUSDT::LONG::ChoCh::1786260600000",
+  "symbol": "SYNUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.11053,
+  "sl": 0.09890499999999999,
+  "tp": 0.12773,
+  "tpSrc": "WH",
+  "slPct": 10.52,
+  "gainPct": 15.56,
+  "rr": 1.48,
+  "lev": 6,
+  "signalTime": 1786260600000,
   "status": "pending",
-  "createdAt": 1786259731055
+  "createdAt": 1786260636803
  }
 ]

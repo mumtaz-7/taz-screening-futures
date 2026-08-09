@@ -1,7 +1,7 @@
 {
   "ready": [
     "BICOUSDT::LONG::BoS",
-    "HEIUSDT::SHORT::BoS"
+    "SYNUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-09T07:15:31.054Z"
+  "at": "2026-08-09T07:30:36.802Z"
 }
