@@ -2309,5 +2309,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HEIUSDT::SHORT::BoS::1786237200000",
+  "symbol": "HEIUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1927,
+  "sl": 0.20740000000000003,
+  "tp": 0.1428,
+  "tpSrc": "OB",
+  "slPct": 7.63,
+  "gainPct": 25.9,
+  "rr": 3.39,
+  "lev": 8,
+  "signalTime": 1786237200000,
+  "status": "pending",
+  "createdAt": 1786237241437
  }
 ]
