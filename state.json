@@ -1,4 +1,7 @@
 {
-  "ready": [],
-  "at": "2026-08-09T16:00:40.993Z"
+  "ready": [
+    "ACEUSDT::LONG::BoS",
+    "HEIUSDT::SHORT::BoS"
+  ],
+  "at": "2026-08-09T16:15:33.903Z"
 }

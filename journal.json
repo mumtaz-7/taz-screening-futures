@@ -2551,5 +2551,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ACEUSDT::LONG::BoS::1786292100000",
+  "symbol": "ACEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1266,
+  "sl": 0.11954999999999999,
+  "tp": 0.1641,
+  "tpSrc": "WH",
+  "slPct": 5.57,
+  "gainPct": 29.62,
+  "rr": 5.32,
+  "lev": 11,
+  "signalTime": 1786292100000,
+  "status": "pending",
+  "createdAt": 1786292133903
  }
 ]
