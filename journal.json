@@ -2659,5 +2659,22 @@
    "open"
   ],
   "fillTime": 1786303800000
+ },
+ {
+  "id": "CATIUSDT::LONG::BoS::1786306500000",
+  "symbol": "CATIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.04519,
+  "sl": 0.04363,
+  "tp": 0.062,
+  "tpSrc": "WH",
+  "slPct": 3.45,
+  "gainPct": 37.2,
+  "rr": 10.78,
+  "lev": 17,
+  "signalTime": 1786306500000,
+  "status": "pending",
+  "createdAt": 1786306532267
  }
 ]
