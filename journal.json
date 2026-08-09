@@ -2474,11 +2474,31 @@
   "rr": 3.09,
   "lev": 8,
   "signalTime": 1786263300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786263330897,
   "fillTime": 1786263300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786266900000
+ },
+ {
+  "id": "BICOUSDT::SHORT::ChoCh::1786267800000",
+  "symbol": "BICOUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.06625,
+  "sl": 0.07873,
+  "tp": 0.04495,
+  "tpSrc": "WL",
+  "slPct": 18.84,
+  "gainPct": 32.15,
+  "rr": 1.71,
+  "lev": 3,
+  "signalTime": 1786267800000,
+  "status": "pending",
+  "createdAt": 1786267844352
  }
 ]
