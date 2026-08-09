@@ -2566,8 +2566,28 @@
   "rr": 5.32,
   "lev": 11,
   "signalTime": 1786292100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786292133903,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786294800000
+ },
+ {
+  "id": "BMTUSDT::LONG::ChoCh::1786295700000",
+  "symbol": "BMTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.02576,
+  "sl": 0.019069999999999997,
+  "tp": 0.0347,
+  "tpSrc": "WH",
+  "slPct": 25.97,
+  "gainPct": 34.7,
+  "rr": 1.34,
+  "lev": 2,
+  "signalTime": 1786295700000,
+  "status": "pending",
+  "createdAt": 1786295730952
  }
 ]
