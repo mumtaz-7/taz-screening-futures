@@ -2609,9 +2609,13 @@
   "rr": 3.16,
   "lev": 8,
   "signalTime": 1786298400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786298442673,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1786302000000
  },
  {
   "id": "EPICUSDT::SHORT::BoS::1786301100000",
@@ -2634,5 +2638,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "TUTUSDT::LONG::BoS::1786302900000",
+  "symbol": "TUTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.18241,
+  "sl": 0.11483500000000002,
+  "tp": 0.30563,
+  "tpSrc": "WH",
+  "slPct": 37.05,
+  "gainPct": 67.55,
+  "rr": 1.82,
+  "lev": 1,
+  "signalTime": 1786302900000,
+  "status": "pending",
+  "createdAt": 1786302932649
  }
 ]

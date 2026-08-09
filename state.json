@@ -1,6 +1,7 @@
 {
   "ready": [
-    "TSTUSDT::LONG::BoS"
+    "TSTUSDT::LONG::BoS",
+    "TUTUSDT::LONG::BoS"
   ],
-  "at": "2026-08-09T19:00:41.956Z"
+  "at": "2026-08-09T19:15:32.648Z"
 }
