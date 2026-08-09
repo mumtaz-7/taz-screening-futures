@@ -2354,5 +2354,22 @@
   "status": "pending",
   "createdAt": 1786245331360,
   "notified": []
+ },
+ {
+  "id": "HFTUSDT::LONG::ChoCh::1786252500000",
+  "symbol": "HFTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01106,
+  "sl": 0.0101195,
+  "tp": 0.013143,
+  "tpSrc": "EQ",
+  "slPct": 8.5,
+  "gainPct": 18.83,
+  "rr": 2.21,
+  "lev": 7,
+  "signalTime": 1786252500000,
+  "status": "pending",
+  "createdAt": 1786252530182
  }
 ]
