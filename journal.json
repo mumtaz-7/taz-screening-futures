@@ -2501,9 +2501,13 @@
   "rr": 1.71,
   "lev": 3,
   "signalTime": 1786267800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786267844352,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1786277700000
  },
  {
   "id": "HEIUSDT::SHORT::BoS::1786277700000",
@@ -2519,7 +2523,11 @@
   "rr": 3.7,
   "lev": 11,
   "signalTime": 1786277700000,
-  "status": "pending",
-  "createdAt": 1786277732615
+  "status": "open",
+  "createdAt": 1786277732615,
+  "fillTime": 1786277700000,
+  "notified": [
+   "open"
+  ]
  }
 ]
