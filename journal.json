@@ -2594,5 +2594,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "TSTUSDT::LONG::BoS::1786298400000",
+  "symbol": "TSTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0166,
+  "sl": 0.015325,
+  "tp": 0.02063,
+  "tpSrc": "WH",
+  "slPct": 7.68,
+  "gainPct": 24.28,
+  "rr": 3.16,
+  "lev": 8,
+  "signalTime": 1786298400000,
+  "status": "pending",
+  "createdAt": 1786298442673
  }
 ]
