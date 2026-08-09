@@ -2106,12 +2106,15 @@
   "rr": 3.27,
   "lev": 25,
   "signalTime": 1786183200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786183242283,
   "fillTime": 1786183200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786233600000
  },
  {
   "id": "C98USDT::LONG::ChoCh::1786184100000",
