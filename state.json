@@ -1,6 +1,8 @@
 {
   "ready": [
-    "MUBARAKUSDT::LONG::ChoCh"
+    "GIGGLEUSDT::LONG::ChoCh",
+    "MMTUSDT::LONG::ChoCh",
+    "TSTUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-10T16:00:42.933Z"
+  "at": "2026-08-10T16:15:33.551Z"
 }
