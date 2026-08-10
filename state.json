@@ -1,8 +1,6 @@
 {
   "ready": [
-    "GIGGLEUSDT::LONG::ChoCh",
-    "MMTUSDT::LONG::ChoCh",
-    "TSTUSDT::LONG::ChoCh"
+    "HEIUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-08-10T17:30:39.663Z"
+  "at": "2026-08-10T17:45:32.582Z"
 }

@@ -2989,5 +2989,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HEIUSDT::SHORT::ChoCh::1786383900000",
+  "symbol": "HEIUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.152,
+  "sl": 0.16670000000000001,
+  "tp": 0.0896,
+  "tpSrc": "OB",
+  "slPct": 9.67,
+  "gainPct": 41.05,
+  "rr": 4.24,
+  "lev": 6,
+  "signalTime": 1786383900000,
+  "status": "pending",
+  "createdAt": 1786383932583
  }
 ]
