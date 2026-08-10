@@ -2321,12 +2321,15 @@
   "rr": 14.12,
   "lev": 18,
   "signalTime": 1786235400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786235438262,
   "fillTime": 1786235400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786320000000
  },
  {
   "id": "HEIUSDT::SHORT::BoS::1786237200000",
@@ -2680,5 +2683,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "1000CATUSDT::LONG::ChoCh::1786320900000",
+  "symbol": "1000CATUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00198,
+  "sl": 0.0018449999999999999,
+  "tp": 0.00244,
+  "tpSrc": "WH",
+  "slPct": 6.82,
+  "gainPct": 23.23,
+  "rr": 3.41,
+  "lev": 9,
+  "signalTime": 1786320900000,
+  "status": "pending",
+  "createdAt": 1786320930287
  }
 ]
