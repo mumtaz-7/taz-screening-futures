@@ -2777,5 +2777,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SAGAUSDT::LONG::ChoCh::1786339800000",
+  "symbol": "SAGAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01532,
+  "sl": 0.01406,
+  "tp": 0.01762,
+  "tpSrc": "EQ",
+  "slPct": 8.22,
+  "gainPct": 15.01,
+  "rr": 1.83,
+  "lev": 7,
+  "signalTime": 1786339800000,
+  "status": "pending",
+  "createdAt": 1786339839700
  }
 ]
