@@ -2753,5 +2753,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "JOEUSDT::SHORT::BoS::1786338000000",
+  "symbol": "JOEUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0283,
+  "sl": 0.03145,
+  "tp": 0.0246,
+  "tpSrc": "OB",
+  "slPct": 11.13,
+  "gainPct": 13.07,
+  "rr": 1.17,
+  "lev": 5,
+  "signalTime": 1786338000000,
+  "status": "pending",
+  "createdAt": 1786338044597
  }
 ]
