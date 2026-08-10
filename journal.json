@@ -2680,12 +2680,15 @@
   "rr": 10.78,
   "lev": 17,
   "signalTime": 1786306500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786306532267,
   "fillTime": 1786306500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786365900000
  },
  {
   "id": "1000CATUSDT::LONG::ChoCh::1786320900000",
