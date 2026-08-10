@@ -1,7 +1,8 @@
 {
   "ready": [
     "BICOUSDT::SHORT::ChoCh",
-    "MUBARAKUSDT::LONG::BoS"
+    "MUBARAKUSDT::LONG::BoS",
+    "TUTUSDT::LONG::BoS"
   ],
-  "at": "2026-08-10T01:15:30.464Z"
+  "at": "2026-08-10T01:30:37.601Z"
 }
