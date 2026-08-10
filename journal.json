@@ -2659,12 +2659,15 @@
   "rr": 1.82,
   "lev": 1,
   "signalTime": 1786302900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786302932649,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786303800000
+  "fillTime": 1786303800000,
+  "R": -1,
+  "resolvedTime": 1786367700000
  },
  {
   "id": "CATIUSDT::LONG::BoS::1786306500000",
