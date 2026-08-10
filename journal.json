@@ -2814,6 +2814,41 @@
   "lev": 5,
   "signalTime": 1786349700000,
   "status": "pending",
-  "createdAt": 1786349733660
+  "createdAt": 1786349733660,
+  "notified": []
+ },
+ {
+  "id": "BOMEUSDT::LONG::ChoCh::1786350600000",
+  "symbol": "BOMEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0008,
+  "sl": 0.0007354999999999999,
+  "tp": 0.0009035,
+  "tpSrc": "WH",
+  "slPct": 8.06,
+  "gainPct": 12.94,
+  "rr": 1.6,
+  "lev": 7,
+  "signalTime": 1786350600000,
+  "status": "pending",
+  "createdAt": 1786350640411
+ },
+ {
+  "id": "BROCCOLI714USDT::LONG::ChoCh::1786350600000",
+  "symbol": "BROCCOLI714USDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0193,
+  "sl": 0.017589999999999998,
+  "tp": 0.02179,
+  "tpSrc": "WH",
+  "slPct": 8.86,
+  "gainPct": 12.9,
+  "rr": 1.46,
+  "lev": 7,
+  "signalTime": 1786350600000,
+  "status": "pending",
+  "createdAt": 1786350640411
  }
 ]
