@@ -1,8 +1,9 @@
 {
   "ready": [
+    "BANKUSDT::LONG::BoS",
     "BOMEUSDT::LONG::BoS",
-    "HEIUSDT::SHORT::ChoCh",
+    "BROCCOLI714USDT::LONG::BoS",
     "TSTUSDT::LONG::BoS"
   ],
-  "at": "2026-08-10T19:00:53.750Z"
+  "at": "2026-08-10T19:15:32.721Z"
 }

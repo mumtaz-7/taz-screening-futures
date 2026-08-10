@@ -3052,7 +3052,45 @@
   "rr": 1.13,
   "lev": 4,
   "signalTime": 1786388400000,
+  "status": "open",
+  "createdAt": 1786388453751,
+  "fillTime": 1786388400000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "BANKUSDT::LONG::BoS::1786389300000",
+  "symbol": "BANKUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0394,
+  "sl": 0.037899999999999996,
+  "tp": 0.055,
+  "tpSrc": "OB",
+  "slPct": 3.81,
+  "gainPct": 39.59,
+  "rr": 10.4,
+  "lev": 16,
+  "signalTime": 1786389300000,
   "status": "pending",
-  "createdAt": 1786388453751
+  "createdAt": 1786389332721
+ },
+ {
+  "id": "BROCCOLI714USDT::LONG::BoS::1786389300000",
+  "symbol": "BROCCOLI714USDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01966,
+  "sl": 0.01837,
+  "tp": 0.02179,
+  "tpSrc": "WH",
+  "slPct": 6.56,
+  "gainPct": 10.83,
+  "rr": 1.65,
+  "lev": 9,
+  "signalTime": 1786389300000,
+  "status": "pending",
+  "createdAt": 1786389332721
  }
 ]
