@@ -2966,7 +2966,8 @@
   "lev": 9,
   "signalTime": 1786378500000,
   "status": "pending",
-  "createdAt": 1786378533552
+  "createdAt": 1786378533552,
+  "notified": []
  },
  {
   "id": "TSTUSDT::LONG::ChoCh::1786378500000",
@@ -2982,7 +2983,11 @@
   "rr": 1.72,
   "lev": 5,
   "signalTime": 1786378500000,
-  "status": "pending",
-  "createdAt": 1786378533552
+  "status": "open",
+  "createdAt": 1786378533552,
+  "fillTime": 1786378500000,
+  "notified": [
+   "open"
+  ]
  }
 ]
