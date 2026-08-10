@@ -1,8 +1,8 @@
 {
   "ready": [
+    "BBUSDT::LONG::BoS",
     "BOMEUSDT::LONG::ChoCh",
-    "BROCCOLI714USDT::LONG::ChoCh",
-    "TSTUSDT::LONG::ChoCh"
+    "BROCCOLI714USDT::LONG::ChoCh"
   ],
-  "at": "2026-08-10T09:30:43.272Z"
+  "at": "2026-08-10T09:45:33.497Z"
 }
