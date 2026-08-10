@@ -2910,5 +2910,22 @@
    "open"
   ],
   "fillTime": 1786362300000
+ },
+ {
+  "id": "MUBARAKUSDT::LONG::ChoCh::1786373100000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.02078,
+  "sl": 0.019549999999999998,
+  "tp": 0.02998,
+  "tpSrc": "WH",
+  "slPct": 5.92,
+  "gainPct": 44.27,
+  "rr": 7.48,
+  "lev": 10,
+  "signalTime": 1786373100000,
+  "status": "pending",
+  "createdAt": 1786373134503
  }
 ]
