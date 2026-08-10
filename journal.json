@@ -3122,5 +3122,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ACTUSDT::LONG::BoS::1786392900000",
+  "symbol": "ACTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01117,
+  "sl": 0.01051,
+  "tp": 0.01411,
+  "tpSrc": "WH",
+  "slPct": 5.91,
+  "gainPct": 26.32,
+  "rr": 4.45,
+  "lev": 10,
+  "signalTime": 1786392900000,
+  "status": "pending",
+  "createdAt": 1786392931445
  }
 ]
