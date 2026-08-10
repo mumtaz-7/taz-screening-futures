@@ -3161,8 +3161,12 @@
   "rr": 2.15,
   "lev": 11,
   "signalTime": 1786401900000,
-  "status": "pending",
-  "createdAt": 1786401931556
+  "status": "open",
+  "createdAt": 1786401931556,
+  "fillTime": 1786401900000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "TUTUSDT::SHORT::BoS::1786401900000",
@@ -3178,7 +3182,11 @@
   "rr": 3.45,
   "lev": 6,
   "signalTime": 1786401900000,
-  "status": "pending",
-  "createdAt": 1786401931556
+  "status": "open",
+  "createdAt": 1786401931556,
+  "fillTime": 1786401900000,
+  "notified": [
+   "open"
+  ]
  }
 ]
