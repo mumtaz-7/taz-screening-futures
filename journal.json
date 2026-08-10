@@ -2883,5 +2883,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "NEIROUSDT::LONG::BoS::1786360500000",
+  "symbol": "NEIROUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00007303,
+  "sl": 0.00007148500000000001,
+  "tp": 0.0000793,
+  "tpSrc": "WH",
+  "slPct": 2.12,
+  "gainPct": 8.59,
+  "rr": 4.06,
+  "lev": 25,
+  "signalTime": 1786360500000,
+  "status": "pending",
+  "createdAt": 1786360532294
  }
 ]
