@@ -2569,12 +2569,15 @@
   "rr": 5.32,
   "lev": 11,
   "signalTime": 1786292100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786292133903,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786294800000
+  "fillTime": 1786294800000,
+  "R": -1,
+  "resolvedTime": 1786322700000
  },
  {
   "id": "BMTUSDT::LONG::ChoCh::1786295700000",
@@ -2719,8 +2722,28 @@
   "rr": 2.46,
   "lev": 8,
   "signalTime": 1786321800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786321837851,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786322700000
+ },
+ {
+  "id": "MUBARAKUSDT::LONG::BoS::1786323600000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.02629,
+  "sl": 0.023965,
+  "tp": 0.0294,
+  "tpSrc": "WH",
+  "slPct": 8.84,
+  "gainPct": 11.83,
+  "rr": 1.34,
+  "lev": 7,
+  "signalTime": 1786323600000,
+  "status": "pending",
+  "createdAt": 1786323642022
  }
 ]
