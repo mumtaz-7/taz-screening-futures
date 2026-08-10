@@ -2813,9 +2813,13 @@
   "rr": 2.51,
   "lev": 5,
   "signalTime": 1786349700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786349733660,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1786355100000
  },
  {
   "id": "BOMEUSDT::LONG::ChoCh::1786350600000",
@@ -2873,7 +2877,11 @@
   "rr": 8.03,
   "lev": 25,
   "signalTime": 1786355100000,
-  "status": "pending",
-  "createdAt": 1786355133498
+  "status": "open",
+  "createdAt": 1786355133498,
+  "fillTime": 1786355100000,
+  "notified": [
+   "open"
+  ]
  }
 ]
