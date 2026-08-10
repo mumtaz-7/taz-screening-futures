@@ -3013,5 +3013,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BOMEUSDT::LONG::BoS::1786385700000",
+  "symbol": "BOMEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0008212,
+  "sl": 0.00078955,
+  "tp": 0.0009035,
+  "tpSrc": "WH",
+  "slPct": 3.85,
+  "gainPct": 10.02,
+  "rr": 2.6,
+  "lev": 15,
+  "signalTime": 1786385700000,
+  "status": "pending",
+  "createdAt": 1786385730960
  }
 ]
