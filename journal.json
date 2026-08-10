@@ -2798,5 +2798,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "TSTUSDT::LONG::ChoCh::1786349700000",
+  "symbol": "TSTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01918,
+  "sl": 0.016915000000000003,
+  "tp": 0.02487,
+  "tpSrc": "WH",
+  "slPct": 11.81,
+  "gainPct": 29.67,
+  "rr": 2.51,
+  "lev": 5,
+  "signalTime": 1786349700000,
+  "status": "pending",
+  "createdAt": 1786349733660
  }
 ]
