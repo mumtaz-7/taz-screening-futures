@@ -3146,5 +3146,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BICOUSDT::SHORT::ChoCh::1786401900000",
+  "symbol": "BICOUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.04236,
+  "sl": 0.04471499999999999,
+  "tp": 0.03729,
+  "tpSrc": "WL",
+  "slPct": 5.56,
+  "gainPct": 11.97,
+  "rr": 2.15,
+  "lev": 11,
+  "signalTime": 1786401900000,
+  "status": "pending",
+  "createdAt": 1786401931556
+ },
+ {
+  "id": "TUTUSDT::SHORT::BoS::1786401900000",
+  "symbol": "TUTUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.12356,
+  "sl": 0.13591999999999999,
+  "tp": 0.0809,
+  "tpSrc": "OB",
+  "slPct": 10,
+  "gainPct": 34.53,
+  "rr": 3.45,
+  "lev": 6,
+  "signalTime": 1786401900000,
+  "status": "pending",
+  "createdAt": 1786401931556
  }
 ]
