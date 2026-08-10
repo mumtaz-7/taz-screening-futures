@@ -1,8 +1,7 @@
 {
   "ready": [
-    "ACTUSDT::LONG::BoS",
     "BICOUSDT::SHORT::ChoCh",
     "TUTUSDT::SHORT::BoS"
   ],
-  "at": "2026-08-10T23:00:41.750Z"
+  "at": "2026-08-10T23:15:30.650Z"
 }

@@ -2971,12 +2971,15 @@
   "rr": 1.54,
   "lev": 9,
   "signalTime": 1786378500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786378533552,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786383900000
+  "fillTime": 1786383900000,
+  "R": -1,
+  "resolvedTime": 1786402800000
  },
  {
   "id": "TSTUSDT::LONG::ChoCh::1786378500000",
