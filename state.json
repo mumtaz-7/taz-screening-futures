@@ -1,7 +1,8 @@
 {
   "ready": [
     "BOMEUSDT::LONG::BoS",
-    "HEIUSDT::SHORT::ChoCh"
+    "HEIUSDT::SHORT::ChoCh",
+    "TSTUSDT::LONG::BoS"
   ],
-  "at": "2026-08-10T18:45:31.000Z"
+  "at": "2026-08-10T19:00:53.750Z"
 }
