@@ -3073,8 +3073,12 @@
   "rr": 10.4,
   "lev": 16,
   "signalTime": 1786389300000,
-  "status": "pending",
-  "createdAt": 1786389332721
+  "status": "open",
+  "createdAt": 1786389332721,
+  "fillTime": 1786389300000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "BROCCOLI714USDT::LONG::BoS::1786389300000",
@@ -3090,7 +3094,28 @@
   "rr": 1.65,
   "lev": 9,
   "signalTime": 1786389300000,
+  "status": "open",
+  "createdAt": 1786389332721,
+  "fillTime": 1786389300000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "DODOUSDT::LONG::BoS::1786390200000",
+  "symbol": "DODOUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.02266,
+  "sl": 0.020394999999999996,
+  "tp": 0.025,
+  "tpSrc": "WH",
+  "slPct": 10,
+  "gainPct": 10.33,
+  "rr": 1.03,
+  "lev": 6,
+  "signalTime": 1786390200000,
   "status": "pending",
-  "createdAt": 1786389332721
+  "createdAt": 1786390239918
  }
 ]
