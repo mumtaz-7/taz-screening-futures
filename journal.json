@@ -3282,5 +3282,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ACTUSDT::LONG::ChoCh::1786425300000",
+  "symbol": "ACTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01121,
+  "sl": 0.010775,
+  "tp": 0.012369999999999999,
+  "tpSrc": "EQ",
+  "slPct": 3.88,
+  "gainPct": 10.35,
+  "rr": 2.67,
+  "lev": 15,
+  "signalTime": 1786425300000,
+  "status": "pending",
+  "createdAt": 1786425332069
  }
 ]
