@@ -2862,12 +2862,15 @@
   "rr": 1.46,
   "lev": 7,
   "signalTime": 1786350600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786350640411,
   "fillTime": 1786350600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786410900000
  },
  {
   "id": "BBUSDT::LONG::BoS::1786355100000",
@@ -3209,7 +3212,28 @@
   "rr": 5.34,
   "lev": 20,
   "signalTime": 1786410900000,
+  "status": "open",
+  "createdAt": 1786410932161,
+  "fillTime": 1786410900000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ACEUSDT::LONG::BoS::1786411800000",
+  "symbol": "ACEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1226,
+  "sl": 0.11630000000000001,
+  "tp": 0.1435,
+  "tpSrc": "OB",
+  "slPct": 5.14,
+  "gainPct": 17.05,
+  "rr": 3.32,
+  "lev": 12,
+  "signalTime": 1786411800000,
   "status": "pending",
-  "createdAt": 1786410932161
+  "createdAt": 1786411838908
  }
 ]
