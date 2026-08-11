@@ -3297,12 +3297,15 @@
   "rr": 2.67,
   "lev": 15,
   "signalTime": 1786425300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786425332069,
   "fillTime": 1786425300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786427100000
  },
  {
   "id": "MUBARAKUSDT::SHORT::BoS::1786427100000",
@@ -3319,7 +3322,8 @@
   "lev": 11,
   "signalTime": 1786427100000,
   "status": "pending",
-  "createdAt": 1786427131001
+  "createdAt": 1786427131001,
+  "notified": []
  },
  {
   "id": "ROBOUSDT::LONG::ChoCh::1786427100000",
@@ -3335,7 +3339,28 @@
   "rr": 1.93,
   "lev": 13,
   "signalTime": 1786427100000,
+  "status": "open",
+  "createdAt": 1786427131001,
+  "fillTime": 1786427100000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ACEUSDT::SHORT::ChoCh::1786428000000",
+  "symbol": "ACEUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.1143,
+  "sl": 0.11895,
+  "tp": 0.1051,
+  "tpSrc": "WL",
+  "slPct": 4.07,
+  "gainPct": 8.05,
+  "rr": 1.98,
+  "lev": 15,
+  "signalTime": 1786428000000,
   "status": "pending",
-  "createdAt": 1786427131001
+  "createdAt": 1786428043008
  }
 ]
