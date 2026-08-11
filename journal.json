@@ -3479,5 +3479,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1786445100000
+ },
+ {
+  "id": "VELODROMEUSDT::LONG::ChoCh::1786446900000",
+  "symbol": "VELODROMEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01752,
+  "sl": 0.016785,
+  "tp": 0.02123,
+  "tpSrc": "EQ",
+  "slPct": 4.2,
+  "gainPct": 21.18,
+  "rr": 5.05,
+  "lev": 14,
+  "signalTime": 1786446900000,
+  "status": "pending",
+  "createdAt": 1786446933904
  }
 ]
