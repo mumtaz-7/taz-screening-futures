@@ -3448,7 +3448,28 @@
   "rr": 2.85,
   "lev": 7,
   "signalTime": 1786441500000,
+  "status": "open",
+  "createdAt": 1786441533154,
+  "fillTime": 1786441500000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "BANANAS31USDT::LONG::BoS::1786442400000",
+  "symbol": "BANANAS31USDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0099,
+  "sl": 0.009054,
+  "tp": 0.011009,
+  "tpSrc": "WH",
+  "slPct": 8.55,
+  "gainPct": 11.2,
+  "rr": 1.31,
+  "lev": 7,
+  "signalTime": 1786442400000,
   "status": "pending",
-  "createdAt": 1786441533154
+  "createdAt": 1786442445917
  }
 ]
