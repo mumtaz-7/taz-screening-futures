@@ -3524,9 +3524,12 @@
   "rr": 2.35,
   "lev": 4,
   "signalTime": 1786448700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786448733484,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786455000000
  },
  {
   "id": "BROCCOLI714USDT::LONG::ChoCh::1786451400000",
