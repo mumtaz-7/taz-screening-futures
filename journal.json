@@ -2910,12 +2910,15 @@
   "rr": 4.06,
   "lev": 25,
   "signalTime": 1786360500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786360532294,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786362300000
+  "fillTime": 1786362300000,
+  "R": -1,
+  "resolvedTime": 1786413600000
  },
  {
   "id": "MUBARAKUSDT::LONG::ChoCh::1786373100000",
@@ -2998,12 +3001,15 @@
   "rr": 1.72,
   "lev": 5,
   "signalTime": 1786378500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786378533552,
   "fillTime": 1786378500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786413600000
  },
  {
   "id": "HEIUSDT::SHORT::ChoCh::1786383900000",
@@ -3040,12 +3046,15 @@
   "rr": 2.6,
   "lev": 15,
   "signalTime": 1786385700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786385730960,
   "fillTime": 1786385700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786413600000
  },
  {
   "id": "TSTUSDT::LONG::BoS::1786388400000",
@@ -3239,11 +3248,14 @@
   "rr": 3.32,
   "lev": 12,
   "signalTime": 1786411800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786411838908,
   "fillTime": 1786411800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786413600000
  }
 ]
