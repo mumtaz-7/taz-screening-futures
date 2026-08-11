@@ -1,6 +1,8 @@
 {
   "ready": [
-    "DODOUSDT::LONG::BoS"
+    "BMTUSDT::LONG::BoS",
+    "DODOUSDT::LONG::BoS",
+    "MUBARAKUSDT::SHORT::BoS"
   ],
-  "at": "2026-08-11T23:15:31.718Z"
+  "at": "2026-08-11T23:30:36.835Z"
 }

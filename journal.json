@@ -3714,5 +3714,39 @@
    "open"
   ],
   "fillTime": 1786489200000
+ },
+ {
+  "id": "BMTUSDT::LONG::BoS::1786491000000",
+  "symbol": "BMTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.02379,
+  "sl": 0.021255000000000003,
+  "tp": 0.04361,
+  "tpSrc": "WH",
+  "slPct": 10.66,
+  "gainPct": 83.31,
+  "rr": 7.82,
+  "lev": 6,
+  "signalTime": 1786491000000,
+  "status": "pending",
+  "createdAt": 1786491036835
+ },
+ {
+  "id": "MUBARAKUSDT::SHORT::BoS::1786491000000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0178,
+  "sl": 0.019030000000000002,
+  "tp": 0.0155,
+  "tpSrc": "OB",
+  "slPct": 6.91,
+  "gainPct": 12.92,
+  "rr": 1.87,
+  "lev": 9,
+  "signalTime": 1786491000000,
+  "status": "pending",
+  "createdAt": 1786491036835
  }
 ]
