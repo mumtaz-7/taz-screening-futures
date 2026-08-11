@@ -3433,5 +3433,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BICOUSDT::SHORT::BoS::1786441500000",
+  "symbol": "BICOUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.03837,
+  "sl": 0.04155,
+  "tp": 0.0293,
+  "tpSrc": "OB",
+  "slPct": 8.29,
+  "gainPct": 23.64,
+  "rr": 2.85,
+  "lev": 7,
+  "signalTime": 1786441500000,
+  "status": "pending",
+  "createdAt": 1786441533154
  }
 ]
