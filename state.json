@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ACTUSDT::LONG::ChoCh"
+    "MUBARAKUSDT::SHORT::BoS",
+    "ROBOUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-11T05:30:38.525Z"
+  "at": "2026-08-11T05:45:31.000Z"
 }

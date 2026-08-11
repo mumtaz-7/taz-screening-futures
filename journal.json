@@ -3303,5 +3303,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MUBARAKUSDT::SHORT::BoS::1786427100000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.01963,
+  "sl": 0.02071,
+  "tp": 0.018,
+  "tpSrc": "OB",
+  "slPct": 5.5,
+  "gainPct": 8.3,
+  "rr": 1.51,
+  "lev": 11,
+  "signalTime": 1786427100000,
+  "status": "pending",
+  "createdAt": 1786427131001
+ },
+ {
+  "id": "ROBOUSDT::LONG::ChoCh::1786427100000",
+  "symbol": "ROBOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01376,
+  "sl": 0.01313,
+  "tp": 0.014975,
+  "tpSrc": "EQ",
+  "slPct": 4.58,
+  "gainPct": 8.83,
+  "rr": 1.93,
+  "lev": 13,
+  "signalTime": 1786427100000,
+  "status": "pending",
+  "createdAt": 1786427131001
  }
 ]
