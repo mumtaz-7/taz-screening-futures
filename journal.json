@@ -3327,9 +3327,13 @@
   "rr": 1.51,
   "lev": 11,
   "signalTime": 1786427100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786427131001,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1786428900000
  },
  {
   "id": "ROBOUSDT::LONG::ChoCh::1786427100000",
@@ -3369,5 +3373,22 @@
   "status": "pending",
   "createdAt": 1786428043008,
   "notified": []
+ },
+ {
+  "id": "ACTUSDT::SHORT::ChoCh::1786429800000",
+  "symbol": "ACTUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.01092,
+  "sl": 0.01173,
+  "tp": 0.00999,
+  "tpSrc": "OB",
+  "slPct": 7.42,
+  "gainPct": 8.52,
+  "rr": 1.15,
+  "lev": 8,
+  "signalTime": 1786429800000,
+  "status": "pending",
+  "createdAt": 1786429839200
  }
 ]
