@@ -2070,12 +2070,15 @@
   "rr": 8.89,
   "lev": 15,
   "signalTime": 1786176000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786176043902,
   "fillTime": 1786176000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786459500000
  },
  {
   "id": "HFTUSDT::LONG::ChoCh::1786177800000",
