@@ -3614,8 +3614,28 @@
   "rr": 2.62,
   "lev": 15,
   "signalTime": 1786473000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786473038282,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786473900000
+ },
+ {
+  "id": "HOLOUSDT::LONG::ChoCh::1786474800000",
+  "symbol": "HOLOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0756,
+  "sl": 0.0669,
+  "tp": 0.085,
+  "tpSrc": "WH",
+  "slPct": 11.51,
+  "gainPct": 12.43,
+  "rr": 1.08,
+  "lev": 5,
+  "signalTime": 1786474800000,
+  "status": "pending",
+  "createdAt": 1786474844138
  }
 ]
