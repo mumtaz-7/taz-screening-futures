@@ -3657,11 +3657,31 @@
   "rr": 3.36,
   "lev": 13,
   "signalTime": 1786480200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786480238571,
   "fillTime": 1786480200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786482000000
+ },
+ {
+  "id": "PROMUSDT::SHORT::BoS::1786482900000",
+  "symbol": "PROMUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 1.924,
+  "sl": 1.9929999999999999,
+  "tp": 1.643,
+  "tpSrc": "WL",
+  "slPct": 3.59,
+  "gainPct": 14.6,
+  "rr": 4.07,
+  "lev": 17,
+  "signalTime": 1786482900000,
+  "status": "pending",
+  "createdAt": 1786482933119
  }
 ]
