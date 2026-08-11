@@ -3094,12 +3094,15 @@
   "rr": 10.4,
   "lev": 16,
   "signalTime": 1786389300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786389332721,
   "fillTime": 1786389300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786428000000
  },
  {
   "id": "BROCCOLI714USDT::LONG::BoS::1786389300000",
@@ -3161,12 +3164,15 @@
   "rr": 4.45,
   "lev": 10,
   "signalTime": 1786392900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786392931445,
   "fillTime": 1786392900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786428000000
  },
  {
   "id": "BICOUSDT::SHORT::ChoCh::1786401900000",
@@ -3361,6 +3367,7 @@
   "lev": 15,
   "signalTime": 1786428000000,
   "status": "pending",
-  "createdAt": 1786428043008
+  "createdAt": 1786428043008,
+  "notified": []
  }
 ]
