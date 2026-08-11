@@ -3391,5 +3391,22 @@
   "status": "pending",
   "createdAt": 1786429839200,
   "notified": []
+ },
+ {
+  "id": "BANKUSDT::SHORT::ChoCh::1786431600000",
+  "symbol": "BANKUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.0388,
+  "sl": 0.03985,
+  "tp": 0.0345,
+  "tpSrc": "WL",
+  "slPct": 2.71,
+  "gainPct": 11.08,
+  "rr": 4.1,
+  "lev": 21,
+  "signalTime": 1786431600000,
+  "status": "pending",
+  "createdAt": 1786431643057
  }
 ]

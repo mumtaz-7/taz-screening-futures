@@ -1,7 +1,6 @@
 {
   "ready": [
-    "ACEUSDT::SHORT::ChoCh",
-    "ACTUSDT::SHORT::ChoCh"
+    "BANKUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-08-11T06:45:30.876Z"
+  "at": "2026-08-11T07:00:43.057Z"
 }
