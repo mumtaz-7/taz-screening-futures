@@ -3260,5 +3260,22 @@
   ],
   "R": -1,
   "resolvedTime": 1786413600000
+ },
+ {
+  "id": "BICOUSDT::LONG::ChoCh::1786420800000",
+  "symbol": "BICOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.04536,
+  "sl": 0.03966,
+  "tp": 0.05136,
+  "tpSrc": "WH",
+  "slPct": 12.57,
+  "gainPct": 13.23,
+  "rr": 1.05,
+  "lev": 5,
+  "signalTime": 1786420800000,
+  "status": "pending",
+  "createdAt": 1786420845047
  }
 ]
