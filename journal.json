@@ -3194,5 +3194,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ESPUSDT::LONG::BoS::1786410900000",
+  "symbol": "ESPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.07323,
+  "sl": 0.07108500000000001,
+  "tp": 0.08469,
+  "tpSrc": "WH",
+  "slPct": 2.93,
+  "gainPct": 15.65,
+  "rr": 5.34,
+  "lev": 20,
+  "signalTime": 1786410900000,
+  "status": "pending",
+  "createdAt": 1786410932161
  }
 ]
