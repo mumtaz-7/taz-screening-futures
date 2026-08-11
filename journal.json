@@ -3412,5 +3412,22 @@
   "status": "pending",
   "createdAt": 1786431643057,
   "notified": []
+ },
+ {
+  "id": "REUSDT::LONG::BoS::1786437900000",
+  "symbol": "REUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.43,
+  "sl": 0.39849999999999997,
+  "tp": 0.4653,
+  "tpSrc": "OB",
+  "slPct": 7.33,
+  "gainPct": 8.21,
+  "rr": 1.12,
+  "lev": 8,
+  "signalTime": 1786437900000,
+  "status": "pending",
+  "createdAt": 1786437930957
  }
 ]
