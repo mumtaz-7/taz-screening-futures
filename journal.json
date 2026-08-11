@@ -3025,12 +3025,15 @@
   "rr": 4.24,
   "lev": 6,
   "signalTime": 1786383900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786383932583,
   "fillTime": 1786383900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786434300000
  },
  {
   "id": "BOMEUSDT::LONG::BoS::1786385700000",
