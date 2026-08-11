@@ -2529,12 +2529,15 @@
   "rr": 3.7,
   "lev": 11,
   "signalTime": 1786277700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786277732615,
   "fillTime": 1786277700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.7,
+  "resolvedTime": 1786489200000
  },
  {
   "id": "BANANAS31USDT::LONG::BoS::1786289400000",
@@ -3705,8 +3708,11 @@
   "rr": 4.52,
   "lev": 11,
   "signalTime": 1786487400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786487438195,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786489200000
  }
 ]
