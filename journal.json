@@ -3578,5 +3578,22 @@
    "open"
   ],
   "fillTime": 1786462200000
+ },
+ {
+  "id": "BANKUSDT::SHORT::BoS::1786468500000",
+  "symbol": "BANKUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0371,
+  "sl": 0.03845,
+  "tp": 0.0345,
+  "tpSrc": "WL",
+  "slPct": 3.64,
+  "gainPct": 7.01,
+  "rr": 1.93,
+  "lev": 16,
+  "signalTime": 1786468500000,
+  "status": "pending",
+  "createdAt": 1786468541154
  }
 ]
