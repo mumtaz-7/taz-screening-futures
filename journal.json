@@ -3762,5 +3762,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ONEUSDT::SHORT::BoS::1786499100000",
+  "symbol": "ONEUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.00116,
+  "sl": 0.0012050000000000001,
+  "tp": 0.00056,
+  "tpSrc": "WL",
+  "slPct": 3.88,
+  "gainPct": 51.72,
+  "rr": 13.33,
+  "lev": 15,
+  "signalTime": 1786499100000,
+  "status": "pending",
+  "createdAt": 1786499130710
  }
 ]
