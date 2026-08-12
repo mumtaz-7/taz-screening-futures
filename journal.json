@@ -3578,12 +3578,15 @@
   "rr": 4.65,
   "lev": 7,
   "signalTime": 1786458600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786458639909,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786462200000
+  "fillTime": 1786462200000,
+  "R": -1,
+  "resolvedTime": 1786506300000
  },
  {
   "id": "BANKUSDT::SHORT::BoS::1786468500000",
