@@ -3623,12 +3623,15 @@
   "rr": 2.62,
   "lev": 15,
   "signalTime": 1786473000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786473038282,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1786473900000
+  "fillTime": 1786473900000,
+  "R": 2.62,
+  "resolvedTime": 1786510800000
  },
  {
   "id": "HOLOUSDT::LONG::ChoCh::1786474800000",
@@ -3804,7 +3807,11 @@
   "rr": 1.13,
   "lev": 3,
   "signalTime": 1786510800000,
-  "status": "pending",
-  "createdAt": 1786510843214
+  "status": "open",
+  "createdAt": 1786510843214,
+  "fillTime": 1786510800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
