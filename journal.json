@@ -3789,5 +3789,22 @@
   "fillTime": 1786504500000,
   "R": -1,
   "resolvedTime": 1786507200000
+ },
+ {
+  "id": "BICOUSDT::SHORT::ChoCh::1786510800000",
+  "symbol": "BICOUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.03673,
+  "sl": 0.043285,
+  "tp": 0.0293,
+  "tpSrc": "OB",
+  "slPct": 17.85,
+  "gainPct": 20.23,
+  "rr": 1.13,
+  "lev": 3,
+  "signalTime": 1786510800000,
+  "status": "pending",
+  "createdAt": 1786510843214
  }
 ]
