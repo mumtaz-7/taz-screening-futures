@@ -3859,5 +3859,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "BANANAS31USDT::SHORT::BoS::1786528800000",
+  "symbol": "BANANAS31USDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.008525,
+  "sl": 0.009216499999999999,
+  "tp": 0.007757,
+  "tpSrc": "OB",
+  "slPct": 8.11,
+  "gainPct": 9.01,
+  "rr": 1.11,
+  "lev": 7,
+  "signalTime": 1786528800000,
+  "status": "pending",
+  "createdAt": 1786528846996
  }
 ]
