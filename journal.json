@@ -3602,12 +3602,15 @@
   "rr": 1.93,
   "lev": 16,
   "signalTime": 1786468500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786468541154,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1786473000000
+  "fillTime": 1786473000000,
+  "R": 1.93,
+  "resolvedTime": 1786516200000
  },
  {
   "id": "DODOUSDT::LONG::ChoCh::1786473000000",
@@ -3828,7 +3831,11 @@
   "rr": 1.02,
   "lev": 6,
   "signalTime": 1786516200000,
-  "status": "pending",
-  "createdAt": 1786516240334
+  "status": "open",
+  "createdAt": 1786516240334,
+  "fillTime": 1786516200000,
+  "notified": [
+   "open"
+  ]
  }
 ]
