@@ -3687,12 +3687,15 @@
   "rr": 4.07,
   "lev": 17,
   "signalTime": 1786482900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786482933119,
   "fillTime": 1786482900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786494600000
  },
  {
   "id": "DODOUSDT::LONG::BoS::1786487400000",
