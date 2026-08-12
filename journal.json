@@ -3732,12 +3732,15 @@
   "rr": 7.82,
   "lev": 6,
   "signalTime": 1786491000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786491036835,
   "fillTime": 1786491000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786497300000
  },
  {
   "id": "MUBARAKUSDT::SHORT::BoS::1786491000000",
