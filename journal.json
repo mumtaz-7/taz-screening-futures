@@ -3837,5 +3837,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "KAITOUSDT::SHORT::BoS::1786526100000",
+  "symbol": "KAITOUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.6188,
+  "sl": 0.64325,
+  "tp": 0.5539,
+  "tpSrc": "WL",
+  "slPct": 3.95,
+  "gainPct": 10.49,
+  "rr": 2.65,
+  "lev": 15,
+  "signalTime": 1786526100000,
+  "status": "pending",
+  "createdAt": 1786526134400
  }
 ]

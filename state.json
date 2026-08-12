@@ -1,6 +1,7 @@
 {
   "ready": [
-    "BICOUSDT::SHORT::BoS"
+    "BICOUSDT::SHORT::BoS",
+    "KAITOUSDT::SHORT::BoS"
   ],
-  "at": "2026-08-12T09:00:46.142Z"
+  "at": "2026-08-12T09:15:34.399Z"
 }
