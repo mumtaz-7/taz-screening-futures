@@ -4016,5 +4016,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "REUSDT::LONG::ChoCh::1786577400000",
+  "symbol": "REUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.4277,
+  "sl": 0.4184,
+  "tp": 0.4653,
+  "tpSrc": "OB",
+  "slPct": 2.17,
+  "gainPct": 8.79,
+  "rr": 4.04,
+  "lev": 25,
+  "signalTime": 1786577400000,
+  "status": "pending",
+  "createdAt": 1786577437151
  }
 ]
