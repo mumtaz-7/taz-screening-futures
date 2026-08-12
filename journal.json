@@ -1563,12 +1563,15 @@
   "rr": 2.03,
   "lev": 7,
   "signalTime": 1786034700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786034891957,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786039200000
+  "fillTime": 1786039200000,
+  "R": -1,
+  "resolvedTime": 1786548600000
  },
  {
   "id": "HMSTRUSDT::LONG::ChoCh::1786037400000",
