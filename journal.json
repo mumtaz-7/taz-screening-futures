@@ -3880,5 +3880,22 @@
    "open"
   ],
   "fillTime": 1786530600000
+ },
+ {
+  "id": "RAREUSDT::LONG::BoS::1786533300000",
+  "symbol": "RAREUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01253,
+  "sl": 0.012230000000000001,
+  "tp": 0.0163,
+  "tpSrc": "WH",
+  "slPct": 2.39,
+  "gainPct": 30.09,
+  "rr": 12.57,
+  "lev": 24,
+  "signalTime": 1786533300000,
+  "status": "pending",
+  "createdAt": 1786533332937
  }
 ]
