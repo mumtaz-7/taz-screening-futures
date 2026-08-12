@@ -3926,9 +3926,12 @@
   "rr": 1.28,
   "lev": 10,
   "signalTime": 1786546800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786546846723,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786554000000
  },
  {
   "id": "RADUSDT::LONG::ChoCh::1786554000000",
@@ -3944,7 +3947,11 @@
   "rr": 2.78,
   "lev": 16,
   "signalTime": 1786554000000,
-  "status": "pending",
-  "createdAt": 1786554041335
+  "status": "open",
+  "createdAt": 1786554041335,
+  "fillTime": 1786554000000,
+  "notified": [
+   "open"
+  ]
  }
 ]
