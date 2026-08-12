@@ -3768,12 +3768,15 @@
   "rr": 1.87,
   "lev": 9,
   "signalTime": 1786491000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786491036835,
   "fillTime": 1786491000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786545900000
  },
  {
   "id": "ONEUSDT::SHORT::BoS::1786499100000",
@@ -3905,5 +3908,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "MUBARAKUSDT::LONG::BoS::1786546800000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01835,
+  "sl": 0.017255,
+  "tp": 0.01975,
+  "tpSrc": "OB",
+  "slPct": 5.97,
+  "gainPct": 7.63,
+  "rr": 1.28,
+  "lev": 10,
+  "signalTime": 1786546800000,
+  "status": "pending",
+  "createdAt": 1786546846723
  }
 ]
