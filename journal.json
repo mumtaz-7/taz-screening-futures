@@ -4109,5 +4109,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HOMEUSDT::LONG::BoS::1786604400000",
+  "symbol": "HOMEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00985,
+  "sl": 0.009550000000000001,
+  "tp": 0.01064,
+  "tpSrc": "WH",
+  "slPct": 3.05,
+  "gainPct": 8.02,
+  "rr": 2.63,
+  "lev": 19,
+  "signalTime": 1786604400000,
+  "status": "pending",
+  "createdAt": 1786604442615
  }
 ]
