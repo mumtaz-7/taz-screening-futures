@@ -4169,9 +4169,13 @@
   "rr": 7.41,
   "lev": 19,
   "signalTime": 1786608000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786608043773,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1786608900000
  },
  {
   "id": "MMTUSDT::SHORT::BoS::1786608900000",
@@ -4188,6 +4192,7 @@
   "lev": 8,
   "signalTime": 1786608900000,
   "status": "pending",
-  "createdAt": 1786608932127
+  "createdAt": 1786608932127,
+  "notified": []
  }
 ]
