@@ -4375,9 +4375,12 @@
   "rr": 2.32,
   "lev": 15,
   "signalTime": 1786640400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786640448292,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "PROMUSDT::LONG::ChoCh::1786646700000",
