@@ -4396,5 +4396,22 @@
   "status": "pending",
   "createdAt": 1786646743677,
   "notified": []
+ },
+ {
+  "id": "PROMUSDT::LONG::BoS::1786660200000",
+  "symbol": "PROMUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 2.525,
+  "sl": 2.3645000000000005,
+  "tp": 3.627,
+  "tpSrc": "WH",
+  "slPct": 6.36,
+  "gainPct": 43.64,
+  "rr": 6.87,
+  "lev": 9,
+  "signalTime": 1786660200000,
+  "status": "pending",
+  "createdAt": 1786660238494
  }
 ]
