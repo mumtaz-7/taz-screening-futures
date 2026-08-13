@@ -4209,9 +4209,12 @@
   "rr": 1.24,
   "lev": 8,
   "signalTime": 1786608900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786608932127,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "PROMUSDT::LONG::ChoCh::1786612500000",
@@ -4275,5 +4278,22 @@
   "status": "pending",
   "createdAt": 1786626934509,
   "notified": []
+ },
+ {
+  "id": "MUBARAKUSDT::SHORT::BoS::1786631400000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.01719,
+  "sl": 0.017849999999999998,
+  "tp": 0.0155,
+  "tpSrc": "OB",
+  "slPct": 3.84,
+  "gainPct": 9.83,
+  "rr": 2.56,
+  "lev": 15,
+  "signalTime": 1786631400000,
+  "status": "pending",
+  "createdAt": 1786631445711
  }
 ]
