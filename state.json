@@ -1,7 +1,8 @@
 {
   "ready": [
     "ACEUSDT::SHORT::ChoCh",
-    "DODOUSDT::LONG::BoS"
+    "DODOUSDT::LONG::BoS",
+    "TSTUSDT::LONG::BoS"
   ],
-  "at": "2026-08-13T04:15:29.445Z"
+  "at": "2026-08-13T04:30:37.198Z"
 }

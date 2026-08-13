@@ -4043,9 +4043,12 @@
   "rr": 4.04,
   "lev": 25,
   "signalTime": 1786577400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786577437151,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786594500000
  },
  {
   "id": "ACEUSDT::SHORT::ChoCh::1786590900000",
@@ -4067,5 +4070,22 @@
    "open"
   ],
   "fillTime": 1786591800000
+ },
+ {
+  "id": "TSTUSDT::LONG::BoS::1786595400000",
+  "symbol": "TSTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01476,
+  "sl": 0.0138,
+  "tp": 0.02262,
+  "tpSrc": "OB",
+  "slPct": 6.5,
+  "gainPct": 53.25,
+  "rr": 8.19,
+  "lev": 9,
+  "signalTime": 1786595400000,
+  "status": "pending",
+  "createdAt": 1786595437199
  }
 ]
