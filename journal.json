@@ -4130,12 +4130,15 @@
   "rr": 2.63,
   "lev": 19,
   "signalTime": 1786604400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786604442615,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1786606200000
+  "fillTime": 1786606200000,
+  "R": 2.63,
+  "resolvedTime": 1786614300000
  },
  {
   "id": "ATUSDT::LONG::ChoCh::1786606200000",
