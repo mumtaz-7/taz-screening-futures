@@ -4215,7 +4215,11 @@
   "rr": 8.15,
   "lev": 11,
   "signalTime": 1786612500000,
-  "status": "pending",
-  "createdAt": 1786612534243
+  "status": "open",
+  "createdAt": 1786612534243,
+  "fillTime": 1786612500000,
+  "notified": [
+   "open"
+  ]
  }
 ]
