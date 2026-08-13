@@ -3454,12 +3454,15 @@
   "rr": 1.12,
   "lev": 8,
   "signalTime": 1786437900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786437930957,
   "fillTime": 1786437900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.12,
+  "resolvedTime": 1786611600000
  },
  {
   "id": "BICOUSDT::SHORT::BoS::1786441500000",
@@ -4043,12 +4046,15 @@
   "rr": 4.04,
   "lev": 25,
   "signalTime": 1786577400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786577437151,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1786594500000
+  "fillTime": 1786594500000,
+  "R": 4.04,
+  "resolvedTime": 1786611600000
  },
  {
   "id": "ACEUSDT::SHORT::ChoCh::1786590900000",
@@ -4194,5 +4200,22 @@
   "status": "pending",
   "createdAt": 1786608932127,
   "notified": []
+ },
+ {
+  "id": "PROMUSDT::LONG::ChoCh::1786612500000",
+  "symbol": "PROMUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 2.539,
+  "sl": 2.4055,
+  "tp": 3.627,
+  "tpSrc": "WH",
+  "slPct": 5.26,
+  "gainPct": 42.85,
+  "rr": 8.15,
+  "lev": 11,
+  "signalTime": 1786612500000,
+  "status": "pending",
+  "createdAt": 1786612534243
  }
 ]
