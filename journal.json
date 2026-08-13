@@ -4145,11 +4145,31 @@
   "rr": 1.53,
   "lev": 8,
   "signalTime": 1786606200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786606240786,
   "fillTime": 1786606200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786607100000
+ },
+ {
+  "id": "ATMUSDT::LONG::BoS::1786608000000",
+  "symbol": "ATMUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1.619,
+  "sl": 1.5695000000000001,
+  "tp": 1.986,
+  "tpSrc": "WH",
+  "slPct": 3.06,
+  "gainPct": 22.67,
+  "rr": 7.41,
+  "lev": 19,
+  "signalTime": 1786608000000,
+  "status": "pending",
+  "createdAt": 1786608043773
  }
 ]
