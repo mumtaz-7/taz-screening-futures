@@ -3840,12 +3840,15 @@
   "rr": 1.02,
   "lev": 6,
   "signalTime": 1786516200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786516240334,
   "fillTime": 1786516200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.02,
+  "resolvedTime": 1786581000000
  },
  {
   "id": "KAITOUSDT::SHORT::BoS::1786526100000",
@@ -3968,12 +3971,15 @@
   "rr": 1.14,
   "lev": 9,
   "signalTime": 1786563900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786563932417,
   "fillTime": 1786563900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.14,
+  "resolvedTime": 1786581000000
  },
  {
   "id": "RAREUSDT::LONG::BoS::1786569300000",
