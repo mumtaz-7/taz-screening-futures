@@ -4043,5 +4043,22 @@
   "status": "pending",
   "createdAt": 1786577437151,
   "notified": []
+ },
+ {
+  "id": "ACEUSDT::SHORT::ChoCh::1786590900000",
+  "symbol": "ACEUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.108,
+  "sl": 0.1104,
+  "tp": 0.0951,
+  "tpSrc": "WL",
+  "slPct": 2.22,
+  "gainPct": 11.94,
+  "rr": 5.38,
+  "lev": 25,
+  "signalTime": 1786590900000,
+  "status": "pending",
+  "createdAt": 1786590931307
  }
 ]
