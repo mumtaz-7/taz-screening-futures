@@ -4088,5 +4088,22 @@
   "status": "pending",
   "createdAt": 1786595437199,
   "notified": []
+ },
+ {
+  "id": "ALLOUSDT::SHORT::ChoCh::1786599000000",
+  "symbol": "ALLOUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.2907,
+  "sl": 0.2985,
+  "tp": 0.2607,
+  "tpSrc": "OB",
+  "slPct": 2.68,
+  "gainPct": 10.32,
+  "rr": 3.85,
+  "lev": 22,
+  "signalTime": 1786599000000,
+  "status": "pending",
+  "createdAt": 1786599038757
  }
 ]
