@@ -3478,12 +3478,15 @@
   "rr": 2.85,
   "lev": 7,
   "signalTime": 1786441500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786441533154,
   "fillTime": 1786441500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.85,
+  "resolvedTime": 1786631400000
  },
  {
   "id": "BANANAS31USDT::LONG::BoS::1786442400000",
@@ -3822,12 +3825,15 @@
   "rr": 1.13,
   "lev": 3,
   "signalTime": 1786510800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786510843214,
   "fillTime": 1786510800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.13,
+  "resolvedTime": 1786631400000
  },
  {
   "id": "MMTUSDT::SHORT::BoS::1786516200000",
@@ -4293,7 +4299,11 @@
   "rr": 2.56,
   "lev": 15,
   "signalTime": 1786631400000,
-  "status": "pending",
-  "createdAt": 1786631445711
+  "status": "open",
+  "createdAt": 1786631445711,
+  "fillTime": 1786631400000,
+  "notified": [
+   "open"
+  ]
  }
 ]
