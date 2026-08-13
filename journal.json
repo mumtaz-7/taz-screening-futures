@@ -4321,6 +4321,24 @@
   "lev": 10,
   "signalTime": 1786636800000,
   "status": "pending",
-  "createdAt": 1786636844221
+  "createdAt": 1786636844221,
+  "notified": []
+ },
+ {
+  "id": "COTIUSDT::LONG::BoS::1786637700000",
+  "symbol": "COTIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01304,
+  "sl": 0.010624999999999999,
+  "tp": 0.01566,
+  "tpSrc": "OB",
+  "slPct": 18.52,
+  "gainPct": 20.09,
+  "rr": 1.08,
+  "lev": 3,
+  "signalTime": 1786637700000,
+  "status": "pending",
+  "createdAt": 1786637733378
  }
 ]
