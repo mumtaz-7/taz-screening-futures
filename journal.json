@@ -3932,12 +3932,15 @@
   "rr": 1.28,
   "lev": 10,
   "signalTime": 1786546800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786546846723,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786554000000
+  "fillTime": 1786554000000,
+  "R": -1,
+  "resolvedTime": 1786620600000
  },
  {
   "id": "RADUSDT::LONG::ChoCh::1786554000000",
@@ -4221,11 +4224,31 @@
   "rr": 8.15,
   "lev": 11,
   "signalTime": 1786612500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786612534243,
   "fillTime": 1786612500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786620600000
+ },
+ {
+  "id": "COTIUSDT::LONG::ChoCh::1786621500000",
+  "symbol": "COTIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01234,
+  "sl": 0.009640000000000001,
+  "tp": 0.01529,
+  "tpSrc": "WH",
+  "slPct": 21.88,
+  "gainPct": 23.91,
+  "rr": 1.09,
+  "lev": 3,
+  "signalTime": 1786621500000,
+  "status": "pending",
+  "createdAt": 1786621532833
  }
 ]
