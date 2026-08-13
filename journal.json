@@ -3524,12 +3524,15 @@
   "rr": 5.05,
   "lev": 14,
   "signalTime": 1786446900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786446933904,
   "fillTime": 1786446900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786638600000
  },
  {
   "id": "MITOUSDT::LONG::BoS::1786448700000",
@@ -4281,9 +4284,12 @@
   "rr": 1.12,
   "lev": 9,
   "signalTime": 1786626900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786626934509,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786638600000
  },
  {
   "id": "MUBARAKUSDT::SHORT::BoS::1786631400000",
