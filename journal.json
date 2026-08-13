@@ -4016,12 +4016,15 @@
   "rr": 5.88,
   "lev": 10,
   "signalTime": 1786572000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786572046762,
   "fillTime": 1786572000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786583700000
  },
  {
   "id": "REUSDT::LONG::ChoCh::1786577400000",
