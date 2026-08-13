@@ -4170,6 +4170,24 @@
   "lev": 19,
   "signalTime": 1786608000000,
   "status": "pending",
-  "createdAt": 1786608043773
+  "createdAt": 1786608043773,
+  "notified": []
+ },
+ {
+  "id": "MMTUSDT::SHORT::BoS::1786608900000",
+  "symbol": "MMTUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1819,
+  "sl": 0.196,
+  "tp": 0.1644,
+  "tpSrc": "OB",
+  "slPct": 7.75,
+  "gainPct": 9.62,
+  "rr": 1.24,
+  "lev": 8,
+  "signalTime": 1786608900000,
+  "status": "pending",
+  "createdAt": 1786608932127
  }
 ]
