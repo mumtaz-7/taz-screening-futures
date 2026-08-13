@@ -2853,12 +2853,15 @@
   "rr": 1.6,
   "lev": 7,
   "signalTime": 1786350600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786350640411,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786352400000
+  "fillTime": 1786352400000,
+  "R": -1,
+  "resolvedTime": 1786639500000
  },
  {
   "id": "BROCCOLI714USDT::LONG::ChoCh::1786350600000",
@@ -4350,5 +4353,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ATUSDT::LONG::ChoCh::1786640400000",
+  "symbol": "ATUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.15,
+  "sl": 0.14415,
+  "tp": 0.16355,
+  "tpSrc": "EQ",
+  "slPct": 3.9,
+  "gainPct": 9.03,
+  "rr": 2.32,
+  "lev": 15,
+  "signalTime": 1786640400000,
+  "status": "pending",
+  "createdAt": 1786640448292
  }
 ]
