@@ -4073,12 +4073,15 @@
   "rr": 5.38,
   "lev": 25,
   "signalTime": 1786590900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786590931307,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786591800000
+  "fillTime": 1786591800000,
+  "R": -1,
+  "resolvedTime": 1786623300000
  },
  {
   "id": "TSTUSDT::LONG::BoS::1786595400000",
