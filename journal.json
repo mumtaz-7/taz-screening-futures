@@ -4329,9 +4329,13 @@
   "rr": 1.4,
   "lev": 10,
   "signalTime": 1786636800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786636844221,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1786645800000
  },
  {
   "id": "COTIUSDT::LONG::BoS::1786637700000",
@@ -4371,5 +4375,22 @@
   "status": "pending",
   "createdAt": 1786640448292,
   "notified": []
+ },
+ {
+  "id": "PROMUSDT::LONG::ChoCh::1786646700000",
+  "symbol": "PROMUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 2.325,
+  "sl": 2.1525,
+  "tp": 2.7285,
+  "tpSrc": "EQ",
+  "slPct": 7.42,
+  "gainPct": 17.35,
+  "rr": 2.34,
+  "lev": 8,
+  "signalTime": 1786646700000,
+  "status": "pending",
+  "createdAt": 1786646743677
  }
 ]
