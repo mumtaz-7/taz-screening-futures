@@ -4091,9 +4091,12 @@
   "rr": 8.19,
   "lev": 9,
   "signalTime": 1786595400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786595437199,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ALLOUSDT::SHORT::ChoCh::1786599000000",
