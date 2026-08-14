@@ -4421,12 +4421,15 @@
   "rr": 6.87,
   "lev": 9,
   "signalTime": 1786660200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786660238494,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786670100000
+  "fillTime": 1786670100000,
+  "R": -1,
+  "resolvedTime": 1786733100000
  },
  {
   "id": "ACEUSDT::LONG::BoS::1786672800000",
