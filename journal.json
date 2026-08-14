@@ -4606,7 +4606,8 @@
   "lev": 3,
   "signalTime": 1786746600000,
   "status": "pending",
-  "createdAt": 1786746637128
+  "createdAt": 1786746637128,
+  "notified": []
  },
  {
   "id": "COTIUSDT::SHORT::ChoCh::1786746600000",
@@ -4623,6 +4624,7 @@
   "lev": 7,
   "signalTime": 1786746600000,
   "status": "pending",
-  "createdAt": 1786746637128
+  "createdAt": 1786746637128,
+  "notified": []
  }
 ]
