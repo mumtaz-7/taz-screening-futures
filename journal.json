@@ -4464,12 +4464,15 @@
   "rr": 3.08,
   "lev": 10,
   "signalTime": 1786675500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786675530314,
   "fillTime": 1786675500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786702500000
  },
  {
   "id": "ATMUSDT::LONG::BoS::1786681800000",
