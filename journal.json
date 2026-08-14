@@ -4311,12 +4311,15 @@
   "rr": 2.56,
   "lev": 15,
   "signalTime": 1786631400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786631445711,
   "fillTime": 1786631400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.56,
+  "resolvedTime": 1786666500000
  },
  {
   "id": "BICOUSDT::SHORT::ChoCh::1786636800000",
