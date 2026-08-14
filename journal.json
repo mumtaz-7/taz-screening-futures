@@ -4449,5 +4449,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ATUSDT::LONG::BoS::1786675500000",
+  "symbol": "ATUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1573,
+  "sl": 0.14815,
+  "tp": 0.1855,
+  "tpSrc": "WH",
+  "slPct": 5.82,
+  "gainPct": 17.93,
+  "rr": 3.08,
+  "lev": 10,
+  "signalTime": 1786675500000,
+  "status": "pending",
+  "createdAt": 1786675530314
  }
 ]
