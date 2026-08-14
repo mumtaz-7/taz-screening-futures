@@ -4497,5 +4497,22 @@
   "fillTime": 1786682700000,
   "R": -1,
   "resolvedTime": 1786689900000
+ },
+ {
+  "id": "AVNTUSDT::LONG::ChoCh::1786714200000",
+  "symbol": "AVNTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1011,
+  "sl": 0.09825,
+  "tp": 0.1164,
+  "tpSrc": "WH",
+  "slPct": 2.82,
+  "gainPct": 15.13,
+  "rr": 5.37,
+  "lev": 21,
+  "signalTime": 1786714200000,
+  "status": "pending",
+  "createdAt": 1786714237706
  }
 ]
