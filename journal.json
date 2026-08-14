@@ -4518,5 +4518,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "2ZUSDT::SHORT::ChoCh::1786716000000",
+  "symbol": "2ZUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.05512,
+  "sl": 0.060700000000000004,
+  "tp": 0.04727,
+  "tpSrc": "WL",
+  "slPct": 10.12,
+  "gainPct": 14.24,
+  "rr": 1.41,
+  "lev": 6,
+  "signalTime": 1786716000000,
+  "status": "pending",
+  "createdAt": 1786716044414
  }
 ]
