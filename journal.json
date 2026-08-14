@@ -4470,5 +4470,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ATMUSDT::LONG::BoS::1786681800000",
+  "symbol": "ATMUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1.865,
+  "sl": 1.7735,
+  "tp": 2.05,
+  "tpSrc": "WH",
+  "slPct": 4.91,
+  "gainPct": 9.92,
+  "rr": 2.02,
+  "lev": 12,
+  "signalTime": 1786681800000,
+  "status": "pending",
+  "createdAt": 1786681836798
  }
 ]
