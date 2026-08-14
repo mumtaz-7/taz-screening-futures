@@ -4360,12 +4360,15 @@
   "rr": 1.08,
   "lev": 3,
   "signalTime": 1786637700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786637733378,
   "fillTime": 1786637700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786745700000
  },
  {
   "id": "ATUSDT::LONG::ChoCh::1786640400000",
@@ -4587,5 +4590,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ACEUSDT::LONG::BoS::1786746600000",
+  "symbol": "ACEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.3245,
+  "sl": 0.27125,
+  "tp": 0.3784,
+  "tpSrc": "WH",
+  "slPct": 16.41,
+  "gainPct": 16.61,
+  "rr": 1.01,
+  "lev": 3,
+  "signalTime": 1786746600000,
+  "status": "pending",
+  "createdAt": 1786746637128
+ },
+ {
+  "id": "COTIUSDT::SHORT::ChoCh::1786746600000",
+  "symbol": "COTIUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.01077,
+  "sl": 0.011744999999999998,
+  "tp": 0.00945,
+  "tpSrc": "OB",
+  "slPct": 9.05,
+  "gainPct": 12.26,
+  "rr": 1.35,
+  "lev": 7,
+  "signalTime": 1786746600000,
+  "status": "pending",
+  "createdAt": 1786746637128
  }
 ]
