@@ -4396,9 +4396,13 @@
   "rr": 2.34,
   "lev": 8,
   "signalTime": 1786646700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786646743677,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1786665600000
  },
  {
   "id": "PROMUSDT::LONG::BoS::1786660200000",
