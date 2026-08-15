@@ -4737,12 +4737,15 @@
   "rr": 3.56,
   "lev": 20,
   "signalTime": 1786760100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786760131207,
   "fillTime": 1786760100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786791600000
  },
  {
   "id": "ALICEUSDT::LONG::ChoCh::1786771800000",
