@@ -4605,12 +4605,15 @@
   "rr": 1.01,
   "lev": 3,
   "signalTime": 1786746600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786746637128,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786748400000
+  "fillTime": 1786748400000,
+  "R": -1,
+  "resolvedTime": 1786751100000
  },
  {
   "id": "COTIUSDT::SHORT::ChoCh::1786746600000",
