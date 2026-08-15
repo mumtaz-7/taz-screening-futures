@@ -4692,7 +4692,28 @@
   "rr": 2.31,
   "lev": 19,
   "signalTime": 1786759200000,
+  "status": "open",
+  "createdAt": 1786759246025,
+  "fillTime": 1786759200000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "COTIUSDT::SHORT::BoS::1786760100000",
+  "symbol": "COTIUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.01057,
+  "sl": 0.010884999999999999,
+  "tp": 0.00945,
+  "tpSrc": "OB",
+  "slPct": 2.98,
+  "gainPct": 10.6,
+  "rr": 3.56,
+  "lev": 20,
+  "signalTime": 1786760100000,
   "status": "pending",
-  "createdAt": 1786759246025
+  "createdAt": 1786760131207
  }
 ]
