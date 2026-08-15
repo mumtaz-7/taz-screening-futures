@@ -4809,12 +4809,15 @@
   "rr": 2.74,
   "lev": 12,
   "signalTime": 1786787100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786787132194,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786788900000
+  "fillTime": 1786788900000,
+  "R": -1,
+  "resolvedTime": 1786820400000
  },
  {
   "id": "MOVRUSDT::LONG::BoS::1786799700000",
@@ -4872,12 +4875,15 @@
   "rr": 1.59,
   "lev": 10,
   "signalTime": 1786806900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786806930536,
   "fillTime": 1786806900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786820400000
  },
  {
   "id": "PORTALUSDT::LONG::BoS::1786811400000",
@@ -4902,5 +4908,22 @@
   ],
   "R": -1,
   "resolvedTime": 1786817700000
+ },
+ {
+  "id": "CHIPUSDT::LONG::ChoCh::1786821300000",
+  "symbol": "CHIPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.02567,
+  "sl": 0.024440000000000003,
+  "tp": 0.028,
+  "tpSrc": "WH",
+  "slPct": 4.79,
+  "gainPct": 9.08,
+  "rr": 1.89,
+  "lev": 13,
+  "signalTime": 1786821300000,
+  "status": "pending",
+  "createdAt": 1786821332106
  }
 ]
