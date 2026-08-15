@@ -4653,5 +4653,22 @@
   "status": "pending",
   "createdAt": 1786749333373,
   "notified": []
+ },
+ {
+  "id": "PLUMEUSDT::LONG::ChoCh::1786753800000",
+  "symbol": "PLUMEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01261,
+  "sl": 0.012205,
+  "tp": 0.0137,
+  "tpSrc": "WH",
+  "slPct": 3.21,
+  "gainPct": 8.64,
+  "rr": 2.69,
+  "lev": 18,
+  "signalTime": 1786753800000,
+  "status": "pending",
+  "createdAt": 1786753837706
  }
 ]
