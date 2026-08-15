@@ -1,6 +1,7 @@
 {
   "ready": [
-    "BMTUSDT::LONG::BoS"
+    "BMTUSDT::LONG::BoS",
+    "PROMUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-08-15T09:30:37.835Z"
+  "at": "2026-08-15T09:45:32.193Z"
 }

@@ -4776,7 +4776,28 @@
   "rr": 1.5,
   "lev": 6,
   "signalTime": 1786786200000,
+  "status": "open",
+  "createdAt": 1786786237836,
+  "fillTime": 1786786200000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "PROMUSDT::SHORT::ChoCh::1786787100000",
+  "symbol": "PROMUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 2.194,
+  "sl": 2.3065,
+  "tp": 1.886,
+  "tpSrc": "OB",
+  "slPct": 5.13,
+  "gainPct": 14.04,
+  "rr": 2.74,
+  "lev": 12,
+  "signalTime": 1786787100000,
   "status": "pending",
-  "createdAt": 1786786237836
+  "createdAt": 1786787132194
  }
 ]
