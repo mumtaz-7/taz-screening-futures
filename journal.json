@@ -4728,5 +4728,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ALICEUSDT::LONG::ChoCh::1786771800000",
+  "symbol": "ALICEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1412,
+  "sl": 0.1298,
+  "tp": 0.1816,
+  "tpSrc": "WH",
+  "slPct": 8.07,
+  "gainPct": 28.61,
+  "rr": 3.54,
+  "lev": 7,
+  "signalTime": 1786771800000,
+  "status": "pending",
+  "createdAt": 1786771836785
  }
 ]
