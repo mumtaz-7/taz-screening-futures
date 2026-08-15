@@ -4854,12 +4854,15 @@
   "rr": 4.55,
   "lev": 17,
   "signalTime": 1786800600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786800635432,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786803300000
+  "fillTime": 1786803300000,
+  "R": -1,
+  "resolvedTime": 1786833900000
  },
  {
   "id": "HEIUSDT::LONG::ChoCh::1786806900000",
