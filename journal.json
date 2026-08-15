@@ -4527,12 +4527,15 @@
   "rr": 5.37,
   "lev": 21,
   "signalTime": 1786714200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786714237706,
   "fillTime": 1786714200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786784400000
  },
  {
   "id": "2ZUSDT::SHORT::ChoCh::1786716000000",
