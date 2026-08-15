@@ -4686,12 +4686,15 @@
   "rr": 2.69,
   "lev": 18,
   "signalTime": 1786753800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786753837706,
   "fillTime": 1786753800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.69,
+  "resolvedTime": 1786788000000
  },
  {
   "id": "MMTUSDT::SHORT::ChoCh::1786759200000",
