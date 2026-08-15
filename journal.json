@@ -4776,12 +4776,15 @@
   "rr": 1.5,
   "lev": 6,
   "signalTime": 1786786200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786786237836,
   "fillTime": 1786786200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.5,
+  "resolvedTime": 1786787100000
  },
  {
   "id": "PROMUSDT::SHORT::ChoCh::1786787100000",
@@ -4798,6 +4801,7 @@
   "lev": 12,
   "signalTime": 1786787100000,
   "status": "pending",
-  "createdAt": 1786787132194
+  "createdAt": 1786787132194,
+  "notified": []
  }
 ]
