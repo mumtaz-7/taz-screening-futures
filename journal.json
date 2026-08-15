@@ -4830,9 +4830,12 @@
   "rr": 1.72,
   "lev": 3,
   "signalTime": 1786799700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786799730443,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786801500000
  },
  {
   "id": "ALICEUSDT::LONG::ChoCh::1786800600000",
