@@ -4815,5 +4815,22 @@
    "open"
   ],
   "fillTime": 1786788900000
+ },
+ {
+  "id": "MOVRUSDT::LONG::BoS::1786799700000",
+  "symbol": "MOVRUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.872,
+  "sl": 0.7130000000000001,
+  "tp": 1.146,
+  "tpSrc": "OB",
+  "slPct": 18.23,
+  "gainPct": 31.42,
+  "rr": 1.72,
+  "lev": 3,
+  "signalTime": 1786799700000,
+  "status": "pending",
+  "createdAt": 1786799730443
  }
 ]
