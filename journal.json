@@ -5064,12 +5064,15 @@
   "rr": 3.04,
   "lev": 15,
   "signalTime": 1786860900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786860931732,
   "fillTime": 1786860900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.04,
+  "resolvedTime": 1786899600000
  },
  {
   "id": "PORTALUSDT::LONG::BoS::1786864500000",
