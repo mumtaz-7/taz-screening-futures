@@ -5072,6 +5072,24 @@
   "lev": 16,
   "signalTime": 1786864500000,
   "status": "pending",
-  "createdAt": 1786864529577
+  "createdAt": 1786864529577,
+  "notified": []
+ },
+ {
+  "id": "PIXELUSDT::LONG::BoS::1786865400000",
+  "symbol": "PIXELUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00524,
+  "sl": 0.00491,
+  "tp": 0.00637,
+  "tpSrc": "WH",
+  "slPct": 6.3,
+  "gainPct": 21.56,
+  "rr": 3.42,
+  "lev": 10,
+  "signalTime": 1786865400000,
+  "status": "pending",
+  "createdAt": 1786865436996
  }
 ]
