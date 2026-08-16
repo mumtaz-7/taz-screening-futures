@@ -5145,9 +5145,12 @@
   "rr": 2.28,
   "lev": 14,
   "signalTime": 1786878900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786878930844,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786879800000
  },
  {
   "id": "ROBOUSDT::LONG::ChoCh::1786879800000",
@@ -5164,6 +5167,7 @@
   "lev": 18,
   "signalTime": 1786879800000,
   "status": "pending",
-  "createdAt": 1786879837466
+  "createdAt": 1786879837466,
+  "notified": []
  }
 ]
