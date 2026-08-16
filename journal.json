@@ -5176,5 +5176,22 @@
    "open"
   ],
   "fillTime": 1786880700000
+ },
+ {
+  "id": "DOLOUSDT::SHORT::ChoCh::1786883400000",
+  "symbol": "DOLOUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.02369,
+  "sl": 0.025985,
+  "tp": 0.02026,
+  "tpSrc": "WL",
+  "slPct": 9.69,
+  "gainPct": 14.48,
+  "rr": 1.49,
+  "lev": 6,
+  "signalTime": 1786883400000,
+  "status": "pending",
+  "createdAt": 1786883436241
  }
 ]
