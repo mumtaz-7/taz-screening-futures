@@ -5056,5 +5056,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PORTALUSDT::LONG::BoS::1786864500000",
+  "symbol": "PORTALUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01131,
+  "sl": 0.01089,
+  "tp": 0.01343,
+  "tpSrc": "WH",
+  "slPct": 3.71,
+  "gainPct": 18.74,
+  "rr": 5.05,
+  "lev": 16,
+  "signalTime": 1786864500000,
+  "status": "pending",
+  "createdAt": 1786864529577
  }
 ]
