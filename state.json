@@ -1,7 +1,8 @@
 {
   "ready": [
+    "MOVRUSDT::LONG::BoS",
     "PIXELUSDT::LONG::BoS",
     "PORTALUSDT::LONG::BoS"
   ],
-  "at": "2026-08-16T07:30:36.995Z"
+  "at": "2026-08-16T07:45:29.504Z"
 }
