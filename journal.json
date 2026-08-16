@@ -5017,9 +5017,13 @@
   "rr": 5,
   "lev": 25,
   "signalTime": 1786855500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786855534153,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1786871700000
  },
  {
   "id": "ALICEUSDT::LONG::ChoCh::1786860000000",
@@ -5116,7 +5120,11 @@
   "rr": 4.08,
   "lev": 6,
   "signalTime": 1786871700000,
-  "status": "pending",
-  "createdAt": 1786871731511
+  "status": "open",
+  "createdAt": 1786871731511,
+  "fillTime": 1786871700000,
+  "notified": [
+   "open"
+  ]
  }
 ]
