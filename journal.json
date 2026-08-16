@@ -5242,5 +5242,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GIGGLEUSDT::LONG::BoS::1786890600000",
+  "symbol": "GIGGLEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 31.1,
+  "sl": 30.424999999999997,
+  "tp": 36.86,
+  "tpSrc": "WH",
+  "slPct": 2.17,
+  "gainPct": 18.52,
+  "rr": 8.53,
+  "lev": 25,
+  "signalTime": 1786890600000,
+  "status": "pending",
+  "createdAt": 1786890636587
  }
 ]
