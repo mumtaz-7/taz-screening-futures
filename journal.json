@@ -5101,5 +5101,22 @@
   "fillTime": 1786866300000,
   "R": -1,
   "resolvedTime": 1786867200000
+ },
+ {
+  "id": "ALICEUSDT::LONG::BoS::1786871700000",
+  "symbol": "ALICEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1296,
+  "sl": 0.11685000000000001,
+  "tp": 0.1816,
+  "tpSrc": "WH",
+  "slPct": 9.84,
+  "gainPct": 40.12,
+  "rr": 4.08,
+  "lev": 6,
+  "signalTime": 1786871700000,
+  "status": "pending",
+  "createdAt": 1786871731511
  }
 ]
