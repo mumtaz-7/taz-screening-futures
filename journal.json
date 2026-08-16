@@ -5050,7 +5050,11 @@
   "rr": 3.04,
   "lev": 15,
   "signalTime": 1786860900000,
-  "status": "pending",
-  "createdAt": 1786860931732
+  "status": "open",
+  "createdAt": 1786860931732,
+  "fillTime": 1786860900000,
+  "notified": [
+   "open"
+  ]
  }
 ]
