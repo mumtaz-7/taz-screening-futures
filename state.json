@@ -1,7 +1,8 @@
 {
   "ready": [
     "DOLOUSDT::SHORT::ChoCh",
-    "ENSOUSDT::SHORT::ChoCh"
+    "ENSOUSDT::SHORT::ChoCh",
+    "NILUSDT::SHORT::BoS"
   ],
-  "at": "2026-08-16T13:00:44.319Z"
+  "at": "2026-08-16T13:15:32.859Z"
 }

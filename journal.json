@@ -5212,7 +5212,28 @@
   "rr": 1.8,
   "lev": 10,
   "signalTime": 1786885200000,
+  "status": "open",
+  "createdAt": 1786885244320,
+  "fillTime": 1786885200000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "NILUSDT::SHORT::BoS::1786886100000",
+  "symbol": "NILUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.04759,
+  "sl": 0.051055,
+  "tp": 0.0417,
+  "tpSrc": "OB",
+  "slPct": 7.28,
+  "gainPct": 12.38,
+  "rr": 1.7,
+  "lev": 8,
+  "signalTime": 1786886100000,
   "status": "pending",
-  "createdAt": 1786885244320
+  "createdAt": 1786886132860
  }
 ]
