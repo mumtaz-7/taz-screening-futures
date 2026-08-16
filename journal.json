@@ -4926,9 +4926,13 @@
   "rr": 1.89,
   "lev": 13,
   "signalTime": 1786821300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786821332106,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1786839300000
  },
  {
   "id": "PROMUSDT::SHORT::ChoCh::1786828500000",
@@ -4962,7 +4966,11 @@
   "rr": 5.61,
   "lev": 19,
   "signalTime": 1786839300000,
-  "status": "pending",
-  "createdAt": 1786839329666
+  "status": "open",
+  "createdAt": 1786839329666,
+  "fillTime": 1786839300000,
+  "notified": [
+   "open"
+  ]
  }
 ]
