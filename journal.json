@@ -5039,9 +5039,13 @@
   "rr": 5.24,
   "lev": 16,
   "signalTime": 1786860000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786860044347,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1786875300000
  },
  {
   "id": "EPICUSDT::LONG::ChoCh::1786860900000",
