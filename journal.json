@@ -5191,8 +5191,28 @@
   "rr": 1.49,
   "lev": 6,
   "signalTime": 1786883400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786883436241,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786884300000
+ },
+ {
+  "id": "ENSOUSDT::SHORT::ChoCh::1786885200000",
+  "symbol": "ENSOUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.807,
+  "sl": 0.8564999999999999,
+  "tp": 0.718,
+  "tpSrc": "WL",
+  "slPct": 6.13,
+  "gainPct": 11.03,
+  "rr": 1.8,
+  "lev": 10,
+  "signalTime": 1786885200000,
+  "status": "pending",
+  "createdAt": 1786885244320
  }
 ]
