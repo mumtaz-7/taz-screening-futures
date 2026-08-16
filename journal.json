@@ -5191,12 +5191,15 @@
   "rr": 1.49,
   "lev": 6,
   "signalTime": 1786883400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786883436241,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786884300000
+  "fillTime": 1786884300000,
+  "R": -1,
+  "resolvedTime": 1786886100000
  },
  {
   "id": "ENSOUSDT::SHORT::ChoCh::1786885200000",
@@ -5233,7 +5236,11 @@
   "rr": 1.7,
   "lev": 8,
   "signalTime": 1786886100000,
-  "status": "pending",
-  "createdAt": 1786886132860
+  "status": "open",
+  "createdAt": 1786886132860,
+  "fillTime": 1786886100000,
+  "notified": [
+   "open"
+  ]
  }
 ]
