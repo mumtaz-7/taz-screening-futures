@@ -5082,9 +5082,13 @@
   "rr": 5.05,
   "lev": 16,
   "signalTime": 1786864500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1786864529577,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1786880700000
  },
  {
   "id": "PIXELUSDT::LONG::BoS::1786865400000",
@@ -5166,8 +5170,11 @@
   "rr": 10.17,
   "lev": 18,
   "signalTime": 1786879800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786879837466,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786880700000
  }
 ]
