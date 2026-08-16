@@ -5033,6 +5033,24 @@
   "lev": 16,
   "signalTime": 1786860000000,
   "status": "pending",
-  "createdAt": 1786860044347
+  "createdAt": 1786860044347,
+  "notified": []
+ },
+ {
+  "id": "EPICUSDT::LONG::ChoCh::1786860900000",
+  "symbol": "EPICUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.3371,
+  "sl": 0.32389999999999997,
+  "tp": 0.37725,
+  "tpSrc": "EQ",
+  "slPct": 3.92,
+  "gainPct": 11.91,
+  "rr": 3.04,
+  "lev": 15,
+  "signalTime": 1786860900000,
+  "status": "pending",
+  "createdAt": 1786860931732
  }
 ]
