@@ -4996,12 +4996,15 @@
   "rr": 3.99,
   "lev": 21,
   "signalTime": 1786850100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786850130957,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786859100000
+  "fillTime": 1786859100000,
+  "R": -1,
+  "resolvedTime": 1786892400000
  },
  {
   "id": "PORTALUSDT::LONG::ChoCh::1786855500000",
