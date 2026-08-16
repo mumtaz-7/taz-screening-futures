@@ -5146,6 +5146,24 @@
   "lev": 14,
   "signalTime": 1786878900000,
   "status": "pending",
-  "createdAt": 1786878930844
+  "createdAt": 1786878930844,
+  "notified": []
+ },
+ {
+  "id": "ROBOUSDT::LONG::ChoCh::1786879800000",
+  "symbol": "ROBOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01413,
+  "sl": 0.013665,
+  "tp": 0.01886,
+  "tpSrc": "OB",
+  "slPct": 3.29,
+  "gainPct": 33.47,
+  "rr": 10.17,
+  "lev": 18,
+  "signalTime": 1786879800000,
+  "status": "pending",
+  "createdAt": 1786879837466
  }
 ]
