@@ -4966,11 +4966,14 @@
   "rr": 5.61,
   "lev": 19,
   "signalTime": 1786839300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786839329666,
   "fillTime": 1786839300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786843800000
  }
 ]
