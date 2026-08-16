@@ -4993,9 +4993,12 @@
   "rr": 3.99,
   "lev": 21,
   "signalTime": 1786850100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786850130957,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1786859100000
  },
  {
   "id": "PORTALUSDT::LONG::ChoCh::1786855500000",
@@ -5014,5 +5017,22 @@
   "status": "pending",
   "createdAt": 1786855534153,
   "notified": []
+ },
+ {
+  "id": "ALICEUSDT::LONG::ChoCh::1786860000000",
+  "symbol": "ALICEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1241,
+  "sl": 0.1196,
+  "tp": 0.1477,
+  "tpSrc": "EQ",
+  "slPct": 3.63,
+  "gainPct": 19.02,
+  "rr": 5.24,
+  "lev": 16,
+  "signalTime": 1786860000000,
+  "status": "pending",
+  "createdAt": 1786860044347
  }
 ]
