@@ -4975,5 +4975,22 @@
   ],
   "R": -1,
   "resolvedTime": 1786843800000
+ },
+ {
+  "id": "BOMEUSDT::LONG::ChoCh::1786850100000",
+  "symbol": "BOMEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0008535,
+  "sl": 0.00083025,
+  "tp": 0.0009462,
+  "tpSrc": "WH",
+  "slPct": 2.72,
+  "gainPct": 10.86,
+  "rr": 3.99,
+  "lev": 21,
+  "signalTime": 1786850100000,
+  "status": "pending",
+  "createdAt": 1786850130957
  }
 ]
