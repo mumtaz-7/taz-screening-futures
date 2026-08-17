@@ -5315,5 +5315,39 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "DOLOUSDT::SHORT::ChoCh::1786933800000",
+  "symbol": "DOLOUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.02295,
+  "sl": 0.024255,
+  "tp": 0.02026,
+  "tpSrc": "WL",
+  "slPct": 5.69,
+  "gainPct": 11.72,
+  "rr": 2.06,
+  "lev": 11,
+  "signalTime": 1786933800000,
+  "status": "pending",
+  "createdAt": 1786933836539
+ },
+ {
+  "id": "HEMIUSDT::LONG::ChoCh::1786933800000",
+  "symbol": "HEMIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00646,
+  "sl": 0.005724999999999999,
+  "tp": 0.009,
+  "tpSrc": "WH",
+  "slPct": 11.38,
+  "gainPct": 39.32,
+  "rr": 3.46,
+  "lev": 5,
+  "signalTime": 1786933800000,
+  "status": "pending",
+  "createdAt": 1786933836539
  }
 ]
