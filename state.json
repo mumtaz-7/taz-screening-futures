@@ -1,6 +1,7 @@
 {
   "ready": [
-    "HEMIUSDT::LONG::ChoCh"
+    "HEMIUSDT::LONG::ChoCh",
+    "PORTALUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-17T11:15:29.819Z"
+  "at": "2026-08-17T11:30:42.711Z"
 }

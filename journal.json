@@ -5470,5 +5470,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PORTALUSDT::LONG::ChoCh::1786966200000",
+  "symbol": "PORTALUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01672,
+  "sl": 0.014860000000000002,
+  "tp": 0.02,
+  "tpSrc": "WH",
+  "slPct": 11.12,
+  "gainPct": 19.62,
+  "rr": 1.76,
+  "lev": 5,
+  "signalTime": 1786966200000,
+  "status": "pending",
+  "createdAt": 1786966243196
  }
 ]
