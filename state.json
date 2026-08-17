@@ -1,8 +1,7 @@
 {
   "ready": [
     "BMTUSDT::LONG::BoS",
-    "CHIPUSDT::SHORT::BoS",
-    "ONGUSDT::LONG::ChoCh"
+    "CHIPUSDT::SHORT::BoS"
   ],
-  "at": "2026-08-17T23:15:30.615Z"
+  "at": "2026-08-17T23:30:38.639Z"
 }
