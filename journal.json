@@ -5382,5 +5382,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "DOLOUSDT::SHORT::BoS::1786944600000",
+  "symbol": "DOLOUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.02275,
+  "sl": 0.023350000000000003,
+  "tp": 0.02026,
+  "tpSrc": "WL",
+  "slPct": 2.64,
+  "gainPct": 10.95,
+  "rr": 4.15,
+  "lev": 22,
+  "signalTime": 1786944600000,
+  "status": "pending",
+  "createdAt": 1786944636107
  }
 ]
