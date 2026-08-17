@@ -5339,12 +5339,15 @@
   "rr": 2.06,
   "lev": 11,
   "signalTime": 1786933800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786933836539,
   "fillTime": 1786933800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787003100000
  },
  {
   "id": "HEMIUSDT::LONG::ChoCh::1786933800000",
@@ -5491,12 +5494,15 @@
   "rr": 1.76,
   "lev": 5,
   "signalTime": 1786966200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786966243196,
   "fillTime": 1786966200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787003100000
  },
  {
   "id": "HEMIUSDT::LONG::BoS::1786970700000",
@@ -5558,5 +5564,22 @@
   "status": "pending",
   "createdAt": 1786992334807,
   "notified": []
+ },
+ {
+  "id": "ONGUSDT::LONG::ChoCh::1787004000000",
+  "symbol": "ONGUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.05432,
+  "sl": 0.05093,
+  "tp": 0.0646,
+  "tpSrc": "WH",
+  "slPct": 6.24,
+  "gainPct": 18.92,
+  "rr": 3.03,
+  "lev": 10,
+  "signalTime": 1787004000000,
+  "status": "pending",
+  "createdAt": 1787004044543
  }
 ]
