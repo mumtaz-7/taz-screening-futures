@@ -5242,12 +5242,15 @@
   "rr": 1.7,
   "lev": 8,
   "signalTime": 1786886100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786886132860,
   "fillTime": 1786886100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1786941000000
  },
  {
   "id": "GIGGLEUSDT::LONG::BoS::1786890600000",
