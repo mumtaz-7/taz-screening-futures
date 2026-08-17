@@ -5610,5 +5610,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "CHIPUSDT::SHORT::BoS::1787007600000",
+  "symbol": "CHIPUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.02825,
+  "sl": 0.028865000000000002,
+  "tp": 0.02521,
+  "tpSrc": "OB",
+  "slPct": 2.18,
+  "gainPct": 10.76,
+  "rr": 4.94,
+  "lev": 25,
+  "signalTime": 1787007600000,
+  "status": "pending",
+  "createdAt": 1787007641395
  }
 ]
