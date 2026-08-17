@@ -5179,12 +5179,15 @@
   "rr": 10.17,
   "lev": 18,
   "signalTime": 1786879800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786879837466,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786880700000
+  "fillTime": 1786880700000,
+  "R": -1,
+  "resolvedTime": 1786977000000
  },
  {
   "id": "DOLOUSDT::SHORT::ChoCh::1786883400000",
