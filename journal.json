@@ -5561,9 +5561,12 @@
   "rr": 1.27,
   "lev": 9,
   "signalTime": 1786992300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1786992334807,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787004900000
  },
  {
   "id": "ONGUSDT::LONG::ChoCh::1787004000000",
@@ -5585,5 +5588,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BMTUSDT::LONG::BoS::1787005800000",
+  "symbol": "BMTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0164,
+  "sl": 0.01529,
+  "tp": 0.01872,
+  "tpSrc": "WH",
+  "slPct": 6.77,
+  "gainPct": 14.15,
+  "rr": 2.09,
+  "lev": 9,
+  "signalTime": 1787005800000,
+  "status": "pending",
+  "createdAt": 1787005838268
  }
 ]
