@@ -5537,5 +5537,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1786982400000
+ },
+ {
+  "id": "ALLOUSDT::LONG::BoS::1786992300000",
+  "symbol": "ALLOUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.2847,
+  "sl": 0.2652,
+  "tp": 0.3095,
+  "tpSrc": "OB",
+  "slPct": 6.85,
+  "gainPct": 8.71,
+  "rr": 1.27,
+  "lev": 9,
+  "signalTime": 1786992300000,
+  "status": "pending",
+  "createdAt": 1786992334807
  }
 ]
