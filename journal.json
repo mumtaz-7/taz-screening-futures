@@ -5512,5 +5512,22 @@
   "status": "pending",
   "createdAt": 1786970735997,
   "notified": []
+ },
+ {
+  "id": "TUTUSDT::LONG::ChoCh::1786980600000",
+  "symbol": "TUTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.03929,
+  "sl": 0.033260000000000005,
+  "tp": 0.04689,
+  "tpSrc": "WH",
+  "slPct": 15.35,
+  "gainPct": 19.34,
+  "rr": 1.26,
+  "lev": 4,
+  "signalTime": 1786980600000,
+  "status": "pending",
+  "createdAt": 1786980640704
  }
 ]
