@@ -1,8 +1,7 @@
 {
   "ready": [
     "DOLOUSDT::SHORT::ChoCh",
-    "HEMIUSDT::LONG::ChoCh",
-    "ONGUSDT::LONG::BoS"
+    "HEMIUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-17T02:30:36.538Z"
+  "at": "2026-08-17T02:45:31.201Z"
 }

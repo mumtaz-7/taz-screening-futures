@@ -5330,8 +5330,12 @@
   "rr": 2.06,
   "lev": 11,
   "signalTime": 1786933800000,
-  "status": "pending",
-  "createdAt": 1786933836539
+  "status": "open",
+  "createdAt": 1786933836539,
+  "fillTime": 1786933800000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "HEMIUSDT::LONG::ChoCh::1786933800000",
@@ -5347,7 +5351,11 @@
   "rr": 3.46,
   "lev": 5,
   "signalTime": 1786933800000,
-  "status": "pending",
-  "createdAt": 1786933836539
+  "status": "open",
+  "createdAt": 1786933836539,
+  "fillTime": 1786933800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
