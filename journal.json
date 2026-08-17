@@ -5403,12 +5403,15 @@
   "rr": 4.15,
   "lev": 22,
   "signalTime": 1786944600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786944636107,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786947300000
+  "fillTime": 1786947300000,
+  "R": -1,
+  "resolvedTime": 1786986000000
  },
  {
   "id": "CHIPUSDT::LONG::ChoCh::1786950000000",
