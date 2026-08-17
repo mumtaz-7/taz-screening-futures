@@ -5449,5 +5449,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BELUSDT::LONG::ChoCh::1786959000000",
+  "symbol": "BELUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1093,
+  "sl": 0.10494999999999999,
+  "tp": 0.11699999999999999,
+  "tpSrc": "EQ",
+  "slPct": 3.98,
+  "gainPct": 7.04,
+  "rr": 1.77,
+  "lev": 15,
+  "signalTime": 1786959000000,
+  "status": "pending",
+  "createdAt": 1786959036496
  }
 ]
