@@ -5428,5 +5428,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "UNIUSDT::LONG::ChoCh::1786953600000",
+  "symbol": "UNIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 3.293,
+  "sl": 3.2075000000000005,
+  "tp": 3.595,
+  "tpSrc": "OB",
+  "slPct": 2.6,
+  "gainPct": 9.17,
+  "rr": 3.53,
+  "lev": 22,
+  "signalTime": 1786953600000,
+  "status": "pending",
+  "createdAt": 1786953645384
  }
 ]
