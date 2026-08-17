@@ -5293,5 +5293,22 @@
   "fillTime": 1786901400000,
   "R": -1,
   "resolvedTime": 1786915800000
+ },
+ {
+  "id": "ONGUSDT::LONG::BoS::1786929300000",
+  "symbol": "ONGUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.05498,
+  "sl": 0.051455,
+  "tp": 0.06234,
+  "tpSrc": "WH",
+  "slPct": 6.41,
+  "gainPct": 13.39,
+  "rr": 2.09,
+  "lev": 9,
+  "signalTime": 1786929300000,
+  "status": "pending",
+  "createdAt": 1786929330089
  }
 ]
