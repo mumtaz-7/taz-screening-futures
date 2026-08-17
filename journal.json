@@ -5155,12 +5155,15 @@
   "rr": 2.28,
   "lev": 14,
   "signalTime": 1786878900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786878930844,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786879800000
+  "fillTime": 1786879800000,
+  "R": -1,
+  "resolvedTime": 1786946400000
  },
  {
   "id": "ROBOUSDT::LONG::ChoCh::1786879800000",
