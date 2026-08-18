@@ -5649,5 +5649,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ONGUSDT::LONG::BoS::1787015700000",
+  "symbol": "ONGUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.05594,
+  "sl": 0.050120000000000005,
+  "tp": 0.0646,
+  "tpSrc": "WH",
+  "slPct": 10.4,
+  "gainPct": 15.48,
+  "rr": 1.49,
+  "lev": 6,
+  "signalTime": 1787015700000,
+  "status": "pending",
+  "createdAt": 1787015731210
  }
 ]
