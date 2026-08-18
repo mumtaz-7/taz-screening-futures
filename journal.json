@@ -5848,12 +5848,15 @@
   "rr": 16.59,
   "lev": 12,
   "signalTime": 1787068800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787068843791,
   "fillTime": 1787068800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787070600000
  },
  {
   "id": "EDENUSDT::LONG::BoS::1787070600000",
@@ -5870,6 +5873,7 @@
   "lev": 6,
   "signalTime": 1787070600000,
   "status": "pending",
-  "createdAt": 1787070638309
+  "createdAt": 1787070638309,
+  "notified": []
  }
 ]
