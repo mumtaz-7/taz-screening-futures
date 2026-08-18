@@ -5625,9 +5625,12 @@
   "rr": 4.94,
   "lev": 25,
   "signalTime": 1787007600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787007641395,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787017500000
  },
  {
   "id": "TUTUSDT::LONG::BoS::1787012100000",
@@ -5643,12 +5646,15 @@
   "rr": 5.03,
   "lev": 5,
   "signalTime": 1787012100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787012129144,
   "fillTime": 1787012100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787017500000
  },
  {
   "id": "ONGUSDT::LONG::BoS::1787015700000",
