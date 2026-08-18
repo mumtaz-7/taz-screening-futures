@@ -5878,5 +5878,22 @@
    "open"
   ],
   "fillTime": 1787072400000
+ },
+ {
+  "id": "PLUMEUSDT::SHORT::ChoCh::1787076000000",
+  "symbol": "PLUMEUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.01237,
+  "sl": 0.012655,
+  "tp": 0.01135,
+  "tpSrc": "OB",
+  "slPct": 2.3,
+  "gainPct": 8.25,
+  "rr": 3.58,
+  "lev": 25,
+  "signalTime": 1787076000000,
+  "status": "pending",
+  "createdAt": 1787076042529
  }
 ]
