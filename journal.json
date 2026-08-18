@@ -5694,5 +5694,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "UNIUSDT::LONG::BoS::1787033700000",
+  "symbol": "UNIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 3.273,
+  "sl": 3.2039999999999997,
+  "tp": 3.595,
+  "tpSrc": "OB",
+  "slPct": 2.11,
+  "gainPct": 9.84,
+  "rr": 4.67,
+  "lev": 25,
+  "signalTime": 1787033700000,
+  "status": "pending",
+  "createdAt": 1787033731914
  }
 ]
