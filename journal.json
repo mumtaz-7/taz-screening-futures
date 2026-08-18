@@ -2468,7 +2468,7 @@
   "rr": 1.48,
   "lev": 6,
   "signalTime": 1786260600000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1786260636803,
   "fillTime": 1786260600000,
   "notified": [
@@ -4554,12 +4554,15 @@
   "rr": 1.41,
   "lev": 6,
   "signalTime": 1786716000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786716044414,
   "fillTime": 1786716000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.41,
+  "resolvedTime": 1787037300000
  },
  {
   "id": "XAIUSDT::LONG::BoS::1786724100000",
@@ -5625,12 +5628,15 @@
   "rr": 4.94,
   "lev": 25,
   "signalTime": 1787007600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787007641395,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787017500000
+  "fillTime": 1787017500000,
+  "R": -1,
+  "resolvedTime": 1787037300000
  },
  {
   "id": "TUTUSDT::LONG::BoS::1787012100000",
@@ -5670,9 +5676,12 @@
   "rr": 1.49,
   "lev": 6,
   "signalTime": 1787015700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787015731210,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "PUMPUSDT::LONG::BoS::1787024700000",
@@ -5749,7 +5758,8 @@
   "lev": 5,
   "signalTime": 1787037300000,
   "status": "pending",
-  "createdAt": 1787037331559
+  "createdAt": 1787037331559,
+  "notified": []
  },
  {
   "id": "REDUSDT::SHORT::ChoCh::1787037300000",
@@ -5766,6 +5776,7 @@
   "lev": 4,
   "signalTime": 1787037300000,
   "status": "pending",
-  "createdAt": 1787037331559
+  "createdAt": 1787037331559,
+  "notified": []
  }
 ]
