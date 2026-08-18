@@ -1,6 +1,8 @@
 {
   "ready": [
-    "ACEUSDT::LONG::ChoCh"
+    "ACEUSDT::LONG::ChoCh",
+    "EDENUSDT::LONG::ChoCh",
+    "REDUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-08-18T07:00:40.662Z"
+  "at": "2026-08-18T07:15:31.558Z"
 }
