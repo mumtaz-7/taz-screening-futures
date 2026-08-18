@@ -5761,9 +5761,12 @@
   "rr": 1.08,
   "lev": 5,
   "signalTime": 1787037300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787037331559,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787041800000
  },
  {
   "id": "REDUSDT::SHORT::ChoCh::1787037300000",
@@ -5779,8 +5782,11 @@
   "rr": 1.35,
   "lev": 4,
   "signalTime": 1787037300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787037331559,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787041800000
  }
 ]
