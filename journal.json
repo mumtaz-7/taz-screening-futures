@@ -5854,5 +5854,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "EDENUSDT::LONG::BoS::1787070600000",
+  "symbol": "EDENUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.05495,
+  "sl": 0.049565000000000005,
+  "tp": 0.06106,
+  "tpSrc": "OB",
+  "slPct": 9.8,
+  "gainPct": 11.12,
+  "rr": 1.13,
+  "lev": 6,
+  "signalTime": 1787070600000,
+  "status": "pending",
+  "createdAt": 1787070638309
  }
 ]
