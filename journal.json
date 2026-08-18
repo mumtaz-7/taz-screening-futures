@@ -5709,7 +5709,28 @@
   "rr": 4.67,
   "lev": 25,
   "signalTime": 1787033700000,
+  "status": "open",
+  "createdAt": 1787033731914,
+  "fillTime": 1787033700000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ACEUSDT::LONG::ChoCh::1787034600000",
+  "symbol": "ACEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1648,
+  "sl": 0.14079999999999998,
+  "tp": 0.205,
+  "tpSrc": "WH",
+  "slPct": 14.56,
+  "gainPct": 24.39,
+  "rr": 1.67,
+  "lev": 4,
+  "signalTime": 1787034600000,
   "status": "pending",
-  "createdAt": 1787033731914
+  "createdAt": 1787034640706
  }
 ]
