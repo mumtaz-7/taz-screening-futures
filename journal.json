@@ -5812,5 +5812,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CHIPUSDT::SHORT::ChoCh::1787057100000",
+  "symbol": "CHIPUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.02816,
+  "sl": 0.029464999999999998,
+  "tp": 0.02521,
+  "tpSrc": "OB",
+  "slPct": 4.63,
+  "gainPct": 10.48,
+  "rr": 2.26,
+  "lev": 13,
+  "signalTime": 1787057100000,
+  "status": "pending",
+  "createdAt": 1787057131305
  }
 ]
