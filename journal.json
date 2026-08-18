@@ -5700,12 +5700,15 @@
   "rr": 2.46,
   "lev": 18,
   "signalTime": 1787024700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787024730249,
   "fillTime": 1787024700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.46,
+  "resolvedTime": 1787091300000
  },
  {
   "id": "UNIUSDT::LONG::BoS::1787033700000",
