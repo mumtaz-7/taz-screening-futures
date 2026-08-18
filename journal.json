@@ -5788,5 +5788,22 @@
    "open"
   ],
   "fillTime": 1787041800000
+ },
+ {
+  "id": "REDUSDT::SHORT::BoS::1787050800000",
+  "symbol": "REDUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0987,
+  "sl": 0.10635,
+  "tp": 0.0823,
+  "tpSrc": "WL",
+  "slPct": 7.75,
+  "gainPct": 16.62,
+  "rr": 2.14,
+  "lev": 8,
+  "signalTime": 1787050800000,
+  "status": "pending",
+  "createdAt": 1787050844909
  }
 ]
