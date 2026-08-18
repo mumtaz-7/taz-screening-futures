@@ -5833,5 +5833,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "TUTUSDT::LONG::BoS::1787068800000",
+  "symbol": "TUTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.04395,
+  "sl": 0.041805,
+  "tp": 0.07953,
+  "tpSrc": "OB",
+  "slPct": 4.88,
+  "gainPct": 80.96,
+  "rr": 16.59,
+  "lev": 12,
+  "signalTime": 1787068800000,
+  "status": "pending",
+  "createdAt": 1787068843791
  }
 ]
