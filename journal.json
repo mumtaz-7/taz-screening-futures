@@ -5673,5 +5673,22 @@
   "status": "pending",
   "createdAt": 1787015731210,
   "notified": []
+ },
+ {
+  "id": "PUMPUSDT::LONG::BoS::1787024700000",
+  "symbol": "PUMPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.002786,
+  "sl": 0.0026975,
+  "tp": 0.003004,
+  "tpSrc": "WH",
+  "slPct": 3.18,
+  "gainPct": 7.82,
+  "rr": 2.46,
+  "lev": 18,
+  "signalTime": 1787024700000,
+  "status": "pending",
+  "createdAt": 1787024730249
  }
 ]
