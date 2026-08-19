@@ -6123,5 +6123,22 @@
    "open"
   ],
   "fillTime": 1787157000000
+ },
+ {
+  "id": "ACMUSDT::LONG::BoS::1787159700000",
+  "symbol": "ACMUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.287,
+  "sl": 0.2735000000000001,
+  "tp": 0.35,
+  "tpSrc": "WH",
+  "slPct": 4.7,
+  "gainPct": 21.95,
+  "rr": 4.67,
+  "lev": 13,
+  "signalTime": 1787159700000,
+  "status": "pending",
+  "createdAt": 1787159732171
  }
 ]

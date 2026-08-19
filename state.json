@@ -1,7 +1,8 @@
 {
   "ready": [
+    "ACMUSDT::LONG::BoS",
     "ALPINEUSDT::LONG::ChoCh",
     "BANKUSDT::LONG::BoS"
   ],
-  "at": "2026-08-19T17:00:42.756Z"
+  "at": "2026-08-19T17:15:32.170Z"
 }
