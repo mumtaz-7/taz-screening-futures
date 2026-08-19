@@ -6008,5 +6008,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "BANKUSDT::LONG::BoS::1787139000000",
+  "symbol": "BANKUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0356,
+  "sl": 0.03485,
+  "tp": 0.0434,
+  "tpSrc": "OB",
+  "slPct": 2.11,
+  "gainPct": 21.91,
+  "rr": 10.4,
+  "lev": 25,
+  "signalTime": 1787139000000,
+  "status": "pending",
+  "createdAt": 1787139037311
  }
 ]
