@@ -6029,5 +6029,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GPSUSDT::SHORT::BoS::1787149800000",
+  "symbol": "GPSUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.01188,
+  "sl": 0.012645,
+  "tp": 0.01001,
+  "tpSrc": "OB",
+  "slPct": 6.44,
+  "gainPct": 15.74,
+  "rr": 2.44,
+  "lev": 9,
+  "signalTime": 1787149800000,
+  "status": "pending",
+  "createdAt": 1787149837191
  }
 ]
