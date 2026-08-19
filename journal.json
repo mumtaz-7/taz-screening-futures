@@ -5461,12 +5461,15 @@
   "rr": 3.53,
   "lev": 22,
   "signalTime": 1786953600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786953645384,
   "fillTime": 1786953600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.53,
+  "resolvedTime": 1787157000000
  },
  {
   "id": "BELUSDT::LONG::ChoCh::1786959000000",
@@ -5730,12 +5733,15 @@
   "rr": 4.67,
   "lev": 25,
   "signalTime": 1787033700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787033731914,
   "fillTime": 1787033700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 4.67,
+  "resolvedTime": 1787157000000
  },
  {
   "id": "ACEUSDT::LONG::ChoCh::1787034600000",
@@ -6111,8 +6117,11 @@
   "rr": 2.47,
   "lev": 13,
   "signalTime": 1787156100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787156132919,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787157000000
  }
 ]
