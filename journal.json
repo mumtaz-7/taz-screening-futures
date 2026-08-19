@@ -6187,8 +6187,28 @@
   "rr": 2.66,
   "lev": 21,
   "signalTime": 1787170500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787170534249,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787172300000
+ },
+ {
+  "id": "TRUMPUSDT::LONG::BoS::1787173200000",
+  "symbol": "TRUMPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1.467,
+  "sl": 1.4264999999999999,
+  "tp": 1.589,
+  "tpSrc": "WH",
+  "slPct": 2.76,
+  "gainPct": 8.32,
+  "rr": 3.01,
+  "lev": 21,
+  "signalTime": 1787173200000,
+  "status": "pending",
+  "createdAt": 1787173243307
  }
 ]
