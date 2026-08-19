@@ -5926,5 +5926,22 @@
   "fillTime": 1787084100000,
   "R": -1,
   "resolvedTime": 1787087700000
+ },
+ {
+  "id": "ACEUSDT::LONG::BoS::1787101200000",
+  "symbol": "ACEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.2322,
+  "sl": 0.2178,
+  "tp": 0.2665,
+  "tpSrc": "OB",
+  "slPct": 6.2,
+  "gainPct": 14.77,
+  "rr": 2.38,
+  "lev": 10,
+  "signalTime": 1787101200000,
+  "status": "pending",
+  "createdAt": 1787101241580
  }
 ]
