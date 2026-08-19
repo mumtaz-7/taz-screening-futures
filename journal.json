@@ -5878,12 +5878,15 @@
   "rr": 1.13,
   "lev": 6,
   "signalTime": 1787070600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787070638309,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787072400000
+  "fillTime": 1787072400000,
+  "R": -1,
+  "resolvedTime": 1787104800000
  },
  {
   "id": "PLUMEUSDT::SHORT::ChoCh::1787076000000",
@@ -5944,11 +5947,14 @@
   "rr": 2.38,
   "lev": 10,
   "signalTime": 1787101200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787101241580,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787103900000
+  "fillTime": 1787103900000,
+  "R": -1,
+  "resolvedTime": 1787104800000
  }
 ]
