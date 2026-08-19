@@ -6231,7 +6231,8 @@
   "lev": 20,
   "signalTime": 1787174100000,
   "status": "pending",
-  "createdAt": 1787174131121
+  "createdAt": 1787174131121,
+  "notified": []
  },
  {
   "id": "WBETHUSDT::LONG::BoS::1787174100000",
@@ -6248,6 +6249,7 @@
   "lev": 20,
   "signalTime": 1787174100000,
   "status": "pending",
-  "createdAt": 1787174131121
+  "createdAt": 1787174131121,
+  "notified": []
  }
 ]
