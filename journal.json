@@ -5956,5 +5956,22 @@
   "fillTime": 1787103900000,
   "R": -1,
   "resolvedTime": 1787104800000
+ },
+ {
+  "id": "OPNUSDT::LONG::ChoCh::1787112900000",
+  "symbol": "OPNUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.057,
+  "sl": 0.05489999999999999,
+  "tp": 0.0628,
+  "tpSrc": "WH",
+  "slPct": 3.68,
+  "gainPct": 10.18,
+  "rr": 2.76,
+  "lev": 16,
+  "signalTime": 1787112900000,
+  "status": "pending",
+  "createdAt": 1787112930761
  }
 ]
