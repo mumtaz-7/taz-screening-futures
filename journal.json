@@ -6047,12 +6047,15 @@
   "rr": 2.44,
   "lev": 9,
   "signalTime": 1787149800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787149837191,
   "fillTime": 1787149800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787155200000
  },
  {
   "id": "TREEUSDT::LONG::BoS::1787152500000",
@@ -6093,5 +6096,22 @@
   "status": "pending",
   "createdAt": 1787154332947,
   "notified": []
+ },
+ {
+  "id": "ALPINEUSDT::LONG::ChoCh::1787156100000",
+  "symbol": "ALPINEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.333,
+  "sl": 0.318,
+  "tp": 0.37,
+  "tpSrc": "EQ",
+  "slPct": 4.5,
+  "gainPct": 11.11,
+  "rr": 2.47,
+  "lev": 13,
+  "signalTime": 1787156100000,
+  "status": "pending",
+  "createdAt": 1787156132919
  }
 ]
