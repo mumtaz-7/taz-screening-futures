@@ -6267,6 +6267,24 @@
   "lev": 10,
   "signalTime": 1787178600000,
   "status": "pending",
-  "createdAt": 1787178636525
+  "createdAt": 1787178636525,
+  "notified": []
+ },
+ {
+  "id": "GPSUSDT::SHORT::ChoCh::1787179500000",
+  "symbol": "GPSUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.01187,
+  "sl": 0.012785,
+  "tp": 0.01001,
+  "tpSrc": "OB",
+  "slPct": 7.71,
+  "gainPct": 15.67,
+  "rr": 2.03,
+  "lev": 8,
+  "signalTime": 1787179500000,
+  "status": "pending",
+  "createdAt": 1787179529579
  }
 ]
