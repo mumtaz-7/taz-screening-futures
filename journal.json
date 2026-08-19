@@ -5971,11 +5971,31 @@
   "rr": 2.76,
   "lev": 16,
   "signalTime": 1787112900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787112930761,
   "fillTime": 1787112900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787115600000
+ },
+ {
+  "id": "HEMIUSDT::LONG::BoS::1787116500000",
+  "symbol": "HEMIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00718,
+  "sl": 0.006685,
+  "tp": 0.00838,
+  "tpSrc": "OB",
+  "slPct": 6.89,
+  "gainPct": 16.71,
+  "rr": 2.42,
+  "lev": 9,
+  "signalTime": 1787116500000,
+  "status": "pending",
+  "createdAt": 1787116542982
  }
 ]
