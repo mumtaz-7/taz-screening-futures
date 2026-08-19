@@ -4278,12 +4278,15 @@
   "rr": 1.09,
   "lev": 3,
   "signalTime": 1786621500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786621532833,
   "fillTime": 1786621500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787101200000
  },
  {
   "id": "NILUSDT::LONG::ChoCh::1786626900000",
@@ -5942,6 +5945,7 @@
   "lev": 10,
   "signalTime": 1787101200000,
   "status": "pending",
-  "createdAt": 1787101241580
+  "createdAt": 1787101241580,
+  "notified": []
  }
 ]
