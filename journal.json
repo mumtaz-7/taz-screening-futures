@@ -6023,7 +6023,11 @@
   "rr": 10.4,
   "lev": 25,
   "signalTime": 1787139000000,
-  "status": "pending",
-  "createdAt": 1787139037311
+  "status": "open",
+  "createdAt": 1787139037311,
+  "fillTime": 1787139000000,
+  "notified": [
+   "open"
+  ]
  }
 ]
