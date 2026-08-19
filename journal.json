@@ -6068,9 +6068,13 @@
   "rr": 2.95,
   "lev": 7,
   "signalTime": 1787152500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787152531631,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787154300000
  },
  {
   "id": "WLDUSDT::LONG::BoS::1787154300000",
@@ -6087,6 +6091,7 @@
   "lev": 18,
   "signalTime": 1787154300000,
   "status": "pending",
-  "createdAt": 1787154332947
+  "createdAt": 1787154332947,
+  "notified": []
  }
 ]
