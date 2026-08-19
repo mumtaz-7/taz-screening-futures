@@ -1,6 +1,7 @@
 {
   "ready": [
-    "GPSUSDT::SHORT::BoS"
+    "GPSUSDT::SHORT::BoS",
+    "TREEUSDT::LONG::BoS"
   ],
-  "at": "2026-08-19T15:00:43.463Z"
+  "at": "2026-08-19T15:15:31.630Z"
 }
