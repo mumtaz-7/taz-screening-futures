@@ -6071,5 +6071,22 @@
   "status": "pending",
   "createdAt": 1787152531631,
   "notified": []
+ },
+ {
+  "id": "WLDUSDT::LONG::BoS::1787154300000",
+  "symbol": "WLDUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.3231,
+  "sl": 0.31275,
+  "tp": 0.3535,
+  "tpSrc": "OB",
+  "slPct": 3.2,
+  "gainPct": 9.41,
+  "rr": 2.94,
+  "lev": 18,
+  "signalTime": 1787154300000,
+  "status": "pending",
+  "createdAt": 1787154332947
  }
 ]
