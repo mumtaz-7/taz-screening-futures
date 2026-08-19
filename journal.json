@@ -6208,7 +6208,46 @@
   "rr": 3.01,
   "lev": 21,
   "signalTime": 1787173200000,
+  "status": "void",
+  "createdAt": 1787173243307,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787173200000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "ETHUSDT::LONG::BoS::1787174100000",
+  "symbol": "ETHUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 2108,
+  "sl": 2047.1449999999998,
+  "tp": 2333.65,
+  "tpSrc": "WH",
+  "slPct": 2.89,
+  "gainPct": 10.7,
+  "rr": 3.71,
+  "lev": 20,
+  "signalTime": 1787174100000,
   "status": "pending",
-  "createdAt": 1787173243307
+  "createdAt": 1787174131121
+ },
+ {
+  "id": "WBETHUSDT::LONG::BoS::1787174100000",
+  "symbol": "WBETHUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 2327.55,
+  "sl": 2258.8650000000002,
+  "tp": 2575,
+  "tpSrc": "WH",
+  "slPct": 2.95,
+  "gainPct": 10.63,
+  "rr": 3.6,
+  "lev": 20,
+  "signalTime": 1787174100000,
+  "status": "pending",
+  "createdAt": 1787174131121
  }
 ]
