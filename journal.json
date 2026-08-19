@@ -5369,12 +5369,15 @@
   "rr": 3.46,
   "lev": 5,
   "signalTime": 1786933800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786933836539,
   "fillTime": 1786933800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.46,
+  "resolvedTime": 1787122800000
  },
  {
   "id": "TUTUSDT::LONG::BoS::1786940100000",
