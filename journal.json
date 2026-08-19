@@ -6102,9 +6102,13 @@
   "rr": 2.94,
   "lev": 18,
   "signalTime": 1787154300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787154332947,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787166900000
  },
  {
   "id": "ALPINEUSDT::LONG::ChoCh::1787156100000",
