@@ -6390,12 +6390,15 @@
   "rr": 2.14,
   "lev": 8,
   "signalTime": 1787211000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787211039097,
   "fillTime": 1787211000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787218200000
  },
  {
   "id": "GALAUSDT::LONG::BoS::1787213700000",
