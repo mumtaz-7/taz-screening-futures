@@ -5600,12 +5600,15 @@
   "rr": 3.03,
   "lev": 10,
   "signalTime": 1787004000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787004044543,
   "fillTime": 1787004000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.03,
+  "resolvedTime": 1787231700000
  },
  {
   "id": "BMTUSDT::LONG::BoS::1787005800000",
@@ -6369,12 +6372,15 @@
   "rr": 1.45,
   "lev": 12,
   "signalTime": 1787206500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787206530341,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787212800000
+  "fillTime": 1787212800000,
+  "R": -1,
+  "resolvedTime": 1787231700000
  },
  {
   "id": "ACEUSDT::SHORT::BoS::1787211000000",
