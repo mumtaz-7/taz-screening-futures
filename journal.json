@@ -6290,5 +6290,22 @@
    "open"
   ],
   "fillTime": 1787186700000
+ },
+ {
+  "id": "BBUSDT::SHORT::ChoCh::1787190300000",
+  "symbol": "BBUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.00933,
+  "sl": 0.010365,
+  "tp": 0.00807,
+  "tpSrc": "WL",
+  "slPct": 11.09,
+  "gainPct": 13.5,
+  "rr": 1.22,
+  "lev": 5,
+  "signalTime": 1787190300000,
+  "status": "pending",
+  "createdAt": 1787190333676
  }
 ]
