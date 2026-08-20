@@ -6187,12 +6187,15 @@
   "rr": 2.66,
   "lev": 21,
   "signalTime": 1787170500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787170534249,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787172300000
+  "fillTime": 1787172300000,
+  "R": -1,
+  "resolvedTime": 1787194800000
  },
  {
   "id": "TRUMPUSDT::LONG::BoS::1787173200000",
