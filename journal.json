@@ -5806,12 +5806,15 @@
   "rr": 1.35,
   "lev": 4,
   "signalTime": 1787037300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787037331559,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787041800000
+  "fillTime": 1787041800000,
+  "R": -1,
+  "resolvedTime": 1787200200000
  },
  {
   "id": "REDUSDT::SHORT::BoS::1787050800000",
@@ -5827,12 +5830,15 @@
   "rr": 2.14,
   "lev": 8,
   "signalTime": 1787050800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787050844909,
   "fillTime": 1787050800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787200200000
  },
  {
   "id": "CHIPUSDT::SHORT::ChoCh::1787057100000",
@@ -5848,12 +5854,15 @@
   "rr": 2.26,
   "lev": 13,
   "signalTime": 1787057100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787057131305,
   "fillTime": 1787057100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787200200000
  },
  {
   "id": "TUTUSDT::LONG::BoS::1787068800000",
@@ -6275,9 +6284,12 @@
   "rr": 1.71,
   "lev": 10,
   "signalTime": 1787178600000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787178636525,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "GPSUSDT::SHORT::ChoCh::1787179500000",
