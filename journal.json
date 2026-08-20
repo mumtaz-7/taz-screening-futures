@@ -6655,5 +6655,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SANTOSUSDT::LONG::BoS::1787264100000",
+  "symbol": "SANTOSUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.511,
+  "sl": 0.4975,
+  "tp": 0.726,
+  "tpSrc": "WH",
+  "slPct": 2.64,
+  "gainPct": 42.07,
+  "rr": 15.93,
+  "lev": 22,
+  "signalTime": 1787264100000,
+  "status": "pending",
+  "createdAt": 1787264131300
  }
 ]
