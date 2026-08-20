@@ -6420,9 +6420,12 @@
   "rr": 8.5,
   "lev": 25,
   "signalTime": 1787213700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787213732189,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "TRUMPUSDT::LONG::BoS::1787213700000",
@@ -6438,12 +6441,15 @@
   "rr": 3.96,
   "lev": 20,
   "signalTime": 1787213700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787213732189,
   "fillTime": 1787213700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787235300000
  },
  {
   "id": "币安人生USDT::LONG::ChoCh::1787220000000",
