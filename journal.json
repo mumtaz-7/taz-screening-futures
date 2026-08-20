@@ -6493,12 +6493,15 @@
   "rr": 3.74,
   "lev": 9,
   "signalTime": 1787226300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787226331198,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787227200000
+  "fillTime": 1787227200000,
+  "R": -1,
+  "resolvedTime": 1787250600000
  },
  {
   "id": "GPSUSDT::SHORT::BoS::1787229000000",
