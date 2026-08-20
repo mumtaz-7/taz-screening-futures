@@ -6351,5 +6351,22 @@
   "status": "pending",
   "createdAt": 1787197530707,
   "notified": []
+ },
+ {
+  "id": "KAITOUSDT::SHORT::ChoCh::1787206500000",
+  "symbol": "KAITOUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.3464,
+  "sl": 0.3644,
+  "tp": 0.3203,
+  "tpSrc": "WL",
+  "slPct": 5.2,
+  "gainPct": 7.53,
+  "rr": 1.45,
+  "lev": 12,
+  "signalTime": 1787206500000,
+  "status": "pending",
+  "createdAt": 1787206530341
  }
 ]
