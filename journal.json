@@ -6555,6 +6555,24 @@
   "lev": 8,
   "signalTime": 1787238900000,
   "status": "pending",
-  "createdAt": 1787238931278
+  "createdAt": 1787238931278,
+  "notified": []
+ },
+ {
+  "id": "METUSDT::LONG::BoS::1787239800000",
+  "symbol": "METUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.2117,
+  "sl": 0.20525,
+  "tp": 0.23,
+  "tpSrc": "WH",
+  "slPct": 3.05,
+  "gainPct": 8.64,
+  "rr": 2.84,
+  "lev": 19,
+  "signalTime": 1787239800000,
+  "status": "pending",
+  "createdAt": 1787239837985
  }
 ]
