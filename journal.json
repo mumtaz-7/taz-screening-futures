@@ -6557,9 +6557,13 @@
   "rr": 1.09,
   "lev": 8,
   "signalTime": 1787238900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787238931278,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787249700000
  },
  {
   "id": "METUSDT::LONG::BoS::1787239800000",
