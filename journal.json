@@ -6178,12 +6178,15 @@
   "rr": 2.88,
   "lev": 6,
   "signalTime": 1787165100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787165131392,
   "fillTime": 1787165100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.88,
+  "resolvedTime": 1787236200000
  },
  {
   "id": "KAITOUSDT::SHORT::BoS::1787170500000",
