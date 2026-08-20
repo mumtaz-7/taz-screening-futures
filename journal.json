@@ -6677,5 +6677,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "MANTRAUSDT::SHORT::BoS::1787265900000",
+  "symbol": "MANTRAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.00468,
+  "sl": 0.0052049999999999996,
+  "tp": 0.00415,
+  "tpSrc": "WL",
+  "slPct": 11.22,
+  "gainPct": 11.32,
+  "rr": 1.01,
+  "lev": 5,
+  "signalTime": 1787265900000,
+  "status": "pending",
+  "createdAt": 1787265932486
  }
 ]
