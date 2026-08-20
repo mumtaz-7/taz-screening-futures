@@ -6588,5 +6588,39 @@
    "open"
   ],
   "fillTime": 1787240700000
+ },
+ {
+  "id": "BOMEUSDT::LONG::ChoCh::1787256900000",
+  "symbol": "BOMEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0011703,
+  "sl": 0.0010742999999999998,
+  "tp": 0.001329,
+  "tpSrc": "WH",
+  "slPct": 8.2,
+  "gainPct": 13.56,
+  "rr": 1.65,
+  "lev": 7,
+  "signalTime": 1787256900000,
+  "status": "pending",
+  "createdAt": 1787256931298
+ },
+ {
+  "id": "ONGUSDT::LONG::BoS::1787256900000",
+  "symbol": "ONGUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.08507,
+  "sl": 0.068885,
+  "tp": 0.11577,
+  "tpSrc": "WH",
+  "slPct": 19.03,
+  "gainPct": 36.09,
+  "rr": 1.9,
+  "lev": 3,
+  "signalTime": 1787256900000,
+  "status": "pending",
+  "createdAt": 1787256931298
  }
 ]
