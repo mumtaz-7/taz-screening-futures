@@ -3554,7 +3554,7 @@
   "rr": 2.35,
   "lev": 4,
   "signalTime": 1786448700000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1786448733484,
   "notified": [
    "open"
@@ -6460,5 +6460,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "MUBARAKUSDT::LONG::ChoCh::1787226300000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.02003,
+  "sl": 0.018619999999999998,
+  "tp": 0.0253,
+  "tpSrc": "WH",
+  "slPct": 7.04,
+  "gainPct": 26.31,
+  "rr": 3.74,
+  "lev": 9,
+  "signalTime": 1787226300000,
+  "status": "pending",
+  "createdAt": 1787226331198
  }
 ]
