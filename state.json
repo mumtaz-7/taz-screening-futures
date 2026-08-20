@@ -1,6 +1,8 @@
 {
   "ready": [
-    "ACEUSDT::SHORT::BoS"
+    "ACEUSDT::SHORT::BoS",
+    "GALAUSDT::LONG::BoS",
+    "TRUMPUSDT::LONG::BoS"
   ],
-  "at": "2026-08-20T08:00:43.884Z"
+  "at": "2026-08-20T08:15:32.188Z"
 }

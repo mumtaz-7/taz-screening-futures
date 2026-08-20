@@ -6369,9 +6369,12 @@
   "rr": 1.45,
   "lev": 12,
   "signalTime": 1787206500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787206530341,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787212800000
  },
  {
   "id": "ACEUSDT::SHORT::BoS::1787211000000",
@@ -6393,5 +6396,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GALAUSDT::LONG::BoS::1787213700000",
+  "symbol": "GALAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00142,
+  "sl": 0.001396,
+  "tp": 0.001624,
+  "tpSrc": "OB",
+  "slPct": 1.69,
+  "gainPct": 14.37,
+  "rr": 8.5,
+  "lev": 25,
+  "signalTime": 1787213700000,
+  "status": "pending",
+  "createdAt": 1787213732189
+ },
+ {
+  "id": "TRUMPUSDT::LONG::BoS::1787213700000",
+  "symbol": "TRUMPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1.669,
+  "sl": 1.6195,
+  "tp": 1.865,
+  "tpSrc": "WH",
+  "slPct": 2.97,
+  "gainPct": 11.74,
+  "rr": 3.96,
+  "lev": 20,
+  "signalTime": 1787213700000,
+  "status": "pending",
+  "createdAt": 1787213732189
  }
 ]
