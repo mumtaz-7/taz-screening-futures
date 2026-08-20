@@ -6412,7 +6412,8 @@
   "lev": 25,
   "signalTime": 1787213700000,
   "status": "pending",
-  "createdAt": 1787213732189
+  "createdAt": 1787213732189,
+  "notified": []
  },
  {
   "id": "TRUMPUSDT::LONG::BoS::1787213700000",
@@ -6428,7 +6429,11 @@
   "rr": 3.96,
   "lev": 20,
   "signalTime": 1787213700000,
-  "status": "pending",
-  "createdAt": 1787213732189
+  "status": "open",
+  "createdAt": 1787213732189,
+  "fillTime": 1787213700000,
+  "notified": [
+   "open"
+  ]
  }
 ]
