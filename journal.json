@@ -6305,8 +6305,12 @@
   "rr": 1.22,
   "lev": 5,
   "signalTime": 1787190300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787190333676,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787192100000
  }
 ]
