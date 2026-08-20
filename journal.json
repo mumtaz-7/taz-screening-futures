@@ -6481,5 +6481,22 @@
    "open"
   ],
   "fillTime": 1787227200000
+ },
+ {
+  "id": "GPSUSDT::SHORT::BoS::1787229000000",
+  "symbol": "GPSUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.01164,
+  "sl": 0.01266,
+  "tp": 0.01001,
+  "tpSrc": "OB",
+  "slPct": 8.76,
+  "gainPct": 14,
+  "rr": 1.6,
+  "lev": 7,
+  "signalTime": 1787229000000,
+  "status": "pending",
+  "createdAt": 1787229039274
  }
 ]
