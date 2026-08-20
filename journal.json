@@ -6603,8 +6603,12 @@
   "rr": 1.65,
   "lev": 7,
   "signalTime": 1787256900000,
-  "status": "pending",
-  "createdAt": 1787256931298
+  "status": "open",
+  "createdAt": 1787256931298,
+  "fillTime": 1787256900000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "ONGUSDT::LONG::BoS::1787256900000",
@@ -6620,7 +6624,29 @@
   "rr": 1.9,
   "lev": 3,
   "signalTime": 1787256900000,
+  "status": "void",
+  "createdAt": 1787256931298,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787256900000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "REDUSDT::LONG::ChoCh::1787257800000",
+  "symbol": "REDUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1053,
+  "sl": 0.1026,
+  "tp": 0.1223,
+  "tpSrc": "WH",
+  "slPct": 2.56,
+  "gainPct": 16.14,
+  "rr": 6.3,
+  "lev": 23,
+  "signalTime": 1787257800000,
   "status": "pending",
-  "createdAt": 1787256931298
+  "createdAt": 1787257837348
  }
 ]
