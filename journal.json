@@ -6582,12 +6582,15 @@
   "rr": 2.84,
   "lev": 19,
   "signalTime": 1787239800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787239837985,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787240700000
+  "fillTime": 1787240700000,
+  "R": -1,
+  "resolvedTime": 1787262300000
  },
  {
   "id": "BOMEUSDT::LONG::ChoCh::1787256900000",
