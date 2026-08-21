@@ -7134,9 +7134,12 @@
   "rr": 7.16,
   "lev": 14,
   "signalTime": 1787345100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787345134031,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787351400000
  },
  {
   "id": "SANTOSUSDT::LONG::BoS::1787348700000",
@@ -7174,6 +7177,7 @@
   "lev": 7,
   "signalTime": 1787351400000,
   "status": "pending",
-  "createdAt": 1787351438694
+  "createdAt": 1787351438694,
+  "notified": []
  }
 ]
