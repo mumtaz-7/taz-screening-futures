@@ -1,6 +1,8 @@
 {
   "ready": [
-    "COTIUSDT::LONG::ChoCh"
+    "COTIUSDT::LONG::ChoCh",
+    "ONGUSDT::LONG::ChoCh",
+    "ONTUSDT::LONG::BoS"
   ],
-  "at": "2026-08-21T20:30:38.603Z"
+  "at": "2026-08-21T20:45:34.030Z"
 }

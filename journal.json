@@ -7098,5 +7098,39 @@
   ],
   "R": -1,
   "resolvedTime": 1787337900000
+ },
+ {
+  "id": "ONGUSDT::LONG::ChoCh::1787345100000",
+  "symbol": "ONGUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.08825,
+  "sl": 0.082175,
+  "tp": 0.12705,
+  "tpSrc": "EQ",
+  "slPct": 6.88,
+  "gainPct": 43.97,
+  "rr": 6.39,
+  "lev": 9,
+  "signalTime": 1787345100000,
+  "status": "pending",
+  "createdAt": 1787345134031
+ },
+ {
+  "id": "ONTUSDT::LONG::BoS::1787345100000",
+  "symbol": "ONTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.04986,
+  "sl": 0.047744999999999996,
+  "tp": 0.065,
+  "tpSrc": "WH",
+  "slPct": 4.24,
+  "gainPct": 30.37,
+  "rr": 7.16,
+  "lev": 14,
+  "signalTime": 1787345100000,
+  "status": "pending",
+  "createdAt": 1787345134031
  }
 ]
