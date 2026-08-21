@@ -6756,12 +6756,15 @@
   "rr": 7.17,
   "lev": 25,
   "signalTime": 1787274000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787274040711,
   "fillTime": 1787274000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 7.17,
+  "resolvedTime": 1787326200000
  },
  {
   "id": "BICOUSDT::LONG::BoS::1787274900000",
@@ -7034,7 +7037,12 @@
   "rr": 1.13,
   "lev": 9,
   "signalTime": 1787326200000,
-  "status": "pending",
-  "createdAt": 1787326239205
+  "status": "void",
+  "createdAt": 1787326239205,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787326200000,
+  "notified": [
+   "void"
+  ]
  }
 ]
