@@ -6936,12 +6936,15 @@
   "rr": 3.3,
   "lev": 14,
   "signalTime": 1787302800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787302844438,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787306400000
+  "fillTime": 1787306400000,
+  "R": 3.3,
+  "resolvedTime": 1787333400000
  },
  {
   "id": "SANTOSUSDT::LONG::ChoCh::1787312700000",
