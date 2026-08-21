@@ -7059,8 +7059,12 @@
   "rr": 2.71,
   "lev": 9,
   "signalTime": 1787331600000,
-  "status": "pending",
-  "createdAt": 1787331645393
+  "status": "open",
+  "createdAt": 1787331645393,
+  "fillTime": 1787331600000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "SPKUSDT::LONG::BoS::1787331600000",
@@ -7076,7 +7080,11 @@
   "rr": 3.13,
   "lev": 17,
   "signalTime": 1787331600000,
-  "status": "pending",
-  "createdAt": 1787331645393
+  "status": "open",
+  "createdAt": 1787331645393,
+  "fillTime": 1787331600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
