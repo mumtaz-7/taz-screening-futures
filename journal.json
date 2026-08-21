@@ -6317,12 +6317,15 @@
   "rr": 2.03,
   "lev": 8,
   "signalTime": 1787179500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787179529579,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787186700000
+  "fillTime": 1787186700000,
+  "R": -1,
+  "resolvedTime": 1787303700000
  },
  {
   "id": "BBUSDT::SHORT::ChoCh::1787190300000",
@@ -6896,9 +6899,13 @@
   "rr": 2.32,
   "lev": 8,
   "signalTime": 1787301900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787301932168,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787303700000
  },
  {
   "id": "GPSUSDT::LONG::BoS::1787302800000",

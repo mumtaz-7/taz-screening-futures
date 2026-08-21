@@ -2,8 +2,7 @@
   "ready": [
     "BBUSDT::LONG::BoS",
     "GPSUSDT::LONG::BoS",
-    "HEIUSDT::SHORT::BoS",
-    "HOMEUSDT::LONG::BoS"
+    "HEIUSDT::SHORT::BoS"
   ],
-  "at": "2026-08-21T09:15:33.040Z"
+  "at": "2026-08-21T09:30:37.274Z"
 }
