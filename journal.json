@@ -6878,5 +6878,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BBUSDT::LONG::BoS::1787301900000",
+  "symbol": "BBUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01016,
+  "sl": 0.00938,
+  "tp": 0.01197,
+  "tpSrc": "OB",
+  "slPct": 7.68,
+  "gainPct": 17.81,
+  "rr": 2.32,
+  "lev": 8,
+  "signalTime": 1787301900000,
+  "status": "pending",
+  "createdAt": 1787301932168
  }
 ]
