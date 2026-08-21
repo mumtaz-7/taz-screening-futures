@@ -6817,9 +6817,12 @@
   "rr": 3.29,
   "lev": 15,
   "signalTime": 1787284800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787284845026,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "MUBARAKUSDT::LONG::BoS::1787286600000",
@@ -6921,8 +6924,11 @@
   "rr": 3.3,
   "lev": 14,
   "signalTime": 1787302800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787302844438,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787306400000
  }
 ]
