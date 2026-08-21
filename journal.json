@@ -7114,7 +7114,8 @@
   "lev": 9,
   "signalTime": 1787345100000,
   "status": "pending",
-  "createdAt": 1787345134031
+  "createdAt": 1787345134031,
+  "notified": []
  },
  {
   "id": "ONTUSDT::LONG::BoS::1787345100000",
@@ -7131,6 +7132,7 @@
   "lev": 14,
   "signalTime": 1787345100000,
   "status": "pending",
-  "createdAt": 1787345134031
+  "createdAt": 1787345134031,
+  "notified": []
  }
 ]
