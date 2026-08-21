@@ -7158,5 +7158,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "FLOKIUSDT::LONG::BoS::1787351400000",
+  "symbol": "FLOKIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00002765,
+  "sl": 0.000025369999999999996,
+  "tp": 0.00003049,
+  "tpSrc": "WH",
+  "slPct": 8.25,
+  "gainPct": 10.27,
+  "rr": 1.25,
+  "lev": 7,
+  "signalTime": 1787351400000,
+  "status": "pending",
+  "createdAt": 1787351438694
  }
 ]
