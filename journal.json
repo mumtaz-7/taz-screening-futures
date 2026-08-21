@@ -7137,5 +7137,22 @@
   "status": "pending",
   "createdAt": 1787345134031,
   "notified": []
+ },
+ {
+  "id": "SANTOSUSDT::LONG::BoS::1787348700000",
+  "symbol": "SANTOSUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.532,
+  "sl": 0.5005,
+  "tp": 0.729,
+  "tpSrc": "WH",
+  "slPct": 5.92,
+  "gainPct": 37.03,
+  "rr": 6.25,
+  "lev": 10,
+  "signalTime": 1787348700000,
+  "status": "pending",
+  "createdAt": 1787348732616
  }
 ]

@@ -1,7 +1,7 @@
 {
   "ready": [
-    "ONGUSDT::LONG::ChoCh",
-    "ONTUSDT::LONG::BoS"
+    "ONTUSDT::LONG::BoS",
+    "SANTOSUSDT::LONG::BoS"
   ],
-  "at": "2026-08-21T21:30:36.663Z"
+  "at": "2026-08-21T21:45:32.519Z"
 }
