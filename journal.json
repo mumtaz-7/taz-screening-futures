@@ -6717,12 +6717,15 @@
   "rr": 1.49,
   "lev": 11,
   "signalTime": 1787271300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787271330624,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787272200000
+  "fillTime": 1787272200000,
+  "R": 1.49,
+  "resolvedTime": 1787281200000
  },
  {
   "id": "REDUSDT::LONG::BoS::1787274000000",
