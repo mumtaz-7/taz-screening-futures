@@ -6759,9 +6759,12 @@
   "rr": 2.4,
   "lev": 9,
   "signalTime": 1787274900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787274931009,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787279400000
  },
  {
   "id": "CRVUSDT::LONG::BoS::1787279400000",
@@ -6778,6 +6781,7 @@
   "lev": 7,
   "signalTime": 1787279400000,
   "status": "pending",
-  "createdAt": 1787279437896
+  "createdAt": 1787279437896,
+  "notified": []
  }
 ]
