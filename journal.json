@@ -6790,5 +6790,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1787283000000
+ },
+ {
+  "id": "HOMEUSDT::LONG::BoS::1787284800000",
+  "symbol": "HOMEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00614,
+  "sl": 0.005900000000000001,
+  "tp": 0.00693,
+  "tpSrc": "OB",
+  "slPct": 3.91,
+  "gainPct": 12.87,
+  "rr": 3.29,
+  "lev": 15,
+  "signalTime": 1787284800000,
+  "status": "pending",
+  "createdAt": 1787284845026
  }
 ]
