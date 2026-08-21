@@ -6894,6 +6894,24 @@
   "lev": 8,
   "signalTime": 1787301900000,
   "status": "pending",
-  "createdAt": 1787301932168
+  "createdAt": 1787301932168,
+  "notified": []
+ },
+ {
+  "id": "GPSUSDT::LONG::BoS::1787302800000",
+  "symbol": "GPSUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01222,
+  "sl": 0.011695,
+  "tp": 0.01395,
+  "tpSrc": "OB",
+  "slPct": 4.3,
+  "gainPct": 14.16,
+  "rr": 3.3,
+  "lev": 14,
+  "signalTime": 1787302800000,
+  "status": "pending",
+  "createdAt": 1787302844438
  }
 ]
