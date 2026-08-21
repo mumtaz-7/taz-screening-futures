@@ -6520,12 +6520,15 @@
   "rr": 1.6,
   "lev": 7,
   "signalTime": 1787229000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787229039274,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787230800000
+  "fillTime": 1787230800000,
+  "R": -1,
+  "resolvedTime": 1787302800000
  },
  {
   "id": "ONGUSDT::LONG::BoS::1787234400000",
@@ -6912,6 +6915,7 @@
   "lev": 14,
   "signalTime": 1787302800000,
   "status": "pending",
-  "createdAt": 1787302844438
+  "createdAt": 1787302844438,
+  "notified": []
  }
 ]
