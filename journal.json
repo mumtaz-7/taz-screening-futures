@@ -6998,5 +6998,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "OSMOUSDT::LONG::ChoCh::1787321700000",
+  "symbol": "OSMOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0378,
+  "sl": 0.036000000000000004,
+  "tp": 0.0406,
+  "tpSrc": "EQ",
+  "slPct": 4.76,
+  "gainPct": 7.41,
+  "rr": 1.56,
+  "lev": 13,
+  "signalTime": 1787321700000,
+  "status": "pending",
+  "createdAt": 1787321734277
  }
 ]
