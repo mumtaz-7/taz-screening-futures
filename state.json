@@ -1,8 +1,7 @@
 {
   "ready": [
     "BBUSDT::LONG::BoS",
-    "GPSUSDT::LONG::BoS",
-    "HEIUSDT::SHORT::BoS"
+    "GPSUSDT::LONG::BoS"
   ],
-  "at": "2026-08-21T09:30:37.274Z"
+  "at": "2026-08-21T09:45:31.235Z"
 }
