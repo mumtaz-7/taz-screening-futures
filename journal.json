@@ -7113,9 +7113,12 @@
   "rr": 6.39,
   "lev": 9,
   "signalTime": 1787345100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787345134031,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787346900000
  },
  {
   "id": "ONTUSDT::LONG::BoS::1787345100000",
