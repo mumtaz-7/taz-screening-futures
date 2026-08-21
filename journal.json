@@ -4584,12 +4584,15 @@
   "rr": 1.11,
   "lev": 6,
   "signalTime": 1786724100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1786724131642,
   "fillTime": 1786724100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.11,
+  "resolvedTime": 1787313600000
  },
  {
   "id": "EDENUSDT::LONG::ChoCh::1786734900000",
@@ -6966,7 +6969,12 @@
   "rr": 1.68,
   "lev": 3,
   "signalTime": 1787313600000,
-  "status": "pending",
-  "createdAt": 1787313644070
+  "status": "void",
+  "createdAt": 1787313644070,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787313600000,
+  "notified": [
+   "void"
+  ]
  }
 ]
