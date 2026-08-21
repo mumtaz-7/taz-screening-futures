@@ -6762,5 +6762,22 @@
   "status": "pending",
   "createdAt": 1787274931009,
   "notified": []
+ },
+ {
+  "id": "CRVUSDT::LONG::BoS::1787279400000",
+  "symbol": "CRVUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.2928,
+  "sl": 0.26685000000000003,
+  "tp": 0.324,
+  "tpSrc": "WH",
+  "slPct": 8.86,
+  "gainPct": 10.66,
+  "rr": 1.2,
+  "lev": 7,
+  "signalTime": 1787279400000,
+  "status": "pending",
+  "createdAt": 1787279437896
  }
 ]
