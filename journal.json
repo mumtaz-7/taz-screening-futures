@@ -6780,12 +6780,15 @@
   "rr": 2.4,
   "lev": 9,
   "signalTime": 1787274900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787274931009,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787279400000
+  "fillTime": 1787279400000,
+  "R": 2.4,
+  "resolvedTime": 1787332500000
  },
  {
   "id": "CRVUSDT::LONG::BoS::1787279400000",
@@ -6887,12 +6890,15 @@
   "rr": 2.78,
   "lev": 16,
   "signalTime": 1787300100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787300131473,
   "fillTime": 1787300100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787332500000
  },
  {
   "id": "BBUSDT::LONG::BoS::1787301900000",
