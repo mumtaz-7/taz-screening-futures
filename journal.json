@@ -7179,5 +7179,22 @@
   "status": "pending",
   "createdAt": 1787351438694,
   "notified": []
+ },
+ {
+  "id": "NEIROUSDT::LONG::BoS::1787355000000",
+  "symbol": "NEIROUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00010575,
+  "sl": 0.000099705,
+  "tp": 0.00011546,
+  "tpSrc": "WH",
+  "slPct": 5.72,
+  "gainPct": 9.18,
+  "rr": 1.61,
+  "lev": 11,
+  "signalTime": 1787355000000,
+  "status": "pending",
+  "createdAt": 1787355043599
  }
 ]
