@@ -6857,5 +6857,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "HEIUSDT::SHORT::BoS::1787300100000",
+  "symbol": "HEIUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.135,
+  "sl": 0.1401,
+  "tp": 0.1208,
+  "tpSrc": "WL",
+  "slPct": 3.78,
+  "gainPct": 10.52,
+  "rr": 2.78,
+  "lev": 16,
+  "signalTime": 1787300100000,
+  "status": "pending",
+  "createdAt": 1787300131473
  }
 ]
