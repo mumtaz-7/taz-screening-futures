@@ -3907,12 +3907,15 @@
   "rr": 1.11,
   "lev": 7,
   "signalTime": 1786528800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1786528846996,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1786530600000
+  "fillTime": 1786530600000,
+  "R": -1,
+  "resolvedTime": 1787296500000
  },
  {
   "id": "RAREUSDT::LONG::BoS::1786533300000",
@@ -6606,12 +6609,15 @@
   "rr": 1.65,
   "lev": 7,
   "signalTime": 1787256900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787256931298,
   "fillTime": 1787256900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.65,
+  "resolvedTime": 1787296500000
  },
  {
   "id": "ONGUSDT::LONG::BoS::1787256900000",
@@ -6829,5 +6835,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BOMEUSDT::LONG::BoS::1787297400000",
+  "symbol": "BOMEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0012263,
+  "sl": 0.0010811000000000002,
+  "tp": 0.0013808,
+  "tpSrc": "WH",
+  "slPct": 11.84,
+  "gainPct": 12.6,
+  "rr": 1.06,
+  "lev": 5,
+  "signalTime": 1787297400000,
+  "status": "pending",
+  "createdAt": 1787297440111
  }
 ]
