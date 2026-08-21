@@ -6649,12 +6649,15 @@
   "rr": 6.3,
   "lev": 23,
   "signalTime": 1787257800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787257837348,
   "fillTime": 1787257800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787270400000
  },
  {
   "id": "SANTOSUSDT::LONG::BoS::1787264100000",
@@ -6699,5 +6702,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "HEMIUSDT::LONG::ChoCh::1787271300000",
+  "symbol": "HEMIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00887,
+  "sl": 0.008375,
+  "tp": 0.00961,
+  "tpSrc": "WH",
+  "slPct": 5.58,
+  "gainPct": 8.34,
+  "rr": 1.49,
+  "lev": 11,
+  "signalTime": 1787271300000,
+  "status": "pending",
+  "createdAt": 1787271330624
  }
 ]
