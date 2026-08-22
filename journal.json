@@ -7260,9 +7260,12 @@
   "rr": 3.19,
   "lev": 14,
   "signalTime": 1787358600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787358637070,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787362200000
  },
  {
   "id": "ACEUSDT::LONG::ChoCh::1787359500000",
