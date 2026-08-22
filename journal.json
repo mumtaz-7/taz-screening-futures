@@ -8509,5 +8509,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CHIPUSDT::LONG::ChoCh::1787439600000",
+  "symbol": "CHIPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.03002,
+  "sl": 0.028685,
+  "tp": 0.03473,
+  "tpSrc": "WH",
+  "slPct": 4.45,
+  "gainPct": 15.69,
+  "rr": 3.53,
+  "lev": 13,
+  "signalTime": 1787439600000,
+  "status": "pending",
+  "createdAt": 1787439645782
+ },
+ {
+  "id": "PEOPLEUSDT::SHORT::ChoCh::1787439600000",
+  "symbol": "PEOPLEUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.01044,
+  "sl": 0.01167,
+  "tp": 0.00804,
+  "tpSrc": "OB",
+  "slPct": 11.78,
+  "gainPct": 22.99,
+  "rr": 1.95,
+  "lev": 5,
+  "signalTime": 1787439600000,
+  "status": "pending",
+  "createdAt": 1787439645782
  }
 ]

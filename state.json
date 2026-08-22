@@ -1,6 +1,7 @@
 {
   "ready": [
-    "GIGGLEUSDT::LONG::BoS"
+    "CHIPUSDT::LONG::ChoCh",
+    "PEOPLEUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-08-22T22:45:32.636Z"
+  "at": "2026-08-22T23:00:45.765Z"
 }
