@@ -4,8 +4,6 @@
     "APTUSDT::LONG::ChoCh",
     "ARBUSDT::LONG::ChoCh",
     "ARUSDT::LONG::ChoCh",
-    "BIOUSDT::SHORT::BoS",
-    "DASHUSDT::LONG::ChoCh",
     "FILUSDT::LONG::ChoCh",
     "MUBARAKUSDT::LONG::ChoCh",
     "STRKUSDT::LONG::ChoCh",
@@ -13,5 +11,5 @@
     "WIFUSDT::LONG::ChoCh",
     "XRPUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-22T18:45:33.989Z"
+  "at": "2026-08-22T19:00:43.669Z"
 }
