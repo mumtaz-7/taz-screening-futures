@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ACEUSDT::SHORT::ChoCh",
+    "ADAUSDT::LONG::ChoCh",
+    "APTUSDT::LONG::ChoCh",
     "ARBUSDT::LONG::ChoCh",
     "ARUSDT::LONG::ChoCh",
     "BIOUSDT::SHORT::BoS",
@@ -8,11 +9,11 @@
     "DASHUSDT::LONG::ChoCh",
     "FILUSDT::LONG::ChoCh",
     "GALAUSDT::LONG::ChoCh",
-    "ORDIUSDT::LONG::BoS",
-    "PEPEUSDT::LONG::ChoCh",
-    "TRBUSDT::LONG::ChoCh",
+    "STRKUSDT::LONG::ChoCh",
+    "TAOUSDT::LONG::ChoCh",
+    "TUTUSDT::LONG::BoS",
     "VIRTUALUSDT::LONG::ChoCh",
-    "ZENUSDT::LONG::ChoCh"
+    "WIFUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-22T17:45:32.914Z"
+  "at": "2026-08-22T18:00:44.657Z"
 }

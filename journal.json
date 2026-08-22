@@ -8152,7 +8152,8 @@
   "lev": 16,
   "signalTime": 1787420700000,
   "status": "pending",
-  "createdAt": 1787420732915
+  "createdAt": 1787420732915,
+  "notified": []
  },
  {
   "id": "ARUSDT::LONG::ChoCh::1787420700000",
@@ -8168,8 +8169,12 @@
   "rr": 3.06,
   "lev": 18,
   "signalTime": 1787420700000,
-  "status": "pending",
-  "createdAt": 1787420732915
+  "status": "open",
+  "createdAt": 1787420732915,
+  "fillTime": 1787420700000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "FILUSDT::LONG::ChoCh::1787420700000",
@@ -8186,6 +8191,109 @@
   "lev": 17,
   "signalTime": 1787420700000,
   "status": "pending",
-  "createdAt": 1787420732915
+  "createdAt": 1787420732915,
+  "notified": []
+ },
+ {
+  "id": "ADAUSDT::LONG::ChoCh::1787421600000",
+  "symbol": "ADAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.228,
+  "sl": 0.21764999999999998,
+  "tp": 0.2584,
+  "tpSrc": "WH",
+  "slPct": 4.54,
+  "gainPct": 13.33,
+  "rr": 2.94,
+  "lev": 13,
+  "signalTime": 1787421600000,
+  "status": "pending",
+  "createdAt": 1787421644658
+ },
+ {
+  "id": "APTUSDT::LONG::ChoCh::1787421600000",
+  "symbol": "APTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.646,
+  "sl": 0.6145,
+  "tp": 0.714,
+  "tpSrc": "WH",
+  "slPct": 4.88,
+  "gainPct": 10.53,
+  "rr": 2.16,
+  "lev": 12,
+  "signalTime": 1787421600000,
+  "status": "pending",
+  "createdAt": 1787421644658
+ },
+ {
+  "id": "STRKUSDT::LONG::ChoCh::1787421600000",
+  "symbol": "STRKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.02794,
+  "sl": 0.02638,
+  "tp": 0.03075,
+  "tpSrc": "WH",
+  "slPct": 5.58,
+  "gainPct": 10.06,
+  "rr": 1.8,
+  "lev": 11,
+  "signalTime": 1787421600000,
+  "status": "pending",
+  "createdAt": 1787421644658
+ },
+ {
+  "id": "TAOUSDT::LONG::ChoCh::1787421600000",
+  "symbol": "TAOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 226,
+  "sl": 215.5,
+  "tp": 250.3,
+  "tpSrc": "WH",
+  "slPct": 4.65,
+  "gainPct": 10.75,
+  "rr": 2.31,
+  "lev": 13,
+  "signalTime": 1787421600000,
+  "status": "pending",
+  "createdAt": 1787421644658
+ },
+ {
+  "id": "TUTUSDT::LONG::BoS::1787421600000",
+  "symbol": "TUTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.046,
+  "sl": 0.0403,
+  "tp": 0.05248,
+  "tpSrc": "WH",
+  "slPct": 12.39,
+  "gainPct": 14.09,
+  "rr": 1.14,
+  "lev": 5,
+  "signalTime": 1787421600000,
+  "status": "pending",
+  "createdAt": 1787421644658
+ },
+ {
+  "id": "WIFUSDT::LONG::ChoCh::1787421600000",
+  "symbol": "WIFUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.2036,
+  "sl": 0.19355,
+  "tp": 0.2299,
+  "tpSrc": "WH",
+  "slPct": 4.94,
+  "gainPct": 12.92,
+  "rr": 2.62,
+  "lev": 12,
+  "signalTime": 1787421600000,
+  "status": "pending",
+  "createdAt": 1787421644658
  }
 ]
