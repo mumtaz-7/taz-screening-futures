@@ -7845,9 +7845,12 @@
   "rr": 3.38,
   "lev": 13,
   "signalTime": 1787400900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787400934678,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787408100000
  },
  {
   "id": "SANDUSDT::LONG::BoS::1787401800000",
