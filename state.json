@@ -2,7 +2,8 @@
   "ready": [
     "ALLOUSDT::SHORT::ChoCh",
     "GPSUSDT::SHORT::ChoCh",
-    "NEIROUSDT::SHORT::ChoCh"
+    "NEIROUSDT::SHORT::ChoCh",
+    "ONGUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-08-22T05:15:32.023Z"
+  "at": "2026-08-22T05:30:38.280Z"
 }

@@ -7550,7 +7550,8 @@
   "lev": 16,
   "signalTime": 1787375700000,
   "status": "pending",
-  "createdAt": 1787375732024
+  "createdAt": 1787375732024,
+  "notified": []
  },
  {
   "id": "GPSUSDT::SHORT::ChoCh::1787375700000",
@@ -7567,7 +7568,8 @@
   "lev": 9,
   "signalTime": 1787375700000,
   "status": "pending",
-  "createdAt": 1787375732024
+  "createdAt": 1787375732024,
+  "notified": []
  },
  {
   "id": "NEIROUSDT::SHORT::ChoCh::1787375700000",
@@ -7584,6 +7586,24 @@
   "lev": 5,
   "signalTime": 1787375700000,
   "status": "pending",
-  "createdAt": 1787375732024
+  "createdAt": 1787375732024,
+  "notified": []
+ },
+ {
+  "id": "ONGUSDT::SHORT::ChoCh::1787376600000",
+  "symbol": "ONGUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.08724,
+  "sl": 0.09095999999999999,
+  "tp": 0.07848,
+  "tpSrc": "WL",
+  "slPct": 4.26,
+  "gainPct": 10.04,
+  "rr": 2.35,
+  "lev": 14,
+  "signalTime": 1787376600000,
+  "status": "pending",
+  "createdAt": 1787376638280
  }
 ]
