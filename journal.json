@@ -6972,12 +6972,15 @@
   "rr": 3.31,
   "lev": 13,
   "signalTime": 1787312700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787312732224,
   "fillTime": 1787312700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.31,
+  "resolvedTime": 1787409900000
  },
  {
   "id": "HEMIUSDT::LONG::BoS::1787313600000",
@@ -7914,5 +7917,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BIOUSDT::SHORT::BoS::1787410800000",
+  "symbol": "BIOUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0301,
+  "sl": 0.032650000000000005,
+  "tp": 0.02493,
+  "tpSrc": "OB",
+  "slPct": 8.47,
+  "gainPct": 17.18,
+  "rr": 2.03,
+  "lev": 7,
+  "signalTime": 1787410800000,
+  "status": "pending",
+  "createdAt": 1787410844587
  }
 ]
