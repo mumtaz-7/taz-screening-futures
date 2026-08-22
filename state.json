@@ -1,10 +1,6 @@
 {
   "ready": [
-    "BERAUSDT::SHORT::BoS",
-    "BIOUSDT::SHORT::BoS",
-    "GIGGLEUSDT::LONG::BoS",
-    "PNUTUSDT::SHORT::ChoCh",
-    "SCUSDT::LONG::ChoCh"
+    "GIGGLEUSDT::LONG::BoS"
   ],
-  "at": "2026-08-22T22:30:37.485Z"
+  "at": "2026-08-22T22:45:32.636Z"
 }

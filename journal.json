@@ -8049,9 +8049,12 @@
   "rr": 5.05,
   "lev": 18,
   "signalTime": 1787416200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787416238338,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "BONKUSDT::LONG::BoS::1787417100000",
