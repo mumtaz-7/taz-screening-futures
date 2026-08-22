@@ -7218,7 +7218,45 @@
   "rr": 1.55,
   "lev": 6,
   "signalTime": 1787357700000,
+  "status": "open",
+  "createdAt": 1787357730506,
+  "fillTime": 1787357700000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "GPSUSDT::LONG::BoS::1787358600000",
+  "symbol": "GPSUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01322,
+  "sl": 0.012559999999999998,
+  "tp": 0.01856,
+  "tpSrc": "OB",
+  "slPct": 4.99,
+  "gainPct": 40.39,
+  "rr": 8.09,
+  "lev": 12,
+  "signalTime": 1787358600000,
   "status": "pending",
-  "createdAt": 1787357730506
+  "createdAt": 1787358637070
+ },
+ {
+  "id": "REDUSDT::LONG::ChoCh::1787358600000",
+  "symbol": "REDUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1247,
+  "sl": 0.11929999999999999,
+  "tp": 0.1419,
+  "tpSrc": "WH",
+  "slPct": 4.33,
+  "gainPct": 13.79,
+  "rr": 3.19,
+  "lev": 14,
+  "signalTime": 1787358600000,
+  "status": "pending",
+  "createdAt": 1787358637070
  }
 ]
