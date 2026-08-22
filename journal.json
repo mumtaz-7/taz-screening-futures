@@ -7549,9 +7549,12 @@
   "rr": 3.51,
   "lev": 16,
   "signalTime": 1787375700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787375732024,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "GPSUSDT::SHORT::ChoCh::1787375700000",
@@ -7588,9 +7591,12 @@
   "rr": 1.47,
   "lev": 5,
   "signalTime": 1787375700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787375732024,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ONGUSDT::SHORT::ChoCh::1787376600000",
@@ -7778,5 +7784,22 @@
   "status": "pending",
   "createdAt": 1787392846015,
   "notified": []
+ },
+ {
+  "id": "TUTUSDT::LONG::ChoCh::1787398200000",
+  "symbol": "TUTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.04068,
+  "sl": 0.037575,
+  "tp": 0.04525,
+  "tpSrc": "WH",
+  "slPct": 7.63,
+  "gainPct": 11.23,
+  "rr": 1.47,
+  "lev": 8,
+  "signalTime": 1787398200000,
+  "status": "pending",
+  "createdAt": 1787398239646
  }
 ]
