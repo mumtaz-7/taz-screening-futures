@@ -7875,12 +7875,15 @@
   "rr": 3.38,
   "lev": 17,
   "signalTime": 1787401800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787401841915,
   "fillTime": 1787401800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787436000000
  },
  {
   "id": "BONKUSDT::LONG::ChoCh::1787404500000",
