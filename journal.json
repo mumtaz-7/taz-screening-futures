@@ -7715,5 +7715,22 @@
    "open"
   ],
   "fillTime": 1787389200000
+ },
+ {
+  "id": "NEIROUSDT::SHORT::BoS::1787391900000",
+  "symbol": "NEIROUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.00009029,
+  "sl": 0.00009677000000000001,
+  "tp": 0.00006893,
+  "tpSrc": "OB",
+  "slPct": 7.18,
+  "gainPct": 23.66,
+  "rr": 3.3,
+  "lev": 8,
+  "signalTime": 1787391900000,
+  "status": "pending",
+  "createdAt": 1787391932589
  }
 ]
