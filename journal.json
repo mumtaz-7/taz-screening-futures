@@ -8085,12 +8085,15 @@
   "rr": 4.13,
   "lev": 15,
   "signalTime": 1787417100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787417132816,
   "fillTime": 1787417100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787435100000
  },
  {
   "id": "PEPEUSDT::LONG::ChoCh::1787417100000",
@@ -8214,12 +8217,15 @@
   "rr": 2.86,
   "lev": 17,
   "signalTime": 1787420700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787420732915,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787421600000
+  "fillTime": 1787421600000,
+  "R": -1,
+  "resolvedTime": 1787435100000
  },
  {
   "id": "ADAUSDT::LONG::ChoCh::1787421600000",
@@ -8341,12 +8347,15 @@
   "rr": 2.62,
   "lev": 12,
   "signalTime": 1787421600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787421644658,
   "fillTime": 1787421600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787435100000
  },
  {
   "id": "XRPUSDT::LONG::ChoCh::1787423400000",
