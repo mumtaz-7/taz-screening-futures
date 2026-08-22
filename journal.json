@@ -7197,12 +7197,15 @@
   "rr": 1.61,
   "lev": 11,
   "signalTime": 1787355000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787355043599,
   "fillTime": 1787355000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787365800000
  },
  {
   "id": "HEMIUSDT::LONG::ChoCh::1787357700000",
@@ -7367,7 +7370,29 @@
   "rr": 1.51,
   "lev": 4,
   "signalTime": 1787365800000,
+  "status": "void",
+  "createdAt": 1787365839240,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787365800000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "ZENUSDT::LONG::BoS::1787366700000",
+  "symbol": "ZENUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 5.341,
+  "sl": 5.1175,
+  "tp": 6,
+  "tpSrc": "WH",
+  "slPct": 4.18,
+  "gainPct": 12.34,
+  "rr": 2.95,
+  "lev": 14,
+  "signalTime": 1787366700000,
   "status": "pending",
-  "createdAt": 1787365839240
+  "createdAt": 1787366731704
  }
 ]
