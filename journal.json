@@ -7998,12 +7998,15 @@
   "rr": 5.85,
   "lev": 17,
   "signalTime": 1787416200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787416238338,
   "fillTime": 1787416200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787432400000
  },
  {
   "id": "TRBUSDT::LONG::ChoCh::1787416200000",
@@ -8019,9 +8022,12 @@
   "rr": 4.8,
   "lev": 12,
   "signalTime": 1787416200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787416238338,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787432400000
  },
  {
   "id": "ZENUSDT::LONG::ChoCh::1787416200000",
@@ -8395,5 +8401,56 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BERAUSDT::SHORT::BoS::1787433300000",
+  "symbol": "BERAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1884,
+  "sl": 0.1956,
+  "tp": 0.1681,
+  "tpSrc": "OB",
+  "slPct": 3.82,
+  "gainPct": 10.77,
+  "rr": 2.82,
+  "lev": 16,
+  "signalTime": 1787433300000,
+  "status": "pending",
+  "createdAt": 1787433334157
+ },
+ {
+  "id": "PNUTUSDT::SHORT::ChoCh::1787433300000",
+  "symbol": "PNUTUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.0528,
+  "sl": 0.05715,
+  "tp": 0.0475,
+  "tpSrc": "OB",
+  "slPct": 8.24,
+  "gainPct": 10.04,
+  "rr": 1.22,
+  "lev": 7,
+  "signalTime": 1787433300000,
+  "status": "pending",
+  "createdAt": 1787433334157
+ },
+ {
+  "id": "SCUSDT::LONG::ChoCh::1787433300000",
+  "symbol": "SCUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.000687,
+  "sl": 0.000642,
+  "tp": 0.000935,
+  "tpSrc": "WH",
+  "slPct": 6.55,
+  "gainPct": 36.1,
+  "rr": 5.51,
+  "lev": 9,
+  "signalTime": 1787433300000,
+  "status": "pending",
+  "createdAt": 1787433334157
  }
 ]

@@ -1,7 +1,11 @@
 {
   "ready": [
+    "BERAUSDT::SHORT::BoS",
+    "BIOUSDT::SHORT::BoS",
     "GALAUSDT::LONG::BoS",
-    "GPSUSDT::SHORT::ChoCh"
+    "GPSUSDT::SHORT::ChoCh",
+    "PNUTUSDT::SHORT::ChoCh",
+    "SCUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-22T21:00:40.677Z"
+  "at": "2026-08-22T21:15:34.154Z"
 }
