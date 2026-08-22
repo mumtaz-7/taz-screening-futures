@@ -1,9 +1,7 @@
 {
   "ready": [
     "COTIUSDT::LONG::BoS",
-    "ENAUSDT::LONG::ChoCh",
-    "ONTUSDT::LONG::BoS",
-    "TRUMPUSDT::LONG::ChoCh"
+    "ONTUSDT::LONG::BoS"
   ],
-  "at": "2026-08-22T03:30:39.785Z"
+  "at": "2026-08-22T03:45:31.703Z"
 }

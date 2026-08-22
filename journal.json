@@ -7449,7 +7449,8 @@
   "lev": 11,
   "signalTime": 1787369400000,
   "status": "pending",
-  "createdAt": 1787369439786
+  "createdAt": 1787369439786,
+  "notified": []
  },
  {
   "id": "TRUMPUSDT::LONG::ChoCh::1787369400000",
@@ -7465,7 +7466,12 @@
   "rr": 1.07,
   "lev": 3,
   "signalTime": 1787369400000,
-  "status": "pending",
-  "createdAt": 1787369439786
+  "status": "void",
+  "createdAt": 1787369439786,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787369400000,
+  "notified": [
+   "void"
+  ]
  }
 ]
