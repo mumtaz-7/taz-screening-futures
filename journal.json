@@ -7278,7 +7278,28 @@
   "rr": 4.27,
   "lev": 12,
   "signalTime": 1787359500000,
+  "status": "open",
+  "createdAt": 1787359533913,
+  "fillTime": 1787359500000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "REUSDT::LONG::BoS::1787360400000",
+  "symbol": "REUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.532,
+  "sl": 0.5035000000000001,
+  "tp": 0.598,
+  "tpSrc": "WH",
+  "slPct": 5.36,
+  "gainPct": 12.41,
+  "rr": 2.32,
+  "lev": 11,
+  "signalTime": 1787360400000,
   "status": "pending",
-  "createdAt": 1787359533913
+  "createdAt": 1787360447161
  }
 ]
