@@ -6366,12 +6366,15 @@
   "rr": 2,
   "lev": 13,
   "signalTime": 1787197500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787197530707,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787211000000
+  "fillTime": 1787211000000,
+  "R": 2,
+  "resolvedTime": 1787356800000
  },
  {
   "id": "KAITOUSDT::SHORT::ChoCh::1787206500000",
@@ -7200,5 +7203,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HEMIUSDT::LONG::ChoCh::1787357700000",
+  "symbol": "HEMIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01052,
+  "sl": 0.009394999999999999,
+  "tp": 0.01226,
+  "tpSrc": "EQ",
+  "slPct": 10.69,
+  "gainPct": 16.54,
+  "rr": 1.55,
+  "lev": 6,
+  "signalTime": 1787357700000,
+  "status": "pending",
+  "createdAt": 1787357730506
  }
 ]
