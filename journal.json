@@ -7352,5 +7352,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "TRBUSDT::LONG::BoS::1787365800000",
+  "symbol": "TRBUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 18.42,
+  "sl": 15.825000000000001,
+  "tp": 22.33,
+  "tpSrc": "WH",
+  "slPct": 14.09,
+  "gainPct": 21.23,
+  "rr": 1.51,
+  "lev": 4,
+  "signalTime": 1787365800000,
+  "status": "pending",
+  "createdAt": 1787365839240
  }
 ]
