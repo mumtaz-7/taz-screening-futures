@@ -7932,7 +7932,11 @@
   "rr": 2.03,
   "lev": 7,
   "signalTime": 1787410800000,
-  "status": "pending",
-  "createdAt": 1787410844587
+  "status": "open",
+  "createdAt": 1787410844587,
+  "fillTime": 1787410800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
