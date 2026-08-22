@@ -7956,9 +7956,12 @@
   "rr": 2.01,
   "lev": 11,
   "signalTime": 1787413500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787413531518,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787421600000
  },
  {
   "id": "ACEUSDT::SHORT::ChoCh::1787416200000",
@@ -8190,9 +8193,12 @@
   "rr": 2.86,
   "lev": 17,
   "signalTime": 1787420700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787420732915,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787421600000
  },
  {
   "id": "ADAUSDT::LONG::ChoCh::1787421600000",
@@ -8208,8 +8214,12 @@
   "rr": 2.94,
   "lev": 13,
   "signalTime": 1787421600000,
-  "status": "pending",
-  "createdAt": 1787421644658
+  "status": "open",
+  "createdAt": 1787421644658,
+  "fillTime": 1787421600000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "APTUSDT::LONG::ChoCh::1787421600000",
@@ -8225,8 +8235,12 @@
   "rr": 2.16,
   "lev": 12,
   "signalTime": 1787421600000,
-  "status": "pending",
-  "createdAt": 1787421644658
+  "status": "open",
+  "createdAt": 1787421644658,
+  "fillTime": 1787421600000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "STRKUSDT::LONG::ChoCh::1787421600000",
@@ -8242,8 +8256,12 @@
   "rr": 1.8,
   "lev": 11,
   "signalTime": 1787421600000,
-  "status": "pending",
-  "createdAt": 1787421644658
+  "status": "open",
+  "createdAt": 1787421644658,
+  "fillTime": 1787421600000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "TAOUSDT::LONG::ChoCh::1787421600000",
@@ -8259,8 +8277,12 @@
   "rr": 2.31,
   "lev": 13,
   "signalTime": 1787421600000,
-  "status": "pending",
-  "createdAt": 1787421644658
+  "status": "open",
+  "createdAt": 1787421644658,
+  "fillTime": 1787421600000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "TUTUSDT::LONG::BoS::1787421600000",
@@ -8276,8 +8298,13 @@
   "rr": 1.14,
   "lev": 5,
   "signalTime": 1787421600000,
-  "status": "pending",
-  "createdAt": 1787421644658
+  "status": "void",
+  "createdAt": 1787421644658,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787421600000,
+  "notified": [
+   "void"
+  ]
  },
  {
   "id": "WIFUSDT::LONG::ChoCh::1787421600000",
@@ -8293,7 +8320,11 @@
   "rr": 2.62,
   "lev": 12,
   "signalTime": 1787421600000,
-  "status": "pending",
-  "createdAt": 1787421644658
+  "status": "open",
+  "createdAt": 1787421644658,
+  "fillTime": 1787421600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
