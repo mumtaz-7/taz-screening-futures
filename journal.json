@@ -7645,5 +7645,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ACEUSDT::SHORT::ChoCh::1787379300000",
+  "symbol": "ACEUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.2283,
+  "sl": 0.26295,
+  "tp": 0.19,
+  "tpSrc": "WL",
+  "slPct": 15.18,
+  "gainPct": 16.78,
+  "rr": 1.11,
+  "lev": 4,
+  "signalTime": 1787379300000,
+  "status": "pending",
+  "createdAt": 1787379331700
+ },
+ {
+  "id": "PROMUSDT::LONG::ChoCh::1787379300000",
+  "symbol": "PROMUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 2.749,
+  "sl": 2.581,
+  "tp": 3.065,
+  "tpSrc": "WH",
+  "slPct": 6.11,
+  "gainPct": 11.5,
+  "rr": 1.88,
+  "lev": 10,
+  "signalTime": 1787379300000,
+  "status": "pending",
+  "createdAt": 1787379331700
  }
 ]
