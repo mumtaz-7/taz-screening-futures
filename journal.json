@@ -8118,9 +8118,12 @@
   "rr": 3.37,
   "lev": 17,
   "signalTime": 1787417100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787417132816,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787425200000
  },
  {
   "id": "DASHUSDT::LONG::ChoCh::1787419800000",

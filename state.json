@@ -2,14 +2,11 @@
   "ready": [
     "ADAUSDT::LONG::ChoCh",
     "APTUSDT::LONG::ChoCh",
-    "ARBUSDT::LONG::ChoCh",
-    "ARUSDT::LONG::ChoCh",
-    "FILUSDT::LONG::ChoCh",
     "MUBARAKUSDT::LONG::ChoCh",
     "STRKUSDT::LONG::ChoCh",
     "TAOUSDT::LONG::ChoCh",
     "WIFUSDT::LONG::ChoCh",
     "XRPUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-22T19:00:43.669Z"
+  "at": "2026-08-22T19:15:32.615Z"
 }
