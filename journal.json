@@ -8524,8 +8524,12 @@
   "rr": 3.53,
   "lev": 13,
   "signalTime": 1787439600000,
-  "status": "pending",
-  "createdAt": 1787439645782
+  "status": "open",
+  "createdAt": 1787439645782,
+  "fillTime": 1787439600000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "PEOPLEUSDT::SHORT::ChoCh::1787439600000",
@@ -8541,7 +8545,11 @@
   "rr": 1.95,
   "lev": 5,
   "signalTime": 1787439600000,
-  "status": "pending",
-  "createdAt": 1787439645782
+  "status": "open",
+  "createdAt": 1787439645782,
+  "fillTime": 1787439600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
