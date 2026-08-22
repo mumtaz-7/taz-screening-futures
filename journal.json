@@ -7781,9 +7781,12 @@
   "rr": 2.66,
   "lev": 14,
   "signalTime": 1787392800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787392846015,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787400000000
  },
  {
   "id": "TUTUSDT::LONG::ChoCh::1787398200000",
@@ -7802,5 +7805,39 @@
   "status": "pending",
   "createdAt": 1787398239646,
   "notified": []
+ },
+ {
+  "id": "WLDUSDT::LONG::BoS::1787400900000",
+  "symbol": "WLDUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.4004,
+  "sl": 0.37940000000000007,
+  "tp": 0.4636,
+  "tpSrc": "WH",
+  "slPct": 5.24,
+  "gainPct": 15.78,
+  "rr": 3.01,
+  "lev": 11,
+  "signalTime": 1787400900000,
+  "status": "pending",
+  "createdAt": 1787400934678
+ },
+ {
+  "id": "XPLUSDT::LONG::ChoCh::1787400900000",
+  "symbol": "XPLUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.09447,
+  "sl": 0.090165,
+  "tp": 0.109,
+  "tpSrc": "WH",
+  "slPct": 4.56,
+  "gainPct": 15.38,
+  "rr": 3.38,
+  "lev": 13,
+  "signalTime": 1787400900000,
+  "status": "pending",
+  "createdAt": 1787400934678
  }
 ]
