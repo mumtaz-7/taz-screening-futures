@@ -8326,5 +8326,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "XRPUSDT::LONG::ChoCh::1787423400000",
+  "symbol": "XRPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1.4897,
+  "sl": 1.3851499999999999,
+  "tp": 1.6999,
+  "tpSrc": "WH",
+  "slPct": 7.02,
+  "gainPct": 14.11,
+  "rr": 2.01,
+  "lev": 9,
+  "signalTime": 1787423400000,
+  "status": "pending",
+  "createdAt": 1787423441752
  }
 ]
