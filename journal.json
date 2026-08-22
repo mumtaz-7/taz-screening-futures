@@ -7255,12 +7255,15 @@
   "rr": 8.09,
   "lev": 12,
   "signalTime": 1787358600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787358637070,
   "fillTime": 1787358600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787373900000
  },
  {
   "id": "REDUSDT::LONG::ChoCh::1787358600000",
