@@ -6145,12 +6145,15 @@
   "rr": 2.47,
   "lev": 13,
   "signalTime": 1787156100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787156132919,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787157000000
+  "fillTime": 1787157000000,
+  "R": 2.47,
+  "resolvedTime": 1787368500000
  },
  {
   "id": "ACMUSDT::LONG::BoS::1787159700000",
@@ -7185,9 +7188,13 @@
   "rr": 1.25,
   "lev": 7,
   "signalTime": 1787351400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787351438694,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787368500000
  },
  {
   "id": "NEIROUSDT::LONG::BoS::1787355000000",
@@ -7420,7 +7427,45 @@
   "rr": 3.54,
   "lev": 8,
   "signalTime": 1787368500000,
+  "status": "open",
+  "createdAt": 1787368533231,
+  "fillTime": 1787368500000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ENAUSDT::LONG::ChoCh::1787369400000",
+  "symbol": "ENAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1446,
+  "sl": 0.13635,
+  "tp": 0.1592,
+  "tpSrc": "WH",
+  "slPct": 5.71,
+  "gainPct": 10.1,
+  "rr": 1.77,
+  "lev": 11,
+  "signalTime": 1787369400000,
   "status": "pending",
-  "createdAt": 1787368533231
+  "createdAt": 1787369439786
+ },
+ {
+  "id": "TRUMPUSDT::LONG::ChoCh::1787369400000",
+  "symbol": "TRUMPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1.97,
+  "sl": 1.6325000000000003,
+  "tp": 2.331,
+  "tpSrc": "WH",
+  "slPct": 17.13,
+  "gainPct": 18.32,
+  "rr": 1.07,
+  "lev": 3,
+  "signalTime": 1787369400000,
+  "status": "pending",
+  "createdAt": 1787369439786
  }
 ]
