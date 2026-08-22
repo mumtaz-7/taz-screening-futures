@@ -7448,9 +7448,13 @@
   "rr": 1.77,
   "lev": 11,
   "signalTime": 1787369400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787369439786,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787370300000
  },
  {
   "id": "TRUMPUSDT::LONG::ChoCh::1787369400000",
@@ -7473,5 +7477,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ROBOUSDT::LONG::ChoCh::1787371200000",
+  "symbol": "ROBOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01544,
+  "sl": 0.014839999999999999,
+  "tp": 0.01878,
+  "tpSrc": "WH",
+  "slPct": 3.89,
+  "gainPct": 21.63,
+  "rr": 5.57,
+  "lev": 15,
+  "signalTime": 1787371200000,
+  "status": "pending",
+  "createdAt": 1787371244200
  }
 ]
