@@ -7730,7 +7730,45 @@
   "rr": 3.3,
   "lev": 8,
   "signalTime": 1787391900000,
+  "status": "open",
+  "createdAt": 1787391932589,
+  "fillTime": 1787391900000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "EDENUSDT::SHORT::BoS::1787392800000",
+  "symbol": "EDENUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.05247,
+  "sl": 0.056955000000000006,
+  "tp": 0.04313,
+  "tpSrc": "OB",
+  "slPct": 8.55,
+  "gainPct": 17.8,
+  "rr": 2.08,
+  "lev": 7,
+  "signalTime": 1787392800000,
   "status": "pending",
-  "createdAt": 1787391932589
+  "createdAt": 1787392846015
+ },
+ {
+  "id": "ONTUSDT::SHORT::BoS::1787392800000",
+  "symbol": "ONTUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.04778,
+  "sl": 0.04976,
+  "tp": 0.04252,
+  "tpSrc": "OB",
+  "slPct": 4.14,
+  "gainPct": 11.01,
+  "rr": 2.66,
+  "lev": 14,
+  "signalTime": 1787392800000,
+  "status": "pending",
+  "createdAt": 1787392846015
  }
 ]
