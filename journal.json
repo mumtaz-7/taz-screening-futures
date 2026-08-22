@@ -7974,8 +7974,12 @@
   "rr": 2.92,
   "lev": 8,
   "signalTime": 1787416200000,
-  "status": "pending",
-  "createdAt": 1787416238338
+  "status": "open",
+  "createdAt": 1787416238338,
+  "fillTime": 1787416200000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "ORDIUSDT::LONG::BoS::1787416200000",
@@ -7991,8 +7995,12 @@
   "rr": 5.85,
   "lev": 17,
   "signalTime": 1787416200000,
-  "status": "pending",
-  "createdAt": 1787416238338
+  "status": "open",
+  "createdAt": 1787416238338,
+  "fillTime": 1787416200000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "TRBUSDT::LONG::ChoCh::1787416200000",
@@ -8009,7 +8017,8 @@
   "lev": 12,
   "signalTime": 1787416200000,
   "status": "pending",
-  "createdAt": 1787416238338
+  "createdAt": 1787416238338,
+  "notified": []
  },
  {
   "id": "ZENUSDT::LONG::ChoCh::1787416200000",
@@ -8026,6 +8035,75 @@
   "lev": 18,
   "signalTime": 1787416200000,
   "status": "pending",
-  "createdAt": 1787416238338
+  "createdAt": 1787416238338,
+  "notified": []
+ },
+ {
+  "id": "BONKUSDT::LONG::BoS::1787417100000",
+  "symbol": "BONKUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00000324,
+  "sl": 0.00000303,
+  "tp": 0.00000367,
+  "tpSrc": "WH",
+  "slPct": 6.48,
+  "gainPct": 13.27,
+  "rr": 2.05,
+  "lev": 9,
+  "signalTime": 1787417100000,
+  "status": "pending",
+  "createdAt": 1787417132816
+ },
+ {
+  "id": "GALAUSDT::LONG::ChoCh::1787417100000",
+  "symbol": "GALAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.001959,
+  "sl": 0.0018810000000000003,
+  "tp": 0.002281,
+  "tpSrc": "WH",
+  "slPct": 3.98,
+  "gainPct": 16.44,
+  "rr": 4.13,
+  "lev": 15,
+  "signalTime": 1787417100000,
+  "status": "pending",
+  "createdAt": 1787417132816
+ },
+ {
+  "id": "PEPEUSDT::LONG::ChoCh::1787417100000",
+  "symbol": "PEPEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0000041,
+  "sl": 0.000003875000000000001,
+  "tp": 0.00000456,
+  "tpSrc": "WH",
+  "slPct": 5.49,
+  "gainPct": 11.22,
+  "rr": 2.04,
+  "lev": 11,
+  "signalTime": 1787417100000,
+  "status": "pending",
+  "createdAt": 1787417132816
+ },
+ {
+  "id": "VIRTUALUSDT::LONG::ChoCh::1787417100000",
+  "symbol": "VIRTUALUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.6892,
+  "sl": 0.6658,
+  "tp": 0.768,
+  "tpSrc": "WH",
+  "slPct": 3.4,
+  "gainPct": 11.43,
+  "rr": 3.37,
+  "lev": 17,
+  "signalTime": 1787417100000,
+  "status": "pending",
+  "createdAt": 1787417132816
  }
 ]
