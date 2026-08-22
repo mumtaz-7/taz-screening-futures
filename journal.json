@@ -6850,12 +6850,15 @@
   "rr": 5.89,
   "lev": 13,
   "signalTime": 1787286600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787286641270,
   "fillTime": 1787286600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 5.89,
+  "resolvedTime": 1787367600000
  },
  {
   "id": "BOMEUSDT::LONG::BoS::1787297400000",
@@ -7071,12 +7074,15 @@
   "rr": 2.71,
   "lev": 9,
   "signalTime": 1787331600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787331645393,
   "fillTime": 1787331600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.71,
+  "resolvedTime": 1787367600000
  },
  {
   "id": "SPKUSDT::LONG::BoS::1787331600000",
@@ -7399,5 +7405,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "COTIUSDT::LONG::BoS::1787368500000",
+  "symbol": "COTIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01164,
+  "sl": 0.010785,
+  "tp": 0.01467,
+  "tpSrc": "WH",
+  "slPct": 7.35,
+  "gainPct": 26.03,
+  "rr": 3.54,
+  "lev": 8,
+  "signalTime": 1787368500000,
+  "status": "pending",
+  "createdAt": 1787368533231
  }
 ]
