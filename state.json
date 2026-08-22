@@ -1,7 +1,8 @@
 {
   "ready": [
     "BIOUSDT::SHORT::BoS",
-    "BOMEUSDT::LONG::ChoCh"
+    "BOMEUSDT::LONG::ChoCh",
+    "EDENUSDT::SHORT::BoS"
   ],
-  "at": "2026-08-22T15:45:31.517Z"
+  "at": "2026-08-22T16:00:42.586Z"
 }
