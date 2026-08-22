@@ -7324,8 +7324,12 @@
   "rr": 2.94,
   "lev": 18,
   "signalTime": 1787364000000,
-  "status": "pending",
-  "createdAt": 1787364044881
+  "status": "open",
+  "createdAt": 1787364044881,
+  "fillTime": 1787364000000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "ZECUSDT::LONG::BoS::1787364000000",
@@ -7341,7 +7345,12 @@
   "rr": 2.37,
   "lev": 15,
   "signalTime": 1787364000000,
-  "status": "pending",
-  "createdAt": 1787364044881
+  "status": "void",
+  "createdAt": 1787364044881,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787364000000,
+  "notified": [
+   "void"
+  ]
  }
 ]
