@@ -7830,12 +7830,15 @@
   "rr": 3.01,
   "lev": 11,
   "signalTime": 1787400900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787400934678,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787401800000
+  "fillTime": 1787401800000,
+  "R": -1,
+  "resolvedTime": 1787434200000
  },
  {
   "id": "XPLUSDT::LONG::ChoCh::1787400900000",
@@ -8145,9 +8148,12 @@
   "rr": 2.1,
   "lev": 8,
   "signalTime": 1787419800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787419836535,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787434200000
  },
  {
   "id": "ARBUSDT::LONG::ChoCh::1787420700000",
@@ -8184,12 +8190,15 @@
   "rr": 3.06,
   "lev": 18,
   "signalTime": 1787420700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787420732915,
   "fillTime": 1787420700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787434200000
  },
  {
   "id": "FILUSDT::LONG::ChoCh::1787420700000",
@@ -8395,12 +8404,15 @@
   "rr": 4.67,
   "lev": 19,
   "signalTime": 1787429700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787429731941,
   "fillTime": 1787429700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787434200000
  },
  {
   "id": "BERAUSDT::SHORT::BoS::1787433300000",
@@ -8476,7 +8488,11 @@
   "rr": 3.9,
   "lev": 15,
   "signalTime": 1787434200000,
-  "status": "pending",
-  "createdAt": 1787434240346
+  "status": "open",
+  "createdAt": 1787434240346,
+  "fillTime": 1787434200000,
+  "notified": [
+   "open"
+  ]
  }
 ]
