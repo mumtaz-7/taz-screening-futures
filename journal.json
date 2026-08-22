@@ -7567,9 +7567,12 @@
   "rr": 2.81,
   "lev": 9,
   "signalTime": 1787375700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787375732024,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787394600000
  },
  {
   "id": "NEIROUSDT::SHORT::ChoCh::1787375700000",
@@ -7667,12 +7670,15 @@
   "rr": 1.11,
   "lev": 4,
   "signalTime": 1787379300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787379331700,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787384700000
+  "fillTime": 1787384700000,
+  "R": -1,
+  "resolvedTime": 1787394600000
  },
  {
   "id": "PROMUSDT::LONG::ChoCh::1787379300000",
