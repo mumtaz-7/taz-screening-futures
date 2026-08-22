@@ -7,11 +7,11 @@
     "BIOUSDT::SHORT::BoS",
     "DASHUSDT::LONG::ChoCh",
     "FILUSDT::LONG::ChoCh",
+    "MUBARAKUSDT::LONG::ChoCh",
     "STRKUSDT::LONG::ChoCh",
     "TAOUSDT::LONG::ChoCh",
-    "TUTUSDT::LONG::BoS",
     "WIFUSDT::LONG::ChoCh",
     "XRPUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-22T18:30:41.751Z"
+  "at": "2026-08-22T18:45:33.989Z"
 }

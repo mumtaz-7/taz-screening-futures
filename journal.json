@@ -8154,9 +8154,12 @@
   "rr": 2.75,
   "lev": 16,
   "signalTime": 1787420700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787420732915,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787423400000
  },
  {
   "id": "ARUSDT::LONG::ChoCh::1787420700000",
@@ -8341,7 +8344,28 @@
   "rr": 2.01,
   "lev": 9,
   "signalTime": 1787423400000,
+  "status": "open",
+  "createdAt": 1787423441752,
+  "fillTime": 1787423400000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "MUBARAKUSDT::LONG::ChoCh::1787424300000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.025,
+  "sl": 0.022435000000000004,
+  "tp": 0.0297,
+  "tpSrc": "WH",
+  "slPct": 10.26,
+  "gainPct": 18.8,
+  "rr": 1.83,
+  "lev": 6,
+  "signalTime": 1787424300000,
   "status": "pending",
-  "createdAt": 1787423441752
+  "createdAt": 1787424333990
  }
 ]
