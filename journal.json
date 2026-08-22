@@ -7802,9 +7802,13 @@
   "rr": 1.47,
   "lev": 8,
   "signalTime": 1787398200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787398239646,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787403600000
  },
  {
   "id": "WLDUSDT::LONG::BoS::1787400900000",
@@ -7865,5 +7869,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BONKUSDT::LONG::ChoCh::1787404500000",
+  "symbol": "BONKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00000319,
+  "sl": 0.000003085,
+  "tp": 0.00000367,
+  "tpSrc": "WH",
+  "slPct": 3.29,
+  "gainPct": 15.05,
+  "rr": 4.57,
+  "lev": 18,
+  "signalTime": 1787404500000,
+  "status": "pending",
+  "createdAt": 1787404532833
  }
 ]
