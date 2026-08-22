@@ -1,7 +1,6 @@
 {
   "ready": [
     "ACEUSDT::SHORT::ChoCh",
-    "BOMEUSDT::LONG::ChoCh",
     "BONKUSDT::LONG::BoS",
     "GALAUSDT::LONG::ChoCh",
     "ORDIUSDT::LONG::BoS",
@@ -10,5 +9,5 @@
     "VIRTUALUSDT::LONG::ChoCh",
     "ZENUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-22T17:00:48.329Z"
+  "at": "2026-08-22T17:15:31.214Z"
 }
