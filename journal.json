@@ -8416,8 +8416,12 @@
   "rr": 2.82,
   "lev": 16,
   "signalTime": 1787433300000,
-  "status": "pending",
-  "createdAt": 1787433334157
+  "status": "open",
+  "createdAt": 1787433334157,
+  "fillTime": 1787433300000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "PNUTUSDT::SHORT::ChoCh::1787433300000",
@@ -8434,7 +8438,8 @@
   "lev": 7,
   "signalTime": 1787433300000,
   "status": "pending",
-  "createdAt": 1787433334157
+  "createdAt": 1787433334157,
+  "notified": []
  },
  {
   "id": "SCUSDT::LONG::ChoCh::1787433300000",
@@ -8450,7 +8455,28 @@
   "rr": 5.51,
   "lev": 9,
   "signalTime": 1787433300000,
+  "status": "open",
+  "createdAt": 1787433334157,
+  "fillTime": 1787433300000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "GIGGLEUSDT::LONG::BoS::1787434200000",
+  "symbol": "GIGGLEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 36.52,
+  "sl": 35.065,
+  "tp": 42.19,
+  "tpSrc": "WH",
+  "slPct": 3.98,
+  "gainPct": 15.53,
+  "rr": 3.9,
+  "lev": 15,
+  "signalTime": 1787434200000,
   "status": "pending",
-  "createdAt": 1787433334157
+  "createdAt": 1787434240346
  }
 ]

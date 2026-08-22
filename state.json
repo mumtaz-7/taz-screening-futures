@@ -3,9 +3,10 @@
     "BERAUSDT::SHORT::BoS",
     "BIOUSDT::SHORT::BoS",
     "GALAUSDT::LONG::BoS",
+    "GIGGLEUSDT::LONG::BoS",
     "GPSUSDT::SHORT::ChoCh",
     "PNUTUSDT::SHORT::ChoCh",
     "SCUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-22T21:15:34.154Z"
+  "at": "2026-08-22T21:30:40.345Z"
 }
