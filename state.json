@@ -1,9 +1,10 @@
 {
   "ready": [
     "ALLOUSDT::SHORT::ChoCh",
+    "BIOUSDT::SHORT::ChoCh",
+    "BROCCOLI714USDT::LONG::ChoCh",
     "GPSUSDT::SHORT::ChoCh",
-    "NEIROUSDT::SHORT::ChoCh",
     "ONGUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-08-22T05:30:38.280Z"
+  "at": "2026-08-22T05:45:33.104Z"
 }

@@ -7604,6 +7604,41 @@
   "lev": 14,
   "signalTime": 1787376600000,
   "status": "pending",
-  "createdAt": 1787376638280
+  "createdAt": 1787376638280,
+  "notified": []
+ },
+ {
+  "id": "BIOUSDT::SHORT::ChoCh::1787377500000",
+  "symbol": "BIOUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.03182,
+  "sl": 0.03540499999999999,
+  "tp": 0.027,
+  "tpSrc": "WL",
+  "slPct": 11.27,
+  "gainPct": 15.15,
+  "rr": 1.34,
+  "lev": 5,
+  "signalTime": 1787377500000,
+  "status": "pending",
+  "createdAt": 1787377533178
+ },
+ {
+  "id": "BROCCOLI714USDT::LONG::ChoCh::1787377500000",
+  "symbol": "BROCCOLI714USDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0183,
+  "sl": 0.017685,
+  "tp": 0.02054,
+  "tpSrc": "WH",
+  "slPct": 3.36,
+  "gainPct": 12.24,
+  "rr": 3.64,
+  "lev": 18,
+  "signalTime": 1787377500000,
+  "status": "pending",
+  "createdAt": 1787377533179
  }
 ]
