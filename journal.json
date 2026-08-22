@@ -8052,8 +8052,12 @@
   "rr": 2.05,
   "lev": 9,
   "signalTime": 1787417100000,
-  "status": "pending",
-  "createdAt": 1787417132816
+  "status": "open",
+  "createdAt": 1787417132816,
+  "fillTime": 1787417100000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "GALAUSDT::LONG::ChoCh::1787417100000",
@@ -8069,8 +8073,12 @@
   "rr": 4.13,
   "lev": 15,
   "signalTime": 1787417100000,
-  "status": "pending",
-  "createdAt": 1787417132816
+  "status": "open",
+  "createdAt": 1787417132816,
+  "fillTime": 1787417100000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "PEPEUSDT::LONG::ChoCh::1787417100000",
@@ -8086,8 +8094,12 @@
   "rr": 2.04,
   "lev": 11,
   "signalTime": 1787417100000,
-  "status": "pending",
-  "createdAt": 1787417132816
+  "status": "open",
+  "createdAt": 1787417132816,
+  "fillTime": 1787417100000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "VIRTUALUSDT::LONG::ChoCh::1787417100000",
@@ -8104,6 +8116,7 @@
   "lev": 17,
   "signalTime": 1787417100000,
   "status": "pending",
-  "createdAt": 1787417132816
+  "createdAt": 1787417132816,
+  "notified": []
  }
 ]
