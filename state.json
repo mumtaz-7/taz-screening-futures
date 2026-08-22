@@ -1,6 +1,8 @@
 {
   "ready": [
-    "ROBOUSDT::LONG::ChoCh"
+    "ALLOUSDT::SHORT::ChoCh",
+    "GPSUSDT::SHORT::ChoCh",
+    "NEIROUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-08-22T05:00:44.554Z"
+  "at": "2026-08-22T05:15:32.023Z"
 }
