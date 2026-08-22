@@ -8374,5 +8374,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GALAUSDT::LONG::BoS::1787429700000",
+  "symbol": "GALAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.001987,
+  "sl": 0.001924,
+  "tp": 0.002281,
+  "tpSrc": "WH",
+  "slPct": 3.17,
+  "gainPct": 14.8,
+  "rr": 4.67,
+  "lev": 19,
+  "signalTime": 1787429700000,
+  "status": "pending",
+  "createdAt": 1787429731941
  }
 ]
