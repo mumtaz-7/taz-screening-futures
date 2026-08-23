@@ -8590,9 +8590,12 @@
   "rr": 5.42,
   "lev": 24,
   "signalTime": 1787445000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787445038684,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787448600000
  },
  {
   "id": "STRKUSDT::LONG::BoS::1787445000000",
