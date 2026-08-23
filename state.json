@@ -1,8 +1,9 @@
 {
   "ready": [
-    "BICOUSDT::SHORT::ChoCh",
+    "PEOPLEUSDT::SHORT::BoS",
     "SYNUSDT::LONG::ChoCh",
+    "TUTUSDT::LONG::BoS",
     "ZAMAUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-23T02:30:40.397Z"
+  "at": "2026-08-23T02:45:34.816Z"
 }

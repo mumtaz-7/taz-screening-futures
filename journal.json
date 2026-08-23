@@ -8792,7 +8792,8 @@
   "lev": 8,
   "signalTime": 1787452200000,
   "status": "pending",
-  "createdAt": 1787452240399
+  "createdAt": 1787452240399,
+  "notified": []
  },
  {
   "id": "SYNUSDT::LONG::ChoCh::1787452200000",
@@ -8809,6 +8810,41 @@
   "lev": 9,
   "signalTime": 1787452200000,
   "status": "pending",
-  "createdAt": 1787452240399
+  "createdAt": 1787452240399,
+  "notified": []
+ },
+ {
+  "id": "PEOPLEUSDT::SHORT::BoS::1787453100000",
+  "symbol": "PEOPLEUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.01037,
+  "sl": 0.011179999999999999,
+  "tp": 0.00804,
+  "tpSrc": "OB",
+  "slPct": 7.81,
+  "gainPct": 22.47,
+  "rr": 2.88,
+  "lev": 8,
+  "signalTime": 1787453100000,
+  "status": "pending",
+  "createdAt": 1787453134817
+ },
+ {
+  "id": "TUTUSDT::LONG::BoS::1787453100000",
+  "symbol": "TUTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.06312,
+  "sl": 0.054555000000000006,
+  "tp": 0.08038,
+  "tpSrc": "WH",
+  "slPct": 13.57,
+  "gainPct": 27.34,
+  "rr": 2.02,
+  "lev": 4,
+  "signalTime": 1787453100000,
+  "status": "pending",
+  "createdAt": 1787453134817
  }
 ]
