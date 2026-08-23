@@ -7863,12 +7863,15 @@
   "rr": 3.38,
   "lev": 13,
   "signalTime": 1787400900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787400934678,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787408100000
+  "fillTime": 1787408100000,
+  "R": -1,
+  "resolvedTime": 1787462100000
  },
  {
   "id": "SANDUSDT::LONG::BoS::1787401800000",
@@ -8551,12 +8554,15 @@
   "rr": 3.9,
   "lev": 15,
   "signalTime": 1787434200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787434240346,
   "fillTime": 1787434200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787462100000
  },
  {
   "id": "CHIPUSDT::LONG::ChoCh::1787439600000",
@@ -8956,5 +8962,22 @@
   "status": "pending",
   "createdAt": 1787461244404,
   "notified": []
+ },
+ {
+  "id": "GPSUSDT::SHORT::BoS::1787463000000",
+  "symbol": "GPSUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.01205,
+  "sl": 0.012514999999999998,
+  "tp": 0.01001,
+  "tpSrc": "OB",
+  "slPct": 3.86,
+  "gainPct": 16.93,
+  "rr": 4.39,
+  "lev": 15,
+  "signalTime": 1787463000000,
+  "status": "pending",
+  "createdAt": 1787463039012
  }
 ]
