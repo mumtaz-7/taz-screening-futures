@@ -8944,12 +8944,15 @@
   "rr": 3.55,
   "lev": 19,
   "signalTime": 1787460300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787460331059,
   "fillTime": 1787460300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787468400000
  },
  {
   "id": "BCHUSDT::SHORT::ChoCh::1787461200000",
