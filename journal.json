@@ -9190,9 +9190,12 @@
   "rr": 8.37,
   "lev": 19,
   "signalTime": 1787491800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787491838088,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787505300000
  },
  {
   "id": "TRUMPUSDT::LONG::ChoCh::1787491800000",
@@ -9292,7 +9295,11 @@
   "rr": 1.04,
   "lev": 9,
   "signalTime": 1787505300000,
-  "status": "pending",
-  "createdAt": 1787505331013
+  "status": "open",
+  "createdAt": 1787505331013,
+  "fillTime": 1787505300000,
+  "notified": [
+   "open"
+  ]
  }
 ]
