@@ -8608,9 +8608,12 @@
   "rr": 2.5,
   "lev": 13,
   "signalTime": 1787445000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787445038684,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787445900000
  },
  {
   "id": "XLMUSDT::LONG::ChoCh::1787445000000",
@@ -8648,6 +8651,75 @@
   "lev": 11,
   "signalTime": 1787445900000,
   "status": "pending",
-  "createdAt": 1787445932035
+  "createdAt": 1787445932035,
+  "notified": []
+ },
+ {
+  "id": "ADAUSDT::LONG::BoS::1787446800000",
+  "symbol": "ADAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.2276,
+  "sl": 0.22295,
+  "tp": 0.2584,
+  "tpSrc": "WH",
+  "slPct": 2.04,
+  "gainPct": 13.53,
+  "rr": 6.62,
+  "lev": 25,
+  "signalTime": 1787446800000,
+  "status": "pending",
+  "createdAt": 1787446844995
+ },
+ {
+  "id": "DASHUSDT::LONG::BoS::1787446800000",
+  "symbol": "DASHUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 41.75,
+  "sl": 39.875,
+  "tp": 47.55,
+  "tpSrc": "WH",
+  "slPct": 4.49,
+  "gainPct": 13.89,
+  "rr": 3.09,
+  "lev": 13,
+  "signalTime": 1787446800000,
+  "status": "pending",
+  "createdAt": 1787446844995
+ },
+ {
+  "id": "LUNCUSDT::LONG::ChoCh::1787446800000",
+  "symbol": "LUNCUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00005546,
+  "sl": 0.00005417,
+  "tp": 0.00006406,
+  "tpSrc": "WH",
+  "slPct": 2.33,
+  "gainPct": 15.51,
+  "rr": 6.67,
+  "lev": 25,
+  "signalTime": 1787446800000,
+  "status": "pending",
+  "createdAt": 1787446844995
+ },
+ {
+  "id": "PENGUUSDT::LONG::ChoCh::1787446800000",
+  "symbol": "PENGUUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.008528,
+  "sl": 0.008213000000000002,
+  "tp": 0.009459,
+  "tpSrc": "WH",
+  "slPct": 3.69,
+  "gainPct": 10.92,
+  "rr": 2.96,
+  "lev": 16,
+  "signalTime": 1787446800000,
+  "status": "pending",
+  "createdAt": 1787446844995
  }
 ]
