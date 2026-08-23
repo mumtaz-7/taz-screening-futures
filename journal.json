@@ -8776,5 +8776,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BICOUSDT::SHORT::ChoCh::1787452200000",
+  "symbol": "BICOUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.01948,
+  "sl": 0.020875,
+  "tp": 0.01749,
+  "tpSrc": "OB",
+  "slPct": 7.16,
+  "gainPct": 10.22,
+  "rr": 1.43,
+  "lev": 8,
+  "signalTime": 1787452200000,
+  "status": "pending",
+  "createdAt": 1787452240399
+ },
+ {
+  "id": "SYNUSDT::LONG::ChoCh::1787452200000",
+  "symbol": "SYNUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.11301,
+  "sl": 0.105435,
+  "tp": 0.12434,
+  "tpSrc": "WH",
+  "slPct": 6.7,
+  "gainPct": 10.03,
+  "rr": 1.5,
+  "lev": 9,
+  "signalTime": 1787452200000,
+  "status": "pending",
+  "createdAt": 1787452240399
  }
 ]
