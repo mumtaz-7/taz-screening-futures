@@ -9160,8 +9160,11 @@
   "rr": 8.02,
   "lev": 25,
   "signalTime": 1787484600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787484637779,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787487300000
  }
 ]
