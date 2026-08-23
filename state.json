@@ -2,7 +2,9 @@
   "ready": [
     "ICPUSDT::LONG::ChoCh",
     "ONDOUSDT::LONG::BoS",
+    "SCUSDT::LONG::BoS",
+    "XLMUSDT::LONG::ChoCh",
     "XRPUSDT::LONG::BoS"
   ],
-  "at": "2026-08-23T21:15:31.705Z"
+  "at": "2026-08-23T21:30:38.322Z"
 }
