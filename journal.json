@@ -9361,5 +9361,22 @@
   "status": "pending",
   "createdAt": 1787512532169,
   "notified": []
+ },
+ {
+  "id": "ONTUSDT::SHORT::BoS::1787517000000",
+  "symbol": "ONTUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.04853,
+  "sl": 0.049354999999999996,
+  "tp": 0.04252,
+  "tpSrc": "OB",
+  "slPct": 1.7,
+  "gainPct": 12.38,
+  "rr": 7.28,
+  "lev": 25,
+  "signalTime": 1787517000000,
+  "status": "pending",
+  "createdAt": 1787517037627
  }
 ]
