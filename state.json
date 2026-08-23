@@ -1,7 +1,8 @@
 {
   "ready": [
-    "COTIUSDT::LONG::ChoCh",
-    "MORPHOUSDT::SHORT::ChoCh"
+    "BCHUSDT::SHORT::ChoCh",
+    "BIOUSDT::SHORT::ChoCh",
+    "COTIUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-23T04:45:31.058Z"
+  "at": "2026-08-23T05:00:44.403Z"
 }

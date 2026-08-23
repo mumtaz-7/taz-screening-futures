@@ -6059,12 +6059,15 @@
   "rr": 10.4,
   "lev": 25,
   "signalTime": 1787139000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787139037311,
   "fillTime": 1787139000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787460300000
  },
  {
   "id": "GPSUSDT::SHORT::BoS::1787149800000",
@@ -8037,12 +8040,15 @@
   "rr": 4.8,
   "lev": 12,
   "signalTime": 1787416200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787416238338,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787432400000
+  "fillTime": 1787432400000,
+  "R": -1,
+  "resolvedTime": 1787460300000
  },
  {
   "id": "ZENUSDT::LONG::ChoCh::1787416200000",
@@ -8337,12 +8343,15 @@
   "rr": 2.31,
   "lev": 13,
   "signalTime": 1787421600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787421644658,
   "fillTime": 1787421600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787460300000
  },
  {
   "id": "TUTUSDT::LONG::BoS::1787421600000",
@@ -8920,7 +8929,28 @@
   "rr": 3.55,
   "lev": 19,
   "signalTime": 1787460300000,
+  "status": "open",
+  "createdAt": 1787460331059,
+  "fillTime": 1787460300000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "BCHUSDT::SHORT::ChoCh::1787461200000",
+  "symbol": "BCHUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 273.3,
+  "sl": 283.5,
+  "tp": 226.7,
+  "tpSrc": "OB",
+  "slPct": 3.73,
+  "gainPct": 17.05,
+  "rr": 4.57,
+  "lev": 16,
+  "signalTime": 1787461200000,
   "status": "pending",
-  "createdAt": 1787460331059
+  "createdAt": 1787461244404
  }
 ]
