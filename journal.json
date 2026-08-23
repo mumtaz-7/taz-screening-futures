@@ -8292,12 +8292,15 @@
   "rr": 1.8,
   "lev": 11,
   "signalTime": 1787421600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787421644658,
   "fillTime": 1787421600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787454000000
  },
  {
   "id": "TAOUSDT::LONG::ChoCh::1787421600000",
@@ -8617,12 +8620,15 @@
   "rr": 2.5,
   "lev": 13,
   "signalTime": 1787445000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787445038684,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787445900000
+  "fillTime": 1787445900000,
+  "R": -1,
+  "resolvedTime": 1787454000000
  },
  {
   "id": "XLMUSDT::LONG::ChoCh::1787445000000",
