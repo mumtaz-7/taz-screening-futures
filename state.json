@@ -2,15 +2,12 @@
   "ready": [
     "ACEUSDT::SHORT::BoS",
     "ADAUSDT::LONG::BoS",
-    "ALGOUSDT::LONG::ChoCh",
     "BOMEUSDT::LONG::ChoCh",
     "BONKUSDT::LONG::BoS",
     "DASHUSDT::LONG::BoS",
     "LUNCUSDT::LONG::ChoCh",
     "PENGUUSDT::LONG::ChoCh",
-    "STRKUSDT::LONG::BoS",
-    "XLMUSDT::LONG::ChoCh",
-    "XRPUSDT::LONG::ChoCh"
+    "ZAMAUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-23T01:45:30.595Z"
+  "at": "2026-08-23T02:00:43.991Z"
 }
