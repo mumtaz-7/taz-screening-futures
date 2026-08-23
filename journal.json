@@ -8650,9 +8650,12 @@
   "rr": 3.79,
   "lev": 11,
   "signalTime": 1787445900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787445932035,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787447700000
  },
  {
   "id": "ADAUSDT::LONG::BoS::1787446800000",
