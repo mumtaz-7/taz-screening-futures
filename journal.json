@@ -9445,5 +9445,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ETCUSDT::LONG::BoS::1787524200000",
+  "symbol": "ETCUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 7.98,
+  "sl": 7.755,
+  "tp": 9.1,
+  "tpSrc": "WH",
+  "slPct": 2.82,
+  "gainPct": 14.04,
+  "rr": 4.98,
+  "lev": 21,
+  "signalTime": 1787524200000,
+  "status": "pending",
+  "createdAt": 1787524241178
  }
 ]

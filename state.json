@@ -1,5 +1,6 @@
 {
   "ready": [
+    "ETCUSDT::LONG::BoS",
     "FILUSDT::LONG::BoS",
     "ICPUSDT::LONG::ChoCh",
     "ONDOUSDT::LONG::BoS",
@@ -7,5 +8,5 @@
     "XLMUSDT::LONG::ChoCh",
     "XRPUSDT::LONG::BoS"
   ],
-  "at": "2026-08-23T22:15:29.871Z"
+  "at": "2026-08-23T22:30:41.177Z"
 }
