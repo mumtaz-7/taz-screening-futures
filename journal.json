@@ -9055,5 +9055,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ASTERUSDT::LONG::BoS::1787476500000",
+  "symbol": "ASTERUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.659,
+  "sl": 0.6034999999999999,
+  "tp": 0.777,
+  "tpSrc": "WH",
+  "slPct": 8.42,
+  "gainPct": 17.91,
+  "rr": 2.13,
+  "lev": 7,
+  "signalTime": 1787476500000,
+  "status": "pending",
+  "createdAt": 1787476530946
  }
 ]

@@ -1,7 +1,8 @@
 {
   "ready": [
+    "ASTERUSDT::LONG::BoS",
     "FILUSDT::LONG::BoS",
     "SCUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-23T09:00:49.736Z"
+  "at": "2026-08-23T09:15:30.945Z"
 }
