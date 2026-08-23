@@ -9121,12 +9121,15 @@
   "rr": 4.72,
   "lev": 23,
   "signalTime": 1787481900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787481930656,
   "fillTime": 1787481900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787495400000
  },
  {
   "id": "TAOUSDT::LONG::BoS::1787481900000",
@@ -9202,9 +9205,12 @@
   "rr": 1.76,
   "lev": 9,
   "signalTime": 1787491800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787491838088,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787495400000
  },
  {
   "id": "APTUSDT::LONG::BoS::1787492700000",
@@ -9220,9 +9226,12 @@
   "rr": 1.14,
   "lev": 6,
   "signalTime": 1787492700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787492731175,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787495400000
  },
  {
   "id": "ETCUSDT::LONG::ChoCh::1787492700000",
@@ -9259,8 +9268,11 @@
   "rr": 2.5,
   "lev": 10,
   "signalTime": 1787493600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787493644795,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787495400000
  }
 ]
