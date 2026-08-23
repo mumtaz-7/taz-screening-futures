@@ -7899,12 +7899,15 @@
   "rr": 4.57,
   "lev": 18,
   "signalTime": 1787404500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787404532833,
   "fillTime": 1787404500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787455800000
  },
  {
   "id": "HEMIUSDT::LONG::ChoCh::1787407200000",
@@ -7962,12 +7965,15 @@
   "rr": 2.01,
   "lev": 11,
   "signalTime": 1787413500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787413531518,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787421600000
+  "fillTime": 1787421600000,
+  "R": -1,
+  "resolvedTime": 1787455800000
  },
  {
   "id": "ACEUSDT::SHORT::ChoCh::1787416200000",
@@ -8070,12 +8076,15 @@
   "rr": 2.05,
   "lev": 9,
   "signalTime": 1787417100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787417132816,
   "fillTime": 1787417100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787455800000
  },
  {
   "id": "GALAUSDT::LONG::ChoCh::1787417100000",
@@ -8178,12 +8187,15 @@
   "rr": 2.75,
   "lev": 16,
   "signalTime": 1787420700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787420732915,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787423400000
+  "fillTime": 1787423400000,
+  "R": -1,
+  "resolvedTime": 1787455800000
  },
  {
   "id": "ARUSDT::LONG::ChoCh::1787420700000",
@@ -8647,12 +8659,15 @@
   "rr": 5.13,
   "lev": 23,
   "signalTime": 1787445000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787445038684,
   "fillTime": 1787445000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787455800000
  },
  {
   "id": "ACEUSDT::SHORT::BoS::1787445900000",
@@ -8713,12 +8728,15 @@
   "rr": 3.09,
   "lev": 13,
   "signalTime": 1787446800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787446844995,
   "fillTime": 1787446800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787455800000
  },
  {
   "id": "LUNCUSDT::LONG::ChoCh::1787446800000",
@@ -8758,12 +8776,15 @@
   "rr": 2.96,
   "lev": 16,
   "signalTime": 1787446800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787446844995,
   "fillTime": 1787446800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787455800000
  },
  {
   "id": "ZAMAUSDT::LONG::ChoCh::1787450400000",
@@ -8779,12 +8800,15 @@
   "rr": 3.82,
   "lev": 21,
   "signalTime": 1787450400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787450443992,
   "fillTime": 1787450400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787455800000
  },
  {
   "id": "BICOUSDT::SHORT::ChoCh::1787452200000",
@@ -8818,9 +8842,12 @@
   "rr": 1.5,
   "lev": 9,
   "signalTime": 1787452200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787452240399,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787455800000
  },
  {
   "id": "PEOPLEUSDT::SHORT::BoS::1787453100000",

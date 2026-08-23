@@ -1,8 +1,9 @@
 {
   "ready": [
+    "COTIUSDT::LONG::ChoCh",
     "PEOPLEUSDT::SHORT::BoS",
     "SYNUSDT::LONG::ChoCh",
     "TUTUSDT::LONG::BoS"
   ],
-  "at": "2026-08-23T03:30:39.451Z"
+  "at": "2026-08-23T03:45:31.479Z"
 }
