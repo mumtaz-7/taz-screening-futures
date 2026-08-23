@@ -8139,12 +8139,15 @@
   "rr": 2.04,
   "lev": 11,
   "signalTime": 1787417100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787417132816,
   "fillTime": 1787417100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787466600000
  },
  {
   "id": "VIRTUALUSDT::LONG::ChoCh::1787417100000",
@@ -8983,5 +8986,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MUBARAKUSDT::LONG::ChoCh::1787467500000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.02403,
+  "sl": 0.02118,
+  "tp": 0.0297,
+  "tpSrc": "WH",
+  "slPct": 11.86,
+  "gainPct": 23.6,
+  "rr": 1.99,
+  "lev": 5,
+  "signalTime": 1787467500000,
+  "status": "pending",
+  "createdAt": 1787467533022
  }
 ]
