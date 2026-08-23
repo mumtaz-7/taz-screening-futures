@@ -8971,9 +8971,12 @@
   "rr": 4.57,
   "lev": 16,
   "signalTime": 1787461200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787461244404,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787481000000
  },
  {
   "id": "GPSUSDT::SHORT::BoS::1787463000000",
@@ -9094,7 +9097,45 @@
   "rr": 2.98,
   "lev": 11,
   "signalTime": 1787481000000,
+  "status": "open",
+  "createdAt": 1787481036842,
+  "fillTime": 1787481000000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ICPUSDT::LONG::BoS::1787481900000",
+  "symbol": "ICPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 2.424,
+  "sl": 2.3625,
+  "tp": 2.714,
+  "tpSrc": "WH",
+  "slPct": 2.54,
+  "gainPct": 11.96,
+  "rr": 4.72,
+  "lev": 23,
+  "signalTime": 1787481900000,
   "status": "pending",
-  "createdAt": 1787481036842
+  "createdAt": 1787481930656
+ },
+ {
+  "id": "TAOUSDT::LONG::BoS::1787481900000",
+  "symbol": "TAOUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 224.8,
+  "sl": 211.75,
+  "tp": 250.3,
+  "tpSrc": "WH",
+  "slPct": 5.81,
+  "gainPct": 11.34,
+  "rr": 1.95,
+  "lev": 10,
+  "signalTime": 1787481900000,
+  "status": "pending",
+  "createdAt": 1787481930656
  }
 ]
