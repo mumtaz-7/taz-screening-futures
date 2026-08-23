@@ -1,7 +1,10 @@
 {
   "ready": [
-    "CHIPUSDT::LONG::ChoCh",
-    "SCUSDT::LONG::BoS"
+    "ALGOUSDT::LONG::ChoCh",
+    "SCUSDT::LONG::BoS",
+    "STRKUSDT::LONG::BoS",
+    "XLMUSDT::LONG::ChoCh",
+    "XRPUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-23T00:15:33.400Z"
+  "at": "2026-08-23T00:30:38.684Z"
 }
