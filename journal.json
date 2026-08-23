@@ -9169,5 +9169,39 @@
    "open"
   ],
   "fillTime": 1787487300000
+ },
+ {
+  "id": "MUBARAKUSDT::LONG::BoS::1787491800000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.02367,
+  "sl": 0.022949999999999998,
+  "tp": 0.0297,
+  "tpSrc": "WH",
+  "slPct": 3.04,
+  "gainPct": 25.48,
+  "rr": 8.37,
+  "lev": 19,
+  "signalTime": 1787491800000,
+  "status": "pending",
+  "createdAt": 1787491838088
+ },
+ {
+  "id": "TRUMPUSDT::LONG::ChoCh::1787491800000",
+  "symbol": "TRUMPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 2.646,
+  "sl": 2.475,
+  "tp": 2.9465000000000003,
+  "tpSrc": "EQ",
+  "slPct": 6.46,
+  "gainPct": 11.36,
+  "rr": 1.76,
+  "lev": 9,
+  "signalTime": 1787491800000,
+  "status": "pending",
+  "createdAt": 1787491838088
  }
 ]
