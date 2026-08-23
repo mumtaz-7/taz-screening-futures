@@ -9013,5 +9013,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "FILUSDT::LONG::BoS::1787472900000",
+  "symbol": "FILUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.7442,
+  "sl": 0.73325,
+  "tp": 0.8595,
+  "tpSrc": "WH",
+  "slPct": 1.47,
+  "gainPct": 15.49,
+  "rr": 10.53,
+  "lev": 25,
+  "signalTime": 1787472900000,
+  "status": "pending",
+  "createdAt": 1787472930207
  }
 ]
