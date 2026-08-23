@@ -8591,7 +8591,8 @@
   "lev": 24,
   "signalTime": 1787445000000,
   "status": "pending",
-  "createdAt": 1787445038684
+  "createdAt": 1787445038684,
+  "notified": []
  },
  {
   "id": "STRKUSDT::LONG::BoS::1787445000000",
@@ -8608,7 +8609,8 @@
   "lev": 13,
   "signalTime": 1787445000000,
   "status": "pending",
-  "createdAt": 1787445038684
+  "createdAt": 1787445038684,
+  "notified": []
  },
  {
   "id": "XLMUSDT::LONG::ChoCh::1787445000000",
@@ -8624,7 +8626,28 @@
   "rr": 5.13,
   "lev": 23,
   "signalTime": 1787445000000,
+  "status": "open",
+  "createdAt": 1787445038684,
+  "fillTime": 1787445000000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ACEUSDT::SHORT::BoS::1787445900000",
+  "symbol": "ACEUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.2356,
+  "sl": 0.24819999999999998,
+  "tp": 0.1878,
+  "tpSrc": "OB",
+  "slPct": 5.35,
+  "gainPct": 20.29,
+  "rr": 3.79,
+  "lev": 11,
+  "signalTime": 1787445900000,
   "status": "pending",
-  "createdAt": 1787445038684
+  "createdAt": 1787445932035
  }
 ]
