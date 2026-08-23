@@ -9145,5 +9145,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CHIPUSDT::LONG::BoS::1787484600000",
+  "symbol": "CHIPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.03004,
+  "sl": 0.029455,
+  "tp": 0.03473,
+  "tpSrc": "WH",
+  "slPct": 1.95,
+  "gainPct": 15.61,
+  "rr": 8.02,
+  "lev": 25,
+  "signalTime": 1787484600000,
+  "status": "pending",
+  "createdAt": 1787484637779
  }
 ]

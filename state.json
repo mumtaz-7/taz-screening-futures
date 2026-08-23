@@ -1,9 +1,10 @@
 {
   "ready": [
+    "CHIPUSDT::LONG::BoS",
     "GALAUSDT::LONG::ChoCh",
     "ICPUSDT::LONG::BoS",
     "SCUSDT::LONG::BoS",
     "TAOUSDT::LONG::BoS"
   ],
-  "at": "2026-08-23T11:15:30.114Z"
+  "at": "2026-08-23T11:30:37.778Z"
 }
