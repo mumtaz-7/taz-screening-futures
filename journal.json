@@ -8268,12 +8268,15 @@
   "rr": 2.16,
   "lev": 12,
   "signalTime": 1787421600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787421644658,
   "fillTime": 1787421600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787450400000
  },
  {
   "id": "STRKUSDT::LONG::ChoCh::1787421600000",
@@ -8677,12 +8680,15 @@
   "rr": 6.62,
   "lev": 25,
   "signalTime": 1787446800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787446844995,
   "fillTime": 1787446800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787450400000
  },
  {
   "id": "DASHUSDT::LONG::BoS::1787446800000",
@@ -8719,12 +8725,15 @@
   "rr": 6.67,
   "lev": 25,
   "signalTime": 1787446800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787446844995,
   "fillTime": 1787446800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787450400000
  },
  {
   "id": "PENGUUSDT::LONG::ChoCh::1787446800000",
@@ -8761,7 +8770,11 @@
   "rr": 3.82,
   "lev": 21,
   "signalTime": 1787450400000,
-  "status": "pending",
-  "createdAt": 1787450443992
+  "status": "open",
+  "createdAt": 1787450443992,
+  "fillTime": 1787450400000,
+  "notified": [
+   "open"
+  ]
  }
 ]
