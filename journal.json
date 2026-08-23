@@ -8929,12 +8929,15 @@
   "rr": 2.02,
   "lev": 4,
   "signalTime": 1787453100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787453134817,
   "fillTime": 1787453100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787502600000
  },
  {
   "id": "MORPHOUSDT::SHORT::ChoCh::1787460300000",
