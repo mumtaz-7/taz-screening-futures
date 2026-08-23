@@ -8827,8 +8827,12 @@
   "rr": 2.88,
   "lev": 8,
   "signalTime": 1787453100000,
-  "status": "pending",
-  "createdAt": 1787453134817
+  "status": "open",
+  "createdAt": 1787453134817,
+  "fillTime": 1787453100000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "TUTUSDT::LONG::BoS::1787453100000",
@@ -8844,7 +8848,11 @@
   "rr": 2.02,
   "lev": 4,
   "signalTime": 1787453100000,
-  "status": "pending",
-  "createdAt": 1787453134817
+  "status": "open",
+  "createdAt": 1787453134817,
+  "fillTime": 1787453100000,
+  "notified": [
+   "open"
+  ]
  }
 ]
