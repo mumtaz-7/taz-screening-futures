@@ -9185,7 +9185,8 @@
   "lev": 19,
   "signalTime": 1787491800000,
   "status": "pending",
-  "createdAt": 1787491838088
+  "createdAt": 1787491838088,
+  "notified": []
  },
  {
   "id": "TRUMPUSDT::LONG::ChoCh::1787491800000",
@@ -9202,6 +9203,41 @@
   "lev": 9,
   "signalTime": 1787491800000,
   "status": "pending",
-  "createdAt": 1787491838088
+  "createdAt": 1787491838088,
+  "notified": []
+ },
+ {
+  "id": "APTUSDT::LONG::BoS::1787492700000",
+  "symbol": "APTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.642,
+  "sl": 0.579,
+  "tp": 0.714,
+  "tpSrc": "WH",
+  "slPct": 9.81,
+  "gainPct": 11.21,
+  "rr": 1.14,
+  "lev": 6,
+  "signalTime": 1787492700000,
+  "status": "pending",
+  "createdAt": 1787492731175
+ },
+ {
+  "id": "ETCUSDT::LONG::ChoCh::1787492700000",
+  "symbol": "ETCUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 7.91,
+  "sl": 7.73,
+  "tp": 9.1,
+  "tpSrc": "WH",
+  "slPct": 2.28,
+  "gainPct": 15.04,
+  "rr": 6.61,
+  "lev": 25,
+  "signalTime": 1787492700000,
+  "status": "pending",
+  "createdAt": 1787492731175
  }
 ]
