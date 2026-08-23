@@ -8860,9 +8860,12 @@
   "rr": 1.43,
   "lev": 8,
   "signalTime": 1787452200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787452240399,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "SYNUSDT::LONG::ChoCh::1787452200000",
@@ -9031,5 +9034,22 @@
   "status": "pending",
   "createdAt": 1787472930207,
   "notified": []
+ },
+ {
+  "id": "SCUSDT::LONG::ChoCh::1787474700000",
+  "symbol": "SCUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.000655,
+  "sl": 0.0006250000000000001,
+  "tp": 0.000935,
+  "tpSrc": "WH",
+  "slPct": 4.58,
+  "gainPct": 42.75,
+  "rr": 9.33,
+  "lev": 13,
+  "signalTime": 1787474700000,
+  "status": "pending",
+  "createdAt": 1787474732469
  }
 ]
