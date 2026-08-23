@@ -9277,5 +9277,22 @@
    "open"
   ],
   "fillTime": 1787495400000
+ },
+ {
+  "id": "OGUSDT::LONG::ChoCh::1787505300000",
+  "symbol": "OGUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 3.01,
+  "sl": 2.806,
+  "tp": 3.222,
+  "tpSrc": "WH",
+  "slPct": 6.78,
+  "gainPct": 7.04,
+  "rr": 1.04,
+  "lev": 9,
+  "signalTime": 1787505300000,
+  "status": "pending",
+  "createdAt": 1787505331013
  }
 ]
