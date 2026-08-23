@@ -7938,12 +7938,15 @@
   "rr": 2.03,
   "lev": 5,
   "signalTime": 1787407200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787407245882,
   "fillTime": 1787407200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787527800000
  },
  {
   "id": "BIOUSDT::SHORT::BoS::1787410800000",
