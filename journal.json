@@ -7787,12 +7787,15 @@
   "rr": 2.66,
   "lev": 14,
   "signalTime": 1787392800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787392846015,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787400000000
+  "fillTime": 1787400000000,
+  "R": -1,
+  "resolvedTime": 1787457600000
  },
  {
   "id": "TUTUSDT::LONG::ChoCh::1787398200000",
@@ -8145,12 +8148,15 @@
   "rr": 3.37,
   "lev": 17,
   "signalTime": 1787417100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787417132816,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787425200000
+  "fillTime": 1787425200000,
+  "R": -1,
+  "resolvedTime": 1787457600000
  },
  {
   "id": "DASHUSDT::LONG::ChoCh::1787419800000",
@@ -8259,12 +8265,15 @@
   "rr": 2.94,
   "lev": 13,
   "signalTime": 1787421600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787421644658,
   "fillTime": 1787421600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787457600000
  },
  {
   "id": "APTUSDT::LONG::ChoCh::1787421600000",
