@@ -9301,5 +9301,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CRVUSDT::SHORT::BoS::1787508900000",
+  "symbol": "CRVUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.329,
+  "sl": 0.3548,
+  "tp": 0.2862,
+  "tpSrc": "OB",
+  "slPct": 7.84,
+  "gainPct": 13.01,
+  "rr": 1.66,
+  "lev": 8,
+  "signalTime": 1787508900000,
+  "status": "pending",
+  "createdAt": 1787508935762
+ },
+ {
+  "id": "XRPUSDT::LONG::BoS::1787508900000",
+  "symbol": "XRPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1.512,
+  "sl": 1.48545,
+  "tp": 1.6999,
+  "tpSrc": "WH",
+  "slPct": 1.76,
+  "gainPct": 12.43,
+  "rr": 7.08,
+  "lev": 25,
+  "signalTime": 1787508900000,
+  "status": "pending",
+  "createdAt": 1787508935762
  }
 ]

@@ -1,6 +1,7 @@
 {
   "ready": [
-    "OGUSDT::LONG::ChoCh"
+    "CRVUSDT::SHORT::BoS",
+    "XRPUSDT::LONG::BoS"
   ],
-  "at": "2026-08-23T18:00:42.517Z"
+  "at": "2026-08-23T18:15:35.761Z"
 }
