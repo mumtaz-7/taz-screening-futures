@@ -9079,5 +9079,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GALAUSDT::LONG::ChoCh::1787481000000",
+  "symbol": "GALAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.001959,
+  "sl": 0.0018510000000000002,
+  "tp": 0.002281,
+  "tpSrc": "WH",
+  "slPct": 5.51,
+  "gainPct": 16.44,
+  "rr": 2.98,
+  "lev": 11,
+  "signalTime": 1787481000000,
+  "status": "pending",
+  "createdAt": 1787481036842
  }
 ]
