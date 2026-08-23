@@ -7661,12 +7661,15 @@
   "rr": 3.64,
   "lev": 18,
   "signalTime": 1787377500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787377533179,
   "fillTime": 1787377500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787461200000
  },
  {
   "id": "ACEUSDT::SHORT::ChoCh::1787379300000",
@@ -8951,6 +8954,7 @@
   "lev": 16,
   "signalTime": 1787461200000,
   "status": "pending",
-  "createdAt": 1787461244404
+  "createdAt": 1787461244404,
+  "notified": []
  }
 ]
