@@ -8716,12 +8716,15 @@
   "rr": 3.79,
   "lev": 11,
   "signalTime": 1787445900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787445932035,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787447700000
+  "fillTime": 1787447700000,
+  "R": -1,
+  "resolvedTime": 1787467500000
  },
  {
   "id": "ADAUSDT::LONG::BoS::1787446800000",
@@ -9001,7 +9004,11 @@
   "rr": 1.99,
   "lev": 5,
   "signalTime": 1787467500000,
-  "status": "pending",
-  "createdAt": 1787467533022
+  "status": "open",
+  "createdAt": 1787467533022,
+  "fillTime": 1787467500000,
+  "notified": [
+   "open"
+  ]
  }
 ]
