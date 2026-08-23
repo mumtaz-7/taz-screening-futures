@@ -9221,7 +9221,8 @@
   "lev": 6,
   "signalTime": 1787492700000,
   "status": "pending",
-  "createdAt": 1787492731175
+  "createdAt": 1787492731175,
+  "notified": []
  },
  {
   "id": "ETCUSDT::LONG::ChoCh::1787492700000",
@@ -9237,7 +9238,28 @@
   "rr": 6.61,
   "lev": 25,
   "signalTime": 1787492700000,
+  "status": "open",
+  "createdAt": 1787492731175,
+  "fillTime": 1787492700000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ZAMAUSDT::LONG::BoS::1787493600000",
+  "symbol": "ZAMAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.05447,
+  "sl": 0.051155000000000006,
+  "tp": 0.06275,
+  "tpSrc": "OB",
+  "slPct": 6.09,
+  "gainPct": 15.2,
+  "rr": 2.5,
+  "lev": 10,
+  "signalTime": 1787493600000,
   "status": "pending",
-  "createdAt": 1787492731175
+  "createdAt": 1787493644795
  }
 ]
