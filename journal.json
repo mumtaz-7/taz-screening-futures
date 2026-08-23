@@ -9031,9 +9031,12 @@
   "rr": 10.53,
   "lev": 25,
   "signalTime": 1787472900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787472930207,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787477400000
  },
  {
   "id": "SCUSDT::LONG::ChoCh::1787474700000",
