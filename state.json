@@ -1,6 +1,7 @@
 {
   "ready": [
-    "COTIUSDT::LONG::ChoCh"
+    "COTIUSDT::LONG::ChoCh",
+    "MORPHOUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-08-23T04:30:38.491Z"
+  "at": "2026-08-23T04:45:31.058Z"
 }

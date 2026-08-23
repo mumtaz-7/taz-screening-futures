@@ -8905,5 +8905,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MORPHOUSDT::SHORT::ChoCh::1787460300000",
+  "symbol": "MORPHOUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 2.274,
+  "sl": 2.343,
+  "tp": 2.029,
+  "tpSrc": "OB",
+  "slPct": 3.03,
+  "gainPct": 10.77,
+  "rr": 3.55,
+  "lev": 19,
+  "signalTime": 1787460300000,
+  "status": "pending",
+  "createdAt": 1787460331059
  }
 ]
