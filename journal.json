@@ -8668,8 +8668,12 @@
   "rr": 6.62,
   "lev": 25,
   "signalTime": 1787446800000,
-  "status": "pending",
-  "createdAt": 1787446844995
+  "status": "open",
+  "createdAt": 1787446844995,
+  "fillTime": 1787446800000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "DASHUSDT::LONG::BoS::1787446800000",
@@ -8685,8 +8689,12 @@
   "rr": 3.09,
   "lev": 13,
   "signalTime": 1787446800000,
-  "status": "pending",
-  "createdAt": 1787446844995
+  "status": "open",
+  "createdAt": 1787446844995,
+  "fillTime": 1787446800000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "LUNCUSDT::LONG::ChoCh::1787446800000",
@@ -8702,8 +8710,12 @@
   "rr": 6.67,
   "lev": 25,
   "signalTime": 1787446800000,
-  "status": "pending",
-  "createdAt": 1787446844995
+  "status": "open",
+  "createdAt": 1787446844995,
+  "fillTime": 1787446800000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "PENGUUSDT::LONG::ChoCh::1787446800000",
@@ -8719,7 +8731,11 @@
   "rr": 2.96,
   "lev": 16,
   "signalTime": 1787446800000,
-  "status": "pending",
-  "createdAt": 1787446844995
+  "status": "open",
+  "createdAt": 1787446844995,
+  "fillTime": 1787446800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
