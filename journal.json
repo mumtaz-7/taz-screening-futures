@@ -9418,9 +9418,12 @@
   "rr": 4.02,
   "lev": 23,
   "signalTime": 1787519700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787519731706,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787522400000
  },
  {
   "id": "XLMUSDT::LONG::ChoCh::1787520600000",
