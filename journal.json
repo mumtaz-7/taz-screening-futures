@@ -8464,9 +8464,12 @@
   "rr": 1.22,
   "lev": 7,
   "signalTime": 1787433300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787433334157,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787443200000
  },
  {
   "id": "SCUSDT::LONG::ChoCh::1787433300000",
@@ -8551,5 +8554,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SCUSDT::LONG::BoS::1787444100000",
+  "symbol": "SCUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00075,
+  "sl": 0.000603,
+  "tp": 0.000935,
+  "tpSrc": "WH",
+  "slPct": 19.6,
+  "gainPct": 24.67,
+  "rr": 1.26,
+  "lev": 3,
+  "signalTime": 1787444100000,
+  "status": "pending",
+  "createdAt": 1787444133401
  }
 ]
