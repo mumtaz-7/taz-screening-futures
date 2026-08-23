@@ -9118,8 +9118,12 @@
   "rr": 4.72,
   "lev": 23,
   "signalTime": 1787481900000,
-  "status": "pending",
-  "createdAt": 1787481930656
+  "status": "open",
+  "createdAt": 1787481930656,
+  "fillTime": 1787481900000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "TAOUSDT::LONG::BoS::1787481900000",
@@ -9135,7 +9139,11 @@
   "rr": 1.95,
   "lev": 10,
   "signalTime": 1787481900000,
-  "status": "pending",
-  "createdAt": 1787481930656
+  "status": "open",
+  "createdAt": 1787481930656,
+  "fillTime": 1787481900000,
+  "notified": [
+   "open"
+  ]
  }
 ]
