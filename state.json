@@ -1,6 +1,8 @@
 {
   "ready": [
-    "ONTUSDT::SHORT::BoS"
+    "ICPUSDT::LONG::ChoCh",
+    "ONDOUSDT::LONG::BoS",
+    "XRPUSDT::LONG::BoS"
   ],
-  "at": "2026-08-23T21:00:43.617Z"
+  "at": "2026-08-23T21:15:31.705Z"
 }

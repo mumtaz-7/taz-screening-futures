@@ -9376,8 +9376,45 @@
   "rr": 7.28,
   "lev": 25,
   "signalTime": 1787517000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787517037627,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787518800000
+ },
+ {
+  "id": "ICPUSDT::LONG::ChoCh::1787519700000",
+  "symbol": "ICPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 2.448,
+  "sl": 2.391,
+  "tp": 2.714,
+  "tpSrc": "WH",
+  "slPct": 2.33,
+  "gainPct": 10.87,
+  "rr": 4.67,
+  "lev": 25,
+  "signalTime": 1787519700000,
+  "status": "pending",
+  "createdAt": 1787519731706
+ },
+ {
+  "id": "ONDOUSDT::LONG::BoS::1787519700000",
+  "symbol": "ONDOUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.3847,
+  "sl": 0.37510000000000004,
+  "tp": 0.4233,
+  "tpSrc": "OB",
+  "slPct": 2.5,
+  "gainPct": 10.03,
+  "rr": 4.02,
+  "lev": 23,
+  "signalTime": 1787519700000,
+  "status": "pending",
+  "createdAt": 1787519731706
  }
 ]
