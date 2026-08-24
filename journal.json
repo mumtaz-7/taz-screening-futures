@@ -10135,9 +10135,12 @@
   "rr": 2.92,
   "lev": 14,
   "signalTime": 1787608800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787608846712,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787612400000
  },
  {
   "id": "EIGENUSDT::SHORT::BoS::1787610600000",
@@ -10175,6 +10178,24 @@
   "lev": 7,
   "signalTime": 1787612400000,
   "status": "pending",
-  "createdAt": 1787612446897
+  "createdAt": 1787612446897,
+  "notified": []
+ },
+ {
+  "id": "TRUMPUSDT::SHORT::BoS::1787613300000",
+  "symbol": "TRUMPUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 2.392,
+  "sl": 2.5045,
+  "tp": 1.771,
+  "tpSrc": "OB",
+  "slPct": 4.7,
+  "gainPct": 25.96,
+  "rr": 5.52,
+  "lev": 13,
+  "signalTime": 1787613300000,
+  "status": "pending",
+  "createdAt": 1787613333236
  }
 ]

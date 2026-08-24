@@ -1,8 +1,8 @@
 {
   "ready": [
     "COTIUSDT::LONG::BoS",
-    "EIGENUSDT::SHORT::BoS",
-    "STORJUSDT::LONG::BoS"
+    "STORJUSDT::LONG::BoS",
+    "TRUMPUSDT::SHORT::BoS"
   ],
-  "at": "2026-08-24T23:00:46.896Z"
+  "at": "2026-08-24T23:15:33.235Z"
 }
