@@ -9379,12 +9379,15 @@
   "rr": 7.28,
   "lev": 25,
   "signalTime": 1787517000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787517037627,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787518800000
+  "fillTime": 1787518800000,
+  "R": -1,
+  "resolvedTime": 1787529600000
  },
  {
   "id": "ICPUSDT::LONG::ChoCh::1787519700000",
