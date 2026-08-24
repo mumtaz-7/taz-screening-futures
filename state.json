@@ -1,8 +1,7 @@
 {
   "ready": [
     "BCHUSDT::SHORT::ChoCh",
-    "PORTALUSDT::LONG::ChoCh",
-    "TIAUSDT::SHORT::BoS"
+    "PORTALUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-24T01:45:30.571Z"
+  "at": "2026-08-24T02:00:43.878Z"
 }
