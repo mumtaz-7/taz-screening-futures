@@ -9364,9 +9364,12 @@
   "rr": 6.67,
   "lev": 15,
   "signalTime": 1787512500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787512532169,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ONTUSDT::SHORT::BoS::1787517000000",
@@ -9478,12 +9481,15 @@
   "rr": 4.98,
   "lev": 21,
   "signalTime": 1787524200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787524241178,
   "fillTime": 1787524200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787534100000
  },
  {
   "id": "TIAUSDT::SHORT::BoS::1787531400000",
