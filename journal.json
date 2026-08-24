@@ -10054,5 +10054,22 @@
   "status": "pending",
   "createdAt": 1787595334663,
   "notified": []
+ },
+ {
+  "id": "PENGUUSDT::LONG::BoS::1787604300000",
+  "symbol": "PENGUUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.009544,
+  "sl": 0.009238,
+  "tp": 0.01035,
+  "tpSrc": "WH",
+  "slPct": 3.21,
+  "gainPct": 8.45,
+  "rr": 2.63,
+  "lev": 18,
+  "signalTime": 1787604300000,
+  "status": "pending",
+  "createdAt": 1787604335878
  }
 ]
