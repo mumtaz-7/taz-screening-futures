@@ -1,8 +1,4 @@
 {
-  "ready": [
-    "AMPUSDT::LONG::BoS",
-    "BCHUSDT::SHORT::ChoCh",
-    "XRPUSDT::SHORT::ChoCh"
-  ],
-  "at": "2026-08-24T18:45:32.870Z"
+  "ready": [],
+  "at": "2026-08-24T19:00:43.044Z"
 }
