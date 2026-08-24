@@ -1,6 +1,7 @@
 {
   "ready": [
-    "HEMIUSDT::SHORT::ChoCh"
+    "BCHUSDT::SHORT::ChoCh",
+    "XRPUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-08-24T17:15:36.902Z"
+  "at": "2026-08-24T17:30:39.473Z"
 }
