@@ -9690,5 +9690,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "STORJUSDT::LONG::BoS::1787553000000",
+  "symbol": "STORJUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0432,
+  "sl": 0.04095,
+  "tp": 0.0519,
+  "tpSrc": "WH",
+  "slPct": 5.21,
+  "gainPct": 20.14,
+  "rr": 3.87,
+  "lev": 12,
+  "signalTime": 1787553000000,
+  "status": "pending",
+  "createdAt": 1787553039089
  }
 ]
