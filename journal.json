@@ -9813,5 +9813,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "RENDERUSDT::LONG::BoS::1787565600000",
+  "symbol": "RENDERUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1.485,
+  "sl": 1.4415,
+  "tp": 1.637,
+  "tpSrc": "WH",
+  "slPct": 2.93,
+  "gainPct": 10.24,
+  "rr": 3.49,
+  "lev": 20,
+  "signalTime": 1787565600000,
+  "status": "pending",
+  "createdAt": 1787565647621
  }
 ]
