@@ -9888,12 +9888,15 @@
   "rr": 2.92,
   "lev": 15,
   "signalTime": 1787570100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787570132466,
   "fillTime": 1787570100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787611500000
  },
  {
   "id": "TRUMPUSDT::LONG::ChoCh::1787576400000",
@@ -10156,5 +10159,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "STORJUSDT::LONG::BoS::1787612400000",
+  "symbol": "STORJUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0514,
+  "sl": 0.04675,
+  "tp": 0.0649,
+  "tpSrc": "WH",
+  "slPct": 9.05,
+  "gainPct": 26.26,
+  "rr": 2.9,
+  "lev": 7,
+  "signalTime": 1787612400000,
+  "status": "pending",
+  "createdAt": 1787612446897
  }
 ]
