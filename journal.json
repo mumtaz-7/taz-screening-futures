@@ -9768,8 +9768,45 @@
   "rr": 2.7,
   "lev": 15,
   "signalTime": 1787560200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787560240421,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787562000000
+ },
+ {
+  "id": "PENDLEUSDT::LONG::BoS::1787562900000",
+  "symbol": "PENDLEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1.796,
+  "sl": 1.76,
+  "tp": 1.983,
+  "tpSrc": "WH",
+  "slPct": 2,
+  "gainPct": 10.41,
+  "rr": 5.19,
+  "lev": 25,
+  "signalTime": 1787562900000,
+  "status": "pending",
+  "createdAt": 1787562933546
+ },
+ {
+  "id": "XPLUSDT::LONG::BoS::1787562900000",
+  "symbol": "XPLUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1012,
+  "sl": 0.094105,
+  "tp": 0.1125,
+  "tpSrc": "WH",
+  "slPct": 7.01,
+  "gainPct": 11.17,
+  "rr": 1.59,
+  "lev": 9,
+  "signalTime": 1787562900000,
+  "status": "pending",
+  "createdAt": 1787562933546
  }
 ]
