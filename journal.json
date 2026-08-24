@@ -9945,5 +9945,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "STORJUSDT::LONG::ChoCh::1787590800000",
+  "symbol": "STORJUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0499,
+  "sl": 0.0391,
+  "tp": 0.0624,
+  "tpSrc": "WH",
+  "slPct": 21.64,
+  "gainPct": 25.05,
+  "rr": 1.16,
+  "lev": 3,
+  "signalTime": 1787590800000,
+  "status": "pending",
+  "createdAt": 1787590844536
  }
 ]
