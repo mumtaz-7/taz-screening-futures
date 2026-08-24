@@ -9563,5 +9563,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1787542200000
+ },
+ {
+  "id": "ENAUSDT::LONG::ChoCh::1787544900000",
+  "symbol": "ENAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1662,
+  "sl": 0.15495000000000003,
+  "tp": 0.1835,
+  "tpSrc": "WH",
+  "slPct": 6.77,
+  "gainPct": 10.41,
+  "rr": 1.54,
+  "lev": 9,
+  "signalTime": 1787544900000,
+  "status": "pending",
+  "createdAt": 1787544931950
  }
 ]
