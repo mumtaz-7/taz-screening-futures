@@ -10132,5 +10132,22 @@
   "status": "pending",
   "createdAt": 1787608846712,
   "notified": []
+ },
+ {
+  "id": "EIGENUSDT::SHORT::BoS::1787610600000",
+  "symbol": "EIGENUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.2196,
+  "sl": 0.2277,
+  "tp": 0.19,
+  "tpSrc": "OB",
+  "slPct": 3.69,
+  "gainPct": 13.48,
+  "rr": 3.65,
+  "lev": 16,
+  "signalTime": 1787610600000,
+  "status": "pending",
+  "createdAt": 1787610638195
  }
 ]
