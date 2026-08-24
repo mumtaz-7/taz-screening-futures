@@ -9678,12 +9678,15 @@
   "rr": 3.49,
   "lev": 15,
   "signalTime": 1787549400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787549439669,
   "fillTime": 1787549400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787592600000
  },
  {
   "id": "HEMIUSDT::SHORT::BoS::1787551200000",
@@ -9840,12 +9843,15 @@
   "rr": 1.59,
   "lev": 9,
   "signalTime": 1787562900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787562933546,
   "fillTime": 1787562900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787592600000
  },
  {
   "id": "RENDERUSDT::LONG::BoS::1787565600000",
@@ -10007,7 +10013,8 @@
   "lev": 16,
   "signalTime": 1787592600000,
   "status": "pending",
-  "createdAt": 1787592639474
+  "createdAt": 1787592639474,
+  "notified": []
  },
  {
   "id": "XRPUSDT::SHORT::ChoCh::1787592600000",
@@ -10023,7 +10030,11 @@
   "rr": 2.21,
   "lev": 11,
   "signalTime": 1787592600000,
-  "status": "pending",
-  "createdAt": 1787592639474
+  "status": "open",
+  "createdAt": 1787592639474,
+  "fillTime": 1787592600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
