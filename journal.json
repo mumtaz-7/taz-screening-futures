@@ -10070,6 +10070,24 @@
   "lev": 18,
   "signalTime": 1787604300000,
   "status": "pending",
-  "createdAt": 1787604335878
+  "createdAt": 1787604335878,
+  "notified": []
+ },
+ {
+  "id": "PORTALUSDT::LONG::ChoCh::1787605200000",
+  "symbol": "PORTALUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01682,
+  "sl": 0.015815000000000003,
+  "tp": 0.01849,
+  "tpSrc": "WH",
+  "slPct": 5.98,
+  "gainPct": 9.93,
+  "rr": 1.66,
+  "lev": 10,
+  "signalTime": 1787605200000,
+  "status": "pending",
+  "createdAt": 1787605247375
  }
 ]
