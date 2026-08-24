@@ -9214,12 +9214,15 @@
   "rr": 1.76,
   "lev": 9,
   "signalTime": 1787491800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787491838088,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787495400000
+  "fillTime": 1787495400000,
+  "R": -1,
+  "resolvedTime": 1787535000000
  },
  {
   "id": "APTUSDT::LONG::BoS::1787492700000",
@@ -9256,12 +9259,15 @@
   "rr": 6.61,
   "lev": 25,
   "signalTime": 1787492700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787492731175,
   "fillTime": 1787492700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787535000000
  },
  {
   "id": "ZAMAUSDT::LONG::BoS::1787493600000",
