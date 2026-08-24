@@ -1,8 +1,8 @@
 {
   "ready": [
-    "RENDERUSDT::LONG::ChoCh",
+    "HEMIUSDT::SHORT::BoS",
     "REUSDT::LONG::BoS",
     "XPLUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-24T05:45:32.705Z"
+  "at": "2026-08-24T06:00:47.010Z"
 }
