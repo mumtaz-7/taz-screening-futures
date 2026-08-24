@@ -9960,7 +9960,29 @@
   "rr": 1.16,
   "lev": 3,
   "signalTime": 1787590800000,
+  "status": "void",
+  "createdAt": 1787590844536,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787590800000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "HEMIUSDT::SHORT::ChoCh::1787591700000",
+  "symbol": "HEMIUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.00882,
+  "sl": 0.00984,
+  "tp": 0.00693,
+  "tpSrc": "OB",
+  "slPct": 11.56,
+  "gainPct": 21.43,
+  "rr": 1.85,
+  "lev": 5,
+  "signalTime": 1787591700000,
   "status": "pending",
-  "createdAt": 1787590844536
+  "createdAt": 1787591736903
  }
 ]
