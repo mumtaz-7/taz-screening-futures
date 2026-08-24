@@ -1,8 +1,6 @@
 {
   "ready": [
-    "PENDLEUSDT::LONG::BoS",
-    "RENDERUSDT::LONG::BoS",
-    "XPLUSDT::LONG::BoS"
+    "RENDERUSDT::LONG::BoS"
   ],
-  "at": "2026-08-24T10:30:39.087Z"
+  "at": "2026-08-24T10:45:31.940Z"
 }
