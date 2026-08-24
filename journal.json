@@ -9708,9 +9708,12 @@
   "rr": 3.87,
   "lev": 12,
   "signalTime": 1787553000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787553039089,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787571900000
  },
  {
   "id": "BCHUSDT::SHORT::BoS::1787553900000",
