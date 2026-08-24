@@ -10111,9 +10111,12 @@
   "rr": 4.97,
   "lev": 25,
   "signalTime": 1787606100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787606131971,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787610600000
  },
  {
   "id": "COTIUSDT::LONG::BoS::1787608800000",
@@ -10147,7 +10150,11 @@
   "rr": 3.65,
   "lev": 16,
   "signalTime": 1787610600000,
-  "status": "pending",
-  "createdAt": 1787610638195
+  "status": "open",
+  "createdAt": 1787610638195,
+  "fillTime": 1787610600000,
+  "notified": [
+   "open"
+  ]
  }
 ]

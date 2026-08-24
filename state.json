@@ -1,8 +1,7 @@
 {
   "ready": [
     "COTIUSDT::LONG::BoS",
-    "EIGENUSDT::SHORT::BoS",
-    "LDOUSDT::LONG::ChoCh"
+    "EIGENUSDT::SHORT::BoS"
   ],
-  "at": "2026-08-24T22:30:38.172Z"
+  "at": "2026-08-24T22:45:31.865Z"
 }
