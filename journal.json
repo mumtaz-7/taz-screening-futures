@@ -9289,12 +9289,15 @@
   "rr": 2.5,
   "lev": 10,
   "signalTime": 1787493600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787493644795,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787495400000
+  "fillTime": 1787495400000,
+  "R": 2.5,
+  "resolvedTime": 1787584500000
  },
  {
   "id": "OGUSDT::LONG::ChoCh::1787505300000",
@@ -9912,5 +9915,22 @@
   "status": "pending",
   "createdAt": 1787581840602,
   "notified": []
+ },
+ {
+  "id": "STRKUSDT::LONG::ChoCh::1787585400000",
+  "symbol": "STRKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0277,
+  "sl": 0.026500000000000003,
+  "tp": 0.03016,
+  "tpSrc": "WH",
+  "slPct": 4.33,
+  "gainPct": 8.88,
+  "rr": 2.05,
+  "lev": 14,
+  "signalTime": 1787585400000,
+  "status": "pending",
+  "createdAt": 1787585439215
  }
 ]

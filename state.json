@@ -1,6 +1,8 @@
 {
   "ready": [
-    "PEPEUSDT::LONG::ChoCh"
+    "PENDLEUSDT::LONG::BoS",
+    "PEPEUSDT::LONG::ChoCh",
+    "STRKUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-24T15:15:37.761Z"
+  "at": "2026-08-24T15:30:39.214Z"
 }
