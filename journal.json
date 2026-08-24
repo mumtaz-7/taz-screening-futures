@@ -9578,7 +9578,45 @@
   "rr": 1.54,
   "lev": 9,
   "signalTime": 1787544900000,
+  "status": "open",
+  "createdAt": 1787544931950,
+  "fillTime": 1787544900000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "PROMUSDT::LONG::BoS::1787545800000",
+  "symbol": "PROMUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 2.924,
+  "sl": 2.7515,
+  "tp": 3.31,
+  "tpSrc": "WH",
+  "slPct": 5.9,
+  "gainPct": 13.2,
+  "rr": 2.24,
+  "lev": 10,
+  "signalTime": 1787545800000,
   "status": "pending",
-  "createdAt": 1787544931950
+  "createdAt": 1787545843059
+ },
+ {
+  "id": "RENDERUSDT::LONG::ChoCh::1787545800000",
+  "symbol": "RENDERUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1.488,
+  "sl": 1.4489999999999998,
+  "tp": 1.637,
+  "tpSrc": "WH",
+  "slPct": 2.62,
+  "gainPct": 10.01,
+  "rr": 3.82,
+  "lev": 22,
+  "signalTime": 1787545800000,
+  "status": "pending",
+  "createdAt": 1787545843059
  }
 ]
