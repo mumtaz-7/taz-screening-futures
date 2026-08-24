@@ -9834,5 +9834,22 @@
    "open"
   ],
   "fillTime": 1787567400000
+ },
+ {
+  "id": "CRVUSDT::SHORT::ChoCh::1787570100000",
+  "symbol": "CRVUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.3243,
+  "sl": 0.33735000000000004,
+  "tp": 0.2862,
+  "tpSrc": "OB",
+  "slPct": 4.02,
+  "gainPct": 11.75,
+  "rr": 2.92,
+  "lev": 15,
+  "signalTime": 1787570100000,
+  "status": "pending",
+  "createdAt": 1787570132466
  }
 ]
