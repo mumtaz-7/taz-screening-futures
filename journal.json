@@ -8980,12 +8980,15 @@
   "rr": 4.57,
   "lev": 16,
   "signalTime": 1787461200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787461244404,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787481000000
+  "fillTime": 1787481000000,
+  "R": -1,
+  "resolvedTime": 1787575500000
  },
  {
   "id": "GPSUSDT::SHORT::BoS::1787463000000",
@@ -9864,5 +9867,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "TRUMPUSDT::LONG::ChoCh::1787576400000",
+  "symbol": "TRUMPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 2.543,
+  "sl": 2.3015,
+  "tp": 2.937,
+  "tpSrc": "WH",
+  "slPct": 9.5,
+  "gainPct": 15.49,
+  "rr": 1.63,
+  "lev": 6,
+  "signalTime": 1787576400000,
+  "status": "pending",
+  "createdAt": 1787576445714
  }
 ]
