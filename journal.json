@@ -9532,12 +9532,15 @@
   "rr": 3.08,
   "lev": 13,
   "signalTime": 1787533200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787533243593,
   "fillTime": 1787533200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.08,
+  "resolvedTime": 1787543100000
  },
  {
   "id": "PROMUSDT::LONG::BoS::1787541300000",
