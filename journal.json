@@ -9706,6 +9706,24 @@
   "lev": 12,
   "signalTime": 1787553000000,
   "status": "pending",
-  "createdAt": 1787553039089
+  "createdAt": 1787553039089,
+  "notified": []
+ },
+ {
+  "id": "BCHUSDT::SHORT::BoS::1787553900000",
+  "symbol": "BCHUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 268.8,
+  "sl": 275.25,
+  "tp": 226.7,
+  "tpSrc": "OB",
+  "slPct": 2.4,
+  "gainPct": 15.66,
+  "rr": 6.53,
+  "lev": 24,
+  "signalTime": 1787553900000,
+  "status": "pending",
+  "createdAt": 1787553932759
  }
 ]
