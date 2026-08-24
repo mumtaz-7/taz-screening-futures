@@ -1,8 +1,8 @@
 {
   "ready": [
     "ENAUSDT::LONG::ChoCh",
-    "PROMUSDT::LONG::BoS",
-    "RENDERUSDT::LONG::ChoCh"
+    "RENDERUSDT::LONG::ChoCh",
+    "REUSDT::LONG::BoS"
   ],
-  "at": "2026-08-24T04:30:43.058Z"
+  "at": "2026-08-24T04:45:32.398Z"
 }
