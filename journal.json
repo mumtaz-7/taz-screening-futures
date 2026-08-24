@@ -9894,5 +9894,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PEPEUSDT::LONG::ChoCh::1787581800000",
+  "symbol": "PEPEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00000408,
+  "sl": 0.000003915000000000001,
+  "tp": 0.00000442,
+  "tpSrc": "OB",
+  "slPct": 4.04,
+  "gainPct": 8.33,
+  "rr": 2.06,
+  "lev": 15,
+  "signalTime": 1787581800000,
+  "status": "pending",
+  "createdAt": 1787581840602
  }
 ]
