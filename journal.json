@@ -9403,12 +9403,15 @@
   "rr": 4.67,
   "lev": 25,
   "signalTime": 1787519700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787519731706,
   "fillTime": 1787519700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787530500000
  },
  {
   "id": "ONDOUSDT::LONG::BoS::1787519700000",
@@ -9424,12 +9427,15 @@
   "rr": 4.02,
   "lev": 23,
   "signalTime": 1787519700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787519731706,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787522400000
+  "fillTime": 1787522400000,
+  "R": -1,
+  "resolvedTime": 1787530500000
  },
  {
   "id": "XLMUSDT::LONG::ChoCh::1787520600000",
@@ -9472,5 +9478,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "TIAUSDT::SHORT::BoS::1787531400000",
+  "symbol": "TIAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.378,
+  "sl": 0.39194999999999997,
+  "tp": 0.3315,
+  "tpSrc": "OB",
+  "slPct": 3.69,
+  "gainPct": 12.3,
+  "rr": 3.33,
+  "lev": 16,
+  "signalTime": 1787531400000,
+  "status": "pending",
+  "createdAt": 1787531438711
  }
 ]
