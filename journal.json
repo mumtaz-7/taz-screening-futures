@@ -10012,9 +10012,12 @@
   "rr": 4.43,
   "lev": 16,
   "signalTime": 1787592600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787592639474,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787605200000
  },
  {
   "id": "XRPUSDT::SHORT::ChoCh::1787592600000",
@@ -10087,7 +10090,28 @@
   "rr": 1.66,
   "lev": 10,
   "signalTime": 1787605200000,
+  "status": "open",
+  "createdAt": 1787605247375,
+  "fillTime": 1787605200000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "LDOUSDT::LONG::ChoCh::1787606100000",
+  "symbol": "LDOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.3722,
+  "sl": 0.36395000000000005,
+  "tp": 0.4132,
+  "tpSrc": "WH",
+  "slPct": 2.22,
+  "gainPct": 11.02,
+  "rr": 4.97,
+  "lev": 25,
+  "signalTime": 1787606100000,
   "status": "pending",
-  "createdAt": 1787605247375
+  "createdAt": 1787606131971
  }
 ]
