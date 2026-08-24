@@ -9777,12 +9777,15 @@
   "rr": 2.7,
   "lev": 15,
   "signalTime": 1787560200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787560240421,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787562000000
+  "fillTime": 1787562000000,
+  "R": -1,
+  "resolvedTime": 1787576400000
  },
  {
   "id": "PENDLEUSDT::LONG::BoS::1787562900000",
@@ -9882,7 +9885,11 @@
   "rr": 1.63,
   "lev": 6,
   "signalTime": 1787576400000,
-  "status": "pending",
-  "createdAt": 1787576445714
+  "status": "open",
+  "createdAt": 1787576445714,
+  "fillTime": 1787576400000,
+  "notified": [
+   "open"
+  ]
  }
 ]
