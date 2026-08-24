@@ -9750,5 +9750,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "XRPUSDT::SHORT::ChoCh::1787560200000",
+  "symbol": "XRPUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 1.464,
+  "sl": 1.5229500000000002,
+  "tp": 1.3049,
+  "tpSrc": "OB",
+  "slPct": 4.03,
+  "gainPct": 10.87,
+  "rr": 2.7,
+  "lev": 15,
+  "signalTime": 1787560200000,
+  "status": "pending",
+  "createdAt": 1787560240421
  }
 ]
