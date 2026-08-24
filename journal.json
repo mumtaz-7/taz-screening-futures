@@ -9648,5 +9648,22 @@
    "open"
   ],
   "fillTime": 1787547600000
+ },
+ {
+  "id": "XPLUSDT::LONG::ChoCh::1787549400000",
+  "symbol": "XPLUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.09904,
+  "sl": 0.09518499999999999,
+  "tp": 0.1125,
+  "tpSrc": "WH",
+  "slPct": 3.89,
+  "gainPct": 13.59,
+  "rr": 3.49,
+  "lev": 15,
+  "signalTime": 1787549400000,
+  "status": "pending",
+  "createdAt": 1787549439669
  }
 ]
