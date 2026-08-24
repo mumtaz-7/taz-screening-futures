@@ -2,8 +2,7 @@
   "ready": [
     "BCHUSDT::SHORT::BoS",
     "HEMIUSDT::SHORT::BoS",
-    "STORJUSDT::LONG::BoS",
-    "XPLUSDT::LONG::ChoCh"
+    "STORJUSDT::LONG::BoS"
   ],
-  "at": "2026-08-24T06:45:32.759Z"
+  "at": "2026-08-24T07:00:45.805Z"
 }
