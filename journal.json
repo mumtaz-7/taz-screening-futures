@@ -9997,9 +9997,12 @@
   "rr": 1.85,
   "lev": 5,
   "signalTime": 1787591700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787591736903,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "BCHUSDT::SHORT::ChoCh::1787592600000",
@@ -10196,6 +10199,7 @@
   "lev": 13,
   "signalTime": 1787613300000,
   "status": "pending",
-  "createdAt": 1787613333236
+  "createdAt": 1787613333236,
+  "notified": []
  }
 ]
