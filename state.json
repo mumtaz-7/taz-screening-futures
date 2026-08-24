@@ -1,6 +1,7 @@
 {
   "ready": [
-    "CRVUSDT::SHORT::ChoCh"
+    "CRVUSDT::SHORT::ChoCh",
+    "ONDOUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-24T11:30:39.568Z"
+  "at": "2026-08-24T11:45:36.613Z"
 }

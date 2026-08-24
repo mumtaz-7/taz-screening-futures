@@ -9726,12 +9726,15 @@
   "rr": 6.53,
   "lev": 24,
   "signalTime": 1787553900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787553932759,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787554800000
+  "fillTime": 1787554800000,
+  "R": -1,
+  "resolvedTime": 1787571000000
  },
  {
   "id": "ONDOUSDT::LONG::ChoCh::1787555700000",
