@@ -9723,8 +9723,28 @@
   "rr": 6.53,
   "lev": 24,
   "signalTime": 1787553900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787553932759,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787554800000
+ },
+ {
+  "id": "ONDOUSDT::LONG::ChoCh::1787555700000",
+  "symbol": "ONDOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.3745,
+  "sl": 0.3658,
+  "tp": 0.4233,
+  "tpSrc": "OB",
+  "slPct": 2.32,
+  "gainPct": 13.03,
+  "rr": 5.61,
+  "lev": 25,
+  "signalTime": 1787555700000,
+  "status": "pending",
+  "createdAt": 1787555755093
  }
 ]
