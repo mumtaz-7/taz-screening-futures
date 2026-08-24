@@ -9720,12 +9720,15 @@
   "rr": 3.87,
   "lev": 12,
   "signalTime": 1787553000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787553039089,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787571900000
+  "fillTime": 1787571900000,
+  "R": 3.87,
+  "resolvedTime": 1787588100000
  },
  {
   "id": "BCHUSDT::SHORT::BoS::1787553900000",
