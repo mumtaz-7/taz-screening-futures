@@ -9690,12 +9690,15 @@
   "rr": 4.9,
   "lev": 14,
   "signalTime": 1787551200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787551247011,
   "fillTime": 1787551200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787578200000
  },
  {
   "id": "STORJUSDT::LONG::BoS::1787553000000",
