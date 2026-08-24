@@ -9538,5 +9538,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PROMUSDT::LONG::BoS::1787541300000",
+  "symbol": "PROMUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 2.924,
+  "sl": 2.7515,
+  "tp": 3.169,
+  "tpSrc": "WH",
+  "slPct": 5.9,
+  "gainPct": 8.38,
+  "rr": 1.42,
+  "lev": 10,
+  "signalTime": 1787541300000,
+  "status": "pending",
+  "createdAt": 1787541331215
  }
 ]
