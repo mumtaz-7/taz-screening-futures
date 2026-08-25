@@ -10302,12 +10302,15 @@
   "rr": 2.17,
   "lev": 9,
   "signalTime": 1787624100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787624132640,
   "fillTime": 1787624100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787644800000
  },
  {
   "id": "PROMUSDT::LONG::ChoCh::1787626800000",
@@ -10509,7 +10512,8 @@
   "lev": 23,
   "signalTime": 1787644800000,
   "status": "pending",
-  "createdAt": 1787644844491
+  "createdAt": 1787644844491,
+  "notified": []
  },
  {
   "id": "FILUSDT::SHORT::ChoCh::1787644800000",
@@ -10526,7 +10530,8 @@
   "lev": 21,
   "signalTime": 1787644800000,
   "status": "pending",
-  "createdAt": 1787644844491
+  "createdAt": 1787644844491,
+  "notified": []
  },
  {
   "id": "PEPEUSDT::SHORT::ChoCh::1787644800000",
@@ -10543,6 +10548,7 @@
   "lev": 13,
   "signalTime": 1787644800000,
   "status": "pending",
-  "createdAt": 1787644844491
+  "createdAt": 1787644844491,
+  "notified": []
  }
 ]
