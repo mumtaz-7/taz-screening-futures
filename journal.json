@@ -10742,9 +10742,12 @@
   "rr": 6.29,
   "lev": 25,
   "signalTime": 1787664600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787664640895,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787668200000
  },
  {
   "id": "PENDLEUSDT::SHORT::ChoCh::1787664600000",
