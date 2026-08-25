@@ -10538,9 +10538,12 @@
   "rr": 4.29,
   "lev": 23,
   "signalTime": 1787644800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787644844491,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "FILUSDT::SHORT::ChoCh::1787644800000",
@@ -10556,9 +10559,12 @@
   "rr": 3.96,
   "lev": 21,
   "signalTime": 1787644800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787644844491,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "PEPEUSDT::SHORT::ChoCh::1787644800000",
@@ -10574,9 +10580,12 @@
   "rr": 3.03,
   "lev": 13,
   "signalTime": 1787644800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787644844491,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "PORTALUSDT::SHORT::BoS::1787649300000",
