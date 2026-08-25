@@ -1,10 +1,14 @@
 {
   "ready": [
+    "BCHUSDT::SHORT::BoS",
     "BOMEUSDT::SHORT::BoS",
     "BONKUSDT::SHORT::BoS",
-    "CRVUSDT::SHORT::BoS",
     "DASHUSDT::SHORT::BoS",
+    "ENAUSDT::SHORT::ChoCh",
+    "PENDLEUSDT::SHORT::BoS",
+    "PUMPUSDT::SHORT::BoS",
+    "TRUMPUSDT::SHORT::BoS",
     "XRPUSDT::SHORT::BoS"
   ],
-  "at": "2026-08-25T20:30:37.958Z"
+  "at": "2026-08-25T20:45:34.816Z"
 }

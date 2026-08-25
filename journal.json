@@ -9792,12 +9792,15 @@
   "rr": 5.61,
   "lev": 25,
   "signalTime": 1787555700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787555755093,
   "fillTime": 1787555700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787689800000
  },
  {
   "id": "XRPUSDT::SHORT::ChoCh::1787560200000",
@@ -10311,12 +10314,15 @@
   "rr": 4.12,
   "lev": 23,
   "signalTime": 1787619600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787619643647,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787629500000
+  "fillTime": 1787629500000,
+  "R": -1,
+  "resolvedTime": 1787689800000
  },
  {
   "id": "TUTUSDT::SHORT::BoS::1787624100000",
@@ -10973,5 +10979,73 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ENAUSDT::SHORT::ChoCh::1787690700000",
+  "symbol": "ENAUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.1458,
+  "sl": 0.1572,
+  "tp": 0.0848,
+  "tpSrc": "OB",
+  "slPct": 7.82,
+  "gainPct": 41.84,
+  "rr": 5.35,
+  "lev": 8,
+  "signalTime": 1787690700000,
+  "status": "pending",
+  "createdAt": 1787690734817
+ },
+ {
+  "id": "PENDLEUSDT::SHORT::BoS::1787690700000",
+  "symbol": "PENDLEUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 1.721,
+  "sl": 1.7600000000000002,
+  "tp": 1.467,
+  "tpSrc": "OB",
+  "slPct": 2.27,
+  "gainPct": 14.76,
+  "rr": 6.51,
+  "lev": 25,
+  "signalTime": 1787690700000,
+  "status": "pending",
+  "createdAt": 1787690734817
+ },
+ {
+  "id": "PUMPUSDT::SHORT::BoS::1787690700000",
+  "symbol": "PUMPUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.004464,
+  "sl": 0.00459,
+  "tp": 0.003393,
+  "tpSrc": "OB",
+  "slPct": 2.82,
+  "gainPct": 23.99,
+  "rr": 8.5,
+  "lev": 21,
+  "signalTime": 1787690700000,
+  "status": "pending",
+  "createdAt": 1787690734817
+ },
+ {
+  "id": "TRUMPUSDT::SHORT::BoS::1787690700000",
+  "symbol": "TRUMPUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 2.255,
+  "sl": 2.3615000000000004,
+  "tp": 1.771,
+  "tpSrc": "OB",
+  "slPct": 4.72,
+  "gainPct": 21.46,
+  "rr": 4.54,
+  "lev": 13,
+  "signalTime": 1787690700000,
+  "status": "pending",
+  "createdAt": 1787690734817
  }
 ]
