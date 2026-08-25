@@ -5149,7 +5149,7 @@
   "rr": 4.08,
   "lev": 6,
   "signalTime": 1786871700000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1786871731511,
   "fillTime": 1786871700000,
   "notified": [
@@ -10550,5 +10550,22 @@
   "status": "pending",
   "createdAt": 1787644844491,
   "notified": []
+ },
+ {
+  "id": "PORTALUSDT::SHORT::BoS::1787649300000",
+  "symbol": "PORTALUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.01588,
+  "sl": 0.01666,
+  "tp": 0.01358,
+  "tpSrc": "OB",
+  "slPct": 4.91,
+  "gainPct": 14.48,
+  "rr": 2.95,
+  "lev": 12,
+  "signalTime": 1787649300000,
+  "status": "pending",
+  "createdAt": 1787649333367
  }
 ]

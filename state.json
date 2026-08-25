@@ -1,7 +1,8 @@
 {
   "ready": [
     "DOGEUSDT::SHORT::ChoCh",
-    "PEPEUSDT::SHORT::ChoCh"
+    "PEPEUSDT::SHORT::ChoCh",
+    "PORTALUSDT::SHORT::BoS"
   ],
-  "at": "2026-08-25T09:00:46.123Z"
+  "at": "2026-08-25T09:15:33.366Z"
 }
