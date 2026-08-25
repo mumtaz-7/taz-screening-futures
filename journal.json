@@ -10186,9 +10186,12 @@
   "rr": 2.9,
   "lev": 7,
   "signalTime": 1787612400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787612446897,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787631300000
  },
  {
   "id": "TRUMPUSDT::SHORT::BoS::1787613300000",
