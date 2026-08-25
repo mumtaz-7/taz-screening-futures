@@ -9118,12 +9118,15 @@
   "rr": 2.98,
   "lev": 11,
   "signalTime": 1787481000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787481036842,
   "fillTime": 1787481000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787663700000
  },
  {
   "id": "ICPUSDT::LONG::BoS::1787481900000",
@@ -9918,12 +9921,15 @@
   "rr": 1.63,
   "lev": 6,
   "signalTime": 1787576400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787576445714,
   "fillTime": 1787576400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787663700000
  },
  {
   "id": "PEPEUSDT::LONG::ChoCh::1787581800000",
@@ -10704,6 +10710,58 @@
   "lev": 11,
   "signalTime": 1787663700000,
   "status": "pending",
-  "createdAt": 1787663733159
+  "createdAt": 1787663733159,
+  "notified": []
+ },
+ {
+  "id": "FLOKIUSDT::SHORT::BoS::1787664600000",
+  "symbol": "FLOKIUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.00002675,
+  "sl": 0.000027305000000000004,
+  "tp": 0.00002326,
+  "tpSrc": "OB",
+  "slPct": 2.07,
+  "gainPct": 13.05,
+  "rr": 6.29,
+  "lev": 25,
+  "signalTime": 1787664600000,
+  "status": "pending",
+  "createdAt": 1787664640895
+ },
+ {
+  "id": "PENDLEUSDT::SHORT::ChoCh::1787664600000",
+  "symbol": "PENDLEUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 1.767,
+  "sl": 1.8239999999999998,
+  "tp": 1.467,
+  "tpSrc": "OB",
+  "slPct": 3.23,
+  "gainPct": 16.98,
+  "rr": 5.26,
+  "lev": 18,
+  "signalTime": 1787664600000,
+  "status": "pending",
+  "createdAt": 1787664640895
+ },
+ {
+  "id": "XPLUSDT::SHORT::BoS::1787664600000",
+  "symbol": "XPLUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.09225,
+  "sl": 0.096825,
+  "tp": 0.08269,
+  "tpSrc": "OB",
+  "slPct": 4.96,
+  "gainPct": 10.36,
+  "rr": 2.09,
+  "lev": 12,
+  "signalTime": 1787664600000,
+  "status": "pending",
+  "createdAt": 1787664640895
  }
 ]
