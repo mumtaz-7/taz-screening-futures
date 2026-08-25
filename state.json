@@ -3,9 +3,10 @@
     "BCHUSDT::SHORT::ChoCh",
     "BOMEUSDT::SHORT::BoS",
     "CRVUSDT::SHORT::ChoCh",
+    "ONGUSDT::LONG::BoS",
     "TIAUSDT::SHORT::ChoCh",
     "XPLUSDT::SHORT::ChoCh",
     "XRPUSDT::SHORT::BoS"
   ],
-  "at": "2026-08-25T07:15:35.902Z"
+  "at": "2026-08-25T07:30:38.921Z"
 }
