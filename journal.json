@@ -8608,12 +8608,15 @@
   "rr": 1.95,
   "lev": 5,
   "signalTime": 1787439600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787439645782,
   "fillTime": 1787439600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.95,
+  "resolvedTime": 1787671800000
  },
  {
   "id": "SCUSDT::LONG::BoS::1787444100000",
@@ -8911,12 +8914,15 @@
   "rr": 2.88,
   "lev": 8,
   "signalTime": 1787453100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787453134817,
   "fillTime": 1787453100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.88,
+  "resolvedTime": 1787671800000
  },
  {
   "id": "TUTUSDT::LONG::BoS::1787453100000",
