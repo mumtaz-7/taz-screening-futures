@@ -10571,5 +10571,22 @@
   "status": "pending",
   "createdAt": 1787649333367,
   "notified": []
+ },
+ {
+  "id": "PEPEUSDT::SHORT::BoS::1787652000000",
+  "symbol": "PEPEUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.00000404,
+  "sl": 0.0000043849999999999995,
+  "tp": 0.00000355,
+  "tpSrc": "OB",
+  "slPct": 8.54,
+  "gainPct": 12.13,
+  "rr": 1.42,
+  "lev": 7,
+  "signalTime": 1787652000000,
+  "status": "pending",
+  "createdAt": 1787652046315
  }
 ]
