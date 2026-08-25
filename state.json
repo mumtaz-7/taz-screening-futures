@@ -1,6 +1,11 @@
 {
   "ready": [
-    "PUMPUSDT::LONG::ChoCh"
+    "BCHUSDT::SHORT::ChoCh",
+    "BOMEUSDT::SHORT::BoS",
+    "CRVUSDT::SHORT::ChoCh",
+    "TIAUSDT::SHORT::ChoCh",
+    "XPLUSDT::SHORT::ChoCh",
+    "XRPUSDT::SHORT::BoS"
   ],
-  "at": "2026-08-25T06:45:33.337Z"
+  "at": "2026-08-25T07:00:48.524Z"
 }

@@ -10254,9 +10254,12 @@
   "rr": 3.08,
   "lev": 20,
   "signalTime": 1787618700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787618731253,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "LDOUSDT::LONG::BoS::1787619600000",
@@ -10385,5 +10388,90 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BOMEUSDT::SHORT::BoS::1787641200000",
+  "symbol": "BOMEUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0011168,
+  "sl": 0.0011652499999999998,
+  "tp": 0.0008678,
+  "tpSrc": "OB",
+  "slPct": 4.34,
+  "gainPct": 22.3,
+  "rr": 5.14,
+  "lev": 14,
+  "signalTime": 1787641200000,
+  "status": "pending",
+  "createdAt": 1787641248525
+ },
+ {
+  "id": "CRVUSDT::SHORT::ChoCh::1787641200000",
+  "symbol": "CRVUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.332,
+  "sl": 0.34415,
+  "tp": 0.2862,
+  "tpSrc": "OB",
+  "slPct": 3.66,
+  "gainPct": 13.8,
+  "rr": 3.77,
+  "lev": 16,
+  "signalTime": 1787641200000,
+  "status": "pending",
+  "createdAt": 1787641248525
+ },
+ {
+  "id": "TIAUSDT::SHORT::ChoCh::1787641200000",
+  "symbol": "TIAUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.3772,
+  "sl": 0.39025000000000004,
+  "tp": 0.3315,
+  "tpSrc": "OB",
+  "slPct": 3.46,
+  "gainPct": 12.12,
+  "rr": 3.5,
+  "lev": 17,
+  "signalTime": 1787641200000,
+  "status": "pending",
+  "createdAt": 1787641248525
+ },
+ {
+  "id": "XPLUSDT::SHORT::ChoCh::1787641200000",
+  "symbol": "XPLUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.09705,
+  "sl": 0.100665,
+  "tp": 0.08269,
+  "tpSrc": "OB",
+  "slPct": 3.72,
+  "gainPct": 14.8,
+  "rr": 3.97,
+  "lev": 16,
+  "signalTime": 1787641200000,
+  "status": "pending",
+  "createdAt": 1787641248526
+ },
+ {
+  "id": "XRPUSDT::SHORT::BoS::1787641200000",
+  "symbol": "XRPUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 1.5037,
+  "sl": 1.5394,
+  "tp": 1.3049,
+  "tpSrc": "OB",
+  "slPct": 2.37,
+  "gainPct": 13.22,
+  "rr": 5.57,
+  "lev": 24,
+  "signalTime": 1787641200000,
+  "status": "pending",
+  "createdAt": 1787641248526
  }
 ]
