@@ -11003,9 +11003,12 @@
   "rr": 5.35,
   "lev": 8,
   "signalTime": 1787690700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787690734817,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787695200000
  },
  {
   "id": "PENDLEUSDT::SHORT::BoS::1787690700000",
@@ -11021,9 +11024,12 @@
   "rr": 6.51,
   "lev": 25,
   "signalTime": 1787690700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787690734817,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787695200000
  },
  {
   "id": "PUMPUSDT::SHORT::BoS::1787690700000",
@@ -11066,5 +11072,22 @@
   "status": "pending",
   "createdAt": 1787690734817,
   "notified": []
+ },
+ {
+  "id": "MORPHOUSDT::SHORT::BoS::1787696100000",
+  "symbol": "MORPHOUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 2.504,
+  "sl": 2.5940000000000003,
+  "tp": 2.269,
+  "tpSrc": "OB",
+  "slPct": 3.59,
+  "gainPct": 9.38,
+  "rr": 2.61,
+  "lev": 16,
+  "signalTime": 1787696100000,
+  "status": "pending",
+  "createdAt": 1787696134160
  }
 ]

@@ -1,9 +1,6 @@
 {
   "ready": [
-    "BCHUSDT::SHORT::BoS",
-    "ENAUSDT::SHORT::ChoCh",
-    "PENDLEUSDT::SHORT::BoS",
-    "TRUMPUSDT::SHORT::BoS"
+    "MORPHOUSDT::SHORT::BoS"
   ],
-  "at": "2026-08-25T22:00:45.209Z"
+  "at": "2026-08-25T22:15:34.159Z"
 }
