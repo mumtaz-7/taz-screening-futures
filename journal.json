@@ -10357,9 +10357,13 @@
   "rr": 2.26,
   "lev": 13,
   "signalTime": 1787634900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787634931808,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787635800000
  },
  {
   "id": "PUMPUSDT::LONG::ChoCh::1787635800000",
@@ -10375,7 +10379,11 @@
   "rr": 1.43,
   "lev": 8,
   "signalTime": 1787635800000,
-  "status": "pending",
-  "createdAt": 1787635837777
+  "status": "open",
+  "createdAt": 1787635837777,
+  "fillTime": 1787635800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
