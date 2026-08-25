@@ -10634,9 +10634,12 @@
   "rr": 13.46,
   "lev": 25,
   "signalTime": 1787660100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787660134756,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787661900000
  },
  {
   "id": "FETUSDT::SHORT::BoS::1787661000000",
