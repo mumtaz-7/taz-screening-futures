@@ -10616,5 +10616,22 @@
    "open"
   ],
   "fillTime": 1787654700000
+ },
+ {
+  "id": "BCHUSDT::SHORT::BoS::1787660100000",
+  "symbol": "BCHUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 269.1,
+  "sl": 272.25,
+  "tp": 226.7,
+  "tpSrc": "OB",
+  "slPct": 1.17,
+  "gainPct": 15.76,
+  "rr": 13.46,
+  "lev": 25,
+  "signalTime": 1787660100000,
+  "status": "pending",
+  "createdAt": 1787660134756
  }
 ]
