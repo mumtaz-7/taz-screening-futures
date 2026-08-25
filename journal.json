@@ -9945,12 +9945,15 @@
   "rr": 2.06,
   "lev": 15,
   "signalTime": 1787581800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787581840602,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787586300000
+  "fillTime": 1787586300000,
+  "R": -1,
+  "resolvedTime": 1787665500000
  },
  {
   "id": "STRKUSDT::LONG::ChoCh::1787585400000",
