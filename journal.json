@@ -10342,5 +10342,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "STXUSDT::LONG::BoS::1787634900000",
+  "symbol": "STXUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.2437,
+  "sl": 0.23260000000000003,
+  "tp": 0.2688,
+  "tpSrc": "WH",
+  "slPct": 4.55,
+  "gainPct": 10.3,
+  "rr": 2.26,
+  "lev": 13,
+  "signalTime": 1787634900000,
+  "status": "pending",
+  "createdAt": 1787634931808
  }
 ]
