@@ -10404,7 +10404,8 @@
   "lev": 14,
   "signalTime": 1787641200000,
   "status": "pending",
-  "createdAt": 1787641248525
+  "createdAt": 1787641248525,
+  "notified": []
  },
  {
   "id": "CRVUSDT::SHORT::ChoCh::1787641200000",
@@ -10420,8 +10421,12 @@
   "rr": 3.77,
   "lev": 16,
   "signalTime": 1787641200000,
-  "status": "pending",
-  "createdAt": 1787641248525
+  "status": "open",
+  "createdAt": 1787641248525,
+  "fillTime": 1787641200000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "TIAUSDT::SHORT::ChoCh::1787641200000",
@@ -10437,8 +10442,12 @@
   "rr": 3.5,
   "lev": 17,
   "signalTime": 1787641200000,
-  "status": "pending",
-  "createdAt": 1787641248525
+  "status": "open",
+  "createdAt": 1787641248525,
+  "fillTime": 1787641200000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "XPLUSDT::SHORT::ChoCh::1787641200000",
@@ -10455,7 +10464,8 @@
   "lev": 16,
   "signalTime": 1787641200000,
   "status": "pending",
-  "createdAt": 1787641248526
+  "createdAt": 1787641248526,
+  "notified": []
  },
  {
   "id": "XRPUSDT::SHORT::BoS::1787641200000",
@@ -10471,7 +10481,11 @@
   "rr": 5.57,
   "lev": 24,
   "signalTime": 1787641200000,
-  "status": "pending",
-  "createdAt": 1787641248526
+  "status": "open",
+  "createdAt": 1787641248526,
+  "fillTime": 1787641200000,
+  "notified": [
+   "open"
+  ]
  }
 ]
