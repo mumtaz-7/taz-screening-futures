@@ -10601,9 +10601,12 @@
   "rr": 2.95,
   "lev": 12,
   "signalTime": 1787649300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787649333367,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "PEPEUSDT::SHORT::BoS::1787652000000",
@@ -10821,6 +10824,7 @@
   "lev": 22,
   "signalTime": 1787670900000,
   "status": "pending",
-  "createdAt": 1787670932806
+  "createdAt": 1787670932806,
+  "notified": []
  }
 ]
