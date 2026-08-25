@@ -8193,12 +8193,15 @@
   "rr": 2.1,
   "lev": 8,
   "signalTime": 1787419800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787419836535,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787434200000
+  "fillTime": 1787434200000,
+  "R": -1,
+  "resolvedTime": 1787691600000
  },
  {
   "id": "ARBUSDT::LONG::ChoCh::1787420700000",
@@ -10156,12 +10159,15 @@
   "rr": 4.97,
   "lev": 25,
   "signalTime": 1787606100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787606131971,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787610600000
+  "fillTime": 1787610600000,
+  "R": -1,
+  "resolvedTime": 1787691600000
  },
  {
   "id": "COTIUSDT::LONG::BoS::1787608800000",
