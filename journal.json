@@ -10171,12 +10171,15 @@
   "rr": 2.92,
   "lev": 14,
   "signalTime": 1787608800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787608846712,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787612400000
+  "fillTime": 1787612400000,
+  "R": -1,
+  "resolvedTime": 1787680800000
  },
  {
   "id": "EIGENUSDT::SHORT::BoS::1787610600000",
