@@ -10225,9 +10225,14 @@
   "rr": 1.62,
   "lev": 11,
   "signalTime": 1787618700000,
-  "status": "pending",
+  "status": "loss",
   "createdAt": 1787618731253,
-  "notified": []
+  "notified": [
+   "loss"
+  ],
+  "R": -1,
+  "fillTime": 1787625000000,
+  "resolvedTime": 1787625000000
  },
  {
   "id": "UNIUSDT::LONG::ChoCh::1787618700000",
