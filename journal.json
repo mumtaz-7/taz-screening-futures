@@ -10400,12 +10400,15 @@
   "rr": 1.43,
   "lev": 8,
   "signalTime": 1787635800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787635837777,
   "fillTime": 1787635800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787662800000
  },
  {
   "id": "BOMEUSDT::SHORT::BoS::1787641200000",
@@ -10421,9 +10424,12 @@
   "rr": 5.14,
   "lev": 14,
   "signalTime": 1787641200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787641248525,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "CRVUSDT::SHORT::ChoCh::1787641200000",
@@ -10481,9 +10487,12 @@
   "rr": 3.97,
   "lev": 16,
   "signalTime": 1787641200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787641248526,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "XRPUSDT::SHORT::BoS::1787641200000",
@@ -10679,5 +10688,22 @@
   "status": "pending",
   "createdAt": 1787661040762,
   "notified": []
+ },
+ {
+  "id": "ONTUSDT::LONG::BoS::1787663700000",
+  "symbol": "ONTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.05325,
+  "sl": 0.050235,
+  "tp": 0.05887,
+  "tpSrc": "WH",
+  "slPct": 5.66,
+  "gainPct": 10.55,
+  "rr": 1.86,
+  "lev": 11,
+  "signalTime": 1787663700000,
+  "status": "pending",
+  "createdAt": 1787663733159
  }
 ]
