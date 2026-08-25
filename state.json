@@ -1,9 +1,6 @@
 {
   "ready": [
-    "PEPEUSDT::SHORT::BoS",
-    "TIAUSDT::SHORT::BoS",
-    "TRUMPUSDT::SHORT::ChoCh",
-    "XRPUSDT::SHORT::BoS"
+    "TRUMPUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-08-25T11:15:33.672Z"
+  "at": "2026-08-25T11:30:38.410Z"
 }
