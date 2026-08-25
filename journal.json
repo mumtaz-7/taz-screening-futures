@@ -10829,12 +10829,15 @@
   "rr": 1.95,
   "lev": 15,
   "signalTime": 1787670000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787670048335,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787674500000
+  "fillTime": 1787674500000,
+  "R": -1,
+  "resolvedTime": 1787690700000
  },
  {
   "id": "FILUSDT::SHORT::BoS::1787670900000",
@@ -10995,7 +10998,8 @@
   "lev": 8,
   "signalTime": 1787690700000,
   "status": "pending",
-  "createdAt": 1787690734817
+  "createdAt": 1787690734817,
+  "notified": []
  },
  {
   "id": "PENDLEUSDT::SHORT::BoS::1787690700000",
@@ -11012,7 +11016,8 @@
   "lev": 25,
   "signalTime": 1787690700000,
   "status": "pending",
-  "createdAt": 1787690734817
+  "createdAt": 1787690734817,
+  "notified": []
  },
  {
   "id": "PUMPUSDT::SHORT::BoS::1787690700000",
@@ -11028,8 +11033,12 @@
   "rr": 8.5,
   "lev": 21,
   "signalTime": 1787690700000,
-  "status": "pending",
-  "createdAt": 1787690734817
+  "status": "open",
+  "createdAt": 1787690734817,
+  "fillTime": 1787690700000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "TRUMPUSDT::SHORT::BoS::1787690700000",
@@ -11046,6 +11055,7 @@
   "lev": 13,
   "signalTime": 1787690700000,
   "status": "pending",
-  "createdAt": 1787690734817
+  "createdAt": 1787690734817,
+  "notified": []
  }
 ]
