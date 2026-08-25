@@ -10778,9 +10778,12 @@
   "rr": 5.26,
   "lev": 18,
   "signalTime": 1787664600000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787664640895,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "XPLUSDT::SHORT::BoS::1787664600000",
