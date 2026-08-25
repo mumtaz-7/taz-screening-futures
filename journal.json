@@ -10207,5 +10207,39 @@
    "open"
   ],
   "fillTime": 1787615100000
+ },
+ {
+  "id": "HEMIUSDT::SHORT::BoS::1787618700000",
+  "symbol": "HEMIUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.00761,
+  "sl": 0.008029999999999999,
+  "tp": 0.00693,
+  "tpSrc": "OB",
+  "slPct": 5.52,
+  "gainPct": 8.94,
+  "rr": 1.62,
+  "lev": 11,
+  "signalTime": 1787618700000,
+  "status": "pending",
+  "createdAt": 1787618731253
+ },
+ {
+  "id": "UNIUSDT::LONG::ChoCh::1787618700000",
+  "symbol": "UNIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 4.321,
+  "sl": 4.198,
+  "tp": 4.7,
+  "tpSrc": "WH",
+  "slPct": 2.85,
+  "gainPct": 8.77,
+  "rr": 3.08,
+  "lev": 20,
+  "signalTime": 1787618700000,
+  "status": "pending",
+  "createdAt": 1787618731253
  }
 ]

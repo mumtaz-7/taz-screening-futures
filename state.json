@@ -1,6 +1,7 @@
 {
   "ready": [
-    "TRUMPUSDT::SHORT::BoS"
+    "HEMIUSDT::SHORT::BoS",
+    "UNIUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-25T00:30:50.139Z"
+  "at": "2026-08-25T00:45:31.252Z"
 }
