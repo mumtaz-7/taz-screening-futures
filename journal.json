@@ -9262,12 +9262,15 @@
   "rr": 1.14,
   "lev": 6,
   "signalTime": 1787492700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787492731175,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787495400000
+  "fillTime": 1787495400000,
+  "R": -1,
+  "resolvedTime": 1787688000000
  },
  {
   "id": "ETCUSDT::LONG::ChoCh::1787492700000",
@@ -10922,8 +10925,45 @@
   "rr": 2.06,
   "lev": 6,
   "signalTime": 1787683500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787683533136,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787688000000
+ },
+ {
+  "id": "BONKUSDT::SHORT::BoS::1787688900000",
+  "symbol": "BONKUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.00000309,
+  "sl": 0.000003195,
+  "tp": 0.00000263,
+  "tpSrc": "OB",
+  "slPct": 3.4,
+  "gainPct": 14.89,
+  "rr": 4.38,
+  "lev": 17,
+  "signalTime": 1787688900000,
+  "status": "pending",
+  "createdAt": 1787688935521
+ },
+ {
+  "id": "DASHUSDT::SHORT::BoS::1787688900000",
+  "symbol": "DASHUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 39.43,
+  "sl": 40.540000000000006,
+  "tp": 34.8,
+  "tpSrc": "OB",
+  "slPct": 2.82,
+  "gainPct": 11.74,
+  "rr": 4.17,
+  "lev": 21,
+  "signalTime": 1787688900000,
+  "status": "pending",
+  "createdAt": 1787688935521
  }
 ]

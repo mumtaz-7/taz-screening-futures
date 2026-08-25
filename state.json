@@ -1,8 +1,10 @@
 {
   "ready": [
-    "ACEUSDT::SHORT::BoS",
+    "BOMEUSDT::SHORT::BoS",
+    "BONKUSDT::SHORT::BoS",
     "CRVUSDT::SHORT::BoS",
-    "PROMUSDT::LONG::ChoCh"
+    "DASHUSDT::SHORT::BoS",
+    "XRPUSDT::SHORT::BoS"
   ],
-  "at": "2026-08-25T20:00:44.664Z"
+  "at": "2026-08-25T20:15:35.521Z"
 }
