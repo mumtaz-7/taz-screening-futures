@@ -9028,12 +9028,15 @@
   "rr": 1.99,
   "lev": 5,
   "signalTime": 1787467500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787467533022,
   "fillTime": 1787467500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787650200000
  },
  {
   "id": "FILUSDT::LONG::BoS::1787472900000",
