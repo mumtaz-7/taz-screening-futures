@@ -10223,7 +10223,8 @@
   "lev": 11,
   "signalTime": 1787618700000,
   "status": "pending",
-  "createdAt": 1787618731253
+  "createdAt": 1787618731253,
+  "notified": []
  },
  {
   "id": "UNIUSDT::LONG::ChoCh::1787618700000",
@@ -10240,6 +10241,24 @@
   "lev": 20,
   "signalTime": 1787618700000,
   "status": "pending",
-  "createdAt": 1787618731253
+  "createdAt": 1787618731253,
+  "notified": []
+ },
+ {
+  "id": "LDOUSDT::LONG::BoS::1787619600000",
+  "symbol": "LDOUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.3749,
+  "sl": 0.36560000000000004,
+  "tp": 0.4132,
+  "tpSrc": "WH",
+  "slPct": 2.48,
+  "gainPct": 10.22,
+  "rr": 4.12,
+  "lev": 23,
+  "signalTime": 1787619600000,
+  "status": "pending",
+  "createdAt": 1787619643647
  }
 ]
