@@ -10902,7 +10902,8 @@
   "lev": 10,
   "signalTime": 1787683500000,
   "status": "pending",
-  "createdAt": 1787683533136
+  "createdAt": 1787683533136,
+  "notified": []
  },
  {
   "id": "PROMUSDT::LONG::ChoCh::1787683500000",
@@ -10919,6 +10920,7 @@
   "lev": 6,
   "signalTime": 1787683500000,
   "status": "pending",
-  "createdAt": 1787683533136
+  "createdAt": 1787683533136,
+  "notified": []
  }
 ]
