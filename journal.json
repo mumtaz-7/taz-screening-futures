@@ -10859,5 +10859,22 @@
    "open"
   ],
   "fillTime": 1787675400000
+ },
+ {
+  "id": "DASHUSDT::SHORT::ChoCh::1787679000000",
+  "symbol": "DASHUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 39.85,
+  "sl": 42.22,
+  "tp": 34.8,
+  "tpSrc": "OB",
+  "slPct": 5.95,
+  "gainPct": 12.67,
+  "rr": 2.13,
+  "lev": 10,
+  "signalTime": 1787679000000,
+  "status": "pending",
+  "createdAt": 1787679038578
  }
 ]

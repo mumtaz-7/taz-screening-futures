@@ -1,7 +1,9 @@
 {
   "ready": [
     "BOMEUSDT::SHORT::BoS",
+    "CRVUSDT::SHORT::BoS",
+    "DASHUSDT::SHORT::ChoCh",
     "FETUSDT::SHORT::BoS"
   ],
-  "at": "2026-08-25T17:15:31.542Z"
+  "at": "2026-08-25T17:30:38.559Z"
 }
