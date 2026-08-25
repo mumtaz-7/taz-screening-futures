@@ -10060,9 +10060,12 @@
   "rr": 10.31,
   "lev": 13,
   "signalTime": 1787595300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787595334663,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "PENGUUSDT::LONG::BoS::1787604300000",
