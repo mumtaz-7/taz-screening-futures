@@ -10358,6 +10358,24 @@
   "lev": 13,
   "signalTime": 1787634900000,
   "status": "pending",
-  "createdAt": 1787634931808
+  "createdAt": 1787634931808,
+  "notified": []
+ },
+ {
+  "id": "PUMPUSDT::LONG::ChoCh::1787635800000",
+  "symbol": "PUMPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.004912,
+  "sl": 0.004537000000000001,
+  "tp": 0.005447,
+  "tpSrc": "WH",
+  "slPct": 7.63,
+  "gainPct": 10.89,
+  "rr": 1.43,
+  "lev": 8,
+  "signalTime": 1787635800000,
+  "status": "pending",
+  "createdAt": 1787635837777
  }
 ]
