@@ -9049,12 +9049,15 @@
   "rr": 10.53,
   "lev": 25,
   "signalTime": 1787472900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787472930207,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787477400000
+  "fillTime": 1787477400000,
+  "R": -1,
+  "resolvedTime": 1787643900000
  },
  {
   "id": "SCUSDT::LONG::ChoCh::1787474700000",
@@ -10490,5 +10493,56 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "DOGEUSDT::SHORT::ChoCh::1787644800000",
+  "symbol": "DOGEUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.09158,
+  "sl": 0.09384500000000001,
+  "tp": 0.08186,
+  "tpSrc": "OB",
+  "slPct": 2.47,
+  "gainPct": 10.61,
+  "rr": 4.29,
+  "lev": 23,
+  "signalTime": 1787644800000,
+  "status": "pending",
+  "createdAt": 1787644844491
+ },
+ {
+  "id": "FILUSDT::SHORT::ChoCh::1787644800000",
+  "symbol": "FILUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.7552,
+  "sl": 0.7765,
+  "tp": 0.6708,
+  "tpSrc": "OB",
+  "slPct": 2.82,
+  "gainPct": 11.18,
+  "rr": 3.96,
+  "lev": 21,
+  "signalTime": 1787644800000,
+  "status": "pending",
+  "createdAt": 1787644844491
+ },
+ {
+  "id": "PEPEUSDT::SHORT::ChoCh::1787644800000",
+  "symbol": "PEPEUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.00000414,
+  "sl": 0.000004335,
+  "tp": 0.00000355,
+  "tpSrc": "OB",
+  "slPct": 4.71,
+  "gainPct": 14.25,
+  "rr": 3.03,
+  "lev": 13,
+  "signalTime": 1787644800000,
+  "status": "pending",
+  "createdAt": 1787644844491
  }
 ]
