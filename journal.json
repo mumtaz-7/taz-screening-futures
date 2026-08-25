@@ -10586,7 +10586,28 @@
   "rr": 1.42,
   "lev": 7,
   "signalTime": 1787652000000,
+  "status": "open",
+  "createdAt": 1787652046315,
+  "fillTime": 1787652000000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "TRUMPUSDT::SHORT::ChoCh::1787652900000",
+  "symbol": "TRUMPUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 2.404,
+  "sl": 2.5150000000000006,
+  "tp": 1.771,
+  "tpSrc": "OB",
+  "slPct": 4.62,
+  "gainPct": 26.33,
+  "rr": 5.7,
+  "lev": 13,
+  "signalTime": 1787652900000,
   "status": "pending",
-  "createdAt": 1787652046315
+  "createdAt": 1787652935987
  }
 ]
