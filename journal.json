@@ -10709,9 +10709,12 @@
   "rr": 1.86,
   "lev": 11,
   "signalTime": 1787663700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787663733159,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787664600000
  },
  {
   "id": "FLOKIUSDT::SHORT::BoS::1787664600000",
@@ -10728,7 +10731,8 @@
   "lev": 25,
   "signalTime": 1787664600000,
   "status": "pending",
-  "createdAt": 1787664640895
+  "createdAt": 1787664640895,
+  "notified": []
  },
  {
   "id": "PENDLEUSDT::SHORT::ChoCh::1787664600000",
@@ -10745,7 +10749,8 @@
   "lev": 18,
   "signalTime": 1787664600000,
   "status": "pending",
-  "createdAt": 1787664640895
+  "createdAt": 1787664640895,
+  "notified": []
  },
  {
   "id": "XPLUSDT::SHORT::BoS::1787664600000",
@@ -10761,7 +10766,11 @@
   "rr": 2.09,
   "lev": 12,
   "signalTime": 1787664600000,
-  "status": "pending",
-  "createdAt": 1787664640895
+  "status": "open",
+  "createdAt": 1787664640895,
+  "fillTime": 1787664600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
