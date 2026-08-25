@@ -10201,12 +10201,15 @@
   "rr": 5.52,
   "lev": 13,
   "signalTime": 1787613300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787613333236,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787615100000
+  "fillTime": 1787615100000,
+  "R": -1,
+  "resolvedTime": 1787624100000
  },
  {
   "id": "HEMIUSDT::SHORT::BoS::1787618700000",
@@ -10276,7 +10279,11 @@
   "rr": 2.17,
   "lev": 9,
   "signalTime": 1787624100000,
-  "status": "pending",
-  "createdAt": 1787624132640
+  "status": "open",
+  "createdAt": 1787624132640,
+  "fillTime": 1787624100000,
+  "notified": [
+   "open"
+  ]
  }
 ]
