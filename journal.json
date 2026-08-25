@@ -9960,12 +9960,15 @@
   "rr": 2.05,
   "lev": 14,
   "signalTime": 1787585400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787585439215,
   "fillTime": 1787585400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787660100000
  },
  {
   "id": "STORJUSDT::LONG::ChoCh::1787590800000",
@@ -10632,6 +10635,41 @@
   "lev": 25,
   "signalTime": 1787660100000,
   "status": "pending",
-  "createdAt": 1787660134756
+  "createdAt": 1787660134756,
+  "notified": []
+ },
+ {
+  "id": "FETUSDT::SHORT::BoS::1787661000000",
+  "symbol": "FETUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1697,
+  "sl": 0.18514999999999998,
+  "tp": 0.1472,
+  "tpSrc": "OB",
+  "slPct": 9.1,
+  "gainPct": 13.26,
+  "rr": 1.46,
+  "lev": 7,
+  "signalTime": 1787661000000,
+  "status": "pending",
+  "createdAt": 1787661040762
+ },
+ {
+  "id": "TRUMPUSDT::SHORT::BoS::1787661000000",
+  "symbol": "TRUMPUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 2.364,
+  "sl": 2.535,
+  "tp": 1.771,
+  "tpSrc": "OB",
+  "slPct": 7.23,
+  "gainPct": 25.08,
+  "rr": 3.47,
+  "lev": 8,
+  "signalTime": 1787661000000,
+  "status": "pending",
+  "createdAt": 1787661040762
  }
 ]
