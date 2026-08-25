@@ -10829,8 +10829,28 @@
   "rr": 3.25,
   "lev": 22,
   "signalTime": 1787670900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787670932806,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787673600000
+ },
+ {
+  "id": "BOMEUSDT::SHORT::BoS::1787674500000",
+  "symbol": "BOMEUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0010847,
+  "sl": 0.0011099,
+  "tp": 0.0008678,
+  "tpSrc": "OB",
+  "slPct": 2.32,
+  "gainPct": 20,
+  "rr": 8.61,
+  "lev": 25,
+  "signalTime": 1787674500000,
+  "status": "pending",
+  "createdAt": 1787674533351
  }
 ]
