@@ -10715,9 +10715,12 @@
   "rr": 3.47,
   "lev": 8,
   "signalTime": 1787661000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787661040762,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ONTUSDT::LONG::BoS::1787663700000",
@@ -10883,5 +10886,39 @@
    "open"
   ],
   "fillTime": 1787679900000
+ },
+ {
+  "id": "ACEUSDT::SHORT::BoS::1787683500000",
+  "symbol": "ACEUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.2301,
+  "sl": 0.24419999999999997,
+  "tp": 0.1878,
+  "tpSrc": "OB",
+  "slPct": 6.13,
+  "gainPct": 18.38,
+  "rr": 3,
+  "lev": 10,
+  "signalTime": 1787683500000,
+  "status": "pending",
+  "createdAt": 1787683533136
+ },
+ {
+  "id": "PROMUSDT::LONG::ChoCh::1787683500000",
+  "symbol": "PROMUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 4.188,
+  "sl": 3.798,
+  "tp": 4.991,
+  "tpSrc": "WH",
+  "slPct": 9.31,
+  "gainPct": 19.17,
+  "rr": 2.06,
+  "lev": 6,
+  "signalTime": 1787683500000,
+  "status": "pending",
+  "createdAt": 1787683533136
  }
 ]
