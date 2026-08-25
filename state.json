@@ -1,6 +1,7 @@
 {
   "ready": [
-    "BOMEUSDT::SHORT::BoS"
+    "BOMEUSDT::SHORT::BoS",
+    "FETUSDT::SHORT::BoS"
   ],
-  "at": "2026-08-25T17:00:44.942Z"
+  "at": "2026-08-25T17:15:31.542Z"
 }
