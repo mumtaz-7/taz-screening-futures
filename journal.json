@@ -11287,6 +11287,24 @@
   "lev": 25,
   "signalTime": 1787730300000,
   "status": "pending",
-  "createdAt": 1787730334452
+  "createdAt": 1787730334452,
+  "notified": []
+ },
+ {
+  "id": "ONTUSDT::LONG::ChoCh::1787731200000",
+  "symbol": "ONTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.05324,
+  "sl": 0.05079500000000001,
+  "tp": 0.05887,
+  "tpSrc": "WH",
+  "slPct": 4.59,
+  "gainPct": 10.57,
+  "rr": 2.3,
+  "lev": 13,
+  "signalTime": 1787731200000,
+  "status": "pending",
+  "createdAt": 1787731247956
  }
 ]
