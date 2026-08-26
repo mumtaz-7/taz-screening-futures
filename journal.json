@@ -10763,12 +10763,15 @@
   "rr": 1.86,
   "lev": 11,
   "signalTime": 1787663700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787663733159,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787664600000
+  "fillTime": 1787664600000,
+  "R": 1.86,
+  "resolvedTime": 1787753700000
  },
  {
   "id": "FLOKIUSDT::SHORT::BoS::1787664600000",
@@ -11262,12 +11265,15 @@
   "rr": 2.15,
   "lev": 13,
   "signalTime": 1787726700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787726734188,
   "fillTime": 1787726700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787753700000
  },
  {
   "id": "XPLUSDT::SHORT::ChoCh::1787726700000",
