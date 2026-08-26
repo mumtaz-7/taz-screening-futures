@@ -9091,12 +9091,15 @@
   "rr": 9.33,
   "lev": 13,
   "signalTime": 1787474700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787474732469,
   "fillTime": 1787474700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787754600000
  },
  {
   "id": "ASTERUSDT::LONG::BoS::1787476500000",
