@@ -10943,12 +10943,15 @@
   "rr": 2.06,
   "lev": 6,
   "signalTime": 1787683500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787683533136,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787688000000
+  "fillTime": 1787688000000,
+  "R": -1,
+  "resolvedTime": 1787721300000
  },
  {
   "id": "BONKUSDT::SHORT::BoS::1787688900000",
@@ -11201,5 +11204,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PORTALUSDT::LONG::BoS::1787722200000",
+  "symbol": "PORTALUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01646,
+  "sl": 0.013309999999999999,
+  "tp": 0.02055,
+  "tpSrc": "WH",
+  "slPct": 19.14,
+  "gainPct": 24.85,
+  "rr": 1.3,
+  "lev": 3,
+  "signalTime": 1787722200000,
+  "status": "pending",
+  "createdAt": 1787722241520
  }
 ]
