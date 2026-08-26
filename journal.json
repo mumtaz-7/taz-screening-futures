@@ -11711,5 +11711,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "XLMUSDT::SHORT::BoS::1787776200000",
+  "symbol": "XLMUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1793,
+  "sl": 0.18109999999999998,
+  "tp": 0.1652,
+  "tpSrc": "OB",
+  "slPct": 1,
+  "gainPct": 7.86,
+  "rr": 7.83,
+  "lev": 25,
+  "signalTime": 1787776200000,
+  "status": "pending",
+  "createdAt": 1787776238829
  }
 ]
