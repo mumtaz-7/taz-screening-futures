@@ -11135,9 +11135,12 @@
   "rr": 1.84,
   "lev": 12,
   "signalTime": 1787711400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787711439494,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787713200000
  },
  {
   "id": "BANKUSDT::LONG::BoS::1787712300000",
