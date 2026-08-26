@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ONTUSDT::LONG::ChoCh"
+    "ONTUSDT::LONG::ChoCh",
+    "ZECUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-08-26T08:45:31.875Z"
+  "at": "2026-08-26T09:00:50.380Z"
 }
