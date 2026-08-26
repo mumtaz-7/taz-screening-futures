@@ -11738,5 +11738,22 @@
   ],
   "R": -1,
   "resolvedTime": 1787778000000
+ },
+ {
+  "id": "HEMIUSDT::LONG::BoS::1787781600000",
+  "symbol": "HEMIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00778,
+  "sl": 0.00703,
+  "tp": 0.00934,
+  "tpSrc": "OB",
+  "slPct": 9.64,
+  "gainPct": 20.05,
+  "rr": 2.08,
+  "lev": 6,
+  "signalTime": 1787781600000,
+  "status": "pending",
+  "createdAt": 1787781647207
  }
 ]
