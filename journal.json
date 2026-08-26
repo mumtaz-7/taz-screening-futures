@@ -8596,12 +8596,15 @@
   "rr": 3.53,
   "lev": 13,
   "signalTime": 1787439600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787439645782,
   "fillTime": 1787439600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.53,
+  "resolvedTime": 1787783400000
  },
  {
   "id": "PEOPLEUSDT::SHORT::ChoCh::1787439600000",
@@ -9205,12 +9208,15 @@
   "rr": 8.02,
   "lev": 25,
   "signalTime": 1787484600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787484637779,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787487300000
+  "fillTime": 1787487300000,
+  "R": 8.02,
+  "resolvedTime": 1787783400000
  },
  {
   "id": "MUBARAKUSDT::LONG::BoS::1787491800000",
