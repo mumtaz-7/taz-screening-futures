@@ -10922,9 +10922,12 @@
   "rr": 3,
   "lev": 10,
   "signalTime": 1787683500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787683533136,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "PROMUSDT::LONG::ChoCh::1787683500000",
@@ -11093,5 +11096,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SUPERUSDT::LONG::ChoCh::1787706000000",
+  "symbol": "SUPERUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1145,
+  "sl": 0.11195,
+  "tp": 0.1403,
+  "tpSrc": "WH",
+  "slPct": 2.23,
+  "gainPct": 22.53,
+  "rr": 10.12,
+  "lev": 25,
+  "signalTime": 1787706000000,
+  "status": "pending",
+  "createdAt": 1787706044451
  }
 ]
