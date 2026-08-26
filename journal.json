@@ -11451,9 +11451,12 @@
   "rr": 5.78,
   "lev": 25,
   "signalTime": 1787742900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787742932309,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787751000000
  },
  {
   "id": "JASMYUSDT::LONG::ChoCh::1787747400000",
@@ -11490,8 +11493,12 @@
   "rr": 3.82,
   "lev": 17,
   "signalTime": 1787751000000,
-  "status": "pending",
-  "createdAt": 1787751045821
+  "status": "open",
+  "createdAt": 1787751045821,
+  "fillTime": 1787751000000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "TUTUSDT::LONG::BoS::1787751000000",
@@ -11508,6 +11515,24 @@
   "lev": 16,
   "signalTime": 1787751000000,
   "status": "pending",
-  "createdAt": 1787751045821
+  "createdAt": 1787751045821,
+  "notified": []
+ },
+ {
+  "id": "ONGUSDT::LONG::ChoCh::1787751900000",
+  "symbol": "ONGUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.10978,
+  "sl": 0.09369999999999999,
+  "tp": 0.13161,
+  "tpSrc": "WH",
+  "slPct": 14.65,
+  "gainPct": 19.89,
+  "rr": 1.36,
+  "lev": 4,
+  "signalTime": 1787751900000,
+  "status": "pending",
+  "createdAt": 1787751933191
  }
 ]
