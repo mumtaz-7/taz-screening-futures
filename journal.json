@@ -11572,9 +11572,12 @@
   "rr": 2.13,
   "lev": 14,
   "signalTime": 1787756400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787756450472,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787764500000
  },
  {
   "id": "FFUSDT::SHORT::BoS::1787759100000",
@@ -11634,6 +11637,7 @@
   "lev": 9,
   "signalTime": 1787764500000,
   "status": "pending",
-  "createdAt": 1787764531621
+  "createdAt": 1787764531621,
+  "notified": []
  }
 ]
