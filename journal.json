@@ -11596,5 +11596,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CATIUSDT::LONG::ChoCh::1787760900000",
+  "symbol": "CATIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.04914,
+  "sl": 0.048015,
+  "tp": 0.055205000000000004,
+  "tpSrc": "EQ",
+  "slPct": 2.29,
+  "gainPct": 12.34,
+  "rr": 5.39,
+  "lev": 25,
+  "signalTime": 1787760900000,
+  "status": "pending",
+  "createdAt": 1787760933570
  }
 ]

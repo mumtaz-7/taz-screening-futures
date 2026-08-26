@@ -1,6 +1,8 @@
 {
   "ready": [
+    "CATIUSDT::LONG::ChoCh",
+    "ENAUSDT::SHORT::BoS",
     "FFUSDT::SHORT::BoS"
   ],
-  "at": "2026-08-26T16:00:44.261Z"
+  "at": "2026-08-26T16:15:33.569Z"
 }
