@@ -7576,12 +7576,15 @@
   "rr": 2.81,
   "lev": 9,
   "signalTime": 1787375700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787375732024,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787394600000
+  "fillTime": 1787394600000,
+  "R": 2.81,
+  "resolvedTime": 1787749200000
  },
  {
   "id": "NEIROUSDT::SHORT::ChoCh::1787375700000",
