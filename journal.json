@@ -11636,8 +11636,29 @@
   "rr": 3.02,
   "lev": 9,
   "signalTime": 1787764500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787764531621,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787765400000
+ },
+ {
+  "id": "SPKUSDT::LONG::ChoCh::1787766300000",
+  "symbol": "SPKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.018223,
+  "sl": 0.017686,
+  "tp": 0.020507499999999998,
+  "tpSrc": "EQ",
+  "slPct": 2.95,
+  "gainPct": 12.54,
+  "rr": 4.25,
+  "lev": 20,
+  "signalTime": 1787766300000,
+  "status": "pending",
+  "createdAt": 1787766333153
  }
 ]
