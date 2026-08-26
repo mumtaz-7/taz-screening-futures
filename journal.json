@@ -11364,12 +11364,15 @@
   "rr": 5.58,
   "lev": 23,
   "signalTime": 1787734800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787734850380,
   "fillTime": 1787734800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787782500000
  },
  {
   "id": "ADAUSDT::SHORT::ChoCh::1787736600000",
@@ -11427,12 +11430,15 @@
   "rr": 5.78,
   "lev": 25,
   "signalTime": 1787736600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787736641206,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787739300000
+  "fillTime": 1787739300000,
+  "R": -1,
+  "resolvedTime": 1787782500000
  },
  {
   "id": "PENGUUSDT::SHORT::ChoCh::1787737500000",
