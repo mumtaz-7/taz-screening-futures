@@ -1,9 +1,7 @@
 {
   "ready": [
     "ADAUSDT::SHORT::BoS",
-    "JASMYUSDT::LONG::ChoCh",
-    "ONGUSDT::LONG::ChoCh",
     "TUTUSDT::LONG::BoS"
   ],
-  "at": "2026-08-26T13:45:33.191Z"
+  "at": "2026-08-26T14:00:48.320Z"
 }

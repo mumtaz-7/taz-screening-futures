@@ -10396,12 +10396,15 @@
   "rr": 4.9,
   "lev": 5,
   "signalTime": 1787629500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787629532226,
   "fillTime": 1787629500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 4.9,
+  "resolvedTime": 1787751900000
  },
  {
   "id": "STXUSDT::LONG::BoS::1787634900000",
@@ -11532,7 +11535,12 @@
   "rr": 1.36,
   "lev": 4,
   "signalTime": 1787751900000,
-  "status": "pending",
-  "createdAt": 1787751933191
+  "status": "void",
+  "createdAt": 1787751933191,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787751900000,
+  "notified": [
+   "void"
+  ]
  }
 ]
