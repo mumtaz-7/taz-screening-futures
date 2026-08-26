@@ -8434,12 +8434,15 @@
   "rr": 2.01,
   "lev": 9,
   "signalTime": 1787423400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787423441752,
   "fillTime": 1787423400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787750100000
  },
  {
   "id": "MUBARAKUSDT::LONG::ChoCh::1787424300000",
@@ -11472,5 +11475,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ADAUSDT::SHORT::BoS::1787751000000",
+  "symbol": "ADAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.2075,
+  "sl": 0.21485,
+  "tp": 0.1794,
+  "tpSrc": "OB",
+  "slPct": 3.54,
+  "gainPct": 13.54,
+  "rr": 3.82,
+  "lev": 17,
+  "signalTime": 1787751000000,
+  "status": "pending",
+  "createdAt": 1787751045821
+ },
+ {
+  "id": "TUTUSDT::LONG::BoS::1787751000000",
+  "symbol": "TUTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.047,
+  "sl": 0.04529,
+  "tp": 0.07832,
+  "tpSrc": "OB",
+  "slPct": 3.64,
+  "gainPct": 66.64,
+  "rr": 18.32,
+  "lev": 16,
+  "signalTime": 1787751000000,
+  "status": "pending",
+  "createdAt": 1787751045821
  }
 ]
