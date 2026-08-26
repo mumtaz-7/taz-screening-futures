@@ -1,7 +1,7 @@
 {
   "ready": [
-    "SUPERUSDT::LONG::ChoCh",
-    "TRUMPUSDT::SHORT::BoS"
+    "PROMUSDT::LONG::ChoCh",
+    "SUPERUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-26T01:00:44.450Z"
+  "at": "2026-08-26T01:15:32.269Z"
 }
