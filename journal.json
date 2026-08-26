@@ -11072,9 +11072,12 @@
   "rr": 4.54,
   "lev": 13,
   "signalTime": 1787690700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787690734817,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "MORPHOUSDT::SHORT::BoS::1787696100000",
@@ -11150,7 +11153,11 @@
   "rr": 2.5,
   "lev": 18,
   "signalTime": 1787712300000,
-  "status": "pending",
-  "createdAt": 1787712331442
+  "status": "open",
+  "createdAt": 1787712331442,
+  "fillTime": 1787712300000,
+  "notified": [
+   "open"
+  ]
  }
 ]
