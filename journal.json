@@ -11120,12 +11120,15 @@
   "rr": 10.12,
   "lev": 25,
   "signalTime": 1787706000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787706044451,
   "fillTime": 1787706000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787734800000
  },
  {
   "id": "AEROUSDT::LONG::ChoCh::1787711400000",
@@ -11334,7 +11337,11 @@
   "rr": 5.58,
   "lev": 23,
   "signalTime": 1787734800000,
-  "status": "pending",
-  "createdAt": 1787734850380
+  "status": "open",
+  "createdAt": 1787734850380,
+  "fillTime": 1787734800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
