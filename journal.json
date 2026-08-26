@@ -11343,5 +11343,56 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ADAUSDT::SHORT::ChoCh::1787736600000",
+  "symbol": "ADAUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.2098,
+  "sl": 0.21295000000000003,
+  "tp": 0.1794,
+  "tpSrc": "OB",
+  "slPct": 1.5,
+  "gainPct": 14.49,
+  "rr": 9.65,
+  "lev": 25,
+  "signalTime": 1787736600000,
+  "status": "pending",
+  "createdAt": 1787736641206
+ },
+ {
+  "id": "BONKUSDT::SHORT::ChoCh::1787736600000",
+  "symbol": "BONKUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.000003,
+  "sl": 0.0000030600000000000003,
+  "tp": 0.00000263,
+  "tpSrc": "OB",
+  "slPct": 2,
+  "gainPct": 12.33,
+  "rr": 6.17,
+  "lev": 25,
+  "signalTime": 1787736600000,
+  "status": "pending",
+  "createdAt": 1787736641206
+ },
+ {
+  "id": "ETCUSDT::SHORT::ChoCh::1787736600000",
+  "symbol": "ETCUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 7.71,
+  "sl": 7.845,
+  "tp": 6.93,
+  "tpSrc": "OB",
+  "slPct": 1.75,
+  "gainPct": 10.12,
+  "rr": 5.78,
+  "lev": 25,
+  "signalTime": 1787736600000,
+  "status": "pending",
+  "createdAt": 1787736641206
  }
 ]
