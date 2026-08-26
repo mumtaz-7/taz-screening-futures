@@ -11573,6 +11573,24 @@
   "lev": 14,
   "signalTime": 1787756400000,
   "status": "pending",
-  "createdAt": 1787756450472
+  "createdAt": 1787756450472,
+  "notified": []
+ },
+ {
+  "id": "FFUSDT::SHORT::BoS::1787759100000",
+  "symbol": "FFUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.09637,
+  "sl": 0.10666,
+  "tp": 0.07752,
+  "tpSrc": "OB",
+  "slPct": 10.68,
+  "gainPct": 19.56,
+  "rr": 1.83,
+  "lev": 6,
+  "signalTime": 1787759100000,
+  "status": "pending",
+  "createdAt": 1787759267956
  }
 ]
