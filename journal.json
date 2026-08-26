@@ -11234,12 +11234,15 @@
   "rr": 11.45,
   "lev": 17,
   "signalTime": 1787720400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787720444688,
   "fillTime": 1787720400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787785200000
  },
  {
   "id": "PORTALUSDT::LONG::BoS::1787722200000",
@@ -11771,5 +11774,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SPKUSDT::LONG::BoS::1787786100000",
+  "symbol": "SPKUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01872,
+  "sl": 0.018383999999999998,
+  "tp": 0.024166,
+  "tpSrc": "WH",
+  "slPct": 1.79,
+  "gainPct": 29.09,
+  "rr": 16.21,
+  "lev": 25,
+  "signalTime": 1787786100000,
+  "status": "pending",
+  "createdAt": 1787786136294
  }
 ]
