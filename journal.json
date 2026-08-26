@@ -11469,12 +11469,15 @@
   "rr": 5.78,
   "lev": 25,
   "signalTime": 1787742900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787742932309,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787751000000
+  "fillTime": 1787751000000,
+  "R": -1,
+  "resolvedTime": 1787777100000
  },
  {
   "id": "JASMYUSDT::LONG::ChoCh::1787747400000",
