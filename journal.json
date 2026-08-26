@@ -11289,12 +11289,15 @@
   "rr": 4.84,
   "lev": 25,
   "signalTime": 1787730300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787730334452,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787731200000
+  "fillTime": 1787731200000,
+  "R": -1,
+  "resolvedTime": 1787733000000
  },
  {
   "id": "ONTUSDT::LONG::ChoCh::1787731200000",
