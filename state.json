@@ -1,6 +1,7 @@
 {
   "ready": [
-    "BCHUSDT::SHORT::ChoCh"
+    "SOLVUSDT::LONG::ChoCh",
+    "XPLUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-08-26T06:30:40.724Z"
+  "at": "2026-08-26T06:45:34.187Z"
 }

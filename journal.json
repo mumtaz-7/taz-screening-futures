@@ -11229,5 +11229,39 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "SOLVUSDT::LONG::ChoCh::1787726700000",
+  "symbol": "SOLVUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00291,
+  "sl": 0.002775,
+  "tp": 0.0032,
+  "tpSrc": "WH",
+  "slPct": 4.64,
+  "gainPct": 9.97,
+  "rr": 2.15,
+  "lev": 13,
+  "signalTime": 1787726700000,
+  "status": "pending",
+  "createdAt": 1787726734188
+ },
+ {
+  "id": "XPLUSDT::SHORT::ChoCh::1787726700000",
+  "symbol": "XPLUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.09137,
+  "sl": 0.09487999999999999,
+  "tp": 0.08269,
+  "tpSrc": "OB",
+  "slPct": 3.84,
+  "gainPct": 9.5,
+  "rr": 2.47,
+  "lev": 15,
+  "signalTime": 1787726700000,
+  "status": "pending",
+  "createdAt": 1787726734188
  }
 ]
