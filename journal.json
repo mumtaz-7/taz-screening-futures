@@ -11030,12 +11030,15 @@
   "rr": 6.51,
   "lev": 25,
   "signalTime": 1787690700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787690734817,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787695200000
+  "fillTime": 1787695200000,
+  "R": -1,
+  "resolvedTime": 1787731200000
  },
  {
   "id": "PUMPUSDT::SHORT::BoS::1787690700000",
@@ -11286,9 +11289,12 @@
   "rr": 4.84,
   "lev": 25,
   "signalTime": 1787730300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787730334452,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787731200000
  },
  {
   "id": "ONTUSDT::LONG::ChoCh::1787731200000",
@@ -11304,7 +11310,11 @@
   "rr": 2.3,
   "lev": 13,
   "signalTime": 1787731200000,
-  "status": "pending",
-  "createdAt": 1787731247956
+  "status": "open",
+  "createdAt": 1787731247956,
+  "fillTime": 1787731200000,
+  "notified": [
+   "open"
+  ]
  }
 ]
