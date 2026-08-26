@@ -1,8 +1,6 @@
 {
   "ready": [
-    "BCHUSDT::SHORT::ChoCh",
-    "ENAUSDT::SHORT::BoS",
-    "PORTALUSDT::LONG::BoS"
+    "BCHUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-08-26T06:15:36.515Z"
+  "at": "2026-08-26T06:30:40.724Z"
 }
