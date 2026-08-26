@@ -9684,12 +9684,15 @@
   "rr": 4.38,
   "lev": 19,
   "signalTime": 1787546700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787546732399,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787547600000
+  "fillTime": 1787547600000,
+  "R": -1,
+  "resolvedTime": 1787752800000
  },
  {
   "id": "XPLUSDT::LONG::ChoCh::1787549400000",
