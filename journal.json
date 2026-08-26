@@ -11204,12 +11204,15 @@
   "rr": 1.78,
   "lev": 10,
   "signalTime": 1787718600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787718641388,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787723100000
+  "fillTime": 1787723100000,
+  "R": -1,
+  "resolvedTime": 1787755500000
  },
  {
   "id": "ENAUSDT::SHORT::BoS::1787720400000",
@@ -11554,5 +11557,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ETHFIUSDT::SHORT::ChoCh::1787756400000",
+  "symbol": "ETHFIUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.5688,
+  "sl": 0.5934000000000001,
+  "tp": 0.5164,
+  "tpSrc": "OB",
+  "slPct": 4.32,
+  "gainPct": 9.21,
+  "rr": 2.13,
+  "lev": 14,
+  "signalTime": 1787756400000,
+  "status": "pending",
+  "createdAt": 1787756450472
  }
 ]

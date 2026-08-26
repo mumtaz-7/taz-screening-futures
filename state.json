@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ADAUSDT::SHORT::BoS"
+    "DASHUSDT::SHORT::BoS",
+    "ETHFIUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-08-26T14:45:35.028Z"
+  "at": "2026-08-26T15:00:50.471Z"
 }
