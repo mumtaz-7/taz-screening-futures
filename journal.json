@@ -11244,8 +11244,12 @@
   "rr": 2.15,
   "lev": 13,
   "signalTime": 1787726700000,
-  "status": "pending",
-  "createdAt": 1787726734188
+  "status": "open",
+  "createdAt": 1787726734188,
+  "fillTime": 1787726700000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "XPLUSDT::SHORT::ChoCh::1787726700000",
@@ -11261,7 +11265,11 @@
   "rr": 2.47,
   "lev": 15,
   "signalTime": 1787726700000,
-  "status": "pending",
-  "createdAt": 1787726734188
+  "status": "open",
+  "createdAt": 1787726734188,
+  "fillTime": 1787726700000,
+  "notified": [
+   "open"
+  ]
  }
 ]
