@@ -11448,5 +11448,22 @@
   "status": "pending",
   "createdAt": 1787742932309,
   "notified": []
+ },
+ {
+  "id": "JASMYUSDT::LONG::ChoCh::1787747400000",
+  "symbol": "JASMYUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00478,
+  "sl": 0.004569999999999999,
+  "tp": 0.00538,
+  "tpSrc": "WH",
+  "slPct": 4.39,
+  "gainPct": 12.55,
+  "rr": 2.86,
+  "lev": 14,
+  "signalTime": 1787747400000,
+  "status": "pending",
+  "createdAt": 1787747441310
  }
 ]

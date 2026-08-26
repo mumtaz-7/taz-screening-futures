@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ACEUSDT::SHORT::BoS"
+    "ACEUSDT::SHORT::BoS",
+    "JASMYUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-26T12:15:32.556Z"
+  "at": "2026-08-26T12:30:41.310Z"
 }
