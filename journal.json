@@ -11792,5 +11792,22 @@
   "status": "pending",
   "createdAt": 1787786136294,
   "notified": []
+ },
+ {
+  "id": "CATIUSDT::LONG::BoS::1787787900000",
+  "symbol": "CATIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.05077,
+  "sl": 0.04798,
+  "tp": 0.063,
+  "tpSrc": "WH",
+  "slPct": 5.5,
+  "gainPct": 24.09,
+  "rr": 4.38,
+  "lev": 11,
+  "signalTime": 1787787900000,
+  "status": "pending",
+  "createdAt": 1787787932111
  }
 ]
