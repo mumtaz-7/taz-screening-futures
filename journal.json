@@ -11180,9 +11180,12 @@
   "rr": 1.78,
   "lev": 10,
   "signalTime": 1787718600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787718641388,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787723100000
  },
  {
   "id": "ENAUSDT::SHORT::BoS::1787720400000",
