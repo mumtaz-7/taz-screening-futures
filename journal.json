@@ -11664,5 +11664,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ONTUSDT::LONG::ChoCh::1787769900000",
+  "symbol": "ONTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.06089,
+  "sl": 0.054335,
+  "tp": 0.0677,
+  "tpSrc": "WH",
+  "slPct": 10.77,
+  "gainPct": 11.18,
+  "rr": 1.04,
+  "lev": 6,
+  "signalTime": 1787769900000,
+  "status": "pending",
+  "createdAt": 1787769932520
  }
 ]
