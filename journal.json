@@ -12014,9 +12014,12 @@
   "rr": 2.58,
   "lev": 8,
   "signalTime": 1787832000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787832048764,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "HEIUSDT::LONG::ChoCh::1787836500000",
@@ -12096,7 +12099,11 @@
   "rr": 11.66,
   "lev": 7,
   "signalTime": 1787853600000,
-  "status": "pending",
-  "createdAt": 1787853650100
+  "status": "open",
+  "createdAt": 1787853650100,
+  "fillTime": 1787853600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
