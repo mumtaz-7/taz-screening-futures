@@ -11906,12 +11906,15 @@
   "rr": 2.2,
   "lev": 5,
   "signalTime": 1787813100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787813133102,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787814900000
+  "fillTime": 1787814900000,
+  "R": -1,
+  "resolvedTime": 1787826600000
  },
  {
   "id": "FIDAUSDT::LONG::ChoCh::1787818500000",
@@ -11949,6 +11952,7 @@
   "lev": 8,
   "signalTime": 1787826600000,
   "status": "pending",
-  "createdAt": 1787826641802
+  "createdAt": 1787826641802,
+  "notified": []
  }
 ]
