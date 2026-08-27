@@ -12081,5 +12081,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1787846400000
+ },
+ {
+  "id": "ONGUSDT::LONG::BoS::1787853600000",
+  "symbol": "ONGUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.12985,
+  "sl": 0.11869000000000002,
+  "tp": 0.26,
+  "tpSrc": "WH",
+  "slPct": 8.59,
+  "gainPct": 100.23,
+  "rr": 11.66,
+  "lev": 7,
+  "signalTime": 1787853600000,
+  "status": "pending",
+  "createdAt": 1787853650100
  }
 ]
