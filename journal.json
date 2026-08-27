@@ -11123,12 +11123,15 @@
   "rr": 2.61,
   "lev": 16,
   "signalTime": 1787696100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787696134160,
   "fillTime": 1787696100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787806800000
  },
  {
   "id": "SUPERUSDT::LONG::ChoCh::1787706000000",
@@ -11825,5 +11828,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "TUTUSDT::LONG::ChoCh::1787807700000",
+  "symbol": "TUTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.05354,
+  "sl": 0.048065,
+  "tp": 0.07832,
+  "tpSrc": "OB",
+  "slPct": 10.23,
+  "gainPct": 46.28,
+  "rr": 4.53,
+  "lev": 6,
+  "signalTime": 1787807700000,
+  "status": "pending",
+  "createdAt": 1787807732065
  }
 ]
