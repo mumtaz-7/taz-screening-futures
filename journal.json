@@ -12023,9 +12023,12 @@
   "rr": 2.42,
   "lev": 9,
   "signalTime": 1787836500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787836534077,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787847300000
  },
  {
   "id": "ONGUSDT::LONG::ChoCh::1787839200000",
