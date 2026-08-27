@@ -11544,12 +11544,15 @@
   "rr": 3.82,
   "lev": 17,
   "signalTime": 1787751000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787751045821,
   "fillTime": 1787751000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787819400000
  },
  {
   "id": "TUTUSDT::LONG::BoS::1787751000000",
@@ -11629,12 +11632,15 @@
   "rr": 1.83,
   "lev": 6,
   "signalTime": 1787759100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787759267956,
   "fillTime": 1787759100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787819400000
  },
  {
   "id": "CATIUSDT::LONG::ChoCh::1787760900000",
