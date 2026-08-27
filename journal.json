@@ -11981,12 +11981,15 @@
   "rr": 1.02,
   "lev": 6,
   "signalTime": 1787829300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787829332328,
   "fillTime": 1787829300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787846400000
  },
  {
   "id": "FFUSDT::SHORT::ChoCh::1787832000000",
@@ -12059,8 +12062,12 @@
   "rr": 2.27,
   "lev": 11,
   "signalTime": 1787840100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787840136111,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787846400000
  }
 ]
