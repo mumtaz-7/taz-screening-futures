@@ -12120,7 +12120,11 @@
   "rr": 2.5,
   "lev": 12,
   "signalTime": 1787859000000,
-  "status": "pending",
-  "createdAt": 1787859040491
+  "status": "open",
+  "createdAt": 1787859040491,
+  "fillTime": 1787859000000,
+  "notified": [
+   "open"
+  ]
  }
 ]
