@@ -1,7 +1,8 @@
 {
   "ready": [
+    "BMTUSDT::SHORT::BoS",
     "HEMIUSDT::LONG::BoS",
     "PUMPUSDT::SHORT::BoS"
   ],
-  "at": "2026-08-27T06:30:46.019Z"
+  "at": "2026-08-27T06:45:33.101Z"
 }
