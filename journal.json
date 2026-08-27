@@ -11927,8 +11927,28 @@
   "rr": 5.91,
   "lev": 25,
   "signalTime": 1787818500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787818534664,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787825700000
+ },
+ {
+  "id": "BICOUSDT::LONG::BoS::1787826600000",
+  "symbol": "BICOUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.02754,
+  "sl": 0.025349999999999998,
+  "tp": 0.03196,
+  "tpSrc": "WH",
+  "slPct": 7.95,
+  "gainPct": 16.05,
+  "rr": 2.02,
+  "lev": 8,
+  "signalTime": 1787826600000,
+  "status": "pending",
+  "createdAt": 1787826641802
  }
 ]
