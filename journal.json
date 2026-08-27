@@ -12105,5 +12105,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "WLFIUSDT::LONG::BoS::1787859000000",
+  "symbol": "WLFIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.06,
+  "sl": 0.05700000000000001,
+  "tp": 0.0675,
+  "tpSrc": "OB",
+  "slPct": 5,
+  "gainPct": 12.5,
+  "rr": 2.5,
+  "lev": 12,
+  "signalTime": 1787859000000,
+  "status": "pending",
+  "createdAt": 1787859040491
  }
 ]
