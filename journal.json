@@ -10691,12 +10691,15 @@
   "rr": 5.7,
   "lev": 13,
   "signalTime": 1787652900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787652935987,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787654700000
+  "fillTime": 1787654700000,
+  "R": -1,
+  "resolvedTime": 1787841000000
  },
  {
   "id": "BCHUSDT::SHORT::BoS::1787660100000",
