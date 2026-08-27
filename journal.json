@@ -11481,12 +11481,15 @@
   "rr": 6.83,
   "lev": 19,
   "signalTime": 1787737500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787737531460,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787739300000
+  "fillTime": 1787739300000,
+  "R": -1,
+  "resolvedTime": 1787822100000
  },
  {
   "id": "ACEUSDT::SHORT::BoS::1787742900000",
