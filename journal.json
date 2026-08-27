@@ -11027,12 +11027,15 @@
   "rr": 4.17,
   "lev": 21,
   "signalTime": 1787688900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787688935521,
   "fillTime": 1787688900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787850900000
  },
  {
   "id": "ENAUSDT::SHORT::ChoCh::1787690700000",
