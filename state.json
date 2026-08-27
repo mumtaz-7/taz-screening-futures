@@ -2,7 +2,8 @@
   "ready": [
     "HEIUSDT::LONG::ChoCh",
     "ONGUSDT::LONG::ChoCh",
+    "TRUMPUSDT::LONG::BoS",
     "TUTUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-27T14:00:49.437Z"
+  "at": "2026-08-27T14:15:36.110Z"
 }
