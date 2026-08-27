@@ -11798,12 +11798,15 @@
   "rr": 2.08,
   "lev": 6,
   "signalTime": 1787781600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787781647207,
   "fillTime": 1787781600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.08,
+  "resolvedTime": 1787831100000
  },
  {
   "id": "SPKUSDT::LONG::BoS::1787786100000",
@@ -11978,5 +11981,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "FFUSDT::SHORT::ChoCh::1787832000000",
+  "symbol": "FFUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.09618,
+  "sl": 0.103425,
+  "tp": 0.07752,
+  "tpSrc": "OB",
+  "slPct": 7.53,
+  "gainPct": 19.4,
+  "rr": 2.58,
+  "lev": 8,
+  "signalTime": 1787832000000,
+  "status": "pending",
+  "createdAt": 1787832048764
  }
 ]
