@@ -11039,12 +11039,15 @@
   "rr": 5.35,
   "lev": 8,
   "signalTime": 1787690700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787690734817,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787695200000
+  "fillTime": 1787695200000,
+  "R": -1,
+  "resolvedTime": 1787821200000
  },
  {
   "id": "PENDLEUSDT::SHORT::BoS::1787690700000",
@@ -11700,12 +11703,15 @@
   "rr": 4.25,
   "lev": 20,
   "signalTime": 1787766300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787766333153,
   "fillTime": 1787766300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 4.25,
+  "resolvedTime": 1787821200000
  },
  {
   "id": "ONTUSDT::LONG::ChoCh::1787769900000",
