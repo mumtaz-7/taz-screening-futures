@@ -12163,6 +12163,24 @@
   "lev": 15,
   "signalTime": 1787868000000,
   "status": "pending",
-  "createdAt": 1787868050239
+  "createdAt": 1787868050239,
+  "notified": []
+ },
+ {
+  "id": "ONTUSDT::LONG::BoS::1787868900000",
+  "symbol": "ONTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.05989,
+  "sl": 0.058405,
+  "tp": 0.07478,
+  "tpSrc": "WH",
+  "slPct": 2.48,
+  "gainPct": 24.86,
+  "rr": 10.03,
+  "lev": 23,
+  "signalTime": 1787868900000,
+  "status": "pending",
+  "createdAt": 1787868932639
  }
 ]
