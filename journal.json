@@ -11795,9 +11795,12 @@
   "rr": 16.21,
   "lev": 25,
   "signalTime": 1787786100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787786136294,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787788800000
  },
  {
   "id": "CATIUSDT::LONG::BoS::1787787900000",
