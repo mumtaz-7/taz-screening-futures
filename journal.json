@@ -12181,6 +12181,24 @@
   "lev": 23,
   "signalTime": 1787868900000,
   "status": "pending",
-  "createdAt": 1787868932639
+  "createdAt": 1787868932639,
+  "notified": []
+ },
+ {
+  "id": "BICOUSDT::LONG::ChoCh::1787869800000",
+  "symbol": "BICOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.02626,
+  "sl": 0.023575,
+  "tp": 0.03196,
+  "tpSrc": "WH",
+  "slPct": 10.22,
+  "gainPct": 21.71,
+  "rr": 2.12,
+  "lev": 6,
+  "signalTime": 1787869800000,
+  "status": "pending",
+  "createdAt": 1787869841667
  }
 ]
