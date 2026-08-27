@@ -12147,5 +12147,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SPKUSDT::LONG::ChoCh::1787868000000",
+  "symbol": "SPKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.019479,
+  "sl": 0.018711000000000002,
+  "tp": 0.0209845,
+  "tpSrc": "EQ",
+  "slPct": 3.94,
+  "gainPct": 7.73,
+  "rr": 1.96,
+  "lev": 15,
+  "signalTime": 1787868000000,
+  "status": "pending",
+  "createdAt": 1787868050239
  }
 ]
