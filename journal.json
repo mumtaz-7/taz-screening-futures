@@ -11879,12 +11879,15 @@
   "rr": 4.53,
   "lev": 6,
   "signalTime": 1787807700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787807732065,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787823900000
+  "fillTime": 1787823900000,
+  "R": -1,
+  "resolvedTime": 1787871600000
  },
  {
   "id": "PUMPUSDT::SHORT::BoS::1787808600000",
@@ -12162,9 +12165,12 @@
   "rr": 1.96,
   "lev": 15,
   "signalTime": 1787868000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787868050239,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787871600000
  },
  {
   "id": "ONTUSDT::LONG::BoS::1787868900000",
