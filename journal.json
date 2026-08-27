@@ -11999,5 +11999,22 @@
   "status": "pending",
   "createdAt": 1787832048764,
   "notified": []
+ },
+ {
+  "id": "HEIUSDT::LONG::ChoCh::1787836500000",
+  "symbol": "HEIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1453,
+  "sl": 0.13539999999999996,
+  "tp": 0.1693,
+  "tpSrc": "WH",
+  "slPct": 6.81,
+  "gainPct": 16.52,
+  "rr": 2.42,
+  "lev": 9,
+  "signalTime": 1787836500000,
+  "status": "pending",
+  "createdAt": 1787836534077
  }
 ]
