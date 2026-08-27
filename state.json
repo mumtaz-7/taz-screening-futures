@@ -1,7 +1,7 @@
 {
   "ready": [
-    "BMTUSDT::SHORT::BoS",
-    "CATIUSDT::LONG::BoS"
+    "CATIUSDT::LONG::BoS",
+    "FIDAUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-27T08:00:48.581Z"
+  "at": "2026-08-27T08:15:34.663Z"
 }

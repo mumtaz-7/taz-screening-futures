@@ -9187,12 +9187,15 @@
   "rr": 1.95,
   "lev": 10,
   "signalTime": 1787481900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787481930656,
   "fillTime": 1787481900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.95,
+  "resolvedTime": 1787817600000
  },
  {
   "id": "CHIPUSDT::LONG::BoS::1787484600000",
@@ -10709,12 +10712,15 @@
   "rr": 13.46,
   "lev": 25,
   "signalTime": 1787660100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787660134756,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787661900000
+  "fillTime": 1787661900000,
+  "R": -1,
+  "resolvedTime": 1787817600000
  },
  {
   "id": "FETUSDT::SHORT::BoS::1787661000000",
@@ -11888,5 +11894,22 @@
    "open"
   ],
   "fillTime": 1787814900000
+ },
+ {
+  "id": "FIDAUSDT::LONG::ChoCh::1787818500000",
+  "symbol": "FIDAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01971,
+  "sl": 0.019365,
+  "tp": 0.02175,
+  "tpSrc": "WH",
+  "slPct": 1.75,
+  "gainPct": 10.35,
+  "rr": 5.91,
+  "lev": 25,
+  "signalTime": 1787818500000,
+  "status": "pending",
+  "createdAt": 1787818534664
  }
 ]
