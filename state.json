@@ -2,9 +2,7 @@
   "ready": [
     "ENAUSDT::LONG::BoS",
     "ONGUSDT::LONG::ChoCh",
-    "TRUMPUSDT::LONG::BoS",
-    "WLFIUSDT::LONG::BoS",
-    "ZROUSDT::LONG::ChoCh"
+    "WLFIUSDT::LONG::BoS"
   ],
-  "at": "2026-08-28T01:45:34.225Z"
+  "at": "2026-08-28T02:00:46.448Z"
 }

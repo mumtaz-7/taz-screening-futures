@@ -12277,12 +12277,15 @@
   "rr": 4.35,
   "lev": 20,
   "signalTime": 1787879700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787879770152,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787880600000
+  "fillTime": 1787880600000,
+  "R": -1,
+  "resolvedTime": 1787881500000
  },
  {
   "id": "ENAUSDT::LONG::BoS::1787881500000",
@@ -12299,6 +12302,7 @@
   "lev": 16,
   "signalTime": 1787881500000,
   "status": "pending",
-  "createdAt": 1787881534226
+  "createdAt": 1787881534226,
+  "notified": []
  }
 ]
