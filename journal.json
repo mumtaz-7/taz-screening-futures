@@ -12352,9 +12352,12 @@
   "rr": 5.04,
   "lev": 25,
   "signalTime": 1787883300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787883333878,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "BICOUSDT::LONG::BoS::1787887800000",
