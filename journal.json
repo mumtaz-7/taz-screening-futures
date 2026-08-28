@@ -12741,9 +12741,12 @@
   "rr": 3.26,
   "lev": 11,
   "signalTime": 1787933700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787933735149,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "BICOUSDT::SHORT::BoS::1787934600000",
