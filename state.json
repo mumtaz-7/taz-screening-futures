@@ -1,8 +1,6 @@
 {
   "ready": [
-    "BICOUSDT::LONG::BoS",
-    "EDENUSDT::LONG::ChoCh",
-    "INJUSDT::SHORT::ChoCh"
+    "BICOUSDT::LONG::BoS"
   ],
-  "at": "2026-08-28T03:30:40.947Z"
+  "at": "2026-08-28T03:45:32.424Z"
 }
