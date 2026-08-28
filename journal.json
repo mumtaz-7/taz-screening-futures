@@ -12527,7 +12527,29 @@
   "rr": 1.85,
   "lev": 11,
   "signalTime": 1787913000000,
+  "status": "void",
+  "createdAt": 1787913039752,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787913000000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "ONTUSDT::LONG::ChoCh::1787913900000",
+  "symbol": "ONTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.05654,
+  "sl": 0.05369,
+  "tp": 0.062745,
+  "tpSrc": "EQ",
+  "slPct": 5.04,
+  "gainPct": 10.97,
+  "rr": 2.18,
+  "lev": 12,
+  "signalTime": 1787913900000,
   "status": "pending",
-  "createdAt": 1787913039752
+  "createdAt": 1787913933869
  }
 ]
