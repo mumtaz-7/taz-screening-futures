@@ -12219,12 +12219,15 @@
   "rr": 2.12,
   "lev": 6,
   "signalTime": 1787869800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787869841667,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787870700000
+  "fillTime": 1787870700000,
+  "R": -1,
+  "resolvedTime": 1787915700000
  },
  {
   "id": "FFUSDT::SHORT::BoS::1787875200000",
@@ -12379,12 +12382,15 @@
   "rr": 1.43,
   "lev": 5,
   "signalTime": 1787887800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787887840948,
   "fillTime": 1787887800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787915700000
  },
  {
   "id": "POLUSDT::SHORT::ChoCh::1787889600000",
