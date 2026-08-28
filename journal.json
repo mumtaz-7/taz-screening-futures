@@ -8506,12 +8506,15 @@
   "rr": 2.82,
   "lev": 16,
   "signalTime": 1787433300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787433334157,
   "fillTime": 1787433300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.82,
+  "resolvedTime": 1787932800000
  },
  {
   "id": "PNUTUSDT::SHORT::ChoCh::1787433300000",
@@ -9678,12 +9681,15 @@
   "rr": 3.82,
   "lev": 22,
   "signalTime": 1787545800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787545843059,
   "fillTime": 1787545800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787932800000
  },
  {
   "id": "REUSDT::LONG::BoS::1787546700000",
@@ -10853,12 +10859,15 @@
   "rr": 2.09,
   "lev": 12,
   "signalTime": 1787664600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787664640895,
   "fillTime": 1787664600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.09,
+  "resolvedTime": 1787932800000
  },
  {
   "id": "PYTHUSDT::LONG::ChoCh::1787670000000",
@@ -11195,12 +11204,15 @@
   "rr": 1.84,
   "lev": 12,
   "signalTime": 1787711400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787711439494,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787713200000
+  "fillTime": 1787713200000,
+  "R": -1,
+  "resolvedTime": 1787932800000
  },
  {
   "id": "BANKUSDT::LONG::BoS::1787712300000",
@@ -11331,12 +11343,15 @@
   "rr": 2.47,
   "lev": 15,
   "signalTime": 1787726700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787726734188,
   "fillTime": 1787726700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.47,
+  "resolvedTime": 1787932800000
  },
  {
   "id": "ETHFIUSDT::SHORT::ChoCh::1787730300000",
@@ -12675,5 +12690,22 @@
    "open"
   ],
   "fillTime": 1787931900000
+ },
+ {
+  "id": "OPGUSDT::SHORT::BoS::1787933700000",
+  "symbol": "OPGUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0966,
+  "sl": 0.102,
+  "tp": 0.079,
+  "tpSrc": "WL",
+  "slPct": 5.59,
+  "gainPct": 18.22,
+  "rr": 3.26,
+  "lev": 11,
+  "signalTime": 1787933700000,
+  "status": "pending",
+  "createdAt": 1787933735149
  }
 ]
