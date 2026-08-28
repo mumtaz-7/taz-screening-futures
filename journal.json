@@ -12415,5 +12415,22 @@
    "open"
   ],
   "fillTime": 1787897700000
+ },
+ {
+  "id": "HEMIUSDT::LONG::ChoCh::1787900400000",
+  "symbol": "HEMIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01086,
+  "sl": 0.009750000000000002,
+  "tp": 0.01239,
+  "tpSrc": "WH",
+  "slPct": 10.22,
+  "gainPct": 14.09,
+  "rr": 1.38,
+  "lev": 6,
+  "signalTime": 1787900400000,
+  "status": "pending",
+  "createdAt": 1787900448912
  }
 ]
