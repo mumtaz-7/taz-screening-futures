@@ -12579,5 +12579,22 @@
    "open"
   ],
   "fillTime": 1787916600000
+ },
+ {
+  "id": "WIFUSDT::LONG::ChoCh::1787920200000",
+  "symbol": "WIFUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.2181,
+  "sl": 0.20850000000000002,
+  "tp": 0.2372,
+  "tpSrc": "WH",
+  "slPct": 4.4,
+  "gainPct": 8.76,
+  "rr": 1.99,
+  "lev": 14,
+  "signalTime": 1787920200000,
+  "status": "pending",
+  "createdAt": 1787920244557
  }
 ]
