@@ -12789,5 +12789,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "AAVEUSDT::SHORT::BoS::1787957100000",
+  "symbol": "AAVEUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 121.17,
+  "sl": 122.89499999999998,
+  "tp": 110.21,
+  "tpSrc": "OB",
+  "slPct": 1.42,
+  "gainPct": 9.05,
+  "rr": 6.35,
+  "lev": 25,
+  "signalTime": 1787957100000,
+  "status": "pending",
+  "createdAt": 1787957133108
  }
 ]
