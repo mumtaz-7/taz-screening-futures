@@ -12213,5 +12213,22 @@
    "open"
   ],
   "fillTime": 1787870700000
+ },
+ {
+  "id": "FFUSDT::SHORT::BoS::1787875200000",
+  "symbol": "FFUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.08952,
+  "sl": 0.091035,
+  "tp": 0.07752,
+  "tpSrc": "OB",
+  "slPct": 1.69,
+  "gainPct": 13.4,
+  "rr": 7.92,
+  "lev": 25,
+  "signalTime": 1787875200000,
+  "status": "pending",
+  "createdAt": 1787875251851
  }
 ]
