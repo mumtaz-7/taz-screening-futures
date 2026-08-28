@@ -12485,5 +12485,22 @@
    "open"
   ],
   "fillTime": 1787903100000
+ },
+ {
+  "id": "MORPHOUSDT::LONG::BoS::1787907600000",
+  "symbol": "MORPHOUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 2.531,
+  "sl": 2.447,
+  "tp": 2.761,
+  "tpSrc": "OB",
+  "slPct": 3.32,
+  "gainPct": 9.09,
+  "rr": 2.74,
+  "lev": 18,
+  "signalTime": 1787907600000,
+  "status": "pending",
+  "createdAt": 1787907649252
  }
 ]
