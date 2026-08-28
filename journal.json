@@ -12421,12 +12421,15 @@
   "rr": 1.59,
   "lev": 10,
   "signalTime": 1787895900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787895932557,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787897700000
+  "fillTime": 1787897700000,
+  "R": 1.59,
+  "resolvedTime": 1787912100000
  },
  {
   "id": "HEMIUSDT::LONG::ChoCh::1787900400000",
@@ -12509,5 +12512,22 @@
   "status": "pending",
   "createdAt": 1787907649252,
   "notified": []
+ },
+ {
+  "id": "PROMUSDT::LONG::BoS::1787913000000",
+  "symbol": "PROMUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 4.94,
+  "sl": 4.67,
+  "tp": 5.439,
+  "tpSrc": "WH",
+  "slPct": 5.47,
+  "gainPct": 10.1,
+  "rr": 1.85,
+  "lev": 11,
+  "signalTime": 1787913000000,
+  "status": "pending",
+  "createdAt": 1787913039752
  }
 ]
