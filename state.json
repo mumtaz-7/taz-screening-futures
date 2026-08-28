@@ -2,7 +2,8 @@
   "ready": [
     "BCHUSDT::SHORT::BoS",
     "HEMIUSDT::LONG::ChoCh",
+    "PEOPLEUSDT::LONG::BoS",
     "WLFIUSDT::LONG::BoS"
   ],
-  "at": "2026-08-28T07:15:32.951Z"
+  "at": "2026-08-28T07:30:41.966Z"
 }

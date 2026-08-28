@@ -12433,9 +12433,13 @@
   "rr": 1.38,
   "lev": 6,
   "signalTime": 1787900400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787900448912,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787901300000
  },
  {
   "id": "BCHUSDT::SHORT::BoS::1787901300000",
@@ -12451,7 +12455,28 @@
   "rr": 13.67,
   "lev": 25,
   "signalTime": 1787901300000,
+  "status": "open",
+  "createdAt": 1787901332952,
+  "fillTime": 1787901300000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "PEOPLEUSDT::LONG::BoS::1787902200000",
+  "symbol": "PEOPLEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00812,
+  "sl": 0.007895,
+  "tp": 0.01001,
+  "tpSrc": "OB",
+  "slPct": 2.77,
+  "gainPct": 23.28,
+  "rr": 8.4,
+  "lev": 21,
+  "signalTime": 1787902200000,
   "status": "pending",
-  "createdAt": 1787901332952
+  "createdAt": 1787902241966
  }
 ]
