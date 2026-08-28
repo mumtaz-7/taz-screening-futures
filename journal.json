@@ -12255,9 +12255,13 @@
   "rr": 3.52,
   "lev": 17,
   "signalTime": 1787877000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1787877040478,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1787880600000
  },
  {
   "id": "ZROUSDT::LONG::ChoCh::1787879700000",
@@ -12273,8 +12277,28 @@
   "rr": 4.35,
   "lev": 20,
   "signalTime": 1787879700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787879770152,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787880600000
+ },
+ {
+  "id": "ENAUSDT::LONG::BoS::1787881500000",
+  "symbol": "ENAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1726,
+  "sl": 0.16615000000000002,
+  "tp": 0.1899,
+  "tpSrc": "WH",
+  "slPct": 3.74,
+  "gainPct": 10.02,
+  "rr": 2.68,
+  "lev": 16,
+  "signalTime": 1787881500000,
+  "status": "pending",
+  "createdAt": 1787881534226
  }
 ]
