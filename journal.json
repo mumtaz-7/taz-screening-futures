@@ -12304,12 +12304,15 @@
   "rr": 2.68,
   "lev": 16,
   "signalTime": 1787881500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787881534226,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787885100000
+  "fillTime": 1787885100000,
+  "R": -1,
+  "resolvedTime": 1787886000000
  },
  {
   "id": "EDENUSDT::LONG::ChoCh::1787883300000",
@@ -12349,5 +12352,22 @@
   "status": "pending",
   "createdAt": 1787883333878,
   "notified": []
+ },
+ {
+  "id": "BICOUSDT::LONG::BoS::1787887800000",
+  "symbol": "BICOUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.027,
+  "sl": 0.023535,
+  "tp": 0.03196,
+  "tpSrc": "WH",
+  "slPct": 12.83,
+  "gainPct": 18.37,
+  "rr": 1.43,
+  "lev": 5,
+  "signalTime": 1787887800000,
+  "status": "pending",
+  "createdAt": 1787887840948
  }
 ]
