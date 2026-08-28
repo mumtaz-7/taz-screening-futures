@@ -12331,12 +12331,15 @@
   "rr": 1.95,
   "lev": 6,
   "signalTime": 1787883300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787883333878,
   "fillTime": 1787883300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.95,
+  "resolvedTime": 1787908500000
  },
  {
   "id": "INJUSDT::SHORT::ChoCh::1787883300000",
