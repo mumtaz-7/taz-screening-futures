@@ -9355,12 +9355,15 @@
   "rr": 1.04,
   "lev": 9,
   "signalTime": 1787505300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787505331013,
   "fillTime": 1787505300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787925600000
  },
  {
   "id": "CRVUSDT::SHORT::BoS::1787508900000",
@@ -11948,12 +11951,15 @@
   "rr": 5.91,
   "lev": 25,
   "signalTime": 1787818500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787818534664,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787825700000
+  "fillTime": 1787825700000,
+  "R": -1,
+  "resolvedTime": 1787925600000
  },
  {
   "id": "BICOUSDT::LONG::BoS::1787826600000",
@@ -12621,7 +12627,28 @@
   "rr": 1.5,
   "lev": 10,
   "signalTime": 1787925600000,
+  "status": "open",
+  "createdAt": 1787925646957,
+  "fillTime": 1787925600000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ONGUSDT::SHORT::ChoCh::1787926500000",
+  "symbol": "ONGUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.11186,
+  "sl": 0.11934499999999999,
+  "tp": 0.09464,
+  "tpSrc": "OB",
+  "slPct": 6.69,
+  "gainPct": 15.39,
+  "rr": 2.3,
+  "lev": 9,
+  "signalTime": 1787926500000,
   "status": "pending",
-  "createdAt": 1787925646957
+  "createdAt": 1787926533415
  }
 ]
