@@ -12558,9 +12558,12 @@
   "rr": 2.18,
   "lev": 12,
   "signalTime": 1787913900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787913933869,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787922000000
  },
  {
   "id": "PUMPUSDT::LONG::BoS::1787914800000",
