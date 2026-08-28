@@ -8010,12 +8010,15 @@
   "rr": 2.92,
   "lev": 8,
   "signalTime": 1787416200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787416238338,
   "fillTime": 1787416200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.92,
+  "resolvedTime": 1787942700000
  },
  {
   "id": "ORDIUSDT::LONG::BoS::1787416200000",
