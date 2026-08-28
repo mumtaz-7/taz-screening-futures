@@ -12550,6 +12550,24 @@
   "lev": 12,
   "signalTime": 1787913900000,
   "status": "pending",
-  "createdAt": 1787913933869
+  "createdAt": 1787913933869,
+  "notified": []
+ },
+ {
+  "id": "PUMPUSDT::LONG::BoS::1787914800000",
+  "symbol": "PUMPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.004755,
+  "sl": 0.004572,
+  "tp": 0.005253,
+  "tpSrc": "OB",
+  "slPct": 3.85,
+  "gainPct": 10.47,
+  "rr": 2.72,
+  "lev": 15,
+  "signalTime": 1787914800000,
+  "status": "pending",
+  "createdAt": 1787914848762
  }
 ]

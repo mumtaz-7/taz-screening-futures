@@ -1,7 +1,8 @@
 {
   "ready": [
     "ONTUSDT::LONG::ChoCh",
-    "PROMUSDT::LONG::BoS"
+    "PROMUSDT::LONG::BoS",
+    "PUMPUSDT::LONG::BoS"
   ],
-  "at": "2026-08-28T10:45:33.869Z"
+  "at": "2026-08-28T11:00:48.761Z"
 }
