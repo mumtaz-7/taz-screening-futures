@@ -12606,5 +12606,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "VETUSDT::LONG::ChoCh::1787925600000",
+  "symbol": "VETUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.007002,
+  "sl": 0.006585,
+  "tp": 0.007628,
+  "tpSrc": "WH",
+  "slPct": 5.96,
+  "gainPct": 8.94,
+  "rr": 1.5,
+  "lev": 10,
+  "signalTime": 1787925600000,
+  "status": "pending",
+  "createdAt": 1787925646957
  }
 ]
