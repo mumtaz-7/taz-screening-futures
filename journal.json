@@ -12765,5 +12765,22 @@
    "open"
   ],
   "fillTime": 1787944500000
+ },
+ {
+  "id": "PROMUSDT::LONG::ChoCh::1787946300000",
+  "symbol": "PROMUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 5.104,
+  "sl": 4.891,
+  "tp": 5.49,
+  "tpSrc": "WH",
+  "slPct": 4.17,
+  "gainPct": 7.56,
+  "rr": 1.81,
+  "lev": 14,
+  "signalTime": 1787946300000,
+  "status": "pending",
+  "createdAt": 1787946332589
  }
 ]
