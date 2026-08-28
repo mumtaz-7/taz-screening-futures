@@ -12059,12 +12059,15 @@
   "rr": 6.3,
   "lev": 9,
   "signalTime": 1787839200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787839249438,
   "fillTime": 1787839200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787900400000
  },
  {
   "id": "TRUMPUSDT::LONG::BoS::1787840100000",
@@ -12431,6 +12434,24 @@
   "lev": 6,
   "signalTime": 1787900400000,
   "status": "pending",
-  "createdAt": 1787900448912
+  "createdAt": 1787900448912,
+  "notified": []
+ },
+ {
+  "id": "BCHUSDT::SHORT::BoS::1787901300000",
+  "symbol": "BCHUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 263.6,
+  "sl": 266.29999999999995,
+  "tp": 226.7,
+  "tpSrc": "OB",
+  "slPct": 1.02,
+  "gainPct": 14,
+  "rr": 13.67,
+  "lev": 25,
+  "signalTime": 1787901300000,
+  "status": "pending",
+  "createdAt": 1787901332952
  }
 ]

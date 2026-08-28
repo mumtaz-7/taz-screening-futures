@@ -1,7 +1,8 @@
 {
   "ready": [
+    "BCHUSDT::SHORT::BoS",
     "HEMIUSDT::LONG::ChoCh",
     "WLFIUSDT::LONG::BoS"
   ],
-  "at": "2026-08-28T07:00:48.911Z"
+  "at": "2026-08-28T07:15:32.951Z"
 }
