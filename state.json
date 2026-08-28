@@ -2,7 +2,8 @@
   "ready": [
     "ONGUSDT::LONG::ChoCh",
     "TRUMPUSDT::LONG::BoS",
-    "WLFIUSDT::LONG::BoS"
+    "WLFIUSDT::LONG::BoS",
+    "ZROUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-28T01:00:46.319Z"
+  "at": "2026-08-28T01:16:10.151Z"
 }
