@@ -10913,12 +10913,15 @@
   "rr": 3.25,
   "lev": 22,
   "signalTime": 1787670900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787670932806,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787673600000
+  "fillTime": 1787673600000,
+  "R": 3.25,
+  "resolvedTime": 1787941800000
  },
  {
   "id": "BOMEUSDT::SHORT::BoS::1787674500000",
