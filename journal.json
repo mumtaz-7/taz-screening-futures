@@ -12304,5 +12304,39 @@
   "status": "pending",
   "createdAt": 1787881534226,
   "notified": []
+ },
+ {
+  "id": "EDENUSDT::LONG::ChoCh::1787883300000",
+  "symbol": "EDENUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.06277,
+  "sl": 0.0565,
+  "tp": 0.075,
+  "tpSrc": "WH",
+  "slPct": 9.99,
+  "gainPct": 19.48,
+  "rr": 1.95,
+  "lev": 6,
+  "signalTime": 1787883300000,
+  "status": "pending",
+  "createdAt": 1787883333878
+ },
+ {
+  "id": "INJUSDT::SHORT::ChoCh::1787883300000",
+  "symbol": "INJUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 5.435,
+  "sl": 5.547499999999999,
+  "tp": 4.868,
+  "tpSrc": "OB",
+  "slPct": 2.07,
+  "gainPct": 10.43,
+  "rr": 5.04,
+  "lev": 25,
+  "signalTime": 1787883300000,
+  "status": "pending",
+  "createdAt": 1787883333878
  }
 ]
