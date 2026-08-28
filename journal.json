@@ -12186,12 +12186,15 @@
   "rr": 10.03,
   "lev": 23,
   "signalTime": 1787868900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787868932639,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787870700000
+  "fillTime": 1787870700000,
+  "R": -1,
+  "resolvedTime": 1787877000000
  },
  {
   "id": "BICOUSDT::LONG::ChoCh::1787869800000",
@@ -12253,6 +12256,7 @@
   "lev": 17,
   "signalTime": 1787877000000,
   "status": "pending",
-  "createdAt": 1787877040478
+  "createdAt": 1787877040478,
+  "notified": []
  }
 ]
