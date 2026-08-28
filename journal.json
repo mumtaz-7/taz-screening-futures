@@ -9921,12 +9921,15 @@
   "rr": 3.49,
   "lev": 20,
   "signalTime": 1787565600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787565647621,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787567400000
+  "fillTime": 1787567400000,
+  "R": -1,
+  "resolvedTime": 1787933700000
  },
  {
   "id": "CRVUSDT::SHORT::ChoCh::1787570100000",
@@ -10237,12 +10240,15 @@
   "rr": 3.65,
   "lev": 16,
   "signalTime": 1787610600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787610638195,
   "fillTime": 1787610600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.65,
+  "resolvedTime": 1787933700000
  },
  {
   "id": "STORJUSDT::LONG::BoS::1787612400000",
@@ -11228,12 +11234,15 @@
   "rr": 2.5,
   "lev": 18,
   "signalTime": 1787712300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787712331442,
   "fillTime": 1787712300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787933700000
  },
  {
   "id": "ZROUSDT::LONG::BoS::1787718600000",
@@ -11559,12 +11568,15 @@
   "rr": 2.86,
   "lev": 14,
   "signalTime": 1787747400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787747441310,
   "fillTime": 1787747400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787933700000
  },
  {
   "id": "ADAUSDT::SHORT::BoS::1787751000000",
@@ -12150,12 +12162,15 @@
   "rr": 2.5,
   "lev": 12,
   "signalTime": 1787859000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787859040491,
   "fillTime": 1787859000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787933700000
  },
  {
   "id": "FETUSDT::SHORT::ChoCh::1787861700000",
@@ -12515,12 +12530,15 @@
   "rr": 8.4,
   "lev": 21,
   "signalTime": 1787902200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787902241966,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787903100000
+  "fillTime": 1787903100000,
+  "R": -1,
+  "resolvedTime": 1787933700000
  },
  {
   "id": "MORPHOUSDT::LONG::BoS::1787907600000",
@@ -12536,12 +12554,15 @@
   "rr": 2.74,
   "lev": 18,
   "signalTime": 1787907600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787907649252,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787920200000
+  "fillTime": 1787920200000,
+  "R": -1,
+  "resolvedTime": 1787933700000
  },
  {
   "id": "PROMUSDT::LONG::BoS::1787913000000",
@@ -12600,12 +12621,15 @@
   "rr": 2.72,
   "lev": 15,
   "signalTime": 1787914800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787914848762,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787916600000
+  "fillTime": 1787916600000,
+  "R": -1,
+  "resolvedTime": 1787933700000
  },
  {
   "id": "WIFUSDT::LONG::ChoCh::1787920200000",
@@ -12645,12 +12669,15 @@
   "rr": 1.5,
   "lev": 10,
   "signalTime": 1787925600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787925646957,
   "fillTime": 1787925600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787933700000
  },
  {
   "id": "ONGUSDT::SHORT::ChoCh::1787926500000",
@@ -12706,6 +12733,24 @@
   "lev": 11,
   "signalTime": 1787933700000,
   "status": "pending",
-  "createdAt": 1787933735149
+  "createdAt": 1787933735149,
+  "notified": []
+ },
+ {
+  "id": "BICOUSDT::SHORT::BoS::1787934600000",
+  "symbol": "BICOUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.02309,
+  "sl": 0.024274999999999998,
+  "tp": 0.01965,
+  "tpSrc": "OB",
+  "slPct": 5.13,
+  "gainPct": 14.9,
+  "rr": 2.9,
+  "lev": 12,
+  "signalTime": 1787934600000,
+  "status": "pending",
+  "createdAt": 1787934642319
  }
 ]

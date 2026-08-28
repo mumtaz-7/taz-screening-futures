@@ -1,8 +1,9 @@
 {
   "ready": [
+    "BICOUSDT::SHORT::BoS",
     "ENAUSDT::LONG::ChoCh",
     "OPGUSDT::SHORT::BoS",
     "POLUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-08-28T16:15:35.148Z"
+  "at": "2026-08-28T16:30:42.292Z"
 }
