@@ -12304,9 +12304,12 @@
   "rr": 2.68,
   "lev": 16,
   "signalTime": 1787881500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787881534226,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787885100000
  },
  {
   "id": "EDENUSDT::LONG::ChoCh::1787883300000",
