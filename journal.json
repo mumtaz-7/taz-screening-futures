@@ -12693,9 +12693,12 @@
   "rr": 2.3,
   "lev": 9,
   "signalTime": 1787926500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787926533415,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787937300000
  },
  {
   "id": "ENAUSDT::LONG::ChoCh::1787931000000",
