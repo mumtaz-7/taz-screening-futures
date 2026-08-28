@@ -12319,8 +12319,12 @@
   "rr": 1.95,
   "lev": 6,
   "signalTime": 1787883300000,
-  "status": "pending",
-  "createdAt": 1787883333878
+  "status": "open",
+  "createdAt": 1787883333878,
+  "fillTime": 1787883300000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "INJUSDT::SHORT::ChoCh::1787883300000",
@@ -12337,6 +12341,7 @@
   "lev": 25,
   "signalTime": 1787883300000,
   "status": "pending",
-  "createdAt": 1787883333878
+  "createdAt": 1787883333878,
+  "notified": []
  }
 ]

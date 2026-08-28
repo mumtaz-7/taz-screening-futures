@@ -2,8 +2,7 @@
   "ready": [
     "EDENUSDT::LONG::ChoCh",
     "ENAUSDT::LONG::BoS",
-    "INJUSDT::SHORT::ChoCh",
-    "ONGUSDT::LONG::ChoCh"
+    "INJUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-08-28T02:15:33.877Z"
+  "at": "2026-08-28T02:30:40.689Z"
 }
