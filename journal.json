@@ -12394,5 +12394,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PROMUSDT::LONG::ChoCh::1787895900000",
+  "symbol": "PROMUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 4.856,
+  "sl": 4.568,
+  "tp": 5.313,
+  "tpSrc": "WH",
+  "slPct": 5.93,
+  "gainPct": 9.41,
+  "rr": 1.59,
+  "lev": 10,
+  "signalTime": 1787895900000,
+  "status": "pending",
+  "createdAt": 1787895932557
  }
 ]
