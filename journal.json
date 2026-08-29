@@ -13068,12 +13068,15 @@
   "rr": 2.49,
   "lev": 18,
   "signalTime": 1788000300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788000338774,
   "fillTime": 1788000300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.49,
+  "resolvedTime": 1788039900000
  },
  {
   "id": "PROMUSDT::LONG::BoS::1788021000000",
