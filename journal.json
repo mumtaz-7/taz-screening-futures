@@ -7736,12 +7736,15 @@
   "rr": 1.62,
   "lev": 4,
   "signalTime": 1787387400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787387440499,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787389200000
+  "fillTime": 1787389200000,
+  "R": 1.62,
+  "resolvedTime": 1787994900000
  },
  {
   "id": "NEIROUSDT::SHORT::BoS::1787391900000",
@@ -13032,7 +13035,11 @@
   "rr": 1.2,
   "lev": 7,
   "signalTime": 1787994900000,
-  "status": "pending",
-  "createdAt": 1787994935917
+  "status": "open",
+  "createdAt": 1787994935917,
+  "fillTime": 1787994900000,
+  "notified": [
+   "open"
+  ]
  }
 ]
