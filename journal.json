@@ -13183,5 +13183,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ZKPUSDT::LONG::BoS::1788041700000",
+  "symbol": "ZKPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0485,
+  "sl": 0.046400000000000004,
+  "tp": 0.0543,
+  "tpSrc": "WH",
+  "slPct": 4.33,
+  "gainPct": 11.96,
+  "rr": 2.76,
+  "lev": 14,
+  "signalTime": 1788041700000,
+  "status": "pending",
+  "createdAt": 1788041733199
  }
 ]
