@@ -13204,5 +13204,22 @@
   "status": "pending",
   "createdAt": 1788041733199,
   "notified": []
+ },
+ {
+  "id": "HOMEUSDT::LONG::ChoCh::1788047100000",
+  "symbol": "HOMEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00616,
+  "sl": 0.006070000000000001,
+  "tp": 0.00663,
+  "tpSrc": "WH",
+  "slPct": 1.46,
+  "gainPct": 7.63,
+  "rr": 5.22,
+  "lev": 25,
+  "signalTime": 1788047100000,
+  "status": "pending",
+  "createdAt": 1788047139584
  }
 ]

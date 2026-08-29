@@ -1,7 +1,6 @@
 {
   "ready": [
-    "BMTUSDT::LONG::ChoCh",
-    "ZKPUSDT::LONG::BoS"
+    "HOMEUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-29T23:30:39.377Z"
+  "at": "2026-08-29T23:45:39.583Z"
 }
