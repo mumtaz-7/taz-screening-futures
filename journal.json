@@ -13159,5 +13159,22 @@
    "open"
   ],
   "fillTime": 1788031800000
+ },
+ {
+  "id": "ONTUSDT::LONG::BoS::1788039000000",
+  "symbol": "ONTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.05803,
+  "sl": 0.056545,
+  "tp": 0.07478,
+  "tpSrc": "WH",
+  "slPct": 2.56,
+  "gainPct": 28.86,
+  "rr": 11.28,
+  "lev": 23,
+  "signalTime": 1788039000000,
+  "status": "pending",
+  "createdAt": 1788039039800
  }
 ]
