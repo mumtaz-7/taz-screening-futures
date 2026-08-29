@@ -12996,9 +12996,12 @@
   "rr": 2.84,
   "lev": 11,
   "signalTime": 1787985000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787985042015,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788003900000
  },
  {
   "id": "TSTUSDT::LONG::ChoCh::1787993100000",
