@@ -1,7 +1,8 @@
 {
   "ready": [
     "BICOUSDT::SHORT::ChoCh",
-    "CHIPUSDT::LONG::ChoCh"
+    "CHIPUSDT::LONG::ChoCh",
+    "ICPUSDT::LONG::BoS"
   ],
-  "at": "2026-08-29T02:30:43.464Z"
+  "at": "2026-08-29T02:45:32.547Z"
 }

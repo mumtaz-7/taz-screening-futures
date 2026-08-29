@@ -12891,9 +12891,12 @@
   "rr": 2.55,
   "lev": 12,
   "signalTime": 1787967000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1787967038549,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1787970600000
  },
  {
   "id": "CHIPUSDT::LONG::ChoCh::1787968800000",
@@ -12915,5 +12918,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ICPUSDT::LONG::BoS::1787971500000",
+  "symbol": "ICPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 2.402,
+  "sl": 2.3705,
+  "tp": 2.672,
+  "tpSrc": "OB",
+  "slPct": 1.31,
+  "gainPct": 11.24,
+  "rr": 8.57,
+  "lev": 25,
+  "signalTime": 1787971500000,
+  "status": "pending",
+  "createdAt": 1787971532547
  }
 ]
