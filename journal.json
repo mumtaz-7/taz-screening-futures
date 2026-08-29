@@ -12786,12 +12786,15 @@
   "rr": 1.81,
   "lev": 14,
   "signalTime": 1787946300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787946332589,
   "fillTime": 1787946300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787981400000
  },
  {
   "id": "AAVEUSDT::SHORT::BoS::1787957100000",
