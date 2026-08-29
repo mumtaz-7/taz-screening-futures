@@ -1,8 +1,7 @@
 {
   "ready": [
     "CHIPUSDT::LONG::ChoCh",
-    "EDENUSDT::LONG::ChoCh",
-    "ENAUSDT::LONG::BoS"
+    "EDENUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-29T06:30:42.014Z"
+  "at": "2026-08-29T06:45:32.391Z"
 }
