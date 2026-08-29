@@ -12996,5 +12996,22 @@
   "status": "pending",
   "createdAt": 1787985042015,
   "notified": []
+ },
+ {
+  "id": "TSTUSDT::LONG::ChoCh::1787993100000",
+  "symbol": "TSTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01702,
+  "sl": 0.016314999999999996,
+  "tp": 0.01848,
+  "tpSrc": "WH",
+  "slPct": 4.14,
+  "gainPct": 8.58,
+  "rr": 2.07,
+  "lev": 14,
+  "signalTime": 1787993100000,
+  "status": "pending",
+  "createdAt": 1787993135451
  }
 ]
