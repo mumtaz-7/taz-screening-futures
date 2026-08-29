@@ -12819,12 +12819,15 @@
   "rr": 6.35,
   "lev": 25,
   "signalTime": 1787957100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787957133108,
   "fillTime": 1787957100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788011100000
  },
  {
   "id": "LINKUSDT::LONG::BoS::1787958000000",
