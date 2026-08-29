@@ -10757,12 +10757,15 @@
   "rr": 1.46,
   "lev": 7,
   "signalTime": 1787661000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787661040762,
   "fillTime": 1787661000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.46,
+  "resolvedTime": 1787984100000
  },
  {
   "id": "TRUMPUSDT::SHORT::BoS::1787661000000",
@@ -12192,12 +12195,15 @@
   "rr": 3.04,
   "lev": 17,
   "signalTime": 1787861700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787861733344,
   "fillTime": 1787861700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.04,
+  "resolvedTime": 1787984100000
  },
  {
   "id": "SPKUSDT::LONG::ChoCh::1787868000000",
@@ -12963,5 +12969,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "EDENUSDT::LONG::ChoCh::1787985000000",
+  "symbol": "EDENUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0663,
+  "sl": 0.062745,
+  "tp": 0.07641,
+  "tpSrc": "WH",
+  "slPct": 5.36,
+  "gainPct": 15.25,
+  "rr": 2.84,
+  "lev": 11,
+  "signalTime": 1787985000000,
+  "status": "pending",
+  "createdAt": 1787985042015
  }
 ]
