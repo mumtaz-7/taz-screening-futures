@@ -13023,12 +13023,15 @@
   "rr": 2.07,
   "lev": 14,
   "signalTime": 1787993100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787993135451,
   "fillTime": 1787993100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.07,
+  "resolvedTime": 1788020100000
  },
  {
   "id": "BMTUSDT::LONG::ChoCh::1787994900000",
@@ -13071,5 +13074,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PROMUSDT::LONG::BoS::1788021000000",
+  "symbol": "PROMUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 5.656,
+  "sl": 4.874499999999999,
+  "tp": 6.943,
+  "tpSrc": "WH",
+  "slPct": 13.82,
+  "gainPct": 22.75,
+  "rr": 1.65,
+  "lev": 4,
+  "signalTime": 1788021000000,
+  "status": "pending",
+  "createdAt": 1788021046556
  }
 ]
