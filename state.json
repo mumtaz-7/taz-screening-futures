@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ENAUSDT::SHORT::ChoCh"
+    "ENAUSDT::SHORT::ChoCh",
+    "HEMIUSDT::LONG::BoS"
   ],
-  "at": "2026-08-29T19:00:48.738Z"
+  "at": "2026-08-29T19:15:34.681Z"
 }
