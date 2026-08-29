@@ -12963,12 +12963,15 @@
   "rr": 2.82,
   "lev": 10,
   "signalTime": 1787973300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787973333911,
   "fillTime": 1787973300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1787985900000
  },
  {
   "id": "EDENUSDT::LONG::ChoCh::1787985000000",
