@@ -13135,12 +13135,15 @@
   "rr": 3.5,
   "lev": 18,
   "signalTime": 1788027300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788027334768,
   "fillTime": 1788027300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788050700000
  },
  {
   "id": "HEMIUSDT::LONG::BoS::1788030900000",
@@ -13201,9 +13204,13 @@
   "rr": 2.76,
   "lev": 14,
   "signalTime": 1788041700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788041733199,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1788050700000
  },
  {
   "id": "HOMEUSDT::LONG::ChoCh::1788047100000",
