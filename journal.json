@@ -13262,5 +13262,22 @@
   "status": "pending",
   "createdAt": 1788054330240,
   "notified": []
+ },
+ {
+  "id": "MOVRUSDT::LONG::BoS::1788059700000",
+  "symbol": "MOVRUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.834,
+  "sl": 0.8085,
+  "tp": 0.915,
+  "tpSrc": "OB",
+  "slPct": 3.06,
+  "gainPct": 9.71,
+  "rr": 3.18,
+  "lev": 19,
+  "signalTime": 1788059700000,
+  "status": "pending",
+  "createdAt": 1788059732563
  }
 ]
