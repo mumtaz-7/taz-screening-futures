@@ -8656,12 +8656,15 @@
   "rr": 1.26,
   "lev": 3,
   "signalTime": 1787444100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787444133401,
   "fillTime": 1787444100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788132600000
  },
  {
   "id": "ALGOUSDT::LONG::ChoCh::1787445000000",
@@ -13632,12 +13635,15 @@
   "rr": 4.33,
   "lev": 17,
   "signalTime": 1788114600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788114643742,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788121800000
+  "fillTime": 1788121800000,
+  "R": -1,
+  "resolvedTime": 1788132600000
  },
  {
   "id": "BICOUSDT::SHORT::BoS::1788118200000",
