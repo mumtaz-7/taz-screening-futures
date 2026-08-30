@@ -12621,12 +12621,15 @@
   "rr": 2.18,
   "lev": 12,
   "signalTime": 1787913900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787913933869,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787922000000
+  "fillTime": 1787922000000,
+  "R": -1,
+  "resolvedTime": 1788130800000
  },
  {
   "id": "PUMPUSDT::LONG::BoS::1787914800000",
@@ -13403,12 +13406,15 @@
   "rr": 3.72,
   "lev": 25,
   "signalTime": 1788081300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788081338304,
   "fillTime": 1788081300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788130800000
  },
  {
   "id": "ENAUSDT::SHORT::ChoCh::1788082200000",
