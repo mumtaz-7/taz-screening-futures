@@ -13277,12 +13277,15 @@
   "rr": 3.18,
   "lev": 19,
   "signalTime": 1788059700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788059732563,
   "fillTime": 1788059700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.18,
+  "resolvedTime": 1788069600000
  },
  {
   "id": "ONGUSDT::SHORT::BoS::1788060600000",
@@ -13322,5 +13325,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HUMAUSDT::SHORT::ChoCh::1788070500000",
+  "symbol": "HUMAUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.02144,
+  "sl": 0.022144999999999998,
+  "tp": 0.01989,
+  "tpSrc": "WL",
+  "slPct": 3.29,
+  "gainPct": 7.23,
+  "rr": 2.2,
+  "lev": 18,
+  "signalTime": 1788070500000,
+  "status": "pending",
+  "createdAt": 1788070536483
  }
 ]
