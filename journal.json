@@ -13455,7 +13455,28 @@
   "rr": 4.21,
   "lev": 25,
   "signalTime": 1788092100000,
+  "status": "open",
+  "createdAt": 1788092136154,
+  "fillTime": 1788092100000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "DEXEUSDT::LONG::BoS::1788093000000",
+  "symbol": "DEXEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 2.348,
+  "sl": 2.2504999999999997,
+  "tp": 2.707,
+  "tpSrc": "WH",
+  "slPct": 4.15,
+  "gainPct": 15.29,
+  "rr": 3.68,
+  "lev": 14,
+  "signalTime": 1788093000000,
   "status": "pending",
-  "createdAt": 1788092136154
+  "createdAt": 1788093041986
  }
 ]
