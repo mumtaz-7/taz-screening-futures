@@ -13238,5 +13238,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "DEXEUSDT::LONG::ChoCh::1788054300000",
+  "symbol": "DEXEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 2.269,
+  "sl": 2.209,
+  "tp": 2.707,
+  "tpSrc": "WH",
+  "slPct": 2.64,
+  "gainPct": 19.3,
+  "rr": 7.3,
+  "lev": 22,
+  "signalTime": 1788054300000,
+  "status": "pending",
+  "createdAt": 1788054330240
  }
 ]
