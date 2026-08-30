@@ -13522,6 +13522,24 @@
   "lev": 25,
   "signalTime": 1788102000000,
   "status": "pending",
-  "createdAt": 1788102051733
+  "createdAt": 1788102051733,
+  "notified": []
+ },
+ {
+  "id": "BICOUSDT::SHORT::ChoCh::1788102900000",
+  "symbol": "BICOUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.02263,
+  "sl": 0.02332,
+  "tp": 0.01965,
+  "tpSrc": "OB",
+  "slPct": 3.05,
+  "gainPct": 13.17,
+  "rr": 4.32,
+  "lev": 19,
+  "signalTime": 1788102900000,
+  "status": "pending",
+  "createdAt": 1788102934426
  }
 ]
