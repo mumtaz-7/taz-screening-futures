@@ -13301,5 +13301,22 @@
   "status": "pending",
   "createdAt": 1788060641193,
   "notified": []
+ },
+ {
+  "id": "ROBOUSDT::LONG::ChoCh::1788066000000",
+  "symbol": "ROBOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01308,
+  "sl": 0.012705,
+  "tp": 0.0141,
+  "tpSrc": "EQ",
+  "slPct": 2.87,
+  "gainPct": 7.8,
+  "rr": 2.72,
+  "lev": 20,
+  "signalTime": 1788066000000,
+  "status": "pending",
+  "createdAt": 1788066046746
  }
 ]
