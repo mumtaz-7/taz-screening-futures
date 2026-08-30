@@ -13524,9 +13524,12 @@
   "rr": 8.2,
   "lev": 25,
   "signalTime": 1788102000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788102051733,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788106500000
  },
  {
   "id": "BICOUSDT::SHORT::ChoCh::1788102900000",
