@@ -13388,7 +13388,45 @@
   "rr": 3.72,
   "lev": 25,
   "signalTime": 1788081300000,
+  "status": "open",
+  "createdAt": 1788081338304,
+  "fillTime": 1788081300000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ENAUSDT::SHORT::ChoCh::1788082200000",
+  "symbol": "ENAUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.1581,
+  "sl": 0.16515000000000002,
+  "tp": 0.1376,
+  "tpSrc": "OB",
+  "slPct": 4.46,
+  "gainPct": 12.97,
+  "rr": 2.91,
+  "lev": 13,
+  "signalTime": 1788082200000,
   "status": "pending",
-  "createdAt": 1788081338304
+  "createdAt": 1788082243470
+ },
+ {
+  "id": "ZKPUSDT::LONG::ChoCh::1788082200000",
+  "symbol": "ZKPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.056,
+  "sl": 0.051199999999999996,
+  "tp": 0.062,
+  "tpSrc": "WH",
+  "slPct": 8.57,
+  "gainPct": 10.71,
+  "rr": 1.25,
+  "lev": 7,
+  "signalTime": 1788082200000,
+  "status": "pending",
+  "createdAt": 1788082243470
  }
 ]

@@ -1,6 +1,7 @@
 {
   "ready": [
-    "XPLUSDT::LONG::ChoCh"
+    "ENAUSDT::SHORT::ChoCh",
+    "ZKPUSDT::LONG::ChoCh"
   ],
-  "at": "2026-08-30T09:15:38.303Z"
+  "at": "2026-08-30T09:30:43.470Z"
 }
