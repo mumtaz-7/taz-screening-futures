@@ -13569,5 +13569,22 @@
   "status": "pending",
   "createdAt": 1788108333224,
   "notified": []
+ },
+ {
+  "id": "GIGGLEUSDT::LONG::ChoCh::1788114600000",
+  "symbol": "GIGGLEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 39.87,
+  "sl": 38.505,
+  "tp": 45.78,
+  "tpSrc": "WH",
+  "slPct": 3.42,
+  "gainPct": 14.82,
+  "rr": 4.33,
+  "lev": 17,
+  "signalTime": 1788114600000,
+  "status": "pending",
+  "createdAt": 1788114643742
  }
 ]
