@@ -9577,12 +9577,15 @@
   "rr": 3.33,
   "lev": 16,
   "signalTime": 1787531400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787531438711,
   "fillTime": 1787531400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.33,
+  "resolvedTime": 1788131700000
  },
  {
   "id": "PORTALUSDT::LONG::ChoCh::1787533200000",
@@ -10547,12 +10550,15 @@
   "rr": 3.5,
   "lev": 17,
   "signalTime": 1787641200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787641248525,
   "fillTime": 1787641200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.5,
+  "resolvedTime": 1788131700000
  },
  {
   "id": "XPLUSDT::SHORT::ChoCh::1787641200000",
@@ -10694,12 +10700,15 @@
   "rr": 1.42,
   "lev": 7,
   "signalTime": 1787652000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787652046315,
   "fillTime": 1787652000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.42,
+  "resolvedTime": 1788131700000
  },
  {
   "id": "TRUMPUSDT::SHORT::ChoCh::1787652900000",
@@ -12741,12 +12750,15 @@
   "rr": 1.32,
   "lev": 6,
   "signalTime": 1787931000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787931041799,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787931900000
+  "fillTime": 1787931900000,
+  "R": -1,
+  "resolvedTime": 1788131700000
  },
  {
   "id": "OPGUSDT::SHORT::BoS::1787933700000",
@@ -12855,12 +12867,15 @@
   "rr": 3.92,
   "lev": 25,
   "signalTime": 1787958000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787958044627,
   "fillTime": 1787958000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788131700000
  },
  {
   "id": "UNIUSDT::LONG::ChoCh::1787958000000",
@@ -12972,12 +12987,15 @@
   "rr": 8.57,
   "lev": 25,
   "signalTime": 1787971500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787971532547,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787972400000
+  "fillTime": 1787972400000,
+  "R": -1,
+  "resolvedTime": 1788131700000
  },
  {
   "id": "HEMIUSDT::LONG::ChoCh::1787973300000",
@@ -13337,12 +13355,15 @@
   "rr": 2.72,
   "lev": 20,
   "signalTime": 1788066000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788066046746,
   "fillTime": 1788066000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788131700000
  },
  {
   "id": "HUMAUSDT::SHORT::ChoCh::1788070500000",
