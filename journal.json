@@ -12777,12 +12777,15 @@
   "rr": 2.9,
   "lev": 12,
   "signalTime": 1787934600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787934642319,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787944500000
+  "fillTime": 1787944500000,
+  "R": -1,
+  "resolvedTime": 1788057900000
  },
  {
   "id": "PROMUSDT::LONG::ChoCh::1787946300000",
