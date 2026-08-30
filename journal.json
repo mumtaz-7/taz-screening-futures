@@ -13440,5 +13440,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ADAUSDT::LONG::BoS::1788092100000",
+  "symbol": "ADAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.2026,
+  "sl": 0.19870000000000002,
+  "tp": 0.219,
+  "tpSrc": "OB",
+  "slPct": 1.92,
+  "gainPct": 8.09,
+  "rr": 4.21,
+  "lev": 25,
+  "signalTime": 1788092100000,
+  "status": "pending",
+  "createdAt": 1788092136154
  }
 ]
