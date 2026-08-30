@@ -12945,12 +12945,15 @@
   "rr": 2.12,
   "lev": 8,
   "signalTime": 1787968800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787968847824,
   "fillTime": 1787968800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788118200000
  },
  {
   "id": "ICPUSDT::LONG::BoS::1787971500000",
@@ -13503,12 +13506,15 @@
   "rr": 1.78,
   "lev": 10,
   "signalTime": 1788100200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788100240884,
   "fillTime": 1788100200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788118200000
  },
  {
   "id": "ONGUSDT::SHORT::BoS::1788102000000",
@@ -13603,6 +13609,7 @@
   "lev": 15,
   "signalTime": 1788118200000,
   "status": "pending",
-  "createdAt": 1788118242139
+  "createdAt": 1788118242139,
+  "notified": []
  }
 ]
