@@ -13307,9 +13307,12 @@
   "rr": 2.7,
   "lev": 8,
   "signalTime": 1788060600000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788060641193,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ROBOUSDT::LONG::ChoCh::1788066000000",
@@ -13410,7 +13413,8 @@
   "lev": 13,
   "signalTime": 1788082200000,
   "status": "pending",
-  "createdAt": 1788082243470
+  "createdAt": 1788082243470,
+  "notified": []
  },
  {
   "id": "ZKPUSDT::LONG::ChoCh::1788082200000",
@@ -13426,7 +13430,12 @@
   "rr": 1.25,
   "lev": 7,
   "signalTime": 1788082200000,
-  "status": "pending",
-  "createdAt": 1788082243470
+  "status": "void",
+  "createdAt": 1788082243470,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1788082200000,
+  "notified": [
+   "void"
+  ]
  }
 ]
