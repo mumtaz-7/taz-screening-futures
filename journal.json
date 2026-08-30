@@ -13277,7 +13277,28 @@
   "rr": 3.18,
   "lev": 19,
   "signalTime": 1788059700000,
+  "status": "open",
+  "createdAt": 1788059732563,
+  "fillTime": 1788059700000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ONGUSDT::SHORT::BoS::1788060600000",
+  "symbol": "ONGUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.12047,
+  "sl": 0.130025,
+  "tp": 0.09464,
+  "tpSrc": "OB",
+  "slPct": 7.93,
+  "gainPct": 21.44,
+  "rr": 2.7,
+  "lev": 8,
+  "signalTime": 1788060600000,
   "status": "pending",
-  "createdAt": 1788059732563
+  "createdAt": 1788060641193
  }
 ]
