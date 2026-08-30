@@ -13412,9 +13412,12 @@
   "rr": 2.91,
   "lev": 13,
   "signalTime": 1788082200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788082243470,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788085800000
  },
  {
   "id": "ZKPUSDT::LONG::ChoCh::1788082200000",
