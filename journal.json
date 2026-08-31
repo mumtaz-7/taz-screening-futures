@@ -13817,7 +13817,8 @@
   "lev": 25,
   "signalTime": 1788183000000,
   "status": "pending",
-  "createdAt": 1788183042024
+  "createdAt": 1788183042024,
+  "notified": []
  },
  {
   "id": "ONGUSDT::SHORT::BoS::1788183000000",
@@ -13833,7 +13834,11 @@
   "rr": 1.54,
   "lev": 12,
   "signalTime": 1788183000000,
-  "status": "pending",
-  "createdAt": 1788183042024
+  "status": "open",
+  "createdAt": 1788183042024,
+  "fillTime": 1788183000000,
+  "notified": [
+   "open"
+  ]
  }
 ]
