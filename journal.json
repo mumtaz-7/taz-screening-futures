@@ -13722,5 +13722,22 @@
   "status": "pending",
   "createdAt": 1788150644650,
   "notified": []
+ },
+ {
+  "id": "PROMUSDT::SHORT::BoS::1788152400000",
+  "symbol": "PROMUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 6.134,
+  "sl": 6.779,
+  "tp": 5.38,
+  "tpSrc": "OB",
+  "slPct": 10.52,
+  "gainPct": 12.29,
+  "rr": 1.17,
+  "lev": 6,
+  "signalTime": 1788152400000,
+  "status": "pending",
+  "createdAt": 1788152448833
  }
 ]
