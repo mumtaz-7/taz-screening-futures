@@ -13822,9 +13822,12 @@
   "rr": 4.55,
   "lev": 25,
   "signalTime": 1788183000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788183042024,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ONGUSDT::SHORT::BoS::1788183000000",
