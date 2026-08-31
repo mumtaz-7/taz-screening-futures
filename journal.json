@@ -13698,12 +13698,15 @@
   "rr": 1.49,
   "lev": 6,
   "signalTime": 1788137100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788137132960,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788144300000
+  "fillTime": 1788144300000,
+  "R": -1,
+  "resolvedTime": 1788164100000
  },
  {
   "id": "BMTUSDT::SHORT::BoS::1788150600000",
