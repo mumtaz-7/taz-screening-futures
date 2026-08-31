@@ -8539,12 +8539,15 @@
   "rr": 1.22,
   "lev": 7,
   "signalTime": 1787433300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787433334157,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787443200000
+  "fillTime": 1787443200000,
+  "R": 1.22,
+  "resolvedTime": 1788133500000
  },
  {
   "id": "SCUSDT::LONG::ChoCh::1787433300000",
@@ -11689,12 +11692,15 @@
   "rr": 2.13,
   "lev": 14,
   "signalTime": 1787756400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787756450472,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787764500000
+  "fillTime": 1787764500000,
+  "R": 2.13,
+  "resolvedTime": 1788133500000
  },
  {
   "id": "FFUSDT::SHORT::BoS::1787759100000",
@@ -12101,12 +12107,15 @@
   "rr": 2.42,
   "lev": 9,
   "signalTime": 1787836500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787836534077,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1787847300000
+  "fillTime": 1787847300000,
+  "R": -1,
+  "resolvedTime": 1788133500000
  },
  {
   "id": "ONGUSDT::LONG::ChoCh::1787839200000",
@@ -13086,12 +13095,15 @@
   "rr": 1.2,
   "lev": 7,
   "signalTime": 1787994900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787994935917,
   "fillTime": 1787994900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788133500000
  },
  {
   "id": "PUMPUSDT::LONG::ChoCh::1788000300000",
