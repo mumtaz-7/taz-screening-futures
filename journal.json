@@ -13680,12 +13680,15 @@
   "rr": 2.93,
   "lev": 15,
   "signalTime": 1788118200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788118242139,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788120000000
+  "fillTime": 1788120000000,
+  "R": -1,
+  "resolvedTime": 1788186600000
  },
  {
   "id": "ZKPUSDT::LONG::ChoCh::1788137100000",
