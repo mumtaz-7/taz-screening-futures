@@ -12484,12 +12484,15 @@
   "rr": 3.6,
   "lev": 13,
   "signalTime": 1787889600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787889649281,
   "fillTime": 1787889600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.6,
+  "resolvedTime": 1788178500000
  },
  {
   "id": "PROMUSDT::LONG::ChoCh::1787895900000",
