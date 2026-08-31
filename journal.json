@@ -13801,5 +13801,39 @@
    "open"
   ],
   "fillTime": 1788166800000
+ },
+ {
+  "id": "DEXEUSDT::SHORT::ChoCh::1788183000000",
+  "symbol": "DEXEUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 2.114,
+  "sl": 2.1470000000000002,
+  "tp": 1.964,
+  "tpSrc": "OB",
+  "slPct": 1.56,
+  "gainPct": 7.1,
+  "rr": 4.55,
+  "lev": 25,
+  "signalTime": 1788183000000,
+  "status": "pending",
+  "createdAt": 1788183042024
+ },
+ {
+  "id": "ONGUSDT::SHORT::BoS::1788183000000",
+  "symbol": "ONGUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.09331,
+  "sl": 0.09791499999999999,
+  "tp": 0.08623,
+  "tpSrc": "OB",
+  "slPct": 4.94,
+  "gainPct": 7.59,
+  "rr": 1.54,
+  "lev": 12,
+  "signalTime": 1788183000000,
+  "status": "pending",
+  "createdAt": 1788183042024
  }
 ]
