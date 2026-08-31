@@ -13719,12 +13719,15 @@
   "rr": 5.38,
   "lev": 12,
   "signalTime": 1788150600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788150644650,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788156000000
+  "fillTime": 1788156000000,
+  "R": -1,
+  "resolvedTime": 1788160500000
  },
  {
   "id": "PROMUSDT::SHORT::BoS::1788152400000",
