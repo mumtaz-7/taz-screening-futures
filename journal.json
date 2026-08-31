@@ -13913,5 +13913,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ZKCUSDT::SHORT::BoS::1788218100000",
+  "symbol": "ZKCUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0534,
+  "sl": 0.05489999999999999,
+  "tp": 0.0397,
+  "tpSrc": "OB",
+  "slPct": 2.81,
+  "gainPct": 25.66,
+  "rr": 9.13,
+  "lev": 21,
+  "signalTime": 1788218100000,
+  "status": "pending",
+  "createdAt": 1788218137985
  }
 ]
