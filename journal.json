@@ -13746,12 +13746,15 @@
   "rr": 1.17,
   "lev": 6,
   "signalTime": 1788152400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788152448833,
   "fillTime": 1788152400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788174000000
  },
  {
   "id": "MIRAUSDT::LONG::ChoCh::1788155100000",
