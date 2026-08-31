@@ -13840,5 +13840,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MIRAUSDT::LONG::ChoCh::1788185700000",
+  "symbol": "MIRAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.04636,
+  "sl": 0.044185,
+  "tp": 0.051,
+  "tpSrc": "WH",
+  "slPct": 4.69,
+  "gainPct": 10.01,
+  "rr": 2.13,
+  "lev": 13,
+  "signalTime": 1788185700000,
+  "status": "pending",
+  "createdAt": 1788185737314
  }
 ]
