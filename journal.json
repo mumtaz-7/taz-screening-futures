@@ -13677,5 +13677,22 @@
    "open"
   ],
   "fillTime": 1788120000000
+ },
+ {
+  "id": "ZKPUSDT::LONG::ChoCh::1788137100000",
+  "symbol": "ZKPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0555,
+  "sl": 0.049800000000000004,
+  "tp": 0.064,
+  "tpSrc": "WH",
+  "slPct": 10.27,
+  "gainPct": 15.32,
+  "rr": 1.49,
+  "lev": 6,
+  "signalTime": 1788137100000,
+  "status": "pending",
+  "createdAt": 1788137132960
  }
 ]
