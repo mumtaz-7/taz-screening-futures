@@ -13584,12 +13584,15 @@
   "rr": 8.2,
   "lev": 25,
   "signalTime": 1788102000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788102051733,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1788106500000
+  "fillTime": 1788106500000,
+  "R": 8.2,
+  "resolvedTime": 1788141600000
  },
  {
   "id": "BICOUSDT::SHORT::ChoCh::1788102900000",
