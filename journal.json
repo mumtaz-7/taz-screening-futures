@@ -14244,5 +14244,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1788288300000
+ },
+ {
+  "id": "FFUSDT::SHORT::ChoCh::1788292800000",
+  "symbol": "FFUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.09988,
+  "sl": 0.10355500000000001,
+  "tp": 0.09278,
+  "tpSrc": "EQ",
+  "slPct": 3.68,
+  "gainPct": 7.11,
+  "rr": 1.93,
+  "lev": 16,
+  "signalTime": 1788292800000,
+  "status": "pending",
+  "createdAt": 1788292846792
  }
 ]
