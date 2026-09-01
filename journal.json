@@ -14117,6 +14117,24 @@
   "lev": 3,
   "signalTime": 1788255000000,
   "status": "pending",
-  "createdAt": 1788255041277
+  "createdAt": 1788255041277,
+  "notified": []
+ },
+ {
+  "id": "ATMUSDT::LONG::BoS::1788255900000",
+  "symbol": "ATMUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1.181,
+  "sl": 1.1374999999999997,
+  "tp": 1.397,
+  "tpSrc": "WH",
+  "slPct": 3.68,
+  "gainPct": 18.29,
+  "rr": 4.97,
+  "lev": 16,
+  "signalTime": 1788255900000,
+  "status": "pending",
+  "createdAt": 1788255933800
  }
 ]
