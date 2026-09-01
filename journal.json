@@ -14129,9 +14129,12 @@
   "rr": 1.5,
   "lev": 3,
   "signalTime": 1788255000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788255041277,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788265800000
  },
  {
   "id": "ATMUSDT::LONG::BoS::1788255900000",
