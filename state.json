@@ -2,8 +2,7 @@
   "ready": [
     "ATMUSDT::LONG::ChoCh",
     "NOTUSDT::SHORT::BoS",
-    "ONGUSDT::SHORT::ChoCh",
-    "TUTUSDT::SHORT::ChoCh"
+    "ONGUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-09-01T22:30:41.404Z"
+  "at": "2026-09-01T22:45:32.836Z"
 }
