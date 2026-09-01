@@ -10970,12 +10970,15 @@
   "rr": 8.61,
   "lev": 25,
   "signalTime": 1787674500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1787674533351,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1787675400000
+  "fillTime": 1787675400000,
+  "R": 8.61,
+  "resolvedTime": 1788247800000
  },
  {
   "id": "DASHUSDT::SHORT::ChoCh::1787679000000",
