@@ -13963,5 +13963,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SOMIUSDT::LONG::ChoCh::1788236100000",
+  "symbol": "SOMIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1223,
+  "sl": 0.11659999999999998,
+  "tp": 0.1358,
+  "tpSrc": "WH",
+  "slPct": 4.66,
+  "gainPct": 11.04,
+  "rr": 2.37,
+  "lev": 13,
+  "signalTime": 1788236100000,
+  "status": "pending",
+  "createdAt": 1788236133585
  }
 ]
