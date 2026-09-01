@@ -13978,7 +13978,28 @@
   "rr": 2.37,
   "lev": 13,
   "signalTime": 1788236100000,
+  "status": "open",
+  "createdAt": 1788236133585,
+  "fillTime": 1788236100000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ZKCUSDT::SHORT::ChoCh::1788237000000",
+  "symbol": "ZKCUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.0527,
+  "sl": 0.05705,
+  "tp": 0.0397,
+  "tpSrc": "OB",
+  "slPct": 8.25,
+  "gainPct": 24.67,
+  "rr": 2.99,
+  "lev": 7,
+  "signalTime": 1788237000000,
   "status": "pending",
-  "createdAt": 1788236133585
+  "createdAt": 1788237043083
  }
 ]
