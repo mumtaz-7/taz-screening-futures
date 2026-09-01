@@ -14174,5 +14174,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PROMUSDT::SHORT::BoS::1788268500000",
+  "symbol": "PROMUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 5.338,
+  "sl": 5.672499999999999,
+  "tp": 4.907,
+  "tpSrc": "OB",
+  "slPct": 6.27,
+  "gainPct": 8.07,
+  "rr": 1.29,
+  "lev": 10,
+  "signalTime": 1788268500000,
+  "status": "pending",
+  "createdAt": 1788268534230
  }
 ]
