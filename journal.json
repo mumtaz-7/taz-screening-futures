@@ -13942,5 +13942,22 @@
   "R": -1,
   "fillTime": 1788220800000,
   "resolvedTime": 1788220800000
+ },
+ {
+  "id": "MORPHOUSDT::LONG::ChoCh::1788234300000",
+  "symbol": "MORPHOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 2.532,
+  "sl": 2.4585,
+  "tp": 2.723,
+  "tpSrc": "WH",
+  "slPct": 2.9,
+  "gainPct": 7.54,
+  "rr": 2.6,
+  "lev": 20,
+  "signalTime": 1788234300000,
+  "status": "pending",
+  "createdAt": 1788234331028
  }
 ]
