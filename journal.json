@@ -13891,12 +13891,15 @@
   "rr": 8.5,
   "lev": 20,
   "signalTime": 1788190200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788190242659,
   "fillTime": 1788190200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788240600000
  },
  {
   "id": "0GUSDT::LONG::BoS::1788196500000",
