@@ -14222,5 +14222,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ACEUSDT::LONG::BoS::1788287400000",
+  "symbol": "ACEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1938,
+  "sl": 0.18015,
+  "tp": 0.2171,
+  "tpSrc": "OB",
+  "slPct": 7.04,
+  "gainPct": 12.02,
+  "rr": 1.71,
+  "lev": 9,
+  "signalTime": 1788287400000,
+  "status": "pending",
+  "createdAt": 1788287440199
  }
 ]
