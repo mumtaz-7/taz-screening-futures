@@ -13810,12 +13810,15 @@
   "rr": 1.99,
   "lev": 16,
   "signalTime": 1788157800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788157840672,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788166800000
+  "fillTime": 1788166800000,
+  "R": -1,
+  "resolvedTime": 1788250500000
  },
  {
   "id": "DEXEUSDT::SHORT::ChoCh::1788183000000",
@@ -14092,7 +14095,11 @@
   "rr": 1.33,
   "lev": 8,
   "signalTime": 1788250500000,
-  "status": "pending",
-  "createdAt": 1788250534004
+  "status": "open",
+  "createdAt": 1788250534004,
+  "fillTime": 1788250500000,
+  "notified": [
+   "open"
+  ]
  }
 ]
