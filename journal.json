@@ -13849,12 +13849,15 @@
   "rr": 1.54,
   "lev": 12,
   "signalTime": 1788183000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788183042024,
   "fillTime": 1788183000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788241500000
  },
  {
   "id": "MIRAUSDT::LONG::ChoCh::1788185700000",
@@ -14002,9 +14005,12 @@
   "rr": 2.99,
   "lev": 7,
   "signalTime": 1788237000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788237043083,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788241500000
  },
  {
   "id": "ZKUSDT::LONG::ChoCh::1788238800000",
