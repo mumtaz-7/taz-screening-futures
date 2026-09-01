@@ -14071,8 +14071,28 @@
   "rr": 1.57,
   "lev": 13,
   "signalTime": 1788246900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788246934070,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788249600000
+ },
+ {
+  "id": "TUTUSDT::SHORT::BoS::1788250500000",
+  "symbol": "TUTUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.03,
+  "sl": 0.03225,
+  "tp": 0.027,
+  "tpSrc": "WL",
+  "slPct": 7.5,
+  "gainPct": 10,
+  "rr": 1.33,
+  "lev": 8,
+  "signalTime": 1788250500000,
+  "status": "pending",
+  "createdAt": 1788250534004
  }
 ]
