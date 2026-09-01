@@ -13984,12 +13984,15 @@
   "rr": 2.37,
   "lev": 13,
   "signalTime": 1788236100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788236133585,
   "fillTime": 1788236100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.37,
+  "resolvedTime": 1788246000000
  },
  {
   "id": "ZKCUSDT::SHORT::ChoCh::1788237000000",
@@ -14050,5 +14053,22 @@
   "status": "pending",
   "createdAt": 1788245133324,
   "notified": []
+ },
+ {
+  "id": "BICOUSDT::SHORT::ChoCh::1788246900000",
+  "symbol": "BICOUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.02223,
+  "sl": 0.02325,
+  "tp": 0.02063,
+  "tpSrc": "WL",
+  "slPct": 4.59,
+  "gainPct": 7.2,
+  "rr": 1.57,
+  "lev": 13,
+  "signalTime": 1788246900000,
+  "status": "pending",
+  "createdAt": 1788246934070
  }
 ]
