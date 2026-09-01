@@ -14189,11 +14189,14 @@
   "rr": 1.29,
   "lev": 10,
   "signalTime": 1788268500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788268534230,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1788270300000
+  "fillTime": 1788270300000,
+  "R": 1.29,
+  "resolvedTime": 1788275700000
  }
 ]
