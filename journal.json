@@ -10535,12 +10535,15 @@
   "rr": 3.77,
   "lev": 16,
   "signalTime": 1787641200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1787641248525,
   "fillTime": 1787641200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788220800000
  },
  {
   "id": "TIAUSDT::SHORT::ChoCh::1787641200000",
@@ -13928,8 +13931,13 @@
   "rr": 9.13,
   "lev": 21,
   "signalTime": 1788218100000,
-  "status": "pending",
+  "status": "loss",
   "createdAt": 1788218137985,
-  "notified": []
+  "notified": [
+   "loss"
+  ],
+  "R": -1,
+  "fillTime": 1788220800000,
+  "resolvedTime": 1788220800000
  }
 ]
