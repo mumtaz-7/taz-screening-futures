@@ -14280,5 +14280,22 @@
   "status": "pending",
   "createdAt": 1788297332691,
   "notified": []
+ },
+ {
+  "id": "ONGUSDT::SHORT::ChoCh::1788299100000",
+  "symbol": "ONGUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.1136,
+  "sl": 0.11932999999999999,
+  "tp": 0.088,
+  "tpSrc": "WL",
+  "slPct": 5.04,
+  "gainPct": 22.54,
+  "rr": 4.47,
+  "lev": 12,
+  "signalTime": 1788299100000,
+  "status": "pending",
+  "createdAt": 1788299131802
  }
 ]
