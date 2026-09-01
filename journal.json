@@ -14298,5 +14298,22 @@
   "status": "pending",
   "createdAt": 1788299131802,
   "notified": []
+ },
+ {
+  "id": "ATMUSDT::LONG::ChoCh::1788301800000",
+  "symbol": "ATMUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1.244,
+  "sl": 1.2109999999999999,
+  "tp": 1.397,
+  "tpSrc": "WH",
+  "slPct": 2.65,
+  "gainPct": 12.3,
+  "rr": 4.64,
+  "lev": 22,
+  "signalTime": 1788301800000,
+  "status": "pending",
+  "createdAt": 1788301841405
  }
 ]
