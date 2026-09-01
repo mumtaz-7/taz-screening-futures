@@ -14095,12 +14095,15 @@
   "rr": 1.33,
   "lev": 8,
   "signalTime": 1788250500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788250534004,
   "fillTime": 1788250500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788255900000
  },
  {
   "id": "SCUSDT::LONG::BoS::1788255000000",
@@ -14135,6 +14138,7 @@
   "lev": 16,
   "signalTime": 1788255900000,
   "status": "pending",
-  "createdAt": 1788255933800
+  "createdAt": 1788255933800,
+  "notified": []
  }
 ]
