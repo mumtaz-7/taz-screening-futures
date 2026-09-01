@@ -14150,9 +14150,12 @@
   "rr": 4.97,
   "lev": 16,
   "signalTime": 1788255900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788255933800,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ZKCUSDT::SHORT::BoS::1788261300000",
