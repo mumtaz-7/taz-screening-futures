@@ -13481,12 +13481,15 @@
   "rr": 2.91,
   "lev": 13,
   "signalTime": 1788082200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788082243470,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788085800000
+  "fillTime": 1788085800000,
+  "R": -1,
+  "resolvedTime": 1788263100000
  },
  {
   "id": "ZKPUSDT::LONG::ChoCh::1788082200000",
@@ -14056,9 +14059,13 @@
   "rr": 1.28,
   "lev": 9,
   "signalTime": 1788245100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788245133324,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1788263100000
  },
  {
   "id": "BICOUSDT::SHORT::ChoCh::1788246900000",
