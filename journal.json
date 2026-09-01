@@ -14262,5 +14262,22 @@
   "status": "pending",
   "createdAt": 1788292846792,
   "notified": []
+ },
+ {
+  "id": "TUTUSDT::SHORT::ChoCh::1788297300000",
+  "symbol": "TUTUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.03117,
+  "sl": 0.032159999999999994,
+  "tp": 0.027,
+  "tpSrc": "WL",
+  "slPct": 3.18,
+  "gainPct": 13.38,
+  "rr": 4.21,
+  "lev": 18,
+  "signalTime": 1788297300000,
+  "status": "pending",
+  "createdAt": 1788297332691
  }
 ]
