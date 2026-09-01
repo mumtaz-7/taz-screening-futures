@@ -14140,5 +14140,22 @@
   "status": "pending",
   "createdAt": 1788255933800,
   "notified": []
+ },
+ {
+  "id": "ZKCUSDT::SHORT::BoS::1788261300000",
+  "symbol": "ZKCUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0501,
+  "sl": 0.054900000000000004,
+  "tp": 0.0397,
+  "tpSrc": "OB",
+  "slPct": 9.58,
+  "gainPct": 20.76,
+  "rr": 2.17,
+  "lev": 6,
+  "signalTime": 1788261300000,
+  "status": "pending",
+  "createdAt": 1788261332728
  }
 ]
