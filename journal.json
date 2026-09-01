@@ -14032,5 +14032,22 @@
    "open"
   ],
   "fillTime": 1788239700000
+ },
+ {
+  "id": "UNIUSDT::LONG::BoS::1788245100000",
+  "symbol": "UNIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 5.443,
+  "sl": 5.071000000000001,
+  "tp": 5.92,
+  "tpSrc": "WH",
+  "slPct": 6.83,
+  "gainPct": 8.76,
+  "rr": 1.28,
+  "lev": 9,
+  "signalTime": 1788245100000,
+  "status": "pending",
+  "createdAt": 1788245133324
  }
 ]
