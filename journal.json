@@ -14201,5 +14201,22 @@
   "fillTime": 1788270300000,
   "R": 1.29,
   "resolvedTime": 1788275700000
+ },
+ {
+  "id": "NOTUSDT::SHORT::BoS::1788283800000",
+  "symbol": "NOTUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.000455,
+  "sl": 0.00048049999999999997,
+  "tp": 0.000395,
+  "tpSrc": "WL",
+  "slPct": 5.6,
+  "gainPct": 13.19,
+  "rr": 2.35,
+  "lev": 11,
+  "signalTime": 1788283800000,
+  "status": "pending",
+  "createdAt": 1788283842312
  }
 ]
