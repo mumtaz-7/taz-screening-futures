@@ -14319,5 +14319,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ARBUSDT::LONG::BoS::1788306300000",
+  "symbol": "ARBUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1091,
+  "sl": 0.10400000000000001,
+  "tp": 0.1202,
+  "tpSrc": "WH",
+  "slPct": 4.67,
+  "gainPct": 10.17,
+  "rr": 2.18,
+  "lev": 13,
+  "signalTime": 1788306300000,
+  "status": "pending",
+  "createdAt": 1788306333656
  }
 ]
