@@ -14002,5 +14002,22 @@
   "status": "pending",
   "createdAt": 1788237043083,
   "notified": []
+ },
+ {
+  "id": "ZKUSDT::LONG::ChoCh::1788238800000",
+  "symbol": "ZKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00907,
+  "sl": 0.008695,
+  "tp": 0.01061,
+  "tpSrc": "WH",
+  "slPct": 4.13,
+  "gainPct": 16.98,
+  "rr": 4.11,
+  "lev": 14,
+  "signalTime": 1788238800000,
+  "status": "pending",
+  "createdAt": 1788238967922
  }
 ]
