@@ -14415,12 +14415,15 @@
   "rr": 3.11,
   "lev": 12,
   "signalTime": 1788319800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788319841726,
   "fillTime": 1788319800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788343200000
  },
  {
   "id": "IQUSDT::LONG::ChoCh::1788325200000",
@@ -14499,7 +14502,28 @@
   "rr": 1.73,
   "lev": 13,
   "signalTime": 1788343200000,
+  "status": "open",
+  "createdAt": 1788343248898,
+  "fillTime": 1788343200000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "LAUSDT::LONG::ChoCh::1788344100000",
+  "symbol": "LAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.064,
+  "sl": 0.061450000000000005,
+  "tp": 0.0689,
+  "tpSrc": "WH",
+  "slPct": 3.98,
+  "gainPct": 7.66,
+  "rr": 1.92,
+  "lev": 15,
+  "signalTime": 1788344100000,
   "status": "pending",
-  "createdAt": 1788343248898
+  "createdAt": 1788344136724
  }
 ]
