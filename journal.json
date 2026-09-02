@@ -14400,12 +14400,15 @@
   "rr": 2.58,
   "lev": 15,
   "signalTime": 1788318900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788318935221,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788321600000
+  "fillTime": 1788321600000,
+  "R": -1,
+  "resolvedTime": 1788355800000
  },
  {
   "id": "ENAUSDT::LONG::ChoCh::1788319800000",
