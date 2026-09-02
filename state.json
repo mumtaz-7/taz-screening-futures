@@ -1,6 +1,8 @@
 {
   "ready": [
-    "LAUSDT::LONG::ChoCh"
+    "LAUSDT::LONG::ChoCh",
+    "ONGUSDT::SHORT::BoS",
+    "TUSDT::LONG::BoS"
   ],
-  "at": "2026-09-02T11:15:34.486Z"
+  "at": "2026-09-02T11:30:41.343Z"
 }
