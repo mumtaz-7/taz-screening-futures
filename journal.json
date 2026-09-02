@@ -14286,12 +14286,15 @@
   "rr": 4.21,
   "lev": 18,
   "signalTime": 1788297300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788297332691,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1788307200000
+  "fillTime": 1788307200000,
+  "R": 4.21,
+  "resolvedTime": 1788345900000
  },
  {
   "id": "ONGUSDT::SHORT::ChoCh::1788299100000",
