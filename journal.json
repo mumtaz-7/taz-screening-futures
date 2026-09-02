@@ -14376,5 +14376,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BONKUSDT::LONG::BoS::1788318900000",
+  "symbol": "BONKUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.000003,
+  "sl": 0.00000288,
+  "tp": 0.00000331,
+  "tpSrc": "WH",
+  "slPct": 4,
+  "gainPct": 10.33,
+  "rr": 2.58,
+  "lev": 15,
+  "signalTime": 1788318900000,
+  "status": "pending",
+  "createdAt": 1788318935221
  }
 ]
