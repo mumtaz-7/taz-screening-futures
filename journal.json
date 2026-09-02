@@ -10105,7 +10105,7 @@
   "rr": 4.43,
   "lev": 16,
   "signalTime": 1787592600000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1787592639474,
   "notified": [
    "open"
@@ -10126,7 +10126,7 @@
   "rr": 2.21,
   "lev": 11,
   "signalTime": 1787592600000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1787592639474,
   "fillTime": 1787592600000,
   "notified": [
