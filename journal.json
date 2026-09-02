@@ -14358,12 +14358,15 @@
   "rr": 2.18,
   "lev": 13,
   "signalTime": 1788306300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788306333656,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1788308100000
+  "fillTime": 1788308100000,
+  "R": 2.18,
+  "resolvedTime": 1788366600000
  },
  {
   "id": "HEIUSDT::LONG::BoS::1788317100000",
@@ -14628,6 +14631,7 @@
   "lev": 7,
   "signalTime": 1788366600000,
   "status": "pending",
-  "createdAt": 1788366641115
+  "createdAt": 1788366641115,
+  "notified": []
  }
 ]
