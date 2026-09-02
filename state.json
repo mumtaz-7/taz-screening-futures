@@ -1,6 +1,7 @@
 {
   "ready": [
-    "0GUSDT::LONG::BoS"
+    "0GUSDT::LONG::BoS",
+    "HEMIUSDT::LONG::BoS"
   ],
-  "at": "2026-09-02T16:15:32.547Z"
+  "at": "2026-09-02T16:30:41.114Z"
 }
