@@ -14421,5 +14421,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "IQUSDT::LONG::ChoCh::1788325200000",
+  "symbol": "IQUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.000738,
+  "sl": 0.0007124999999999999,
+  "tp": 0.000808,
+  "tpSrc": "EQ",
+  "slPct": 3.46,
+  "gainPct": 9.49,
+  "rr": 2.75,
+  "lev": 17,
+  "signalTime": 1788325200000,
+  "status": "pending",
+  "createdAt": 1788325247993
  }
 ]
