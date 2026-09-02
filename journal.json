@@ -14463,5 +14463,22 @@
    "open"
   ],
   "fillTime": 1788332400000
+ },
+ {
+  "id": "0GUSDT::LONG::ChoCh::1788337800000",
+  "symbol": "0GUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1906,
+  "sl": 0.1795,
+  "tp": 0.20905,
+  "tpSrc": "EQ",
+  "slPct": 5.82,
+  "gainPct": 9.68,
+  "rr": 1.66,
+  "lev": 10,
+  "signalTime": 1788337800000,
+  "status": "pending",
+  "createdAt": 1788337845209
  }
 ]
