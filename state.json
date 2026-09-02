@@ -1,6 +1,7 @@
 {
   "ready": [
-    "HEMIUSDT::LONG::BoS"
+    "ACEUSDT::LONG::ChoCh",
+    "ZKCUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-09-02T17:45:31.191Z"
+  "at": "2026-09-02T18:00:50.196Z"
 }
