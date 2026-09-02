@@ -14392,6 +14392,24 @@
   "lev": 15,
   "signalTime": 1788318900000,
   "status": "pending",
-  "createdAt": 1788318935221
+  "createdAt": 1788318935221,
+  "notified": []
+ },
+ {
+  "id": "ENAUSDT::LONG::ChoCh::1788319800000",
+  "symbol": "ENAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1605,
+  "sl": 0.15255000000000002,
+  "tp": 0.1852,
+  "tpSrc": "OB",
+  "slPct": 4.95,
+  "gainPct": 15.39,
+  "rr": 3.11,
+  "lev": 12,
+  "signalTime": 1788319800000,
+  "status": "pending",
+  "createdAt": 1788319841726
  }
 ]
