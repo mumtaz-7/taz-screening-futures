@@ -14298,9 +14298,12 @@
   "rr": 4.47,
   "lev": 12,
   "signalTime": 1788299100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788299131802,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788308100000
  },
  {
   "id": "ATMUSDT::LONG::ChoCh::1788301800000",
@@ -14337,8 +14340,11 @@
   "rr": 2.18,
   "lev": 13,
   "signalTime": 1788306300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788306333656,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788308100000
  }
 ]
