@@ -14265,9 +14265,12 @@
   "rr": 1.93,
   "lev": 16,
   "signalTime": 1788292800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788292846792,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "TUTUSDT::SHORT::ChoCh::1788297300000",
