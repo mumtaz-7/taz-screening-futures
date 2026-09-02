@@ -14355,5 +14355,22 @@
    "open"
   ],
   "fillTime": 1788308100000
+ },
+ {
+  "id": "HEIUSDT::LONG::BoS::1788317100000",
+  "symbol": "HEIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.148,
+  "sl": 0.13929999999999998,
+  "tp": 0.1626,
+  "tpSrc": "OB",
+  "slPct": 5.88,
+  "gainPct": 9.86,
+  "rr": 1.68,
+  "lev": 10,
+  "signalTime": 1788317100000,
+  "status": "pending",
+  "createdAt": 1788317132635
  }
 ]
