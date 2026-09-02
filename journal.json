@@ -14084,12 +14084,15 @@
   "rr": 1.57,
   "lev": 13,
   "signalTime": 1788246900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788246934070,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788249600000
+  "fillTime": 1788249600000,
+  "R": -1,
+  "resolvedTime": 1788312600000
  },
  {
   "id": "TUTUSDT::SHORT::BoS::1788250500000",
