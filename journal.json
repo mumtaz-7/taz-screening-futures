@@ -14442,5 +14442,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ONGUSDT::SHORT::BoS::1788329700000",
+  "symbol": "ONGUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.10101,
+  "sl": 0.11146500000000001,
+  "tp": 0.088,
+  "tpSrc": "WL",
+  "slPct": 10.35,
+  "gainPct": 12.88,
+  "rr": 1.24,
+  "lev": 6,
+  "signalTime": 1788329700000,
+  "status": "pending",
+  "createdAt": 1788329736531
  }
 ]
