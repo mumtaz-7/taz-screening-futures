@@ -14328,12 +14328,15 @@
   "rr": 4.64,
   "lev": 22,
   "signalTime": 1788301800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788301841405,
   "fillTime": 1788301800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788319800000
  },
  {
   "id": "ARBUSDT::LONG::BoS::1788306300000",
@@ -14409,7 +14412,11 @@
   "rr": 3.11,
   "lev": 12,
   "signalTime": 1788319800000,
-  "status": "pending",
-  "createdAt": 1788319841726
+  "status": "open",
+  "createdAt": 1788319841726,
+  "fillTime": 1788319800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
