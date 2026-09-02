@@ -1,4 +1,7 @@
 {
-  "ready": [],
-  "at": "2026-09-02T14:45:34.420Z"
+  "ready": [
+    "MIRAUSDT::SHORT::ChoCh",
+    "ROBOUSDT::SHORT::ChoCh"
+  ],
+  "at": "2026-09-02T15:00:50.196Z"
 }

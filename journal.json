@@ -14567,5 +14567,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1788351300000
+ },
+ {
+  "id": "MIRAUSDT::SHORT::ChoCh::1788361200000",
+  "symbol": "MIRAUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.04595,
+  "sl": 0.049850000000000005,
+  "tp": 0.04193,
+  "tpSrc": "WL",
+  "slPct": 8.49,
+  "gainPct": 8.75,
+  "rr": 1.03,
+  "lev": 7,
+  "signalTime": 1788361200000,
+  "status": "pending",
+  "createdAt": 1788361250197
  }
 ]
