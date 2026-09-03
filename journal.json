@@ -14717,12 +14717,15 @@
   "rr": 1.33,
   "lev": 11,
   "signalTime": 1788396300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788396332293,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788397200000
+  "fillTime": 1788397200000,
+  "R": -1,
+  "resolvedTime": 1788399000000
  },
  {
   "id": "ANKRUSDT::LONG::BoS::1788397200000",
