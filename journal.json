@@ -14875,7 +14875,8 @@
   "lev": 19,
   "signalTime": 1788439500000,
   "status": "pending",
-  "createdAt": 1788439534678
+  "createdAt": 1788439534678,
+  "notified": []
  },
  {
   "id": "TUSDT::LONG::BoS::1788439500000",
@@ -14891,7 +14892,11 @@
   "rr": 4.13,
   "lev": 7,
   "signalTime": 1788439500000,
-  "status": "pending",
-  "createdAt": 1788439534678
+  "status": "open",
+  "createdAt": 1788439534678,
+  "fillTime": 1788439500000,
+  "notified": [
+   "open"
+  ]
  }
 ]
