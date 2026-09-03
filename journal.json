@@ -14786,5 +14786,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "DASHUSDT::SHORT::ChoCh::1788413400000",
+  "symbol": "DASHUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 42.33,
+  "sl": 43.394999999999996,
+  "tp": 38.49,
+  "tpSrc": "OB",
+  "slPct": 2.52,
+  "gainPct": 9.07,
+  "rr": 3.61,
+  "lev": 23,
+  "signalTime": 1788413400000,
+  "status": "pending",
+  "createdAt": 1788413441491
  }
 ]
