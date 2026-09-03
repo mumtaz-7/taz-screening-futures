@@ -14859,5 +14859,39 @@
   "status": "pending",
   "createdAt": 1788419734662,
   "notified": []
+ },
+ {
+  "id": "ACEUSDT::LONG::ChoCh::1788439500000",
+  "symbol": "ACEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1845,
+  "sl": 0.17865000000000003,
+  "tp": 0.20350000000000001,
+  "tpSrc": "EQ",
+  "slPct": 3.17,
+  "gainPct": 10.3,
+  "rr": 3.25,
+  "lev": 19,
+  "signalTime": 1788439500000,
+  "status": "pending",
+  "createdAt": 1788439534678
+ },
+ {
+  "id": "TUSDT::LONG::BoS::1788439500000",
+  "symbol": "TUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00465,
+  "sl": 0.004275000000000001,
+  "tp": 0.0062,
+  "tpSrc": "WH",
+  "slPct": 8.06,
+  "gainPct": 33.33,
+  "rr": 4.13,
+  "lev": 7,
+  "signalTime": 1788439500000,
+  "status": "pending",
+  "createdAt": 1788439534678
  }
 ]
