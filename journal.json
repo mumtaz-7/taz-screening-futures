@@ -14718,6 +14718,24 @@
   "lev": 11,
   "signalTime": 1788396300000,
   "status": "pending",
-  "createdAt": 1788396332293
+  "createdAt": 1788396332293,
+  "notified": []
+ },
+ {
+  "id": "ANKRUSDT::LONG::BoS::1788397200000",
+  "symbol": "ANKRUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00397,
+  "sl": 0.00391,
+  "tp": 0.00513,
+  "tpSrc": "WH",
+  "slPct": 1.51,
+  "gainPct": 29.22,
+  "rr": 19.33,
+  "lev": 25,
+  "signalTime": 1788397200000,
+  "status": "pending",
+  "createdAt": 1788397244165
  }
 ]
