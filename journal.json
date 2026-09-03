@@ -14991,5 +14991,22 @@
    "open"
   ],
   "fillTime": 1788453900000
+ },
+ {
+  "id": "PUMPUSDT::LONG::BoS::1788457500000",
+  "symbol": "PUMPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.004489,
+  "sl": 0.0043630000000000006,
+  "tp": 0.004858,
+  "tpSrc": "OB",
+  "slPct": 2.81,
+  "gainPct": 8.22,
+  "rr": 2.93,
+  "lev": 21,
+  "signalTime": 1788457500000,
+  "status": "pending",
+  "createdAt": 1788457533294
  }
 ]
