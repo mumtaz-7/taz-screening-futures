@@ -15018,5 +15018,22 @@
   ],
   "R": -1,
   "resolvedTime": 1788472800000
+ },
+ {
+  "id": "PROMUSDT::SHORT::ChoCh::1788478200000",
+  "symbol": "PROMUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 4.936,
+  "sl": 5.125,
+  "tp": 4.443,
+  "tpSrc": "WL",
+  "slPct": 3.83,
+  "gainPct": 9.99,
+  "rr": 2.61,
+  "lev": 16,
+  "signalTime": 1788478200000,
+  "status": "pending",
+  "createdAt": 1788478264788
  }
 ]
