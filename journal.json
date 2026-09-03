@@ -14717,9 +14717,12 @@
   "rr": 1.33,
   "lev": 11,
   "signalTime": 1788396300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788396332293,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788397200000
  },
  {
   "id": "ANKRUSDT::LONG::BoS::1788397200000",
@@ -14736,6 +14739,7 @@
   "lev": 25,
   "signalTime": 1788397200000,
   "status": "pending",
-  "createdAt": 1788397244165
+  "createdAt": 1788397244165,
+  "notified": []
  }
 ]
