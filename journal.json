@@ -14947,6 +14947,24 @@
   "lev": 8,
   "signalTime": 1788448500000,
   "status": "pending",
-  "createdAt": 1788448537432
+  "createdAt": 1788448537432,
+  "notified": []
+ },
+ {
+  "id": "ENAUSDT::LONG::BoS::1788449400000",
+  "symbol": "ENAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1579,
+  "sl": 0.14575,
+  "tp": 0.1852,
+  "tpSrc": "OB",
+  "slPct": 7.69,
+  "gainPct": 17.29,
+  "rr": 2.25,
+  "lev": 8,
+  "signalTime": 1788449400000,
+  "status": "pending",
+  "createdAt": 1788449445689
  }
 ]
