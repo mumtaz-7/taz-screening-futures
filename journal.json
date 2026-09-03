@@ -14762,5 +14762,22 @@
   "status": "pending",
   "createdAt": 1788405338933,
   "notified": []
+ },
+ {
+  "id": "0GUSDT::LONG::ChoCh::1788408000000",
+  "symbol": "0GUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1855,
+  "sl": 0.17619999999999997,
+  "tp": 0.21925,
+  "tpSrc": "EQ",
+  "slPct": 5.01,
+  "gainPct": 18.19,
+  "rr": 3.63,
+  "lev": 12,
+  "signalTime": 1788408000000,
+  "status": "pending",
+  "createdAt": 1788408044567
  }
 ]
