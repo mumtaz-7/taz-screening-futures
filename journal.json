@@ -14529,12 +14529,15 @@
   "rr": 1.73,
   "lev": 13,
   "signalTime": 1788343200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788343248898,
   "fillTime": 1788343200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788446700000
  },
  {
   "id": "LAUSDT::LONG::ChoCh::1788344100000",
