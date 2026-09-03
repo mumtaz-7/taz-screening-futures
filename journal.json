@@ -14744,9 +14744,12 @@
   "rr": 19.33,
   "lev": 25,
   "signalTime": 1788397200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788397244165,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "NEARUSDT::LONG::BoS::1788405300000",
@@ -14825,7 +14828,29 @@
   "rr": 3.58,
   "lev": 25,
   "signalTime": 1788418800000,
+  "status": "void",
+  "createdAt": 1788418846619,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1788418800000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "PROMUSDT::SHORT::ChoCh::1788419700000",
+  "symbol": "PROMUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 4.85,
+  "sl": 5.183,
+  "tp": 4.383,
+  "tpSrc": "WL",
+  "slPct": 6.87,
+  "gainPct": 9.63,
+  "rr": 1.4,
+  "lev": 9,
+  "signalTime": 1788419700000,
   "status": "pending",
-  "createdAt": 1788418846619
+  "createdAt": 1788419734662
  }
 ]
