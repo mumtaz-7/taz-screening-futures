@@ -14702,5 +14702,22 @@
    "open"
   ],
   "fillTime": 1788393600000
+ },
+ {
+  "id": "PROMUSDT::SHORT::ChoCh::1788396300000",
+  "symbol": "PROMUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 4.74,
+  "sl": 5.0085,
+  "tp": 4.383,
+  "tpSrc": "WL",
+  "slPct": 5.66,
+  "gainPct": 7.53,
+  "rr": 1.33,
+  "lev": 11,
+  "signalTime": 1788396300000,
+  "status": "pending",
+  "createdAt": 1788396332293
  }
 ]
