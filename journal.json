@@ -14675,12 +14675,15 @@
   "rr": 1.69,
   "lev": 11,
   "signalTime": 1788390900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788390933116,
   "fillTime": 1788390900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.69,
+  "resolvedTime": 1788417000000
  },
  {
   "id": "LAUSDT::LONG::ChoCh::1788390900000",
