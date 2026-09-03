@@ -14138,12 +14138,15 @@
   "rr": 1.5,
   "lev": 3,
   "signalTime": 1788255000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788255041277,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788265800000
+  "fillTime": 1788265800000,
+  "R": -1,
+  "resolvedTime": 1788435900000
  },
  {
   "id": "ATMUSDT::LONG::BoS::1788255900000",
@@ -14807,12 +14810,15 @@
   "rr": 3.61,
   "lev": 23,
   "signalTime": 1788413400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788413441491,
   "fillTime": 1788413400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788435900000
  },
  {
   "id": "CHIPUSDT::LONG::BoS::1788418800000",
