@@ -14970,5 +14970,22 @@
   "status": "pending",
   "createdAt": 1788449445689,
   "notified": []
+ },
+ {
+  "id": "ACEUSDT::LONG::BoS::1788452100000",
+  "symbol": "ACEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1868,
+  "sl": 0.18050000000000002,
+  "tp": 0.2289,
+  "tpSrc": "WH",
+  "slPct": 3.37,
+  "gainPct": 22.54,
+  "rr": 6.68,
+  "lev": 17,
+  "signalTime": 1788452100000,
+  "status": "pending",
+  "createdAt": 1788452134071
  }
 ]
