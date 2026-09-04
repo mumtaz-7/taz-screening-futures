@@ -15105,9 +15105,12 @@
   "rr": 6.27,
   "lev": 24,
   "signalTime": 1788480900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788480932398,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "FILUSDT::SHORT::BoS::1788482700000",
