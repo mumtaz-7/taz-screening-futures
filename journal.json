@@ -15318,9 +15318,12 @@
   "rr": 1.59,
   "lev": 5,
   "signalTime": 1788538500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788538537033,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788545700000
  },
  {
   "id": "LPTUSDT::LONG::ChoCh::1788539400000",
@@ -15420,7 +15423,11 @@
   "rr": 1.79,
   "lev": 13,
   "signalTime": 1788545700000,
-  "status": "pending",
-  "createdAt": 1788545740494
+  "status": "open",
+  "createdAt": 1788545740494,
+  "fillTime": 1788545700000,
+  "notified": [
+   "open"
+  ]
  }
 ]
