@@ -15334,7 +15334,8 @@
   "lev": 9,
   "signalTime": 1788539400000,
   "status": "pending",
-  "createdAt": 1788539442383
+  "createdAt": 1788539442383,
+  "notified": []
  },
  {
   "id": "PUMPUSDT::LONG::BoS::1788539400000",
@@ -15351,6 +15352,41 @@
   "lev": 10,
   "signalTime": 1788539400000,
   "status": "pending",
-  "createdAt": 1788539442383
+  "createdAt": 1788539442383,
+  "notified": []
+ },
+ {
+  "id": "EGLDUSDT::LONG::BoS::1788540300000",
+  "symbol": "EGLDUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 4.887,
+  "sl": 4.618500000000001,
+  "tp": 5.5,
+  "tpSrc": "WH",
+  "slPct": 5.49,
+  "gainPct": 12.54,
+  "rr": 2.28,
+  "lev": 11,
+  "signalTime": 1788540300000,
+  "status": "pending",
+  "createdAt": 1788540333576
+ },
+ {
+  "id": "PROMUSDT::LONG::ChoCh::1788540300000",
+  "symbol": "PROMUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 5.078,
+  "sl": 4.862,
+  "tp": 5.7,
+  "tpSrc": "WH",
+  "slPct": 4.25,
+  "gainPct": 12.25,
+  "rr": 2.88,
+  "lev": 14,
+  "signalTime": 1788540300000,
+  "status": "pending",
+  "createdAt": 1788540333576
  }
 ]
