@@ -15351,9 +15351,12 @@
   "rr": 2.06,
   "lev": 10,
   "signalTime": 1788539400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788539442383,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788541200000
  },
  {
   "id": "EGLDUSDT::LONG::BoS::1788540300000",
