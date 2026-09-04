@@ -15171,12 +15171,15 @@
   "rr": 1.59,
   "lev": 9,
   "signalTime": 1788496200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788496241802,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788497100000
+  "fillTime": 1788497100000,
+  "R": -1,
+  "resolvedTime": 1788507900000
  },
  {
   "id": "PUMPUSDT::LONG::ChoCh::1788496200000",
