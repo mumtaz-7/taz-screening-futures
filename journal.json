@@ -15474,5 +15474,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "OPUSDT::LONG::ChoCh::1788557400000",
+  "symbol": "OPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0983,
+  "sl": 0.0956,
+  "tp": 0.1052,
+  "tpSrc": "WH",
+  "slPct": 2.75,
+  "gainPct": 7.02,
+  "rr": 2.56,
+  "lev": 21,
+  "signalTime": 1788557400000,
+  "status": "pending",
+  "createdAt": 1788557441670
  }
 ]
