@@ -15144,5 +15144,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MUBARAKUSDT::LONG::ChoCh::1788496200000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.03038,
+  "sl": 0.028399999999999998,
+  "tp": 0.03352,
+  "tpSrc": "WH",
+  "slPct": 6.52,
+  "gainPct": 10.34,
+  "rr": 1.59,
+  "lev": 9,
+  "signalTime": 1788496200000,
+  "status": "pending",
+  "createdAt": 1788496241802
+ },
+ {
+  "id": "PUMPUSDT::LONG::ChoCh::1788496200000",
+  "symbol": "PUMPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.004336,
+  "sl": 0.003928,
+  "tp": 0.004858,
+  "tpSrc": "OB",
+  "slPct": 9.41,
+  "gainPct": 12.04,
+  "rr": 1.28,
+  "lev": 6,
+  "signalTime": 1788496200000,
+  "status": "pending",
+  "createdAt": 1788496241802
  }
 ]
