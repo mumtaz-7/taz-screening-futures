@@ -15495,5 +15495,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "WIFUSDT::LONG::ChoCh::1788560100000",
+  "symbol": "WIFUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.2023,
+  "sl": 0.1972,
+  "tp": 0.2189,
+  "tpSrc": "WH",
+  "slPct": 2.52,
+  "gainPct": 8.21,
+  "rr": 3.25,
+  "lev": 23,
+  "signalTime": 1788560100000,
+  "status": "pending",
+  "createdAt": 1788560134483
  }
 ]
