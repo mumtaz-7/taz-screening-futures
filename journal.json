@@ -15054,12 +15054,15 @@
   "rr": 7.24,
   "lev": 25,
   "signalTime": 1788480900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788480932398,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788481800000
+  "fillTime": 1788481800000,
+  "R": -1,
+  "resolvedTime": 1788483600000
  },
  {
   "id": "HIVEUSDT::LONG::BoS::1788480900000",
