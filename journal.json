@@ -15246,12 +15246,15 @@
   "rr": 2.6,
   "lev": 19,
   "signalTime": 1788521400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788521443018,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1788523200000
+  "fillTime": 1788523200000,
+  "R": 2.6,
+  "resolvedTime": 1788534000000
  },
  {
   "id": "FILUSDT::SHORT::BoS::1788524100000",
