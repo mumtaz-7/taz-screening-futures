@@ -1,6 +1,8 @@
 {
   "ready": [
-    "PORTALUSDT::LONG::BoS"
+    "LPTUSDT::LONG::ChoCh",
+    "PORTALUSDT::LONG::BoS",
+    "PUMPUSDT::LONG::BoS"
   ],
-  "at": "2026-09-04T16:15:37.032Z"
+  "at": "2026-09-04T16:30:42.382Z"
 }

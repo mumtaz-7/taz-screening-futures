@@ -15316,6 +15316,41 @@
   "lev": 5,
   "signalTime": 1788538500000,
   "status": "pending",
-  "createdAt": 1788538537033
+  "createdAt": 1788538537033,
+  "notified": []
+ },
+ {
+  "id": "LPTUSDT::LONG::ChoCh::1788539400000",
+  "symbol": "LPTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1.445,
+  "sl": 1.349,
+  "tp": 1.62,
+  "tpSrc": "WH",
+  "slPct": 6.64,
+  "gainPct": 12.11,
+  "rr": 1.82,
+  "lev": 9,
+  "signalTime": 1788539400000,
+  "status": "pending",
+  "createdAt": 1788539442383
+ },
+ {
+  "id": "PUMPUSDT::LONG::BoS::1788539400000",
+  "symbol": "PUMPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.004333,
+  "sl": 0.004078,
+  "tp": 0.004858,
+  "tpSrc": "OB",
+  "slPct": 5.89,
+  "gainPct": 12.12,
+  "rr": 2.06,
+  "lev": 10,
+  "signalTime": 1788539400000,
+  "status": "pending",
+  "createdAt": 1788539442383
  }
 ]
