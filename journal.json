@@ -15055,7 +15055,8 @@
   "lev": 25,
   "signalTime": 1788480900000,
   "status": "pending",
-  "createdAt": 1788480932398
+  "createdAt": 1788480932398,
+  "notified": []
  },
  {
   "id": "HIVEUSDT::LONG::BoS::1788480900000",
@@ -15072,7 +15073,8 @@
   "lev": 25,
   "signalTime": 1788480900000,
   "status": "pending",
-  "createdAt": 1788480932398
+  "createdAt": 1788480932398,
+  "notified": []
  },
  {
   "id": "LPTUSDT::LONG::BoS::1788480900000",
@@ -15089,6 +15091,7 @@
   "lev": 24,
   "signalTime": 1788480900000,
   "status": "pending",
-  "createdAt": 1788480932398
+  "createdAt": 1788480932398,
+  "notified": []
  }
 ]
