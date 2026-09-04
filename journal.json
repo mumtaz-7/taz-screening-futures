@@ -14904,12 +14904,15 @@
   "rr": 4.13,
   "lev": 7,
   "signalTime": 1788439500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788439534678,
   "fillTime": 1788439500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788525000000
  },
  {
   "id": "ETHFIUSDT::LONG::ChoCh::1788445800000",
@@ -14946,12 +14949,15 @@
   "rr": 1.08,
   "lev": 8,
   "signalTime": 1788448500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788448537432,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788449400000
+  "fillTime": 1788449400000,
+  "R": -1,
+  "resolvedTime": 1788525000000
  },
  {
   "id": "ENAUSDT::LONG::BoS::1788449400000",
@@ -14988,12 +14994,15 @@
   "rr": 6.68,
   "lev": 17,
   "signalTime": 1788452100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788452134071,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788453900000
+  "fillTime": 1788453900000,
+  "R": -1,
+  "resolvedTime": 1788525000000
  },
  {
   "id": "PUMPUSDT::LONG::BoS::1788457500000",
@@ -15264,5 +15273,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CATIUSDT::SHORT::BoS::1788525900000",
+  "symbol": "CATIUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.05778,
+  "sl": 0.063015,
+  "tp": 0.04938,
+  "tpSrc": "WL",
+  "slPct": 9.06,
+  "gainPct": 14.54,
+  "rr": 1.6,
+  "lev": 7,
+  "signalTime": 1788525900000,
+  "status": "pending",
+  "createdAt": 1788525939345
  }
 ]
