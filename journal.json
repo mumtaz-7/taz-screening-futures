@@ -15039,5 +15039,56 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "EGLDUSDT::LONG::ChoCh::1788480900000",
+  "symbol": "EGLDUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 4.729,
+  "sl": 4.6225000000000005,
+  "tp": 5.5,
+  "tpSrc": "WH",
+  "slPct": 2.25,
+  "gainPct": 16.3,
+  "rr": 7.24,
+  "lev": 25,
+  "signalTime": 1788480900000,
+  "status": "pending",
+  "createdAt": 1788480932398
+ },
+ {
+  "id": "HIVEUSDT::LONG::BoS::1788480900000",
+  "symbol": "HIVEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0462,
+  "sl": 0.045149999999999996,
+  "tp": 0.0554,
+  "tpSrc": "WH",
+  "slPct": 2.27,
+  "gainPct": 19.91,
+  "rr": 8.76,
+  "lev": 25,
+  "signalTime": 1788480900000,
+  "status": "pending",
+  "createdAt": 1788480932398
+ },
+ {
+  "id": "LPTUSDT::LONG::BoS::1788480900000",
+  "symbol": "LPTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1.413,
+  "sl": 1.38,
+  "tp": 1.62,
+  "tpSrc": "WH",
+  "slPct": 2.34,
+  "gainPct": 14.65,
+  "rr": 6.27,
+  "lev": 24,
+  "signalTime": 1788480900000,
+  "status": "pending",
+  "createdAt": 1788480932398
  }
 ]
