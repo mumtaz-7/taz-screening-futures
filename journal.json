@@ -15516,5 +15516,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CRVUSDT::SHORT::ChoCh::1788562800000",
+  "symbol": "CRVUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.3515,
+  "sl": 0.3578,
+  "tp": 0.3122,
+  "tpSrc": "OB",
+  "slPct": 1.79,
+  "gainPct": 11.18,
+  "rr": 6.24,
+  "lev": 25,
+  "signalTime": 1788562800000,
+  "status": "pending",
+  "createdAt": 1788562847047
  }
 ]
