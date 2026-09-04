@@ -15237,8 +15237,28 @@
   "rr": 2.6,
   "lev": 19,
   "signalTime": 1788521400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788521443018,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788523200000
+ },
+ {
+  "id": "FILUSDT::SHORT::BoS::1788524100000",
+  "symbol": "FILUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.7705,
+  "sl": 0.7802500000000001,
+  "tp": 0.6964,
+  "tpSrc": "OB",
+  "slPct": 1.27,
+  "gainPct": 9.62,
+  "rr": 7.6,
+  "lev": 25,
+  "signalTime": 1788524100000,
+  "status": "pending",
+  "createdAt": 1788524132608
  }
 ]
