@@ -15300,5 +15300,22 @@
   ],
   "R": -1,
   "resolvedTime": 1788536700000
+ },
+ {
+  "id": "PORTALUSDT::LONG::BoS::1788538500000",
+  "symbol": "PORTALUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01683,
+  "sl": 0.015015,
+  "tp": 0.01971,
+  "tpSrc": "WH",
+  "slPct": 10.78,
+  "gainPct": 17.11,
+  "rr": 1.59,
+  "lev": 5,
+  "signalTime": 1788538500000,
+  "status": "pending",
+  "createdAt": 1788538537033
  }
 ]
