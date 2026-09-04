@@ -14774,12 +14774,15 @@
   "rr": 2.68,
   "lev": 19,
   "signalTime": 1788405300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788405338933,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1788408900000
+  "fillTime": 1788408900000,
+  "R": 2.68,
+  "resolvedTime": 1788549300000
  },
  {
   "id": "0GUSDT::LONG::ChoCh::1788408000000",
