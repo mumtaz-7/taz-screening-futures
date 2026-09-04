@@ -15201,5 +15201,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "EGLDUSDT::LONG::ChoCh::1788519600000",
+  "symbol": "EGLDUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 4.674,
+  "sl": 4.2945,
+  "tp": 5.5,
+  "tpSrc": "WH",
+  "slPct": 8.12,
+  "gainPct": 17.67,
+  "rr": 2.18,
+  "lev": 7,
+  "signalTime": 1788519600000,
+  "status": "pending",
+  "createdAt": 1788519646918
  }
 ]
