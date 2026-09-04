@@ -15126,9 +15126,12 @@
   "rr": 5.18,
   "lev": 25,
   "signalTime": 1788482700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788482730290,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "FFUSDT::SHORT::ChoCh::1788489000000",
