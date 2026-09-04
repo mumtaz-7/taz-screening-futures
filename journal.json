@@ -14883,12 +14883,15 @@
   "rr": 3.25,
   "lev": 19,
   "signalTime": 1788439500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788439534678,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788443100000
+  "fillTime": 1788443100000,
+  "R": -1,
+  "resolvedTime": 1788543900000
  },
  {
   "id": "TUSDT::LONG::BoS::1788439500000",
