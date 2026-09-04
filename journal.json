@@ -15429,5 +15429,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HEMIUSDT::SHORT::BoS::1788547500000",
+  "symbol": "HEMIUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.01437,
+  "sl": 0.01509,
+  "tp": 0.01092,
+  "tpSrc": "OB",
+  "slPct": 5.01,
+  "gainPct": 24.01,
+  "rr": 4.79,
+  "lev": 12,
+  "signalTime": 1788547500000,
+  "status": "pending",
+  "createdAt": 1788547536177
  }
 ]
