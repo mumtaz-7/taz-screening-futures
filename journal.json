@@ -15081,12 +15081,15 @@
   "rr": 8.76,
   "lev": 25,
   "signalTime": 1788480900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788480932398,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788494400000
+  "fillTime": 1788494400000,
+  "R": -1,
+  "resolvedTime": 1788500700000
  },
  {
   "id": "LPTUSDT::LONG::BoS::1788480900000",
