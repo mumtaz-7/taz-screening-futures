@@ -15405,5 +15405,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "XPLUSDT::LONG::BoS::1788545700000",
+  "symbol": "XPLUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0948,
+  "sl": 0.09045,
+  "tp": 0.10259,
+  "tpSrc": "WH",
+  "slPct": 4.59,
+  "gainPct": 8.22,
+  "rr": 1.79,
+  "lev": 13,
+  "signalTime": 1788545700000,
+  "status": "pending",
+  "createdAt": 1788545740494
  }
 ]
