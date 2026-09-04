@@ -1,8 +1,9 @@
 {
   "ready": [
     "EGLDUSDT::LONG::ChoCh",
+    "FILUSDT::SHORT::BoS",
     "HIVEUSDT::LONG::BoS",
     "LPTUSDT::LONG::BoS"
   ],
-  "at": "2026-09-04T00:30:38.514Z"
+  "at": "2026-09-04T00:45:30.289Z"
 }

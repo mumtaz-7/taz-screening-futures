@@ -15054,9 +15054,12 @@
   "rr": 7.24,
   "lev": 25,
   "signalTime": 1788480900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788480932398,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788481800000
  },
  {
   "id": "HIVEUSDT::LONG::BoS::1788480900000",
@@ -15093,5 +15096,22 @@
   "status": "pending",
   "createdAt": 1788480932398,
   "notified": []
+ },
+ {
+  "id": "FILUSDT::SHORT::BoS::1788482700000",
+  "symbol": "FILUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.7919,
+  "sl": 0.81035,
+  "tp": 0.6964,
+  "tpSrc": "OB",
+  "slPct": 2.33,
+  "gainPct": 12.06,
+  "rr": 5.18,
+  "lev": 25,
+  "signalTime": 1788482700000,
+  "status": "pending",
+  "createdAt": 1788482730290
  }
 ]
