@@ -15564,5 +15564,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ENAUSDT::LONG::ChoCh::1788576300000",
+  "symbol": "ENAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1635,
+  "sl": 0.1608,
+  "tp": 0.18,
+  "tpSrc": "WH",
+  "slPct": 1.65,
+  "gainPct": 10.09,
+  "rr": 6.11,
+  "lev": 25,
+  "signalTime": 1788576300000,
+  "status": "pending",
+  "createdAt": 1788576332619
  }
 ]
