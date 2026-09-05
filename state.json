@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ENJUSDT::LONG::ChoCh"
+    "ENJUSDT::LONG::ChoCh",
+    "FFUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-05T09:15:32.642Z"
+  "at": "2026-09-05T09:30:42.335Z"
 }
