@@ -15648,12 +15648,15 @@
   "rr": 1.56,
   "lev": 12,
   "signalTime": 1788595200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788595244993,
   "fillTime": 1788595200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.56,
+  "resolvedTime": 1788603300000
  },
  {
   "id": "FORMUSDT::LONG::BoS::1788596100000",
