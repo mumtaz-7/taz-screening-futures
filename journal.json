@@ -15771,5 +15771,22 @@
   "status": "pending",
   "createdAt": 1788609644090,
   "notified": []
+ },
+ {
+  "id": "FORMUSDT::LONG::BoS::1788615000000",
+  "symbol": "FORMUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.2997,
+  "sl": 0.28589999999999993,
+  "tp": 0.3242,
+  "tpSrc": "WH",
+  "slPct": 4.6,
+  "gainPct": 8.17,
+  "rr": 1.78,
+  "lev": 13,
+  "signalTime": 1788615000000,
+  "status": "pending",
+  "createdAt": 1788615042891
  }
 ]
