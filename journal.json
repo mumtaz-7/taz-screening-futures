@@ -15672,5 +15672,22 @@
   "status": "pending",
   "createdAt": 1788596133528,
   "notified": []
+ },
+ {
+  "id": "ENJUSDT::LONG::ChoCh::1788598800000",
+  "symbol": "ENJUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.02771,
+  "sl": 0.02699,
+  "tp": 0.0306,
+  "tpSrc": "WH",
+  "slPct": 2.6,
+  "gainPct": 10.43,
+  "rr": 4.01,
+  "lev": 22,
+  "signalTime": 1788598800000,
+  "status": "pending",
+  "createdAt": 1788598846926
  }
 ]
