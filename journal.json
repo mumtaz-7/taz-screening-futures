@@ -15540,5 +15540,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "FFUSDT::SHORT::ChoCh::1788570900000",
+  "symbol": "FFUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.10769,
+  "sl": 0.109685,
+  "tp": 0.09831,
+  "tpSrc": "WL",
+  "slPct": 1.85,
+  "gainPct": 8.71,
+  "rr": 4.7,
+  "lev": 25,
+  "signalTime": 1788570900000,
+  "status": "pending",
+  "createdAt": 1788571039793
  }
 ]
