@@ -15819,5 +15819,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MUBARAKUSDT::LONG::BoS::1788624900000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0329,
+  "sl": 0.03125,
+  "tp": 0.03579,
+  "tpSrc": "WH",
+  "slPct": 5.02,
+  "gainPct": 8.78,
+  "rr": 1.75,
+  "lev": 12,
+  "signalTime": 1788624900000,
+  "status": "pending",
+  "createdAt": 1788624930176
  }
 ]
