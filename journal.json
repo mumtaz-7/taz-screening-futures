@@ -14708,12 +14708,15 @@
   "rr": 1.09,
   "lev": 7,
   "signalTime": 1788390900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788390933117,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1788393600000
+  "fillTime": 1788393600000,
+  "R": 1.09,
+  "resolvedTime": 1788568200000
  },
  {
   "id": "PROMUSDT::SHORT::ChoCh::1788396300000",
