@@ -15823,12 +15823,15 @@
   "rr": 1.86,
   "lev": 15,
   "signalTime": 1788616800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788616845185,
   "fillTime": 1788616800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788651000000
  },
  {
   "id": "MUBARAKUSDT::LONG::BoS::1788624900000",
@@ -15896,5 +15899,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "DASHUSDT::SHORT::BoS::1788651900000",
+  "symbol": "DASHUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 66.59,
+  "sl": 69.55999999999999,
+  "tp": 55.4,
+  "tpSrc": "OB",
+  "slPct": 4.46,
+  "gainPct": 16.8,
+  "rr": 3.77,
+  "lev": 13,
+  "signalTime": 1788651900000,
+  "status": "pending",
+  "createdAt": 1788651932455
  }
 ]
