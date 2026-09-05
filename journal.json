@@ -15279,12 +15279,15 @@
   "rr": 7.6,
   "lev": 25,
   "signalTime": 1788524100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788524132608,
   "fillTime": 1788524100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788610500000
  },
  {
   "id": "CATIUSDT::SHORT::BoS::1788525900000",
@@ -15630,9 +15633,12 @@
   "rr": 5.81,
   "lev": 25,
   "signalTime": 1788588900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788588936509,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "TUTUSDT::LONG::BoS::1788595200000",
