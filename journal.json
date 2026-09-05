@@ -15612,5 +15612,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "TRUMPUSDT::LONG::BoS::1788588900000",
+  "symbol": "TRUMPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 2.343,
+  "sl": 2.307,
+  "tp": 2.552,
+  "tpSrc": "OB",
+  "slPct": 1.54,
+  "gainPct": 8.92,
+  "rr": 5.81,
+  "lev": 25,
+  "signalTime": 1788588900000,
+  "status": "pending",
+  "createdAt": 1788588936509
  }
 ]
