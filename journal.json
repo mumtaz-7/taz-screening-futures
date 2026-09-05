@@ -15841,5 +15841,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1788625800000
+ },
+ {
+  "id": "FILUSDT::SHORT::ChoCh::1788629400000",
+  "symbol": "FILUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.7779,
+  "sl": 0.7938,
+  "tp": 0.6987,
+  "tpSrc": "OB",
+  "slPct": 2.04,
+  "gainPct": 10.18,
+  "rr": 4.98,
+  "lev": 25,
+  "signalTime": 1788629400000,
+  "status": "pending",
+  "createdAt": 1788629439408
  }
 ]
