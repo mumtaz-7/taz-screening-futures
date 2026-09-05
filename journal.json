@@ -15462,12 +15462,15 @@
   "rr": 4.79,
   "lev": 12,
   "signalTime": 1788547500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788547536177,
   "fillTime": 1788547500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 4.79,
+  "resolvedTime": 1788629400000
  },
  {
   "id": "CHIPUSDT::LONG::ChoCh::1788552000000",
@@ -15771,9 +15774,13 @@
   "rr": 4.86,
   "lev": 13,
   "signalTime": 1788609600000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788609644090,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1788629400000
  },
  {
   "id": "FORMUSDT::LONG::BoS::1788615000000",
@@ -15856,7 +15863,11 @@
   "rr": 4.98,
   "lev": 25,
   "signalTime": 1788629400000,
-  "status": "pending",
-  "createdAt": 1788629439408
+  "status": "open",
+  "createdAt": 1788629439408,
+  "fillTime": 1788629400000,
+  "notified": [
+   "open"
+  ]
  }
 ]
