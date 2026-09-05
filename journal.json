@@ -15681,9 +15681,13 @@
   "rr": 1.8,
   "lev": 10,
   "signalTime": 1788596100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788596133528,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1788612300000
  },
  {
   "id": "ENJUSDT::LONG::ChoCh::1788598800000",
