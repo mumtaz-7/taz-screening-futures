@@ -15789,11 +15789,31 @@
   "rr": 1.78,
   "lev": 13,
   "signalTime": 1788615000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788615042891,
   "fillTime": 1788615000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788615900000
+ },
+ {
+  "id": "DASHUSDT::LONG::BoS::1788616800000",
+  "symbol": "DASHUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 68.7,
+  "sl": 65.95500000000001,
+  "tp": 73.8,
+  "tpSrc": "WH",
+  "slPct": 4,
+  "gainPct": 7.42,
+  "rr": 1.86,
+  "lev": 15,
+  "signalTime": 1788616800000,
+  "status": "pending",
+  "createdAt": 1788616845185
  }
 ]
