@@ -15216,12 +15216,15 @@
   "rr": 1.28,
   "lev": 6,
   "signalTime": 1788496200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788496241802,
   "fillTime": 1788496200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788634800000
  },
  {
   "id": "EGLDUSDT::LONG::ChoCh::1788519600000",
@@ -15884,7 +15887,11 @@
   "rr": 1.25,
   "lev": 8,
   "signalTime": 1788634800000,
-  "status": "pending",
-  "createdAt": 1788634845477
+  "status": "open",
+  "createdAt": 1788634845477,
+  "fillTime": 1788634800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
