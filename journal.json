@@ -15558,12 +15558,15 @@
   "rr": 4.7,
   "lev": 25,
   "signalTime": 1788570900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788571039793,
   "fillTime": 1788570900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788582600000
  },
  {
   "id": "ENAUSDT::LONG::ChoCh::1788576300000",
@@ -15585,5 +15588,22 @@
    "open"
   ],
   "fillTime": 1788579900000
+ },
+ {
+  "id": "CHIPUSDT::LONG::BoS::1788583500000",
+  "symbol": "CHIPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.05681,
+  "sl": 0.053075,
+  "tp": 0.06249,
+  "tpSrc": "WH",
+  "slPct": 6.57,
+  "gainPct": 10,
+  "rr": 1.52,
+  "lev": 9,
+  "signalTime": 1788583500000,
+  "status": "pending",
+  "createdAt": 1788583531360
  }
 ]
