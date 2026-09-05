@@ -15495,12 +15495,15 @@
   "rr": 2.56,
   "lev": 21,
   "signalTime": 1788557400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788557441670,
   "fillTime": 1788557400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.56,
+  "resolvedTime": 1788595200000
  },
  {
   "id": "WIFUSDT::LONG::ChoCh::1788560100000",
@@ -15645,7 +15648,28 @@
   "rr": 1.56,
   "lev": 12,
   "signalTime": 1788595200000,
+  "status": "open",
+  "createdAt": 1788595244993,
+  "fillTime": 1788595200000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "FORMUSDT::LONG::BoS::1788596100000",
+  "symbol": "FORMUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.2848,
+  "sl": 0.268,
+  "tp": 0.315,
+  "tpSrc": "WH",
+  "slPct": 5.9,
+  "gainPct": 10.6,
+  "rr": 1.8,
+  "lev": 10,
+  "signalTime": 1788596100000,
   "status": "pending",
-  "createdAt": 1788595244993
+  "createdAt": 1788596133528
  }
 ]
