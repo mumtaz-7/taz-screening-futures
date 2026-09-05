@@ -15724,9 +15724,13 @@
   "rr": 3.94,
   "lev": 21,
   "signalTime": 1788600600000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788600642336,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1788613200000
  },
  {
   "id": "TUTUSDT::LONG::BoS::1788606900000",
