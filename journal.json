@@ -15387,12 +15387,15 @@
   "rr": 2.28,
   "lev": 11,
   "signalTime": 1788540300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788540333576,
   "fillTime": 1788540300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788573600000
  },
  {
   "id": "PROMUSDT::LONG::ChoCh::1788540300000",
