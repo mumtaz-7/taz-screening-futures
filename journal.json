@@ -15714,5 +15714,22 @@
   "status": "pending",
   "createdAt": 1788600642336,
   "notified": []
+ },
+ {
+  "id": "TUTUSDT::LONG::BoS::1788606900000",
+  "symbol": "TUTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.02643,
+  "sl": 0.023670000000000004,
+  "tp": 0.02984,
+  "tpSrc": "WH",
+  "slPct": 10.44,
+  "gainPct": 12.9,
+  "rr": 1.24,
+  "lev": 6,
+  "signalTime": 1788606900000,
+  "status": "pending",
+  "createdAt": 1788606932213
  }
 ]
