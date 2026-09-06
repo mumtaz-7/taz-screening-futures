@@ -16131,5 +16131,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "FIDAUSDT::LONG::BoS::1788728400000",
+  "symbol": "FIDAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.02111,
+  "sl": 0.01904,
+  "tp": 0.02407,
+  "tpSrc": "WH",
+  "slPct": 9.81,
+  "gainPct": 14.02,
+  "rr": 1.43,
+  "lev": 6,
+  "signalTime": 1788728400000,
+  "status": "pending",
+  "createdAt": 1788728445600
  }
 ]
