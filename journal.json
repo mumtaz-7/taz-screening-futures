@@ -16079,9 +16079,12 @@
   "rr": 2.57,
   "lev": 17,
   "signalTime": 1788691500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788691531753,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788706800000
  },
  {
   "id": "SUSHIUSDT::LONG::ChoCh::1788693300000",
