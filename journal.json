@@ -15983,7 +15983,13 @@
   "rr": 1.28,
   "lev": 5,
   "signalTime": 1788668100000,
-  "status": "pending",
-  "createdAt": 1788668132708
+  "status": "win",
+  "createdAt": 1788668132708,
+  "R": 1.28,
+  "fillTime": 1788668100000,
+  "resolvedTime": 1788668100000,
+  "notified": [
+   "win"
+  ]
  }
 ]
