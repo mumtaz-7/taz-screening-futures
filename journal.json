@@ -16073,5 +16073,22 @@
   "status": "pending",
   "createdAt": 1788691531753,
   "notified": []
+ },
+ {
+  "id": "SUSHIUSDT::LONG::ChoCh::1788693300000",
+  "symbol": "SUSHIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.2437,
+  "sl": 0.22494999999999998,
+  "tp": 0.2838,
+  "tpSrc": "WH",
+  "slPct": 7.69,
+  "gainPct": 16.45,
+  "rr": 2.14,
+  "lev": 8,
+  "signalTime": 1788693300000,
+  "status": "pending",
+  "createdAt": 1788693333371
  }
 ]
