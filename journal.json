@@ -15917,11 +15917,48 @@
   "rr": 3.77,
   "lev": 13,
   "signalTime": 1788651900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788651932455,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788652800000
+  "fillTime": 1788652800000,
+  "R": -1,
+  "resolvedTime": 1788656400000
+ },
+ {
+  "id": "DCRUSDT::LONG::BoS::1788657300000",
+  "symbol": "DCRUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 16.01,
+  "sl": 15.245,
+  "tp": 19.47,
+  "tpSrc": "WH",
+  "slPct": 4.78,
+  "gainPct": 21.61,
+  "rr": 4.52,
+  "lev": 13,
+  "signalTime": 1788657300000,
+  "status": "pending",
+  "createdAt": 1788657340070
+ },
+ {
+  "id": "ZENUSDT::LONG::ChoCh::1788657300000",
+  "symbol": "ZENUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 7.072,
+  "sl": 6.791499999999999,
+  "tp": 8.085,
+  "tpSrc": "WH",
+  "slPct": 3.97,
+  "gainPct": 14.32,
+  "rr": 3.61,
+  "lev": 15,
+  "signalTime": 1788657300000,
+  "status": "pending",
+  "createdAt": 1788657340070
  }
 ]
