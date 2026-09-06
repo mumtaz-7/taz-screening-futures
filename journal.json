@@ -16173,5 +16173,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "COTIUSDT::LONG::ChoCh::1788735600000",
+  "symbol": "COTIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01779,
+  "sl": 0.01656,
+  "tp": 0.01938,
+  "tpSrc": "WH",
+  "slPct": 6.91,
+  "gainPct": 8.94,
+  "rr": 1.29,
+  "lev": 9,
+  "signalTime": 1788735600000,
+  "status": "pending",
+  "createdAt": 1788735645616
  }
 ]
