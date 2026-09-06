@@ -16055,5 +16055,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "JTOUSDT::LONG::BoS::1788691500000",
+  "symbol": "JTOUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.4427,
+  "sl": 0.42694999999999994,
+  "tp": 0.4831,
+  "tpSrc": "OB",
+  "slPct": 3.56,
+  "gainPct": 9.13,
+  "rr": 2.57,
+  "lev": 17,
+  "signalTime": 1788691500000,
+  "status": "pending",
+  "createdAt": 1788691531753
  }
 ]
