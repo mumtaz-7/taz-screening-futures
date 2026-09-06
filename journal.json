@@ -15603,12 +15603,15 @@
   "rr": 6.11,
   "lev": 25,
   "signalTime": 1788576300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788576332619,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1788579900000
+  "fillTime": 1788579900000,
+  "R": 6.11,
+  "resolvedTime": 1788655500000
  },
  {
   "id": "CHIPUSDT::LONG::BoS::1788583500000",
