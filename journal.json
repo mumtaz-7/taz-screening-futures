@@ -15444,12 +15444,15 @@
   "rr": 1.79,
   "lev": 13,
   "signalTime": 1788545700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788545740494,
   "fillTime": 1788545700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788704100000
  },
  {
   "id": "HEMIUSDT::SHORT::BoS::1788547500000",
@@ -16049,12 +16052,15 @@
   "rr": 1.27,
   "lev": 10,
   "signalTime": 1788675300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788675333108,
   "fillTime": 1788675300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788704100000
  },
  {
   "id": "JTOUSDT::LONG::BoS::1788691500000",
