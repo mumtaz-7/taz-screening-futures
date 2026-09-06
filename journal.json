@@ -16106,5 +16106,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "LAYERUSDT::LONG::BoS::1788710400000",
+  "symbol": "LAYERUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0753,
+  "sl": 0.0726,
+  "tp": 0.0893,
+  "tpSrc": "WH",
+  "slPct": 3.59,
+  "gainPct": 18.59,
+  "rr": 5.19,
+  "lev": 17,
+  "signalTime": 1788710400000,
+  "status": "pending",
+  "createdAt": 1788710477960
  }
 ]
