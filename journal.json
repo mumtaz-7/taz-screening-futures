@@ -15941,9 +15941,12 @@
   "rr": 4.52,
   "lev": 13,
   "signalTime": 1788657300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788657340070,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788658200000
  },
  {
   "id": "ZENUSDT::LONG::ChoCh::1788657300000",
