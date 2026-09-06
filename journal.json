@@ -16188,7 +16188,28 @@
   "rr": 1.29,
   "lev": 9,
   "signalTime": 1788735600000,
+  "status": "open",
+  "createdAt": 1788735645616,
+  "fillTime": 1788735600000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "RAYUSDT::LONG::ChoCh::1788736500000",
+  "symbol": "RAYUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1.2635,
+  "sl": 1.1813000000000002,
+  "tp": 1.4428,
+  "tpSrc": "WH",
+  "slPct": 6.51,
+  "gainPct": 14.19,
+  "rr": 2.18,
+  "lev": 9,
+  "signalTime": 1788736500000,
   "status": "pending",
-  "createdAt": 1788735645616
+  "createdAt": 1788736536081
  }
 ]
