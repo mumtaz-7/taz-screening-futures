@@ -15991,5 +15991,22 @@
   "notified": [
    "win"
   ]
+ },
+ {
+  "id": "ZENUSDT::LONG::BoS::1788669900000",
+  "symbol": "ZENUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 7.174,
+  "sl": 6.740499999999999,
+  "tp": 8.085,
+  "tpSrc": "WH",
+  "slPct": 6.04,
+  "gainPct": 12.7,
+  "rr": 2.1,
+  "lev": 10,
+  "signalTime": 1788669900000,
+  "status": "pending",
+  "createdAt": 1788669932534
  }
 ]
