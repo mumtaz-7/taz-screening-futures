@@ -16200,12 +16200,15 @@
   "rr": 1.29,
   "lev": 9,
   "signalTime": 1788735600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788735645616,
   "fillTime": 1788735600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788789600000
  },
  {
   "id": "RAYUSDT::LONG::ChoCh::1788736500000",
@@ -16510,5 +16513,22 @@
   "status": "pending",
   "createdAt": 1788788733195,
   "notified": []
+ },
+ {
+  "id": "JSTUSDT::SHORT::BoS::1788790500000",
+  "symbol": "JSTUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.10703,
+  "sl": 0.11301499999999999,
+  "tp": 0.09946,
+  "tpSrc": "OB",
+  "slPct": 5.59,
+  "gainPct": 7.07,
+  "rr": 1.26,
+  "lev": 11,
+  "signalTime": 1788790500000,
+  "status": "pending",
+  "createdAt": 1788790533682
  }
 ]
