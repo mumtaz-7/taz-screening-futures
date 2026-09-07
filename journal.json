@@ -16350,9 +16350,12 @@
   "rr": 3.47,
   "lev": 21,
   "signalTime": 1788751800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788751876164,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788755400000
  },
  {
   "id": "COTIUSDT::LONG::BoS::1788754500000",
@@ -16371,5 +16374,22 @@
   "status": "pending",
   "createdAt": 1788754535514,
   "notified": []
+ },
+ {
+  "id": "CATIUSDT::LONG::BoS::1788756300000",
+  "symbol": "CATIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.05839,
+  "sl": 0.055420000000000004,
+  "tp": 0.06647,
+  "tpSrc": "OB",
+  "slPct": 5.09,
+  "gainPct": 13.84,
+  "rr": 2.72,
+  "lev": 12,
+  "signalTime": 1788756300000,
+  "status": "pending",
+  "createdAt": 1788756332900
  }
 ]
