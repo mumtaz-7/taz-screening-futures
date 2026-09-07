@@ -16218,12 +16218,15 @@
   "rr": 2.18,
   "lev": 9,
   "signalTime": 1788736500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788736536081,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788738300000
+  "fillTime": 1788738300000,
+  "R": -1,
+  "resolvedTime": 1788761700000
  },
  {
   "id": "GRTUSDT::LONG::ChoCh::1788741900000",
