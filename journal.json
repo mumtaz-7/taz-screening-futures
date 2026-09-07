@@ -16335,5 +16335,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BOMEUSDT::LONG::ChoCh::1788751800000",
+  "symbol": "BOMEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0009115,
+  "sl": 0.0008866,
+  "tp": 0.000998,
+  "tpSrc": "EQ",
+  "slPct": 2.73,
+  "gainPct": 9.49,
+  "rr": 3.47,
+  "lev": 21,
+  "signalTime": 1788751800000,
+  "status": "pending",
+  "createdAt": 1788751876164
  }
 ]
