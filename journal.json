@@ -16257,9 +16257,13 @@
   "rr": 1.2,
   "lev": 8,
   "signalTime": 1788741900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788741932378,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1788742800000
  },
  {
   "id": "MARSCOINUSDT::SHORT::ChoCh::1788742800000",
@@ -16275,7 +16279,12 @@
   "rr": 1.28,
   "lev": 7,
   "signalTime": 1788742800000,
-  "status": "pending",
-  "createdAt": 1788742844683
+  "status": "void",
+  "createdAt": 1788742844683,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1788742800000,
+  "notified": [
+   "void"
+  ]
  }
 ]
