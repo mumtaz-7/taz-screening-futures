@@ -16585,12 +16585,15 @@
   "rr": 3.1,
   "lev": 10,
   "signalTime": 1788795000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788795044534,
   "fillTime": 1788795000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788806700000
  },
  {
   "id": "DASHUSDT::SHORT::BoS::1788806700000",
@@ -16607,6 +16610,7 @@
   "lev": 17,
   "signalTime": 1788806700000,
   "status": "pending",
-  "createdAt": 1788806733185
+  "createdAt": 1788806733185,
+  "notified": []
  }
 ]
