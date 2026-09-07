@@ -16314,5 +16314,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ASTERUSDT::LONG::ChoCh::1788748200000",
+  "symbol": "ASTERUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.792,
+  "sl": 0.7424999999999999,
+  "tp": 0.874,
+  "tpSrc": "WH",
+  "slPct": 6.25,
+  "gainPct": 10.35,
+  "rr": 1.66,
+  "lev": 10,
+  "signalTime": 1788748200000,
+  "status": "pending",
+  "createdAt": 1788748238990
  }
 ]
