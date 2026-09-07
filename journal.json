@@ -15423,12 +15423,15 @@
   "rr": 2.88,
   "lev": 14,
   "signalTime": 1788540300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788540333576,
   "fillTime": 1788540300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.88,
+  "resolvedTime": 1788770700000
  },
  {
   "id": "XPLUSDT::LONG::BoS::1788545700000",
@@ -16419,5 +16422,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "RAYUSDT::LONG::ChoCh::1788771600000",
+  "symbol": "RAYUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1.2154,
+  "sl": 1.16455,
+  "tp": 1.4428,
+  "tpSrc": "WH",
+  "slPct": 4.18,
+  "gainPct": 18.71,
+  "rr": 4.47,
+  "lev": 14,
+  "signalTime": 1788771600000,
+  "status": "pending",
+  "createdAt": 1788771647586
  }
 ]
