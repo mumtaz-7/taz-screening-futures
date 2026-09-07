@@ -16492,12 +16492,15 @@
   "rr": 4.2,
   "lev": 13,
   "signalTime": 1788783300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788783334706,
   "fillTime": 1788783300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788795000000
  },
  {
   "id": "SOPHUSDT::LONG::BoS::1788788700000",
@@ -16576,7 +16579,11 @@
   "rr": 3.1,
   "lev": 10,
   "signalTime": 1788795000000,
-  "status": "pending",
-  "createdAt": 1788795044534
+  "status": "open",
+  "createdAt": 1788795044534,
+  "fillTime": 1788795000000,
+  "notified": [
+   "open"
+  ]
  }
 ]
