@@ -1,6 +1,7 @@
 {
   "ready": [
-    "RAYUSDT::LONG::ChoCh"
+    "GRTUSDT::LONG::ChoCh",
+    "ORCAUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-07T00:30:38.832Z"
+  "at": "2026-09-07T00:45:32.377Z"
 }

@@ -16170,12 +16170,15 @@
   "rr": 2.62,
   "lev": 9,
   "signalTime": 1788730200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788730241115,
   "fillTime": 1788730200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788741000000
  },
  {
   "id": "COTIUSDT::LONG::ChoCh::1788735600000",
@@ -16218,5 +16221,39 @@
    "open"
   ],
   "fillTime": 1788738300000
+ },
+ {
+  "id": "GRTUSDT::LONG::ChoCh::1788741900000",
+  "symbol": "GRTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01959,
+  "sl": 0.01917,
+  "tp": 0.02128,
+  "tpSrc": "WH",
+  "slPct": 2.14,
+  "gainPct": 8.63,
+  "rr": 4.02,
+  "lev": 25,
+  "signalTime": 1788741900000,
+  "status": "pending",
+  "createdAt": 1788741932378
+ },
+ {
+  "id": "ORCAUSDT::LONG::ChoCh::1788741900000",
+  "symbol": "ORCAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1.45,
+  "sl": 1.3435000000000001,
+  "tp": 1.578,
+  "tpSrc": "WH",
+  "slPct": 7.34,
+  "gainPct": 8.83,
+  "rr": 1.2,
+  "lev": 8,
+  "signalTime": 1788741900000,
+  "status": "pending",
+  "createdAt": 1788741932378
  }
 ]
