@@ -1,6 +1,7 @@
 {
   "ready": [
-    "METISUSDT::LONG::ChoCh"
+    "SOPHUSDT::LONG::BoS",
+    "TRUMPUSDT::LONG::BoS"
   ],
-  "at": "2026-09-07T13:30:40.911Z"
+  "at": "2026-09-07T13:45:33.194Z"
 }

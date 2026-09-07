@@ -16492,5 +16492,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SOPHUSDT::LONG::BoS::1788788700000",
+  "symbol": "SOPHUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00515,
+  "sl": 0.004805,
+  "tp": 0.00553,
+  "tpSrc": "WH",
+  "slPct": 6.7,
+  "gainPct": 7.38,
+  "rr": 1.1,
+  "lev": 9,
+  "signalTime": 1788788700000,
+  "status": "pending",
+  "createdAt": 1788788733195
  }
 ]
