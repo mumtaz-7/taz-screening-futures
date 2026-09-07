@@ -16471,5 +16471,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "METISUSDT::LONG::ChoCh::1788783300000",
+  "symbol": "METISUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 3.22,
+  "sl": 3.0700000000000003,
+  "tp": 3.85,
+  "tpSrc": "WH",
+  "slPct": 4.66,
+  "gainPct": 19.57,
+  "rr": 4.2,
+  "lev": 13,
+  "signalTime": 1788783300000,
+  "status": "pending",
+  "createdAt": 1788783334706
  }
 ]
