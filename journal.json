@@ -16615,5 +16615,22 @@
    "open"
   ],
   "fillTime": 1788812100000
+ },
+ {
+  "id": "JSTUSDT::SHORT::ChoCh::1788817500000",
+  "symbol": "JSTUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.10816,
+  "sl": 0.109795,
+  "tp": 0.10033,
+  "tpSrc": "WL",
+  "slPct": 1.51,
+  "gainPct": 7.24,
+  "rr": 4.79,
+  "lev": 25,
+  "signalTime": 1788817500000,
+  "status": "pending",
+  "createdAt": 1788817533922
  }
 ]
