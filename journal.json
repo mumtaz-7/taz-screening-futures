@@ -16440,12 +16440,15 @@
   "rr": 4.47,
   "lev": 14,
   "signalTime": 1788771600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788771647586,
   "fillTime": 1788771600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788780600000
  },
  {
   "id": "PUMPUSDT::LONG::BoS::1788780600000",
@@ -16461,7 +16464,12 @@
   "rr": 1.07,
   "lev": 7,
   "signalTime": 1788780600000,
-  "status": "pending",
-  "createdAt": 1788780640539
+  "status": "void",
+  "createdAt": 1788780640539,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1788780600000,
+  "notified": [
+   "void"
+  ]
  }
 ]
