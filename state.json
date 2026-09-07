@@ -1,7 +1,6 @@
 {
   "ready": [
-    "GRTUSDT::LONG::ChoCh",
-    "ORCAUSDT::LONG::ChoCh"
+    "MARSCOINUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-09-07T00:45:32.377Z"
+  "at": "2026-09-07T01:00:44.682Z"
 }

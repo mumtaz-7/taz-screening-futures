@@ -16236,8 +16236,12 @@
   "rr": 4.02,
   "lev": 25,
   "signalTime": 1788741900000,
-  "status": "pending",
-  "createdAt": 1788741932378
+  "status": "open",
+  "createdAt": 1788741932378,
+  "fillTime": 1788741900000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "ORCAUSDT::LONG::ChoCh::1788741900000",
@@ -16254,6 +16258,24 @@
   "lev": 8,
   "signalTime": 1788741900000,
   "status": "pending",
-  "createdAt": 1788741932378
+  "createdAt": 1788741932378,
+  "notified": []
+ },
+ {
+  "id": "MARSCOINUSDT::SHORT::ChoCh::1788742800000",
+  "symbol": "MARSCOINUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.181,
+  "sl": 0.19584999999999997,
+  "tp": 0.162,
+  "tpSrc": "WL",
+  "slPct": 8.2,
+  "gainPct": 10.5,
+  "rr": 1.28,
+  "lev": 7,
+  "signalTime": 1788742800000,
+  "status": "pending",
+  "createdAt": 1788742844683
  }
 ]
