@@ -16398,5 +16398,22 @@
    "open"
   ],
   "fillTime": 1788767100000
+ },
+ {
+  "id": "TRUMPUSDT::LONG::BoS::1788768900000",
+  "symbol": "TRUMPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 2.263,
+  "sl": 2.2375,
+  "tp": 2.457,
+  "tpSrc": "WH",
+  "slPct": 1.13,
+  "gainPct": 8.57,
+  "rr": 7.61,
+  "lev": 25,
+  "signalTime": 1788768900000,
+  "status": "pending",
+  "createdAt": 1788768936304
  }
 ]
