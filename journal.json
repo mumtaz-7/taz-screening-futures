@@ -15537,12 +15537,15 @@
   "rr": 3.25,
   "lev": 23,
   "signalTime": 1788560100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788560134483,
   "fillTime": 1788560100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.25,
+  "resolvedTime": 1788740100000
  },
  {
   "id": "CRVUSDT::SHORT::ChoCh::1788562800000",
