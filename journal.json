@@ -16519,12 +16519,15 @@
   "rr": 1.1,
   "lev": 9,
   "signalTime": 1788788700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788788733195,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788793200000
+  "fillTime": 1788793200000,
+  "R": -1,
+  "resolvedTime": 1788798600000
  },
  {
   "id": "JSTUSDT::SHORT::BoS::1788790500000",
