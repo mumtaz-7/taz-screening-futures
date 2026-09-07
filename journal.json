@@ -16513,9 +16513,12 @@
   "rr": 1.1,
   "lev": 9,
   "signalTime": 1788788700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788788733195,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788793200000
  },
  {
   "id": "JSTUSDT::SHORT::BoS::1788790500000",
@@ -16549,7 +16552,11 @@
   "rr": 3.18,
   "lev": 8,
   "signalTime": 1788793200000,
-  "status": "pending",
-  "createdAt": 1788793246288
+  "status": "open",
+  "createdAt": 1788793246288,
+  "fillTime": 1788793200000,
+  "notified": [
+   "open"
+  ]
  }
 ]
