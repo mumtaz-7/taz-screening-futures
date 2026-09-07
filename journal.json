@@ -16534,9 +16534,12 @@
   "rr": 1.26,
   "lev": 11,
   "signalTime": 1788790500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788790533682,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788794100000
  },
  {
   "id": "ARBUSDT::LONG::ChoCh::1788793200000",
@@ -16558,5 +16561,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PROMUSDT::LONG::BoS::1788795000000",
+  "symbol": "PROMUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 5.78,
+  "sl": 5.4395,
+  "tp": 6.835,
+  "tpSrc": "OB",
+  "slPct": 5.89,
+  "gainPct": 18.25,
+  "rr": 3.1,
+  "lev": 10,
+  "signalTime": 1788795000000,
+  "status": "pending",
+  "createdAt": 1788795044534
  }
 ]
