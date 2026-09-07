@@ -16377,9 +16377,12 @@
   "rr": 4.04,
   "lev": 19,
   "signalTime": 1788754500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788754535514,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "CATIUSDT::LONG::BoS::1788756300000",
