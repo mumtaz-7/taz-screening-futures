@@ -16793,9 +16793,14 @@
   "rr": 1.15,
   "lev": 8,
   "signalTime": 1788851700000,
-  "status": "pending",
+  "status": "loss",
   "createdAt": 1788851737406,
-  "notified": []
+  "notified": [
+   "loss"
+  ],
+  "R": -1,
+  "fillTime": 1788862500000,
+  "resolvedTime": 1788862500000
  },
  {
   "id": "TAOUSDT::SHORT::ChoCh::1788851700000",
