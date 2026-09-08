@@ -16347,12 +16347,15 @@
   "rr": 1.66,
   "lev": 10,
   "signalTime": 1788748200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788748238990,
   "fillTime": 1788748200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788874200000
  },
  {
   "id": "BOMEUSDT::LONG::ChoCh::1788751800000",
@@ -16750,12 +16753,15 @@
   "rr": 7.42,
   "lev": 21,
   "signalTime": 1788844500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788844535130,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788847200000
+  "fillTime": 1788847200000,
+  "R": -1,
+  "resolvedTime": 1788874200000
  },
  {
   "id": "SOLVUSDT::LONG::BoS::1788848100000",
