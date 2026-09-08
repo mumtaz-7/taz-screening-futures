@@ -16651,12 +16651,15 @@
   "rr": 9.2,
   "lev": 23,
   "signalTime": 1788824700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788824733457,
   "fillTime": 1788824700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788840900000
  },
  {
   "id": "JTOUSDT::LONG::ChoCh::1788830100000",
@@ -16711,11 +16714,14 @@
   "rr": 1.93,
   "lev": 7,
   "signalTime": 1788839100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788839131912,
   "fillTime": 1788839100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788840900000
  }
 ]
