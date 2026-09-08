@@ -14943,12 +14943,15 @@
   "rr": 2.28,
   "lev": 18,
   "signalTime": 1788445800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788445844922,
   "fillTime": 1788445800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.28,
+  "resolvedTime": 1788882300000
  },
  {
   "id": "HEMIUSDT::LONG::ChoCh::1788448500000",
