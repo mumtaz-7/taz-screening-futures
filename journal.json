@@ -16723,5 +16723,22 @@
   ],
   "R": -1,
   "resolvedTime": 1788840900000
+ },
+ {
+  "id": "ARBUSDT::LONG::BoS::1788844500000",
+  "symbol": "ARBUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.171,
+  "sl": 0.16620000000000001,
+  "tp": 0.2066,
+  "tpSrc": "WH",
+  "slPct": 2.81,
+  "gainPct": 20.82,
+  "rr": 7.42,
+  "lev": 21,
+  "signalTime": 1788844500000,
+  "status": "pending",
+  "createdAt": 1788844535130
  }
 ]
