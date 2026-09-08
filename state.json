@@ -1,6 +1,7 @@
 {
   "ready": [
-    "FORMUSDT::LONG::ChoCh"
+    "FORMUSDT::LONG::ChoCh",
+    "RAYUSDT::LONG::BoS"
   ],
-  "at": "2026-09-08T23:30:41.011Z"
+  "at": "2026-09-08T23:45:31.791Z"
 }

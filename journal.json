@@ -17056,5 +17056,22 @@
   "status": "pending",
   "createdAt": 1788908446587,
   "notified": []
+ },
+ {
+  "id": "RAYUSDT::LONG::BoS::1788911100000",
+  "symbol": "RAYUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1.2271,
+  "sl": 1.15885,
+  "tp": 1.4428,
+  "tpSrc": "WH",
+  "slPct": 5.56,
+  "gainPct": 17.58,
+  "rr": 3.16,
+  "lev": 11,
+  "signalTime": 1788911100000,
+  "status": "pending",
+  "createdAt": 1788911131791
  }
 ]
