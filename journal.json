@@ -16891,5 +16891,22 @@
   ],
   "R": -1,
   "resolvedTime": 1788867900000
+ },
+ {
+  "id": "UNIUSDT::SHORT::ChoCh::1788869700000",
+  "symbol": "UNIUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 6.996,
+  "sl": 7.302,
+  "tp": 6.373,
+  "tpSrc": "OB",
+  "slPct": 4.37,
+  "gainPct": 8.91,
+  "rr": 2.04,
+  "lev": 14,
+  "signalTime": 1788869700000,
+  "status": "pending",
+  "createdAt": 1788869734099
  }
 ]
