@@ -16825,12 +16825,15 @@
   "rr": 1.68,
   "lev": 12,
   "signalTime": 1788851700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788851737406,
   "fillTime": 1788851700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788885000000
  },
  {
   "id": "CHIPUSDT::SHORT::ChoCh::1788855300000",
