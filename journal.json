@@ -16963,7 +16963,28 @@
   "rr": 3,
   "lev": 6,
   "signalTime": 1788888600000,
+  "status": "open",
+  "createdAt": 1788888642707,
+  "fillTime": 1788888600000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "IOSTUSDT::LONG::ChoCh::1788889500000",
+  "symbol": "IOSTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.000919,
+  "sl": 0.0008634999999999999,
+  "tp": 0.001189,
+  "tpSrc": "WH",
+  "slPct": 6.04,
+  "gainPct": 29.38,
+  "rr": 4.86,
+  "lev": 10,
+  "signalTime": 1788889500000,
   "status": "pending",
-  "createdAt": 1788888642707
+  "createdAt": 1788889533871
  }
 ]
