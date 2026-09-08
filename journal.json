@@ -14231,12 +14231,15 @@
   "rr": 2.35,
   "lev": 11,
   "signalTime": 1788283800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788283842312,
   "fillTime": 1788283800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788885900000
  },
  {
   "id": "ACEUSDT::LONG::BoS::1788287400000",
