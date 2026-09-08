@@ -16669,9 +16669,12 @@
   "rr": 2.85,
   "lev": 18,
   "signalTime": 1788830100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788830133964,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788834600000
  },
  {
   "id": "ZAMAUSDT::LONG::ChoCh::1788833700000",
