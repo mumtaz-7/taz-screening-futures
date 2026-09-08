@@ -16654,5 +16654,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "JTOUSDT::LONG::ChoCh::1788830100000",
+  "symbol": "JTOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.445,
+  "sl": 0.4306,
+  "tp": 0.486,
+  "tpSrc": "WH",
+  "slPct": 3.24,
+  "gainPct": 9.21,
+  "rr": 2.85,
+  "lev": 18,
+  "signalTime": 1788830100000,
+  "status": "pending",
+  "createdAt": 1788830133964
  }
 ]
