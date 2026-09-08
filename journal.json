@@ -16791,7 +16791,8 @@
   "lev": 8,
   "signalTime": 1788851700000,
   "status": "pending",
-  "createdAt": 1788851737406
+  "createdAt": 1788851737406,
+  "notified": []
  },
  {
   "id": "TAOUSDT::SHORT::ChoCh::1788851700000",
@@ -16807,7 +16808,11 @@
   "rr": 1.68,
   "lev": 12,
   "signalTime": 1788851700000,
-  "status": "pending",
-  "createdAt": 1788851737406
+  "status": "open",
+  "createdAt": 1788851737406,
+  "fillTime": 1788851700000,
+  "notified": [
+   "open"
+  ]
  }
 ]
