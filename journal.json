@@ -17038,5 +17038,22 @@
   ],
   "R": -1,
   "resolvedTime": 1788903900000
+ },
+ {
+  "id": "FORMUSDT::LONG::ChoCh::1788908400000",
+  "symbol": "FORMUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.3116,
+  "sl": 0.29150000000000004,
+  "tp": 0.3935,
+  "tpSrc": "WH",
+  "slPct": 6.45,
+  "gainPct": 26.28,
+  "rr": 4.07,
+  "lev": 9,
+  "signalTime": 1788908400000,
+  "status": "pending",
+  "createdAt": 1788908446587
  }
 ]
