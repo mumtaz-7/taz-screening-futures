@@ -16675,12 +16675,15 @@
   "rr": 2.85,
   "lev": 18,
   "signalTime": 1788830100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788830133964,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788834600000
+  "fillTime": 1788834600000,
+  "R": -1,
+  "resolvedTime": 1788847200000
  },
  {
   "id": "ZAMAUSDT::LONG::ChoCh::1788833700000",
@@ -16696,9 +16699,12 @@
   "rr": 3.17,
   "lev": 18,
   "signalTime": 1788833700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788833734519,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788847200000
  },
  {
   "id": "RAYUSDT::LONG::BoS::1788839100000",
@@ -16738,8 +16744,28 @@
   "rr": 7.42,
   "lev": 21,
   "signalTime": 1788844500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788844535130,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788847200000
+ },
+ {
+  "id": "SOLVUSDT::LONG::BoS::1788848100000",
+  "symbol": "SOLVUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00448,
+  "sl": 0.004255,
+  "tp": 0.00494,
+  "tpSrc": "WH",
+  "slPct": 5.02,
+  "gainPct": 10.27,
+  "rr": 2.04,
+  "lev": 12,
+  "signalTime": 1788848100000,
+  "status": "pending",
+  "createdAt": 1788848133890
  }
 ]
