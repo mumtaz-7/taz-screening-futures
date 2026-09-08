@@ -17011,5 +17011,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ORCAUSDT::LONG::ChoCh::1788898500000",
+  "symbol": "ORCAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1.439,
+  "sl": 1.4074999999999998,
+  "tp": 1.738,
+  "tpSrc": "WH",
+  "slPct": 2.19,
+  "gainPct": 20.78,
+  "rr": 9.49,
+  "lev": 25,
+  "signalTime": 1788898500000,
+  "status": "pending",
+  "createdAt": 1788898531773
  }
 ]
