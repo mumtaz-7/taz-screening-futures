@@ -16672,5 +16672,22 @@
   "status": "pending",
   "createdAt": 1788830133964,
   "notified": []
+ },
+ {
+  "id": "ZAMAUSDT::LONG::ChoCh::1788833700000",
+  "symbol": "ZAMAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.05161,
+  "sl": 0.04996,
+  "tp": 0.056835,
+  "tpSrc": "EQ",
+  "slPct": 3.2,
+  "gainPct": 10.12,
+  "rr": 3.17,
+  "lev": 18,
+  "signalTime": 1788833700000,
+  "status": "pending",
+  "createdAt": 1788833734519
  }
 ]
