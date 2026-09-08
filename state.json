@@ -1,6 +1,7 @@
 {
   "ready": [
-    "SOLVUSDT::LONG::BoS"
+    "HEMIUSDT::SHORT::ChoCh",
+    "TAOUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-09-08T07:00:46.618Z"
+  "at": "2026-09-08T07:15:37.347Z"
 }
