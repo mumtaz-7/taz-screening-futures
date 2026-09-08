@@ -16837,12 +16837,15 @@
   "rr": 4.32,
   "lev": 20,
   "signalTime": 1788855300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788855464250,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788857100000
+  "fillTime": 1788857100000,
+  "R": -1,
+  "resolvedTime": 1788867000000
  },
  {
   "id": "ZECUSDT::LONG::ChoCh::1788861600000",
