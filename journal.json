@@ -16630,9 +16630,12 @@
   "rr": 4.79,
   "lev": 25,
   "signalTime": 1788817500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788817533922,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "RAYUSDT::LONG::ChoCh::1788824700000",
@@ -16708,7 +16711,11 @@
   "rr": 1.93,
   "lev": 7,
   "signalTime": 1788839100000,
-  "status": "pending",
-  "createdAt": 1788839131912
+  "status": "open",
+  "createdAt": 1788839131912,
+  "fillTime": 1788839100000,
+  "notified": [
+   "open"
+  ]
  }
 ]
