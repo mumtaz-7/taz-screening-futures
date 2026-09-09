@@ -17436,9 +17436,12 @@
   "rr": 3.92,
   "lev": 13,
   "signalTime": 1788966900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788966934718,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "SOPHUSDT::SHORT::BoS::1788966900000",
