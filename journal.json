@@ -17053,9 +17053,12 @@
   "rr": 4.07,
   "lev": 9,
   "signalTime": 1788908400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788908446587,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788913800000
  },
  {
   "id": "RAYUSDT::LONG::BoS::1788911100000",
@@ -17092,8 +17095,11 @@
   "rr": 6.07,
   "lev": 18,
   "signalTime": 1788912900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788912930646,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788913800000
  }
 ]
