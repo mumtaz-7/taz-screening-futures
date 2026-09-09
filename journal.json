@@ -17451,5 +17451,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SCUSDT::LONG::BoS::1788971400000",
+  "symbol": "SCUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.000916,
+  "sl": 0.0007374999999999999,
+  "tp": 0.00116,
+  "tpSrc": "WH",
+  "slPct": 19.49,
+  "gainPct": 26.64,
+  "rr": 1.37,
+  "lev": 3,
+  "signalTime": 1788971400000,
+  "status": "pending",
+  "createdAt": 1788971441203
  }
 ]
