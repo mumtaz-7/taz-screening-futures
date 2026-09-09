@@ -17472,9 +17472,12 @@
   "rr": 1.37,
   "lev": 3,
   "signalTime": 1788971400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788971441203,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788980400000
  },
  {
   "id": "PHAUSDT::LONG::ChoCh::1788973200000",
@@ -17517,5 +17520,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "FORMUSDT::SHORT::BoS::1788981300000",
+  "symbol": "FORMUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.2883,
+  "sl": 0.30645,
+  "tp": 0.2519,
+  "tpSrc": "OB",
+  "slPct": 6.3,
+  "gainPct": 12.63,
+  "rr": 2.01,
+  "lev": 10,
+  "signalTime": 1788981300000,
+  "status": "pending",
+  "createdAt": 1788981335057
  }
 ]
