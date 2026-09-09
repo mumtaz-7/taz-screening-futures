@@ -15342,12 +15342,15 @@
   "rr": 1.59,
   "lev": 5,
   "signalTime": 1788538500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788538537033,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1788545700000
+  "fillTime": 1788545700000,
+  "R": 1.59,
+  "resolvedTime": 1788975900000
  },
  {
   "id": "LPTUSDT::LONG::ChoCh::1788539400000",
