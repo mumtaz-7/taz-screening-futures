@@ -17283,12 +17283,15 @@
   "rr": 1.08,
   "lev": 5,
   "signalTime": 1788942600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788942644406,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788943500000
+  "fillTime": 1788943500000,
+  "R": -1,
+  "resolvedTime": 1788944400000
  },
  {
   "id": "SOPHUSDT::LONG::ChoCh::1788942600000",
@@ -17310,5 +17313,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SOPHUSDT::LONG::BoS::1788945300000",
+  "symbol": "SOPHUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00568,
+  "sl": 0.0051849999999999995,
+  "tp": 0.0139,
+  "tpSrc": "WH",
+  "slPct": 8.71,
+  "gainPct": 144.72,
+  "rr": 16.61,
+  "lev": 7,
+  "signalTime": 1788945300000,
+  "status": "pending",
+  "createdAt": 1788945338980
  }
 ]
