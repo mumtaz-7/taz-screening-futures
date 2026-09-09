@@ -17219,12 +17219,15 @@
   "rr": 2.67,
   "lev": 18,
   "signalTime": 1788938100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788938136787,
   "fillTime": 1788938100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788946200000
  },
  {
   "id": "SCRUSDT::LONG::ChoCh::1788939900000",
@@ -17334,5 +17337,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "AEROUSDT::SHORT::ChoCh::1788947100000",
+  "symbol": "AEROUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.6127,
+  "sl": 0.62485,
+  "tp": 0.5369,
+  "tpSrc": "OB",
+  "slPct": 1.98,
+  "gainPct": 12.37,
+  "rr": 6.24,
+  "lev": 25,
+  "signalTime": 1788947100000,
+  "status": "pending",
+  "createdAt": 1788947135547
  }
 ]
