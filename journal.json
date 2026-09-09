@@ -14322,12 +14322,15 @@
   "rr": 4.47,
   "lev": 12,
   "signalTime": 1788299100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788299131802,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1788308100000
+  "fillTime": 1788308100000,
+  "R": 4.47,
+  "resolvedTime": 1788991200000
  },
  {
   "id": "ATMUSDT::LONG::ChoCh::1788301800000",
@@ -14487,12 +14490,15 @@
   "rr": 1.24,
   "lev": 6,
   "signalTime": 1788329700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788329736531,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1788332400000
+  "fillTime": 1788332400000,
+  "R": 1.24,
+  "resolvedTime": 1788991200000
  },
  {
   "id": "0GUSDT::LONG::ChoCh::1788337800000",
@@ -16176,12 +16182,15 @@
   "rr": 1.43,
   "lev": 6,
   "signalTime": 1788728400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788728445600,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788746400000
+  "fillTime": 1788746400000,
+  "R": -1,
+  "resolvedTime": 1788991200000
  },
  {
   "id": "MARSCOINUSDT::LONG::ChoCh::1788730200000",
@@ -16726,12 +16735,15 @@
   "rr": 3.17,
   "lev": 18,
   "signalTime": 1788833700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788833734519,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788847200000
+  "fillTime": 1788847200000,
+  "R": -1,
+  "resolvedTime": 1788991200000
  },
  {
   "id": "RAYUSDT::LONG::BoS::1788839100000",
@@ -17146,12 +17158,15 @@
   "rr": 5.2,
   "lev": 16,
   "signalTime": 1788917400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788917439908,
   "fillTime": 1788917400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788991200000
  },
  {
   "id": "IOSTUSDT::LONG::ChoCh::1788922800000",
@@ -17258,12 +17273,15 @@
   "rr": 1.17,
   "lev": 9,
   "signalTime": 1788939900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788939933497,
   "fillTime": 1788939900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788991200000
  },
  {
   "id": "CHIPUSDT::LONG::BoS::1788940800000",
@@ -17394,12 +17412,15 @@
   "rr": 4.14,
   "lev": 14,
   "signalTime": 1788950700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788950732341,
   "fillTime": 1788950700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788991200000
  },
  {
   "id": "KATUSDT::LONG::BoS::1788953400000",
@@ -17460,12 +17481,15 @@
   "rr": 3.46,
   "lev": 10,
   "signalTime": 1788966900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788966934718,
   "fillTime": 1788966900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.46,
+  "resolvedTime": 1788991200000
  },
  {
   "id": "SCUSDT::LONG::BoS::1788971400000",
@@ -17523,12 +17547,15 @@
   "rr": 3,
   "lev": 19,
   "signalTime": 1788975000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788975040994,
   "fillTime": 1788975000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788991200000
  },
  {
   "id": "FORMUSDT::SHORT::BoS::1788981300000",
@@ -17569,5 +17596,73 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ACEUSDT::SHORT::BoS::1788992100000",
+  "symbol": "ACEUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1698,
+  "sl": 0.17475000000000002,
+  "tp": 0.1436,
+  "tpSrc": "WL",
+  "slPct": 2.92,
+  "gainPct": 15.43,
+  "rr": 5.29,
+  "lev": 20,
+  "signalTime": 1788992100000,
+  "status": "pending",
+  "createdAt": 1788992134620
+ },
+ {
+  "id": "CHIPUSDT::SHORT::BoS::1788992100000",
+  "symbol": "CHIPUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.05467,
+  "sl": 0.059875,
+  "tp": 0.04821,
+  "tpSrc": "WL",
+  "slPct": 9.52,
+  "gainPct": 11.82,
+  "rr": 1.24,
+  "lev": 6,
+  "signalTime": 1788992100000,
+  "status": "pending",
+  "createdAt": 1788992134620
+ },
+ {
+  "id": "MITOUSDT::SHORT::ChoCh::1788992100000",
+  "symbol": "MITOUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.01387,
+  "sl": 0.014605,
+  "tp": 0.0113,
+  "tpSrc": "WL",
+  "slPct": 5.3,
+  "gainPct": 18.53,
+  "rr": 3.5,
+  "lev": 11,
+  "signalTime": 1788992100000,
+  "status": "pending",
+  "createdAt": 1788992134620
+ },
+ {
+  "id": "TUTUSDT::SHORT::BoS::1788992100000",
+  "symbol": "TUTUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.02274,
+  "sl": 0.024330000000000004,
+  "tp": 0.01544,
+  "tpSrc": "WL",
+  "slPct": 6.99,
+  "gainPct": 32.1,
+  "rr": 4.59,
+  "lev": 9,
+  "signalTime": 1788992100000,
+  "status": "pending",
+  "createdAt": 1788992134620
  }
 ]
