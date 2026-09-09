@@ -17310,12 +17310,15 @@
   "rr": 11.29,
   "lev": 10,
   "signalTime": 1788942600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788942644406,
   "fillTime": 1788942600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788962400000
  },
  {
   "id": "SOPHUSDT::LONG::BoS::1788945300000",
@@ -17331,12 +17334,15 @@
   "rr": 16.61,
   "lev": 7,
   "signalTime": 1788945300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788945338980,
   "fillTime": 1788945300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788962400000
  },
  {
   "id": "AEROUSDT::SHORT::ChoCh::1788947100000",
