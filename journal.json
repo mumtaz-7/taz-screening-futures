@@ -17376,5 +17376,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "KATUSDT::LONG::BoS::1788953400000",
+  "symbol": "KATUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00569,
+  "sl": 0.005135000000000001,
+  "tp": 0.00634,
+  "tpSrc": "WH",
+  "slPct": 9.75,
+  "gainPct": 11.42,
+  "rr": 1.17,
+  "lev": 6,
+  "signalTime": 1788953400000,
+  "status": "pending",
+  "createdAt": 1788953441497
  }
 ]
