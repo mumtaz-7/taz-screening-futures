@@ -16933,12 +16933,15 @@
   "rr": 2.04,
   "lev": 14,
   "signalTime": 1788869700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788869734099,
   "fillTime": 1788869700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.04,
+  "resolvedTime": 1788985800000
  },
  {
   "id": "CFGUSDT::LONG::ChoCh::1788876900000",
