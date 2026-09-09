@@ -17612,7 +17612,8 @@
   "lev": 20,
   "signalTime": 1788992100000,
   "status": "pending",
-  "createdAt": 1788992134620
+  "createdAt": 1788992134620,
+  "notified": []
  },
  {
   "id": "CHIPUSDT::SHORT::BoS::1788992100000",
@@ -17629,7 +17630,8 @@
   "lev": 6,
   "signalTime": 1788992100000,
   "status": "pending",
-  "createdAt": 1788992134620
+  "createdAt": 1788992134620,
+  "notified": []
  },
  {
   "id": "MITOUSDT::SHORT::ChoCh::1788992100000",
@@ -17646,7 +17648,8 @@
   "lev": 11,
   "signalTime": 1788992100000,
   "status": "pending",
-  "createdAt": 1788992134620
+  "createdAt": 1788992134620,
+  "notified": []
  },
  {
   "id": "TUTUSDT::SHORT::BoS::1788992100000",
@@ -17663,6 +17666,7 @@
   "lev": 9,
   "signalTime": 1788992100000,
   "status": "pending",
-  "createdAt": 1788992134620
+  "createdAt": 1788992134620,
+  "notified": []
  }
 ]
