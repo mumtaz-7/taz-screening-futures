@@ -17284,7 +17284,8 @@
   "lev": 5,
   "signalTime": 1788942600000,
   "status": "pending",
-  "createdAt": 1788942644406
+  "createdAt": 1788942644406,
+  "notified": []
  },
  {
   "id": "SOPHUSDT::LONG::ChoCh::1788942600000",
@@ -17300,7 +17301,11 @@
   "rr": 11.29,
   "lev": 10,
   "signalTime": 1788942600000,
-  "status": "pending",
-  "createdAt": 1788942644406
+  "status": "open",
+  "createdAt": 1788942644406,
+  "fillTime": 1788942600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
