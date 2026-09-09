@@ -17355,5 +17355,22 @@
   "status": "pending",
   "createdAt": 1788947135547,
   "notified": []
+ },
+ {
+  "id": "SCRUSDT::LONG::BoS::1788950700000",
+  "symbol": "SCRUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.02208,
+  "sl": 0.021135,
+  "tp": 0.02599,
+  "tpSrc": "WH",
+  "slPct": 4.28,
+  "gainPct": 17.71,
+  "rr": 4.14,
+  "lev": 14,
+  "signalTime": 1788950700000,
+  "status": "pending",
+  "createdAt": 1788950732341
  }
 ]
