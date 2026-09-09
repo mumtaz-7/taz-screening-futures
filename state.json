@@ -1,8 +1,7 @@
 {
   "ready": [
     "DASHUSDT::SHORT::BoS",
-    "FORMUSDT::SHORT::BoS",
-    "SOPHUSDT::SHORT::BoS"
+    "FORMUSDT::SHORT::BoS"
   ],
-  "at": "2026-09-09T20:00:47.241Z"
+  "at": "2026-09-09T20:15:32.146Z"
 }
