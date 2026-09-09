@@ -17409,12 +17409,15 @@
   "rr": 1.17,
   "lev": 6,
   "signalTime": 1788953400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788953441497,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1788954300000
+  "fillTime": 1788954300000,
+  "R": 1.17,
+  "resolvedTime": 1788979500000
  },
  {
   "id": "ARBUSDT::SHORT::ChoCh::1788966900000",
@@ -17487,9 +17490,12 @@
   "rr": 1.33,
   "lev": 5,
   "signalTime": 1788973200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788973248231,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788979500000
  },
  {
   "id": "LTCUSDT::LONG::BoS::1788975000000",
