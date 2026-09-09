@@ -17544,5 +17544,22 @@
   "status": "pending",
   "createdAt": 1788981335057,
   "notified": []
+ },
+ {
+  "id": "MARSCOINUSDT::SHORT::BoS::1788990300000",
+  "symbol": "MARSCOINUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1165,
+  "sl": 0.1264,
+  "tp": 0.1034,
+  "tpSrc": "WL",
+  "slPct": 8.5,
+  "gainPct": 11.24,
+  "rr": 1.32,
+  "lev": 7,
+  "signalTime": 1788990300000,
+  "status": "pending",
+  "createdAt": 1788990334412
  }
 ]
