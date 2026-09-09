@@ -16130,12 +16130,15 @@
   "rr": 2.14,
   "lev": 8,
   "signalTime": 1788693300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788693333371,
   "fillTime": 1788693300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788990300000
  },
  {
   "id": "LAYERUSDT::LONG::BoS::1788710400000",
@@ -17559,7 +17562,12 @@
   "rr": 1.32,
   "lev": 7,
   "signalTime": 1788990300000,
-  "status": "pending",
-  "createdAt": 1788990334412
+  "status": "void",
+  "createdAt": 1788990334412,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1788990300000,
+  "notified": [
+   "void"
+  ]
  }
 ]
