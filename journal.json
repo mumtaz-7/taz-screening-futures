@@ -17152,12 +17152,15 @@
   "rr": 2.41,
   "lev": 4,
   "signalTime": 1788922800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788922847754,
   "fillTime": 1788922800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.41,
+  "resolvedTime": 1788938100000
  },
  {
   "id": "IOSTUSDT::LONG::BoS::1788930000000",
@@ -17173,9 +17176,13 @@
   "rr": 1.15,
   "lev": 3,
   "signalTime": 1788930000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788930045441,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1788938100000
  },
  {
   "id": "ORCAUSDT::LONG::BoS::1788931800000",
@@ -17212,7 +17219,11 @@
   "rr": 2.67,
   "lev": 18,
   "signalTime": 1788938100000,
-  "status": "pending",
-  "createdAt": 1788938136787
+  "status": "open",
+  "createdAt": 1788938136787,
+  "fillTime": 1788938100000,
+  "notified": [
+   "open"
+  ]
  }
 ]
