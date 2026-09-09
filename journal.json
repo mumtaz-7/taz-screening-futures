@@ -17197,5 +17197,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "AEROUSDT::LONG::ChoCh::1788938100000",
+  "symbol": "AEROUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.6219,
+  "sl": 0.60165,
+  "tp": 0.676,
+  "tpSrc": "WH",
+  "slPct": 3.26,
+  "gainPct": 8.7,
+  "rr": 2.67,
+  "lev": 18,
+  "signalTime": 1788938100000,
+  "status": "pending",
+  "createdAt": 1788938136787
  }
 ]
