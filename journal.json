@@ -17283,9 +17283,12 @@
   "rr": 1.08,
   "lev": 5,
   "signalTime": 1788942600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1788942644406,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1788943500000
  },
  {
   "id": "SOPHUSDT::LONG::ChoCh::1788942600000",
