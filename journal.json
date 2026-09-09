@@ -17098,12 +17098,15 @@
   "rr": 6.07,
   "lev": 18,
   "signalTime": 1788912900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788912930646,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788913800000
+  "fillTime": 1788913800000,
+  "R": -1,
+  "resolvedTime": 1788919200000
  },
  {
   "id": "GLMRUSDT::LONG::BoS::1788917400000",
