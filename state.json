@@ -1,8 +1,8 @@
 {
   "ready": [
     "CFGUSDT::LONG::ChoCh",
-    "DASHUSDT::SHORT::ChoCh",
+    "IOSTUSDT::LONG::BoS",
     "RAYUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-09T04:45:33.855Z"
+  "at": "2026-09-09T05:00:45.440Z"
 }
