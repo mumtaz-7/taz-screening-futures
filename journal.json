@@ -17053,12 +17053,15 @@
   "rr": 4.07,
   "lev": 9,
   "signalTime": 1788908400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788908446587,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788913800000
+  "fillTime": 1788913800000,
+  "R": -1,
+  "resolvedTime": 1788915600000
  },
  {
   "id": "RAYUSDT::LONG::BoS::1788911100000",
