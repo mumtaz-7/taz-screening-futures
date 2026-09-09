@@ -17170,5 +17170,22 @@
   "status": "pending",
   "createdAt": 1788930045441,
   "notified": []
+ },
+ {
+  "id": "ORCAUSDT::LONG::BoS::1788931800000",
+  "symbol": "ORCAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1.461,
+  "sl": 1.374,
+  "tp": 1.738,
+  "tpSrc": "WH",
+  "slPct": 5.95,
+  "gainPct": 18.96,
+  "rr": 3.18,
+  "lev": 10,
+  "signalTime": 1788931800000,
+  "status": "pending",
+  "createdAt": 1788931840098
  }
 ]
