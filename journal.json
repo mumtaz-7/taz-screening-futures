@@ -17240,7 +17240,28 @@
   "rr": 1.17,
   "lev": 9,
   "signalTime": 1788939900000,
+  "status": "open",
+  "createdAt": 1788939933497,
+  "fillTime": 1788939900000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "CHIPUSDT::LONG::BoS::1788940800000",
+  "symbol": "CHIPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.05417,
+  "sl": 0.051845,
+  "tp": 0.05878,
+  "tpSrc": "WH",
+  "slPct": 4.29,
+  "gainPct": 8.51,
+  "rr": 1.98,
+  "lev": 14,
+  "signalTime": 1788940800000,
   "status": "pending",
-  "createdAt": 1788939933497
+  "createdAt": 1788940855478
  }
 ]
