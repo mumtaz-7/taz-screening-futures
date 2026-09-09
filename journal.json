@@ -17487,5 +17487,22 @@
   "status": "pending",
   "createdAt": 1788973248231,
   "notified": []
+ },
+ {
+  "id": "LTCUSDT::LONG::BoS::1788975000000",
+  "symbol": "LTCUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 54.42,
+  "sl": 52.739999999999995,
+  "tp": 59.46,
+  "tpSrc": "WH",
+  "slPct": 3.09,
+  "gainPct": 9.26,
+  "rr": 3,
+  "lev": 19,
+  "signalTime": 1788975000000,
+  "status": "pending",
+  "createdAt": 1788975040994
  }
 ]
