@@ -17268,5 +17268,39 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "MARSCOINUSDT::SHORT::BoS::1788942600000",
+  "symbol": "MARSCOINUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1339,
+  "sl": 0.1492,
+  "tp": 0.1174,
+  "tpSrc": "WL",
+  "slPct": 11.43,
+  "gainPct": 12.32,
+  "rr": 1.08,
+  "lev": 5,
+  "signalTime": 1788942600000,
+  "status": "pending",
+  "createdAt": 1788942644406
+ },
+ {
+  "id": "SOPHUSDT::LONG::ChoCh::1788942600000",
+  "symbol": "SOPHUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00544,
+  "sl": 0.005125,
+  "tp": 0.008995,
+  "tpSrc": "EQ",
+  "slPct": 5.79,
+  "gainPct": 65.35,
+  "rr": 11.29,
+  "lev": 10,
+  "signalTime": 1788942600000,
+  "status": "pending",
+  "createdAt": 1788942644406
  }
 ]
