@@ -16582,12 +16582,15 @@
   "rr": 3.18,
   "lev": 8,
   "signalTime": 1788793200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788793246288,
   "fillTime": 1788793200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1788966900000
  },
  {
   "id": "PROMUSDT::LONG::BoS::1788795000000",
@@ -17422,7 +17425,8 @@
   "lev": 13,
   "signalTime": 1788966900000,
   "status": "pending",
-  "createdAt": 1788966934718
+  "createdAt": 1788966934718,
+  "notified": []
  },
  {
   "id": "SOPHUSDT::SHORT::BoS::1788966900000",
@@ -17438,7 +17442,11 @@
   "rr": 3.46,
   "lev": 10,
   "signalTime": 1788966900000,
-  "status": "pending",
-  "createdAt": 1788966934718
+  "status": "open",
+  "createdAt": 1788966934718,
+  "fillTime": 1788966900000,
+  "notified": [
+   "open"
+  ]
  }
 ]
