@@ -17077,5 +17077,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GUSDT::LONG::BoS::1788912900000",
+  "symbol": "GUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00408,
+  "sl": 0.003944999999999999,
+  "tp": 0.0049,
+  "tpSrc": "WH",
+  "slPct": 3.31,
+  "gainPct": 20.1,
+  "rr": 6.07,
+  "lev": 18,
+  "signalTime": 1788912900000,
+  "status": "pending",
+  "createdAt": 1788912930646
  }
 ]
