@@ -17364,9 +17364,12 @@
   "rr": 6.24,
   "lev": 25,
   "signalTime": 1788947100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788947135547,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "SCRUSDT::LONG::BoS::1788950700000",
