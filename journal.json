@@ -16377,12 +16377,15 @@
   "rr": 3.47,
   "lev": 21,
   "signalTime": 1788751800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788751876164,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788755400000
+  "fillTime": 1788755400000,
+  "R": -1,
+  "resolvedTime": 1788966000000
  },
  {
   "id": "COTIUSDT::LONG::BoS::1788754500000",
@@ -17403,5 +17406,39 @@
    "open"
   ],
   "fillTime": 1788954300000
+ },
+ {
+  "id": "ARBUSDT::SHORT::ChoCh::1788966900000",
+  "symbol": "ARBUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.1634,
+  "sl": 0.17120000000000002,
+  "tp": 0.1328,
+  "tpSrc": "OB",
+  "slPct": 4.77,
+  "gainPct": 18.73,
+  "rr": 3.92,
+  "lev": 13,
+  "signalTime": 1788966900000,
+  "status": "pending",
+  "createdAt": 1788966934718
+ },
+ {
+  "id": "SOPHUSDT::SHORT::BoS::1788966900000",
+  "symbol": "SOPHUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.00522,
+  "sl": 0.005535,
+  "tp": 0.00413,
+  "tpSrc": "OB",
+  "slPct": 6.03,
+  "gainPct": 20.88,
+  "rr": 3.46,
+  "lev": 10,
+  "signalTime": 1788966900000,
+  "status": "pending",
+  "createdAt": 1788966934718
  }
 ]
