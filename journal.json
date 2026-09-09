@@ -16966,12 +16966,15 @@
   "rr": 3,
   "lev": 6,
   "signalTime": 1788888600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788888642707,
   "fillTime": 1788888600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3,
+  "resolvedTime": 1788935400000
  },
  {
   "id": "IOSTUSDT::LONG::ChoCh::1788889500000",
@@ -17080,12 +17083,15 @@
   "rr": 3.16,
   "lev": 11,
   "signalTime": 1788911100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788911131791,
   "fillTime": 1788911100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.16,
+  "resolvedTime": 1788935400000
  },
  {
   "id": "GUSDT::LONG::BoS::1788912900000",
