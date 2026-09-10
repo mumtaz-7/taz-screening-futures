@@ -17571,9 +17571,12 @@
   "rr": 2.01,
   "lev": 10,
   "signalTime": 1788981300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788981335057,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "MARSCOINUSDT::SHORT::BoS::1788990300000",
