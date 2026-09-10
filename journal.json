@@ -17842,12 +17842,15 @@
   "rr": 3.92,
   "lev": 22,
   "signalTime": 1789038000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789038048978,
   "fillTime": 1789038000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789048800000
  },
  {
   "id": "DODOUSDT::SHORT::ChoCh::1789043400000",
@@ -17911,5 +17914,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MINAUSDT::LONG::BoS::1789049700000",
+  "symbol": "MINAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0911,
+  "sl": 0.0875,
+  "tp": 0.0979,
+  "tpSrc": "WH",
+  "slPct": 3.95,
+  "gainPct": 7.46,
+  "rr": 1.89,
+  "lev": 15,
+  "signalTime": 1789049700000,
+  "status": "pending",
+  "createdAt": 1789049734278
  }
 ]
