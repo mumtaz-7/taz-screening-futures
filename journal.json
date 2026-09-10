@@ -18051,5 +18051,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1789065900000
+ },
+ {
+  "id": "ARBUSDT::SHORT::ChoCh::1789077600000",
+  "symbol": "ARBUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.147,
+  "sl": 0.15240000000000004,
+  "tp": 0.1328,
+  "tpSrc": "OB",
+  "slPct": 3.67,
+  "gainPct": 9.66,
+  "rr": 2.63,
+  "lev": 16,
+  "signalTime": 1789077600000,
+  "status": "pending",
+  "createdAt": 1789077650031
  }
 ]
