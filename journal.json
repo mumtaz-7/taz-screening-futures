@@ -16654,12 +16654,15 @@
   "rr": 4.11,
   "lev": 17,
   "signalTime": 1788806700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788806733185,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1788812100000
+  "fillTime": 1788812100000,
+  "R": 4.11,
+  "resolvedTime": 1789056900000
  },
  {
   "id": "JSTUSDT::SHORT::ChoCh::1788817500000",
@@ -17053,12 +17056,15 @@
   "rr": 1.38,
   "lev": 8,
   "signalTime": 1788894000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788894046816,
   "fillTime": 1788894000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.38,
+  "resolvedTime": 1789056900000
  },
  {
   "id": "ORCAUSDT::LONG::ChoCh::1788898500000",
@@ -17996,7 +18002,28 @@
   "rr": 1.07,
   "lev": 5,
   "signalTime": 1789056900000,
+  "status": "open",
+  "createdAt": 1789056938162,
+  "fillTime": 1789056900000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "HEMIUSDT::SHORT::ChoCh::1789057800000",
+  "symbol": "HEMIUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.00716,
+  "sl": 0.008060000000000001,
+  "tp": 0.00617,
+  "tpSrc": "WL",
+  "slPct": 12.57,
+  "gainPct": 13.83,
+  "rr": 1.1,
+  "lev": 5,
+  "signalTime": 1789057800000,
   "status": "pending",
-  "createdAt": 1789056938162
+  "createdAt": 1789057841359
  }
 ]
