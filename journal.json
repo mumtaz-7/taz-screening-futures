@@ -14026,7 +14026,7 @@
   "rr": 2.99,
   "lev": 7,
   "signalTime": 1788237000000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1788237043083,
   "notified": [
    "open"
@@ -17620,9 +17620,12 @@
   "rr": 5.29,
   "lev": 20,
   "signalTime": 1788992100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788992134620,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "CHIPUSDT::SHORT::BoS::1788992100000",
@@ -17638,9 +17641,12 @@
   "rr": 1.24,
   "lev": 6,
   "signalTime": 1788992100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788992134620,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "MITOUSDT::SHORT::ChoCh::1788992100000",
@@ -17677,9 +17683,12 @@
   "rr": 4.59,
   "lev": 9,
   "signalTime": 1788992100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1788992134620,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "RAYUSDT::LONG::ChoCh::1789010100000",
@@ -17698,5 +17707,22 @@
   "status": "pending",
   "createdAt": 1789010133530,
   "notified": []
+ },
+ {
+  "id": "PORTALUSDT::SHORT::BoS::1789014600000",
+  "symbol": "PORTALUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.01723,
+  "sl": 0.018385,
+  "tp": 0.01388,
+  "tpSrc": "OB",
+  "slPct": 6.7,
+  "gainPct": 19.44,
+  "rr": 2.9,
+  "lev": 9,
+  "signalTime": 1789014600000,
+  "status": "pending",
+  "createdAt": 1789014641597
  }
 ]
