@@ -17935,5 +17935,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ETHFIUSDT::LONG::ChoCh::1789052400000",
+  "symbol": "ETHFIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.6487,
+  "sl": 0.58885,
+  "tp": 0.7133,
+  "tpSrc": "WH",
+  "slPct": 9.23,
+  "gainPct": 9.96,
+  "rr": 1.08,
+  "lev": 6,
+  "signalTime": 1789052400000,
+  "status": "pending",
+  "createdAt": 1789052473636
  }
 ]
