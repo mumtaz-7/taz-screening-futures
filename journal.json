@@ -17707,9 +17707,12 @@
   "rr": 4.72,
   "lev": 14,
   "signalTime": 1789010100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789010133530,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "PORTALUSDT::SHORT::BoS::1789014600000",
@@ -17770,5 +17773,39 @@
   "status": "pending",
   "createdAt": 1789029933352,
   "notified": []
+ },
+ {
+  "id": "NEWTUSDT::LONG::BoS::1789032600000",
+  "symbol": "NEWTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.04518,
+  "sl": 0.04263,
+  "tp": 0.05716,
+  "tpSrc": "WH",
+  "slPct": 5.64,
+  "gainPct": 26.52,
+  "rr": 4.7,
+  "lev": 11,
+  "signalTime": 1789032600000,
+  "status": "pending",
+  "createdAt": 1789032642667
+ },
+ {
+  "id": "PORTALUSDT::SHORT::ChoCh::1789032600000",
+  "symbol": "PORTALUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.01702,
+  "sl": 0.01747,
+  "tp": 0.01514,
+  "tpSrc": "WL",
+  "slPct": 2.64,
+  "gainPct": 11.05,
+  "rr": 4.18,
+  "lev": 22,
+  "signalTime": 1789032600000,
+  "status": "pending",
+  "createdAt": 1789032642667
  }
 ]
