@@ -16972,12 +16972,15 @@
   "rr": 3.77,
   "lev": 13,
   "signalTime": 1788876900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788876933085,
   "fillTime": 1788876900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789003800000
  },
  {
   "id": "RAYUSDT::LONG::ChoCh::1788888600000",
@@ -17526,12 +17529,15 @@
   "rr": 1.33,
   "lev": 5,
   "signalTime": 1788973200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788973248231,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788979500000
+  "fillTime": 1788979500000,
+  "R": -1,
+  "resolvedTime": 1789003800000
  },
  {
   "id": "LTCUSDT::LONG::BoS::1788975000000",
