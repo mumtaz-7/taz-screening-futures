@@ -17240,12 +17240,15 @@
   "rr": 3.18,
   "lev": 10,
   "signalTime": 1788931800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788931840098,
   "fillTime": 1788931800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789044300000
  },
  {
   "id": "AEROUSDT::LONG::ChoCh::1788938100000",
@@ -17881,7 +17884,28 @@
   "rr": 4.95,
   "lev": 17,
   "signalTime": 1789044300000,
+  "status": "open",
+  "createdAt": 1789044335353,
+  "fillTime": 1789044300000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "TUTUSDT::SHORT::BoS::1789045200000",
+  "symbol": "TUTUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.02028,
+  "sl": 0.02094,
+  "tp": 0.01544,
+  "tpSrc": "WL",
+  "slPct": 3.25,
+  "gainPct": 23.87,
+  "rr": 7.33,
+  "lev": 18,
+  "signalTime": 1789045200000,
   "status": "pending",
-  "createdAt": 1789044335353
+  "createdAt": 1789045250983
  }
 ]
