@@ -17845,5 +17845,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "DODOUSDT::SHORT::ChoCh::1789043400000",
+  "symbol": "DODOUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.01704,
+  "sl": 0.01809,
+  "tp": 0.0158,
+  "tpSrc": "WL",
+  "slPct": 6.16,
+  "gainPct": 7.28,
+  "rr": 1.18,
+  "lev": 10,
+  "signalTime": 1789043400000,
+  "status": "pending",
+  "createdAt": 1789043442483
  }
 ]
