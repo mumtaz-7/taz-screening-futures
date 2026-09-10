@@ -17824,5 +17824,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ARBUSDT::SHORT::BoS::1789038000000",
+  "symbol": "ARBUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1481,
+  "sl": 0.152,
+  "tp": 0.1328,
+  "tpSrc": "OB",
+  "slPct": 2.63,
+  "gainPct": 10.33,
+  "rr": 3.92,
+  "lev": 22,
+  "signalTime": 1789038000000,
+  "status": "pending",
+  "createdAt": 1789038048978
  }
 ]
