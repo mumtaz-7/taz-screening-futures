@@ -15255,12 +15255,15 @@
   "rr": 2.18,
   "lev": 7,
   "signalTime": 1788519600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788519646918,
   "fillTime": 1788519600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.18,
+  "resolvedTime": 1789030800000
  },
  {
   "id": "PORTALUSDT::LONG::BoS::1788521400000",
