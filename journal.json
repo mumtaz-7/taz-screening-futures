@@ -17749,5 +17749,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BMTUSDT::SHORT::ChoCh::1789029900000",
+  "symbol": "BMTUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.01714,
+  "sl": 0.017634999999999998,
+  "tp": 0.01589,
+  "tpSrc": "WL",
+  "slPct": 2.89,
+  "gainPct": 7.29,
+  "rr": 2.53,
+  "lev": 20,
+  "signalTime": 1789029900000,
+  "status": "pending",
+  "createdAt": 1789029933352
  }
 ]
