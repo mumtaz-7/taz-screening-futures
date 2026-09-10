@@ -17794,9 +17794,12 @@
   "rr": 4.7,
   "lev": 11,
   "signalTime": 1789032600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789032642667,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789035300000
  },
  {
   "id": "PORTALUSDT::SHORT::ChoCh::1789032600000",
