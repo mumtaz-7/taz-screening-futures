@@ -15375,12 +15375,15 @@
   "rr": 1.82,
   "lev": 9,
   "signalTime": 1788539400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788539442383,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788542100000
+  "fillTime": 1788542100000,
+  "R": -1,
+  "resolvedTime": 1789120800000
  },
  {
   "id": "PUMPUSDT::LONG::BoS::1788539400000",
@@ -18159,9 +18162,12 @@
   "rr": 2.7,
   "lev": 19,
   "signalTime": 1789099200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789099246953,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "REZUSDT::LONG::ChoCh::1789118100000",
