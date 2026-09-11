@@ -18243,9 +18243,12 @@
   "rr": 1.4,
   "lev": 3,
   "signalTime": 1789139700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789139738997,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "VTHOUSDT::SHORT::ChoCh::1789144200000",
@@ -18303,8 +18306,11 @@
   "rr": 1.22,
   "lev": 7,
   "signalTime": 1789160400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789160446924,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789161300000
  }
 ]
