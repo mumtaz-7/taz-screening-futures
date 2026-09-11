@@ -17878,12 +17878,15 @@
   "rr": 1.18,
   "lev": 10,
   "signalTime": 1789043400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789043442483,
   "fillTime": 1789043400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789108200000
  },
  {
   "id": "BANKUSDT::SHORT::BoS::1789044300000",
