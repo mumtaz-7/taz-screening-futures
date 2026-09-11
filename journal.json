@@ -18328,6 +18328,24 @@
   "lev": 11,
   "signalTime": 1789164000000,
   "status": "pending",
-  "createdAt": 1789164047005
+  "createdAt": 1789164047005,
+  "notified": []
+ },
+ {
+  "id": "TFUELUSDT::SHORT::BoS::1789164900000",
+  "symbol": "TFUELUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0109,
+  "sl": 0.011725,
+  "tp": 0.00903,
+  "tpSrc": "OB",
+  "slPct": 7.57,
+  "gainPct": 17.16,
+  "rr": 2.27,
+  "lev": 8,
+  "signalTime": 1789164900000,
+  "status": "pending",
+  "createdAt": 1789164937525
  }
 ]
