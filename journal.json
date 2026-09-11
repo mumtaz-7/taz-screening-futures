@@ -17806,12 +17806,15 @@
   "rr": 4.7,
   "lev": 11,
   "signalTime": 1789032600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789032642667,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789035300000
+  "fillTime": 1789035300000,
+  "R": -1,
+  "resolvedTime": 1789085700000
  },
  {
   "id": "PORTALUSDT::SHORT::ChoCh::1789032600000",
@@ -18109,6 +18112,7 @@
   "lev": 8,
   "signalTime": 1789085700000,
   "status": "pending",
-  "createdAt": 1789085732613
+  "createdAt": 1789085732613,
+  "notified": []
  }
 ]
