@@ -18312,5 +18312,22 @@
    "open"
   ],
   "fillTime": 1789161300000
+ },
+ {
+  "id": "MARSCOINUSDT::SHORT::BoS::1789164000000",
+  "symbol": "MARSCOINUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1209,
+  "sl": 0.1275,
+  "tp": 0.0979,
+  "tpSrc": "WL",
+  "slPct": 5.46,
+  "gainPct": 19.02,
+  "rr": 3.48,
+  "lev": 11,
+  "signalTime": 1789164000000,
+  "status": "pending",
+  "createdAt": 1789164047005
  }
 ]
