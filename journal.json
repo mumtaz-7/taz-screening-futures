@@ -16449,12 +16449,15 @@
   "rr": 2.72,
   "lev": 12,
   "signalTime": 1788756300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1788756332900,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1788767100000
+  "fillTime": 1788767100000,
+  "R": 2.72,
+  "resolvedTime": 1789137000000
  },
  {
   "id": "TRUMPUSDT::LONG::BoS::1788768900000",
