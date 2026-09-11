@@ -17836,12 +17836,15 @@
   "rr": 4.18,
   "lev": 22,
   "signalTime": 1789032600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789032642667,
   "fillTime": 1789032600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789135200000
  },
  {
   "id": "ARBUSDT::SHORT::BoS::1789038000000",
