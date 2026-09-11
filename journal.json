@@ -17996,12 +17996,15 @@
   "rr": 1.44,
   "lev": 11,
   "signalTime": 1789055100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789055136743,
   "fillTime": 1789055100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.44,
+  "resolvedTime": 1789134300000
  },
  {
   "id": "SOPHUSDT::LONG::BoS::1789056900000",
