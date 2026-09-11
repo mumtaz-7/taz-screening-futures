@@ -18288,5 +18288,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "STRKUSDT::SHORT::ChoCh::1789160400000",
+  "symbol": "STRKUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.02885,
+  "sl": 0.031295,
+  "tp": 0.02586,
+  "tpSrc": "OB",
+  "slPct": 8.47,
+  "gainPct": 10.36,
+  "rr": 1.22,
+  "lev": 7,
+  "signalTime": 1789160400000,
+  "status": "pending",
+  "createdAt": 1789160446924
  }
 ]
