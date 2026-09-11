@@ -18093,5 +18093,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "IOSTUSDT::SHORT::BoS::1789085700000",
+  "symbol": "IOSTUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.001001,
+  "sl": 0.0010805,
+  "tp": 0.00086,
+  "tpSrc": "OB",
+  "slPct": 7.94,
+  "gainPct": 14.09,
+  "rr": 1.77,
+  "lev": 8,
+  "signalTime": 1789085700000,
+  "status": "pending",
+  "createdAt": 1789085732613
  }
 ]
