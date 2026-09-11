@@ -17785,12 +17785,15 @@
   "rr": 2.53,
   "lev": 20,
   "signalTime": 1789029900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789029933352,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789032600000
+  "fillTime": 1789032600000,
+  "R": -1,
+  "resolvedTime": 1789097400000
  },
  {
   "id": "NEWTUSDT::LONG::BoS::1789032600000",
