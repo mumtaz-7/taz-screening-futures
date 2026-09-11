@@ -18228,5 +18228,22 @@
    "open"
   ],
   "fillTime": 1789126200000
+ },
+ {
+  "id": "TFUELUSDT::SHORT::ChoCh::1789139700000",
+  "symbol": "TFUELUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.0121,
+  "sl": 0.014289999999999999,
+  "tp": 0.00903,
+  "tpSrc": "OB",
+  "slPct": 18.1,
+  "gainPct": 25.37,
+  "rr": 1.4,
+  "lev": 3,
+  "signalTime": 1789139700000,
+  "status": "pending",
+  "createdAt": 1789139738997
  }
 ]
