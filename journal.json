@@ -17950,12 +17950,15 @@
   "rr": 1.89,
   "lev": 15,
   "signalTime": 1789049700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789049734278,
   "fillTime": 1789049700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.89,
+  "resolvedTime": 1789131600000
  },
  {
   "id": "ETHFIUSDT::LONG::ChoCh::1789052400000",
