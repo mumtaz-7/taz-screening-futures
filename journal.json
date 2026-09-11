@@ -18141,5 +18141,22 @@
    "open"
   ],
   "fillTime": 1789091100000
+ },
+ {
+  "id": "币安人生USDT::LONG::ChoCh::1789099200000",
+  "symbol": "币安人生USDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.4696,
+  "sl": 0.45520000000000005,
+  "tp": 0.5085,
+  "tpSrc": "OB",
+  "slPct": 3.07,
+  "gainPct": 8.28,
+  "rr": 2.7,
+  "lev": 19,
+  "signalTime": 1789099200000,
+  "status": "pending",
+  "createdAt": 1789099246953
  }
 ]
