@@ -18623,5 +18623,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ZECUSDT::SHORT::ChoCh::1789236900000",
+  "symbol": "ZECUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 1136.2,
+  "sl": 1147.2849999999999,
+  "tp": 1054.48,
+  "tpSrc": "WL",
+  "slPct": 0.98,
+  "gainPct": 7.19,
+  "rr": 7.37,
+  "lev": 25,
+  "signalTime": 1789236900000,
+  "status": "pending",
+  "createdAt": 1789236930294
  }
 ]
