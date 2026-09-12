@@ -18529,12 +18529,15 @@
   "rr": 3.97,
   "lev": 21,
   "signalTime": 1789212600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789212642921,
   "fillTime": 1789212600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789218000000
  },
  {
   "id": "REZUSDT::LONG::BoS::1789216200000",
