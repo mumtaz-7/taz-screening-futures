@@ -18445,9 +18445,12 @@
   "rr": 3.27,
   "lev": 25,
   "signalTime": 1789195500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789195537802,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789205400000
  },
  {
   "id": "TREEUSDT::LONG::BoS::1789200900000",
