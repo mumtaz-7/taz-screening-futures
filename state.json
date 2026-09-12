@@ -1,7 +1,8 @@
 {
   "ready": [
     "BLURUSDT::LONG::ChoCh",
+    "RAYUSDT::LONG::ChoCh",
     "TREEUSDT::LONG::BoS"
   ],
-  "at": "2026-09-12T11:15:36.440Z"
+  "at": "2026-09-12T11:30:42.919Z"
 }
