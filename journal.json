@@ -18369,7 +18369,29 @@
   "rr": 1.21,
   "lev": 9,
   "signalTime": 1789175700000,
+  "status": "void",
+  "createdAt": 1789175734275,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789175700000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "ZECUSDT::SHORT::ChoCh::1789176600000",
+  "symbol": "ZECUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 1152.25,
+  "sl": 1173.22,
+  "tp": 1054.48,
+  "tpSrc": "WL",
+  "slPct": 1.82,
+  "gainPct": 8.49,
+  "rr": 4.66,
+  "lev": 25,
+  "signalTime": 1789176600000,
   "status": "pending",
-  "createdAt": 1789175734275
+  "createdAt": 1789176639955
  }
 ]

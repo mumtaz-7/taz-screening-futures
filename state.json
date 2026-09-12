@@ -1,6 +1,7 @@
 {
   "ready": [
-    "SOPHUSDT::LONG::ChoCh"
+    "SOPHUSDT::LONG::ChoCh",
+    "ZECUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-09-12T01:15:34.274Z"
+  "at": "2026-09-12T01:30:39.920Z"
 }
