@@ -18403,5 +18403,22 @@
   "status": "pending",
   "createdAt": 1789176639955,
   "notified": []
+ },
+ {
+  "id": "PENDLEUSDT::LONG::ChoCh::1789194600000",
+  "symbol": "PENDLEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 2.091,
+  "sl": 2.0474999999999994,
+  "tp": 2.244,
+  "tpSrc": "OB",
+  "slPct": 2.08,
+  "gainPct": 7.32,
+  "rr": 3.52,
+  "lev": 25,
+  "signalTime": 1789194600000,
+  "status": "pending",
+  "createdAt": 1789194646630
  }
 ]
