@@ -18138,12 +18138,15 @@
   "rr": 1.77,
   "lev": 8,
   "signalTime": 1789085700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789085732613,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789087500000
+  "fillTime": 1789087500000,
+  "R": 1.77,
+  "resolvedTime": 1789183800000
  },
  {
   "id": "HEMIUSDT::SHORT::BoS::1789088400000",
