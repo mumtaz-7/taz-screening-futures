@@ -18556,5 +18556,22 @@
   "status": "pending",
   "createdAt": 1789216243908,
   "notified": []
+ },
+ {
+  "id": "DOGSUSDT::LONG::ChoCh::1789221600000",
+  "symbol": "DOGSUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00005265,
+  "sl": 0.00005128500000000001,
+  "tp": 0.0000565,
+  "tpSrc": "OB",
+  "slPct": 2.59,
+  "gainPct": 7.31,
+  "rr": 2.82,
+  "lev": 22,
+  "signalTime": 1789221600000,
+  "status": "pending",
+  "createdAt": 1789221649581
  }
 ]
