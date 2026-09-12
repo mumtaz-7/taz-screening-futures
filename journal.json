@@ -18508,9 +18508,12 @@
   "rr": 6.12,
   "lev": 25,
   "signalTime": 1789208100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789208132645,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789215300000
  },
  {
   "id": "RAYUSDT::LONG::ChoCh::1789212600000",
@@ -18532,5 +18535,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "REZUSDT::LONG::BoS::1789216200000",
+  "symbol": "REZUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.003289,
+  "sl": 0.0031705000000000006,
+  "tp": 0.003621,
+  "tpSrc": "OB",
+  "slPct": 3.6,
+  "gainPct": 10.09,
+  "rr": 2.8,
+  "lev": 16,
+  "signalTime": 1789216200000,
+  "status": "pending",
+  "createdAt": 1789216243908
  }
 ]
