@@ -18665,9 +18665,12 @@
   "rr": 1.99,
   "lev": 15,
   "signalTime": 1789250400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789250448720,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789254000000
  },
  {
   "id": "SOPHUSDT::LONG::BoS::1789252200000",
@@ -18683,8 +18686,11 @@
   "rr": 6.56,
   "lev": 25,
   "signalTime": 1789252200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789252247641,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789254000000
  }
 ]
