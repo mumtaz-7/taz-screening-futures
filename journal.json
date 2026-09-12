@@ -18333,9 +18333,12 @@
   "rr": 3.48,
   "lev": 11,
   "signalTime": 1789164000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789164047005,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "TFUELUSDT::SHORT::BoS::1789164900000",
