@@ -18448,5 +18448,22 @@
   "status": "pending",
   "createdAt": 1789195537802,
   "notified": []
+ },
+ {
+  "id": "TREEUSDT::LONG::BoS::1789200900000",
+  "symbol": "TREEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0431,
+  "sl": 0.04055,
+  "tp": 0.0497,
+  "tpSrc": "WH",
+  "slPct": 5.92,
+  "gainPct": 15.31,
+  "rr": 2.59,
+  "lev": 10,
+  "signalTime": 1789200900000,
+  "status": "pending",
+  "createdAt": 1789200932780
  }
 ]
