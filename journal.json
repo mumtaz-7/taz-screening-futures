@@ -18553,9 +18553,13 @@
   "rr": 2.8,
   "lev": 16,
   "signalTime": 1789216200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789216243908,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789225200000
  },
  {
   "id": "DOGSUSDT::LONG::ChoCh::1789221600000",
@@ -18613,7 +18617,11 @@
   "rr": 6.73,
   "lev": 25,
   "signalTime": 1789225200000,
-  "status": "pending",
-  "createdAt": 1789225248184
+  "status": "open",
+  "createdAt": 1789225248184,
+  "fillTime": 1789225200000,
+  "notified": [
+   "open"
+  ]
  }
 ]
