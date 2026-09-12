@@ -18577,5 +18577,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ALLOUSDT::SHORT::BoS::1789223400000",
+  "symbol": "ALLOUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.2293,
+  "sl": 0.23305,
+  "tp": 0.2111,
+  "tpSrc": "WL",
+  "slPct": 1.64,
+  "gainPct": 7.94,
+  "rr": 4.85,
+  "lev": 25,
+  "signalTime": 1789223400000,
+  "status": "pending",
+  "createdAt": 1789223442039
  }
 ]
