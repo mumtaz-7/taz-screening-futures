@@ -18692,5 +18692,22 @@
    "open"
   ],
   "fillTime": 1789254000000
+ },
+ {
+  "id": "LSKUSDT::LONG::ChoCh::1789255800000",
+  "symbol": "LSKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.2735,
+  "sl": 0.19834999999999997,
+  "tp": 0.3672,
+  "tpSrc": "WH",
+  "slPct": 27.48,
+  "gainPct": 34.26,
+  "rr": 1.25,
+  "lev": 2,
+  "signalTime": 1789255800000,
+  "status": "pending",
+  "createdAt": 1789255838791
  }
 ]
