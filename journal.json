@@ -18493,5 +18493,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BLURUSDT::LONG::ChoCh::1789208100000",
+  "symbol": "BLURUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01726,
+  "sl": 0.016974999999999997,
+  "tp": 0.019005,
+  "tpSrc": "EQ",
+  "slPct": 1.65,
+  "gainPct": 10.11,
+  "rr": 6.12,
+  "lev": 25,
+  "signalTime": 1789208100000,
+  "status": "pending",
+  "createdAt": 1789208132645
  }
 ]
