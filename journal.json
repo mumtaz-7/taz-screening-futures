@@ -18598,5 +18598,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CHZUSDT::LONG::ChoCh::1789225200000",
+  "symbol": "CHZUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01437,
+  "sl": 0.014204999999999999,
+  "tp": 0.01548,
+  "tpSrc": "WH",
+  "slPct": 1.15,
+  "gainPct": 7.72,
+  "rr": 6.73,
+  "lev": 25,
+  "signalTime": 1789225200000,
+  "status": "pending",
+  "createdAt": 1789225248184
  }
 ]

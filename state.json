@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ALLOUSDT::SHORT::BoS"
+    "ALLOUSDT::SHORT::BoS",
+    "CHZUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-12T14:45:34.283Z"
+  "at": "2026-09-12T15:00:48.183Z"
 }
