@@ -19163,11 +19163,31 @@
   "rr": 5.14,
   "lev": 3,
   "signalTime": 1789335900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789335931172,
   "fillTime": 1789335900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789341300000
+ },
+ {
+  "id": "RAYUSDT::SHORT::ChoCh::1789342200000",
+  "symbol": "RAYUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 1.4331,
+  "sl": 1.5369,
+  "tp": 1.2121,
+  "tpSrc": "OB",
+  "slPct": 7.24,
+  "gainPct": 15.42,
+  "rr": 2.13,
+  "lev": 8,
+  "signalTime": 1789342200000,
+  "status": "pending",
+  "createdAt": 1789342238398
  }
 ]
