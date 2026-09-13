@@ -18738,9 +18738,12 @@
   "rr": 3.73,
   "lev": 25,
   "signalTime": 1789260300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789260331707,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "MITOUSDT::LONG::ChoCh::1789263900000",
@@ -18842,9 +18845,12 @@
   "rr": 5.5,
   "lev": 25,
   "signalTime": 1789277400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789277442013,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789281900000
  },
  {
   "id": "TRUMPUSDT::LONG::ChoCh::1789278300000",
@@ -18884,5 +18890,22 @@
   "status": "pending",
   "createdAt": 1789279251488,
   "notified": []
+ },
+ {
+  "id": "FFUSDT::SHORT::BoS::1789282800000",
+  "symbol": "FFUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.14838,
+  "sl": 0.15396,
+  "tp": 0.11964,
+  "tpSrc": "OB",
+  "slPct": 3.76,
+  "gainPct": 19.37,
+  "rr": 5.15,
+  "lev": 16,
+  "signalTime": 1789282800000,
+  "status": "pending",
+  "createdAt": 1789282846580
  }
 ]
