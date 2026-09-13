@@ -18969,8 +18969,14 @@
   "rr": 1.12,
   "lev": 5,
   "signalTime": 1789303500000,
-  "status": "pending",
-  "createdAt": 1789303533244
+  "status": "win",
+  "createdAt": 1789303533244,
+  "R": 1.12,
+  "fillTime": 1789303500000,
+  "resolvedTime": 1789303500000,
+  "notified": [
+   "win"
+  ]
  },
  {
   "id": "PUNDIXUSDT::LONG::BoS::1789303500000",
@@ -18986,7 +18992,13 @@
   "rr": 1.88,
   "lev": 8,
   "signalTime": 1789303500000,
-  "status": "pending",
-  "createdAt": 1789303533244
+  "status": "loss",
+  "createdAt": 1789303533244,
+  "R": -1,
+  "fillTime": 1789303500000,
+  "resolvedTime": 1789303500000,
+  "notified": [
+   "loss"
+  ]
  }
 ]
