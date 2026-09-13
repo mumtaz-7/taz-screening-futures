@@ -18954,5 +18954,39 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "POLYXUSDT::LONG::BoS::1789303500000",
+  "symbol": "POLYXUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0431,
+  "sl": 0.03845,
+  "tp": 0.0483,
+  "tpSrc": "WH",
+  "slPct": 10.79,
+  "gainPct": 12.06,
+  "rr": 1.12,
+  "lev": 5,
+  "signalTime": 1789303500000,
+  "status": "pending",
+  "createdAt": 1789303533244
+ },
+ {
+  "id": "PUNDIXUSDT::LONG::BoS::1789303500000",
+  "symbol": "PUNDIXUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1278,
+  "sl": 0.11865,
+  "tp": 0.145,
+  "tpSrc": "WH",
+  "slPct": 7.16,
+  "gainPct": 13.46,
+  "rr": 1.88,
+  "lev": 8,
+  "signalTime": 1789303500000,
+  "status": "pending",
+  "createdAt": 1789303533244
  }
 ]

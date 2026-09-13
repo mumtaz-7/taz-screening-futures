@@ -1,6 +1,8 @@
 {
   "ready": [
-    "CVCUSDT::LONG::BoS"
+    "CVCUSDT::LONG::BoS",
+    "POLYXUSDT::LONG::BoS",
+    "PUNDIXUSDT::LONG::BoS"
   ],
-  "at": "2026-09-13T12:30:40.063Z"
+  "at": "2026-09-13T12:45:33.243Z"
 }
