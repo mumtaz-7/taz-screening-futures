@@ -17776,12 +17776,15 @@
   "rr": 1.35,
   "lev": 5,
   "signalTime": 1789020000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789020049301,
   "fillTime": 1789020000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789283700000
  },
  {
   "id": "BMTUSDT::SHORT::ChoCh::1789029900000",
@@ -18887,9 +18890,12 @@
   "rr": 1.29,
   "lev": 5,
   "signalTime": 1789279200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789279251488,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789283700000
  },
  {
   "id": "FFUSDT::SHORT::BoS::1789282800000",
