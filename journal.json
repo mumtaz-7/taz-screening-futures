@@ -18861,6 +18861,24 @@
   "lev": 25,
   "signalTime": 1789278300000,
   "status": "pending",
-  "createdAt": 1789278332996
+  "createdAt": 1789278332996,
+  "notified": []
+ },
+ {
+  "id": "ILVUSDT::LONG::ChoCh::1789279200000",
+  "symbol": "ILVUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 3.78,
+  "sl": 3.3,
+  "tp": 4.4,
+  "tpSrc": "WH",
+  "slPct": 12.7,
+  "gainPct": 16.4,
+  "rr": 1.29,
+  "lev": 5,
+  "signalTime": 1789279200000,
+  "status": "pending",
+  "createdAt": 1789279251488
  }
 ]
