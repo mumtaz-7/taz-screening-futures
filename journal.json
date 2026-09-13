@@ -16591,12 +16591,15 @@
   "rr": 1.26,
   "lev": 11,
   "signalTime": 1788790500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1788790533682,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1788794100000
+  "fillTime": 1788794100000,
+  "R": -1,
+  "resolvedTime": 1789316100000
  },
  {
   "id": "ARBUSDT::LONG::ChoCh::1788793200000",
