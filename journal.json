@@ -18584,12 +18584,15 @@
   "rr": 2.82,
   "lev": 22,
   "signalTime": 1789221600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789221649581,
   "fillTime": 1789221600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789287300000
  },
  {
   "id": "ALLOUSDT::SHORT::BoS::1789223400000",
@@ -18762,12 +18765,15 @@
   "rr": 3.76,
   "lev": 25,
   "signalTime": 1789263900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789263930677,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789267500000
+  "fillTime": 1789267500000,
+  "R": -1,
+  "resolvedTime": 1789287300000
  },
  {
   "id": "PUNDIXUSDT::LONG::BoS::1789264800000",
