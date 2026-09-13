@@ -19021,5 +19021,22 @@
   "status": "pending",
   "createdAt": 1789308933104,
   "notified": []
+ },
+ {
+  "id": "KAVAUSDT::LONG::ChoCh::1789311600000",
+  "symbol": "KAVAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.07041,
+  "sl": 0.06471,
+  "tp": 0.08275,
+  "tpSrc": "WH",
+  "slPct": 8.1,
+  "gainPct": 17.53,
+  "rr": 2.16,
+  "lev": 7,
+  "signalTime": 1789311600000,
+  "status": "pending",
+  "createdAt": 1789311648460
  }
 ]
