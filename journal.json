@@ -18827,5 +18827,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "TAOUSDT::LONG::ChoCh::1789277400000",
+  "symbol": "TAOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 236.5,
+  "sl": 232.29999999999998,
+  "tp": 259.6,
+  "tpSrc": "OB",
+  "slPct": 1.78,
+  "gainPct": 9.77,
+  "rr": 5.5,
+  "lev": 25,
+  "signalTime": 1789277400000,
+  "status": "pending",
+  "createdAt": 1789277442013
  }
 ]
