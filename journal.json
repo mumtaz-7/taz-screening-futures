@@ -19139,5 +19139,22 @@
    "open"
   ],
   "fillTime": 1789334100000
+ },
+ {
+  "id": "LSKUSDT::LONG::BoS::1789335900000",
+  "symbol": "LSKUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1.01,
+  "sl": 0.8172499999999999,
+  "tp": 2,
+  "tpSrc": "WH",
+  "slPct": 19.08,
+  "gainPct": 98.02,
+  "rr": 5.14,
+  "lev": 3,
+  "signalTime": 1789335900000,
+  "status": "pending",
+  "createdAt": 1789335931172
  }
 ]
