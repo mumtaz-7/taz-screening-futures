@@ -18843,6 +18843,24 @@
   "lev": 25,
   "signalTime": 1789277400000,
   "status": "pending",
-  "createdAt": 1789277442013
+  "createdAt": 1789277442013,
+  "notified": []
+ },
+ {
+  "id": "TRUMPUSDT::LONG::ChoCh::1789278300000",
+  "symbol": "TRUMPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1.996,
+  "sl": 1.9645000000000001,
+  "tp": 2.185,
+  "tpSrc": "OB",
+  "slPct": 1.58,
+  "gainPct": 9.47,
+  "rr": 6,
+  "lev": 25,
+  "signalTime": 1789278300000,
+  "status": "pending",
+  "createdAt": 1789278332996
  }
 ]
