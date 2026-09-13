@@ -18707,9 +18707,13 @@
   "rr": 1.25,
   "lev": 2,
   "signalTime": 1789255800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789255838791,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789260300000
  },
  {
   "id": "CHZUSDT::LONG::ChoCh::1789260300000",
@@ -18726,6 +18730,7 @@
   "lev": 25,
   "signalTime": 1789260300000,
   "status": "pending",
-  "createdAt": 1789260331707
+  "createdAt": 1789260331707,
+  "notified": []
  }
 ]
