@@ -18836,12 +18836,15 @@
   "rr": 1.14,
   "lev": 9,
   "signalTime": 1789270200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789270237663,
   "fillTime": 1789270200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789308000000
  },
  {
   "id": "TAOUSDT::LONG::ChoCh::1789277400000",
@@ -19000,5 +19003,22 @@
   "notified": [
    "loss"
   ]
+ },
+ {
+  "id": "TRUMPUSDT::LONG::ChoCh::1789308900000",
+  "symbol": "TRUMPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1.981,
+  "sl": 1.9434999999999998,
+  "tp": 2.185,
+  "tpSrc": "OB",
+  "slPct": 1.89,
+  "gainPct": 10.3,
+  "rr": 5.44,
+  "lev": 25,
+  "signalTime": 1789308900000,
+  "status": "pending",
+  "createdAt": 1789308933104
  }
 ]
