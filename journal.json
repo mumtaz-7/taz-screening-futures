@@ -18735,5 +18735,22 @@
   "status": "pending",
   "createdAt": 1789260331707,
   "notified": []
+ },
+ {
+  "id": "MITOUSDT::LONG::ChoCh::1789263900000",
+  "symbol": "MITOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01428,
+  "sl": 0.01395,
+  "tp": 0.01552,
+  "tpSrc": "WH",
+  "slPct": 2.31,
+  "gainPct": 8.68,
+  "rr": 3.76,
+  "lev": 25,
+  "signalTime": 1789263900000,
+  "status": "pending",
+  "createdAt": 1789263930677
  }
 ]
