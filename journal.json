@@ -19018,9 +19018,12 @@
   "rr": 5.44,
   "lev": 25,
   "signalTime": 1789308900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789308933104,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789311600000
  },
  {
   "id": "KAVAUSDT::LONG::ChoCh::1789311600000",
@@ -19036,7 +19039,11 @@
   "rr": 2.16,
   "lev": 7,
   "signalTime": 1789311600000,
-  "status": "pending",
-  "createdAt": 1789311648460
+  "status": "open",
+  "createdAt": 1789311648460,
+  "fillTime": 1789311600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
