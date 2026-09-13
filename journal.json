@@ -18105,12 +18105,15 @@
   "rr": 2.63,
   "lev": 16,
   "signalTime": 1789077600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789077650031,
   "fillTime": 1789077600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.63,
+  "resolvedTime": 1789337700000
  },
  {
   "id": "DASHUSDT::SHORT::BoS::1789080300000",
@@ -18683,12 +18686,15 @@
   "rr": 1.99,
   "lev": 15,
   "signalTime": 1789250400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789250448720,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789254000000
+  "fillTime": 1789254000000,
+  "R": 1.99,
+  "resolvedTime": 1789337700000
  },
  {
   "id": "SOPHUSDT::LONG::BoS::1789252200000",
@@ -19021,12 +19027,15 @@
   "rr": 5.44,
   "lev": 25,
   "signalTime": 1789308900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789308933104,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789311600000
+  "fillTime": 1789311600000,
+  "R": -1,
+  "resolvedTime": 1789337700000
  },
  {
   "id": "KAVAUSDT::LONG::ChoCh::1789311600000",
