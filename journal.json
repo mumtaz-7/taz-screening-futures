@@ -17752,12 +17752,15 @@
   "rr": 2.9,
   "lev": 9,
   "signalTime": 1789014600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789014641597,
   "fillTime": 1789014600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789269300000
  },
  {
   "id": "COTIUSDT::LONG::BoS::1789020000000",
@@ -18800,5 +18803,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "MINAUSDT::LONG::ChoCh::1789270200000",
+  "symbol": "MINAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1069,
+  "sl": 0.1,
+  "tp": 0.1148,
+  "tpSrc": "WH",
+  "slPct": 6.45,
+  "gainPct": 7.39,
+  "rr": 1.14,
+  "lev": 9,
+  "signalTime": 1789270200000,
+  "status": "pending",
+  "createdAt": 1789270237663
  }
 ]
