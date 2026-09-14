@@ -19145,12 +19145,15 @@
   "rr": 4.7,
   "lev": 10,
   "signalTime": 1789333200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789333246194,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789334100000
+  "fillTime": 1789334100000,
+  "R": -1,
+  "resolvedTime": 1789344000000
  },
  {
   "id": "LSKUSDT::LONG::BoS::1789335900000",
@@ -19193,5 +19196,22 @@
   "status": "pending",
   "createdAt": 1789342238398,
   "notified": []
+ },
+ {
+  "id": "ALTUSDT::LONG::BoS::1789344900000",
+  "symbol": "ALTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00654,
+  "sl": 0.006225,
+  "tp": 0.0078,
+  "tpSrc": "WH",
+  "slPct": 4.82,
+  "gainPct": 19.27,
+  "rr": 4,
+  "lev": 12,
+  "signalTime": 1789344900000,
+  "status": "pending",
+  "createdAt": 1789344931807
  }
 ]
