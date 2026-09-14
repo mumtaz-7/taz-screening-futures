@@ -19765,5 +19765,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "STEEMUSDT::LONG::ChoCh::1789425900000",
+  "symbol": "STEEMUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.05622,
+  "sl": 0.05474999999999999,
+  "tp": 0.0696,
+  "tpSrc": "EQ",
+  "slPct": 2.61,
+  "gainPct": 23.8,
+  "rr": 9.1,
+  "lev": 22,
+  "signalTime": 1789425900000,
+  "status": "pending",
+  "createdAt": 1789425933290
  }
 ]
