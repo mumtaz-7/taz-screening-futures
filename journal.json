@@ -19509,5 +19509,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "LSKUSDT::SHORT::ChoCh::1789381800000",
+  "symbol": "LSKUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.9688,
+  "sl": 1.1956000000000002,
+  "tp": 0.6635,
+  "tpSrc": "WL",
+  "slPct": 23.41,
+  "gainPct": 31.51,
+  "rr": 1.35,
+  "lev": 2,
+  "signalTime": 1789381800000,
+  "status": "pending",
+  "createdAt": 1789381840563
  }
 ]
