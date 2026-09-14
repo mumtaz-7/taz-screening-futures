@@ -19257,6 +19257,24 @@
   "lev": 15,
   "signalTime": 1789348500000,
   "status": "pending",
-  "createdAt": 1789348532203
+  "createdAt": 1789348532203,
+  "notified": []
+ },
+ {
+  "id": "GLMUSDT::LONG::BoS::1789349400000",
+  "symbol": "GLMUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1176,
+  "sl": 0.1116,
+  "tp": 0.142,
+  "tpSrc": "WH",
+  "slPct": 5.1,
+  "gainPct": 20.75,
+  "rr": 4.07,
+  "lev": 12,
+  "signalTime": 1789349400000,
+  "status": "pending",
+  "createdAt": 1789349439213
  }
 ]
