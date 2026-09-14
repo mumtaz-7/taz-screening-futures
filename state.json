@@ -1,6 +1,7 @@
 {
   "ready": [
-    "LSKUSDT::SHORT::ChoCh"
+    "LSKUSDT::SHORT::ChoCh",
+    "XPLUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-14T11:00:46.282Z"
+  "at": "2026-09-14T11:15:35.703Z"
 }
