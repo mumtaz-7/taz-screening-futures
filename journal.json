@@ -19235,12 +19235,15 @@
   "rr": 1.95,
   "lev": 10,
   "signalTime": 1789345800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789345837398,
   "fillTime": 1789345800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789352100000
  },
  {
   "id": "STEEMUSDT::LONG::ChoCh::1789348500000",
