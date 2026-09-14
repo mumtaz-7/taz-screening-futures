@@ -1,9 +1,8 @@
 {
   "ready": [
     "LSKUSDT::SHORT::ChoCh",
-    "WAXPUSDT::LONG::BoS",
-    "XPLUSDT::LONG::ChoCh",
+    "RAYUSDT::SHORT::BoS",
     "牛来USDT::SHORT::BoS"
   ],
-  "at": "2026-09-14T11:30:40.977Z"
+  "at": "2026-09-14T11:45:34.154Z"
 }

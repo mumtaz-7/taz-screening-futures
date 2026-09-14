@@ -18517,12 +18517,15 @@
   "rr": 2.57,
   "lev": 6,
   "signalTime": 1789202700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789202732112,
   "fillTime": 1789202700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789385400000
  },
  {
   "id": "BLURUSDT::LONG::ChoCh::1789208100000",
@@ -19564,7 +19567,8 @@
   "lev": 5,
   "signalTime": 1789385400000,
   "status": "pending",
-  "createdAt": 1789385441008
+  "createdAt": 1789385441008,
+  "notified": []
  },
  {
   "id": "牛来USDT::SHORT::BoS::1789385400000",
@@ -19581,6 +19585,7 @@
   "lev": 12,
   "signalTime": 1789385400000,
   "status": "pending",
-  "createdAt": 1789385441008
+  "createdAt": 1789385441008,
+  "notified": []
  }
 ]
