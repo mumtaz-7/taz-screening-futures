@@ -19341,12 +19341,15 @@
   "rr": 2.3,
   "lev": 6,
   "signalTime": 1789360200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789360276715,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789370100000
+  "fillTime": 1789370100000,
+  "R": -1,
+  "resolvedTime": 1789389000000
  },
  {
   "id": "CVCUSDT::LONG::ChoCh::1789365600000",
@@ -19533,9 +19536,13 @@
   "rr": 1.35,
   "lev": 2,
   "signalTime": 1789381800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789381840563,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789389000000
  },
  {
   "id": "XPLUSDT::LONG::ChoCh::1789384500000",
