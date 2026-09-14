@@ -19450,6 +19450,24 @@
   "lev": 13,
   "signalTime": 1789372800000,
   "status": "pending",
-  "createdAt": 1789372847553
+  "createdAt": 1789372847553,
+  "notified": []
+ },
+ {
+  "id": "PUNDIXUSDT::LONG::ChoCh::1789373700000",
+  "symbol": "PUNDIXUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1202,
+  "sl": 0.10969999999999999,
+  "tp": 0.1546,
+  "tpSrc": "WH",
+  "slPct": 8.74,
+  "gainPct": 28.62,
+  "rr": 3.28,
+  "lev": 7,
+  "signalTime": 1789373700000,
+  "status": "pending",
+  "createdAt": 1789373739487
  }
 ]

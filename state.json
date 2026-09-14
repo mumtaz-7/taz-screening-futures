@@ -1,8 +1,9 @@
 {
   "ready": [
     "POLYXUSDT::LONG::BoS",
+    "PUNDIXUSDT::LONG::ChoCh",
     "RAYUSDT::SHORT::BoS",
     "STRAXUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-09-14T08:00:47.552Z"
+  "at": "2026-09-14T08:15:39.486Z"
 }
