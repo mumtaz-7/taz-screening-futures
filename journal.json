@@ -19196,9 +19196,12 @@
   "rr": 2.13,
   "lev": 8,
   "signalTime": 1789342200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789342238398,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789354800000
  },
  {
   "id": "ALTUSDT::LONG::BoS::1789344900000",
