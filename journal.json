@@ -19720,5 +19720,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "IOTAUSDT::LONG::BoS::1789417800000",
+  "symbol": "IOTAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0441,
+  "sl": 0.04275,
+  "tp": 0.0488,
+  "tpSrc": "WH",
+  "slPct": 3.06,
+  "gainPct": 10.66,
+  "rr": 3.48,
+  "lev": 19,
+  "signalTime": 1789417800000,
+  "status": "pending",
+  "createdAt": 1789417839009
+ },
+ {
+  "id": "LSKUSDT::SHORT::BoS::1789417800000",
+  "symbol": "LSKUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.4062,
+  "sl": 0.49095,
+  "tp": 0.2344,
+  "tpSrc": "OB",
+  "slPct": 20.86,
+  "gainPct": 42.29,
+  "rr": 2.03,
+  "lev": 3,
+  "signalTime": 1789417800000,
+  "status": "pending",
+  "createdAt": 1789417839009
  }
 ]
