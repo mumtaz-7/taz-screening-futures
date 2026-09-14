@@ -19735,12 +19735,15 @@
   "rr": 3.48,
   "lev": 19,
   "signalTime": 1789417800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789417839009,
   "fillTime": 1789417800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789421400000
  },
  {
   "id": "LSKUSDT::SHORT::BoS::1789417800000",
