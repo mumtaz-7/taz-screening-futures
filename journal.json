@@ -19398,7 +19398,28 @@
   "rr": 1.38,
   "lev": 6,
   "signalTime": 1789369200000,
+  "status": "open",
+  "createdAt": 1789369247755,
+  "fillTime": 1789369200000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "RAYUSDT::SHORT::BoS::1789370100000",
+  "symbol": "RAYUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 1.4126,
+  "sl": 1.4836999999999998,
+  "tp": 1.2121,
+  "tpSrc": "OB",
+  "slPct": 5.03,
+  "gainPct": 14.19,
+  "rr": 2.82,
+  "lev": 12,
+  "signalTime": 1789370100000,
   "status": "pending",
-  "createdAt": 1789369247755
+  "createdAt": 1789370133942
  }
 ]
