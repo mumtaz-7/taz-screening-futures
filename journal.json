@@ -19735,8 +19735,12 @@
   "rr": 3.48,
   "lev": 19,
   "signalTime": 1789417800000,
-  "status": "pending",
-  "createdAt": 1789417839009
+  "status": "open",
+  "createdAt": 1789417839009,
+  "fillTime": 1789417800000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "LSKUSDT::SHORT::BoS::1789417800000",
@@ -19752,7 +19756,11 @@
   "rr": 2.03,
   "lev": 3,
   "signalTime": 1789417800000,
-  "status": "pending",
-  "createdAt": 1789417839009
+  "status": "open",
+  "createdAt": 1789417839009,
+  "fillTime": 1789417800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
