@@ -19329,5 +19329,22 @@
   "status": "pending",
   "createdAt": 1789360276715,
   "notified": []
+ },
+ {
+  "id": "CVCUSDT::LONG::ChoCh::1789365600000",
+  "symbol": "CVCUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0344,
+  "sl": 0.027125,
+  "tp": 0.05094,
+  "tpSrc": "WH",
+  "slPct": 21.15,
+  "gainPct": 48.08,
+  "rr": 2.27,
+  "lev": 3,
+  "signalTime": 1789365600000,
+  "status": "pending",
+  "createdAt": 1789365648175
  }
 ]
