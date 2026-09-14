@@ -19696,5 +19696,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "TAOUSDT::LONG::BoS::1789408800000",
+  "symbol": "TAOUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 236.4,
+  "sl": 229.05,
+  "tp": 259.6,
+  "tpSrc": "OB",
+  "slPct": 3.11,
+  "gainPct": 9.81,
+  "rr": 3.16,
+  "lev": 19,
+  "signalTime": 1789408800000,
+  "status": "pending",
+  "createdAt": 1789408848652
  }
 ]
