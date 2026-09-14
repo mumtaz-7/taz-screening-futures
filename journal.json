@@ -19363,6 +19363,24 @@
   "lev": 23,
   "signalTime": 1789367400000,
   "status": "pending",
-  "createdAt": 1789367444625
+  "createdAt": 1789367444625,
+  "notified": []
+ },
+ {
+  "id": "ARKUSDT::LONG::BoS::1789368300000",
+  "symbol": "ARKUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.183,
+  "sl": 0.15225,
+  "tp": 0.2143,
+  "tpSrc": "WH",
+  "slPct": 16.8,
+  "gainPct": 17.1,
+  "rr": 1.02,
+  "lev": 3,
+  "signalTime": 1789368300000,
+  "status": "pending",
+  "createdAt": 1789368334670
  }
 ]

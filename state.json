@@ -1,8 +1,9 @@
 {
   "ready": [
     "ALTUSDT::LONG::BoS",
+    "ARKUSDT::LONG::BoS",
     "CVCUSDT::LONG::ChoCh",
     "ZILUSDT::LONG::BoS"
   ],
-  "at": "2026-09-14T06:30:44.624Z"
+  "at": "2026-09-14T06:45:34.669Z"
 }
