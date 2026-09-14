@@ -19546,6 +19546,41 @@
   "lev": 19,
   "signalTime": 1789384500000,
   "status": "pending",
-  "createdAt": 1789384535704
+  "createdAt": 1789384535704,
+  "notified": []
+ },
+ {
+  "id": "WAXPUSDT::LONG::BoS::1789385400000",
+  "symbol": "WAXPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00545,
+  "sl": 0.00482,
+  "tp": 0.00632,
+  "tpSrc": "WH",
+  "slPct": 11.56,
+  "gainPct": 15.96,
+  "rr": 1.38,
+  "lev": 5,
+  "signalTime": 1789385400000,
+  "status": "pending",
+  "createdAt": 1789385441008
+ },
+ {
+  "id": "牛来USDT::SHORT::BoS::1789385400000",
+  "symbol": "牛来USDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1126,
+  "sl": 0.118465,
+  "tp": 0.07675,
+  "tpSrc": "OB",
+  "slPct": 5.21,
+  "gainPct": 31.84,
+  "rr": 6.11,
+  "lev": 12,
+  "signalTime": 1789385400000,
+  "status": "pending",
+  "createdAt": 1789385441008
  }
 ]
