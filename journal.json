@@ -19434,5 +19434,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "STRAXUSDT::SHORT::ChoCh::1789372800000",
+  "symbol": "STRAXUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.01148,
+  "sl": 0.012005,
+  "tp": 0.00951,
+  "tpSrc": "WL",
+  "slPct": 4.57,
+  "gainPct": 17.16,
+  "rr": 3.75,
+  "lev": 13,
+  "signalTime": 1789372800000,
+  "status": "pending",
+  "createdAt": 1789372847553
  }
 ]
