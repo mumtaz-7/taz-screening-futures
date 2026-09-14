@@ -18062,12 +18062,15 @@
   "rr": 1.1,
   "lev": 5,
   "signalTime": 1789057800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789057841359,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789058700000
+  "fillTime": 1789058700000,
+  "R": 1.1,
+  "resolvedTime": 1789377300000
  },
  {
   "id": "EIGENUSDT::LONG::BoS::1789063200000",
@@ -18177,12 +18180,15 @@
   "rr": 1.63,
   "lev": 7,
   "signalTime": 1789088400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789088448675,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789091100000
+  "fillTime": 1789091100000,
+  "R": 1.63,
+  "resolvedTime": 1789377300000
  },
  {
   "id": "币安人生USDT::LONG::ChoCh::1789099200000",
@@ -19449,9 +19455,12 @@
   "rr": 3.75,
   "lev": 13,
   "signalTime": 1789372800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789372847553,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789377300000
  },
  {
   "id": "PUNDIXUSDT::LONG::ChoCh::1789373700000",
@@ -19467,8 +19476,28 @@
   "rr": 3.28,
   "lev": 7,
   "signalTime": 1789373700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789373739487,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789377300000
+ },
+ {
+  "id": "牛来USDT::SHORT::ChoCh::1789378200000",
+  "symbol": "牛来USDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.1141,
+  "sl": 0.13399,
+  "tp": 0.07675,
+  "tpSrc": "OB",
+  "slPct": 17.43,
+  "gainPct": 32.73,
+  "rr": 1.88,
+  "lev": 3,
+  "signalTime": 1789378200000,
+  "status": "pending",
+  "createdAt": 1789378248367
  }
 ]
