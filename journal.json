@@ -19256,9 +19256,13 @@
   "rr": 2.64,
   "lev": 15,
   "signalTime": 1789348500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789348532203,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789349400000
  },
  {
   "id": "GLMUSDT::LONG::BoS::1789349400000",
@@ -19275,6 +19279,7 @@
   "lev": 12,
   "signalTime": 1789349400000,
   "status": "pending",
-  "createdAt": 1789349439213
+  "createdAt": 1789349439213,
+  "notified": []
  }
 ]
