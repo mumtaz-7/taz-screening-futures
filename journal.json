@@ -19326,9 +19326,12 @@
   "rr": 2.3,
   "lev": 6,
   "signalTime": 1789360200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789360276715,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789370100000
  },
  {
   "id": "CVCUSDT::LONG::ChoCh::1789365600000",
@@ -19380,9 +19383,12 @@
   "rr": 1.02,
   "lev": 3,
   "signalTime": 1789368300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789368334670,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789370100000
  },
  {
   "id": "POLYXUSDT::LONG::BoS::1789369200000",
@@ -19419,7 +19425,11 @@
   "rr": 2.82,
   "lev": 12,
   "signalTime": 1789370100000,
-  "status": "pending",
-  "createdAt": 1789370133942
+  "status": "open",
+  "createdAt": 1789370133942,
+  "fillTime": 1789370100000,
+  "notified": [
+   "open"
+  ]
  }
 ]
