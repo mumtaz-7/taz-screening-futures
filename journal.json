@@ -19100,12 +19100,15 @@
   "rr": 1.25,
   "lev": 7,
   "signalTime": 1789326000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789326049887,
   "fillTime": 1789326000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789344900000
  },
  {
   "id": "ARKUSDT::LONG::ChoCh::1789331400000",
@@ -19211,7 +19214,28 @@
   "rr": 4,
   "lev": 12,
   "signalTime": 1789344900000,
+  "status": "open",
+  "createdAt": 1789344931807,
+  "fillTime": 1789344900000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "VTHOUSDT::LONG::ChoCh::1789345800000",
+  "symbol": "VTHOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.000821,
+  "sl": 0.000773,
+  "tp": 0.0009145,
+  "tpSrc": "EQ",
+  "slPct": 5.85,
+  "gainPct": 11.39,
+  "rr": 1.95,
+  "lev": 10,
+  "signalTime": 1789345800000,
   "status": "pending",
-  "createdAt": 1789344931807
+  "createdAt": 1789345837398
  }
 ]
