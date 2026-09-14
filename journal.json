@@ -17923,12 +17923,15 @@
   "rr": 4.95,
   "lev": 17,
   "signalTime": 1789044300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789044335353,
   "fillTime": 1789044300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789380000000
  },
  {
   "id": "TUTUSDT::SHORT::BoS::1789045200000",
@@ -19374,9 +19377,12 @@
   "rr": 4.75,
   "lev": 23,
   "signalTime": 1789367400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789367444625,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789380000000
  },
  {
   "id": "ARKUSDT::LONG::BoS::1789368300000",
