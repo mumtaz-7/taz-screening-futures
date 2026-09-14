@@ -19564,9 +19564,12 @@
   "rr": 6.35,
   "lev": 19,
   "signalTime": 1789384500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789384535704,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789392600000
  },
  {
   "id": "WAXPUSDT::LONG::BoS::1789385400000",
