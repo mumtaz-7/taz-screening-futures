@@ -19381,6 +19381,24 @@
   "lev": 3,
   "signalTime": 1789368300000,
   "status": "pending",
-  "createdAt": 1789368334670
+  "createdAt": 1789368334670,
+  "notified": []
+ },
+ {
+  "id": "POLYXUSDT::LONG::BoS::1789369200000",
+  "symbol": "POLYXUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0432,
+  "sl": 0.03885,
+  "tp": 0.0492,
+  "tpSrc": "WH",
+  "slPct": 10.07,
+  "gainPct": 13.89,
+  "rr": 1.38,
+  "lev": 6,
+  "signalTime": 1789369200000,
+  "status": "pending",
+  "createdAt": 1789369247755
  }
 ]
