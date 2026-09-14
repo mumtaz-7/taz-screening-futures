@@ -19287,9 +19287,12 @@
   "rr": 4.07,
   "lev": 12,
   "signalTime": 1789349400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789349439213,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "REZUSDT::LONG::ChoCh::1789353900000",
