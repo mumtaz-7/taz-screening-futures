@@ -19467,12 +19467,15 @@
   "rr": 3.75,
   "lev": 13,
   "signalTime": 1789372800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789372847553,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789377300000
+  "fillTime": 1789377300000,
+  "R": -1,
+  "resolvedTime": 1789387200000
  },
  {
   "id": "PUNDIXUSDT::LONG::ChoCh::1789373700000",
@@ -19566,9 +19569,12 @@
   "rr": 1.38,
   "lev": 5,
   "signalTime": 1789385400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789385441008,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789387200000
  },
  {
   "id": "牛来USDT::SHORT::BoS::1789385400000",
