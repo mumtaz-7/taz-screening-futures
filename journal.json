@@ -19320,12 +19320,15 @@
   "rr": 1.42,
   "lev": 7,
   "signalTime": 1789353900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789353930755,
   "fillTime": 1789353900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789390800000
  },
  {
   "id": "VTHOUSDT::LONG::ChoCh::1789360200000",
@@ -19606,5 +19609,22 @@
    "open"
   ],
   "fillTime": 1789388100000
+ },
+ {
+  "id": "TRUMPUSDT::LONG::ChoCh::1789391700000",
+  "symbol": "TRUMPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 2.014,
+  "sl": 1.9735000000000003,
+  "tp": 2.185,
+  "tpSrc": "OB",
+  "slPct": 2.01,
+  "gainPct": 8.49,
+  "rr": 4.22,
+  "lev": 25,
+  "signalTime": 1789391700000,
+  "status": "pending",
+  "createdAt": 1789391735659
  }
 ]
