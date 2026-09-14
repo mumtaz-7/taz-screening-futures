@@ -19359,9 +19359,12 @@
   "rr": 2.27,
   "lev": 3,
   "signalTime": 1789365600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789365648175,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789381800000
  },
  {
   "id": "ZILUSDT::LONG::BoS::1789367400000",
@@ -19525,6 +19528,7 @@
   "lev": 2,
   "signalTime": 1789381800000,
   "status": "pending",
-  "createdAt": 1789381840563
+  "createdAt": 1789381840563,
+  "notified": []
  }
 ]
