@@ -19606,12 +19606,15 @@
   "rr": 6.11,
   "lev": 12,
   "signalTime": 1789385400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789385441008,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789388100000
+  "fillTime": 1789388100000,
+  "R": -1,
+  "resolvedTime": 1789406100000
  },
  {
   "id": "TRUMPUSDT::LONG::ChoCh::1789391700000",
