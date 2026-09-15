@@ -19999,12 +19999,15 @@
   "rr": 1.68,
   "lev": 3,
   "signalTime": 1789468200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789468238959,
   "fillTime": 1789468200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789474500000
  },
  {
   "id": "TREEUSDT::LONG::BoS::1789473600000",
