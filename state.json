@@ -1,4 +1,7 @@
 {
-  "ready": [],
-  "at": "2026-09-15T13:00:48.229Z"
+  "ready": [
+    "FFUSDT::LONG::ChoCh",
+    "TRUMPUSDT::LONG::ChoCh"
+  ],
+  "at": "2026-09-15T13:15:32.182Z"
 }

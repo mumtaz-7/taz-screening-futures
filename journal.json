@@ -20029,5 +20029,39 @@
   "status": "pending",
   "createdAt": 1789473650989,
   "notified": []
+ },
+ {
+  "id": "FFUSDT::LONG::ChoCh::1789478100000",
+  "symbol": "FFUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.14752,
+  "sl": 0.14194,
+  "tp": 0.17013,
+  "tpSrc": "WH",
+  "slPct": 3.78,
+  "gainPct": 15.33,
+  "rr": 4.05,
+  "lev": 16,
+  "signalTime": 1789478100000,
+  "status": "pending",
+  "createdAt": 1789478132183
+ },
+ {
+  "id": "TRUMPUSDT::LONG::ChoCh::1789478100000",
+  "symbol": "TRUMPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1.983,
+  "sl": 1.9455,
+  "tp": 2.185,
+  "tpSrc": "OB",
+  "slPct": 1.89,
+  "gainPct": 10.19,
+  "rr": 5.39,
+  "lev": 25,
+  "signalTime": 1789478100000,
+  "status": "pending",
+  "createdAt": 1789478132183
  }
 ]
