@@ -19708,12 +19708,15 @@
   "rr": 4.69,
   "lev": 25,
   "signalTime": 1789403400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789403442847,
   "fillTime": 1789403400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789457400000
  },
  {
   "id": "TAOUSDT::LONG::BoS::1789408800000",
@@ -19729,12 +19732,15 @@
   "rr": 3.16,
   "lev": 19,
   "signalTime": 1789408800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789408848652,
   "fillTime": 1789408800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789457400000
  },
  {
   "id": "IOTAUSDT::LONG::BoS::1789417800000",
