@@ -19395,12 +19395,15 @@
   "rr": 4.75,
   "lev": 23,
   "signalTime": 1789367400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789367444625,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789380000000
+  "fillTime": 1789380000000,
+  "R": 4.75,
+  "resolvedTime": 1789443000000
  },
  {
   "id": "ARKUSDT::LONG::BoS::1789368300000",
