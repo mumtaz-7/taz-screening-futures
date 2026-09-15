@@ -20224,5 +20224,22 @@
    "open"
   ],
   "fillTime": 1789500600000
+ },
+ {
+  "id": "LSKUSDT::SHORT::ChoCh::1789515900000",
+  "symbol": "LSKUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.3685,
+  "sl": 0.40165,
+  "tp": 0.2344,
+  "tpSrc": "OB",
+  "slPct": 9,
+  "gainPct": 36.39,
+  "rr": 4.05,
+  "lev": 7,
+  "signalTime": 1789515900000,
+  "status": "pending",
+  "createdAt": 1789515933085
  }
 ]
