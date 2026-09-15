@@ -19386,12 +19386,15 @@
   "rr": 2.27,
   "lev": 3,
   "signalTime": 1789365600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789365648175,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789381800000
+  "fillTime": 1789381800000,
+  "R": -1,
+  "resolvedTime": 1789497900000
  },
  {
   "id": "ZILUSDT::LONG::BoS::1789367400000",
@@ -19594,12 +19597,15 @@
   "rr": 6.35,
   "lev": 19,
   "signalTime": 1789384500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789384535704,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789392600000
+  "fillTime": 1789392600000,
+  "R": -1,
+  "resolvedTime": 1789497900000
  },
  {
   "id": "WAXPUSDT::LONG::BoS::1789385400000",
@@ -20164,12 +20170,15 @@
   "rr": 13.05,
   "lev": 25,
   "signalTime": 1789494300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789494331649,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789496100000
+  "fillTime": 1789496100000,
+  "R": -1,
+  "resolvedTime": 1789497900000
  },
  {
   "id": "THEUSDT::LONG::ChoCh::1789494300000",
@@ -20185,11 +20194,14 @@
   "rr": 3.74,
   "lev": 20,
   "signalTime": 1789494300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789494331649,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789495200000
+  "fillTime": 1789495200000,
+  "R": -1,
+  "resolvedTime": 1789497900000
  }
 ]
