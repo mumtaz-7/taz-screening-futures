@@ -19961,6 +19961,24 @@
   "lev": 9,
   "signalTime": 1789464600000,
   "status": "pending",
-  "createdAt": 1789464642412
+  "createdAt": 1789464642412,
+  "notified": []
+ },
+ {
+  "id": "CVCUSDT::SHORT::BoS::1789465500000",
+  "symbol": "CVCUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0313,
+  "sl": 0.03376,
+  "tp": 0.02584,
+  "tpSrc": "OB",
+  "slPct": 7.86,
+  "gainPct": 17.44,
+  "rr": 2.22,
+  "lev": 8,
+  "signalTime": 1789465500000,
+  "status": "pending",
+  "createdAt": 1789465533016
  }
 ]
