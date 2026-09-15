@@ -1,6 +1,8 @@
 {
   "ready": [
+    "HIVEUSDT::LONG::BoS",
+    "THEUSDT::LONG::ChoCh",
     "VTHOUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-09-15T17:30:40.555Z"
+  "at": "2026-09-15T17:45:31.648Z"
 }

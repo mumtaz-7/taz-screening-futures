@@ -20107,9 +20107,12 @@
   "rr": 2.71,
   "lev": 18,
   "signalTime": 1789489800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789489841264,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789493400000
  },
  {
   "id": "VTHOUSDT::SHORT::ChoCh::1789491600000",
@@ -20125,8 +20128,45 @@
   "rr": 2.17,
   "lev": 6,
   "signalTime": 1789491600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789491646469,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789493400000
+ },
+ {
+  "id": "HIVEUSDT::LONG::BoS::1789494300000",
+  "symbol": "HIVEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0522,
+  "sl": 0.051149999999999994,
+  "tp": 0.0659,
+  "tpSrc": "WH",
+  "slPct": 2.01,
+  "gainPct": 26.25,
+  "rr": 13.05,
+  "lev": 25,
+  "signalTime": 1789494300000,
+  "status": "pending",
+  "createdAt": 1789494331649
+ },
+ {
+  "id": "THEUSDT::LONG::ChoCh::1789494300000",
+  "symbol": "THEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0669,
+  "sl": 0.06495000000000001,
+  "tp": 0.0742,
+  "tpSrc": "OB",
+  "slPct": 2.91,
+  "gainPct": 10.91,
+  "rr": 3.74,
+  "lev": 20,
+  "signalTime": 1789494300000,
+  "status": "pending",
+  "createdAt": 1789494331649
  }
 ]
