@@ -18321,12 +18321,15 @@
   "rr": 1.65,
   "lev": 11,
   "signalTime": 1789150500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789150535600,
   "fillTime": 1789150500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.65,
+  "resolvedTime": 1789497000000
  },
  {
   "id": "STRKUSDT::SHORT::ChoCh::1789160400000",
@@ -18941,12 +18944,15 @@
   "rr": 1.29,
   "lev": 5,
   "signalTime": 1789279200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789279251488,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789283700000
+  "fillTime": 1789283700000,
+  "R": -1,
+  "resolvedTime": 1789497000000
  },
  {
   "id": "FFUSDT::SHORT::BoS::1789282800000",
@@ -19449,12 +19455,15 @@
   "rr": 1.38,
   "lev": 6,
   "signalTime": 1789369200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789369247755,
   "fillTime": 1789369200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789497000000
  },
  {
   "id": "RAYUSDT::SHORT::BoS::1789370100000",
@@ -19861,12 +19870,15 @@
   "rr": 17.06,
   "lev": 16,
   "signalTime": 1789431300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789431333068,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789446600000
+  "fillTime": 1789446600000,
+  "R": -1,
+  "resolvedTime": 1789497000000
  },
  {
   "id": "HIVEUSDT::LONG::BoS::1789433100000",
