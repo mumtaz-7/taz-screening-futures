@@ -19642,12 +19642,15 @@
   "rr": 4.22,
   "lev": 25,
   "signalTime": 1789391700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789391735659,
   "fillTime": 1789391700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789444800000
  },
  {
   "id": "STRAXUSDT::SHORT::ChoCh::1789394400000",
