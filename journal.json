@@ -19217,12 +19217,15 @@
   "rr": 2.13,
   "lev": 8,
   "signalTime": 1789342200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789342238398,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789354800000
+  "fillTime": 1789354800000,
+  "R": 2.13,
+  "resolvedTime": 1789492500000
  },
  {
   "id": "ALTUSDT::LONG::BoS::1789344900000",
@@ -19464,12 +19467,15 @@
   "rr": 2.82,
   "lev": 12,
   "signalTime": 1789370100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789370133942,
   "fillTime": 1789370100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.82,
+  "resolvedTime": 1789492500000
  },
  {
   "id": "STRAXUSDT::SHORT::ChoCh::1789372800000",
