@@ -1,8 +1,6 @@
 {
   "ready": [
-    "CVCUSDT::SHORT::BoS",
-    "VTHOUSDT::SHORT::BoS",
-    "XPLUSDT::LONG::ChoCh"
+    "VTHOUSDT::SHORT::BoS"
   ],
-  "at": "2026-09-15T11:00:45.750Z"
+  "at": "2026-09-15T11:15:33.161Z"
 }
