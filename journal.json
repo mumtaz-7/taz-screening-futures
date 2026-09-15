@@ -19687,12 +19687,15 @@
   "rr": 1.81,
   "lev": 4,
   "signalTime": 1789397100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789397136140,
   "fillTime": 1789397100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789458300000
  },
  {
   "id": "TAOUSDT::LONG::ChoCh::1789403400000",
