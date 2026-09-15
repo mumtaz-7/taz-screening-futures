@@ -19413,12 +19413,15 @@
   "rr": 1.02,
   "lev": 3,
   "signalTime": 1789368300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789368334670,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789370100000
+  "fillTime": 1789370100000,
+  "R": -1,
+  "resolvedTime": 1789441200000
  },
  {
   "id": "POLYXUSDT::LONG::BoS::1789369200000",
