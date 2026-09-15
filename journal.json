@@ -20104,5 +20104,22 @@
   "status": "pending",
   "createdAt": 1789489841264,
   "notified": []
+ },
+ {
+  "id": "VTHOUSDT::SHORT::ChoCh::1789491600000",
+  "symbol": "VTHOUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.000745,
+  "sl": 0.0008154999999999999,
+  "tp": 0.000592,
+  "tpSrc": "WL",
+  "slPct": 9.46,
+  "gainPct": 20.54,
+  "rr": 2.17,
+  "lev": 6,
+  "signalTime": 1789491600000,
+  "status": "pending",
+  "createdAt": 1789491646469
  }
 ]
