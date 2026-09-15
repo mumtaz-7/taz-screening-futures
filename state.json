@@ -1,9 +1,10 @@
 {
   "ready": [
+    "ASTRUSDT::LONG::ChoCh",
     "HIVEUSDT::LONG::BoS",
     "LSKUSDT::SHORT::BoS",
     "QKCUSDT::LONG::ChoCh",
     "STEEMUSDT::LONG::BoS"
   ],
-  "at": "2026-09-15T01:15:32.494Z"
+  "at": "2026-09-15T01:30:38.700Z"
 }
