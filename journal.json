@@ -19849,5 +19849,39 @@
   "status": "pending",
   "createdAt": 1789433133032,
   "notified": []
+ },
+ {
+  "id": "ARKUSDT::SHORT::BoS::1789439400000",
+  "symbol": "ARKUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1657,
+  "sl": 0.1864,
+  "tp": 0.1297,
+  "tpSrc": "OB",
+  "slPct": 12.49,
+  "gainPct": 21.73,
+  "rr": 1.74,
+  "lev": 5,
+  "signalTime": 1789439400000,
+  "status": "pending",
+  "createdAt": 1789439439995
+ },
+ {
+  "id": "牛来USDT::SHORT::BoS::1789439400000",
+  "symbol": "牛来USDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.11776,
+  "sl": 0.12868000000000002,
+  "tp": 0.07675,
+  "tpSrc": "OB",
+  "slPct": 9.27,
+  "gainPct": 34.83,
+  "rr": 3.76,
+  "lev": 6,
+  "signalTime": 1789439400000,
+  "status": "pending",
+  "createdAt": 1789439439995
  }
 ]
