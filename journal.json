@@ -19924,5 +19924,22 @@
    "void"
   ],
   "voidReason": "ga-retest"
+ },
+ {
+  "id": "ENAUSDT::LONG::ChoCh::1789462800000",
+  "symbol": "ENAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1428,
+  "sl": 0.13889999999999997,
+  "tp": 0.1533,
+  "tpSrc": "OB",
+  "slPct": 2.73,
+  "gainPct": 7.35,
+  "rr": 2.69,
+  "lev": 21,
+  "signalTime": 1789462800000,
+  "status": "pending",
+  "createdAt": 1789462848076
  }
 ]
