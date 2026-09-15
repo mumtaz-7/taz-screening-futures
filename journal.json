@@ -20026,9 +20026,12 @@
   "rr": 6.96,
   "lev": 18,
   "signalTime": 1789473600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789473650989,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789479000000
  },
  {
   "id": "FFUSDT::LONG::ChoCh::1789478100000",
