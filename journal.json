@@ -20044,8 +20044,12 @@
   "rr": 4.05,
   "lev": 16,
   "signalTime": 1789478100000,
-  "status": "pending",
-  "createdAt": 1789478132183
+  "status": "open",
+  "createdAt": 1789478132183,
+  "fillTime": 1789478100000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "TRUMPUSDT::LONG::ChoCh::1789478100000",
@@ -20061,7 +20065,11 @@
   "rr": 5.39,
   "lev": 25,
   "signalTime": 1789478100000,
-  "status": "pending",
-  "createdAt": 1789478132183
+  "status": "open",
+  "createdAt": 1789478132183,
+  "fillTime": 1789478100000,
+  "notified": [
+   "open"
+  ]
  }
 ]
