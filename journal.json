@@ -19945,5 +19945,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ARKUSDT::SHORT::BoS::1789464600000",
+  "symbol": "ARKUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1504,
+  "sl": 0.16075,
+  "tp": 0.1297,
+  "tpSrc": "OB",
+  "slPct": 6.88,
+  "gainPct": 13.76,
+  "rr": 2,
+  "lev": 9,
+  "signalTime": 1789464600000,
+  "status": "pending",
+  "createdAt": 1789464642412
  }
 ]
