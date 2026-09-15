@@ -20005,5 +20005,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "TREEUSDT::LONG::BoS::1789473600000",
+  "symbol": "TREEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0422,
+  "sl": 0.040850000000000004,
+  "tp": 0.0516,
+  "tpSrc": "WH",
+  "slPct": 3.2,
+  "gainPct": 22.27,
+  "rr": 6.96,
+  "lev": 18,
+  "signalTime": 1789473600000,
+  "status": "pending",
+  "createdAt": 1789473650989
  }
 ]
