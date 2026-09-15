@@ -1,8 +1,7 @@
 {
   "ready": [
-    "FFUSDT::LONG::ChoCh",
-    "RAYUSDT::SHORT::ChoCh",
-    "TRUMPUSDT::LONG::ChoCh"
+    "ARKUSDT::SHORT::BoS",
+    "RAYUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-09-15T14:30:43.547Z"
+  "at": "2026-09-15T14:45:33.427Z"
 }
