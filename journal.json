@@ -20150,7 +20150,8 @@
   "lev": 25,
   "signalTime": 1789494300000,
   "status": "pending",
-  "createdAt": 1789494331649
+  "createdAt": 1789494331649,
+  "notified": []
  },
  {
   "id": "THEUSDT::LONG::ChoCh::1789494300000",
@@ -20167,6 +20168,7 @@
   "lev": 20,
   "signalTime": 1789494300000,
   "status": "pending",
-  "createdAt": 1789494331649
+  "createdAt": 1789494331649,
+  "notified": []
  }
 ]
