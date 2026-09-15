@@ -20086,5 +20086,22 @@
   ],
   "R": -1,
   "resolvedTime": 1789482600000
+ },
+ {
+  "id": "HEMIUSDT::SHORT::ChoCh::1789489800000",
+  "symbol": "HEMIUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.00659,
+  "sl": 0.0068,
+  "tp": 0.00602,
+  "tpSrc": "WL",
+  "slPct": 3.19,
+  "gainPct": 8.65,
+  "rr": 2.71,
+  "lev": 18,
+  "signalTime": 1789489800000,
+  "status": "pending",
+  "createdAt": 1789489841264
  }
 ]
