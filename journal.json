@@ -20203,5 +20203,22 @@
   "fillTime": 1789495200000,
   "R": -1,
   "resolvedTime": 1789497900000
+ },
+ {
+  "id": "ZECUSDT::LONG::ChoCh::1789499700000",
+  "symbol": "ZECUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1133,
+  "sl": 1078.3999999999999,
+  "tp": 1225,
+  "tpSrc": "WH",
+  "slPct": 4.82,
+  "gainPct": 8.12,
+  "rr": 1.68,
+  "lev": 12,
+  "signalTime": 1789499700000,
+  "status": "pending",
+  "createdAt": 1789499732984
  }
 ]

@@ -1,7 +1,7 @@
 {
   "ready": [
-    "HIVEUSDT::LONG::BoS",
-    "THEUSDT::LONG::ChoCh"
+    "ARKUSDT::SHORT::BoS",
+    "ZECUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-15T19:00:46.253Z"
+  "at": "2026-09-15T19:15:32.983Z"
 }
