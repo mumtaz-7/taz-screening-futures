@@ -19939,12 +19939,15 @@
   "rr": 2.69,
   "lev": 21,
   "signalTime": 1789462800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789462848076,
   "fillTime": 1789462800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789483500000
  },
  {
   "id": "ARKUSDT::SHORT::BoS::1789464600000",
