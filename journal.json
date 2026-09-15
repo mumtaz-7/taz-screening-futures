@@ -19865,7 +19865,8 @@
   "lev": 5,
   "signalTime": 1789439400000,
   "status": "pending",
-  "createdAt": 1789439439995
+  "createdAt": 1789439439995,
+  "notified": []
  },
  {
   "id": "牛来USDT::SHORT::BoS::1789439400000",
@@ -19882,6 +19883,7 @@
   "lev": 6,
   "signalTime": 1789439400000,
   "status": "pending",
-  "createdAt": 1789439439995
+  "createdAt": 1789439439995,
+  "notified": []
  }
 ]
