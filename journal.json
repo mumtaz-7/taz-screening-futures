@@ -19984,5 +19984,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "VTHOUSDT::SHORT::BoS::1789468200000",
+  "symbol": "VTHOUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.000704,
+  "sl": 0.0008210000000000001,
+  "tp": 0.000508,
+  "tpSrc": "OB",
+  "slPct": 16.62,
+  "gainPct": 27.84,
+  "rr": 1.68,
+  "lev": 3,
+  "signalTime": 1789468200000,
+  "status": "pending",
+  "createdAt": 1789468238959
  }
 ]

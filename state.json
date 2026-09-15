@@ -2,7 +2,8 @@
   "ready": [
     "ARKUSDT::SHORT::BoS",
     "CVCUSDT::SHORT::BoS",
+    "VTHOUSDT::SHORT::BoS",
     "XPLUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-15T10:15:32.869Z"
+  "at": "2026-09-15T10:30:38.958Z"
 }
