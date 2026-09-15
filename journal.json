@@ -18638,12 +18638,15 @@
   "rr": 4.85,
   "lev": 25,
   "signalTime": 1789223400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789223442039,
   "fillTime": 1789223400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 4.85,
+  "resolvedTime": 1789496100000
  },
  {
   "id": "CHZUSDT::LONG::ChoCh::1789225200000",
@@ -20149,9 +20152,12 @@
   "rr": 13.05,
   "lev": 25,
   "signalTime": 1789494300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789494331649,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789496100000
  },
  {
   "id": "THEUSDT::LONG::ChoCh::1789494300000",
