@@ -18496,12 +18496,15 @@
   "rr": 2.59,
   "lev": 10,
   "signalTime": 1789200900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789200932780,
   "fillTime": 1789200900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.59,
+  "resolvedTime": 1789442100000
  },
  {
   "id": "METUSDT::LONG::ChoCh::1789202700000",
