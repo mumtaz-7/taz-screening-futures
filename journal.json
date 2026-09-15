@@ -19897,9 +19897,12 @@
   "rr": 1.74,
   "lev": 5,
   "signalTime": 1789439400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789439439995,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "牛来USDT::SHORT::BoS::1789439400000",
@@ -19915,8 +19918,11 @@
   "rr": 3.76,
   "lev": 6,
   "signalTime": 1789439400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789439439995,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  }
 ]
