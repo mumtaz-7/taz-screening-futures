@@ -19840,9 +19840,12 @@
   "rr": 17.06,
   "lev": 16,
   "signalTime": 1789431300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789431333068,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789446600000
  },
  {
   "id": "HIVEUSDT::LONG::BoS::1789433100000",
