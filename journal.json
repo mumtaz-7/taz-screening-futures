@@ -20317,12 +20317,15 @@
   "rr": 4,
   "lev": 20,
   "signalTime": 1789533000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789533041875,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789538400000
+  "fillTime": 1789538400000,
+  "R": -1,
+  "resolvedTime": 1789545600000
  },
  {
   "id": "ACEUSDT::LONG::BoS::1789533900000",

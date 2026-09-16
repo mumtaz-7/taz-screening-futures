@@ -1,8 +1,6 @@
 {
   "ready": [
-    "FFUSDT::LONG::ChoCh",
-    "SYNUSDT::LONG::BoS",
-    "XPLUSDT::LONG::BoS"
+    "FFUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-16T08:00:47.004Z"
+  "at": "2026-09-16T08:15:33.761Z"
 }
