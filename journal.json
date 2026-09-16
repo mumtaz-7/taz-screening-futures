@@ -20582,5 +20582,39 @@
    "open"
   ],
   "fillTime": 1789583400000
+ },
+ {
+  "id": "KITEUSDT::LONG::BoS::1789596000000",
+  "symbol": "KITEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1036,
+  "sl": 0.09895000000000001,
+  "tp": 0.1149,
+  "tpSrc": "OB",
+  "slPct": 4.49,
+  "gainPct": 10.91,
+  "rr": 2.43,
+  "lev": 13,
+  "signalTime": 1789596000000,
+  "status": "pending",
+  "createdAt": 1789596049367
+ },
+ {
+  "id": "SAGAUSDT::LONG::BoS::1789596000000",
+  "symbol": "SAGAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01992,
+  "sl": 0.019214999999999996,
+  "tp": 0.02547,
+  "tpSrc": "WH",
+  "slPct": 3.54,
+  "gainPct": 27.86,
+  "rr": 7.87,
+  "lev": 17,
+  "signalTime": 1789596000000,
+  "status": "pending",
+  "createdAt": 1789596049367
  }
 ]
