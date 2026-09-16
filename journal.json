@@ -20344,5 +20344,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "FFUSDT::LONG::ChoCh::1789542000000",
+  "symbol": "FFUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.14037,
+  "sl": 0.13476,
+  "tp": 0.17013,
+  "tpSrc": "WH",
+  "slPct": 4,
+  "gainPct": 21.2,
+  "rr": 5.3,
+  "lev": 15,
+  "signalTime": 1789542000000,
+  "status": "pending",
+  "createdAt": 1789542050531
+ },
+ {
+  "id": "XPLUSDT::LONG::BoS::1789542000000",
+  "symbol": "XPLUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.08154,
+  "sl": 0.079845,
+  "tp": 0.097,
+  "tpSrc": "OB",
+  "slPct": 2.08,
+  "gainPct": 18.96,
+  "rr": 9.12,
+  "lev": 25,
+  "signalTime": 1789542000000,
+  "status": "pending",
+  "createdAt": 1789542050531
  }
 ]
