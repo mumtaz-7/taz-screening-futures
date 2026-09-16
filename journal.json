@@ -20386,5 +20386,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SYNUSDT::LONG::BoS::1789543800000",
+  "symbol": "SYNUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.11857,
+  "sl": 0.091585,
+  "tp": 0.15389,
+  "tpSrc": "WH",
+  "slPct": 22.76,
+  "gainPct": 29.79,
+  "rr": 1.31,
+  "lev": 2,
+  "signalTime": 1789543800000,
+  "status": "pending",
+  "createdAt": 1789543844039
  }
 ]
