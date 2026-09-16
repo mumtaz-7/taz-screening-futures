@@ -20269,12 +20269,15 @@
   "rr": 1.73,
   "lev": 10,
   "signalTime": 1789525800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789525840099,
   "fillTime": 1789525800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.73,
+  "resolvedTime": 1789531200000
  },
  {
   "id": "REZUSDT::LONG::ChoCh::1789529400000",
