@@ -19807,12 +19807,15 @@
   "rr": 2.03,
   "lev": 3,
   "signalTime": 1789417800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789417839009,
   "fillTime": 1789417800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789529400000
  },
  {
   "id": "STEEMUSDT::LONG::ChoCh::1789425900000",
@@ -19990,12 +19993,15 @@
   "rr": 2,
   "lev": 9,
   "signalTime": 1789464600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789464642412,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789475400000
+  "fillTime": 1789475400000,
+  "R": -1,
+  "resolvedTime": 1789529400000
  },
  {
   "id": "CVCUSDT::SHORT::BoS::1789465500000",
@@ -20285,6 +20291,7 @@
   "lev": 8,
   "signalTime": 1789529400000,
   "status": "pending",
-  "createdAt": 1789529438306
+  "createdAt": 1789529438306,
+  "notified": []
  }
 ]
