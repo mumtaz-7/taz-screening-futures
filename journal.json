@@ -20227,12 +20227,15 @@
   "rr": 1.68,
   "lev": 12,
   "signalTime": 1789499700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789499732984,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789500600000
+  "fillTime": 1789500600000,
+  "R": 1.68,
+  "resolvedTime": 1789558200000
  },
  {
   "id": "LSKUSDT::SHORT::ChoCh::1789515900000",
