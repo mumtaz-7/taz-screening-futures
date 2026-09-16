@@ -20359,8 +20359,12 @@
   "rr": 5.3,
   "lev": 15,
   "signalTime": 1789542000000,
-  "status": "pending",
-  "createdAt": 1789542050531
+  "status": "open",
+  "createdAt": 1789542050531,
+  "fillTime": 1789542000000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "XPLUSDT::LONG::BoS::1789542000000",
@@ -20376,7 +20380,11 @@
   "rr": 9.12,
   "lev": 25,
   "signalTime": 1789542000000,
-  "status": "pending",
-  "createdAt": 1789542050531
+  "status": "open",
+  "createdAt": 1789542050531,
+  "fillTime": 1789542000000,
+  "notified": [
+   "open"
+  ]
  }
 ]
