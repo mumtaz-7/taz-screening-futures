@@ -20561,5 +20561,22 @@
   "fillTime": 1789573500000,
   "R": -1,
   "resolvedTime": 1789578900000
+ },
+ {
+  "id": "ONDOUSDT::LONG::BoS::1789582500000",
+  "symbol": "ONDOUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.3335,
+  "sl": 0.3233,
+  "tp": 0.3691,
+  "tpSrc": "OB",
+  "slPct": 3.06,
+  "gainPct": 10.67,
+  "rr": 3.49,
+  "lev": 19,
+  "signalTime": 1789582500000,
+  "status": "pending",
+  "createdAt": 1789582536628
  }
 ]
