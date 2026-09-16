@@ -19250,12 +19250,15 @@
   "rr": 4,
   "lev": 12,
   "signalTime": 1789344900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789344931807,
   "fillTime": 1789344900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789562700000
  },
  {
   "id": "VTHOUSDT::LONG::ChoCh::1789345800000",
@@ -20495,5 +20498,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "TUTUSDT::LONG::ChoCh::1789563600000",
+  "symbol": "TUTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0201,
+  "sl": 0.019244999999999998,
+  "tp": 0.02221,
+  "tpSrc": "WH",
+  "slPct": 4.25,
+  "gainPct": 10.5,
+  "rr": 2.47,
+  "lev": 14,
+  "signalTime": 1789563600000,
+  "status": "pending",
+  "createdAt": 1789563649293
  }
 ]
