@@ -20353,12 +20353,15 @@
   "rr": 9.04,
   "lev": 25,
   "signalTime": 1789533900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789533934252,
   "fillTime": 1789533900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789573500000
  },
  {
   "id": "FFUSDT::LONG::ChoCh::1789542000000",
@@ -20546,8 +20549,11 @@
   "rr": 14.31,
   "lev": 25,
   "signalTime": 1789571700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789571733363,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789573500000
  }
 ]

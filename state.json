@@ -1,6 +1,7 @@
 {
   "ready": [
-    "FFUSDT::LONG::BoS"
+    "FFUSDT::LONG::BoS",
+    "LSKUSDT::LONG::BoS"
   ],
-  "at": "2026-09-16T15:45:32.764Z"
+  "at": "2026-09-16T16:00:54.060Z"
 }
