@@ -20411,5 +20411,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "VTHOUSDT::SHORT::BoS::1789554600000",
+  "symbol": "VTHOUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.000694,
+  "sl": 0.000724,
+  "tp": 0.000508,
+  "tpSrc": "OB",
+  "slPct": 4.32,
+  "gainPct": 26.8,
+  "rr": 6.2,
+  "lev": 14,
+  "signalTime": 1789554600000,
+  "status": "pending",
+  "createdAt": 1789554641344
  }
 ]
