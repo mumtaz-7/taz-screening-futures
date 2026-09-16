@@ -20317,9 +20317,12 @@
   "rr": 4,
   "lev": 20,
   "signalTime": 1789533000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789533041875,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789538400000
  },
  {
   "id": "ACEUSDT::LONG::BoS::1789533900000",
