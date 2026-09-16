@@ -20448,7 +20448,8 @@
   "lev": 2,
   "signalTime": 1789556400000,
   "status": "pending",
-  "createdAt": 1789556449780
+  "createdAt": 1789556449780,
+  "notified": []
  },
  {
   "id": "SAGAUSDT::LONG::ChoCh::1789556400000",
@@ -20464,7 +20465,11 @@
   "rr": 2.06,
   "lev": 5,
   "signalTime": 1789556400000,
-  "status": "pending",
-  "createdAt": 1789556449780
+  "status": "open",
+  "createdAt": 1789556449780,
+  "fillTime": 1789556400000,
+  "notified": [
+   "open"
+  ]
  }
 ]
