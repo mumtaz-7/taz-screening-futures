@@ -20296,9 +20296,12 @@
   "rr": 2.38,
   "lev": 8,
   "signalTime": 1789529400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789529438306,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789537500000
  },
  {
   "id": "TUTUSDT::LONG::ChoCh::1789533000000",
