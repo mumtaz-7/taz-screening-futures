@@ -19624,12 +19624,15 @@
   "rr": 1.38,
   "lev": 5,
   "signalTime": 1789385400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789385441008,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789387200000
+  "fillTime": 1789387200000,
+  "R": -1,
+  "resolvedTime": 1789568100000
  },
  {
   "id": "牛来USDT::SHORT::BoS::1789385400000",
