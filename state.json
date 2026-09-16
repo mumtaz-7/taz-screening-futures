@@ -1,8 +1,7 @@
 {
   "ready": [
     "LSKUSDT::LONG::BoS",
-    "SAGAUSDT::LONG::ChoCh",
-    "VTHOUSDT::SHORT::BoS"
+    "SAGAUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-16T11:45:33.344Z"
+  "at": "2026-09-16T12:00:46.493Z"
 }
