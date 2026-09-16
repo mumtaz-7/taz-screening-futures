@@ -20248,5 +20248,22 @@
   "fillTime": 1789517700000,
   "R": -1,
   "resolvedTime": 1789521300000
+ },
+ {
+  "id": "SYNUSDT::LONG::BoS::1789525800000",
+  "symbol": "SYNUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.09786,
+  "sl": 0.091815,
+  "tp": 0.10834,
+  "tpSrc": "WH",
+  "slPct": 6.18,
+  "gainPct": 10.71,
+  "rr": 1.73,
+  "lev": 10,
+  "signalTime": 1789525800000,
+  "status": "pending",
+  "createdAt": 1789525840099
  }
 ]
