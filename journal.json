@@ -20621,5 +20621,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "AEROUSDT::LONG::BoS::1789601400000",
+  "symbol": "AEROUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.5381,
+  "sl": 0.5306,
+  "tp": 0.5833,
+  "tpSrc": "OB",
+  "slPct": 1.39,
+  "gainPct": 8.4,
+  "rr": 6.03,
+  "lev": 25,
+  "signalTime": 1789601400000,
+  "status": "pending",
+  "createdAt": 1789601439500
  }
 ]
