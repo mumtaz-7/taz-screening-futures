@@ -20020,12 +20020,15 @@
   "rr": 2.22,
   "lev": 8,
   "signalTime": 1789465500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789465533016,
   "fillTime": 1789465500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.22,
+  "resolvedTime": 1789567200000
  },
  {
   "id": "VTHOUSDT::SHORT::BoS::1789468200000",
