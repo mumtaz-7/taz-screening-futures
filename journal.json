@@ -20395,12 +20395,15 @@
   "rr": 9.12,
   "lev": 25,
   "signalTime": 1789542000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789542050531,
   "fillTime": 1789542000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789569900000
  },
  {
   "id": "SYNUSDT::LONG::BoS::1789543800000",
