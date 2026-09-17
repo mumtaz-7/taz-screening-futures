@@ -20687,12 +20687,15 @@
   "rr": 2.41,
   "lev": 12,
   "signalTime": 1789607700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789607735075,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789621200000
+  "fillTime": 1789621200000,
+  "R": -1,
+  "resolvedTime": 1789647300000
  },
  {
   "id": "CRVUSDT::LONG::BoS::1789609500000",
