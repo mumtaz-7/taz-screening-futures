@@ -20891,12 +20891,15 @@
   "rr": 4.65,
   "lev": 22,
   "signalTime": 1789655400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789655440641,
   "fillTime": 1789655400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789658100000
  },
  {
   "id": "FFUSDT::SHORT::ChoCh::1789657200000",
