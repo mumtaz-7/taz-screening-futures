@@ -20800,5 +20800,22 @@
    "open"
   ],
   "fillTime": 1789627500000
+ },
+ {
+  "id": "SYNUSDT::SHORT::ChoCh::1789635600000",
+  "symbol": "SYNUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.17423,
+  "sl": 0.19124000000000002,
+  "tp": 0.14592,
+  "tpSrc": "WL",
+  "slPct": 9.76,
+  "gainPct": 16.25,
+  "rr": 1.66,
+  "lev": 6,
+  "signalTime": 1789635600000,
+  "status": "pending",
+  "createdAt": 1789635649509
  }
 ]
