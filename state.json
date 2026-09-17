@@ -1,6 +1,8 @@
 {
   "ready": [
-    "HEIUSDT::LONG::ChoCh"
+    "AVAUSDT::LONG::ChoCh",
+    "HEIUSDT::LONG::ChoCh",
+    "牛来USDT::SHORT::BoS"
   ],
-  "at": "2026-09-17T06:00:48.081Z"
+  "at": "2026-09-17T06:15:35.464Z"
 }
