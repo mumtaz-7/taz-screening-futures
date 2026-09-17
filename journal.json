@@ -20855,5 +20855,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1789643700000
+ },
+ {
+  "id": "MARSCOINUSDT::LONG::BoS::1789651800000",
+  "symbol": "MARSCOINUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1115,
+  "sl": 0.10565,
+  "tp": 0.1225,
+  "tpSrc": "OB",
+  "slPct": 5.25,
+  "gainPct": 9.87,
+  "rr": 1.88,
+  "lev": 11,
+  "signalTime": 1789651800000,
+  "status": "pending",
+  "createdAt": 1789651842851
  }
 ]
