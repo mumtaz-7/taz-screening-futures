@@ -1,6 +1,7 @@
 {
   "ready": [
-    "HEIUSDT::LONG::ChoCh"
+    "HEIUSDT::LONG::ChoCh",
+    "SAGAUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-17T23:31:00.091Z"
+  "at": "2026-09-17T23:45:32.924Z"
 }
