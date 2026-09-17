@@ -1,7 +1,7 @@
 {
   "ready": [
-    "CRVUSDT::LONG::ChoCh",
-    "FFUSDT::SHORT::ChoCh"
+    "RAYUSDT::LONG::ChoCh",
+    "SAGAUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-17T15:45:34.403Z"
+  "at": "2026-09-17T16:00:46.836Z"
 }
