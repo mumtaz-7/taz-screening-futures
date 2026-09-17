@@ -20729,12 +20729,15 @@
   "rr": 1.74,
   "lev": 9,
   "signalTime": 1789614900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789614932446,
   "fillTime": 1789614900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.74,
+  "resolvedTime": 1789643700000
  },
  {
   "id": "ONEUSDT::LONG::ChoCh::1789618500000",
@@ -20839,8 +20842,12 @@
   "rr": 1.71,
   "lev": 12,
   "signalTime": 1789641000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789641041619,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789643700000
  }
 ]
