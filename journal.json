@@ -20642,9 +20642,12 @@
   "rr": 6.03,
   "lev": 25,
   "signalTime": 1789601400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789601439500,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "DASHUSDT::LONG::ChoCh::1789605000000",
@@ -20763,8 +20766,12 @@
   "rr": 1.39,
   "lev": 8,
   "signalTime": 1789622100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789622134100,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789623000000
  }
 ]
