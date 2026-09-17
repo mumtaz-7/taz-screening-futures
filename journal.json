@@ -20943,5 +20943,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SYNUSDT::SHORT::ChoCh::1789665300000",
+  "symbol": "SYNUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.18356,
+  "sl": 0.2042,
+  "tp": 0.14592,
+  "tpSrc": "WL",
+  "slPct": 11.24,
+  "gainPct": 20.51,
+  "rr": 1.82,
+  "lev": 5,
+  "signalTime": 1789665300000,
+  "status": "pending",
+  "createdAt": 1789665333743
  }
 ]
