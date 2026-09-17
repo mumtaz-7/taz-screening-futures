@@ -20615,12 +20615,15 @@
   "rr": 7.87,
   "lev": 17,
   "signalTime": 1789596000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789596049367,
   "fillTime": 1789596000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789613100000
  },
  {
   "id": "AEROUSDT::LONG::BoS::1789601400000",
