@@ -20699,5 +20699,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "COTIUSDT::LONG::BoS::1789614900000",
+  "symbol": "COTIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01756,
+  "sl": 0.016390000000000002,
+  "tp": 0.0196,
+  "tpSrc": "WH",
+  "slPct": 6.66,
+  "gainPct": 11.62,
+  "rr": 1.74,
+  "lev": 9,
+  "signalTime": 1789614900000,
+  "status": "pending",
+  "createdAt": 1789614932446
  }
 ]
