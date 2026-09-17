@@ -20447,12 +20447,15 @@
   "rr": 6.2,
   "lev": 14,
   "signalTime": 1789554600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789554641344,
   "fillTime": 1789554600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789626600000
  },
  {
   "id": "LSKUSDT::LONG::BoS::1789556400000",
@@ -20663,9 +20666,12 @@
   "rr": 1.79,
   "lev": 11,
   "signalTime": 1789605000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789605039985,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "IOSTUSDT::LONG::ChoCh::1789607700000",
