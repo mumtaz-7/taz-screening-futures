@@ -20579,12 +20579,15 @@
   "rr": 3.49,
   "lev": 19,
   "signalTime": 1789582500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789582536628,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789583400000
+  "fillTime": 1789583400000,
+  "R": 3.49,
+  "resolvedTime": 1789649100000
  },
  {
   "id": "KITEUSDT::LONG::BoS::1789596000000",
