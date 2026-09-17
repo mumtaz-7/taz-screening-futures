@@ -20639,5 +20639,22 @@
   "status": "pending",
   "createdAt": 1789601439500,
   "notified": []
+ },
+ {
+  "id": "DASHUSDT::LONG::ChoCh::1789605000000",
+  "symbol": "DASHUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 56.73,
+  "sl": 53.61,
+  "tp": 62.31,
+  "tpSrc": "OB",
+  "slPct": 5.5,
+  "gainPct": 9.84,
+  "rr": 1.79,
+  "lev": 11,
+  "signalTime": 1789605000000,
+  "status": "pending",
+  "createdAt": 1789605039985
  }
 ]
