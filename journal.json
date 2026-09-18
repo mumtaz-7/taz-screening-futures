@@ -21125,12 +21125,15 @@
   "rr": 2.46,
   "lev": 8,
   "signalTime": 1789719300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789719334433,
   "fillTime": 1789719300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789733700000
  },
  {
   "id": "STGUSDT::SHORT::ChoCh::1789722000000",
