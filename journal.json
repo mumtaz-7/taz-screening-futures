@@ -21189,9 +21189,12 @@
   "rr": 4.93,
   "lev": 23,
   "signalTime": 1789730100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789730134867,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789735500000
  },
  {
   "id": "KSMUSDT::SHORT::BoS::1789730100000",
