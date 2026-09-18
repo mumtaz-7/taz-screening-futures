@@ -21149,9 +21149,12 @@
   "rr": 13.73,
   "lev": 25,
   "signalTime": 1789722000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789722052285,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ENSOUSDT::LONG::BoS::1789726500000",
