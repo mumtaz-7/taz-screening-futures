@@ -21313,5 +21313,22 @@
   "status": "pending",
   "createdAt": 1789759840698,
   "notified": []
+ },
+ {
+  "id": "MARSCOINUSDT::LONG::ChoCh::1789763400000",
+  "symbol": "MARSCOINUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1119,
+  "sl": 0.10815,
+  "tp": 0.1249,
+  "tpSrc": "WH",
+  "slPct": 3.35,
+  "gainPct": 11.62,
+  "rr": 3.47,
+  "lev": 18,
+  "signalTime": 1789763400000,
+  "status": "pending",
+  "createdAt": 1789763441521
  }
 ]
