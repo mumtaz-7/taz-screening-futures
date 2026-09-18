@@ -21189,12 +21189,15 @@
   "rr": 4.93,
   "lev": 23,
   "signalTime": 1789730100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789730134867,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789735500000
+  "fillTime": 1789735500000,
+  "R": -1,
+  "resolvedTime": 1789738200000
  },
  {
   "id": "KSMUSDT::SHORT::BoS::1789730100000",
@@ -21210,11 +21213,14 @@
   "rr": 7.67,
   "lev": 25,
   "signalTime": 1789730100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789730134867,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789731000000
+  "fillTime": 1789731000000,
+  "R": -1,
+  "resolvedTime": 1789738200000
  }
 ]
