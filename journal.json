@@ -21012,5 +21012,22 @@
   "fillTime": 1789677900000,
   "R": -1,
   "resolvedTime": 1789690500000
+ },
+ {
+  "id": "CHIPUSDT::LONG::ChoCh::1789696800000",
+  "symbol": "CHIPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.03815,
+  "sl": 0.036574999999999996,
+  "tp": 0.04174,
+  "tpSrc": "WH",
+  "slPct": 4.13,
+  "gainPct": 9.41,
+  "rr": 2.28,
+  "lev": 14,
+  "signalTime": 1789696800000,
+  "status": "pending",
+  "createdAt": 1789696884432
  }
 ]
