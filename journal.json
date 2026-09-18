@@ -21064,5 +21064,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "EDENUSDT::LONG::ChoCh::1789713000000",
+  "symbol": "EDENUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.05092,
+  "sl": 0.049449999999999994,
+  "tp": 0.05508,
+  "tpSrc": "WH",
+  "slPct": 2.89,
+  "gainPct": 8.17,
+  "rr": 2.83,
+  "lev": 20,
+  "signalTime": 1789713000000,
+  "status": "pending",
+  "createdAt": 1789713042733
  }
 ]
