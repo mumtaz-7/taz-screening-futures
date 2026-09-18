@@ -21329,6 +21329,24 @@
   "lev": 18,
   "signalTime": 1789763400000,
   "status": "pending",
-  "createdAt": 1789763441521
+  "createdAt": 1789763441521,
+  "notified": []
+ },
+ {
+  "id": "COTIUSDT::LONG::ChoCh::1789764300000",
+  "symbol": "COTIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.02107,
+  "sl": 0.01978,
+  "tp": 0.02675,
+  "tpSrc": "WH",
+  "slPct": 6.12,
+  "gainPct": 26.96,
+  "rr": 4.4,
+  "lev": 10,
+  "signalTime": 1789764300000,
+  "status": "pending",
+  "createdAt": 1789764332860
  }
 ]
