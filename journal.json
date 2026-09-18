@@ -21085,5 +21085,22 @@
   "status": "pending",
   "createdAt": 1789713042733,
   "notified": []
+ },
+ {
+  "id": "STRKUSDT::LONG::BoS::1789718400000",
+  "symbol": "STRKUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.03115,
+  "sl": 0.029605,
+  "tp": 0.0345,
+  "tpSrc": "WH",
+  "slPct": 4.96,
+  "gainPct": 10.75,
+  "rr": 2.17,
+  "lev": 12,
+  "signalTime": 1789718400000,
+  "status": "pending",
+  "createdAt": 1789718449123
  }
 ]
