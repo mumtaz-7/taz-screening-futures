@@ -21082,9 +21082,12 @@
   "rr": 2.83,
   "lev": 20,
   "signalTime": 1789713000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789713042733,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789719300000
  },
  {
   "id": "STRKUSDT::LONG::BoS::1789718400000",
@@ -21100,9 +21103,13 @@
   "rr": 2.17,
   "lev": 12,
   "signalTime": 1789718400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789718449123,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789719300000
  },
  {
   "id": "LSKUSDT::SHORT::ChoCh::1789719300000",
@@ -21118,7 +21125,11 @@
   "rr": 2.46,
   "lev": 8,
   "signalTime": 1789719300000,
-  "status": "pending",
-  "createdAt": 1789719334433
+  "status": "open",
+  "createdAt": 1789719334433,
+  "fillTime": 1789719300000,
+  "notified": [
+   "open"
+  ]
  }
 ]
