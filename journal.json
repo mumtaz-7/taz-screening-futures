@@ -21149,5 +21149,22 @@
   "status": "pending",
   "createdAt": 1789722052285,
   "notified": []
+ },
+ {
+  "id": "ENSOUSDT::LONG::BoS::1789726500000",
+  "symbol": "ENSOUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.89,
+  "sl": 0.851,
+  "tp": 0.979,
+  "tpSrc": "WH",
+  "slPct": 4.38,
+  "gainPct": 10,
+  "rr": 2.28,
+  "lev": 14,
+  "signalTime": 1789726500000,
+  "status": "pending",
+  "createdAt": 1789726535292
  }
 ]
