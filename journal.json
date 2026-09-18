@@ -21034,5 +21034,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "SYNUSDT::SHORT::BoS::1789701300000",
+  "symbol": "SYNUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.17547,
+  "sl": 0.205545,
+  "tp": 0.10492,
+  "tpSrc": "OB",
+  "slPct": 17.14,
+  "gainPct": 40.21,
+  "rr": 2.35,
+  "lev": 3,
+  "signalTime": 1789701300000,
+  "status": "pending",
+  "createdAt": 1789701332746
  }
 ]
