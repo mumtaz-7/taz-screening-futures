@@ -21222,5 +21222,22 @@
   "fillTime": 1789731000000,
   "R": -1,
   "resolvedTime": 1789738200000
+ },
+ {
+  "id": "STGUSDT::SHORT::BoS::1789740900000",
+  "symbol": "STGUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1408,
+  "sl": 0.15084999999999998,
+  "tp": 0.1106,
+  "tpSrc": "WL",
+  "slPct": 7.14,
+  "gainPct": 21.45,
+  "rr": 3,
+  "lev": 8,
+  "signalTime": 1789740900000,
+  "status": "pending",
+  "createdAt": 1789740932995
  }
 ]
