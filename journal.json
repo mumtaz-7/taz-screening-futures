@@ -21361,5 +21361,22 @@
    "open"
   ],
   "fillTime": 1789766100000
+ },
+ {
+  "id": "BABYUSDT::LONG::BoS::1789769700000",
+  "symbol": "BABYUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01169,
+  "sl": 0.01142,
+  "tp": 0.01281,
+  "tpSrc": "WH",
+  "slPct": 2.31,
+  "gainPct": 9.58,
+  "rr": 4.15,
+  "lev": 25,
+  "signalTime": 1789769700000,
+  "status": "pending",
+  "createdAt": 1789769734551
  }
 ]
