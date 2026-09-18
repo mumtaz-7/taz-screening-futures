@@ -18345,12 +18345,15 @@
   "rr": 1.22,
   "lev": 7,
   "signalTime": 1789160400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789160446924,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789161300000
+  "fillTime": 1789161300000,
+  "R": -1,
+  "resolvedTime": 1789714800000
  },
  {
   "id": "MARSCOINUSDT::SHORT::BoS::1789164000000",
