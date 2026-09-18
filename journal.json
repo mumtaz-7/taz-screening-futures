@@ -21187,7 +21187,8 @@
   "lev": 23,
   "signalTime": 1789730100000,
   "status": "pending",
-  "createdAt": 1789730134867
+  "createdAt": 1789730134867,
+  "notified": []
  },
  {
   "id": "KSMUSDT::SHORT::BoS::1789730100000",
@@ -21204,6 +21205,7 @@
   "lev": 25,
   "signalTime": 1789730100000,
   "status": "pending",
-  "createdAt": 1789730134867
+  "createdAt": 1789730134867,
+  "notified": []
  }
 ]
