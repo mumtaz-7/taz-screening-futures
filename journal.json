@@ -21131,5 +21131,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "STGUSDT::SHORT::ChoCh::1789722000000",
+  "symbol": "STGUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.1518,
+  "sl": 0.1548,
+  "tp": 0.1106,
+  "tpSrc": "WL",
+  "slPct": 1.98,
+  "gainPct": 27.14,
+  "rr": 13.73,
+  "lev": 25,
+  "signalTime": 1789722000000,
+  "status": "pending",
+  "createdAt": 1789722052285
  }
 ]

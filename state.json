@@ -1,6 +1,7 @@
 {
   "ready": [
-    "LSKUSDT::SHORT::ChoCh"
+    "LSKUSDT::SHORT::ChoCh",
+    "STGUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-09-18T08:45:34.816Z"
+  "at": "2026-09-18T09:00:52.284Z"
 }
