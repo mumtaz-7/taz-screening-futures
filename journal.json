@@ -21271,5 +21271,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "FETUSDT::SHORT::ChoCh::1789756200000",
+  "symbol": "FETUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.1832,
+  "sl": 0.18755,
+  "tp": 0.16855,
+  "tpSrc": "EQ",
+  "slPct": 2.37,
+  "gainPct": 8,
+  "rr": 3.37,
+  "lev": 24,
+  "signalTime": 1789756200000,
+  "status": "pending",
+  "createdAt": 1789756246190
  }
 ]
