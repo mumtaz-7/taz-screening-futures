@@ -20513,12 +20513,15 @@
   "rr": 4.03,
   "lev": 8,
   "signalTime": 1789561800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789561841481,
   "fillTime": 1789561800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789703100000
  },
  {
   "id": "TUTUSDT::LONG::ChoCh::1789563600000",
