@@ -21101,6 +21101,24 @@
   "lev": 12,
   "signalTime": 1789718400000,
   "status": "pending",
-  "createdAt": 1789718449123
+  "createdAt": 1789718449123,
+  "notified": []
+ },
+ {
+  "id": "LSKUSDT::SHORT::ChoCh::1789719300000",
+  "symbol": "LSKUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.443,
+  "sl": 0.47509999999999997,
+  "tp": 0.3641,
+  "tpSrc": "OB",
+  "slPct": 7.25,
+  "gainPct": 17.81,
+  "rr": 2.46,
+  "lev": 8,
+  "signalTime": 1789719300000,
+  "status": "pending",
+  "createdAt": 1789719334433
  }
 ]
