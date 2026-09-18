@@ -21171,5 +21171,39 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "FILUSDT::SHORT::ChoCh::1789730100000",
+  "symbol": "FILUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.8643,
+  "sl": 0.88635,
+  "tp": 0.7557,
+  "tpSrc": "WL",
+  "slPct": 2.55,
+  "gainPct": 12.57,
+  "rr": 4.93,
+  "lev": 23,
+  "signalTime": 1789730100000,
+  "status": "pending",
+  "createdAt": 1789730134867
+ },
+ {
+  "id": "KSMUSDT::SHORT::BoS::1789730100000",
+  "symbol": "KSMUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 4.29,
+  "sl": 4.379999999999999,
+  "tp": 3.6,
+  "tpSrc": "WL",
+  "slPct": 2.1,
+  "gainPct": 16.08,
+  "rr": 7.67,
+  "lev": 25,
+  "signalTime": 1789730100000,
+  "status": "pending",
+  "createdAt": 1789730134867
  }
 ]
