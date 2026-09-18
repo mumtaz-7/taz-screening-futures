@@ -20543,12 +20543,15 @@
   "rr": 2.47,
   "lev": 14,
   "signalTime": 1789563600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789563649293,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789564500000
+  "fillTime": 1789564500000,
+  "R": 2.47,
+  "resolvedTime": 1789758900000
  },
  {
   "id": "FFUSDT::LONG::BoS::1789571700000",
@@ -21292,5 +21295,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ZKUSDT::LONG::BoS::1789759800000",
+  "symbol": "ZKUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01047,
+  "sl": 0.01014,
+  "tp": 0.01122,
+  "tpSrc": "WH",
+  "slPct": 3.15,
+  "gainPct": 7.16,
+  "rr": 2.27,
+  "lev": 19,
+  "signalTime": 1789759800000,
+  "status": "pending",
+  "createdAt": 1789759840698
  }
 ]
