@@ -20976,12 +20976,15 @@
   "rr": 1.82,
   "lev": 5,
   "signalTime": 1789665300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789665333743,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789666200000
+  "fillTime": 1789666200000,
+  "R": -1,
+  "resolvedTime": 1789767000000
  },
  {
   "id": "RAYUSDT::LONG::BoS::1789670700000",
@@ -21067,12 +21070,15 @@
   "rr": 2.35,
   "lev": 3,
   "signalTime": 1789701300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789701332746,
   "fillTime": 1789701300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789767000000
  },
  {
   "id": "EDENUSDT::LONG::ChoCh::1789713000000",
@@ -21328,9 +21334,12 @@
   "rr": 3.47,
   "lev": 18,
   "signalTime": 1789763400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789763441521,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789767000000
  },
  {
   "id": "COTIUSDT::LONG::ChoCh::1789764300000",
