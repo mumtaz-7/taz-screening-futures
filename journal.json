@@ -20495,12 +20495,15 @@
   "rr": 2.06,
   "lev": 5,
   "signalTime": 1789556400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789556449780,
   "fillTime": 1789556400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.06,
+  "resolvedTime": 1789750800000
  },
  {
   "id": "牛来USDT::SHORT::BoS::1789561800000",
