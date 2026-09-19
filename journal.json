@@ -21405,7 +21405,8 @@
   "lev": 5,
   "signalTime": 1789776000000,
   "status": "pending",
-  "createdAt": 1789776049580
+  "createdAt": 1789776049580,
+  "notified": []
  },
  {
   "id": "STGUSDT::LONG::ChoCh::1789776000000",
@@ -21422,6 +21423,24 @@
   "lev": 13,
   "signalTime": 1789776000000,
   "status": "pending",
-  "createdAt": 1789776049580
+  "createdAt": 1789776049580,
+  "notified": []
+ },
+ {
+  "id": "LSKUSDT::SHORT::ChoCh::1789776900000",
+  "symbol": "LSKUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.4422,
+  "sl": 0.4539,
+  "tp": 0.3641,
+  "tpSrc": "OB",
+  "slPct": 2.65,
+  "gainPct": 17.66,
+  "rr": 6.68,
+  "lev": 22,
+  "signalTime": 1789776900000,
+  "status": "pending",
+  "createdAt": 1789776935138
  }
 ]
