@@ -21822,12 +21822,15 @@
   "rr": 1.01,
   "lev": 5,
   "signalTime": 1789808400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789808447795,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789811100000
+  "fillTime": 1789811100000,
+  "R": -1,
+  "resolvedTime": 1789856100000
  },
  {
   "id": "ESPUSDT::LONG::ChoCh::1789817400000",
@@ -22082,11 +22085,14 @@
   "rr": 2.14,
   "lev": 11,
   "signalTime": 1789852500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789852532697,
   "fillTime": 1789852500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789856100000
  }
 ]
