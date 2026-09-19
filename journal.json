@@ -21659,9 +21659,12 @@
   "rr": 1.75,
   "lev": 9,
   "signalTime": 1789798500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789798535844,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789806600000
  },
  {
   "id": "ESPUSDT::LONG::BoS::1789798500000",
@@ -21739,7 +21742,46 @@
   "rr": 1.32,
   "lev": 5,
   "signalTime": 1789806600000,
+  "status": "void",
+  "createdAt": 1789806640023,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789806600000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "REDUSDT::LONG::BoS::1789807500000",
+  "symbol": "REDUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1514,
+  "sl": 0.1424,
+  "tp": 0.178,
+  "tpSrc": "WH",
+  "slPct": 5.94,
+  "gainPct": 17.57,
+  "rr": 2.96,
+  "lev": 10,
+  "signalTime": 1789807500000,
   "status": "pending",
-  "createdAt": 1789806640023
+  "createdAt": 1789807534134
+ },
+ {
+  "id": "STGUSDT::LONG::ChoCh::1789807500000",
+  "symbol": "STGUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1555,
+  "sl": 0.1456,
+  "tp": 0.1793,
+  "tpSrc": "WH",
+  "slPct": 6.37,
+  "gainPct": 15.31,
+  "rr": 2.4,
+  "lev": 9,
+  "signalTime": 1789807500000,
+  "status": "pending",
+  "createdAt": 1789807534134
  }
 ]
