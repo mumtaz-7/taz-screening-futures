@@ -1,6 +1,7 @@
 {
   "ready": [
-    "CUSDT::LONG::BoS"
+    "CUSDT::LONG::BoS",
+    "LSKUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-09-19T15:30:41.854Z"
+  "at": "2026-09-19T15:45:33.237Z"
 }

@@ -21795,12 +21795,15 @@
   "rr": 2.4,
   "lev": 9,
   "signalTime": 1789807500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789807534134,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789821900000
+  "fillTime": 1789821900000,
+  "R": -1,
+  "resolvedTime": 1789831800000
  },
  {
   "id": "SYNUSDT::LONG::BoS::1789808400000",
@@ -21906,5 +21909,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "LSKUSDT::SHORT::ChoCh::1789832700000",
+  "symbol": "LSKUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.437,
+  "sl": 0.45815,
+  "tp": 0.3641,
+  "tpSrc": "OB",
+  "slPct": 4.84,
+  "gainPct": 16.68,
+  "rr": 3.45,
+  "lev": 12,
+  "signalTime": 1789832700000,
+  "status": "pending",
+  "createdAt": 1789832733238
  }
 ]
