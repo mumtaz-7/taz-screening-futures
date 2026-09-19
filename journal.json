@@ -21596,12 +21596,15 @@
   "rr": 1.71,
   "lev": 8,
   "signalTime": 1789794900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789794936107,
   "fillTime": 1789794900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789808400000
  },
  {
   "id": "SUPERUSDT::LONG::ChoCh::1789794900000",
@@ -21804,6 +21807,7 @@
   "lev": 5,
   "signalTime": 1789808400000,
   "status": "pending",
-  "createdAt": 1789808447795
+  "createdAt": 1789808447795,
+  "notified": []
  }
 ]
