@@ -1,6 +1,8 @@
 {
   "ready": [
-    "GUSDT::LONG::ChoCh"
+    "FETUSDT::SHORT::ChoCh",
+    "GUSDT::LONG::ChoCh",
+    "SAGAUSDT::LONG::BoS"
   ],
-  "at": "2026-09-19T04:00:45.667Z"
+  "at": "2026-09-19T04:15:32.538Z"
 }
