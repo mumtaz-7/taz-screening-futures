@@ -21864,5 +21864,22 @@
    "open"
   ],
   "fillTime": 1789821000000
+ },
+ {
+  "id": "AUSDT::LONG::ChoCh::1789826400000",
+  "symbol": "AUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0904,
+  "sl": 0.08875000000000001,
+  "tp": 0.0993,
+  "tpSrc": "WH",
+  "slPct": 1.83,
+  "gainPct": 9.85,
+  "rr": 5.39,
+  "lev": 25,
+  "signalTime": 1789826400000,
+  "status": "pending",
+  "createdAt": 1789826446285
  }
 ]
