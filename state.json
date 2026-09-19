@@ -2,10 +2,7 @@
   "ready": [
     "REDUSDT::LONG::BoS",
     "SAGAUSDT::LONG::BoS",
-    "STGUSDT::LONG::ChoCh",
-    "STRKUSDT::LONG::ChoCh",
-    "SYNUSDT::LONG::BoS",
-    "ZAMAUSDT::LONG::BoS"
+    "SYNUSDT::LONG::BoS"
   ],
-  "at": "2026-09-19T09:30:40.216Z"
+  "at": "2026-09-19T09:45:31.827Z"
 }
