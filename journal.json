@@ -21511,12 +21511,15 @@
   "rr": 4.5,
   "lev": 12,
   "signalTime": 1789783200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789783248916,
   "fillTime": 1789783200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789822800000
  },
  {
   "id": "GUSDT::LONG::ChoCh::1789788600000",
