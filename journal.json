@@ -21843,12 +21843,15 @@
   "rr": 8.46,
   "lev": 21,
   "signalTime": 1789817400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789817442272,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789821000000
+  "fillTime": 1789821000000,
+  "R": -1,
+  "resolvedTime": 1789833600000
  },
  {
   "id": "CUSDT::LONG::ChoCh::1789819200000",
@@ -21930,5 +21933,22 @@
   "status": "pending",
   "createdAt": 1789832733238,
   "notified": []
+ },
+ {
+  "id": "ONEUSDT::LONG::BoS::1789834500000",
+  "symbol": "ONEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00276,
+  "sl": 0.0021915,
+  "tp": 0.00342,
+  "tpSrc": "WH",
+  "slPct": 20.6,
+  "gainPct": 23.91,
+  "rr": 1.16,
+  "lev": 3,
+  "signalTime": 1789834500000,
+  "status": "pending",
+  "createdAt": 1789834533401
  }
 ]
