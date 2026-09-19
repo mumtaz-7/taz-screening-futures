@@ -20818,12 +20818,15 @@
   "rr": 1.67,
   "lev": 6,
   "signalTime": 1789624800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789624848081,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789627500000
+  "fillTime": 1789627500000,
+  "R": 1.67,
+  "resolvedTime": 1789801200000
  },
  {
   "id": "SYNUSDT::SHORT::ChoCh::1789635600000",
@@ -21681,5 +21684,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "HEIUSDT::LONG::BoS::1789802100000",
+  "symbol": "HEIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1448,
+  "sl": 0.13805,
+  "tp": 0.1675,
+  "tpSrc": "WH",
+  "slPct": 4.66,
+  "gainPct": 15.68,
+  "rr": 3.36,
+  "lev": 13,
+  "signalTime": 1789802100000,
+  "status": "pending",
+  "createdAt": 1789802134944
  }
 ]
