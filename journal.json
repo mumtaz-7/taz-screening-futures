@@ -21472,8 +21472,28 @@
   "rr": 3.01,
   "lev": 11,
   "signalTime": 1789777800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789777843083,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789782300000
+ },
+ {
+  "id": "AVAUSDT::SHORT::BoS::1789783200000",
+  "symbol": "AVAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.2313,
+  "sl": 0.24314999999999998,
+  "tp": 0.178,
+  "tpSrc": "OB",
+  "slPct": 5.12,
+  "gainPct": 23.04,
+  "rr": 4.5,
+  "lev": 12,
+  "signalTime": 1789783200000,
+  "status": "pending",
+  "createdAt": 1789783248916
  }
 ]
