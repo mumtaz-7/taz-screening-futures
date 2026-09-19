@@ -21727,9 +21727,13 @@
   "rr": 1.82,
   "lev": 9,
   "signalTime": 1789805700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789805736458,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789816500000
  },
  {
   "id": "ZAMAUSDT::LONG::BoS::1789806600000",
@@ -21812,5 +21816,22 @@
    "open"
   ],
   "fillTime": 1789811100000
+ },
+ {
+  "id": "ESPUSDT::LONG::ChoCh::1789817400000",
+  "symbol": "ESPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.09587,
+  "sl": 0.093215,
+  "tp": 0.11832,
+  "tpSrc": "WH",
+  "slPct": 2.77,
+  "gainPct": 23.42,
+  "rr": 8.46,
+  "lev": 21,
+  "signalTime": 1789817400000,
+  "status": "pending",
+  "createdAt": 1789817442272
  }
 ]
