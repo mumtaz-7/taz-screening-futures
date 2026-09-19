@@ -21460,12 +21460,15 @@
   "rr": 6.68,
   "lev": 22,
   "signalTime": 1789776900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789776935138,
   "fillTime": 1789776900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789800300000
  },
  {
   "id": "牛来USDT::LONG::ChoCh::1789777800000",
