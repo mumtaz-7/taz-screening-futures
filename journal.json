@@ -21368,12 +21368,15 @@
   "rr": 4.4,
   "lev": 10,
   "signalTime": 1789764300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789764332860,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789766100000
+  "fillTime": 1789766100000,
+  "R": -1,
+  "resolvedTime": 1789798500000
  },
  {
   "id": "BABYUSDT::LONG::BoS::1789769700000",
@@ -21478,12 +21481,15 @@
   "rr": 3.01,
   "lev": 11,
   "signalTime": 1789777800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789777843083,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789782300000
+  "fillTime": 1789782300000,
+  "R": -1,
+  "resolvedTime": 1789798500000
  },
  {
   "id": "AVAUSDT::SHORT::BoS::1789783200000",
@@ -21626,9 +21632,12 @@
   "rr": 2.87,
   "lev": 9,
   "signalTime": 1789797600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789797650237,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789798500000
  },
  {
   "id": "COTIUSDT::SHORT::ChoCh::1789798500000",
@@ -21645,7 +21654,8 @@
   "lev": 9,
   "signalTime": 1789798500000,
   "status": "pending",
-  "createdAt": 1789798535844
+  "createdAt": 1789798535844,
+  "notified": []
  },
  {
   "id": "ESPUSDT::LONG::BoS::1789798500000",
@@ -21661,7 +21671,12 @@
   "rr": 3.49,
   "lev": 16,
   "signalTime": 1789798500000,
-  "status": "pending",
-  "createdAt": 1789798535844
+  "status": "void",
+  "createdAt": 1789798535844,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789798500000,
+  "notified": [
+   "void"
+  ]
  }
 ]
