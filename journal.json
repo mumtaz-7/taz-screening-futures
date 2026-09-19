@@ -21605,8 +21605,28 @@
   "rr": 4.07,
   "lev": 19,
   "signalTime": 1789794900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789794936107,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789796700000
+ },
+ {
+  "id": "REDUSDT::LONG::ChoCh::1789797600000",
+  "symbol": "REDUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1487,
+  "sl": 0.1385,
+  "tp": 0.178,
+  "tpSrc": "WH",
+  "slPct": 6.86,
+  "gainPct": 19.7,
+  "rr": 2.87,
+  "lev": 9,
+  "signalTime": 1789797600000,
+  "status": "pending",
+  "createdAt": 1789797650237
  }
 ]
