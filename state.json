@@ -1,9 +1,7 @@
 {
   "ready": [
     "LSKUSDT::SHORT::ChoCh",
-    "ONEUSDT::LONG::ChoCh",
-    "STGUSDT::LONG::ChoCh",
-    "牛来USDT::LONG::ChoCh"
+    "STGUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-19T01:00:46.921Z"
+  "at": "2026-09-19T01:15:32.586Z"
 }

@@ -21429,9 +21429,13 @@
   "rr": 2.47,
   "lev": 13,
   "signalTime": 1789776000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789776049580,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789779600000
  },
  {
   "id": "LSKUSDT::SHORT::ChoCh::1789776900000",
