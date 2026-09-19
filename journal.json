@@ -21831,9 +21831,12 @@
   "rr": 8.46,
   "lev": 21,
   "signalTime": 1789817400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789817442272,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789821000000
  },
  {
   "id": "CUSDT::LONG::ChoCh::1789819200000",
@@ -21849,8 +21852,11 @@
   "rr": 6.83,
   "lev": 13,
   "signalTime": 1789819200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789819247065,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789821000000
  }
 ]
