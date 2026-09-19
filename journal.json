@@ -21252,12 +21252,15 @@
   "rr": 3,
   "lev": 8,
   "signalTime": 1789740900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789740932995,
   "fillTime": 1789740900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789775100000
  },
  {
   "id": "AVAUSDT::SHORT::BoS::1789749000000",
@@ -21386,5 +21389,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ONEUSDT::LONG::ChoCh::1789776000000",
+  "symbol": "ONEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.001822,
+  "sl": 0.0016045,
+  "tp": 0.002171,
+  "tpSrc": "WH",
+  "slPct": 11.94,
+  "gainPct": 19.15,
+  "rr": 1.6,
+  "lev": 5,
+  "signalTime": 1789776000000,
+  "status": "pending",
+  "createdAt": 1789776049580
+ },
+ {
+  "id": "STGUSDT::LONG::ChoCh::1789776000000",
+  "symbol": "STGUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.144,
+  "sl": 0.13755,
+  "tp": 0.1599,
+  "tpSrc": "WH",
+  "slPct": 4.48,
+  "gainPct": 11.04,
+  "rr": 2.47,
+  "lev": 13,
+  "signalTime": 1789776000000,
+  "status": "pending",
+  "createdAt": 1789776049580
  }
 ]
