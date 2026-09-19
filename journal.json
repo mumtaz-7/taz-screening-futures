@@ -21584,8 +21584,12 @@
   "rr": 1.71,
   "lev": 8,
   "signalTime": 1789794900000,
-  "status": "pending",
-  "createdAt": 1789794936107
+  "status": "open",
+  "createdAt": 1789794936107,
+  "fillTime": 1789794900000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "SUPERUSDT::LONG::ChoCh::1789794900000",
@@ -21602,6 +21606,7 @@
   "lev": 19,
   "signalTime": 1789794900000,
   "status": "pending",
-  "createdAt": 1789794936107
+  "createdAt": 1789794936107,
+  "notified": []
  }
 ]
