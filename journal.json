@@ -21407,9 +21407,13 @@
   "rr": 1.6,
   "lev": 5,
   "signalTime": 1789776000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789776049580,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789777800000
  },
  {
   "id": "STGUSDT::LONG::ChoCh::1789776000000",
@@ -21465,6 +21469,7 @@
   "lev": 11,
   "signalTime": 1789777800000,
   "status": "pending",
-  "createdAt": 1789777843083
+  "createdAt": 1789777843083,
+  "notified": []
  }
 ]
