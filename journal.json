@@ -21792,9 +21792,12 @@
   "rr": 2.4,
   "lev": 9,
   "signalTime": 1789807500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789807534134,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789821900000
  },
  {
   "id": "SYNUSDT::LONG::BoS::1789808400000",
