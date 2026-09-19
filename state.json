@@ -1,8 +1,8 @@
 {
   "ready": [
+    "ARUSDT::LONG::BoS",
     "FETUSDT::SHORT::ChoCh",
-    "GUSDT::LONG::ChoCh",
     "SAGAUSDT::LONG::BoS"
   ],
-  "at": "2026-09-19T04:45:32.491Z"
+  "at": "2026-09-19T05:00:47.462Z"
 }
