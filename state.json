@@ -1,6 +1,7 @@
 {
   "ready": [
-    "STRKUSDT::LONG::ChoCh"
+    "STRKUSDT::LONG::ChoCh",
+    "ZAMAUSDT::LONG::BoS"
   ],
-  "at": "2026-09-19T08:15:36.457Z"
+  "at": "2026-09-19T08:30:40.023Z"
 }

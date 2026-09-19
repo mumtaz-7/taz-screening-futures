@@ -21722,6 +21722,24 @@
   "lev": 9,
   "signalTime": 1789805700000,
   "status": "pending",
-  "createdAt": 1789805736458
+  "createdAt": 1789805736458,
+  "notified": []
+ },
+ {
+  "id": "ZAMAUSDT::LONG::BoS::1789806600000",
+  "symbol": "ZAMAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.065,
+  "sl": 0.057785,
+  "tp": 0.0745,
+  "tpSrc": "WH",
+  "slPct": 11.1,
+  "gainPct": 14.62,
+  "rr": 1.32,
+  "lev": 5,
+  "signalTime": 1789806600000,
+  "status": "pending",
+  "createdAt": 1789806640023
  }
 ]
