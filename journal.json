@@ -21885,5 +21885,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CUSDT::LONG::BoS::1789829100000",
+  "symbol": "CUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0706,
+  "sl": 0.06535000000000002,
+  "tp": 0.09,
+  "tpSrc": "WH",
+  "slPct": 7.44,
+  "gainPct": 27.48,
+  "rr": 3.7,
+  "lev": 8,
+  "signalTime": 1789829100000,
+  "status": "pending",
+  "createdAt": 1789829132964
  }
 ]
