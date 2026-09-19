@@ -21627,6 +21627,41 @@
   "lev": 9,
   "signalTime": 1789797600000,
   "status": "pending",
-  "createdAt": 1789797650237
+  "createdAt": 1789797650237,
+  "notified": []
+ },
+ {
+  "id": "COTIUSDT::SHORT::ChoCh::1789798500000",
+  "symbol": "COTIUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.02027,
+  "sl": 0.021695,
+  "tp": 0.01777,
+  "tpSrc": "OB",
+  "slPct": 7.03,
+  "gainPct": 12.33,
+  "rr": 1.75,
+  "lev": 9,
+  "signalTime": 1789798500000,
+  "status": "pending",
+  "createdAt": 1789798535844
+ },
+ {
+  "id": "ESPUSDT::LONG::BoS::1789798500000",
+  "symbol": "ESPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.09445,
+  "sl": 0.09091,
+  "tp": 0.10681,
+  "tpSrc": "WH",
+  "slPct": 3.75,
+  "gainPct": 13.09,
+  "rr": 3.49,
+  "lev": 16,
+  "signalTime": 1789798500000,
+  "status": "pending",
+  "createdAt": 1789798535844
  }
 ]
