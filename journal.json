@@ -21930,9 +21930,12 @@
   "rr": 3.45,
   "lev": 12,
   "signalTime": 1789832700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789832733238,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ONEUSDT::LONG::BoS::1789834500000",
