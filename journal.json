@@ -21383,12 +21383,15 @@
   "rr": 4.15,
   "lev": 25,
   "signalTime": 1789769700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789769734551,
   "fillTime": 1789769700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789776900000
  },
  {
   "id": "ONEUSDT::LONG::ChoCh::1789776000000",
@@ -21440,7 +21443,28 @@
   "rr": 6.68,
   "lev": 22,
   "signalTime": 1789776900000,
+  "status": "open",
+  "createdAt": 1789776935138,
+  "fillTime": 1789776900000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "牛来USDT::LONG::ChoCh::1789777800000",
+  "symbol": "牛来USDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.12162,
+  "sl": 0.11469000000000001,
+  "tp": 0.14248,
+  "tpSrc": "OB",
+  "slPct": 5.7,
+  "gainPct": 17.15,
+  "rr": 3.01,
+  "lev": 11,
+  "signalTime": 1789777800000,
   "status": "pending",
-  "createdAt": 1789776935138
+  "createdAt": 1789777843083
  }
 ]
