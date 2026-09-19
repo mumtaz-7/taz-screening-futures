@@ -21977,5 +21977,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "MARSCOINUSDT::SHORT::ChoCh::1789839900000",
+  "symbol": "MARSCOINUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.1015,
+  "sl": 0.11005000000000001,
+  "tp": 0.089,
+  "tpSrc": "OB",
+  "slPct": 8.42,
+  "gainPct": 12.32,
+  "rr": 1.46,
+  "lev": 7,
+  "signalTime": 1789839900000,
+  "status": "pending",
+  "createdAt": 1789839934397
  }
 ]
