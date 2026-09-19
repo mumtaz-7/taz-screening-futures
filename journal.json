@@ -21562,7 +21562,46 @@
   "rr": 1.84,
   "lev": 8,
   "signalTime": 1789794000000,
+  "status": "void",
+  "createdAt": 1789794047463,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789794000000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "GENIUSUSDT::LONG::ChoCh::1789794900000",
+  "symbol": "GENIUSUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.3409,
+  "sl": 0.31495,
+  "tp": 0.3854,
+  "tpSrc": "EQ",
+  "slPct": 7.61,
+  "gainPct": 13.05,
+  "rr": 1.71,
+  "lev": 8,
+  "signalTime": 1789794900000,
   "status": "pending",
-  "createdAt": 1789794047463
+  "createdAt": 1789794936107
+ },
+ {
+  "id": "SUPERUSDT::LONG::ChoCh::1789794900000",
+  "symbol": "SUPERUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1364,
+  "sl": 0.13219999999999998,
+  "tp": 0.1535,
+  "tpSrc": "WH",
+  "slPct": 3.08,
+  "gainPct": 12.54,
+  "rr": 4.07,
+  "lev": 19,
+  "signalTime": 1789794900000,
+  "status": "pending",
+  "createdAt": 1789794936107
  }
 ]
