@@ -22019,5 +22019,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "AUSDT::LONG::BoS::1789850700000",
+  "symbol": "AUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0903,
+  "sl": 0.08925,
+  "tp": 0.0993,
+  "tpSrc": "WH",
+  "slPct": 1.16,
+  "gainPct": 9.97,
+  "rr": 8.57,
+  "lev": 25,
+  "signalTime": 1789850700000,
+  "status": "pending",
+  "createdAt": 1789850732467
  }
 ]
