@@ -22647,12 +22647,15 @@
   "rr": 1.84,
   "lev": 5,
   "signalTime": 1789913700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789913735516,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789914600000
+  "fillTime": 1789914600000,
+  "R": -1,
+  "resolvedTime": 1789917300000
  },
  {
   "id": "EPICUSDT::LONG::ChoCh::1789913700000",
@@ -22691,7 +22694,8 @@
   "lev": 23,
   "signalTime": 1789917300000,
   "status": "pending",
-  "createdAt": 1789917335316
+  "createdAt": 1789917335316,
+  "notified": []
  },
  {
   "id": "FUSDT::LONG::ChoCh::1789917300000",
@@ -22708,6 +22712,7 @@
   "lev": 23,
   "signalTime": 1789917300000,
   "status": "pending",
-  "createdAt": 1789917335316
+  "createdAt": 1789917335316,
+  "notified": []
  }
 ]
