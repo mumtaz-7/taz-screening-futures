@@ -1,8 +1,6 @@
 {
   "ready": [
-    "AVAXUSDT::LONG::BoS",
-    "GUNUSDT::LONG::BoS",
-    "ZENUSDT::LONG::BoS"
+    "AVAXUSDT::LONG::BoS"
   ],
-  "at": "2026-09-20T10:00:45.646Z"
+  "at": "2026-09-20T10:15:32.896Z"
 }
