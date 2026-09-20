@@ -22799,5 +22799,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GENIUSUSDT::LONG::ChoCh::1789929000000",
+  "symbol": "GENIUSUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.3608,
+  "sl": 0.3308,
+  "tp": 0.4017,
+  "tpSrc": "WH",
+  "slPct": 8.31,
+  "gainPct": 11.34,
+  "rr": 1.36,
+  "lev": 7,
+  "signalTime": 1789929000000,
+  "status": "pending",
+  "createdAt": 1789929043832
  }
 ]
