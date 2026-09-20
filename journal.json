@@ -22500,5 +22500,39 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "AVAXUSDT::LONG::BoS::1789897500000",
+  "symbol": "AVAXUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 9.839,
+  "sl": 9.4115,
+  "tp": 10.825,
+  "tpSrc": "WH",
+  "slPct": 4.34,
+  "gainPct": 10.02,
+  "rr": 2.31,
+  "lev": 14,
+  "signalTime": 1789897500000,
+  "status": "pending",
+  "createdAt": 1789897533451
+ },
+ {
+  "id": "ZENUSDT::LONG::BoS::1789897500000",
+  "symbol": "ZENUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 7.741,
+  "sl": 7.532500000000001,
+  "tp": 8.593,
+  "tpSrc": "WH",
+  "slPct": 2.69,
+  "gainPct": 11.01,
+  "rr": 4.09,
+  "lev": 22,
+  "signalTime": 1789897500000,
+  "status": "pending",
+  "createdAt": 1789897533451
  }
 ]
