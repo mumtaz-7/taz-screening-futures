@@ -22493,12 +22493,15 @@
   "rr": 2.42,
   "lev": 13,
   "signalTime": 1789893000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789893043760,
   "fillTime": 1789893000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.42,
+  "resolvedTime": 1789922700000
  },
  {
   "id": "GUNUSDT::LONG::BoS::1789895700000",
