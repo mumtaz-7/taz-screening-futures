@@ -1,6 +1,8 @@
 {
   "ready": [
-    "BCHUSDT::SHORT::BoS"
+    "AVAXUSDT::LONG::ChoCh",
+    "BCHUSDT::SHORT::BoS",
+    "XTZUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-20T08:00:49.913Z"
+  "at": "2026-09-20T08:15:33.677Z"
 }
