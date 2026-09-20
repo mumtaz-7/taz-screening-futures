@@ -21870,12 +21870,15 @@
   "rr": 6.83,
   "lev": 13,
   "signalTime": 1789819200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789819247065,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789821000000
+  "fillTime": 1789821000000,
+  "R": 6.83,
+  "resolvedTime": 1789885800000
  },
  {
   "id": "AUSDT::LONG::ChoCh::1789826400000",
@@ -21915,12 +21918,15 @@
   "rr": 3.7,
   "lev": 8,
   "signalTime": 1789829100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789829132964,
   "fillTime": 1789829100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.7,
+  "resolvedTime": 1789885800000
  },
  {
   "id": "LSKUSDT::SHORT::ChoCh::1789832700000",
@@ -22349,7 +22355,11 @@
   "rr": 4.16,
   "lev": 10,
   "signalTime": 1789885800000,
-  "status": "pending",
-  "createdAt": 1789885880252
+  "status": "open",
+  "createdAt": 1789885880252,
+  "fillTime": 1789885800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
