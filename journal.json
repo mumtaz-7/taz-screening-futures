@@ -21304,12 +21304,15 @@
   "rr": 3.37,
   "lev": 24,
   "signalTime": 1789756200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789756246190,
   "fillTime": 1789756200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.37,
+  "resolvedTime": 1789890300000
  },
  {
   "id": "ZKUSDT::LONG::BoS::1789759800000",
