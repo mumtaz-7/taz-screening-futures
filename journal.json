@@ -22515,8 +22515,12 @@
   "rr": 2.31,
   "lev": 14,
   "signalTime": 1789897500000,
-  "status": "pending",
-  "createdAt": 1789897533451
+  "status": "open",
+  "createdAt": 1789897533451,
+  "fillTime": 1789897500000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "ZENUSDT::LONG::BoS::1789897500000",
@@ -22532,7 +22536,11 @@
   "rr": 4.09,
   "lev": 22,
   "signalTime": 1789897500000,
-  "status": "pending",
-  "createdAt": 1789897533451
+  "status": "open",
+  "createdAt": 1789897533451,
+  "fillTime": 1789897500000,
+  "notified": [
+   "open"
+  ]
  }
 ]
