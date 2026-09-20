@@ -21671,12 +21671,15 @@
   "rr": 1.75,
   "lev": 9,
   "signalTime": 1789798500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789798535844,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789806600000
+  "fillTime": 1789806600000,
+  "R": 1.75,
+  "resolvedTime": 1789902000000
  },
  {
   "id": "ESPUSDT::LONG::BoS::1789798500000",
@@ -22349,12 +22352,15 @@
   "rr": 6.01,
   "lev": 25,
   "signalTime": 1789884000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789884049237,
   "fillTime": 1789884000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789902000000
  },
  {
   "id": "ESPUSDT::LONG::BoS::1789885800000",
@@ -22536,12 +22542,15 @@
   "rr": 4.09,
   "lev": 22,
   "signalTime": 1789897500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789897533451,
   "fillTime": 1789897500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789902000000
  },
  {
   "id": "ALLOUSDT::LONG::ChoCh::1789901100000",
