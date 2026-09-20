@@ -22776,6 +22776,24 @@
   "lev": 7,
   "signalTime": 1789926300000,
   "status": "pending",
-  "createdAt": 1789926334317
+  "createdAt": 1789926334317,
+  "notified": []
+ },
+ {
+  "id": "PEPEUSDT::LONG::ChoCh::1789927200000",
+  "symbol": "PEPEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00000399,
+  "sl": 0.0000038100000000000004,
+  "tp": 0.00000433,
+  "tpSrc": "WH",
+  "slPct": 4.51,
+  "gainPct": 8.52,
+  "rr": 1.89,
+  "lev": 13,
+  "signalTime": 1789927200000,
+  "status": "pending",
+  "createdAt": 1789927250634
  }
 ]
