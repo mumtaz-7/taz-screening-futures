@@ -22793,9 +22793,13 @@
   "rr": 1.08,
   "lev": 7,
   "signalTime": 1789926300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789926334317,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789943400000
  },
  {
   "id": "PEPEUSDT::LONG::ChoCh::1789927200000",
