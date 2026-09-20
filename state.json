@@ -1,6 +1,9 @@
 {
   "ready": [
-    "PROMUSDT::SHORT::BoS"
+    "BCHUSDT::SHORT::BoS",
+    "CUSDT::LONG::BoS",
+    "PENGUUSDT::SHORT::BoS",
+    "RAYUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-09-20T02:45:34.269Z"
+  "at": "2026-09-20T03:00:46.668Z"
 }

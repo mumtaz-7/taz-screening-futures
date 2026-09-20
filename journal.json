@@ -22136,12 +22136,15 @@
   "rr": 1.11,
   "lev": 4,
   "signalTime": 1789863300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789863334405,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789865100000
+  "fillTime": 1789865100000,
+  "R": 1.11,
+  "resolvedTime": 1789872300000
  },
  {
   "id": "AVAXUSDT::LONG::BoS::1789865100000",
@@ -22221,6 +22224,58 @@
   "lev": 21,
   "signalTime": 1789872300000,
   "status": "pending",
-  "createdAt": 1789872334371
+  "createdAt": 1789872334371,
+  "notified": []
+ },
+ {
+  "id": "BCHUSDT::SHORT::BoS::1789873200000",
+  "symbol": "BCHUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 250.1,
+  "sl": 260.29999999999995,
+  "tp": 221.2,
+  "tpSrc": "OB",
+  "slPct": 4.08,
+  "gainPct": 11.56,
+  "rr": 2.83,
+  "lev": 15,
+  "signalTime": 1789873200000,
+  "status": "pending",
+  "createdAt": 1789873246669
+ },
+ {
+  "id": "PENGUUSDT::SHORT::BoS::1789873200000",
+  "symbol": "PENGUUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0078,
+  "sl": 0.008133,
+  "tp": 0.006911,
+  "tpSrc": "OB",
+  "slPct": 4.27,
+  "gainPct": 11.4,
+  "rr": 2.67,
+  "lev": 14,
+  "signalTime": 1789873200000,
+  "status": "pending",
+  "createdAt": 1789873246669
+ },
+ {
+  "id": "RAYUSDT::SHORT::ChoCh::1789873200000",
+  "symbol": "RAYUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 1.6846,
+  "sl": 1.7490999999999999,
+  "tp": 1.4555,
+  "tpSrc": "OB",
+  "slPct": 3.83,
+  "gainPct": 13.6,
+  "rr": 3.55,
+  "lev": 16,
+  "signalTime": 1789873200000,
+  "status": "pending",
+  "createdAt": 1789873246669
  }
 ]
