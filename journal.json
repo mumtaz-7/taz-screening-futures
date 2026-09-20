@@ -22675,5 +22675,39 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "BERAUSDT::LONG::ChoCh::1789917300000",
+  "symbol": "BERAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.2076,
+  "sl": 0.20249999999999999,
+  "tp": 0.2285,
+  "tpSrc": "WH",
+  "slPct": 2.46,
+  "gainPct": 10.07,
+  "rr": 4.1,
+  "lev": 23,
+  "signalTime": 1789917300000,
+  "status": "pending",
+  "createdAt": 1789917335316
+ },
+ {
+  "id": "FUSDT::LONG::ChoCh::1789917300000",
+  "symbol": "FUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.003667,
+  "sl": 0.0035754999999999997,
+  "tp": 0.004359999999999999,
+  "tpSrc": "EQ",
+  "slPct": 2.5,
+  "gainPct": 18.9,
+  "rr": 7.57,
+  "lev": 23,
+  "signalTime": 1789917300000,
+  "status": "pending",
+  "createdAt": 1789917335316
  }
 ]
