@@ -22160,12 +22160,15 @@
   "rr": 2.71,
   "lev": 16,
   "signalTime": 1789865100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789865132240,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789867800000
+  "fillTime": 1789867800000,
+  "R": -1,
+  "resolvedTime": 1789873200000
  },
  {
   "id": "ARBUSDT::SHORT::BoS::1789866000000",
@@ -22223,9 +22226,12 @@
   "rr": 3.15,
   "lev": 21,
   "signalTime": 1789872300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789872334371,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789873200000
  },
  {
   "id": "BCHUSDT::SHORT::BoS::1789873200000",
@@ -22242,7 +22248,8 @@
   "lev": 15,
   "signalTime": 1789873200000,
   "status": "pending",
-  "createdAt": 1789873246669
+  "createdAt": 1789873246669,
+  "notified": []
  },
  {
   "id": "PENGUUSDT::SHORT::BoS::1789873200000",
@@ -22259,7 +22266,8 @@
   "lev": 14,
   "signalTime": 1789873200000,
   "status": "pending",
-  "createdAt": 1789873246669
+  "createdAt": 1789873246669,
+  "notified": []
  },
  {
   "id": "RAYUSDT::SHORT::ChoCh::1789873200000",
@@ -22276,6 +22284,7 @@
   "lev": 16,
   "signalTime": 1789873200000,
   "status": "pending",
-  "createdAt": 1789873246669
+  "createdAt": 1789873246669,
+  "notified": []
  }
 ]
