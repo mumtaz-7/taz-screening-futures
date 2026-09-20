@@ -18390,7 +18390,7 @@
   "rr": 2.27,
   "lev": 8,
   "signalTime": 1789164900000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1789164937525,
   "fillTime": 1789164900000,
   "notified": [
@@ -20729,12 +20729,15 @@
   "rr": 1.79,
   "lev": 10,
   "signalTime": 1789609500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789609532014,
   "fillTime": 1789609500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.79,
+  "resolvedTime": 1789941600000
  },
  {
   "id": "COTIUSDT::LONG::BoS::1789614900000",
@@ -22908,6 +22911,7 @@
   "lev": 21,
   "signalTime": 1789941600000,
   "status": "pending",
-  "createdAt": 1789941647769
+  "createdAt": 1789941647769,
+  "notified": []
  }
 ]
