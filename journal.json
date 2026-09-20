@@ -22639,7 +22639,8 @@
   "lev": 5,
   "signalTime": 1789913700000,
   "status": "pending",
-  "createdAt": 1789913735516
+  "createdAt": 1789913735516,
+  "notified": []
  },
  {
   "id": "EPICUSDT::LONG::ChoCh::1789913700000",
@@ -22655,7 +22656,12 @@
   "rr": 1.62,
   "lev": 6,
   "signalTime": 1789913700000,
-  "status": "pending",
-  "createdAt": 1789913735516
+  "status": "void",
+  "createdAt": 1789913735516,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789913700000,
+  "notified": [
+   "void"
+  ]
  }
 ]
