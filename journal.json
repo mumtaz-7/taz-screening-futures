@@ -22403,9 +22403,12 @@
   "rr": 4.3,
   "lev": 25,
   "signalTime": 1789889400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789889444257,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "INJUSDT::LONG::ChoCh::1789889400000",
