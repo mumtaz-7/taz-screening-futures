@@ -2,7 +2,8 @@
   "ready": [
     "AVAXUSDT::LONG::ChoCh",
     "BCHUSDT::SHORT::BoS",
+    "ENAUSDT::LONG::BoS",
     "XTZUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-20T08:15:33.677Z"
+  "at": "2026-09-20T08:30:43.759Z"
 }
