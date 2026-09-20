@@ -22262,9 +22262,12 @@
   "rr": 2.83,
   "lev": 15,
   "signalTime": 1789873200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789873246669,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "PENGUUSDT::SHORT::BoS::1789873200000",
@@ -22280,9 +22283,12 @@
   "rr": 2.67,
   "lev": 14,
   "signalTime": 1789873200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789873246669,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "RAYUSDT::SHORT::ChoCh::1789873200000",
@@ -22298,9 +22304,12 @@
   "rr": 3.55,
   "lev": 16,
   "signalTime": 1789873200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789873246669,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "HEIUSDT::LONG::ChoCh::1789880400000",
@@ -22442,9 +22451,12 @@
   "rr": 3.18,
   "lev": 12,
   "signalTime": 1789892100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789892133678,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789894800000
  },
  {
   "id": "ENAUSDT::LONG::BoS::1789893000000",
@@ -22466,5 +22478,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GUNUSDT::LONG::BoS::1789895700000",
+  "symbol": "GUNUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00311,
+  "sl": 0.0027500000000000003,
+  "tp": 0.0037,
+  "tpSrc": "WH",
+  "slPct": 11.58,
+  "gainPct": 18.97,
+  "rr": 1.64,
+  "lev": 5,
+  "signalTime": 1789895700000,
+  "status": "pending",
+  "createdAt": 1789895736115
  }
 ]
