@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ZENUSDT::LONG::ChoCh"
+    "CAKEUSDT::LONG::ChoCh",
+    "INJUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-20T07:15:38.511Z"
+  "at": "2026-09-20T07:30:44.190Z"
 }

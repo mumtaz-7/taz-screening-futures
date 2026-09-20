@@ -22361,5 +22361,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CAKEUSDT::LONG::ChoCh::1789889400000",
+  "symbol": "CAKEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 2.332,
+  "sl": 2.2795000000000005,
+  "tp": 2.558,
+  "tpSrc": "WH",
+  "slPct": 2.25,
+  "gainPct": 9.69,
+  "rr": 4.3,
+  "lev": 25,
+  "signalTime": 1789889400000,
+  "status": "pending",
+  "createdAt": 1789889444257
+ },
+ {
+  "id": "INJUSDT::LONG::ChoCh::1789889400000",
+  "symbol": "INJUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 7.659,
+  "sl": 7.2540000000000004,
+  "tp": 8.349,
+  "tpSrc": "WH",
+  "slPct": 5.29,
+  "gainPct": 9.01,
+  "rr": 1.7,
+  "lev": 11,
+  "signalTime": 1789889400000,
+  "status": "pending",
+  "createdAt": 1789889444257
  }
 ]
