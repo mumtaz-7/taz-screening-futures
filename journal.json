@@ -22313,5 +22313,22 @@
    "open"
   ],
   "fillTime": 1789881300000
+ },
+ {
+  "id": "ZENUSDT::LONG::ChoCh::1789884000000",
+  "symbol": "ZENUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 7.701,
+  "sl": 7.5525,
+  "tp": 8.593,
+  "tpSrc": "WH",
+  "slPct": 1.93,
+  "gainPct": 11.58,
+  "rr": 6.01,
+  "lev": 25,
+  "signalTime": 1789884000000,
+  "status": "pending",
+  "createdAt": 1789884049237
  }
 ]
