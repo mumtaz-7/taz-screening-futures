@@ -22629,9 +22629,12 @@
   "rr": 8.31,
   "lev": 18,
   "signalTime": 1789910100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789910132960,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789921800000
  },
  {
   "id": "CELRUSDT::LONG::ChoCh::1789913700000",
