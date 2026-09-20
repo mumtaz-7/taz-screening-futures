@@ -1,9 +1,8 @@
 {
   "ready": [
     "ARBUSDT::SHORT::BoS",
-    "ARUSDT::LONG::ChoCh",
     "GUSDT::LONG::BoS",
     "SAGAUSDT::LONG::BoS"
   ],
-  "at": "2026-09-20T01:00:46.466Z"
+  "at": "2026-09-20T01:15:32.518Z"
 }
