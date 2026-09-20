@@ -22702,9 +22702,12 @@
   "rr": 4.1,
   "lev": 23,
   "signalTime": 1789917300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1789917335316,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "FUSDT::LONG::ChoCh::1789917300000",
@@ -22880,7 +22883,11 @@
   "rr": 7.97,
   "lev": 25,
   "signalTime": 1789938900000,
-  "status": "pending",
-  "createdAt": 1789938933553
+  "status": "open",
+  "createdAt": 1789938933553,
+  "fillTime": 1789938900000,
+  "notified": [
+   "open"
+  ]
  }
 ]
