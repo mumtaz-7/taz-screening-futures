@@ -22760,5 +22760,22 @@
   "status": "pending",
   "createdAt": 1789920935212,
   "notified": []
+ },
+ {
+  "id": "RENDERUSDT::LONG::BoS::1789926300000",
+  "symbol": "RENDERUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1.601,
+  "sl": 1.4569999999999999,
+  "tp": 1.757,
+  "tpSrc": "WH",
+  "slPct": 8.99,
+  "gainPct": 9.74,
+  "rr": 1.08,
+  "lev": 7,
+  "signalTime": 1789926300000,
+  "status": "pending",
+  "createdAt": 1789926334317
  }
 ]
