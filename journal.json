@@ -21891,12 +21891,15 @@
   "rr": 5.39,
   "lev": 25,
   "signalTime": 1789826400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789826446285,
   "fillTime": 1789826400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789871400000
  },
  {
   "id": "CUSDT::LONG::BoS::1789829100000",
@@ -22202,5 +22205,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PROMUSDT::SHORT::BoS::1789872300000",
+  "symbol": "PROMUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 5.229,
+  "sl": 5.371499999999999,
+  "tp": 4.78,
+  "tpSrc": "OB",
+  "slPct": 2.73,
+  "gainPct": 8.59,
+  "rr": 3.15,
+  "lev": 21,
+  "signalTime": 1789872300000,
+  "status": "pending",
+  "createdAt": 1789872334371
  }
 ]
