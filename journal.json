@@ -22223,12 +22223,15 @@
   "rr": 1.02,
   "lev": 6,
   "signalTime": 1789870500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789870535798,
   "fillTime": 1789870500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.02,
+  "resolvedTime": 1789908300000
  },
  {
   "id": "PROMUSDT::SHORT::BoS::1789872300000",
