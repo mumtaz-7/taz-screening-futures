@@ -22942,7 +22942,8 @@
   "lev": 13,
   "signalTime": 1789947000000,
   "status": "pending",
-  "createdAt": 1789947041188
+  "createdAt": 1789947041188,
+  "notified": []
  },
  {
   "id": "LUNAUSDT::LONG::BoS::1789947000000",
@@ -22959,6 +22960,24 @@
   "lev": 8,
   "signalTime": 1789947000000,
   "status": "pending",
-  "createdAt": 1789947041188
+  "createdAt": 1789947041188,
+  "notified": []
+ },
+ {
+  "id": "GUNUSDT::LONG::ChoCh::1789947900000",
+  "symbol": "GUNUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00294,
+  "sl": 0.0028200000000000005,
+  "tp": 0.0033,
+  "tpSrc": "EQ",
+  "slPct": 4.08,
+  "gainPct": 12.24,
+  "rr": 3,
+  "lev": 15,
+  "signalTime": 1789947900000,
+  "status": "pending",
+  "createdAt": 1789947934329
  }
 ]
