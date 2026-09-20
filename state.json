@@ -2,7 +2,8 @@
   "ready": [
     "BERAUSDT::LONG::ChoCh",
     "FUSDT::LONG::ChoCh",
+    "SAGAUSDT::LONG::BoS",
     "XTZUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-20T15:30:40.938Z"
+  "at": "2026-09-20T15:45:41.938Z"
 }

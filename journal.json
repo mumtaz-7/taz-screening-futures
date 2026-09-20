@@ -22714,5 +22714,22 @@
   "status": "pending",
   "createdAt": 1789917335316,
   "notified": []
+ },
+ {
+  "id": "SAGAUSDT::LONG::BoS::1789919100000",
+  "symbol": "SAGAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.02977,
+  "sl": 0.026695000000000003,
+  "tp": 0.03345,
+  "tpSrc": "WH",
+  "slPct": 10.33,
+  "gainPct": 12.36,
+  "rr": 1.2,
+  "lev": 6,
+  "signalTime": 1789919100000,
+  "status": "pending",
+  "createdAt": 1789919141939
  }
 ]
