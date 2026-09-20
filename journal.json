@@ -21562,12 +21562,15 @@
   "rr": 3.33,
   "lev": 11,
   "signalTime": 1789791300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789791332539,
   "fillTime": 1789791300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.33,
+  "resolvedTime": 1789915500000
  },
  {
   "id": "ARUSDT::LONG::BoS::1789794000000",
