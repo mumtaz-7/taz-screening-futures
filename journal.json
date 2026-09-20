@@ -22181,5 +22181,22 @@
    "open"
   ],
   "fillTime": 1789866900000
+ },
+ {
+  "id": "ZAMAUSDT::LONG::ChoCh::1789870500000",
+  "symbol": "ZAMAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.08468,
+  "sl": 0.07677499999999998,
+  "tp": 0.09275,
+  "tpSrc": "WH",
+  "slPct": 9.34,
+  "gainPct": 9.53,
+  "rr": 1.02,
+  "lev": 6,
+  "signalTime": 1789870500000,
+  "status": "pending",
+  "createdAt": 1789870535798
  }
 ]
