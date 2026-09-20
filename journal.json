@@ -22896,12 +22896,15 @@
   "rr": 7.97,
   "lev": 25,
   "signalTime": 1789938900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789938933553,
   "fillTime": 1789938900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789946100000
  },
  {
   "id": "ONGUSDT::LONG::ChoCh::1789941600000",
@@ -22923,5 +22926,39 @@
    "open"
   ],
   "fillTime": 1789942500000
+ },
+ {
+  "id": "GUSDT::SHORT::ChoCh::1789947000000",
+  "symbol": "GUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.00671,
+  "sl": 0.007010000000000001,
+  "tp": 0.00444,
+  "tpSrc": "OB",
+  "slPct": 4.47,
+  "gainPct": 33.83,
+  "rr": 7.57,
+  "lev": 13,
+  "signalTime": 1789947000000,
+  "status": "pending",
+  "createdAt": 1789947041188
+ },
+ {
+  "id": "LUNAUSDT::LONG::BoS::1789947000000",
+  "symbol": "LUNAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0569,
+  "sl": 0.052849999999999994,
+  "tp": 0.0657,
+  "tpSrc": "WH",
+  "slPct": 7.12,
+  "gainPct": 15.47,
+  "rr": 2.17,
+  "lev": 8,
+  "signalTime": 1789947000000,
+  "status": "pending",
+  "createdAt": 1789947041188
  }
 ]
