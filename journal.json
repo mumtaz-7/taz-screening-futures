@@ -22635,12 +22635,15 @@
   "rr": 8.31,
   "lev": 18,
   "signalTime": 1789910100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789910132960,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789921800000
+  "fillTime": 1789921800000,
+  "R": -1,
+  "resolvedTime": 1789940700000
  },
  {
   "id": "CELRUSDT::LONG::ChoCh::1789913700000",
@@ -22889,5 +22892,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ONGUSDT::LONG::ChoCh::1789941600000",
+  "symbol": "ONGUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0864,
+  "sl": 0.08399999999999999,
+  "tp": 0.09539,
+  "tpSrc": "WH",
+  "slPct": 2.78,
+  "gainPct": 10.41,
+  "rr": 3.75,
+  "lev": 21,
+  "signalTime": 1789941600000,
+  "status": "pending",
+  "createdAt": 1789941647769
  }
 ]
