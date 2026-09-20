@@ -22133,9 +22133,12 @@
   "rr": 1.11,
   "lev": 4,
   "signalTime": 1789863300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789863334405,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789865100000
  },
  {
   "id": "AVAXUSDT::LONG::BoS::1789865100000",
@@ -22152,6 +22155,24 @@
   "lev": 16,
   "signalTime": 1789865100000,
   "status": "pending",
-  "createdAt": 1789865132240
+  "createdAt": 1789865132240,
+  "notified": []
+ },
+ {
+  "id": "ARBUSDT::SHORT::BoS::1789866000000",
+  "symbol": "ARBUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.2029,
+  "sl": 0.2128,
+  "tp": 0.1522,
+  "tpSrc": "OB",
+  "slPct": 4.88,
+  "gainPct": 24.99,
+  "rr": 5.12,
+  "lev": 12,
+  "signalTime": 1789866000000,
+  "status": "pending",
+  "createdAt": 1789866046467
  }
 ]
