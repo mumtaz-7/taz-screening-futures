@@ -22154,9 +22154,12 @@
   "rr": 2.71,
   "lev": 16,
   "signalTime": 1789865100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789865132240,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789867800000
  },
  {
   "id": "ARBUSDT::SHORT::BoS::1789866000000",
