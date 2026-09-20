@@ -2,8 +2,9 @@
   "ready": [
     "BERAUSDT::LONG::ChoCh",
     "FUSDT::LONG::ChoCh",
+    "MORPHOUSDT::LONG::ChoCh",
     "SAGAUSDT::LONG::BoS",
     "XTZUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-20T16:00:46.806Z"
+  "at": "2026-09-20T16:15:35.211Z"
 }

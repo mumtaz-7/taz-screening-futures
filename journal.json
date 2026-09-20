@@ -22736,5 +22736,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "MORPHOUSDT::LONG::ChoCh::1789920900000",
+  "symbol": "MORPHOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 2.53,
+  "sl": 2.455,
+  "tp": 2.82,
+  "tpSrc": "WH",
+  "slPct": 2.96,
+  "gainPct": 11.46,
+  "rr": 3.87,
+  "lev": 20,
+  "signalTime": 1789920900000,
+  "status": "pending",
+  "createdAt": 1789920935212
  }
 ]
