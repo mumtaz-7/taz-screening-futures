@@ -21629,12 +21629,15 @@
   "rr": 4.07,
   "lev": 19,
   "signalTime": 1789794900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789794936107,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789796700000
+  "fillTime": 1789796700000,
+  "R": -1,
+  "resolvedTime": 1789909200000
  },
  {
   "id": "REDUSDT::LONG::ChoCh::1789797600000",
@@ -22590,11 +22593,31 @@
   "rr": 1.98,
   "lev": 10,
   "signalTime": 1789906500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789906534127,
   "fillTime": 1789906500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789909200000
+ },
+ {
+  "id": "ARBUSDT::SHORT::ChoCh::1789910100000",
+  "symbol": "ARBUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.2108,
+  "sl": 0.21785,
+  "tp": 0.1522,
+  "tpSrc": "OB",
+  "slPct": 3.34,
+  "gainPct": 27.8,
+  "rr": 8.31,
+  "lev": 18,
+  "signalTime": 1789910100000,
+  "status": "pending",
+  "createdAt": 1789910132960
  }
 ]
