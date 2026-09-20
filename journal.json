@@ -22445,12 +22445,15 @@
   "rr": 4.29,
   "lev": 21,
   "signalTime": 1789892100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789892133678,
   "fillTime": 1789892100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 4.29,
+  "resolvedTime": 1789914600000
  },
  {
   "id": "XTZUSDT::LONG::ChoCh::1789892100000",
@@ -22530,12 +22533,15 @@
   "rr": 2.31,
   "lev": 14,
   "signalTime": 1789897500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789897533451,
   "fillTime": 1789897500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.31,
+  "resolvedTime": 1789914600000
  },
  {
   "id": "ZENUSDT::LONG::BoS::1789897500000",
@@ -22638,9 +22644,12 @@
   "rr": 1.84,
   "lev": 5,
   "signalTime": 1789913700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789913735516,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789914600000
  },
  {
   "id": "EPICUSDT::LONG::ChoCh::1789913700000",
