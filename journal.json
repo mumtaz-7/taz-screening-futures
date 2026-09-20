@@ -22019,12 +22019,15 @@
   "rr": 1.46,
   "lev": 7,
   "signalTime": 1789839900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789839934397,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789840800000
+  "fillTime": 1789840800000,
+  "R": 1.46,
+  "resolvedTime": 1789938000000
  },
  {
   "id": "LSKUSDT::SHORT::BoS::1789845300000",
@@ -22717,9 +22720,12 @@
   "rr": 7.57,
   "lev": 23,
   "signalTime": 1789917300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789917335316,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789938000000
  },
  {
   "id": "SAGAUSDT::LONG::BoS::1789919100000",
@@ -22853,7 +22859,28 @@
   "rr": 4.97,
   "lev": 25,
   "signalTime": 1789938000000,
+  "status": "open",
+  "createdAt": 1789938047240,
+  "fillTime": 1789938000000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "BCHUSDT::SHORT::BoS::1789938900000",
+  "symbol": "BCHUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 249.9,
+  "sl": 253.5,
+  "tp": 221.2,
+  "tpSrc": "OB",
+  "slPct": 1.44,
+  "gainPct": 11.48,
+  "rr": 7.97,
+  "lev": 25,
+  "signalTime": 1789938900000,
   "status": "pending",
-  "createdAt": 1789938047240
+  "createdAt": 1789938933553
  }
 ]
