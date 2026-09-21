@@ -23367,8 +23367,13 @@
   "rr": 5.1,
   "lev": 24,
   "signalTime": 1789983900000,
-  "status": "pending",
-  "createdAt": 1789984063822
+  "status": "void",
+  "createdAt": 1789984063822,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789983900000,
+  "notified": [
+   "void"
+  ]
  },
  {
   "id": "PROVEUSDT::LONG::ChoCh::1789983900000",
@@ -23384,7 +23389,11 @@
   "rr": 4.49,
   "lev": 16,
   "signalTime": 1789983900000,
-  "status": "pending",
-  "createdAt": 1789984063822
+  "status": "open",
+  "createdAt": 1789984063822,
+  "fillTime": 1789983900000,
+  "notified": [
+   "open"
+  ]
  }
 ]
