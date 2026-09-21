@@ -23208,8 +23208,12 @@
   "rr": 2.19,
   "lev": 12,
   "signalTime": 1789971300000,
-  "status": "pending",
-  "createdAt": 1789971334183
+  "status": "open",
+  "createdAt": 1789971334183,
+  "fillTime": 1789971300000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "SAGAUSDT::LONG::BoS::1789971300000",
@@ -23225,7 +23229,30 @@
   "rr": 2.51,
   "lev": 10,
   "signalTime": 1789971300000,
+  "status": "loss",
+  "createdAt": 1789971334183,
+  "R": -1,
+  "fillTime": 1789971300000,
+  "resolvedTime": 1789971300000,
+  "notified": [
+   "loss"
+  ]
+ },
+ {
+  "id": "NILUSDT::LONG::BoS::1789972200000",
+  "symbol": "NILUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0644,
+  "sl": 0.05877500000000001,
+  "tp": 0.075,
+  "tpSrc": "WH",
+  "slPct": 8.73,
+  "gainPct": 16.46,
+  "rr": 1.88,
+  "lev": 7,
+  "signalTime": 1789972200000,
   "status": "pending",
-  "createdAt": 1789971334183
+  "createdAt": 1789972245393
  }
 ]

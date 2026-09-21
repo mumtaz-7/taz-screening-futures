@@ -1,7 +1,8 @@
 {
   "ready": [
+    "NILUSDT::LONG::BoS",
     "RAYUSDT::SHORT::BoS",
     "SAGAUSDT::LONG::BoS"
   ],
-  "at": "2026-09-21T06:15:34.182Z"
+  "at": "2026-09-21T06:30:45.354Z"
 }
