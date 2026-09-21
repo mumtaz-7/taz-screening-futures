@@ -1,8 +1,7 @@
 {
   "ready": [
-    "ENSOUSDT::LONG::BoS",
-    "FILUSDT::LONG::ChoCh",
+    "XTZUSDT::LONG::BoS",
     "ZILUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-21T01:30:42.358Z"
+  "at": "2026-09-21T01:45:35.886Z"
 }

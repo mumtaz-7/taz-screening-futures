@@ -22944,12 +22944,15 @@
   "rr": 7.57,
   "lev": 13,
   "signalTime": 1789947000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789947041188,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789948800000
+  "fillTime": 1789948800000,
+  "R": -1,
+  "resolvedTime": 1789954200000
  },
  {
   "id": "LUNAUSDT::LONG::BoS::1789947000000",
@@ -23079,5 +23082,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "XTZUSDT::LONG::BoS::1789955100000",
+  "symbol": "XTZUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.3526,
+  "sl": 0.3409,
+  "tp": 0.4025,
+  "tpSrc": "WH",
+  "slPct": 3.32,
+  "gainPct": 14.15,
+  "rr": 4.26,
+  "lev": 18,
+  "signalTime": 1789955100000,
+  "status": "pending",
+  "createdAt": 1789955135887
  }
 ]
