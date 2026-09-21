@@ -22941,9 +22941,12 @@
   "rr": 7.57,
   "lev": 13,
   "signalTime": 1789947000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789947041188,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789948800000
  },
  {
   "id": "LUNAUSDT::LONG::BoS::1789947000000",
@@ -22959,12 +22962,15 @@
   "rr": 2.17,
   "lev": 8,
   "signalTime": 1789947000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789947041188,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789947900000
+  "fillTime": 1789947900000,
+  "R": -1,
+  "resolvedTime": 1789948800000
  },
  {
   "id": "GUNUSDT::LONG::ChoCh::1789947900000",
@@ -23001,7 +23007,45 @@
   "rr": 1.07,
   "lev": 4,
   "signalTime": 1789948800000,
+  "status": "open",
+  "createdAt": 1789948852523,
+  "fillTime": 1789948800000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ENSOUSDT::LONG::BoS::1789949700000",
+  "symbol": "ENSOUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1.031,
+  "sl": 0.9635,
+  "tp": 1.17,
+  "tpSrc": "WH",
+  "slPct": 6.55,
+  "gainPct": 13.48,
+  "rr": 2.06,
+  "lev": 9,
+  "signalTime": 1789949700000,
   "status": "pending",
-  "createdAt": 1789948852523
+  "createdAt": 1789949752523
+ },
+ {
+  "id": "FILUSDT::LONG::ChoCh::1789949700000",
+  "symbol": "FILUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.9534,
+  "sl": 0.9267,
+  "tp": 1.1342,
+  "tpSrc": "WH",
+  "slPct": 2.8,
+  "gainPct": 18.96,
+  "rr": 6.77,
+  "lev": 21,
+  "signalTime": 1789949700000,
+  "status": "pending",
+  "createdAt": 1789949752523
  }
 ]
