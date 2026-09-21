@@ -23596,5 +23596,22 @@
   "status": "pending",
   "createdAt": 1790021737901,
   "notified": []
+ },
+ {
+  "id": "GUSDT::SHORT::BoS::1790023500000",
+  "symbol": "GUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0064,
+  "sl": 0.0067150000000000005,
+  "tp": 0.00444,
+  "tpSrc": "OB",
+  "slPct": 4.92,
+  "gainPct": 30.62,
+  "rr": 6.22,
+  "lev": 12,
+  "signalTime": 1790023500000,
+  "status": "pending",
+  "createdAt": 1790023534819
  }
 ]
