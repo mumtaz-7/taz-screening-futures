@@ -23273,12 +23273,15 @@
   "rr": 4.68,
   "lev": 25,
   "signalTime": 1789976700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789976735112,
   "fillTime": 1789976700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789979400000
  },
  {
   "id": "ZILUSDT::LONG::BoS::1789978500000",
@@ -23300,5 +23303,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "FFUSDT::LONG::BoS::1789980300000",
+  "symbol": "FFUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.13038,
+  "sl": 0.12477,
+  "tp": 0.18484,
+  "tpSrc": "WH",
+  "slPct": 4.3,
+  "gainPct": 41.77,
+  "rr": 9.71,
+  "lev": 14,
+  "signalTime": 1789980300000,
+  "status": "pending",
+  "createdAt": 1789980332824
  }
 ]
