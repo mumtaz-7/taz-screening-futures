@@ -23617,5 +23617,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PENDLEUSDT::SHORT::ChoCh::1790028900000",
+  "symbol": "PENDLEUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 2.534,
+  "sl": 2.57,
+  "tp": 2.346,
+  "tpSrc": "OB",
+  "slPct": 1.42,
+  "gainPct": 7.42,
+  "rr": 5.22,
+  "lev": 25,
+  "signalTime": 1790028900000,
+  "status": "pending",
+  "createdAt": 1790028939588
  }
 ]
