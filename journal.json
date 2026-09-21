@@ -23578,5 +23578,22 @@
    "open"
   ],
   "fillTime": 1790019900000
+ },
+ {
+  "id": "MINAUSDT::LONG::BoS::1790021700000",
+  "symbol": "MINAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1251,
+  "sl": 0.11715,
+  "tp": 0.1363,
+  "tpSrc": "WH",
+  "slPct": 6.35,
+  "gainPct": 8.95,
+  "rr": 1.41,
+  "lev": 9,
+  "signalTime": 1790021700000,
+  "status": "pending",
+  "createdAt": 1790021737901
  }
 ]
