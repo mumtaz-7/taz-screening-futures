@@ -22596,12 +22596,15 @@
   "rr": 4.71,
   "lev": 19,
   "signalTime": 1789901100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789901133605,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789904700000
+  "fillTime": 1789904700000,
+  "R": 4.71,
+  "resolvedTime": 1790007300000
  },
  {
   "id": "EPICUSDT::LONG::BoS::1789906500000",
@@ -22884,12 +22887,15 @@
   "rr": 4.97,
   "lev": 25,
   "signalTime": 1789938000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789938047240,
   "fillTime": 1789938000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 4.97,
+  "resolvedTime": 1790007300000
  },
  {
   "id": "BCHUSDT::SHORT::BoS::1789938900000",
