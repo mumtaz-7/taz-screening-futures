@@ -23211,12 +23211,15 @@
   "rr": 2.19,
   "lev": 12,
   "signalTime": 1789971300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789971334183,
   "fillTime": 1789971300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789980300000
  },
  {
   "id": "SAGAUSDT::LONG::BoS::1789971300000",
@@ -23318,7 +23321,11 @@
   "rr": 9.71,
   "lev": 14,
   "signalTime": 1789980300000,
-  "status": "pending",
-  "createdAt": 1789980332824
+  "status": "open",
+  "createdAt": 1789980332824,
+  "fillTime": 1789980300000,
+  "notified": [
+   "open"
+  ]
  }
 ]
