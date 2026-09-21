@@ -23548,9 +23548,12 @@
   "rr": 1.77,
   "lev": 8,
   "signalTime": 1790010000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790010054241,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790016300000
  },
  {
   "id": "牛来USDT::SHORT::BoS::1790010900000",
