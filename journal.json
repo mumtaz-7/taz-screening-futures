@@ -23279,5 +23279,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ZILUSDT::LONG::BoS::1789978500000",
+  "symbol": "ZILUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.003516,
+  "sl": 0.003447,
+  "tp": 0.004108,
+  "tpSrc": "OB",
+  "slPct": 1.96,
+  "gainPct": 16.84,
+  "rr": 8.58,
+  "lev": 25,
+  "signalTime": 1789978500000,
+  "status": "pending",
+  "createdAt": 1789978534277
  }
 ]
