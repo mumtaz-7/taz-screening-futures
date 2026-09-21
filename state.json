@@ -1,8 +1,9 @@
 {
   "ready": [
     "FFUSDT::LONG::BoS",
+    "MUBARAKUSDT::LONG::ChoCh",
     "PHAUSDT::LONG::BoS",
-    "ZILUSDT::LONG::BoS"
+    "PROVEUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-21T09:30:41.771Z"
+  "at": "2026-09-21T09:47:43.821Z"
 }

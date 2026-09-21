@@ -23345,7 +23345,46 @@
   "rr": 1.45,
   "lev": 4,
   "signalTime": 1789983000000,
+  "status": "void",
+  "createdAt": 1789983041772,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1789983000000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "MUBARAKUSDT::LONG::ChoCh::1789983900000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.03429,
+  "sl": 0.033464999999999995,
+  "tp": 0.0385,
+  "tpSrc": "WH",
+  "slPct": 2.41,
+  "gainPct": 12.28,
+  "rr": 5.1,
+  "lev": 24,
+  "signalTime": 1789983900000,
   "status": "pending",
-  "createdAt": 1789983041772
+  "createdAt": 1789984063822
+ },
+ {
+  "id": "PROVEUSDT::LONG::ChoCh::1789983900000",
+  "symbol": "PROVEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.2398,
+  "sl": 0.23095,
+  "tp": 0.2795,
+  "tpSrc": "WH",
+  "slPct": 3.69,
+  "gainPct": 16.56,
+  "rr": 4.49,
+  "lev": 16,
+  "signalTime": 1789983900000,
+  "status": "pending",
+  "createdAt": 1789984063822
  }
 ]
