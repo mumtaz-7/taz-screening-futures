@@ -23106,5 +23106,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "AVAUSDT::SHORT::BoS::1789958700000",
+  "symbol": "AVAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.2317,
+  "sl": 0.25075000000000003,
+  "tp": 0.178,
+  "tpSrc": "OB",
+  "slPct": 8.22,
+  "gainPct": 23.18,
+  "rr": 2.82,
+  "lev": 7,
+  "signalTime": 1789958700000,
+  "status": "pending",
+  "createdAt": 1789958733635
  }
 ]
