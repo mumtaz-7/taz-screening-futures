@@ -23151,12 +23151,15 @@
   "rr": 1.33,
   "lev": 7,
   "signalTime": 1789959600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789959647434,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789963200000
+  "fillTime": 1789963200000,
+  "R": 1.33,
+  "resolvedTime": 1790000100000
  },
  {
   "id": "FTTUSDT::LONG::ChoCh::1789961400000",
@@ -23470,5 +23473,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ONEUSDT::LONG::BoS::1790001000000",
+  "symbol": "ONEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.004696,
+  "sl": 0.004225,
+  "tp": 0.005191,
+  "tpSrc": "WH",
+  "slPct": 10.03,
+  "gainPct": 10.54,
+  "rr": 1.05,
+  "lev": 6,
+  "signalTime": 1790001000000,
+  "status": "pending",
+  "createdAt": 1790001045052
  }
 ]
