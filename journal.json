@@ -23145,5 +23145,22 @@
   "status": "pending",
   "createdAt": 1789959647434,
   "notified": []
+ },
+ {
+  "id": "FTTUSDT::LONG::ChoCh::1789961400000",
+  "symbol": "FTTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.2978,
+  "sl": 0.25295,
+  "tp": 0.3462,
+  "tpSrc": "WH",
+  "slPct": 15.06,
+  "gainPct": 16.25,
+  "rr": 1.08,
+  "lev": 4,
+  "signalTime": 1789961400000,
+  "status": "pending",
+  "createdAt": 1789961442200
  }
 ]
