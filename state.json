@@ -1,6 +1,7 @@
 {
   "ready": [
-    "CELRUSDT::LONG::ChoCh"
+    "CELRUSDT::LONG::ChoCh",
+    "NILUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-21T15:15:35.549Z"
+  "at": "2026-09-21T15:30:41.735Z"
 }
