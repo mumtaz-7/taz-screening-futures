@@ -21103,12 +21103,15 @@
   "rr": 2.83,
   "lev": 20,
   "signalTime": 1789713000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789713042733,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789719300000
+  "fillTime": 1789719300000,
+  "R": 2.83,
+  "resolvedTime": 1789961400000
  },
  {
   "id": "STRKUSDT::LONG::BoS::1789718400000",
@@ -23160,7 +23163,11 @@
   "rr": 1.08,
   "lev": 4,
   "signalTime": 1789961400000,
-  "status": "pending",
-  "createdAt": 1789961442200
+  "status": "open",
+  "createdAt": 1789961442200,
+  "fillTime": 1789961400000,
+  "notified": [
+   "open"
+  ]
  }
 ]
