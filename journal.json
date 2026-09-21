@@ -23121,7 +23121,28 @@
   "rr": 2.82,
   "lev": 7,
   "signalTime": 1789958700000,
+  "status": "open",
+  "createdAt": 1789958733635,
+  "fillTime": 1789958700000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "CELRUSDT::LONG::ChoCh::1789959600000",
+  "symbol": "CELRUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.003333,
+  "sl": 0.003048,
+  "tp": 0.003712,
+  "tpSrc": "EQ",
+  "slPct": 8.55,
+  "gainPct": 11.37,
+  "rr": 1.33,
+  "lev": 7,
+  "signalTime": 1789959600000,
   "status": "pending",
-  "createdAt": 1789958733635
+  "createdAt": 1789959647434
  }
 ]
