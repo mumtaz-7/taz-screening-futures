@@ -23103,12 +23103,15 @@
   "rr": 4.26,
   "lev": 18,
   "signalTime": 1789955100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789955135887,
   "fillTime": 1789955100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1789975800000
  },
  {
   "id": "AVAUSDT::SHORT::BoS::1789958700000",
@@ -23255,5 +23258,22 @@
   "status": "pending",
   "createdAt": 1789972245393,
   "notified": []
+ },
+ {
+  "id": "DASHUSDT::SHORT::BoS::1789976700000",
+  "symbol": "DASHUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 56.9,
+  "sl": 58.025,
+  "tp": 51.64,
+  "tpSrc": "OB",
+  "slPct": 1.98,
+  "gainPct": 9.24,
+  "rr": 4.68,
+  "lev": 25,
+  "signalTime": 1789976700000,
+  "status": "pending",
+  "createdAt": 1789976735112
  }
 ]

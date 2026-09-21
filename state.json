@@ -1,7 +1,6 @@
 {
   "ready": [
-    "RAYUSDT::SHORT::BoS",
-    "SAGAUSDT::LONG::BoS"
+    "DASHUSDT::SHORT::BoS"
   ],
-  "at": "2026-09-21T07:30:43.924Z"
+  "at": "2026-09-21T07:45:35.111Z"
 }
