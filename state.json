@@ -1,8 +1,6 @@
 {
   "ready": [
-    "CELRUSDT::LONG::ChoCh",
-    "ONEUSDT::LONG::BoS",
-    "牛来USDT::SHORT::ChoCh"
+    "CELRUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-21T15:00:49.272Z"
+  "at": "2026-09-21T15:15:35.549Z"
 }
