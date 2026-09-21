@@ -2,7 +2,8 @@
   "ready": [
     "GUNUSDT::LONG::ChoCh",
     "GUSDT::SHORT::ChoCh",
-    "LUNAUSDT::LONG::BoS"
+    "LUNAUSDT::LONG::BoS",
+    "ONEUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-20T23:45:34.328Z"
+  "at": "2026-09-21T00:00:52.483Z"
 }
