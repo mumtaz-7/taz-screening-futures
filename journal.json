@@ -23632,8 +23632,28 @@
   "rr": 5.22,
   "lev": 25,
   "signalTime": 1790028900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790028939588,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790031600000
+ },
+ {
+  "id": "ARKMUSDT::LONG::BoS::1790032500000",
+  "symbol": "ARKMUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1263,
+  "sl": 0.12329999999999999,
+  "tp": 0.1366,
+  "tpSrc": "WH",
+  "slPct": 2.38,
+  "gainPct": 8.16,
+  "rr": 3.43,
+  "lev": 24,
+  "signalTime": 1790032500000,
+  "status": "pending",
+  "createdAt": 1790032535962
  }
 ]
