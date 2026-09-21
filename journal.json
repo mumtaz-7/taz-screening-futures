@@ -23543,6 +23543,24 @@
   "lev": 8,
   "signalTime": 1790010000000,
   "status": "pending",
-  "createdAt": 1790010054241
+  "createdAt": 1790010054241,
+  "notified": []
+ },
+ {
+  "id": "牛来USDT::SHORT::BoS::1790010900000",
+  "symbol": "牛来USDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.10622,
+  "sl": 0.11874500000000002,
+  "tp": 0.093,
+  "tpSrc": "WL",
+  "slPct": 11.79,
+  "gainPct": 12.45,
+  "rr": 1.06,
+  "lev": 5,
+  "signalTime": 1790010900000,
+  "status": "pending",
+  "createdAt": 1790010938091
  }
 ]
