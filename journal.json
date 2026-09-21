@@ -23130,12 +23130,15 @@
   "rr": 2.82,
   "lev": 7,
   "signalTime": 1789958700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789958733635,
   "fillTime": 1789958700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790001900000
  },
  {
   "id": "CELRUSDT::LONG::ChoCh::1789959600000",
