@@ -23052,9 +23052,12 @@
   "rr": 6.77,
   "lev": 21,
   "signalTime": 1789949700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789949752523,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789953300000
  },
  {
   "id": "ZILUSDT::LONG::ChoCh::1789950600000",
