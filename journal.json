@@ -23416,5 +23416,22 @@
   "status": "pending",
   "createdAt": 1789986641664,
   "notified": []
+ },
+ {
+  "id": "SUSDT::LONG::BoS::1789992000000",
+  "symbol": "SUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.03971,
+  "sl": 0.038645,
+  "tp": 0.0425,
+  "tpSrc": "WH",
+  "slPct": 2.68,
+  "gainPct": 7.03,
+  "rr": 2.62,
+  "lev": 22,
+  "signalTime": 1789992000000,
+  "status": "pending",
+  "createdAt": 1789992051681
  }
 ]
