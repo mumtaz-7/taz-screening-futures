@@ -23413,9 +23413,12 @@
   "rr": 4.86,
   "lev": 6,
   "signalTime": 1789986600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789986641664,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789992900000
  },
  {
   "id": "SUSDT::LONG::BoS::1789992000000",
