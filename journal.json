@@ -23261,9 +23261,12 @@
   "rr": 1.88,
   "lev": 7,
   "signalTime": 1789972200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1789972245393,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1789988400000
  },
  {
   "id": "DASHUSDT::SHORT::BoS::1789976700000",
