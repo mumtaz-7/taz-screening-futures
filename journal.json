@@ -23193,5 +23193,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "RAYUSDT::SHORT::BoS::1789971300000",
+  "symbol": "RAYUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 1.643,
+  "sl": 1.7285,
+  "tp": 1.4555,
+  "tpSrc": "OB",
+  "slPct": 5.2,
+  "gainPct": 11.41,
+  "rr": 2.19,
+  "lev": 12,
+  "signalTime": 1789971300000,
+  "status": "pending",
+  "createdAt": 1789971334183
+ },
+ {
+  "id": "SAGAUSDT::LONG::BoS::1789971300000",
+  "symbol": "SAGAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.03584,
+  "sl": 0.033725000000000005,
+  "tp": 0.04115,
+  "tpSrc": "WH",
+  "slPct": 5.9,
+  "gainPct": 14.82,
+  "rr": 2.51,
+  "lev": 10,
+  "signalTime": 1789971300000,
+  "status": "pending",
+  "createdAt": 1789971334183
  }
 ]
