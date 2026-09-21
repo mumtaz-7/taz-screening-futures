@@ -23028,8 +23028,12 @@
   "rr": 2.06,
   "lev": 9,
   "signalTime": 1789949700000,
-  "status": "pending",
-  "createdAt": 1789949752523
+  "status": "open",
+  "createdAt": 1789949752523,
+  "fillTime": 1789949700000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "FILUSDT::LONG::ChoCh::1789949700000",
@@ -23046,6 +23050,24 @@
   "lev": 21,
   "signalTime": 1789949700000,
   "status": "pending",
-  "createdAt": 1789949752523
+  "createdAt": 1789949752523,
+  "notified": []
+ },
+ {
+  "id": "ZILUSDT::LONG::ChoCh::1789950600000",
+  "symbol": "ZILUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.003558,
+  "sl": 0.0034365000000000003,
+  "tp": 0.004652,
+  "tpSrc": "WH",
+  "slPct": 3.41,
+  "gainPct": 30.75,
+  "rr": 9,
+  "lev": 17,
+  "signalTime": 1789950600000,
+  "status": "pending",
+  "createdAt": 1789950641593
  }
 ]
