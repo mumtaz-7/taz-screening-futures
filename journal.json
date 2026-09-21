@@ -22049,12 +22049,15 @@
   "rr": 1.96,
   "lev": 10,
   "signalTime": 1789845300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789845336436,
   "fillTime": 1789845300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.96,
+  "resolvedTime": 1790010900000
  },
  {
   "id": "AUSDT::LONG::BoS::1789850700000",
@@ -23521,12 +23524,15 @@
   "rr": 1.54,
   "lev": 7,
   "signalTime": 1790004600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790004641736,
   "fillTime": 1790004600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790010900000
  },
  {
   "id": "MARSCOINUSDT::SHORT::ChoCh::1790010000000",
@@ -23561,6 +23567,7 @@
   "lev": 5,
   "signalTime": 1790010900000,
   "status": "pending",
-  "createdAt": 1790010938091
+  "createdAt": 1790010938091,
+  "notified": []
  }
 ]
