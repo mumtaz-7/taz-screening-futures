@@ -22265,12 +22265,15 @@
   "rr": 3.15,
   "lev": 21,
   "signalTime": 1789872300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789872334371,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789873200000
+  "fillTime": 1789873200000,
+  "R": 3.15,
+  "resolvedTime": 1790068500000
  },
  {
   "id": "BCHUSDT::SHORT::BoS::1789873200000",
@@ -23927,7 +23930,11 @@
   "rr": 1.14,
   "lev": 8,
   "signalTime": 1790068500000,
-  "status": "pending",
-  "createdAt": 1790068537975
+  "status": "open",
+  "createdAt": 1790068537975,
+  "fillTime": 1790068500000,
+  "notified": [
+   "open"
+  ]
  }
 ]
