@@ -23190,12 +23190,15 @@
   "rr": 1.08,
   "lev": 4,
   "signalTime": 1789961400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789961442200,
   "fillTime": 1789961400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790052300000
  },
  {
   "id": "DASHUSDT::SHORT::ChoCh::1789966800000",
