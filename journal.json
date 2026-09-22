@@ -23765,7 +23765,8 @@
   "lev": 12,
   "signalTime": 1790054100000,
   "status": "pending",
-  "createdAt": 1790054134456
+  "createdAt": 1790054134456,
+  "notified": []
  },
  {
   "id": "RAYUSDT::SHORT::BoS::1790054100000",
@@ -23782,6 +23783,7 @@
   "lev": 12,
   "signalTime": 1790054100000,
   "status": "pending",
-  "createdAt": 1790054134456
+  "createdAt": 1790054134456,
+  "notified": []
  }
 ]
