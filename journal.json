@@ -23722,12 +23722,15 @@
   "rr": 2.49,
   "lev": 6,
   "signalTime": 1790045100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790045135288,
   "fillTime": 1790045100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790055000000
  },
  {
   "id": "DASHUSDT::SHORT::BoS::1790046900000",
@@ -23764,9 +23767,12 @@
   "rr": 2.01,
   "lev": 12,
   "signalTime": 1790054100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790054134456,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790055000000
  },
  {
   "id": "RAYUSDT::SHORT::BoS::1790054100000",
@@ -23785,5 +23791,22 @@
   "status": "pending",
   "createdAt": 1790054134456,
   "notified": []
+ },
+ {
+  "id": "SYNUSDT::LONG::ChoCh::1790055900000",
+  "symbol": "SYNUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.24692,
+  "sl": 0.22493,
+  "tp": 0.27342,
+  "tpSrc": "WH",
+  "slPct": 8.91,
+  "gainPct": 10.73,
+  "rr": 1.21,
+  "lev": 7,
+  "signalTime": 1790055900000,
+  "status": "pending",
+  "createdAt": 1790055934070
  }
 ]

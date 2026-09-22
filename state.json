@@ -2,7 +2,8 @@
   "ready": [
     "ALLOUSDT::LONG::ChoCh",
     "FTTUSDT::SHORT::BoS",
-    "RAYUSDT::SHORT::BoS"
+    "RAYUSDT::SHORT::BoS",
+    "SYNUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-22T05:30:44.821Z"
+  "at": "2026-09-22T05:45:34.069Z"
 }
