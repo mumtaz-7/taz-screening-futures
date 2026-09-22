@@ -24262,6 +24262,24 @@
   "lev": 25,
   "signalTime": 1790111700000,
   "status": "pending",
-  "createdAt": 1790111733785
+  "createdAt": 1790111733785,
+  "notified": []
+ },
+ {
+  "id": "NXPCUSDT::LONG::BoS::1790112600000",
+  "symbol": "NXPCUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.25,
+  "sl": 0.2455,
+  "tp": 0.2769,
+  "tpSrc": "WH",
+  "slPct": 1.8,
+  "gainPct": 10.76,
+  "rr": 5.98,
+  "lev": 25,
+  "signalTime": 1790112600000,
+  "status": "pending",
+  "createdAt": 1790112639195
  }
 ]
