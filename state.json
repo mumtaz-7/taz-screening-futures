@@ -1,8 +1,7 @@
 {
   "ready": [
     "DASHUSDT::SHORT::BoS",
-    "MARSCOINUSDT::SHORT::ChoCh",
-    "PHAUSDT::LONG::BoS"
+    "MARSCOINUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-09-22T04:00:48.372Z"
+  "at": "2026-09-22T04:15:34.713Z"
 }
