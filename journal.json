@@ -23957,5 +23957,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "FORMUSDT::LONG::ChoCh::1790074800000",
+  "symbol": "FORMUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.3273,
+  "sl": 0.29745,
+  "tp": 0.425,
+  "tpSrc": "WH",
+  "slPct": 9.12,
+  "gainPct": 29.85,
+  "rr": 3.27,
+  "lev": 7,
+  "signalTime": 1790074800000,
+  "status": "pending",
+  "createdAt": 1790074852592
  }
 ]
