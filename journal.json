@@ -23764,12 +23764,15 @@
   "rr": 2.21,
   "lev": 11,
   "signalTime": 1790046900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790046935408,
   "fillTime": 1790046900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790096400000
  },
  {
   "id": "ALLOUSDT::LONG::ChoCh::1790054100000",
@@ -24075,12 +24078,15 @@
   "rr": 5.72,
   "lev": 9,
   "signalTime": 1790086500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790086535767,
   "fillTime": 1790086500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790096400000
  },
  {
   "id": "INJUSDT::SHORT::ChoCh::1790088300000",
