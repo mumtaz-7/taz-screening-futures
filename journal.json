@@ -23842,5 +23842,22 @@
    "open"
   ],
   "fillTime": 1790059500000
+ },
+ {
+  "id": "USDEUSDT::SHORT::BoS::1790061300000",
+  "symbol": "USDEUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.9985,
+  "sl": 1.00105,
+  "tp": 0.9202,
+  "tpSrc": "WL",
+  "slPct": 0.26,
+  "gainPct": 7.84,
+  "rr": 30.71,
+  "lev": 25,
+  "signalTime": 1790061300000,
+  "status": "pending",
+  "createdAt": 1790061336176
  }
 ]
