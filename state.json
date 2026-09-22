@@ -1,8 +1,9 @@
 {
   "ready": [
+    "ARBUSDT::LONG::ChoCh",
     "GUSDT::SHORT::BoS",
     "NXPCUSDT::LONG::ChoCh",
     "TIAUSDT::LONG::BoS"
   ],
-  "at": "2026-09-22T20:15:40.198Z"
+  "at": "2026-09-22T20:30:44.210Z"
 }
