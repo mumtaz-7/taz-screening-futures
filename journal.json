@@ -22872,12 +22872,15 @@
   "rr": 3.13,
   "lev": 18,
   "signalTime": 1789932600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789932643971,
   "fillTime": 1789932600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790074800000
  },
  {
   "id": "TUTUSDT::LONG::BoS::1789938000000",
@@ -23972,7 +23975,28 @@
   "rr": 3.27,
   "lev": 7,
   "signalTime": 1790074800000,
+  "status": "open",
+  "createdAt": 1790074852592,
+  "fillTime": 1790074800000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "PYTHUSDT::SHORT::BoS::1790075700000",
+  "symbol": "PYTHUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0625,
+  "sl": 0.06394,
+  "tp": 0.05384,
+  "tpSrc": "OB",
+  "slPct": 2.3,
+  "gainPct": 13.86,
+  "rr": 6.01,
+  "lev": 25,
+  "signalTime": 1790075700000,
   "status": "pending",
-  "createdAt": 1790074852592
+  "createdAt": 1790075735478
  }
 ]
