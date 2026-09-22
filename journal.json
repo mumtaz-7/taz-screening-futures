@@ -24075,5 +24075,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "INJUSDT::SHORT::ChoCh::1790088300000",
+  "symbol": "INJUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 7.63,
+  "sl": 8.1655,
+  "tp": 6.789,
+  "tpSrc": "OB",
+  "slPct": 7.02,
+  "gainPct": 11.02,
+  "rr": 1.57,
+  "lev": 9,
+  "signalTime": 1790088300000,
+  "status": "pending",
+  "createdAt": 1790088335827
  }
 ]

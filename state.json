@@ -1,7 +1,7 @@
 {
   "ready": [
-    "ONEUSDT::LONG::ChoCh",
-    "XPLUSDT::LONG::ChoCh"
+    "INJUSDT::SHORT::ChoCh",
+    "ONEUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-22T14:30:40.377Z"
+  "at": "2026-09-22T14:45:35.826Z"
 }
