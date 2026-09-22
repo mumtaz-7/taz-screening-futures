@@ -24129,5 +24129,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MORPHOUSDT::LONG::BoS::1790099100000",
+  "symbol": "MORPHOUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 2.601,
+  "sl": 2.532,
+  "tp": 2.849,
+  "tpSrc": "WH",
+  "slPct": 2.65,
+  "gainPct": 9.53,
+  "rr": 3.59,
+  "lev": 22,
+  "signalTime": 1790099100000,
+  "status": "pending",
+  "createdAt": 1790099134346
  }
 ]
