@@ -23656,5 +23656,22 @@
   "status": "pending",
   "createdAt": 1790032535962,
   "notified": []
+ },
+ {
+  "id": "FTTUSDT::SHORT::BoS::1790037900000",
+  "symbol": "FTTUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.265,
+  "sl": 0.2905,
+  "tp": 0.2028,
+  "tpSrc": "OB",
+  "slPct": 9.62,
+  "gainPct": 23.47,
+  "rr": 2.44,
+  "lev": 6,
+  "signalTime": 1790037900000,
+  "status": "pending",
+  "createdAt": 1790037935717
  }
 ]
