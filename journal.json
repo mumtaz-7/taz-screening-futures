@@ -24099,5 +24099,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ARUSDT::SHORT::ChoCh::1790093700000",
+  "symbol": "ARUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 4.302,
+  "sl": 4.620000000000001,
+  "tp": 3.637,
+  "tpSrc": "OB",
+  "slPct": 7.39,
+  "gainPct": 15.46,
+  "rr": 2.09,
+  "lev": 8,
+  "signalTime": 1790093700000,
+  "status": "pending",
+  "createdAt": 1790093738665
  }
 ]
