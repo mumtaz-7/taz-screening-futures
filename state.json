@@ -1,6 +1,7 @@
 {
   "ready": [
-    "KERNELUSDT::LONG::ChoCh"
+    "KERNELUSDT::LONG::ChoCh",
+    "MARSCOINUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-22T08:00:50.043Z"
+  "at": "2026-09-22T08:15:34.755Z"
 }

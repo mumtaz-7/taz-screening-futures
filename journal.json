@@ -23560,12 +23560,15 @@
   "rr": 1.77,
   "lev": 8,
   "signalTime": 1790010000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790010054241,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790016300000
+  "fillTime": 1790016300000,
+  "R": -1,
+  "resolvedTime": 1790064000000
  },
  {
   "id": "牛来USDT::SHORT::BoS::1790010900000",
@@ -23797,9 +23800,12 @@
   "rr": 3.43,
   "lev": 12,
   "signalTime": 1790054100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790054134456,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790064000000
  },
  {
   "id": "SYNUSDT::LONG::ChoCh::1790055900000",
@@ -23884,5 +23890,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MARSCOINUSDT::LONG::ChoCh::1790064900000",
+  "symbol": "MARSCOINUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1008,
+  "sl": 0.09495,
+  "tp": 0.1161,
+  "tpSrc": "WH",
+  "slPct": 5.8,
+  "gainPct": 15.18,
+  "rr": 2.62,
+  "lev": 10,
+  "signalTime": 1790064900000,
+  "status": "pending",
+  "createdAt": 1790064934756
  }
 ]
