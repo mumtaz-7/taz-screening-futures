@@ -23863,5 +23863,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "KERNELUSDT::LONG::ChoCh::1790063100000",
+  "symbol": "KERNELUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.067,
+  "sl": 0.06069999999999999,
+  "tp": 0.0748,
+  "tpSrc": "WH",
+  "slPct": 9.4,
+  "gainPct": 11.64,
+  "rr": 1.24,
+  "lev": 6,
+  "signalTime": 1790063100000,
+  "status": "pending",
+  "createdAt": 1790063136199
  }
 ]
