@@ -2,9 +2,10 @@
   "ready": [
     "COOKIEUSDT::LONG::ChoCh",
     "KERNELUSDT::LONG::BoS",
-    "NXPCUSDT::LONG::BoS",
+    "ONEUSDT::LONG::ChoCh",
+    "SAGAUSDT::LONG::ChoCh",
     "STRKUSDT::SHORT::ChoCh",
     "XPLUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-22T22:45:33.663Z"
+  "at": "2026-09-22T23:00:46.846Z"
 }

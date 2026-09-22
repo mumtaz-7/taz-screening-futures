@@ -24348,7 +24348,45 @@
   "rr": 6,
   "lev": 24,
   "signalTime": 1790117100000,
+  "status": "open",
+  "createdAt": 1790117133705,
+  "fillTime": 1790117100000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ONEUSDT::LONG::ChoCh::1790118000000",
+  "symbol": "ONEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.003382,
+  "sl": 0.0031344999999999997,
+  "tp": 0.0040230000000000005,
+  "tpSrc": "EQ",
+  "slPct": 7.32,
+  "gainPct": 18.95,
+  "rr": 2.59,
+  "lev": 8,
+  "signalTime": 1790118000000,
   "status": "pending",
-  "createdAt": 1790117133705
+  "createdAt": 1790118046847
+ },
+ {
+  "id": "SAGAUSDT::LONG::ChoCh::1790118000000",
+  "symbol": "SAGAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.03996,
+  "sl": 0.03597,
+  "tp": 0.04492,
+  "tpSrc": "WH",
+  "slPct": 9.98,
+  "gainPct": 12.41,
+  "rr": 1.24,
+  "lev": 6,
+  "signalTime": 1790118000000,
+  "status": "pending",
+  "createdAt": 1790118046847
  }
 ]
