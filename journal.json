@@ -24261,9 +24261,12 @@
   "rr": 7.94,
   "lev": 25,
   "signalTime": 1790111700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790111733785,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790112600000
  },
  {
   "id": "NXPCUSDT::LONG::BoS::1790112600000",
@@ -24279,7 +24282,28 @@
   "rr": 5.98,
   "lev": 25,
   "signalTime": 1790112600000,
+  "status": "open",
+  "createdAt": 1790112639195,
+  "fillTime": 1790112600000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "KERNELUSDT::LONG::BoS::1790113500000",
+  "symbol": "KERNELUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0615,
+  "sl": 0.05715,
+  "tp": 0.0748,
+  "tpSrc": "WH",
+  "slPct": 7.07,
+  "gainPct": 21.63,
+  "rr": 3.06,
+  "lev": 9,
+  "signalTime": 1790113500000,
   "status": "pending",
-  "createdAt": 1790112639195
+  "createdAt": 1790113534331
  }
 ]
