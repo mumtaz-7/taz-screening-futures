@@ -2,8 +2,7 @@
   "ready": [
     "DASHUSDT::SHORT::BoS",
     "MARSCOINUSDT::SHORT::ChoCh",
-    "PHAUSDT::LONG::BoS",
-    "牛来USDT::SHORT::ChoCh"
+    "PHAUSDT::LONG::BoS"
   ],
-  "at": "2026-09-22T03:30:41.169Z"
+  "at": "2026-09-22T03:45:32.209Z"
 }
