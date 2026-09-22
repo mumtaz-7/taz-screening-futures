@@ -23939,12 +23939,15 @@
   "rr": 1.14,
   "lev": 8,
   "signalTime": 1790068500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790068537975,
   "fillTime": 1790068500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790089200000
  },
  {
   "id": "RAYUSDT::SHORT::ChoCh::1790073000000",
