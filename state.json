@@ -2,8 +2,7 @@
   "ready": [
     "ARBUSDT::LONG::ChoCh",
     "GUSDT::SHORT::BoS",
-    "NXPCUSDT::LONG::ChoCh",
-    "TIAUSDT::LONG::BoS"
+    "NXPCUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-22T20:45:35.156Z"
+  "at": "2026-09-22T21:00:48.499Z"
 }
