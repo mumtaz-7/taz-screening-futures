@@ -23936,5 +23936,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "RAYUSDT::SHORT::ChoCh::1790073000000",
+  "symbol": "RAYUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 1.7498,
+  "sl": 1.8401,
+  "tp": 1.576,
+  "tpSrc": "WL",
+  "slPct": 5.16,
+  "gainPct": 9.93,
+  "rr": 1.92,
+  "lev": 12,
+  "signalTime": 1790073000000,
+  "status": "pending",
+  "createdAt": 1790073042408
  }
 ]
