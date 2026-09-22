@@ -1,6 +1,8 @@
 {
   "ready": [
-    "BCHUSDT::LONG::BoS"
+    "BCHUSDT::LONG::BoS",
+    "FILUSDT::LONG::ChoCh",
+    "XPLUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-22T13:00:47.265Z"
+  "at": "2026-09-22T13:15:36.958Z"
 }

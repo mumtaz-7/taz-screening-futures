@@ -23893,12 +23893,15 @@
   "rr": 1.24,
   "lev": 6,
   "signalTime": 1790063100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790063136199,
   "fillTime": 1790063100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790082000000
  },
  {
   "id": "MARSCOINUSDT::LONG::ChoCh::1790064900000",
@@ -24027,5 +24030,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "XPLUSDT::LONG::ChoCh::1790082900000",
+  "symbol": "XPLUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.09458,
+  "sl": 0.091085,
+  "tp": 0.10497,
+  "tpSrc": "WH",
+  "slPct": 3.7,
+  "gainPct": 10.99,
+  "rr": 2.97,
+  "lev": 16,
+  "signalTime": 1790082900000,
+  "status": "pending",
+  "createdAt": 1790082936959
  }
 ]
