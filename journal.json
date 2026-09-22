@@ -24369,8 +24369,12 @@
   "rr": 2.59,
   "lev": 8,
   "signalTime": 1790118000000,
-  "status": "pending",
-  "createdAt": 1790118046847
+  "status": "open",
+  "createdAt": 1790118046847,
+  "fillTime": 1790118000000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "SAGAUSDT::LONG::ChoCh::1790118000000",
@@ -24386,7 +24390,28 @@
   "rr": 1.24,
   "lev": 6,
   "signalTime": 1790118000000,
+  "status": "open",
+  "createdAt": 1790118046847,
+  "fillTime": 1790118000000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "PYTHUSDT::LONG::ChoCh::1790118900000",
+  "symbol": "PYTHUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.06679,
+  "sl": 0.06517,
+  "tp": 0.07414,
+  "tpSrc": "WH",
+  "slPct": 2.43,
+  "gainPct": 11,
+  "rr": 4.54,
+  "lev": 24,
+  "signalTime": 1790118900000,
   "status": "pending",
-  "createdAt": 1790118046847
+  "createdAt": 1790118934267
  }
 ]

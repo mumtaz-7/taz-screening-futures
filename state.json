@@ -1,11 +1,11 @@
 {
   "ready": [
     "COOKIEUSDT::LONG::ChoCh",
-    "KERNELUSDT::LONG::BoS",
     "ONEUSDT::LONG::ChoCh",
+    "PYTHUSDT::LONG::ChoCh",
     "SAGAUSDT::LONG::ChoCh",
     "STRKUSDT::SHORT::ChoCh",
     "XPLUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-22T23:00:46.846Z"
+  "at": "2026-09-22T23:15:34.266Z"
 }
