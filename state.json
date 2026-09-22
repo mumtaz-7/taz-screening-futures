@@ -2,7 +2,8 @@
   "ready": [
     "GENIUSUSDT::LONG::BoS",
     "KERNELUSDT::LONG::BoS",
-    "NXPCUSDT::LONG::BoS"
+    "NXPCUSDT::LONG::BoS",
+    "STRKUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-09-22T22:00:48.840Z"
+  "at": "2026-09-22T22:15:33.365Z"
 }

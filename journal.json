@@ -24204,9 +24204,12 @@
   "rr": 3.44,
   "lev": 17,
   "signalTime": 1790108100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790108140199,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790114400000
  },
  {
   "id": "TIAUSDT::LONG::BoS::1790108100000",
@@ -24309,5 +24312,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "STRKUSDT::SHORT::ChoCh::1790115300000",
+  "symbol": "STRKUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.04104,
+  "sl": 0.0447,
+  "tp": 0.03038,
+  "tpSrc": "OB",
+  "slPct": 8.92,
+  "gainPct": 25.97,
+  "rr": 2.91,
+  "lev": 7,
+  "signalTime": 1790115300000,
+  "status": "pending",
+  "createdAt": 1790115333366
  }
 ]
