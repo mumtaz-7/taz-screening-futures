@@ -1,6 +1,7 @@
 {
   "ready": [
-    "FTTUSDT::SHORT::BoS"
+    "FTTUSDT::SHORT::BoS",
+    "ONEUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-22T01:00:47.482Z"
+  "at": "2026-09-22T01:15:34.865Z"
 }
