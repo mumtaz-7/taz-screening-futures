@@ -23749,5 +23749,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ALLOUSDT::LONG::ChoCh::1790054100000",
+  "symbol": "ALLOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.2665,
+  "sl": 0.253,
+  "tp": 0.2937,
+  "tpSrc": "WH",
+  "slPct": 5.07,
+  "gainPct": 10.21,
+  "rr": 2.01,
+  "lev": 12,
+  "signalTime": 1790054100000,
+  "status": "pending",
+  "createdAt": 1790054134456
+ },
+ {
+  "id": "RAYUSDT::SHORT::BoS::1790054100000",
+  "symbol": "RAYUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 1.7725,
+  "sl": 1.8649,
+  "tp": 1.4555,
+  "tpSrc": "OB",
+  "slPct": 5.21,
+  "gainPct": 17.88,
+  "rr": 3.43,
+  "lev": 12,
+  "signalTime": 1790054100000,
+  "status": "pending",
+  "createdAt": 1790054134456
  }
 ]
