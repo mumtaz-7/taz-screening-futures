@@ -23851,12 +23851,15 @@
   "rr": 1.11,
   "lev": 6,
   "signalTime": 1790058600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790058642140,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790059500000
+  "fillTime": 1790059500000,
+  "R": -1,
+  "resolvedTime": 1790093700000
  },
  {
   "id": "USDEUSDT::SHORT::BoS::1790061300000",
@@ -24114,7 +24117,11 @@
   "rr": 2.09,
   "lev": 8,
   "signalTime": 1790093700000,
-  "status": "pending",
-  "createdAt": 1790093738665
+  "status": "open",
+  "createdAt": 1790093738665,
+  "fillTime": 1790093700000,
+  "notified": [
+   "open"
+  ]
  }
 ]
