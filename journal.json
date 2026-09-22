@@ -23704,5 +23704,22 @@
    "open"
   ],
   "fillTime": 1790041500000
+ },
+ {
+  "id": "PHAUSDT::LONG::BoS::1790045100000",
+  "symbol": "PHAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0527,
+  "sl": 0.047150000000000004,
+  "tp": 0.0665,
+  "tpSrc": "WH",
+  "slPct": 10.53,
+  "gainPct": 26.19,
+  "rr": 2.49,
+  "lev": 6,
+  "signalTime": 1790045100000,
+  "status": "pending",
+  "createdAt": 1790045135288
  }
 ]
