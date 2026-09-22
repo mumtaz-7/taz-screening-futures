@@ -24002,12 +24002,15 @@
   "rr": 6.01,
   "lev": 25,
   "signalTime": 1790075700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790075735478,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790076600000
+  "fillTime": 1790076600000,
+  "R": -1,
+  "resolvedTime": 1790085600000
  },
  {
   "id": "BCHUSDT::LONG::BoS::1790081100000",
@@ -24051,5 +24054,22 @@
    "open"
   ],
   "fillTime": 1790083800000
+ },
+ {
+  "id": "ONEUSDT::LONG::ChoCh::1790086500000",
+  "symbol": "ONEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0038,
+  "sl": 0.0035570000000000003,
+  "tp": 0.005191,
+  "tpSrc": "WH",
+  "slPct": 6.39,
+  "gainPct": 36.61,
+  "rr": 5.72,
+  "lev": 9,
+  "signalTime": 1790086500000,
+  "status": "pending",
+  "createdAt": 1790086535767
  }
 ]
