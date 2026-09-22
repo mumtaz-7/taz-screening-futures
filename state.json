@@ -1,8 +1,7 @@
 {
   "ready": [
     "FORMUSDT::LONG::ChoCh",
-    "GUSDT::SHORT::BoS",
-    "PYTHUSDT::SHORT::BoS"
+    "GUSDT::SHORT::BoS"
   ],
-  "at": "2026-09-22T11:30:42.318Z"
+  "at": "2026-09-22T11:45:39.072Z"
 }
