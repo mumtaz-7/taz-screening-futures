@@ -24144,9 +24144,12 @@
   "rr": 3.59,
   "lev": 22,
   "signalTime": 1790099100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790099134346,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790107200000
  },
  {
   "id": "MARSCOINUSDT::LONG::ChoCh::1790100900000",
@@ -24186,5 +24189,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "NXPCUSDT::LONG::ChoCh::1790108100000",
+  "symbol": "NXPCUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.248,
+  "sl": 0.2396,
+  "tp": 0.2769,
+  "tpSrc": "WH",
+  "slPct": 3.39,
+  "gainPct": 11.65,
+  "rr": 3.44,
+  "lev": 17,
+  "signalTime": 1790108100000,
+  "status": "pending",
+  "createdAt": 1790108140199
+ },
+ {
+  "id": "TIAUSDT::LONG::BoS::1790108100000",
+  "symbol": "TIAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.4586,
+  "sl": 0.42665000000000003,
+  "tp": 0.51,
+  "tpSrc": "WH",
+  "slPct": 6.97,
+  "gainPct": 11.21,
+  "rr": 1.61,
+  "lev": 9,
+  "signalTime": 1790108100000,
+  "status": "pending",
+  "createdAt": 1790108140199
  }
 ]
