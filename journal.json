@@ -24005,5 +24005,22 @@
    "open"
   ],
   "fillTime": 1790076600000
+ },
+ {
+  "id": "BCHUSDT::LONG::BoS::1790081100000",
+  "symbol": "BCHUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 273.5,
+  "sl": 255.65000000000003,
+  "tp": 303.5,
+  "tpSrc": "WH",
+  "slPct": 6.53,
+  "gainPct": 10.97,
+  "rr": 1.68,
+  "lev": 9,
+  "signalTime": 1790081100000,
+  "status": "pending",
+  "createdAt": 1790081137807
  }
 ]
