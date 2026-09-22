@@ -23701,12 +23701,15 @@
   "rr": 1.12,
   "lev": 4,
   "signalTime": 1790039700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790039734866,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790041500000
+  "fillTime": 1790041500000,
+  "R": -1,
+  "resolvedTime": 1790057700000
  },
  {
   "id": "PHAUSDT::LONG::BoS::1790045100000",
@@ -23812,5 +23815,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SAGAUSDT::LONG::ChoCh::1790058600000",
+  "symbol": "SAGAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.04065,
+  "sl": 0.03679500000000001,
+  "tp": 0.04492,
+  "tpSrc": "WH",
+  "slPct": 9.48,
+  "gainPct": 10.5,
+  "rr": 1.11,
+  "lev": 6,
+  "signalTime": 1790058600000,
+  "status": "pending",
+  "createdAt": 1790058642140
  }
 ]

@@ -1,9 +1,9 @@
 {
   "ready": [
     "ALLOUSDT::LONG::ChoCh",
-    "FTTUSDT::SHORT::BoS",
     "RAYUSDT::SHORT::BoS",
+    "SAGAUSDT::LONG::ChoCh",
     "SYNUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-22T06:15:39.872Z"
+  "at": "2026-09-22T06:30:42.139Z"
 }
