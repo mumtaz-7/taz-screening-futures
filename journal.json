@@ -24906,12 +24906,15 @@
   "rr": 1.7,
   "lev": 7,
   "signalTime": 1790190900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790190935879,
   "fillTime": 1790190900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.7,
+  "resolvedTime": 1790202600000
  },
  {
   "id": "NOMUSDT::LONG::ChoCh::1790195400000",
