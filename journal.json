@@ -24840,5 +24840,22 @@
   "status": "pending",
   "createdAt": 1790177444447,
   "notified": []
+ },
+ {
+  "id": "CHRUSDT::LONG::ChoCh::1790181900000",
+  "symbol": "CHRUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01996,
+  "sl": 0.019135,
+  "tp": 0.02153,
+  "tpSrc": "EQ",
+  "slPct": 4.13,
+  "gainPct": 7.87,
+  "rr": 1.9,
+  "lev": 14,
+  "signalTime": 1790181900000,
+  "status": "pending",
+  "createdAt": 1790181935608
  }
 ]
