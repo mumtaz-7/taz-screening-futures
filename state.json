@@ -1,6 +1,7 @@
 {
   "ready": [
-    "PEPEUSDT::SHORT::BoS"
+    "PEPEUSDT::SHORT::BoS",
+    "PHAUSDT::SHORT::BoS"
   ],
-  "at": "2026-09-23T11:30:43.032Z"
+  "at": "2026-09-23T11:45:42.696Z"
 }
