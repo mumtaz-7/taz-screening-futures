@@ -24299,12 +24299,15 @@
   "rr": 5.98,
   "lev": 25,
   "signalTime": 1790112600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790112639195,
   "fillTime": 1790112600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790124300000
  },
  {
   "id": "KERNELUSDT::LONG::BoS::1790113500000",
