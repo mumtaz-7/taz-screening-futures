@@ -23839,12 +23839,15 @@
   "rr": 1.21,
   "lev": 7,
   "signalTime": 1790055900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790055934070,
   "fillTime": 1790055900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790133300000
  },
  {
   "id": "SAGAUSDT::LONG::ChoCh::1790058600000",
