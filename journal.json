@@ -24606,12 +24606,15 @@
   "rr": 7.05,
   "lev": 12,
   "signalTime": 1790154000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790154049659,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790168400000
+  "fillTime": 1790168400000,
+  "R": -1,
+  "resolvedTime": 1790198100000
  },
  {
   "id": "PEPEUSDT::SHORT::BoS::1790163000000",
@@ -24925,5 +24928,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1790196300000
+ },
+ {
+  "id": "ONEUSDT::SHORT::BoS::1790199000000",
+  "symbol": "ONEUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.002868,
+  "sl": 0.003189,
+  "tp": 0.002527,
+  "tpSrc": "OB",
+  "slPct": 11.19,
+  "gainPct": 11.89,
+  "rr": 1.06,
+  "lev": 5,
+  "signalTime": 1790199000000,
+  "status": "pending",
+  "createdAt": 1790199042751
  }
 ]
