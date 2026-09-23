@@ -24693,9 +24693,12 @@
   "rr": 2.12,
   "lev": 12,
   "signalTime": 1790172900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790172940007,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "LUNAUSDT::SHORT::BoS::1790172900000",
@@ -24711,9 +24714,12 @@
   "rr": 3.78,
   "lev": 15,
   "signalTime": 1790172900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790172940007,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "NEIROUSDT::SHORT::BoS::1790172900000",
@@ -24729,9 +24735,12 @@
   "rr": 2.11,
   "lev": 10,
   "signalTime": 1790172900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790172940007,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "STRKUSDT::SHORT::BoS::1790172900000",
@@ -24747,9 +24756,12 @@
   "rr": 7.87,
   "lev": 17,
   "signalTime": 1790172900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790172940007,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "SYNUSDT::SHORT::BoS::1790172900000",
@@ -24786,9 +24798,12 @@
   "rr": 3.58,
   "lev": 18,
   "signalTime": 1790172900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790172940007,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "GENIUSUSDT::SHORT::BoS::1790173800000",
@@ -24885,5 +24900,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "NOMUSDT::LONG::ChoCh::1790195400000",
+  "symbol": "NOMUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.001793,
+  "sl": 0.001601,
+  "tp": 0.001995,
+  "tpSrc": "WH",
+  "slPct": 10.71,
+  "gainPct": 11.27,
+  "rr": 1.05,
+  "lev": 6,
+  "signalTime": 1790195400000,
+  "status": "pending",
+  "createdAt": 1790195443993
  }
 ]
