@@ -23812,12 +23812,15 @@
   "rr": 3.43,
   "lev": 12,
   "signalTime": 1790054100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790054134456,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790064000000
+  "fillTime": 1790064000000,
+  "R": -1,
+  "resolvedTime": 1790129700000
  },
  {
   "id": "SYNUSDT::LONG::ChoCh::1790055900000",
@@ -24257,12 +24260,15 @@
   "rr": 2.88,
   "lev": 13,
   "signalTime": 1790109000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790109044211,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790109900000
+  "fillTime": 1790109900000,
+  "R": 2.88,
+  "resolvedTime": 1790129700000
  },
  {
   "id": "GENIUSUSDT::LONG::BoS::1790111700000",
@@ -24389,12 +24395,15 @@
   "rr": 2.59,
   "lev": 8,
   "signalTime": 1790118000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790118046847,
   "fillTime": 1790118000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790129700000
  },
  {
   "id": "SAGAUSDT::LONG::ChoCh::1790118000000",
