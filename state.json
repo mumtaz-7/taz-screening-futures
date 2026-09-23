@@ -1,6 +1,7 @@
 {
   "ready": [
-    "GUSDT::SHORT::BoS"
+    "GUSDT::SHORT::BoS",
+    "NILUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-23T19:00:46.805Z"
+  "at": "2026-09-23T19:15:35.877Z"
 }
