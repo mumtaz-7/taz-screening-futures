@@ -25009,8 +25009,12 @@
   "rr": 5.45,
   "lev": 25,
   "signalTime": 1790201700000,
-  "status": "pending",
-  "createdAt": 1790201733153
+  "status": "open",
+  "createdAt": 1790201733153,
+  "fillTime": 1790201700000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "HBARUSDT::LONG::BoS::1790201700000",
@@ -25026,8 +25030,12 @@
   "rr": 7.33,
   "lev": 25,
   "signalTime": 1790201700000,
-  "status": "pending",
-  "createdAt": 1790201733153
+  "status": "open",
+  "createdAt": 1790201733153,
+  "fillTime": 1790201700000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "MINAUSDT::LONG::ChoCh::1790201700000",
@@ -25043,7 +25051,11 @@
   "rr": 1.51,
   "lev": 8,
   "signalTime": 1790201700000,
-  "status": "pending",
-  "createdAt": 1790201733153
+  "status": "open",
+  "createdAt": 1790201733153,
+  "fillTime": 1790201700000,
+  "notified": [
+   "open"
+  ]
  }
 ]
