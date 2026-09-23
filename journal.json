@@ -24232,9 +24232,13 @@
   "rr": 1.61,
   "lev": 9,
   "signalTime": 1790108100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790108140199,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790120700000
  },
  {
   "id": "ARBUSDT::LONG::ChoCh::1790109000000",
