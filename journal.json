@@ -23969,12 +23969,15 @@
   "rr": 1.92,
   "lev": 12,
   "signalTime": 1790073000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790073042408,
   "fillTime": 1790073000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790121600000
  },
  {
   "id": "FORMUSDT::LONG::ChoCh::1790074800000",
