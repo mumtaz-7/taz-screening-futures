@@ -24988,7 +24988,62 @@
   "rr": 1.82,
   "lev": 8,
   "signalTime": 1790200800000,
+  "status": "open",
+  "createdAt": 1790200853215,
+  "fillTime": 1790200800000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "GIGGLEUSDT::LONG::ChoCh::1790201700000",
+  "symbol": "GIGGLEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 38.67,
+  "sl": 37.875,
+  "tp": 43,
+  "tpSrc": "WH",
+  "slPct": 2.06,
+  "gainPct": 11.2,
+  "rr": 5.45,
+  "lev": 25,
+  "signalTime": 1790201700000,
   "status": "pending",
-  "createdAt": 1790200853215
+  "createdAt": 1790201733153
+ },
+ {
+  "id": "HBARUSDT::LONG::BoS::1790201700000",
+  "symbol": "HBARUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.09067,
+  "sl": 0.089215,
+  "tp": 0.10133,
+  "tpSrc": "WH",
+  "slPct": 1.6,
+  "gainPct": 11.76,
+  "rr": 7.33,
+  "lev": 25,
+  "signalTime": 1790201700000,
+  "status": "pending",
+  "createdAt": 1790201733153
+ },
+ {
+  "id": "MINAUSDT::LONG::ChoCh::1790201700000",
+  "symbol": "MINAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1442,
+  "sl": 0.13355,
+  "tp": 0.1603,
+  "tpSrc": "WH",
+  "slPct": 7.39,
+  "gainPct": 11.17,
+  "rr": 1.51,
+  "lev": 8,
+  "signalTime": 1790201700000,
+  "status": "pending",
+  "createdAt": 1790201733153
  }
 ]
