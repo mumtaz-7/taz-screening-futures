@@ -24458,5 +24458,22 @@
    "open"
   ],
   "fillTime": 1790119800000
+ },
+ {
+  "id": "PYTHUSDT::LONG::BoS::1790145900000",
+  "symbol": "PYTHUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.06734,
+  "sl": 0.06431,
+  "tp": 0.07414,
+  "tpSrc": "WH",
+  "slPct": 4.5,
+  "gainPct": 10.1,
+  "rr": 2.24,
+  "lev": 13,
+  "signalTime": 1790145900000,
+  "status": "pending",
+  "createdAt": 1790145943208
  }
 ]
