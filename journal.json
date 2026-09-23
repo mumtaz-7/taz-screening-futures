@@ -24615,5 +24615,22 @@
    "open"
   ],
   "fillTime": 1790164800000
+ },
+ {
+  "id": "BROCCOLI714USDT::LONG::ChoCh::1790170200000",
+  "symbol": "BROCCOLI714USDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.02385,
+  "sl": 0.022395,
+  "tp": 0.02775,
+  "tpSrc": "WH",
+  "slPct": 6.1,
+  "gainPct": 16.35,
+  "rr": 2.68,
+  "lev": 10,
+  "signalTime": 1790170200000,
+  "status": "pending",
+  "createdAt": 1790170241257
  }
 ]
