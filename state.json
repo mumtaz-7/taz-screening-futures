@@ -1,8 +1,6 @@
 {
   "ready": [
-    "GIGGLEUSDT::LONG::ChoCh",
-    "HBARUSDT::LONG::BoS",
-    "MINAUSDT::LONG::ChoCh"
+    "STRKUSDT::SHORT::BoS"
   ],
-  "at": "2026-09-23T23:30:43.028Z"
+  "at": "2026-09-23T23:45:34.057Z"
 }

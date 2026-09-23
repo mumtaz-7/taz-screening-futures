@@ -23509,12 +23509,15 @@
   "rr": 3.1,
   "lev": 21,
   "signalTime": 1789994700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789994737063,
   "fillTime": 1789994700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790206200000
  },
  {
   "id": "ONEUSDT::LONG::BoS::1790001000000",
@@ -25060,5 +25063,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "STRKUSDT::SHORT::BoS::1790207100000",
+  "symbol": "STRKUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.03849,
+  "sl": 0.039224999999999996,
+  "tp": 0.03038,
+  "tpSrc": "OB",
+  "slPct": 1.91,
+  "gainPct": 21.07,
+  "rr": 11.03,
+  "lev": 25,
+  "signalTime": 1790207100000,
+  "status": "pending",
+  "createdAt": 1790207134058
  }
 ]
