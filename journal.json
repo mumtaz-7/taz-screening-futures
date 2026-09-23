@@ -24138,12 +24138,15 @@
   "rr": 2.09,
   "lev": 8,
   "signalTime": 1790093700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790093738665,
   "fillTime": 1790093700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790144100000
  },
  {
   "id": "MORPHOUSDT::LONG::BoS::1790099100000",
