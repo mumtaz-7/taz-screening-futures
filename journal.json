@@ -22744,12 +22744,15 @@
   "rr": 7.57,
   "lev": 23,
   "signalTime": 1789917300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789917335316,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789938000000
+  "fillTime": 1789938000000,
+  "R": -1,
+  "resolvedTime": 1790172000000
  },
  {
   "id": "SAGAUSDT::LONG::BoS::1789919100000",
@@ -23085,12 +23088,15 @@
   "rr": 6.77,
   "lev": 21,
   "signalTime": 1789949700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789949752523,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789953300000
+  "fillTime": 1789953300000,
+  "R": -1,
+  "resolvedTime": 1790172000000
  },
  {
   "id": "ZILUSDT::LONG::ChoCh::1789950600000",
@@ -23662,12 +23668,15 @@
   "rr": 5.22,
   "lev": 25,
   "signalTime": 1790028900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790028939588,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790031600000
+  "fillTime": 1790031600000,
+  "R": 5.22,
+  "resolvedTime": 1790172000000
  },
  {
   "id": "ARKMUSDT::LONG::BoS::1790032500000",
@@ -23683,12 +23692,15 @@
   "rr": 3.43,
   "lev": 24,
   "signalTime": 1790032500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790032535962,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790038800000
+  "fillTime": 1790038800000,
+  "R": -1,
+  "resolvedTime": 1790172000000
  },
  {
   "id": "FTTUSDT::SHORT::BoS::1790037900000",
@@ -24008,12 +24020,15 @@
   "rr": 3.27,
   "lev": 7,
   "signalTime": 1790074800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790074852592,
   "fillTime": 1790074800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790172000000
  },
  {
   "id": "PYTHUSDT::SHORT::BoS::1790075700000",
@@ -24075,12 +24090,15 @@
   "rr": 2.97,
   "lev": 16,
   "signalTime": 1790082900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790082936959,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790083800000
+  "fillTime": 1790083800000,
+  "R": -1,
+  "resolvedTime": 1790172000000
  },
  {
   "id": "ONEUSDT::LONG::ChoCh::1790086500000",
@@ -24168,12 +24186,15 @@
   "rr": 3.59,
   "lev": 22,
   "signalTime": 1790099100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790099134346,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790107200000
+  "fillTime": 1790107200000,
+  "R": -1,
+  "resolvedTime": 1790172000000
  },
  {
   "id": "MARSCOINUSDT::LONG::ChoCh::1790100900000",
@@ -24302,12 +24323,15 @@
   "rr": 7.94,
   "lev": 25,
   "signalTime": 1790111700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790111733785,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790112600000
+  "fillTime": 1790112600000,
+  "R": -1,
+  "resolvedTime": 1790172000000
  },
  {
   "id": "NXPCUSDT::LONG::BoS::1790112600000",
@@ -24464,12 +24488,15 @@
   "rr": 4.54,
   "lev": 24,
   "signalTime": 1790118900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790118934267,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790119800000
+  "fillTime": 1790119800000,
+  "R": -1,
+  "resolvedTime": 1790172000000
  },
  {
   "id": "PYTHUSDT::LONG::BoS::1790145900000",
@@ -24485,12 +24512,15 @@
   "rr": 2.24,
   "lev": 13,
   "signalTime": 1790145900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790145943208,
   "fillTime": 1790145900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790172000000
  },
  {
   "id": "PHAUSDT::SHORT::ChoCh::1790147700000",
@@ -24527,12 +24557,15 @@
   "rr": 1.39,
   "lev": 8,
   "signalTime": 1790150400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790150450427,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790168400000
+  "fillTime": 1790168400000,
+  "R": -1,
+  "resolvedTime": 1790172000000
  },
  {
   "id": "COTIUSDT::LONG::BoS::1790152200000",
@@ -24630,11 +24663,116 @@
   "rr": 2.68,
   "lev": 10,
   "signalTime": 1790170200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790170241257,
   "fillTime": 1790170200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790172000000
+ },
+ {
+  "id": "FORMUSDT::SHORT::BoS::1790172900000",
+  "symbol": "FORMUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.2991,
+  "sl": 0.31395,
+  "tp": 0.2676,
+  "tpSrc": "OB",
+  "slPct": 4.96,
+  "gainPct": 10.53,
+  "rr": 2.12,
+  "lev": 12,
+  "signalTime": 1790172900000,
+  "status": "pending",
+  "createdAt": 1790172940007
+ },
+ {
+  "id": "LUNAUSDT::SHORT::BoS::1790172900000",
+  "symbol": "LUNAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0553,
+  "sl": 0.057550000000000004,
+  "tp": 0.0468,
+  "tpSrc": "OB",
+  "slPct": 4.07,
+  "gainPct": 15.37,
+  "rr": 3.78,
+  "lev": 15,
+  "signalTime": 1790172900000,
+  "status": "pending",
+  "createdAt": 1790172940007
+ },
+ {
+  "id": "NEIROUSDT::SHORT::BoS::1790172900000",
+  "symbol": "NEIROUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.00009522,
+  "sl": 0.000101025,
+  "tp": 0.00008296,
+  "tpSrc": "OB",
+  "slPct": 6.1,
+  "gainPct": 12.88,
+  "rr": 2.11,
+  "lev": 10,
+  "signalTime": 1790172900000,
+  "status": "pending",
+  "createdAt": 1790172940007
+ },
+ {
+  "id": "STRKUSDT::SHORT::BoS::1790172900000",
+  "symbol": "STRKUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.04159,
+  "sl": 0.043015,
+  "tp": 0.03038,
+  "tpSrc": "OB",
+  "slPct": 3.43,
+  "gainPct": 26.95,
+  "rr": 7.87,
+  "lev": 17,
+  "signalTime": 1790172900000,
+  "status": "pending",
+  "createdAt": 1790172940007
+ },
+ {
+  "id": "SYNUSDT::SHORT::BoS::1790172900000",
+  "symbol": "SYNUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.21259,
+  "sl": 0.227005,
+  "tp": 0.17538,
+  "tpSrc": "OB",
+  "slPct": 6.78,
+  "gainPct": 17.5,
+  "rr": 2.58,
+  "lev": 9,
+  "signalTime": 1790172900000,
+  "status": "pending",
+  "createdAt": 1790172940007
+ },
+ {
+  "id": "XPLUSDT::SHORT::BoS::1790172900000",
+  "symbol": "XPLUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.09396,
+  "sl": 0.09702,
+  "tp": 0.083,
+  "tpSrc": "WL",
+  "slPct": 3.26,
+  "gainPct": 11.66,
+  "rr": 3.58,
+  "lev": 18,
+  "signalTime": 1790172900000,
+  "status": "pending",
+  "createdAt": 1790172940007
  }
 ]
