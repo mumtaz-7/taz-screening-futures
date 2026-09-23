@@ -2,11 +2,10 @@
   "ready": [
     "FORMUSDT::SHORT::BoS",
     "GENIUSUSDT::SHORT::BoS",
-    "LUNAUSDT::SHORT::BoS",
     "NEIROUSDT::SHORT::BoS",
     "PEPEUSDT::SHORT::BoS",
     "STRKUSDT::SHORT::BoS",
     "SYNUSDT::SHORT::BoS"
   ],
-  "at": "2026-09-23T15:00:50.242Z"
+  "at": "2026-09-23T15:15:38.800Z"
 }
