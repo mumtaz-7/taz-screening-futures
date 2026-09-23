@@ -24208,12 +24208,15 @@
   "rr": 6.83,
   "lev": 15,
   "signalTime": 1790102700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790102737412,
   "fillTime": 1790102700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790164800000
  },
  {
   "id": "NXPCUSDT::LONG::ChoCh::1790108100000",
@@ -24593,8 +24596,11 @@
   "rr": 1.38,
   "lev": 7,
   "signalTime": 1790163900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790163942697,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790164800000
  }
 ]
