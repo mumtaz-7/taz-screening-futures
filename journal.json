@@ -24967,7 +24967,28 @@
   "rr": 2.68,
   "lev": 12,
   "signalTime": 1790199900000,
+  "status": "open",
+  "createdAt": 1790199935650,
+  "fillTime": 1790199900000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "SUPERUSDT::LONG::ChoCh::1790200800000",
+  "symbol": "SUPERUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1806,
+  "sl": 0.1668,
+  "tp": 0.2057,
+  "tpSrc": "WH",
+  "slPct": 7.64,
+  "gainPct": 13.9,
+  "rr": 1.82,
+  "lev": 8,
+  "signalTime": 1790200800000,
   "status": "pending",
-  "createdAt": 1790199935650
+  "createdAt": 1790200853215
  }
 ]
