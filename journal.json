@@ -24688,7 +24688,8 @@
   "lev": 12,
   "signalTime": 1790172900000,
   "status": "pending",
-  "createdAt": 1790172940007
+  "createdAt": 1790172940007,
+  "notified": []
  },
  {
   "id": "LUNAUSDT::SHORT::BoS::1790172900000",
@@ -24705,7 +24706,8 @@
   "lev": 15,
   "signalTime": 1790172900000,
   "status": "pending",
-  "createdAt": 1790172940007
+  "createdAt": 1790172940007,
+  "notified": []
  },
  {
   "id": "NEIROUSDT::SHORT::BoS::1790172900000",
@@ -24722,7 +24724,8 @@
   "lev": 10,
   "signalTime": 1790172900000,
   "status": "pending",
-  "createdAt": 1790172940007
+  "createdAt": 1790172940007,
+  "notified": []
  },
  {
   "id": "STRKUSDT::SHORT::BoS::1790172900000",
@@ -24739,7 +24742,8 @@
   "lev": 17,
   "signalTime": 1790172900000,
   "status": "pending",
-  "createdAt": 1790172940007
+  "createdAt": 1790172940007,
+  "notified": []
  },
  {
   "id": "SYNUSDT::SHORT::BoS::1790172900000",
@@ -24756,7 +24760,8 @@
   "lev": 9,
   "signalTime": 1790172900000,
   "status": "pending",
-  "createdAt": 1790172940007
+  "createdAt": 1790172940007,
+  "notified": []
  },
  {
   "id": "XPLUSDT::SHORT::BoS::1790172900000",
@@ -24773,6 +24778,24 @@
   "lev": 18,
   "signalTime": 1790172900000,
   "status": "pending",
-  "createdAt": 1790172940007
+  "createdAt": 1790172940007,
+  "notified": []
+ },
+ {
+  "id": "GENIUSUSDT::SHORT::BoS::1790173800000",
+  "symbol": "GENIUSUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.3477,
+  "sl": 0.3657,
+  "tp": 0.3031,
+  "tpSrc": "OB",
+  "slPct": 5.18,
+  "gainPct": 12.83,
+  "rr": 2.48,
+  "lev": 12,
+  "signalTime": 1790173800000,
+  "status": "pending",
+  "createdAt": 1790173846752
  }
 ]
