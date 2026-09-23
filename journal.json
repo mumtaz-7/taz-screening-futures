@@ -24819,9 +24819,12 @@
   "rr": 2.48,
   "lev": 12,
   "signalTime": 1790173800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790173846752,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "FILUSDT::SHORT::BoS::1790177400000",
@@ -24916,6 +24919,7 @@
   "lev": 6,
   "signalTime": 1790195400000,
   "status": "pending",
-  "createdAt": 1790195443993
+  "createdAt": 1790195443993,
+  "notified": []
  }
 ]
