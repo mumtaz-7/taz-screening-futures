@@ -22487,12 +22487,15 @@
   "rr": 3.18,
   "lev": 12,
   "signalTime": 1789892100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789892133678,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1789894800000
+  "fillTime": 1789894800000,
+  "R": -1,
+  "resolvedTime": 1790168400000
  },
  {
   "id": "ENAUSDT::LONG::BoS::1789893000000",
@@ -24524,9 +24527,12 @@
   "rr": 1.39,
   "lev": 8,
   "signalTime": 1790150400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790150450427,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790168400000
  },
  {
   "id": "COTIUSDT::LONG::BoS::1790152200000",
@@ -24542,9 +24548,13 @@
   "rr": 3.68,
   "lev": 21,
   "signalTime": 1790152200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790152245284,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790168400000
  },
  {
   "id": "ONEUSDT::LONG::ChoCh::1790154000000",
@@ -24560,9 +24570,12 @@
   "rr": 7.05,
   "lev": 12,
   "signalTime": 1790154000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790154049659,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790168400000
  },
  {
   "id": "PEPEUSDT::SHORT::BoS::1790163000000",
