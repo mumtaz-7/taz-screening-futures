@@ -23590,12 +23590,15 @@
   "rr": 1.06,
   "lev": 5,
   "signalTime": 1790010900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790010938091,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790019900000
+  "fillTime": 1790019900000,
+  "R": -1,
+  "resolvedTime": 1790131500000
  },
  {
   "id": "MINAUSDT::LONG::BoS::1790021700000",
