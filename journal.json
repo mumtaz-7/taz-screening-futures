@@ -24323,12 +24323,15 @@
   "rr": 3.06,
   "lev": 9,
   "signalTime": 1790113500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790113534331,
   "fillTime": 1790113500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790127000000
  },
  {
   "id": "STRKUSDT::SHORT::ChoCh::1790115300000",
