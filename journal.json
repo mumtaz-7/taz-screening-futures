@@ -24627,9 +24627,12 @@
   "rr": 2.61,
   "lev": 8,
   "signalTime": 1790163000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790163043033,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "PHAUSDT::SHORT::BoS::1790163900000",
