@@ -24843,9 +24843,12 @@
   "rr": 4.27,
   "lev": 20,
   "signalTime": 1790177400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790177444447,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ZENUSDT::SHORT::BoS::1790177400000",
@@ -24861,9 +24864,12 @@
   "rr": 2.84,
   "lev": 13,
   "signalTime": 1790177400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790177444447,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "CHRUSDT::LONG::ChoCh::1790181900000",
@@ -24944,6 +24950,24 @@
   "lev": 5,
   "signalTime": 1790199000000,
   "status": "pending",
-  "createdAt": 1790199042751
+  "createdAt": 1790199042751,
+  "notified": []
+ },
+ {
+  "id": "PENGUUSDT::LONG::ChoCh::1790199900000",
+  "symbol": "PENGUUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.009849,
+  "sl": 0.009358499999999999,
+  "tp": 0.011163,
+  "tpSrc": "WH",
+  "slPct": 4.98,
+  "gainPct": 13.34,
+  "rr": 2.68,
+  "lev": 12,
+  "signalTime": 1790199900000,
+  "status": "pending",
+  "createdAt": 1790199935650
  }
 ]
