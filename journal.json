@@ -24425,12 +24425,15 @@
   "rr": 1.24,
   "lev": 6,
   "signalTime": 1790118000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790118046847,
   "fillTime": 1790118000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.24,
+  "resolvedTime": 1790140500000
  },
  {
   "id": "PYTHUSDT::LONG::ChoCh::1790118900000",
