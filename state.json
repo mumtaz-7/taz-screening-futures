@@ -1,13 +1,4 @@
 {
-  "ready": [
-    "FILUSDT::SHORT::BoS",
-    "FORMUSDT::SHORT::BoS",
-    "GENIUSUSDT::SHORT::BoS",
-    "NEIROUSDT::SHORT::BoS",
-    "PEPEUSDT::SHORT::BoS",
-    "STRKUSDT::SHORT::BoS",
-    "SYNUSDT::SHORT::BoS",
-    "ZENUSDT::SHORT::BoS"
-  ],
-  "at": "2026-09-23T15:30:44.446Z"
+  "ready": [],
+  "at": "2026-09-23T15:45:36.157Z"
 }

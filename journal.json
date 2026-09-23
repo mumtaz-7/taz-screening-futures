@@ -24820,7 +24820,8 @@
   "lev": 20,
   "signalTime": 1790177400000,
   "status": "pending",
-  "createdAt": 1790177444447
+  "createdAt": 1790177444447,
+  "notified": []
  },
  {
   "id": "ZENUSDT::SHORT::BoS::1790177400000",
@@ -24837,6 +24838,7 @@
   "lev": 13,
   "signalTime": 1790177400000,
   "status": "pending",
-  "createdAt": 1790177444447
+  "createdAt": 1790177444447,
+  "notified": []
  }
 ]
