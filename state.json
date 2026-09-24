@@ -1,7 +1,8 @@
 {
   "ready": [
+    "KAITOUSDT::SHORT::ChoCh",
     "MARSCOINUSDT::SHORT::ChoCh",
-    "STRKUSDT::SHORT::ChoCh"
+    "MUBARAKUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-09-24T22:00:51.404Z"
+  "at": "2026-09-24T22:15:33.835Z"
 }

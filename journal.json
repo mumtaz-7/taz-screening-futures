@@ -25712,5 +25712,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "KAITOUSDT::SHORT::ChoCh::1790288100000",
+  "symbol": "KAITOUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.3505,
+  "sl": 0.35590000000000005,
+  "tp": 0.3133,
+  "tpSrc": "WL",
+  "slPct": 1.54,
+  "gainPct": 10.61,
+  "rr": 6.89,
+  "lev": 25,
+  "signalTime": 1790288100000,
+  "status": "pending",
+  "createdAt": 1790288133836
+ },
+ {
+  "id": "MUBARAKUSDT::SHORT::ChoCh::1790288100000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.04522,
+  "sl": 0.04675,
+  "tp": 0.03389,
+  "tpSrc": "OB",
+  "slPct": 3.38,
+  "gainPct": 25.06,
+  "rr": 7.41,
+  "lev": 17,
+  "signalTime": 1790288100000,
+  "status": "pending",
+  "createdAt": 1790288133836
  }
 ]
