@@ -1,8 +1,6 @@
 {
   "ready": [
-    "CVCUSDT::LONG::BoS",
-    "KAITOUSDT::SHORT::ChoCh",
-    "MUBARAKUSDT::SHORT::ChoCh"
+    "CVCUSDT::LONG::BoS"
   ],
-  "at": "2026-09-24T23:30:44.327Z"
+  "at": "2026-09-24T23:45:33.184Z"
 }
