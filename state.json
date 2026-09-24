@@ -1,8 +1,7 @@
 {
   "ready": [
     "NOMUSDT::LONG::BoS",
-    "SENTUSDT::LONG::ChoCh",
-    "STRKUSDT::SHORT::BoS"
+    "SENTUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-24T01:00:46.950Z"
+  "at": "2026-09-24T01:15:32.531Z"
 }
