@@ -1,6 +1,9 @@
 {
   "ready": [
-    "SYNUSDT::SHORT::BoS"
+    "BONKUSDT::LONG::BoS",
+    "PENGUUSDT::LONG::BoS",
+    "SYNUSDT::SHORT::BoS",
+    "TIAUSDT::LONG::BoS"
   ],
-  "at": "2026-09-24T05:00:47.695Z"
+  "at": "2026-09-24T05:15:34.630Z"
 }

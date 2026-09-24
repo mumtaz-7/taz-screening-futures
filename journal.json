@@ -25266,5 +25266,56 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BONKUSDT::LONG::BoS::1790226900000",
+  "symbol": "BONKUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00000359,
+  "sl": 0.000003365,
+  "tp": 0.0000042,
+  "tpSrc": "WH",
+  "slPct": 6.27,
+  "gainPct": 16.99,
+  "rr": 2.71,
+  "lev": 10,
+  "signalTime": 1790226900000,
+  "status": "pending",
+  "createdAt": 1790226934632
+ },
+ {
+  "id": "PENGUUSDT::LONG::BoS::1790226900000",
+  "symbol": "PENGUUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.009902,
+  "sl": 0.009336500000000001,
+  "tp": 0.011163,
+  "tpSrc": "WH",
+  "slPct": 5.71,
+  "gainPct": 12.73,
+  "rr": 2.23,
+  "lev": 11,
+  "signalTime": 1790226900000,
+  "status": "pending",
+  "createdAt": 1790226934632
+ },
+ {
+  "id": "TIAUSDT::LONG::BoS::1790226900000",
+  "symbol": "TIAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.4743,
+  "sl": 0.44819999999999993,
+  "tp": 0.5382,
+  "tpSrc": "WH",
+  "slPct": 5.5,
+  "gainPct": 13.47,
+  "rr": 2.45,
+  "lev": 11,
+  "signalTime": 1790226900000,
+  "status": "pending",
+  "createdAt": 1790226934632
  }
 ]
