@@ -25616,5 +25616,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "DASHUSDT::SHORT::BoS::1790275500000",
+  "symbol": "DASHUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 62.32,
+  "sl": 65.19999999999999,
+  "tp": 54.97,
+  "tpSrc": "OB",
+  "slPct": 4.62,
+  "gainPct": 11.79,
+  "rr": 2.55,
+  "lev": 13,
+  "signalTime": 1790275500000,
+  "status": "pending",
+  "createdAt": 1790275535291
  }
 ]
