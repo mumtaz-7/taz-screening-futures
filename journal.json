@@ -25505,6 +25505,24 @@
   "lev": 6,
   "signalTime": 1790259300000,
   "status": "pending",
-  "createdAt": 1790259337266
+  "createdAt": 1790259337266,
+  "notified": []
+ },
+ {
+  "id": "BBUSDT::LONG::BoS::1790260200000",
+  "symbol": "BBUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01016,
+  "sl": 0.00935,
+  "tp": 0.01125,
+  "tpSrc": "WH",
+  "slPct": 7.97,
+  "gainPct": 10.73,
+  "rr": 1.35,
+  "lev": 8,
+  "signalTime": 1790260200000,
+  "status": "pending",
+  "createdAt": 1790260245640
  }
 ]

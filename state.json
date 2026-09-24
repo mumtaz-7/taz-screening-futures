@@ -1,8 +1,9 @@
 {
   "ready": [
     "ADAUSDT::LONG::BoS",
+    "BBUSDT::LONG::BoS",
     "OPUSDT::LONG::ChoCh",
     "PENGUUSDT::LONG::BoS"
   ],
-  "at": "2026-09-24T14:15:37.265Z"
+  "at": "2026-09-24T14:30:45.595Z"
 }
