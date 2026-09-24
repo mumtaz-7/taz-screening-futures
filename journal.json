@@ -25598,9 +25598,12 @@
   "rr": 1.24,
   "lev": 8,
   "signalTime": 1790273700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790273734921,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790284500000
  },
  {
   "id": "PROMUSDT::LONG::ChoCh::1790273700000",
