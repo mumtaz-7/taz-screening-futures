@@ -25727,9 +25727,12 @@
   "rr": 6.89,
   "lev": 25,
   "signalTime": 1790288100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790288133836,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790290800000
  },
  {
   "id": "MUBARAKUSDT::SHORT::ChoCh::1790288100000",
