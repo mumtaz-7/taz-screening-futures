@@ -25281,8 +25281,12 @@
   "rr": 2.71,
   "lev": 10,
   "signalTime": 1790226900000,
-  "status": "pending",
-  "createdAt": 1790226934632
+  "status": "open",
+  "createdAt": 1790226934632,
+  "fillTime": 1790226900000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "PENGUUSDT::LONG::BoS::1790226900000",
@@ -25299,7 +25303,8 @@
   "lev": 11,
   "signalTime": 1790226900000,
   "status": "pending",
-  "createdAt": 1790226934632
+  "createdAt": 1790226934632,
+  "notified": []
  },
  {
   "id": "TIAUSDT::LONG::BoS::1790226900000",
@@ -25316,6 +25321,7 @@
   "lev": 11,
   "signalTime": 1790226900000,
   "status": "pending",
-  "createdAt": 1790226934632
+  "createdAt": 1790226934632,
+  "notified": []
  }
 ]
