@@ -24955,9 +24955,13 @@
   "rr": 1.06,
   "lev": 5,
   "signalTime": 1790199000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790199042751,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790208900000
  },
  {
   "id": "PENGUUSDT::LONG::ChoCh::1790199900000",
