@@ -25398,5 +25398,22 @@
   "status": "pending",
   "createdAt": 1790239534946,
   "notified": []
+ },
+ {
+  "id": "ONEUSDT::SHORT::BoS::1790247600000",
+  "symbol": "ONEUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.002361,
+  "sl": 0.0027015,
+  "tp": 0.001863,
+  "tpSrc": "OB",
+  "slPct": 14.42,
+  "gainPct": 21.09,
+  "rr": 1.46,
+  "lev": 4,
+  "signalTime": 1790247600000,
+  "status": "pending",
+  "createdAt": 1790247649341
  }
 ]
