@@ -25182,12 +25182,15 @@
   "rr": 4.95,
   "lev": 20,
   "signalTime": 1790216100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790216134757,
   "fillTime": 1790216100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790256600000
  },
  {
   "id": "SENTUSDT::LONG::BoS::1790217000000",
