@@ -24542,12 +24542,15 @@
   "rr": 1.86,
   "lev": 10,
   "signalTime": 1790147700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790147738855,
   "fillTime": 1790147700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790251200000
  },
  {
   "id": "BBUSDT::LONG::BoS::1790150400000",
@@ -24654,12 +24657,15 @@
   "rr": 1.38,
   "lev": 7,
   "signalTime": 1790163900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790163942697,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790164800000
+  "fillTime": 1790164800000,
+  "R": -1,
+  "resolvedTime": 1790251200000
  },
  {
   "id": "BROCCOLI714USDT::LONG::ChoCh::1790170200000",
