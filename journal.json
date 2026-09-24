@@ -24888,12 +24888,15 @@
   "rr": 1.9,
   "lev": 14,
   "signalTime": 1790181900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790181935608,
   "fillTime": 1790181900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.9,
+  "resolvedTime": 1790213400000
  },
  {
   "id": "NILUSDT::LONG::ChoCh::1790190900000",
@@ -25131,5 +25134,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ZAMAUSDT::LONG::BoS::1790214300000",
+  "symbol": "ZAMAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.09371,
+  "sl": 0.08820499999999999,
+  "tp": 0.10785,
+  "tpSrc": "WH",
+  "slPct": 5.87,
+  "gainPct": 15.09,
+  "rr": 2.57,
+  "lev": 10,
+  "signalTime": 1790214300000,
+  "status": "pending",
+  "createdAt": 1790214339183
  }
 ]

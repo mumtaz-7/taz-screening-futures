@@ -1,7 +1,8 @@
 {
   "ready": [
     "NOMUSDT::LONG::BoS",
-    "SENTUSDT::LONG::ChoCh"
+    "SENTUSDT::LONG::ChoCh",
+    "ZAMAUSDT::LONG::BoS"
   ],
-  "at": "2026-09-24T01:31:17.020Z"
+  "at": "2026-09-24T01:45:39.182Z"
 }
