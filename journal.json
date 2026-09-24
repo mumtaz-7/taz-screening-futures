@@ -25088,12 +25088,15 @@
   "rr": 11.03,
   "lev": 25,
   "signalTime": 1790207100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790207134058,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790208000000
+  "fillTime": 1790208000000,
+  "R": -1,
+  "resolvedTime": 1790217000000
  },
  {
   "id": "SENTUSDT::LONG::ChoCh::1790210700000",
@@ -25192,7 +25195,8 @@
   "lev": 14,
   "signalTime": 1790217000000,
   "status": "pending",
-  "createdAt": 1790217082058
+  "createdAt": 1790217082058,
+  "notified": []
  },
  {
   "id": "牛来USDT::LONG::BoS::1790217000000",
@@ -25209,6 +25213,7 @@
   "lev": 10,
   "signalTime": 1790217000000,
   "status": "pending",
-  "createdAt": 1790217082058
+  "createdAt": 1790217082058,
+  "notified": []
  }
 ]
