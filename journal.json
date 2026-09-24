@@ -25577,5 +25577,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CELRUSDT::SHORT::ChoCh::1790273700000",
+  "symbol": "CELRUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.003026,
+  "sl": 0.0032630000000000003,
+  "tp": 0.002731,
+  "tpSrc": "WL",
+  "slPct": 7.83,
+  "gainPct": 9.75,
+  "rr": 1.24,
+  "lev": 8,
+  "signalTime": 1790273700000,
+  "status": "pending",
+  "createdAt": 1790273734921
+ },
+ {
+  "id": "PROMUSDT::LONG::ChoCh::1790273700000",
+  "symbol": "PROMUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 5.424,
+  "sl": 5.186999999999999,
+  "tp": 5.922,
+  "tpSrc": "WH",
+  "slPct": 4.37,
+  "gainPct": 9.18,
+  "rr": 2.1,
+  "lev": 14,
+  "signalTime": 1790273700000,
+  "status": "pending",
+  "createdAt": 1790273734921
  }
 ]
