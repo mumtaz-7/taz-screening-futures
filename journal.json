@@ -25407,9 +25407,12 @@
   "rr": 1.76,
   "lev": 5,
   "signalTime": 1790239500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790239534946,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ONEUSDT::SHORT::BoS::1790247600000",
@@ -25525,8 +25528,12 @@
   "rr": 1.35,
   "lev": 8,
   "signalTime": 1790260200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790260245640,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790261100000
  }
 ]
