@@ -25440,8 +25440,29 @@
   "rr": 1.26,
   "lev": 4,
   "signalTime": 1790249400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790249444320,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790252100000
+ },
+ {
+  "id": "CVCUSDT::LONG::BoS::1790253000000",
+  "symbol": "CVCUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.03155,
+  "sl": 0.02951,
+  "tp": 0.03437,
+  "tpSrc": "WH",
+  "slPct": 6.47,
+  "gainPct": 8.94,
+  "rr": 1.38,
+  "lev": 9,
+  "signalTime": 1790253000000,
+  "status": "pending",
+  "createdAt": 1790253045283
  }
 ]
