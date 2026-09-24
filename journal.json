@@ -25155,9 +25155,12 @@
   "rr": 2.57,
   "lev": 10,
   "signalTime": 1790214300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790214339183,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790219700000
  },
  {
   "id": "SUIUSDT::SHORT::BoS::1790216100000",
@@ -25233,9 +25236,12 @@
   "rr": 9.63,
   "lev": 25,
   "signalTime": 1790218800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790218846933,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790219700000
  },
  {
   "id": "EULUSDT::LONG::BoS::1790219700000",
@@ -25251,7 +25257,11 @@
   "rr": 2,
   "lev": 11,
   "signalTime": 1790219700000,
-  "status": "pending",
-  "createdAt": 1790219733449
+  "status": "open",
+  "createdAt": 1790219733449,
+  "fillTime": 1790219700000,
+  "notified": [
+   "open"
+  ]
  }
 ]
