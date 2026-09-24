@@ -25489,5 +25489,22 @@
   "status": "pending",
   "createdAt": 1790255736801,
   "notified": []
+ },
+ {
+  "id": "OPUSDT::LONG::ChoCh::1790259300000",
+  "symbol": "OPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1283,
+  "sl": 0.11615,
+  "tp": 0.1412,
+  "tpSrc": "WH",
+  "slPct": 9.47,
+  "gainPct": 10.05,
+  "rr": 1.06,
+  "lev": 6,
+  "signalTime": 1790259300000,
+  "status": "pending",
+  "createdAt": 1790259337266
  }
 ]
