@@ -25468,5 +25468,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ADAUSDT::LONG::BoS::1790255700000",
+  "symbol": "ADAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.2372,
+  "sl": 0.23075,
+  "tp": 0.2623,
+  "tpSrc": "WH",
+  "slPct": 2.72,
+  "gainPct": 10.58,
+  "rr": 3.89,
+  "lev": 21,
+  "signalTime": 1790255700000,
+  "status": "pending",
+  "createdAt": 1790255736801
  }
 ]
