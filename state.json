@@ -1,7 +1,8 @@
 {
   "ready": [
     "EULUSDT::LONG::BoS",
-    "HBARUSDT::LONG::BoS"
+    "HBARUSDT::LONG::BoS",
+    "SYNUSDT::SHORT::BoS"
   ],
-  "at": "2026-09-24T04:00:47.981Z"
+  "at": "2026-09-24T04:15:34.234Z"
 }
