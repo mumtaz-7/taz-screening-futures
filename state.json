@@ -1,4 +1,7 @@
 {
-  "ready": [],
-  "at": "2026-09-24T08:30:41.594Z"
+  "ready": [
+    "GUSDT::SHORT::ChoCh",
+    "MARSCOINUSDT::SHORT::BoS"
+  ],
+  "at": "2026-09-24T08:45:34.945Z"
 }

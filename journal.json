@@ -25350,5 +25350,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GUSDT::SHORT::ChoCh::1790239500000",
+  "symbol": "GUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.00569,
+  "sl": 0.005915,
+  "tp": 0.00444,
+  "tpSrc": "OB",
+  "slPct": 3.95,
+  "gainPct": 21.97,
+  "rr": 5.56,
+  "lev": 15,
+  "signalTime": 1790239500000,
+  "status": "pending",
+  "createdAt": 1790239534946
+ },
+ {
+  "id": "MARSCOINUSDT::SHORT::BoS::1790239500000",
+  "symbol": "MARSCOINUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1214,
+  "sl": 0.13460000000000003,
+  "tp": 0.0982,
+  "tpSrc": "OB",
+  "slPct": 10.87,
+  "gainPct": 19.11,
+  "rr": 1.76,
+  "lev": 5,
+  "signalTime": 1790239500000,
+  "status": "pending",
+  "createdAt": 1790239534946
  }
 ]
