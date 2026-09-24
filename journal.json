@@ -25655,9 +25655,12 @@
   "rr": 2.67,
   "lev": 16,
   "signalTime": 1790278200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790278245969,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790279100000
  },
  {
   "id": "CVCUSDT::LONG::ChoCh::1790278200000",
