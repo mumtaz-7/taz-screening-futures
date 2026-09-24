@@ -1,9 +1,10 @@
 {
   "ready": [
+    "HBARUSDT::LONG::BoS",
     "SENTUSDT::LONG::BoS",
     "SUIUSDT::SHORT::BoS",
     "ZAMAUSDT::LONG::BoS",
     "牛来USDT::LONG::BoS"
   ],
-  "at": "2026-09-24T02:45:36.124Z"
+  "at": "2026-09-24T03:00:46.932Z"
 }

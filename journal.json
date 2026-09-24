@@ -25215,5 +25215,22 @@
   "status": "pending",
   "createdAt": 1790217082058,
   "notified": []
+ },
+ {
+  "id": "HBARUSDT::LONG::BoS::1790218800000",
+  "symbol": "HBARUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.09078,
+  "sl": 0.08968500000000001,
+  "tp": 0.10133,
+  "tpSrc": "WH",
+  "slPct": 1.21,
+  "gainPct": 11.62,
+  "rr": 9.63,
+  "lev": 25,
+  "signalTime": 1790218800000,
+  "status": "pending",
+  "createdAt": 1790218846933
  }
 ]
