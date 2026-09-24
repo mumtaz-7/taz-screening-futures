@@ -1,8 +1,7 @@
 {
   "ready": [
     "COTIUSDT::LONG::ChoCh",
-    "CVCUSDT::LONG::ChoCh",
-    "DASHUSDT::SHORT::BoS"
+    "CVCUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-24T20:00:51.675Z"
+  "at": "2026-09-24T20:15:34.715Z"
 }
