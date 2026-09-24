@@ -25535,5 +25535,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1790261100000
+ },
+ {
+  "id": "STEEMUSDT::LONG::ChoCh::1790267400000",
+  "symbol": "STEEMUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.06236,
+  "sl": 0.060725,
+  "tp": 0.07025,
+  "tpSrc": "WH",
+  "slPct": 2.62,
+  "gainPct": 12.65,
+  "rr": 4.83,
+  "lev": 22,
+  "signalTime": 1790267400000,
+  "status": "pending",
+  "createdAt": 1790267442973
  }
 ]
