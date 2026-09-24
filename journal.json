@@ -25365,8 +25365,12 @@
   "rr": 5.56,
   "lev": 15,
   "signalTime": 1790239500000,
-  "status": "pending",
-  "createdAt": 1790239534946
+  "status": "open",
+  "createdAt": 1790239534946,
+  "fillTime": 1790239500000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "MARSCOINUSDT::SHORT::BoS::1790239500000",
@@ -25383,6 +25387,7 @@
   "lev": 5,
   "signalTime": 1790239500000,
   "status": "pending",
-  "createdAt": 1790239534946
+  "createdAt": 1790239534946,
+  "notified": []
  }
 ]
