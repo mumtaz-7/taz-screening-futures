@@ -25212,9 +25212,12 @@
   "rr": 1.93,
   "lev": 10,
   "signalTime": 1790217000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790217082058,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790218800000
  },
  {
   "id": "HBARUSDT::LONG::BoS::1790218800000",
@@ -25231,6 +25234,24 @@
   "lev": 25,
   "signalTime": 1790218800000,
   "status": "pending",
-  "createdAt": 1790218846933
+  "createdAt": 1790218846933,
+  "notified": []
+ },
+ {
+  "id": "EULUSDT::LONG::BoS::1790219700000",
+  "symbol": "EULUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1.427,
+  "sl": 1.349,
+  "tp": 1.583,
+  "tpSrc": "WH",
+  "slPct": 5.47,
+  "gainPct": 10.93,
+  "rr": 2,
+  "lev": 11,
+  "signalTime": 1790219700000,
+  "status": "pending",
+  "createdAt": 1790219733449
  }
 ]
