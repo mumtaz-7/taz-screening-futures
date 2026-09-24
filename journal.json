@@ -25302,9 +25302,12 @@
   "rr": 2.23,
   "lev": 11,
   "signalTime": 1790226900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790226934632,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790233200000
  },
  {
   "id": "TIAUSDT::LONG::BoS::1790226900000",
