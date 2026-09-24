@@ -25170,7 +25170,45 @@
   "rr": 4.95,
   "lev": 20,
   "signalTime": 1790216100000,
+  "status": "open",
+  "createdAt": 1790216134757,
+  "fillTime": 1790216100000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "SENTUSDT::LONG::BoS::1790217000000",
+  "symbol": "SENTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.02156,
+  "sl": 0.020615,
+  "tp": 0.02401,
+  "tpSrc": "WH",
+  "slPct": 4.38,
+  "gainPct": 11.36,
+  "rr": 2.59,
+  "lev": 14,
+  "signalTime": 1790217000000,
   "status": "pending",
-  "createdAt": 1790216134757
+  "createdAt": 1790217082058
+ },
+ {
+  "id": "牛来USDT::LONG::BoS::1790217000000",
+  "symbol": "牛来USDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.10979,
+  "sl": 0.102905,
+  "tp": 0.12306,
+  "tpSrc": "WH",
+  "slPct": 6.27,
+  "gainPct": 12.09,
+  "rr": 1.93,
+  "lev": 10,
+  "signalTime": 1790217000000,
+  "status": "pending",
+  "createdAt": 1790217082058
  }
 ]
