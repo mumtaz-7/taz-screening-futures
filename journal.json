@@ -25320,8 +25320,28 @@
   "rr": 2.45,
   "lev": 11,
   "signalTime": 1790226900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790226934632,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790228700000
+ },
+ {
+  "id": "CHRUSDT::LONG::BoS::1790229600000",
+  "symbol": "CHRUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.02219,
+  "sl": 0.02093,
+  "tp": 0.0265,
+  "tpSrc": "WH",
+  "slPct": 5.68,
+  "gainPct": 19.42,
+  "rr": 3.42,
+  "lev": 11,
+  "signalTime": 1790229600000,
+  "status": "pending",
+  "createdAt": 1790229653337
  }
 ]

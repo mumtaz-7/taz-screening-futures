@@ -1,8 +1,9 @@
 {
   "ready": [
     "BONKUSDT::LONG::BoS",
+    "CHRUSDT::LONG::BoS",
     "PENGUUSDT::LONG::BoS",
     "TIAUSDT::LONG::BoS"
   ],
-  "at": "2026-09-24T05:45:33.199Z"
+  "at": "2026-09-24T06:00:53.336Z"
 }
