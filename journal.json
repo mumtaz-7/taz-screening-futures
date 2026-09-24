@@ -25218,12 +25218,15 @@
   "rr": 1.93,
   "lev": 10,
   "signalTime": 1790217000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790217082058,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790218800000
+  "fillTime": 1790218800000,
+  "R": -1,
+  "resolvedTime": 1790244000000
  },
  {
   "id": "HBARUSDT::LONG::BoS::1790218800000",
