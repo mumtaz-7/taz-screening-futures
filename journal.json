@@ -25043,12 +25043,15 @@
   "rr": 7.33,
   "lev": 25,
   "signalTime": 1790201700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790201733153,
   "fillTime": 1790201700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790215200000
  },
  {
   "id": "MINAUSDT::LONG::ChoCh::1790201700000",
@@ -25152,5 +25155,22 @@
   "status": "pending",
   "createdAt": 1790214339183,
   "notified": []
+ },
+ {
+  "id": "SUIUSDT::SHORT::BoS::1790216100000",
+  "symbol": "SUIUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.9541,
+  "sl": 0.98125,
+  "tp": 0.8197,
+  "tpSrc": "OB",
+  "slPct": 2.85,
+  "gainPct": 14.09,
+  "rr": 4.95,
+  "lev": 20,
+  "signalTime": 1790216100000,
+  "status": "pending",
+  "createdAt": 1790216134757
  }
 ]
