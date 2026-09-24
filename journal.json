@@ -20170,7 +20170,7 @@
   "rr": 2.17,
   "lev": 6,
   "signalTime": 1789491600000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1789491646469,
   "notified": [
    "open"
@@ -25550,9 +25550,12 @@
   "rr": 4.83,
   "lev": 22,
   "signalTime": 1790267400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790267442973,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790268300000
  },
  {
   "id": "NILUSDT::LONG::ChoCh::1790268300000",
@@ -25568,7 +25571,11 @@
   "rr": 3.17,
   "lev": 7,
   "signalTime": 1790268300000,
-  "status": "pending",
-  "createdAt": 1790268336211
+  "status": "open",
+  "createdAt": 1790268336211,
+  "fillTime": 1790268300000,
+  "notified": [
+   "open"
+  ]
  }
 ]
