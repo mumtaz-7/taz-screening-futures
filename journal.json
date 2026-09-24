@@ -25088,5 +25088,22 @@
    "open"
   ],
   "fillTime": 1790208000000
+ },
+ {
+  "id": "SENTUSDT::LONG::ChoCh::1790210700000",
+  "symbol": "SENTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.02127,
+  "sl": 0.020685,
+  "tp": 0.02401,
+  "tpSrc": "WH",
+  "slPct": 2.75,
+  "gainPct": 12.88,
+  "rr": 4.68,
+  "lev": 21,
+  "signalTime": 1790210700000,
+  "status": "pending",
+  "createdAt": 1790210732695
  }
 ]
