@@ -25350,12 +25350,15 @@
   "rr": 3.42,
   "lev": 11,
   "signalTime": 1790229600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790229653337,
   "fillTime": 1790229600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790245800000
  },
  {
   "id": "GUSDT::SHORT::ChoCh::1790239500000",
