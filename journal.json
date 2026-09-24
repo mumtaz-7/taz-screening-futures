@@ -22442,12 +22442,15 @@
   "rr": 1.7,
   "lev": 11,
   "signalTime": 1789889400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789889444257,
   "fillTime": 1789889400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.7,
+  "resolvedTime": 1790260200000
  },
  {
   "id": "AVAXUSDT::LONG::ChoCh::1789892100000",
@@ -25523,6 +25526,7 @@
   "lev": 8,
   "signalTime": 1790260200000,
   "status": "pending",
-  "createdAt": 1790260245640
+  "createdAt": 1790260245640,
+  "notified": []
  }
 ]
