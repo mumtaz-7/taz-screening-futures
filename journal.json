@@ -25513,9 +25513,12 @@
   "rr": 1.06,
   "lev": 6,
   "signalTime": 1790259300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790259337266,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "BBUSDT::LONG::BoS::1790260200000",
