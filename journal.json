@@ -25492,9 +25492,12 @@
   "rr": 3.89,
   "lev": 21,
   "signalTime": 1790255700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790255736801,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "OPUSDT::LONG::ChoCh::1790259300000",
@@ -25637,5 +25640,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "COTIUSDT::LONG::ChoCh::1790278200000",
+  "symbol": "COTIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01636,
+  "sl": 0.015745,
+  "tp": 0.018,
+  "tpSrc": "WH",
+  "slPct": 3.76,
+  "gainPct": 10.02,
+  "rr": 2.67,
+  "lev": 16,
+  "signalTime": 1790278200000,
+  "status": "pending",
+  "createdAt": 1790278245969
+ },
+ {
+  "id": "CVCUSDT::LONG::ChoCh::1790278200000",
+  "symbol": "CVCUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.03012,
+  "sl": 0.02928,
+  "tp": 0.03437,
+  "tpSrc": "WH",
+  "slPct": 2.79,
+  "gainPct": 14.11,
+  "rr": 5.06,
+  "lev": 21,
+  "signalTime": 1790278200000,
+  "status": "pending",
+  "createdAt": 1790278245969
  }
 ]
