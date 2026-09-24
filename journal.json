@@ -25728,7 +25728,8 @@
   "lev": 25,
   "signalTime": 1790288100000,
   "status": "pending",
-  "createdAt": 1790288133836
+  "createdAt": 1790288133836,
+  "notified": []
  },
  {
   "id": "MUBARAKUSDT::SHORT::ChoCh::1790288100000",
@@ -25745,6 +25746,7 @@
   "lev": 17,
   "signalTime": 1790288100000,
   "status": "pending",
-  "createdAt": 1790288133836
+  "createdAt": 1790288133836,
+  "notified": []
  }
 ]
