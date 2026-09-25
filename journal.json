@@ -26318,6 +26318,24 @@
   "lev": 24,
   "signalTime": 1790352900000,
   "status": "pending",
-  "createdAt": 1790352935038
+  "createdAt": 1790352935038,
+  "notified": []
+ },
+ {
+  "id": "SPKUSDT::LONG::BoS::1790353800000",
+  "symbol": "SPKUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.02306,
+  "sl": 0.0215015,
+  "tp": 0.026281,
+  "tpSrc": "WH",
+  "slPct": 6.76,
+  "gainPct": 13.97,
+  "rr": 2.07,
+  "lev": 9,
+  "signalTime": 1790353800000,
+  "status": "pending",
+  "createdAt": 1790353842536
  }
 ]
