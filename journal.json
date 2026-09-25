@@ -25634,12 +25634,15 @@
   "rr": 2.1,
   "lev": 14,
   "signalTime": 1790273700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790273734921,
   "fillTime": 1790273700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.1,
+  "resolvedTime": 1790356500000
  },
  {
   "id": "DASHUSDT::SHORT::BoS::1790275500000",
