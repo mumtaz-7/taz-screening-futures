@@ -2,11 +2,10 @@
   "ready": [
     "ARUSDT::SHORT::BoS",
     "DASHUSDT::SHORT::BoS",
-    "FLOKIUSDT::SHORT::ChoCh",
     "MARSCOINUSDT::SHORT::BoS",
     "ONEUSDT::LONG::BoS",
     "PEPEUSDT::SHORT::ChoCh",
     "TIAUSDT::SHORT::BoS"
   ],
-  "at": "2026-09-25T03:45:32.972Z"
+  "at": "2026-09-25T04:00:46.006Z"
 }
