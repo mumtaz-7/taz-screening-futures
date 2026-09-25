@@ -25953,9 +25953,12 @@
   "rr": 5.33,
   "lev": 25,
   "signalTime": 1790307000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790307042079,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790316900000
  },
  {
   "id": "QNTUSDT::LONG::BoS::1790311500000",
@@ -26002,5 +26005,22 @@
   ],
   "R": -1,
   "resolvedTime": 1790316000000
+ },
+ {
+  "id": "PHAUSDT::LONG::BoS::1790317800000",
+  "symbol": "PHAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0522,
+  "sl": 0.048,
+  "tp": 0.0584,
+  "tpSrc": "WH",
+  "slPct": 8.05,
+  "gainPct": 11.88,
+  "rr": 1.48,
+  "lev": 7,
+  "signalTime": 1790317800000,
+  "status": "pending",
+  "createdAt": 1790317845034
  }
 ]
