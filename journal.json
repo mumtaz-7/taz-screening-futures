@@ -26433,7 +26433,8 @@
   "lev": 23,
   "signalTime": 1790368200000,
   "status": "pending",
-  "createdAt": 1790368241513
+  "createdAt": 1790368241513,
+  "notified": []
  },
  {
   "id": "PENDLEUSDT::LONG::ChoCh::1790368200000",
@@ -26450,6 +26451,24 @@
   "lev": 21,
   "signalTime": 1790368200000,
   "status": "pending",
-  "createdAt": 1790368241513
+  "createdAt": 1790368241513,
+  "notified": []
+ },
+ {
+  "id": "XAIUSDT::LONG::BoS::1790369100000",
+  "symbol": "XAIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00944,
+  "sl": 0.00881,
+  "tp": 0.01233,
+  "tpSrc": "WH",
+  "slPct": 6.67,
+  "gainPct": 30.61,
+  "rr": 4.59,
+  "lev": 9,
+  "signalTime": 1790369100000,
+  "status": "pending",
+  "createdAt": 1790369135816
  }
 ]
