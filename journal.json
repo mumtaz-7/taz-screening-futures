@@ -26020,9 +26020,13 @@
   "rr": 1.48,
   "lev": 7,
   "signalTime": 1790317800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790317845034,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790322300000
  },
  {
   "id": "NOMUSDT::LONG::ChoCh::1790318700000",
@@ -26062,5 +26066,22 @@
   "status": "pending",
   "createdAt": 1790320534577,
   "notified": []
+ },
+ {
+  "id": "BBUSDT::LONG::ChoCh::1790323200000",
+  "symbol": "BBUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0103,
+  "sl": 0.010074999999999999,
+  "tp": 0.01146,
+  "tpSrc": "WH",
+  "slPct": 2.18,
+  "gainPct": 11.26,
+  "rr": 5.16,
+  "lev": 25,
+  "signalTime": 1790323200000,
+  "status": "pending",
+  "createdAt": 1790323247715
  }
 ]
