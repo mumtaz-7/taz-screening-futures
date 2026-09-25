@@ -25766,9 +25766,12 @@
   "rr": 8.8,
   "lev": 25,
   "signalTime": 1790295300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790295333527,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790299800000
  },
  {
   "id": "ZECUSDT::LONG::ChoCh::1790299800000",
@@ -25784,7 +25787,28 @@
   "rr": 2.7,
   "lev": 20,
   "signalTime": 1790299800000,
+  "status": "open",
+  "createdAt": 1790299842400,
+  "fillTime": 1790299800000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "MUBARAKUSDT::SHORT::BoS::1790300700000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.04385,
+  "sl": 0.047435000000000005,
+  "tp": 0.03389,
+  "tpSrc": "OB",
+  "slPct": 8.18,
+  "gainPct": 22.71,
+  "rr": 2.78,
+  "lev": 7,
+  "signalTime": 1790300700000,
   "status": "pending",
-  "createdAt": 1790299842400
+  "createdAt": 1790300733874
  }
 ]
