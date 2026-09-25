@@ -26477,5 +26477,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "QIUSDT::LONG::BoS::1790370900000",
+  "symbol": "QIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0038,
+  "sl": 0.003005,
+  "tp": 0.00508,
+  "tpSrc": "WH",
+  "slPct": 20.92,
+  "gainPct": 33.68,
+  "rr": 1.61,
+  "lev": 3,
+  "signalTime": 1790370900000,
+  "status": "pending",
+  "createdAt": 1790370934867
  }
 ]
