@@ -26276,5 +26276,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MOVRUSDT::LONG::BoS::1790349300000",
+  "symbol": "MOVRUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1.036,
+  "sl": 0.958,
+  "tp": 1.123,
+  "tpSrc": "WH",
+  "slPct": 7.53,
+  "gainPct": 8.4,
+  "rr": 1.12,
+  "lev": 8,
+  "signalTime": 1790349300000,
+  "status": "pending",
+  "createdAt": 1790349334436
  }
 ]
