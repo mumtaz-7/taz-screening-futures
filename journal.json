@@ -26384,12 +26384,15 @@
   "rr": 2.2,
   "lev": 9,
   "signalTime": 1790361000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790361042421,
   "fillTime": 1790361000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790364600000
  },
  {
   "id": "ETCUSDT::LONG::ChoCh::1790362800000",
