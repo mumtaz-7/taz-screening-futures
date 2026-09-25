@@ -24792,12 +24792,15 @@
   "rr": 2.58,
   "lev": 9,
   "signalTime": 1790172900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790172940007,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790173800000
+  "fillTime": 1790173800000,
+  "R": -1,
+  "resolvedTime": 1790303400000
  },
  {
   "id": "XPLUSDT::SHORT::BoS::1790172900000",
@@ -25769,12 +25772,15 @@
   "rr": 8.8,
   "lev": 25,
   "signalTime": 1790295300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790295333527,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790299800000
+  "fillTime": 1790299800000,
+  "R": -1,
+  "resolvedTime": 1790303400000
  },
  {
   "id": "ZECUSDT::LONG::ChoCh::1790299800000",
@@ -25817,5 +25823,56 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ARUSDT::SHORT::BoS::1790304300000",
+  "symbol": "ARUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 4.47,
+  "sl": 4.695,
+  "tp": 3.641,
+  "tpSrc": "OB",
+  "slPct": 5.03,
+  "gainPct": 18.55,
+  "rr": 3.68,
+  "lev": 12,
+  "signalTime": 1790304300000,
+  "status": "pending",
+  "createdAt": 1790304334554
+ },
+ {
+  "id": "MARSCOINUSDT::SHORT::BoS::1790304300000",
+  "symbol": "MARSCOINUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1121,
+  "sl": 0.11809999999999998,
+  "tp": 0.0982,
+  "tpSrc": "OB",
+  "slPct": 5.35,
+  "gainPct": 12.4,
+  "rr": 2.32,
+  "lev": 11,
+  "signalTime": 1790304300000,
+  "status": "pending",
+  "createdAt": 1790304334554
+ },
+ {
+  "id": "TIAUSDT::SHORT::BoS::1790304300000",
+  "symbol": "TIAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.4852,
+  "sl": 0.50695,
+  "tp": 0.4364,
+  "tpSrc": "OB",
+  "slPct": 4.48,
+  "gainPct": 10.06,
+  "rr": 2.24,
+  "lev": 13,
+  "signalTime": 1790304300000,
+  "status": "pending",
+  "createdAt": 1790304334554
  }
 ]
