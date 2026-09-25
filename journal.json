@@ -25745,12 +25745,15 @@
   "rr": 6.89,
   "lev": 25,
   "signalTime": 1790288100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790288133836,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790290800000
+  "fillTime": 1790290800000,
+  "R": -1,
+  "resolvedTime": 1790367300000
  },
  {
   "id": "MUBARAKUSDT::SHORT::ChoCh::1790288100000",
@@ -26414,5 +26417,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "FILUSDT::LONG::ChoCh::1790368200000",
+  "symbol": "FILUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1.0305,
+  "sl": 1.0048500000000002,
+  "tp": 1.1033,
+  "tpSrc": "OB",
+  "slPct": 2.49,
+  "gainPct": 7.06,
+  "rr": 2.84,
+  "lev": 23,
+  "signalTime": 1790368200000,
+  "status": "pending",
+  "createdAt": 1790368241513
+ },
+ {
+  "id": "PENDLEUSDT::LONG::ChoCh::1790368200000",
+  "symbol": "PENDLEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 2.551,
+  "sl": 2.479,
+  "tp": 2.741,
+  "tpSrc": "OB",
+  "slPct": 2.82,
+  "gainPct": 7.45,
+  "rr": 2.64,
+  "lev": 21,
+  "signalTime": 1790368200000,
+  "status": "pending",
+  "createdAt": 1790368241513
  }
 ]
