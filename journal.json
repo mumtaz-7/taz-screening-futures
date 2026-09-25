@@ -26249,9 +26249,12 @@
   "rr": 1.67,
   "lev": 11,
   "signalTime": 1790345700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790345736643,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790347500000
  },
  {
   "id": "PUMPUSDT::SHORT::ChoCh::1790346600000",
