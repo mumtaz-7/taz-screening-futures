@@ -26084,9 +26084,12 @@
   "rr": 5.16,
   "lev": 25,
   "signalTime": 1790323200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790323247715,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790330400000
  },
  {
   "id": "BOMEUSDT::LONG::ChoCh::1790328600000",
@@ -26138,7 +26141,11 @@
   "rr": 2.98,
   "lev": 20,
   "signalTime": 1790330400000,
-  "status": "pending",
-  "createdAt": 1790330446975
+  "status": "open",
+  "createdAt": 1790330446975,
+  "fillTime": 1790330400000,
+  "notified": [
+   "open"
+  ]
  }
 ]
