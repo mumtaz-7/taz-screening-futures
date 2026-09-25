@@ -26021,6 +26021,24 @@
   "lev": 7,
   "signalTime": 1790317800000,
   "status": "pending",
-  "createdAt": 1790317845034
+  "createdAt": 1790317845034,
+  "notified": []
+ },
+ {
+  "id": "NOMUSDT::LONG::ChoCh::1790318700000",
+  "symbol": "NOMUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.002152,
+  "sl": 0.001918,
+  "tp": 0.002817,
+  "tpSrc": "WH",
+  "slPct": 10.87,
+  "gainPct": 30.9,
+  "rr": 2.84,
+  "lev": 5,
+  "signalTime": 1790318700000,
+  "status": "pending",
+  "createdAt": 1790318735610
  }
 ]
