@@ -26103,6 +26103,24 @@
   "lev": 24,
   "signalTime": 1790328600000,
   "status": "pending",
-  "createdAt": 1790328645098
+  "createdAt": 1790328645098,
+  "notified": []
+ },
+ {
+  "id": "ARBUSDT::LONG::BoS::1790329500000",
+  "symbol": "ARBUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.2197,
+  "sl": 0.21145,
+  "tp": 0.2406,
+  "tpSrc": "OB",
+  "slPct": 3.76,
+  "gainPct": 9.51,
+  "rr": 2.53,
+  "lev": 16,
+  "signalTime": 1790329500000,
+  "status": "pending",
+  "createdAt": 1790329538352
  }
 ]
