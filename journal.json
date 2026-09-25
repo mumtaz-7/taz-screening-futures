@@ -25871,12 +25871,15 @@
   "rr": 2.32,
   "lev": 11,
   "signalTime": 1790304300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790304334554,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790307000000
+  "fillTime": 1790307000000,
+  "R": -1,
+  "resolvedTime": 1790335800000
  },
  {
   "id": "TIAUSDT::SHORT::BoS::1790304300000",
