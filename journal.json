@@ -25862,9 +25862,12 @@
   "rr": 2.32,
   "lev": 11,
   "signalTime": 1790304300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790304334554,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790307000000
  },
  {
   "id": "TIAUSDT::SHORT::BoS::1790304300000",
@@ -25922,9 +25925,13 @@
   "rr": 2.09,
   "lev": 8,
   "signalTime": 1790306100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790306133418,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790307000000
  },
  {
   "id": "FLOKIUSDT::SHORT::ChoCh::1790307000000",
@@ -25941,6 +25948,7 @@
   "lev": 25,
   "signalTime": 1790307000000,
   "status": "pending",
-  "createdAt": 1790307042079
+  "createdAt": 1790307042079,
+  "notified": []
  }
 ]
