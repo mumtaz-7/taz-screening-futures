@@ -25829,12 +25829,15 @@
   "rr": 2.78,
   "lev": 7,
   "signalTime": 1790300700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790300733874,
   "fillTime": 1790300700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790341200000
  },
  {
   "id": "ARUSDT::SHORT::BoS::1790304300000",
