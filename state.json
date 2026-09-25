@@ -1,9 +1,6 @@
 {
   "ready": [
-    "MOVRUSDT::LONG::BoS",
-    "PUMPUSDT::SHORT::ChoCh",
-    "XRPUSDT::SHORT::ChoCh",
-    "ZAMAUSDT::SHORT::ChoCh"
+    "MOVRUSDT::LONG::BoS"
   ],
-  "at": "2026-09-25T15:15:34.436Z"
+  "at": "2026-09-25T15:30:43.646Z"
 }
