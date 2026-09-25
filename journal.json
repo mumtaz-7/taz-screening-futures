@@ -26135,9 +26135,12 @@
   "rr": 2.53,
   "lev": 16,
   "signalTime": 1790329500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790329538352,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790338500000
  },
  {
   "id": "ETCUSDT::LONG::BoS::1790330400000",
