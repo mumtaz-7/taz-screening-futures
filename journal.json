@@ -26317,9 +26317,12 @@
   "rr": 3.66,
   "lev": 24,
   "signalTime": 1790352900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790352935038,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790354700000
  },
  {
   "id": "SPKUSDT::LONG::BoS::1790353800000",
@@ -26342,5 +26345,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "SAGAUSDT::SHORT::ChoCh::1790355600000",
+  "symbol": "SAGAUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.03587,
+  "sl": 0.038915000000000005,
+  "tp": 0.02753,
+  "tpSrc": "WL",
+  "slPct": 8.49,
+  "gainPct": 23.25,
+  "rr": 2.74,
+  "lev": 7,
+  "signalTime": 1790355600000,
+  "status": "pending",
+  "createdAt": 1790355649556
  }
 ]
