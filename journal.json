@@ -25971,5 +25971,22 @@
   "status": "pending",
   "createdAt": 1790311533211,
   "notified": []
+ },
+ {
+  "id": "NILUSDT::LONG::ChoCh::1790315100000",
+  "symbol": "NILUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.11588,
+  "sl": 0.10344500000000001,
+  "tp": 0.1495,
+  "tpSrc": "WH",
+  "slPct": 10.73,
+  "gainPct": 29.01,
+  "rr": 2.7,
+  "lev": 6,
+  "signalTime": 1790315100000,
+  "status": "pending",
+  "createdAt": 1790315133400
  }
 ]
