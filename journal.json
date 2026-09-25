@@ -26162,8 +26162,28 @@
   "rr": 3.96,
   "lev": 21,
   "signalTime": 1790332200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790332243809,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790333100000
+ },
+ {
+  "id": "2ZUSDT::LONG::ChoCh::1790334000000",
+  "symbol": "2ZUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.05536,
+  "sl": 0.054474999999999996,
+  "tp": 0.06271,
+  "tpSrc": "WH",
+  "slPct": 1.6,
+  "gainPct": 13.28,
+  "rr": 8.31,
+  "lev": 25,
+  "signalTime": 1790334000000,
+  "status": "pending",
+  "createdAt": 1790334048384
  }
 ]
