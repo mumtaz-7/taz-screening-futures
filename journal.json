@@ -25124,12 +25124,15 @@
   "rr": 4.68,
   "lev": 21,
   "signalTime": 1790210700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790210732695,
   "fillTime": 1790210700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 4.68,
+  "resolvedTime": 1790373600000
  },
  {
   "id": "NOMUSDT::LONG::BoS::1790211600000",
@@ -25215,12 +25218,15 @@
   "rr": 2.59,
   "lev": 14,
   "signalTime": 1790217000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790217082058,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790220600000
+  "fillTime": 1790220600000,
+  "R": 2.59,
+  "resolvedTime": 1790373600000
  },
  {
   "id": "牛来USDT::LONG::BoS::1790217000000",
