@@ -1,7 +1,6 @@
 {
   "ready": [
-    "ONEUSDT::LONG::BoS",
-    "PEPEUSDT::SHORT::ChoCh"
+    "QNTUSDT::LONG::BoS"
   ],
-  "at": "2026-09-25T04:15:33.767Z"
+  "at": "2026-09-25T04:45:33.211Z"
 }

@@ -25757,9 +25757,12 @@
   "rr": 7.41,
   "lev": 17,
   "signalTime": 1790288100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790288133836,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "STEEMUSDT::LONG::BoS::1790295300000",
@@ -25950,5 +25953,22 @@
   "status": "pending",
   "createdAt": 1790307042079,
   "notified": []
+ },
+ {
+  "id": "QNTUSDT::LONG::BoS::1790311500000",
+  "symbol": "QNTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 91.39,
+  "sl": 86.68,
+  "tp": 98.5,
+  "tpSrc": "WH",
+  "slPct": 5.15,
+  "gainPct": 7.78,
+  "rr": 1.51,
+  "lev": 12,
+  "signalTime": 1790311500000,
+  "status": "pending",
+  "createdAt": 1790311533211
  }
 ]
