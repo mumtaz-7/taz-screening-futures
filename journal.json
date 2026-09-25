@@ -20311,7 +20311,7 @@
   "rr": 2.38,
   "lev": 8,
   "signalTime": 1789529400000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1789529438306,
   "notified": [
    "open"
@@ -25923,6 +25923,24 @@
   "lev": 8,
   "signalTime": 1790306100000,
   "status": "pending",
-  "createdAt": 1790306133418
+  "createdAt": 1790306133418,
+  "notified": []
+ },
+ {
+  "id": "FLOKIUSDT::SHORT::ChoCh::1790307000000",
+  "symbol": "FLOKIUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.00002831,
+  "sl": 0.000028895,
+  "tp": 0.00002519,
+  "tpSrc": "OB",
+  "slPct": 2.07,
+  "gainPct": 11.02,
+  "rr": 5.33,
+  "lev": 25,
+  "signalTime": 1790307000000,
+  "status": "pending",
+  "createdAt": 1790307042079
  }
 ]
