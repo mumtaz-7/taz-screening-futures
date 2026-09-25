@@ -25434,12 +25434,15 @@
   "rr": 1.46,
   "lev": 4,
   "signalTime": 1790247600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790247649341,
   "fillTime": 1790247600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790305200000
  },
  {
   "id": "BROCCOLI714USDT::LONG::ChoCh::1790249400000",
@@ -25838,9 +25841,12 @@
   "rr": 3.68,
   "lev": 12,
   "signalTime": 1790304300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790304334554,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790305200000
  },
  {
   "id": "MARSCOINUSDT::SHORT::BoS::1790304300000",
@@ -25874,9 +25880,12 @@
   "rr": 2.24,
   "lev": 13,
   "signalTime": 1790304300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790304334554,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790305200000
  },
  {
   "id": "PEPEUSDT::SHORT::ChoCh::1790305200000",
@@ -25892,7 +25901,28 @@
   "rr": 3.07,
   "lev": 17,
   "signalTime": 1790305200000,
+  "status": "open",
+  "createdAt": 1790305247085,
+  "fillTime": 1790305200000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ONEUSDT::LONG::BoS::1790306100000",
+  "symbol": "ONEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00257,
+  "sl": 0.002375,
+  "tp": 0.002977,
+  "tpSrc": "OB",
+  "slPct": 7.59,
+  "gainPct": 15.84,
+  "rr": 2.09,
+  "lev": 8,
+  "signalTime": 1790306100000,
   "status": "pending",
-  "createdAt": 1790305247085
+  "createdAt": 1790306133418
  }
 ]
