@@ -1,7 +1,8 @@
 {
   "ready": [
+    "ARKUSDT::LONG::BoS",
     "DYMUSDT::LONG::BoS",
     "NOMUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-25T22:45:35.013Z"
+  "at": "2026-09-25T23:00:45.106Z"
 }
