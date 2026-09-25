@@ -26228,8 +26228,12 @@
   "rr": 1.84,
   "lev": 14,
   "signalTime": 1790345700000,
-  "status": "pending",
-  "createdAt": 1790345736643
+  "status": "open",
+  "createdAt": 1790345736643,
+  "fillTime": 1790345700000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "ZAMAUSDT::SHORT::ChoCh::1790345700000",
@@ -26246,6 +26250,24 @@
   "lev": 11,
   "signalTime": 1790345700000,
   "status": "pending",
-  "createdAt": 1790345736643
+  "createdAt": 1790345736643,
+  "notified": []
+ },
+ {
+  "id": "PUMPUSDT::SHORT::ChoCh::1790346600000",
+  "symbol": "PUMPUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.004099,
+  "sl": 0.0043255,
+  "tp": 0.00375,
+  "tpSrc": "WL",
+  "slPct": 5.53,
+  "gainPct": 8.51,
+  "rr": 1.54,
+  "lev": 11,
+  "signalTime": 1790346600000,
+  "status": "pending",
+  "createdAt": 1790346649602
  }
 ]
