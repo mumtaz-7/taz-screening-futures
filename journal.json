@@ -25655,12 +25655,15 @@
   "rr": 2.55,
   "lev": 13,
   "signalTime": 1790275500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790275535291,
   "fillTime": 1790275500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790336700000
  },
  {
   "id": "COTIUSDT::LONG::ChoCh::1790278200000",
@@ -26192,8 +26195,11 @@
   "rr": 8.31,
   "lev": 25,
   "signalTime": 1790334000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790334048384,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790336700000
  }
 ]
