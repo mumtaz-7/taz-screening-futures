@@ -26087,5 +26087,22 @@
   "status": "pending",
   "createdAt": 1790323247715,
   "notified": []
+ },
+ {
+  "id": "BOMEUSDT::LONG::ChoCh::1790328600000",
+  "symbol": "BOMEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0010265,
+  "sl": 0.0010022,
+  "tp": 0.00112095,
+  "tpSrc": "EQ",
+  "slPct": 2.37,
+  "gainPct": 9.2,
+  "rr": 3.89,
+  "lev": 24,
+  "signalTime": 1790328600000,
+  "status": "pending",
+  "createdAt": 1790328645098
  }
 ]
