@@ -1,4 +1,7 @@
 {
-  "ready": [],
-  "at": "2026-09-25T14:00:55.092Z"
+  "ready": [
+    "XRPUSDT::SHORT::ChoCh",
+    "ZAMAUSDT::SHORT::ChoCh"
+  ],
+  "at": "2026-09-25T14:15:36.642Z"
 }

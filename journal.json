@@ -26162,12 +26162,15 @@
   "rr": 2.98,
   "lev": 20,
   "signalTime": 1790330400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790330446975,
   "fillTime": 1790330400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790344800000
  },
  {
   "id": "DYMUSDT::LONG::ChoCh::1790332200000",
@@ -26210,5 +26213,39 @@
    "open"
   ],
   "fillTime": 1790336700000
+ },
+ {
+  "id": "XRPUSDT::SHORT::ChoCh::1790345700000",
+  "symbol": "XRPUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 1.5789,
+  "sl": 1.6482,
+  "tp": 1.4517,
+  "tpSrc": "WL",
+  "slPct": 4.39,
+  "gainPct": 8.06,
+  "rr": 1.84,
+  "lev": 14,
+  "signalTime": 1790345700000,
+  "status": "pending",
+  "createdAt": 1790345736643
+ },
+ {
+  "id": "ZAMAUSDT::SHORT::ChoCh::1790345700000",
+  "symbol": "ZAMAUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.0903,
+  "sl": 0.09509999999999999,
+  "tp": 0.0823,
+  "tpSrc": "OB",
+  "slPct": 5.32,
+  "gainPct": 8.86,
+  "rr": 1.67,
+  "lev": 11,
+  "signalTime": 1790345700000,
+  "status": "pending",
+  "createdAt": 1790345736643
  }
 ]
