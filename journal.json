@@ -26123,9 +26123,12 @@
   "rr": 3.89,
   "lev": 24,
   "signalTime": 1790328600000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790328645098,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ARBUSDT::LONG::BoS::1790329500000",
