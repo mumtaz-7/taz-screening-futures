@@ -26519,7 +26519,29 @@
   "rr": 1.73,
   "lev": 13,
   "signalTime": 1790377200000,
+  "status": "void",
+  "createdAt": 1790377245115,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790377200000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "SAGAUSDT::SHORT::BoS::1790378100000",
+  "symbol": "SAGAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.03585,
+  "sl": 0.03864,
+  "tp": 0.02624,
+  "tpSrc": "OB",
+  "slPct": 7.78,
+  "gainPct": 26.81,
+  "rr": 3.44,
+  "lev": 8,
+  "signalTime": 1790378100000,
   "status": "pending",
-  "createdAt": 1790377245115
+  "createdAt": 1790378135375
  }
 ]
