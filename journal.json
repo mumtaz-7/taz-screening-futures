@@ -26390,5 +26390,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ETCUSDT::LONG::ChoCh::1790362800000",
+  "symbol": "ETCUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 9.42,
+  "sl": 9.224999999999998,
+  "tp": 10.42,
+  "tpSrc": "WH",
+  "slPct": 2.07,
+  "gainPct": 10.62,
+  "rr": 5.13,
+  "lev": 25,
+  "signalTime": 1790362800000,
+  "status": "pending",
+  "createdAt": 1790362852012
  }
 ]
