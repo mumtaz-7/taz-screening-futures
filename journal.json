@@ -26302,5 +26302,22 @@
   "notified": [
    "win"
   ]
+ },
+ {
+  "id": "DYMUSDT::LONG::BoS::1790352900000",
+  "symbol": "DYMUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.02034,
+  "sl": 0.019845,
+  "tp": 0.02215,
+  "tpSrc": "WH",
+  "slPct": 2.43,
+  "gainPct": 8.9,
+  "rr": 3.66,
+  "lev": 24,
+  "signalTime": 1790352900000,
+  "status": "pending",
+  "createdAt": 1790352935038
  }
 ]
