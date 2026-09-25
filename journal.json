@@ -25751,5 +25751,22 @@
   "status": "pending",
   "createdAt": 1790288133836,
   "notified": []
+ },
+ {
+  "id": "STEEMUSDT::LONG::BoS::1790295300000",
+  "symbol": "STEEMUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.06299,
+  "sl": 0.062165,
+  "tp": 0.07025,
+  "tpSrc": "WH",
+  "slPct": 1.31,
+  "gainPct": 11.53,
+  "rr": 8.8,
+  "lev": 25,
+  "signalTime": 1790295300000,
+  "status": "pending",
+  "createdAt": 1790295333527
  }
 ]
