@@ -25913,12 +25913,15 @@
   "rr": 3.07,
   "lev": 17,
   "signalTime": 1790305200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790305247085,
   "fillTime": 1790305200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790334000000
  },
  {
   "id": "ONEUSDT::LONG::BoS::1790306100000",
@@ -25956,12 +25959,15 @@
   "rr": 5.33,
   "lev": 25,
   "signalTime": 1790307000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790307042079,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790316900000
+  "fillTime": 1790316900000,
+  "R": -1,
+  "resolvedTime": 1790334000000
  },
  {
   "id": "QNTUSDT::LONG::BoS::1790311500000",
@@ -26184,6 +26190,7 @@
   "lev": 25,
   "signalTime": 1790334000000,
   "status": "pending",
-  "createdAt": 1790334048384
+  "createdAt": 1790334048384,
+  "notified": []
  }
 ]
