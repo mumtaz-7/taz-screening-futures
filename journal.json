@@ -26121,6 +26121,24 @@
   "lev": 16,
   "signalTime": 1790329500000,
   "status": "pending",
-  "createdAt": 1790329538352
+  "createdAt": 1790329538352,
+  "notified": []
+ },
+ {
+  "id": "ETCUSDT::LONG::BoS::1790330400000",
+  "symbol": "ETCUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 9.57,
+  "sl": 9.285,
+  "tp": 10.42,
+  "tpSrc": "WH",
+  "slPct": 2.98,
+  "gainPct": 8.88,
+  "rr": 2.98,
+  "lev": 20,
+  "signalTime": 1790330400000,
+  "status": "pending",
+  "createdAt": 1790330446975
  }
 ]
