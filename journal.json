@@ -26516,12 +26516,15 @@
   "rr": 1.61,
   "lev": 3,
   "signalTime": 1790370900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790370934867,
   "fillTime": 1790370900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790404200000
  },
  {
   "id": "ARKUSDT::LONG::BoS::1790377200000",
@@ -26583,12 +26586,15 @@
   "rr": 6.98,
   "lev": 25,
   "signalTime": 1790384400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790384446805,
   "fillTime": 1790384400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790404200000
  },
  {
   "id": "RAYUSDT::SHORT::ChoCh::1790388000000",
@@ -26703,8 +26709,28 @@
   "rr": 5.32,
   "lev": 25,
   "signalTime": 1790403300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790403335515,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790404200000
+ },
+ {
+  "id": "MOVRUSDT::LONG::BoS::1790405100000",
+  "symbol": "MOVRUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.994,
+  "sl": 0.9475,
+  "tp": 1.139,
+  "tpSrc": "WH",
+  "slPct": 4.68,
+  "gainPct": 14.59,
+  "rr": 3.12,
+  "lev": 13,
+  "signalTime": 1790405100000,
+  "status": "pending",
+  "createdAt": 1790405134988
  }
 ]
