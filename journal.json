@@ -27088,12 +27088,15 @@
   "rr": 10.19,
   "lev": 13,
   "signalTime": 1790460000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790460051427,
   "fillTime": 1790460000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790461800000
  },
  {
   "id": "2ZUSDT::LONG::ChoCh::1790461800000",
@@ -27109,7 +27112,28 @@
   "rr": 1.81,
   "lev": 9,
   "signalTime": 1790461800000,
+  "status": "open",
+  "createdAt": 1790461842117,
+  "fillTime": 1790461800000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "QNTUSDT::LONG::BoS::1790462700000",
+  "symbol": "QNTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 124.32,
+  "sl": 115.995,
+  "tp": 142.39,
+  "tpSrc": "WH",
+  "slPct": 6.7,
+  "gainPct": 14.54,
+  "rr": 2.17,
+  "lev": 9,
+  "signalTime": 1790462700000,
   "status": "pending",
-  "createdAt": 1790461842117
+  "createdAt": 1790462733253
  }
 ]
