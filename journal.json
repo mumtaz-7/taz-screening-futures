@@ -26718,12 +26718,15 @@
   "rr": 5.32,
   "lev": 25,
   "signalTime": 1790403300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790403335515,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790404200000
+  "fillTime": 1790404200000,
+  "R": -1,
+  "resolvedTime": 1790412300000
  },
  {
   "id": "MOVRUSDT::LONG::BoS::1790405100000",
