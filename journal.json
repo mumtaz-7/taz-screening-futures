@@ -26619,8 +26619,28 @@
   "rr": 2.96,
   "lev": 8,
   "signalTime": 1790394300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790394336885,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790397000000
+ },
+ {
+  "id": "LSKUSDT::LONG::BoS::1790397900000",
+  "symbol": "LSKUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.3507,
+  "sl": 0.33209999999999995,
+  "tp": 0.4833,
+  "tpSrc": "WH",
+  "slPct": 5.3,
+  "gainPct": 37.81,
+  "rr": 7.13,
+  "lev": 11,
+  "signalTime": 1790397900000,
+  "status": "pending",
+  "createdAt": 1790397932263
  }
 ]
