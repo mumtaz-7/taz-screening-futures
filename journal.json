@@ -26553,12 +26553,15 @@
   "rr": 3.44,
   "lev": 8,
   "signalTime": 1790378100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790378135375,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790380800000
+  "fillTime": 1790380800000,
+  "R": -1,
+  "resolvedTime": 1790392500000
  },
  {
   "id": "LSKUSDT::LONG::ChoCh::1790384400000",
