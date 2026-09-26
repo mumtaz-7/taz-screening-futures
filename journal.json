@@ -26898,5 +26898,22 @@
    "open"
   ],
   "fillTime": 1790430300000
+ },
+ {
+  "id": "STRKUSDT::LONG::BoS::1790433900000",
+  "symbol": "STRKUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.04276,
+  "sl": 0.040959999999999996,
+  "tp": 0.04814,
+  "tpSrc": "OB",
+  "slPct": 4.21,
+  "gainPct": 12.58,
+  "rr": 2.99,
+  "lev": 14,
+  "signalTime": 1790433900000,
+  "status": "pending",
+  "createdAt": 1790433934611
  }
 ]
