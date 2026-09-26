@@ -26871,5 +26871,22 @@
   "status": "pending",
   "createdAt": 1790424933782,
   "notified": []
+ },
+ {
+  "id": "MUBARAKUSDT::LONG::BoS::1790428500000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.05891,
+  "sl": 0.05456,
+  "tp": 0.075,
+  "tpSrc": "OB",
+  "slPct": 7.38,
+  "gainPct": 27.31,
+  "rr": 3.7,
+  "lev": 8,
+  "signalTime": 1790428500000,
+  "status": "pending",
+  "createdAt": 1790428534226
  }
 ]
