@@ -26658,12 +26658,15 @@
   "rr": 7.13,
   "lev": 11,
   "signalTime": 1790397900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790397932263,
   "fillTime": 1790397900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790430300000
  },
  {
   "id": "SPKUSDT::LONG::ChoCh::1790403300000",
@@ -26889,8 +26892,11 @@
   "rr": 3.7,
   "lev": 8,
   "signalTime": 1790428500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790428534226,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790430300000
  }
 ]
