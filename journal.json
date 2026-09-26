@@ -26664,8 +26664,12 @@
   "rr": 1.58,
   "lev": 12,
   "signalTime": 1790403300000,
-  "status": "pending",
-  "createdAt": 1790403335515
+  "status": "open",
+  "createdAt": 1790403335515,
+  "fillTime": 1790403300000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "UNIUSDT::LONG::ChoCh::1790403300000",
@@ -26682,7 +26686,8 @@
   "lev": 25,
   "signalTime": 1790403300000,
   "status": "pending",
-  "createdAt": 1790403335515
+  "createdAt": 1790403335515,
+  "notified": []
  },
  {
   "id": "ZAMAUSDT::SHORT::BoS::1790403300000",
@@ -26699,6 +26704,7 @@
   "lev": 25,
   "signalTime": 1790403300000,
   "status": "pending",
-  "createdAt": 1790403335515
+  "createdAt": 1790403335515,
+  "notified": []
  }
 ]
