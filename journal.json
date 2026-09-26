@@ -26447,9 +26447,12 @@
   "rr": 2.84,
   "lev": 23,
   "signalTime": 1790368200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790368241513,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "PENDLEUSDT::LONG::ChoCh::1790368200000",
