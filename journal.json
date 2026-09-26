@@ -26965,5 +26965,22 @@
   "status": "pending",
   "createdAt": 1790436642714,
   "notified": []
+ },
+ {
+  "id": "ORDIUSDT::LONG::ChoCh::1790439300000",
+  "symbol": "ORDIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 4.845,
+  "sl": 4.6875,
+  "tp": 5.26,
+  "tpSrc": "WH",
+  "slPct": 3.25,
+  "gainPct": 8.57,
+  "rr": 2.63,
+  "lev": 18,
+  "signalTime": 1790439300000,
+  "status": "pending",
+  "createdAt": 1790439338921
  }
 ]
