@@ -26785,6 +26785,24 @@
   "lev": 25,
   "signalTime": 1790414100000,
   "status": "pending",
-  "createdAt": 1790414132461
+  "createdAt": 1790414132461,
+  "notified": []
+ },
+ {
+  "id": "BROCCOLI714USDT::SHORT::BoS::1790415000000",
+  "symbol": "BROCCOLI714USDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.02871,
+  "sl": 0.030060000000000003,
+  "tp": 0.0249,
+  "tpSrc": "OB",
+  "slPct": 4.7,
+  "gainPct": 13.27,
+  "rr": 2.82,
+  "lev": 13,
+  "signalTime": 1790415000000,
+  "status": "pending",
+  "createdAt": 1790415040389
  }
 ]
