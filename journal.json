@@ -25922,12 +25922,15 @@
   "rr": 2.24,
   "lev": 13,
   "signalTime": 1790304300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790304334554,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790305200000
+  "fillTime": 1790305200000,
+  "R": -1,
+  "resolvedTime": 1790433900000
  },
  {
   "id": "PEPEUSDT::SHORT::ChoCh::1790305200000",
@@ -26814,12 +26817,15 @@
   "rr": 2.82,
   "lev": 13,
   "signalTime": 1790415000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790415040389,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790416800000
+  "fillTime": 1790416800000,
+  "R": -1,
+  "resolvedTime": 1790433900000
  },
  {
   "id": "OGNUSDT::LONG::BoS::1790420400000",
@@ -26914,6 +26920,24 @@
   "lev": 14,
   "signalTime": 1790433900000,
   "status": "pending",
-  "createdAt": 1790433934611
+  "createdAt": 1790433934611,
+  "notified": []
+ },
+ {
+  "id": "MARSCOINUSDT::LONG::ChoCh::1790434800000",
+  "symbol": "MARSCOINUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1164,
+  "sl": 0.11220000000000001,
+  "tp": 0.1282,
+  "tpSrc": "WH",
+  "slPct": 3.61,
+  "gainPct": 10.14,
+  "rr": 2.81,
+  "lev": 16,
+  "signalTime": 1790434800000,
+  "status": "pending",
+  "createdAt": 1790434852026
  }
 ]
