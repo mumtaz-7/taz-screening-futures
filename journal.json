@@ -26228,12 +26228,15 @@
   "rr": 8.31,
   "lev": 25,
   "signalTime": 1790334000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790334048384,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790336700000
+  "fillTime": 1790336700000,
+  "R": 8.31,
+  "resolvedTime": 1790402400000
  },
  {
   "id": "XRPUSDT::SHORT::ChoCh::1790345700000",
@@ -26646,5 +26649,56 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SPKUSDT::LONG::ChoCh::1790403300000",
+  "symbol": "SPKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.02453,
+  "sl": 0.023288000000000003,
+  "tp": 0.026491,
+  "tpSrc": "WH",
+  "slPct": 5.06,
+  "gainPct": 7.99,
+  "rr": 1.58,
+  "lev": 12,
+  "signalTime": 1790403300000,
+  "status": "pending",
+  "createdAt": 1790403335515
+ },
+ {
+  "id": "UNIUSDT::LONG::ChoCh::1790403300000",
+  "symbol": "UNIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 9.68,
+  "sl": 9.454999999999998,
+  "tp": 10.404,
+  "tpSrc": "OB",
+  "slPct": 2.32,
+  "gainPct": 7.48,
+  "rr": 3.22,
+  "lev": 25,
+  "signalTime": 1790403300000,
+  "status": "pending",
+  "createdAt": 1790403335515
+ },
+ {
+  "id": "ZAMAUSDT::SHORT::BoS::1790403300000",
+  "symbol": "ZAMAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.089,
+  "sl": 0.09026,
+  "tp": 0.0823,
+  "tpSrc": "OB",
+  "slPct": 1.42,
+  "gainPct": 7.53,
+  "rr": 5.32,
+  "lev": 25,
+  "signalTime": 1790403300000,
+  "status": "pending",
+  "createdAt": 1790403335515
  }
 ]

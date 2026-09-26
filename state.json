@@ -1,6 +1,8 @@
 {
   "ready": [
-    "LSKUSDT::LONG::BoS"
+    "SPKUSDT::LONG::ChoCh",
+    "UNIUSDT::LONG::ChoCh",
+    "ZAMAUSDT::SHORT::BoS"
   ],
-  "at": "2026-09-26T06:00:47.171Z"
+  "at": "2026-09-26T06:15:35.515Z"
 }
