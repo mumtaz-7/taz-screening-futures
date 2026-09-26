@@ -25691,12 +25691,15 @@
   "rr": 2.67,
   "lev": 16,
   "signalTime": 1790278200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790278245969,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790279100000
+  "fillTime": 1790279100000,
+  "R": -1,
+  "resolvedTime": 1790428500000
  },
  {
   "id": "CVCUSDT::LONG::ChoCh::1790278200000",
@@ -26887,6 +26890,7 @@
   "lev": 8,
   "signalTime": 1790428500000,
   "status": "pending",
-  "createdAt": 1790428534226
+  "createdAt": 1790428534226,
+  "notified": []
  }
 ]
