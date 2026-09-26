@@ -26784,12 +26784,15 @@
   "rr": 5.26,
   "lev": 25,
   "signalTime": 1790414100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790414132461,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790415900000
+  "fillTime": 1790415900000,
+  "R": -1,
+  "resolvedTime": 1790417700000
  },
  {
   "id": "BROCCOLI714USDT::SHORT::BoS::1790415000000",
