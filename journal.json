@@ -27022,5 +27022,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "AMPUSDT::LONG::BoS::1790454600000",
+  "symbol": "AMPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.000744,
+  "sl": 0.0006615000000000001,
+  "tp": 0.000867,
+  "tpSrc": "WH",
+  "slPct": 11.09,
+  "gainPct": 16.53,
+  "rr": 1.49,
+  "lev": 5,
+  "signalTime": 1790454600000,
+  "status": "pending",
+  "createdAt": 1790454642877
  }
 ]
