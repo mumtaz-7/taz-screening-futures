@@ -25013,12 +25013,15 @@
   "rr": 1.82,
   "lev": 8,
   "signalTime": 1790200800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790200853215,
   "fillTime": 1790200800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.82,
+  "resolvedTime": 1790465400000
  },
  {
   "id": "GIGGLEUSDT::LONG::ChoCh::1790201700000",
@@ -27140,5 +27143,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ORDIUSDT::LONG::BoS::1790466300000",
+  "symbol": "ORDIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 4.86,
+  "sl": 4.804500000000001,
+  "tp": 5.387,
+  "tpSrc": "WH",
+  "slPct": 1.14,
+  "gainPct": 10.84,
+  "rr": 9.5,
+  "lev": 25,
+  "signalTime": 1790466300000,
+  "status": "pending",
+  "createdAt": 1790466335707
  }
 ]
