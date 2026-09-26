@@ -26628,12 +26628,15 @@
   "rr": 2.96,
   "lev": 8,
   "signalTime": 1790394300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790394336885,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790397000000
+  "fillTime": 1790397000000,
+  "R": -1,
+  "resolvedTime": 1790406000000
  },
  {
   "id": "LSKUSDT::LONG::BoS::1790397900000",
@@ -26691,9 +26694,12 @@
   "rr": 3.22,
   "lev": 25,
   "signalTime": 1790403300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790403335515,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790406000000
  },
  {
   "id": "ZAMAUSDT::SHORT::BoS::1790403300000",
