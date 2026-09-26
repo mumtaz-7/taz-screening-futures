@@ -26926,12 +26926,15 @@
   "rr": 2.99,
   "lev": 14,
   "signalTime": 1790433900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790433934611,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790437500000
+  "fillTime": 1790437500000,
+  "R": -1,
+  "resolvedTime": 1790447400000
  },
  {
   "id": "MARSCOINUSDT::LONG::ChoCh::1790434800000",
