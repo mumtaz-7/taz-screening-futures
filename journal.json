@@ -26769,5 +26769,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "RAYUSDT::SHORT::BoS::1790414100000",
+  "symbol": "RAYUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 1.971,
+  "sl": 2.0019,
+  "tp": 1.8084,
+  "tpSrc": "OB",
+  "slPct": 1.57,
+  "gainPct": 8.25,
+  "rr": 5.26,
+  "lev": 25,
+  "signalTime": 1790414100000,
+  "status": "pending",
+  "createdAt": 1790414132461
  }
 ]
