@@ -26814,5 +26814,39 @@
    "open"
   ],
   "fillTime": 1790416800000
+ },
+ {
+  "id": "OGNUSDT::LONG::BoS::1790420400000",
+  "symbol": "OGNUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.02163,
+  "sl": 0.02109,
+  "tp": 0.0233,
+  "tpSrc": "WH",
+  "slPct": 2.5,
+  "gainPct": 7.72,
+  "rr": 3.09,
+  "lev": 23,
+  "signalTime": 1790420400000,
+  "status": "pending",
+  "createdAt": 1790420448432
+ },
+ {
+  "id": "TIAUSDT::LONG::ChoCh::1790420400000",
+  "symbol": "TIAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.4923,
+  "sl": 0.48015,
+  "tp": 0.5304,
+  "tpSrc": "OB",
+  "slPct": 2.47,
+  "gainPct": 7.74,
+  "rr": 3.14,
+  "lev": 23,
+  "signalTime": 1790420400000,
+  "status": "pending",
+  "createdAt": 1790420448433
  }
 ]
