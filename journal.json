@@ -26381,12 +26381,15 @@
   "rr": 2.74,
   "lev": 7,
   "signalTime": 1790355600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790355649556,
   "fillTime": 1790355600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790393400000
  },
  {
   "id": "NILUSDT::LONG::ChoCh::1790361000000",
@@ -26601,5 +26604,22 @@
   "status": "pending",
   "createdAt": 1790388046415,
   "notified": []
+ },
+ {
+  "id": "SAGAUSDT::LONG::ChoCh::1790394300000",
+  "symbol": "SAGAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.03771,
+  "sl": 0.03492,
+  "tp": 0.04598,
+  "tpSrc": "WH",
+  "slPct": 7.4,
+  "gainPct": 21.93,
+  "rr": 2.96,
+  "lev": 8,
+  "signalTime": 1790394300000,
+  "status": "pending",
+  "createdAt": 1790394336885
  }
 ]
