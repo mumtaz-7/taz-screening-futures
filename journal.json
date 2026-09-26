@@ -26962,9 +26962,13 @@
   "rr": 2.05,
   "lev": 11,
   "signalTime": 1790436600000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790436642714,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790440200000
  },
  {
   "id": "ORDIUSDT::LONG::ChoCh::1790439300000",
