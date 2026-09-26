@@ -25574,12 +25574,15 @@
   "rr": 4.83,
   "lev": 22,
   "signalTime": 1790267400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790267442973,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790268300000
+  "fillTime": 1790268300000,
+  "R": 4.83,
+  "resolvedTime": 1790380800000
  },
  {
   "id": "NILUSDT::LONG::ChoCh::1790268300000",
@@ -25730,12 +25733,15 @@
   "rr": 2.75,
   "lev": 12,
   "signalTime": 1790286300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790286334942,
   "fillTime": 1790286300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790380800000
  },
  {
   "id": "KAITOUSDT::SHORT::ChoCh::1790288100000",
@@ -26541,8 +26547,11 @@
   "rr": 3.44,
   "lev": 8,
   "signalTime": 1790378100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790378135375,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790380800000
  }
 ]
