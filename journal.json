@@ -26706,12 +26706,15 @@
   "rr": 3.22,
   "lev": 25,
   "signalTime": 1790403300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790403335515,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790406000000
+  "fillTime": 1790406000000,
+  "R": -1,
+  "resolvedTime": 1790454600000
  },
  {
   "id": "ZAMAUSDT::SHORT::BoS::1790403300000",
@@ -26841,12 +26844,15 @@
   "rr": 3.09,
   "lev": 23,
   "signalTime": 1790420400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790420448432,
   "fillTime": 1790420400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790454600000
  },
  {
   "id": "TIAUSDT::LONG::ChoCh::1790420400000",
@@ -27038,6 +27044,24 @@
   "lev": 5,
   "signalTime": 1790454600000,
   "status": "pending",
-  "createdAt": 1790454642877
+  "createdAt": 1790454642877,
+  "notified": []
+ },
+ {
+  "id": "RAYUSDT::SHORT::BoS::1790455500000",
+  "symbol": "RAYUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 2.0235,
+  "sl": 2.0742000000000003,
+  "tp": 1.8084,
+  "tpSrc": "OB",
+  "slPct": 2.51,
+  "gainPct": 10.63,
+  "rr": 4.24,
+  "lev": 23,
+  "signalTime": 1790455500000,
+  "status": "pending",
+  "createdAt": 1790455534453
  }
 ]
