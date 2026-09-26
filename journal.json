@@ -25829,12 +25829,15 @@
   "rr": 2.7,
   "lev": 20,
   "signalTime": 1790299800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790299842400,
   "fillTime": 1790299800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.7,
+  "resolvedTime": 1790457300000
  },
  {
   "id": "MUBARAKUSDT::SHORT::BoS::1790300700000",
