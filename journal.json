@@ -26610,9 +26610,12 @@
   "rr": 2.01,
   "lev": 10,
   "signalTime": 1790388000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790388046415,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "SAGAUSDT::LONG::ChoCh::1790394300000",
@@ -26742,5 +26745,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "XPLUSDT::LONG::ChoCh::1790410500000",
+  "symbol": "XPLUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.11464,
+  "sl": 0.107185,
+  "tp": 0.12555,
+  "tpSrc": "WH",
+  "slPct": 6.5,
+  "gainPct": 9.52,
+  "rr": 1.46,
+  "lev": 9,
+  "signalTime": 1790410500000,
+  "status": "pending",
+  "createdAt": 1790410534968
  }
 ]
