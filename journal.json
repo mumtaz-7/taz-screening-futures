@@ -27073,5 +27073,22 @@
   ],
   "R": -1,
   "resolvedTime": 1790458200000
+ },
+ {
+  "id": "QIUSDT::SHORT::BoS::1790460000000",
+  "symbol": "QIUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.002778,
+  "sl": 0.002907,
+  "tp": 0.001464,
+  "tpSrc": "OB",
+  "slPct": 4.64,
+  "gainPct": 47.3,
+  "rr": 10.19,
+  "lev": 13,
+  "signalTime": 1790460000000,
+  "status": "pending",
+  "createdAt": 1790460051427
  }
 ]
