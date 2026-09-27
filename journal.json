@@ -27638,9 +27638,12 @@
   "rr": 4.92,
   "lev": 15,
   "signalTime": 1790521200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790521249650,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "XLMUSDT::SHORT::BoS::1790523000000",
@@ -27735,6 +27738,7 @@
   "lev": 7,
   "signalTime": 1790542800000,
   "status": "pending",
-  "createdAt": 1790542848714
+  "createdAt": 1790542848714,
+  "notified": []
  }
 ]
