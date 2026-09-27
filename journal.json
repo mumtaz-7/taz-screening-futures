@@ -27530,8 +27530,12 @@
   "rr": 3.93,
   "lev": 15,
   "signalTime": 1790510400000,
-  "status": "pending",
-  "createdAt": 1790510448426
+  "status": "open",
+  "createdAt": 1790510448426,
+  "fillTime": 1790510400000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "RAREUSDT::LONG::BoS::1790510400000",
@@ -27547,7 +27551,11 @@
   "rr": 5.23,
   "lev": 12,
   "signalTime": 1790510400000,
-  "status": "pending",
-  "createdAt": 1790510448426
+  "status": "open",
+  "createdAt": 1790510448426,
+  "fillTime": 1790510400000,
+  "notified": [
+   "open"
+  ]
  }
 ]
