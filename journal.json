@@ -26917,12 +26917,15 @@
   "rr": 3.7,
   "lev": 8,
   "signalTime": 1790428500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790428534226,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790430300000
+  "fillTime": 1790430300000,
+  "R": -1,
+  "resolvedTime": 1790490600000
  },
  {
   "id": "STRKUSDT::LONG::BoS::1790433900000",
