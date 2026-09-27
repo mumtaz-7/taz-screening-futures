@@ -27164,5 +27164,22 @@
    "open"
   ],
   "fillTime": 1790467200000
+ },
+ {
+  "id": "ARKUSDT::LONG::ChoCh::1790469000000",
+  "symbol": "ARKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.2629,
+  "sl": 0.2557,
+  "tp": 0.2945,
+  "tpSrc": "WH",
+  "slPct": 2.74,
+  "gainPct": 12.02,
+  "rr": 4.39,
+  "lev": 21,
+  "signalTime": 1790469000000,
+  "status": "pending",
+  "createdAt": 1790469041164
  }
 ]
