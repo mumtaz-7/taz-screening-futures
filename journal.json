@@ -27479,9 +27479,12 @@
   "rr": 1.02,
   "lev": 2,
   "signalTime": 1790495100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790495134537,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ESPUSDT::LONG::ChoCh::1790496900000",
@@ -27569,5 +27572,22 @@
   ],
   "R": -1,
   "resolvedTime": 1790514900000
+ },
+ {
+  "id": "NILUSDT::SHORT::ChoCh::1790517600000",
+  "symbol": "NILUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.10568,
+  "sl": 0.11666000000000001,
+  "tp": 0.09428,
+  "tpSrc": "WL",
+  "slPct": 10.39,
+  "gainPct": 10.79,
+  "rr": 1.04,
+  "lev": 6,
+  "signalTime": 1790517600000,
+  "status": "pending",
+  "createdAt": 1790517685062
  }
 ]
