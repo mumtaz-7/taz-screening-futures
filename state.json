@@ -1,9 +1,7 @@
 {
   "ready": [
     "ARKUSDT::LONG::ChoCh",
-    "COWUSDT::LONG::ChoCh",
-    "ORDIUSDT::LONG::BoS",
-    "RAREUSDT::LONG::ChoCh"
+    "COWUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-27T00:45:33.632Z"
+  "at": "2026-09-27T01:00:45.023Z"
 }
