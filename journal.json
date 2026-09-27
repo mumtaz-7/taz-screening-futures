@@ -21662,12 +21662,15 @@
   "rr": 2.87,
   "lev": 9,
   "signalTime": 1789797600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789797650237,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1789798500000
+  "fillTime": 1789798500000,
+  "R": 2.87,
+  "resolvedTime": 1790496900000
  },
  {
   "id": "COTIUSDT::SHORT::ChoCh::1789798500000",
@@ -21795,12 +21798,15 @@
   "rr": 2.96,
   "lev": 10,
   "signalTime": 1789807500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1789807534134,
   "fillTime": 1789807500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.96,
+  "resolvedTime": 1790496900000
  },
  {
   "id": "STGUSDT::LONG::ChoCh::1789807500000",
@@ -27395,12 +27401,15 @@
   "rr": 1.28,
   "lev": 4,
   "signalTime": 1790485200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790485246866,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790487900000
+  "fillTime": 1790487900000,
+  "R": -1,
+  "resolvedTime": 1790496900000
  },
  {
   "id": "RAREUSDT::LONG::ChoCh::1790487000000",
@@ -27476,7 +27485,11 @@
   "rr": 8.56,
   "lev": 25,
   "signalTime": 1790496900000,
-  "status": "pending",
-  "createdAt": 1790496934415
+  "status": "open",
+  "createdAt": 1790496934415,
+  "fillTime": 1790496900000,
+  "notified": [
+   "open"
+  ]
  }
 ]
