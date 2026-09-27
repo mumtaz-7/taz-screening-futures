@@ -27325,9 +27325,13 @@
   "rr": 2.28,
   "lev": 13,
   "signalTime": 1790477100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790477135837,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790488800000
  },
  {
   "id": "HUMAUSDT::LONG::ChoCh::1790482500000",
