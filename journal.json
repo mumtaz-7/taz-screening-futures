@@ -27491,5 +27491,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PHAUSDT::SHORT::BoS::1790506800000",
+  "symbol": "PHAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0705,
+  "sl": 0.0771,
+  "tp": 0.0566,
+  "tpSrc": "OB",
+  "slPct": 9.36,
+  "gainPct": 19.72,
+  "rr": 2.11,
+  "lev": 6,
+  "signalTime": 1790506800000,
+  "status": "pending",
+  "createdAt": 1790506847990
  }
 ]
