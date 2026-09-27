@@ -27548,12 +27548,15 @@
   "rr": 3.93,
   "lev": 15,
   "signalTime": 1790510400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790510448426,
   "fillTime": 1790510400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790527500000
  },
  {
   "id": "RAREUSDT::LONG::BoS::1790510400000",
