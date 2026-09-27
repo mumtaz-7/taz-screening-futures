@@ -26291,12 +26291,15 @@
   "rr": 1.67,
   "lev": 11,
   "signalTime": 1790345700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790345736643,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790347500000
+  "fillTime": 1790347500000,
+  "R": 1.67,
+  "resolvedTime": 1790520300000
  },
  {
   "id": "PUMPUSDT::SHORT::ChoCh::1790346600000",
@@ -27608,5 +27611,22 @@
   "status": "pending",
   "createdAt": 1790519441475,
   "notified": []
+ },
+ {
+  "id": "XPLUSDT::SHORT::BoS::1790521200000",
+  "symbol": "XPLUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.10876,
+  "sl": 0.11294499999999999,
+  "tp": 0.08816,
+  "tpSrc": "OB",
+  "slPct": 3.85,
+  "gainPct": 18.94,
+  "rr": 4.92,
+  "lev": 15,
+  "signalTime": 1790521200000,
+  "status": "pending",
+  "createdAt": 1790521249650
  }
 ]
