@@ -27343,9 +27343,12 @@
   "rr": 3.07,
   "lev": 17,
   "signalTime": 1790482500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790482533398,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790483400000
  },
  {
   "id": "QIUSDT::LONG::BoS::1790482500000",
