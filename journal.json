@@ -27503,12 +27503,15 @@
   "rr": 8.56,
   "lev": 25,
   "signalTime": 1790496900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790496934415,
   "fillTime": 1790496900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790522100000
  },
  {
   "id": "PHAUSDT::SHORT::BoS::1790506800000",
@@ -27629,5 +27632,22 @@
   "status": "pending",
   "createdAt": 1790521249650,
   "notified": []
+ },
+ {
+  "id": "XLMUSDT::SHORT::BoS::1790523000000",
+  "symbol": "XLMUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.2143,
+  "sl": 0.2212,
+  "tp": 0.1985,
+  "tpSrc": "OB",
+  "slPct": 3.22,
+  "gainPct": 7.37,
+  "rr": 2.29,
+  "lev": 18,
+  "signalTime": 1790523000000,
+  "status": "pending",
+  "createdAt": 1790523041264
  }
 ]
