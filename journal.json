@@ -27461,5 +27461,22 @@
   "status": "pending",
   "createdAt": 1790495134537,
   "notified": []
+ },
+ {
+  "id": "ESPUSDT::LONG::ChoCh::1790496900000",
+  "symbol": "ESPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.10385,
+  "sl": 0.102575,
+  "tp": 0.11477,
+  "tpSrc": "WH",
+  "slPct": 1.23,
+  "gainPct": 10.52,
+  "rr": 8.56,
+  "lev": 25,
+  "signalTime": 1790496900000,
+  "status": "pending",
+  "createdAt": 1790496934415
  }
 ]
