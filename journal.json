@@ -27028,12 +27028,15 @@
   "rr": 2.67,
   "lev": 15,
   "signalTime": 1790443800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790443840686,
   "fillTime": 1790443800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790475300000
  },
  {
   "id": "AMPUSDT::LONG::BoS::1790454600000",
@@ -27274,6 +27277,24 @@
   "lev": 6,
   "signalTime": 1790475300000,
   "status": "pending",
-  "createdAt": 1790475334800
+  "createdAt": 1790475334800,
+  "notified": []
+ },
+ {
+  "id": "FILUSDT::LONG::BoS::1790476200000",
+  "symbol": "FILUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1.1395,
+  "sl": 1.1042500000000002,
+  "tp": 1.2296,
+  "tpSrc": "WH",
+  "slPct": 3.09,
+  "gainPct": 7.91,
+  "rr": 2.56,
+  "lev": 19,
+  "signalTime": 1790476200000,
+  "status": "pending",
+  "createdAt": 1790476243189
  }
 ]
