@@ -27364,9 +27364,12 @@
   "rr": 2.34,
   "lev": 5,
   "signalTime": 1790482500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790482533398,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790486100000
  },
  {
   "id": "NILUSDT::SHORT::BoS::1790485200000",
@@ -27385,5 +27388,39 @@
   "status": "pending",
   "createdAt": 1790485246866,
   "notified": []
+ },
+ {
+  "id": "RAREUSDT::LONG::ChoCh::1790487000000",
+  "symbol": "RAREUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.02061,
+  "sl": 0.019155000000000002,
+  "tp": 0.0255,
+  "tpSrc": "WH",
+  "slPct": 7.06,
+  "gainPct": 23.73,
+  "rr": 3.36,
+  "lev": 9,
+  "signalTime": 1790487000000,
+  "status": "pending",
+  "createdAt": 1790487040305
+ },
+ {
+  "id": "SPELLUSDT::LONG::ChoCh::1790487000000",
+  "symbol": "SPELLUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0001057,
+  "sl": 0.00010105,
+  "tp": 0.0001202,
+  "tpSrc": "WH",
+  "slPct": 4.4,
+  "gainPct": 13.72,
+  "rr": 3.12,
+  "lev": 14,
+  "signalTime": 1790487000000,
+  "status": "pending",
+  "createdAt": 1790487040305
  }
 ]

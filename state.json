@@ -1,6 +1,8 @@
 {
   "ready": [
-    "NILUSDT::SHORT::BoS"
+    "NILUSDT::SHORT::BoS",
+    "RAREUSDT::LONG::ChoCh",
+    "SPELLUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-27T05:15:34.184Z"
+  "at": "2026-09-27T05:30:40.304Z"
 }
