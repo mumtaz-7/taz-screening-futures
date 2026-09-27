@@ -27811,5 +27811,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "XLMUSDT::SHORT::ChoCh::1790552700000",
+  "symbol": "XLMUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.2148,
+  "sl": 0.2199,
+  "tp": 0.1985,
+  "tpSrc": "OB",
+  "slPct": 2.37,
+  "gainPct": 7.59,
+  "rr": 3.2,
+  "lev": 24,
+  "signalTime": 1790552700000,
+  "status": "pending",
+  "createdAt": 1790552732467
  }
 ]
