@@ -1,6 +1,7 @@
 {
   "ready": [
-    "SAGAUSDT::SHORT::BoS"
+    "HUMAUSDT::LONG::ChoCh",
+    "QIUSDT::LONG::BoS"
   ],
-  "at": "2026-09-27T04:01:00.982Z"
+  "at": "2026-09-27T04:15:33.304Z"
 }
