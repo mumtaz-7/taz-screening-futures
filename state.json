@@ -1,8 +1,7 @@
 {
   "ready": [
     "MAGICUSDT::LONG::BoS",
-    "NILUSDT::SHORT::ChoCh",
-    "PHAUSDT::SHORT::BoS"
+    "NILUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-09-27T14:30:41.474Z"
+  "at": "2026-09-27T14:45:44.629Z"
 }
