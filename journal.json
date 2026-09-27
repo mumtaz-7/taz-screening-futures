@@ -27403,8 +27403,12 @@
   "rr": 3.36,
   "lev": 9,
   "signalTime": 1790487000000,
-  "status": "pending",
-  "createdAt": 1790487040305
+  "status": "open",
+  "createdAt": 1790487040305,
+  "fillTime": 1790487000000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "SPELLUSDT::LONG::ChoCh::1790487000000",
@@ -27420,7 +27424,11 @@
   "rr": 3.12,
   "lev": 14,
   "signalTime": 1790487000000,
-  "status": "pending",
-  "createdAt": 1790487040305
+  "status": "open",
+  "createdAt": 1790487040305,
+  "fillTime": 1790487000000,
+  "notified": [
+   "open"
+  ]
  }
 ]
