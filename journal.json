@@ -27380,12 +27380,15 @@
   "rr": 2.34,
   "lev": 5,
   "signalTime": 1790482500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790482533398,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790486100000
+  "fillTime": 1790486100000,
+  "R": 2.34,
+  "resolvedTime": 1790506800000
  },
  {
   "id": "NILUSDT::SHORT::BoS::1790485200000",
@@ -27507,6 +27510,7 @@
   "lev": 6,
   "signalTime": 1790506800000,
   "status": "pending",
-  "createdAt": 1790506847990
+  "createdAt": 1790506847990,
+  "notified": []
  }
 ]
