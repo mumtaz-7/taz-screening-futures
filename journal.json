@@ -27233,5 +27233,22 @@
   "notified": [
    "loss"
   ]
+ },
+ {
+  "id": "QNTUSDT::LONG::BoS::1790472600000",
+  "symbol": "QNTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 161,
+  "sl": 136.41500000000002,
+  "tp": 190,
+  "tpSrc": "WH",
+  "slPct": 15.27,
+  "gainPct": 18.01,
+  "rr": 1.18,
+  "lev": 4,
+  "signalTime": 1790472600000,
+  "status": "pending",
+  "createdAt": 1790472641087
  }
 ]
