@@ -27294,7 +27294,28 @@
   "rr": 2.56,
   "lev": 19,
   "signalTime": 1790476200000,
+  "status": "open",
+  "createdAt": 1790476243189,
+  "fillTime": 1790476200000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "SAGAUSDT::SHORT::BoS::1790477100000",
+  "symbol": "SAGAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.03158,
+  "sl": 0.032990000000000005,
+  "tp": 0.02837,
+  "tpSrc": "OB",
+  "slPct": 4.46,
+  "gainPct": 10.16,
+  "rr": 2.28,
+  "lev": 13,
+  "signalTime": 1790477100000,
   "status": "pending",
-  "createdAt": 1790476243189
+  "createdAt": 1790477135837
  }
 ]
