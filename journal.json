@@ -27385,9 +27385,12 @@
   "rr": 1.28,
   "lev": 4,
   "signalTime": 1790485200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790485246866,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790487900000
  },
  {
   "id": "RAREUSDT::LONG::ChoCh::1790487000000",
