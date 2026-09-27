@@ -27509,8 +27509,45 @@
   "rr": 2.11,
   "lev": 6,
   "signalTime": 1790506800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790506847990,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790509500000
+ },
+ {
+  "id": "MUBARAKUSDT::LONG::ChoCh::1790510400000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.05596,
+  "sl": 0.053724999999999995,
+  "tp": 0.06474,
+  "tpSrc": "WH",
+  "slPct": 3.99,
+  "gainPct": 15.69,
+  "rr": 3.93,
+  "lev": 15,
+  "signalTime": 1790510400000,
+  "status": "pending",
+  "createdAt": 1790510448426
+ },
+ {
+  "id": "RAREUSDT::LONG::BoS::1790510400000",
+  "symbol": "RAREUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.02017,
+  "sl": 0.01915,
+  "tp": 0.0255,
+  "tpSrc": "WH",
+  "slPct": 5.06,
+  "gainPct": 26.43,
+  "rr": 5.23,
+  "lev": 12,
+  "signalTime": 1790510400000,
+  "status": "pending",
+  "createdAt": 1790510448426
  }
 ]

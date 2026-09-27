@@ -1,7 +1,9 @@
 {
   "ready": [
     "AMPUSDT::LONG::BoS",
-    "PHAUSDT::SHORT::BoS"
+    "MUBARAKUSDT::LONG::ChoCh",
+    "PHAUSDT::SHORT::BoS",
+    "RAREUSDT::LONG::BoS"
   ],
-  "at": "2026-09-27T11:45:32.644Z"
+  "at": "2026-09-27T12:00:48.231Z"
 }
