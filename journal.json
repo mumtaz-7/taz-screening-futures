@@ -27158,12 +27158,15 @@
   "rr": 9.5,
   "lev": 25,
   "signalTime": 1790466300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790466335707,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790467200000
+  "fillTime": 1790467200000,
+  "R": -1,
+  "resolvedTime": 1790470800000
  },
  {
   "id": "ARKUSDT::LONG::ChoCh::1790469000000",
