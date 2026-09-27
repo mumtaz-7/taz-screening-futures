@@ -27049,9 +27049,12 @@
   "rr": 1.49,
   "lev": 5,
   "signalTime": 1790454600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790454642877,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790474400000
  },
  {
   "id": "RAYUSDT::SHORT::BoS::1790455500000",
@@ -27255,5 +27258,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1790473500000
+ },
+ {
+  "id": "PHAUSDT::SHORT::ChoCh::1790475300000",
+  "symbol": "PHAUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.081,
+  "sl": 0.08895,
+  "tp": 0.0722,
+  "tpSrc": "WL",
+  "slPct": 9.81,
+  "gainPct": 10.86,
+  "rr": 1.11,
+  "lev": 6,
+  "signalTime": 1790475300000,
+  "status": "pending",
+  "createdAt": 1790475334800
  }
 ]
