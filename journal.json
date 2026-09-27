@@ -27431,12 +27431,15 @@
   "rr": 3.36,
   "lev": 9,
   "signalTime": 1790487000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790487040305,
   "fillTime": 1790487000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790514900000
  },
  {
   "id": "SPELLUSDT::LONG::ChoCh::1790487000000",
@@ -27554,11 +27557,14 @@
   "rr": 5.23,
   "lev": 12,
   "signalTime": 1790510400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790510448426,
   "fillTime": 1790510400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790514900000
  }
 ]
