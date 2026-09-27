@@ -27740,5 +27740,39 @@
   "status": "pending",
   "createdAt": 1790542848714,
   "notified": []
+ },
+ {
+  "id": "QNTUSDT::LONG::BoS::1790544600000",
+  "symbol": "QNTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 191.26,
+  "sl": 175.795,
+  "tp": 239.1,
+  "tpSrc": "WH",
+  "slPct": 8.09,
+  "gainPct": 25.01,
+  "rr": 3.09,
+  "lev": 7,
+  "signalTime": 1790544600000,
+  "status": "pending",
+  "createdAt": 1790544639558
+ },
+ {
+  "id": "RAREUSDT::LONG::BoS::1790544600000",
+  "symbol": "RAREUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.02029,
+  "sl": 0.019255,
+  "tp": 0.02319,
+  "tpSrc": "WH",
+  "slPct": 5.1,
+  "gainPct": 14.29,
+  "rr": 2.8,
+  "lev": 12,
+  "signalTime": 1790544600000,
+  "status": "pending",
+  "createdAt": 1790544639558
  }
 ]
