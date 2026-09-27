@@ -27722,9 +27722,12 @@
   "rr": 8.38,
   "lev": 24,
   "signalTime": 1790537400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790537440545,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790546400000
  },
  {
   "id": "ONEUSDT::LONG::BoS::1790542800000",
