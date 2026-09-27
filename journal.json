@@ -27672,6 +27672,24 @@
   "lev": 20,
   "signalTime": 1790532900000,
   "status": "pending",
-  "createdAt": 1790532935045
+  "createdAt": 1790532935045,
+  "notified": []
+ },
+ {
+  "id": "AMPUSDT::LONG::ChoCh::1790533800000",
+  "symbol": "AMPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.000655,
+  "sl": 0.0006205,
+  "tp": 0.000867,
+  "tpSrc": "WH",
+  "slPct": 5.27,
+  "gainPct": 32.37,
+  "rr": 6.14,
+  "lev": 11,
+  "signalTime": 1790533800000,
+  "status": "pending",
+  "createdAt": 1790533839941
  }
 ]
