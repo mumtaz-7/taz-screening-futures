@@ -27367,5 +27367,22 @@
   "status": "pending",
   "createdAt": 1790482533398,
   "notified": []
+ },
+ {
+  "id": "NILUSDT::SHORT::BoS::1790485200000",
+  "symbol": "NILUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.09612,
+  "sl": 0.10935,
+  "tp": 0.07924,
+  "tpSrc": "OB",
+  "slPct": 13.76,
+  "gainPct": 17.56,
+  "rr": 1.28,
+  "lev": 4,
+  "signalTime": 1790485200000,
+  "status": "pending",
+  "createdAt": 1790485246866
  }
 ]
