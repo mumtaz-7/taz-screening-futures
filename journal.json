@@ -27179,7 +27179,45 @@
   "rr": 4.39,
   "lev": 21,
   "signalTime": 1790469000000,
+  "status": "open",
+  "createdAt": 1790469041164,
+  "fillTime": 1790469000000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "COWUSDT::LONG::ChoCh::1790469900000",
+  "symbol": "COWUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1557,
+  "sl": 0.14775,
+  "tp": 0.1784,
+  "tpSrc": "WH",
+  "slPct": 5.11,
+  "gainPct": 14.58,
+  "rr": 2.86,
+  "lev": 12,
+  "signalTime": 1790469900000,
   "status": "pending",
-  "createdAt": 1790469041164
+  "createdAt": 1790469933633
+ },
+ {
+  "id": "RAREUSDT::LONG::ChoCh::1790469900000",
+  "symbol": "RAREUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.02249,
+  "sl": 0.0203,
+  "tp": 0.0255,
+  "tpSrc": "WH",
+  "slPct": 9.74,
+  "gainPct": 13.38,
+  "rr": 1.37,
+  "lev": 6,
+  "signalTime": 1790469900000,
+  "status": "pending",
+  "createdAt": 1790469933633
  }
 ]
