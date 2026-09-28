@@ -25046,12 +25046,15 @@
   "rr": 5.45,
   "lev": 25,
   "signalTime": 1790201700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790201733153,
   "fillTime": 1790201700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790566200000
  },
  {
   "id": "HBARUSDT::LONG::BoS::1790201700000",
@@ -25727,12 +25730,15 @@
   "rr": 5.06,
   "lev": 21,
   "signalTime": 1790278200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790278245969,
   "fillTime": 1790278200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790566200000
  },
  {
   "id": "MARSCOINUSDT::SHORT::ChoCh::1790286300000",
@@ -26141,12 +26147,15 @@
   "rr": 5.16,
   "lev": 25,
   "signalTime": 1790323200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790323247715,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790330400000
+  "fillTime": 1790330400000,
+  "R": -1,
+  "resolvedTime": 1790566200000
  },
  {
   "id": "BOMEUSDT::LONG::ChoCh::1790328600000",
@@ -26456,12 +26465,15 @@
   "rr": 5.13,
   "lev": 25,
   "signalTime": 1790362800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790362852012,
   "fillTime": 1790362800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790566200000
  },
  {
   "id": "FILUSDT::LONG::ChoCh::1790368200000",
@@ -27716,12 +27728,15 @@
   "rr": 6.14,
   "lev": 11,
   "signalTime": 1790533800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790533839941,
   "fillTime": 1790533800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790566200000
  },
  {
   "id": "2ZUSDT::LONG::ChoCh::1790537400000",
@@ -27826,12 +27841,15 @@
   "rr": 4.4,
   "lev": 9,
   "signalTime": 1790545500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790545533485,
   "fillTime": 1790545500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790566200000
  },
  {
   "id": "XLMUSDT::SHORT::ChoCh::1790552700000",
