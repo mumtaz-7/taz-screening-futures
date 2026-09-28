@@ -28117,5 +28117,22 @@
   "status": "pending",
   "createdAt": 1790592333852,
   "notified": []
+ },
+ {
+  "id": "JASMYUSDT::LONG::BoS::1790597700000",
+  "symbol": "JASMYUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0051,
+  "sl": 0.004875000000000001,
+  "tp": 0.00551,
+  "tpSrc": "WH",
+  "slPct": 4.41,
+  "gainPct": 8.04,
+  "rr": 1.82,
+  "lev": 14,
+  "signalTime": 1790597700000,
+  "status": "pending",
+  "createdAt": 1790597733791
  }
 ]
