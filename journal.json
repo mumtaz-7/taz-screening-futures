@@ -28354,9 +28354,12 @@
   "rr": 2.56,
   "lev": 9,
   "signalTime": 1790613000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790613040794,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790631900000
  },
  {
   "id": "QNTUSDT::LONG::ChoCh::1790617500000",
@@ -28499,6 +28502,41 @@
   "lev": 10,
   "signalTime": 1790631900000,
   "status": "pending",
-  "createdAt": 1790631933933
+  "createdAt": 1790631933933,
+  "notified": []
+ },
+ {
+  "id": "ENAUSDT::SHORT::BoS::1790632800000",
+  "symbol": "ENAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.2557,
+  "sl": 0.26935,
+  "tp": 0.2217,
+  "tpSrc": "OB",
+  "slPct": 5.34,
+  "gainPct": 13.3,
+  "rr": 2.49,
+  "lev": 11,
+  "signalTime": 1790632800000,
+  "status": "pending",
+  "createdAt": 1790632847061
+ },
+ {
+  "id": "NMRUSDT::LONG::BoS::1790632800000",
+  "symbol": "NMRUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 11.92,
+  "sl": 10.375,
+  "tp": 14.37,
+  "tpSrc": "WH",
+  "slPct": 12.96,
+  "gainPct": 20.55,
+  "rr": 1.59,
+  "lev": 5,
+  "signalTime": 1790632800000,
+  "status": "pending",
+  "createdAt": 1790632847061
  }
 ]
