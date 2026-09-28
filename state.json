@@ -1,7 +1,8 @@
 {
   "ready": [
+    "JUVUSDT::LONG::BoS",
     "QNTUSDT::LONG::ChoCh",
     "XPLUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-09-28T07:45:38.898Z"
+  "at": "2026-09-28T08:00:50.697Z"
 }

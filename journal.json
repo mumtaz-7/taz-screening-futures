@@ -27988,5 +27988,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "JUVUSDT::LONG::BoS::1790582400000",
+  "symbol": "JUVUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.333,
+  "sl": 0.3075,
+  "tp": 0.391,
+  "tpSrc": "WH",
+  "slPct": 7.66,
+  "gainPct": 17.42,
+  "rr": 2.27,
+  "lev": 8,
+  "signalTime": 1790582400000,
+  "status": "pending",
+  "createdAt": 1790582450698
  }
 ]
