@@ -28240,9 +28240,12 @@
   "rr": 2.05,
   "lev": 8,
   "signalTime": 1790605800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790605844993,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790612100000
  },
  {
   "id": "QIUSDT::LONG::BoS::1790605800000",
@@ -28279,9 +28282,12 @@
   "rr": 1.37,
   "lev": 7,
   "signalTime": 1790605800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790605844993,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790612100000
  },
  {
   "id": "RAREUSDT::SHORT::ChoCh::1790606700000",
@@ -28319,6 +28325,24 @@
   "lev": 12,
   "signalTime": 1790612100000,
   "status": "pending",
-  "createdAt": 1790612136609
+  "createdAt": 1790612136609,
+  "notified": []
+ },
+ {
+  "id": "AEROUSDT::LONG::ChoCh::1790613000000",
+  "symbol": "AEROUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.8016,
+  "sl": 0.75075,
+  "tp": 0.932,
+  "tpSrc": "WH",
+  "slPct": 6.34,
+  "gainPct": 16.27,
+  "rr": 2.56,
+  "lev": 9,
+  "signalTime": 1790613000000,
+  "status": "pending",
+  "createdAt": 1790613040794
  }
 ]
