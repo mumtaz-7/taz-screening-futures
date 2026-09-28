@@ -28003,7 +28003,28 @@
   "rr": 2.27,
   "lev": 8,
   "signalTime": 1790582400000,
+  "status": "open",
+  "createdAt": 1790582450698,
+  "fillTime": 1790582400000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "GLMRUSDT::LONG::ChoCh::1790583300000",
+  "symbol": "GLMRUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.008,
+  "sl": 0.0074,
+  "tp": 0.00895,
+  "tpSrc": "EQ",
+  "slPct": 7.5,
+  "gainPct": 11.87,
+  "rr": 1.58,
+  "lev": 8,
+  "signalTime": 1790583300000,
   "status": "pending",
-  "createdAt": 1790582450698
+  "createdAt": 1790583336158
  }
 ]
