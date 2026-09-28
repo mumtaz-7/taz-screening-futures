@@ -27722,12 +27722,15 @@
   "rr": 8.38,
   "lev": 24,
   "signalTime": 1790537400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790537440545,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790546400000
+  "fillTime": 1790546400000,
+  "R": -1,
+  "resolvedTime": 1790558100000
  },
  {
   "id": "ONEUSDT::LONG::BoS::1790542800000",
@@ -27847,7 +27850,11 @@
   "rr": 4.63,
   "lev": 16,
   "signalTime": 1790558100000,
-  "status": "pending",
-  "createdAt": 1790558133916
+  "status": "open",
+  "createdAt": 1790558133916,
+  "fillTime": 1790558100000,
+  "notified": [
+   "open"
+  ]
  }
 ]
