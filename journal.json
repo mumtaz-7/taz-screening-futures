@@ -27964,12 +27964,15 @@
   "rr": 1.97,
   "lev": 3,
   "signalTime": 1790577900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790577933809,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790578800000
+  "fillTime": 1790578800000,
+  "R": -1,
+  "resolvedTime": 1790586000000
  },
  {
   "id": "XPLUSDT::SHORT::ChoCh::1790580600000",
@@ -28033,5 +28036,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "AMPUSDT::SHORT::ChoCh::1790586900000",
+  "symbol": "AMPUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.000622,
+  "sl": 0.0006475000000000001,
+  "tp": 0.000525,
+  "tpSrc": "OB",
+  "slPct": 4.1,
+  "gainPct": 15.59,
+  "rr": 3.8,
+  "lev": 15,
+  "signalTime": 1790586900000,
+  "status": "pending",
+  "createdAt": 1790586936358
+ },
+ {
+  "id": "MUBARAKUSDT::LONG::ChoCh::1790586900000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0575,
+  "sl": 0.051035,
+  "tp": 0.075,
+  "tpSrc": "OB",
+  "slPct": 11.24,
+  "gainPct": 30.43,
+  "rr": 2.71,
+  "lev": 5,
+  "signalTime": 1790586900000,
+  "status": "pending",
+  "createdAt": 1790586936358
  }
 ]
