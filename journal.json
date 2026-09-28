@@ -28114,9 +28114,12 @@
   "rr": 1.74,
   "lev": 3,
   "signalTime": 1790587800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790587842178,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "SUPERUSDT::LONG::ChoCh::1790592300000",
