@@ -28394,7 +28394,8 @@
   "lev": 8,
   "signalTime": 1790622900000,
   "status": "pending",
-  "createdAt": 1790622939009
+  "createdAt": 1790622939009,
+  "notified": []
  },
  {
   "id": "RAREUSDT::SHORT::BoS::1790622900000",
@@ -28411,6 +28412,7 @@
   "lev": 10,
   "signalTime": 1790622900000,
   "status": "pending",
-  "createdAt": 1790622939009
+  "createdAt": 1790622939009,
+  "notified": []
  }
 ]
