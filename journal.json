@@ -27832,5 +27832,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MUBARAKUSDT::SHORT::ChoCh::1790558100000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.05269,
+  "sl": 0.054595000000000005,
+  "tp": 0.04387,
+  "tpSrc": "OB",
+  "slPct": 3.62,
+  "gainPct": 16.74,
+  "rr": 4.63,
+  "lev": 16,
+  "signalTime": 1790558100000,
+  "status": "pending",
+  "createdAt": 1790558133916
  }
 ]
