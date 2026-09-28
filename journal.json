@@ -25001,12 +25001,15 @@
   "rr": 2.68,
   "lev": 12,
   "signalTime": 1790199900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790199935650,
   "fillTime": 1790199900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790608500000
  },
  {
   "id": "SUPERUSDT::LONG::ChoCh::1790200800000",
@@ -25347,12 +25350,15 @@
   "rr": 2.23,
   "lev": 11,
   "signalTime": 1790226900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790226934632,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790233200000
+  "fillTime": 1790233200000,
+  "R": -1,
+  "resolvedTime": 1790608500000
  },
  {
   "id": "TIAUSDT::LONG::BoS::1790226900000",
@@ -28249,9 +28255,12 @@
   "rr": 2.04,
   "lev": 6,
   "signalTime": 1790605800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790605844993,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790608500000
  },
  {
   "id": "XPLUSDT::SHORT::BoS::1790605800000",
