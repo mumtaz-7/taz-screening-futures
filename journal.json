@@ -27322,12 +27322,15 @@
   "rr": 2.56,
   "lev": 19,
   "signalTime": 1790476200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790476243189,
   "fillTime": 1790476200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790560800000
  },
  {
   "id": "SAGAUSDT::SHORT::BoS::1790477100000",
