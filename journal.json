@@ -26700,12 +26700,15 @@
   "rr": 1.58,
   "lev": 12,
   "signalTime": 1790403300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790403335515,
   "fillTime": 1790403300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790563500000
  },
  {
   "id": "UNIUSDT::LONG::ChoCh::1790403300000",
