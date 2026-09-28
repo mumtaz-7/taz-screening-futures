@@ -28183,12 +28183,15 @@
   "rr": 1.71,
   "lev": 8,
   "signalTime": 1790598600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790598640917,
   "fillTime": 1790598600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790622000000
  },
  {
   "id": "ONEUSDT::LONG::ChoCh::1790599500000",
@@ -28375,5 +28378,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ONEUSDT::LONG::BoS::1790622900000",
+  "symbol": "ONEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.002584,
+  "sl": 0.0023829999999999997,
+  "tp": 0.002977,
+  "tpSrc": "OB",
+  "slPct": 7.78,
+  "gainPct": 15.21,
+  "rr": 1.96,
+  "lev": 8,
+  "signalTime": 1790622900000,
+  "status": "pending",
+  "createdAt": 1790622939009
+ },
+ {
+  "id": "RAREUSDT::SHORT::BoS::1790622900000",
+  "symbol": "RAREUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.01767,
+  "sl": 0.01872,
+  "tp": 0.01307,
+  "tpSrc": "OB",
+  "slPct": 5.94,
+  "gainPct": 26.03,
+  "rr": 4.38,
+  "lev": 10,
+  "signalTime": 1790622900000,
+  "status": "pending",
+  "createdAt": 1790622939009
  }
 ]
