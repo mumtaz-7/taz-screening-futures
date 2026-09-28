@@ -2,8 +2,7 @@
   "ready": [
     "ENAUSDT::SHORT::BoS",
     "FETUSDT::SHORT::ChoCh",
-    "NMRUSDT::LONG::BoS",
-    "PYTHUSDT::LONG::BoS"
+    "NMRUSDT::LONG::BoS"
   ],
-  "at": "2026-09-28T22:30:40.524Z"
+  "at": "2026-09-28T22:45:33.138Z"
 }

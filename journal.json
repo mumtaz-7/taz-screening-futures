@@ -28522,9 +28522,12 @@
   "rr": 2.49,
   "lev": 11,
   "signalTime": 1790632800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790632847061,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790634600000
  },
  {
   "id": "NMRUSDT::LONG::BoS::1790632800000",
