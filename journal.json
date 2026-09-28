@@ -28483,5 +28483,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "FETUSDT::SHORT::ChoCh::1790631900000",
+  "symbol": "FETUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.2246,
+  "sl": 0.2381,
+  "tp": 0.1962,
+  "tpSrc": "OB",
+  "slPct": 6.01,
+  "gainPct": 12.64,
+  "rr": 2.1,
+  "lev": 10,
+  "signalTime": 1790631900000,
+  "status": "pending",
+  "createdAt": 1790631933933
  }
 ]
