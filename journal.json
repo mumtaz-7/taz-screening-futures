@@ -28048,12 +28048,15 @@
   "rr": 1.58,
   "lev": 8,
   "signalTime": 1790583300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790583336158,
   "fillTime": 1790583300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790614800000
  },
  {
   "id": "AMPUSDT::SHORT::ChoCh::1790586900000",
