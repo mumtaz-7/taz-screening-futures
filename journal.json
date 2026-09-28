@@ -28159,7 +28159,28 @@
   "rr": 1.71,
   "lev": 8,
   "signalTime": 1790598600000,
+  "status": "open",
+  "createdAt": 1790598640917,
+  "fillTime": 1790598600000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ONEUSDT::LONG::ChoCh::1790599500000",
+  "symbol": "ONEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.002511,
+  "sl": 0.0023789999999999996,
+  "tp": 0.002963,
+  "tpSrc": "WH",
+  "slPct": 5.26,
+  "gainPct": 18,
+  "rr": 3.42,
+  "lev": 11,
+  "signalTime": 1790599500000,
   "status": "pending",
-  "createdAt": 1790598640917
+  "createdAt": 1790599535409
  }
 ]
