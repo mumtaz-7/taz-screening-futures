@@ -28393,9 +28393,12 @@
   "rr": 1.96,
   "lev": 8,
   "signalTime": 1790622900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790622939009,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790623800000
  },
  {
   "id": "RAREUSDT::SHORT::BoS::1790622900000",
@@ -28414,5 +28417,39 @@
   "status": "pending",
   "createdAt": 1790622939009,
   "notified": []
+ },
+ {
+  "id": "BCHUSDT::SHORT::ChoCh::1790624700000",
+  "symbol": "BCHUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 307.9,
+  "sl": 315.4,
+  "tp": 271,
+  "tpSrc": "OB",
+  "slPct": 2.44,
+  "gainPct": 11.98,
+  "rr": 4.92,
+  "lev": 24,
+  "signalTime": 1790624700000,
+  "status": "pending",
+  "createdAt": 1790624735588
+ },
+ {
+  "id": "ONDOUSDT::SHORT::ChoCh::1790624700000",
+  "symbol": "ONDOUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.5124,
+  "sl": 0.5323499999999999,
+  "tp": 0.4219,
+  "tpSrc": "OB",
+  "slPct": 3.89,
+  "gainPct": 17.66,
+  "rr": 4.54,
+  "lev": 15,
+  "signalTime": 1790624700000,
+  "status": "pending",
+  "createdAt": 1790624735588
  }
 ]
