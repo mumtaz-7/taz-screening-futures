@@ -28433,7 +28433,8 @@
   "lev": 24,
   "signalTime": 1790624700000,
   "status": "pending",
-  "createdAt": 1790624735588
+  "createdAt": 1790624735588,
+  "notified": []
  },
  {
   "id": "ONDOUSDT::SHORT::ChoCh::1790624700000",
@@ -28449,7 +28450,11 @@
   "rr": 4.54,
   "lev": 15,
   "signalTime": 1790624700000,
-  "status": "pending",
-  "createdAt": 1790624735588
+  "status": "open",
+  "createdAt": 1790624735588,
+  "fillTime": 1790624700000,
+  "notified": [
+   "open"
+  ]
  }
 ]
