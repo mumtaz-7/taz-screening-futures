@@ -28553,5 +28553,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "OPUSDT::SHORT::BoS::1790638200000",
+  "symbol": "OPUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1324,
+  "sl": 0.1399,
+  "tp": 0.1224,
+  "tpSrc": "OB",
+  "slPct": 5.66,
+  "gainPct": 7.55,
+  "rr": 1.33,
+  "lev": 11,
+  "signalTime": 1790638200000,
+  "status": "pending",
+  "createdAt": 1790638241042
  }
 ]
