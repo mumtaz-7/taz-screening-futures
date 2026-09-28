@@ -28462,5 +28462,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PYTHUSDT::LONG::BoS::1790630100000",
+  "symbol": "PYTHUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.08015,
+  "sl": 0.07726999999999999,
+  "tp": 0.08874,
+  "tpSrc": "WH",
+  "slPct": 3.59,
+  "gainPct": 10.72,
+  "rr": 2.98,
+  "lev": 16,
+  "signalTime": 1790630100000,
+  "status": "pending",
+  "createdAt": 1790630136633
  }
 ]

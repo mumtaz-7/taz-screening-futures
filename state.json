@@ -1,7 +1,6 @@
 {
   "ready": [
-    "BCHUSDT::SHORT::ChoCh",
-    "ONDOUSDT::SHORT::ChoCh"
+    "PYTHUSDT::LONG::BoS"
   ],
-  "at": "2026-09-28T21:00:49.217Z"
+  "at": "2026-09-28T21:15:36.632Z"
 }
