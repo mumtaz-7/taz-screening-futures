@@ -28351,5 +28351,22 @@
   "status": "pending",
   "createdAt": 1790613040794,
   "notified": []
+ },
+ {
+  "id": "QNTUSDT::LONG::ChoCh::1790617500000",
+  "symbol": "QNTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 249.53,
+  "sl": 202.73000000000002,
+  "tp": 373,
+  "tpSrc": "WH",
+  "slPct": 18.76,
+  "gainPct": 49.48,
+  "rr": 2.64,
+  "lev": 3,
+  "signalTime": 1790617500000,
+  "status": "pending",
+  "createdAt": 1790617536842
  }
 ]

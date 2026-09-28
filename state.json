@@ -1,6 +1,7 @@
 {
   "ready": [
-    "AEROUSDT::LONG::ChoCh"
+    "AEROUSDT::LONG::ChoCh",
+    "QNTUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-28T17:30:41.393Z"
+  "at": "2026-09-28T17:45:36.840Z"
 }
