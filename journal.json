@@ -28324,9 +28324,12 @@
   "rr": 1.72,
   "lev": 12,
   "signalTime": 1790612100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790612136609,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790613000000
  },
  {
   "id": "AEROUSDT::LONG::ChoCh::1790613000000",
@@ -28343,6 +28346,7 @@
   "lev": 9,
   "signalTime": 1790613000000,
   "status": "pending",
-  "createdAt": 1790613040794
+  "createdAt": 1790613040794,
+  "notified": []
  }
 ]
