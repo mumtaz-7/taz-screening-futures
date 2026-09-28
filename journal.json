@@ -26808,12 +26808,15 @@
   "rr": 3.12,
   "lev": 13,
   "signalTime": 1790405100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790405134988,
   "fillTime": 1790405100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790632800000
  },
  {
   "id": "XPLUSDT::LONG::ChoCh::1790410500000",
@@ -28520,7 +28523,8 @@
   "lev": 11,
   "signalTime": 1790632800000,
   "status": "pending",
-  "createdAt": 1790632847061
+  "createdAt": 1790632847061,
+  "notified": []
  },
  {
   "id": "NMRUSDT::LONG::BoS::1790632800000",
@@ -28536,7 +28540,12 @@
   "rr": 1.59,
   "lev": 5,
   "signalTime": 1790632800000,
-  "status": "pending",
-  "createdAt": 1790632847061
+  "status": "void",
+  "createdAt": 1790632847061,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790632800000,
+  "notified": [
+   "void"
+  ]
  }
 ]
