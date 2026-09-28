@@ -28180,7 +28180,28 @@
   "rr": 3.42,
   "lev": 11,
   "signalTime": 1790599500000,
+  "status": "open",
+  "createdAt": 1790599535409,
+  "fillTime": 1790599500000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "JTOUSDT::LONG::ChoCh::1790600400000",
+  "symbol": "JTOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.5732,
+  "sl": 0.5417000000000001,
+  "tp": 0.647,
+  "tpSrc": "WH",
+  "slPct": 5.5,
+  "gainPct": 12.88,
+  "rr": 2.34,
+  "lev": 11,
+  "signalTime": 1790600400000,
   "status": "pending",
-  "createdAt": 1790599535409
+  "createdAt": 1790600451939
  }
 ]
