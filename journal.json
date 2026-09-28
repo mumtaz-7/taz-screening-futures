@@ -28060,12 +28060,15 @@
   "rr": 3.8,
   "lev": 15,
   "signalTime": 1790586900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790586936358,
   "fillTime": 1790586900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790602200000
  },
  {
   "id": "MUBARAKUSDT::LONG::ChoCh::1790586900000",
