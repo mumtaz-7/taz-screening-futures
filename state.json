@@ -1,6 +1,8 @@
 {
   "ready": [
-    "JTOUSDT::LONG::ChoCh"
+    "BROCCOLI714USDT::SHORT::BoS",
+    "QIUSDT::LONG::BoS",
+    "XPLUSDT::SHORT::BoS"
   ],
-  "at": "2026-09-28T14:15:34.375Z"
+  "at": "2026-09-28T14:30:44.991Z"
 }

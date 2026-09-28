@@ -25368,12 +25368,15 @@
   "rr": 2.45,
   "lev": 11,
   "signalTime": 1790226900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790226934632,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790228700000
+  "fillTime": 1790228700000,
+  "R": -1,
+  "resolvedTime": 1790604900000
  },
  {
   "id": "CHRUSDT::LONG::BoS::1790229600000",
@@ -28210,5 +28213,56 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BROCCOLI714USDT::SHORT::BoS::1790605800000",
+  "symbol": "BROCCOLI714USDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.02582,
+  "sl": 0.027665000000000002,
+  "tp": 0.02203,
+  "tpSrc": "OB",
+  "slPct": 7.15,
+  "gainPct": 14.68,
+  "rr": 2.05,
+  "lev": 8,
+  "signalTime": 1790605800000,
+  "status": "pending",
+  "createdAt": 1790605844993
+ },
+ {
+  "id": "QIUSDT::LONG::BoS::1790605800000",
+  "symbol": "QIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.003122,
+  "sl": 0.002789,
+  "tp": 0.0038,
+  "tpSrc": "WH",
+  "slPct": 10.67,
+  "gainPct": 21.72,
+  "rr": 2.04,
+  "lev": 6,
+  "signalTime": 1790605800000,
+  "status": "pending",
+  "createdAt": 1790605844993
+ },
+ {
+  "id": "XPLUSDT::SHORT::BoS::1790605800000",
+  "symbol": "XPLUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.09949,
+  "sl": 0.10775499999999999,
+  "tp": 0.08816,
+  "tpSrc": "OB",
+  "slPct": 8.31,
+  "gainPct": 11.39,
+  "rr": 1.37,
+  "lev": 7,
+  "signalTime": 1790605800000,
+  "status": "pending",
+  "createdAt": 1790605844993
  }
 ]
