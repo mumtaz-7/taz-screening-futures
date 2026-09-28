@@ -27695,12 +27695,15 @@
   "rr": 2.29,
   "lev": 18,
   "signalTime": 1790523000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790523041264,
   "fillTime": 1790523000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790597700000
  },
  {
   "id": "AEROUSDT::LONG::ChoCh::1790532900000",
@@ -27877,12 +27880,15 @@
   "rr": 3.2,
   "lev": 24,
   "signalTime": 1790552700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790552732467,
   "fillTime": 1790552700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790597700000
  },
  {
   "id": "MUBARAKUSDT::SHORT::ChoCh::1790558100000",
@@ -28132,7 +28138,28 @@
   "rr": 1.82,
   "lev": 14,
   "signalTime": 1790597700000,
+  "status": "open",
+  "createdAt": 1790597733791,
+  "fillTime": 1790597700000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "GRTUSDT::LONG::ChoCh::1790598600000",
+  "symbol": "GRTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.03273,
+  "sl": 0.030404999999999998,
+  "tp": 0.0367,
+  "tpSrc": "WH",
+  "slPct": 7.1,
+  "gainPct": 12.13,
+  "rr": 1.71,
+  "lev": 8,
+  "signalTime": 1790598600000,
   "status": "pending",
-  "createdAt": 1790597733791
+  "createdAt": 1790598640917
  }
 ]
