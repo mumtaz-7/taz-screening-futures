@@ -28126,9 +28126,12 @@
   "rr": 7.58,
   "lev": 25,
   "signalTime": 1790592300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790592333852,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790606700000
  },
  {
   "id": "JASMYUSDT::LONG::BoS::1790597700000",
@@ -28282,7 +28285,11 @@
   "rr": 6.22,
   "lev": 14,
   "signalTime": 1790606700000,
-  "status": "pending",
-  "createdAt": 1790606770649
+  "status": "open",
+  "createdAt": 1790606770649,
+  "fillTime": 1790606700000,
+  "notified": [
+   "open"
+  ]
  }
 ]
