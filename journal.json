@@ -27946,9 +27946,12 @@
   "rr": 1.3,
   "lev": 6,
   "signalTime": 1790574300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790574334839,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "QNTUSDT::LONG::ChoCh::1790577900000",
