@@ -28414,9 +28414,12 @@
   "rr": 4.38,
   "lev": 10,
   "signalTime": 1790622900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790622939009,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790625600000
  },
  {
   "id": "BCHUSDT::SHORT::ChoCh::1790624700000",
@@ -28432,9 +28435,12 @@
   "rr": 4.92,
   "lev": 24,
   "signalTime": 1790624700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790624735588,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790625600000
  },
  {
   "id": "ONDOUSDT::SHORT::ChoCh::1790624700000",
