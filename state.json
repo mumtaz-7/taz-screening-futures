@@ -1,6 +1,7 @@
 {
   "ready": [
-    "QNTUSDT::LONG::ChoCh"
+    "QNTUSDT::LONG::ChoCh",
+    "XPLUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-09-28T07:15:34.754Z"
+  "at": "2026-09-28T07:30:40.682Z"
 }

@@ -27919,12 +27919,15 @@
   "rr": 2.88,
   "lev": 20,
   "signalTime": 1790568000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790568081471,
   "fillTime": 1790568000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790579700000
  },
  {
   "id": "BCHUSDT::SHORT::BoS::1790574300000",
@@ -27964,5 +27967,22 @@
    "open"
   ],
   "fillTime": 1790578800000
+ },
+ {
+  "id": "XPLUSDT::SHORT::ChoCh::1790580600000",
+  "symbol": "XPLUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.10203,
+  "sl": 0.108465,
+  "tp": 0.08816,
+  "tpSrc": "OB",
+  "slPct": 6.31,
+  "gainPct": 13.59,
+  "rr": 2.16,
+  "lev": 10,
+  "signalTime": 1790580600000,
+  "status": "pending",
+  "createdAt": 1790580640683
  }
 ]
