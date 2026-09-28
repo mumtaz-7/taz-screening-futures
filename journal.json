@@ -26240,12 +26240,15 @@
   "rr": 3.96,
   "lev": 21,
   "signalTime": 1790332200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790332243809,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790333100000
+  "fillTime": 1790333100000,
+  "R": -1,
+  "resolvedTime": 1790584200000
  },
  {
   "id": "2ZUSDT::LONG::ChoCh::1790334000000",
