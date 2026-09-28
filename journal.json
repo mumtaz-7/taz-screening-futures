@@ -28138,12 +28138,15 @@
   "rr": 7.58,
   "lev": 25,
   "signalTime": 1790592300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790592333852,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790606700000
+  "fillTime": 1790606700000,
+  "R": -1,
+  "resolvedTime": 1790620200000
  },
  {
   "id": "JASMYUSDT::LONG::BoS::1790597700000",
