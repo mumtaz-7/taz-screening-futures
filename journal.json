@@ -28229,7 +28229,8 @@
   "lev": 8,
   "signalTime": 1790605800000,
   "status": "pending",
-  "createdAt": 1790605844993
+  "createdAt": 1790605844993,
+  "notified": []
  },
  {
   "id": "QIUSDT::LONG::BoS::1790605800000",
@@ -28246,7 +28247,8 @@
   "lev": 6,
   "signalTime": 1790605800000,
   "status": "pending",
-  "createdAt": 1790605844993
+  "createdAt": 1790605844993,
+  "notified": []
  },
  {
   "id": "XPLUSDT::SHORT::BoS::1790605800000",
@@ -28263,6 +28265,24 @@
   "lev": 7,
   "signalTime": 1790605800000,
   "status": "pending",
-  "createdAt": 1790605844993
+  "createdAt": 1790605844993,
+  "notified": []
+ },
+ {
+  "id": "RAREUSDT::SHORT::ChoCh::1790606700000",
+  "symbol": "RAREUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.01792,
+  "sl": 0.0187,
+  "tp": 0.01307,
+  "tpSrc": "OB",
+  "slPct": 4.35,
+  "gainPct": 27.06,
+  "rr": 6.22,
+  "lev": 14,
+  "signalTime": 1790606700000,
+  "status": "pending",
+  "createdAt": 1790606770649
  }
 ]
