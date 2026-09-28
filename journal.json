@@ -27461,12 +27461,15 @@
   "rr": 3.12,
   "lev": 14,
   "signalTime": 1790487000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790487040305,
   "fillTime": 1790487000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790559900000
  },
  {
   "id": "GLMRUSDT::LONG::BoS::1790495100000",
@@ -27680,12 +27683,15 @@
   "rr": 3.61,
   "lev": 20,
   "signalTime": 1790532900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790532935045,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790544600000
+  "fillTime": 1790544600000,
+  "R": -1,
+  "resolvedTime": 1790559900000
  },
  {
   "id": "AMPUSDT::LONG::ChoCh::1790533800000",
