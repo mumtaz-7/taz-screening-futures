@@ -28775,9 +28775,12 @@
   "rr": 4.81,
   "lev": 19,
   "signalTime": 1790682300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790682334620,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790683200000
  },
  {
   "id": "GRTUSDT::LONG::BoS::1790683200000",
@@ -28793,7 +28796,28 @@
   "rr": 8.48,
   "lev": 25,
   "signalTime": 1790683200000,
+  "status": "open",
+  "createdAt": 1790683250192,
+  "fillTime": 1790683200000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "PUMPUSDT::LONG::BoS::1790684100000",
+  "symbol": "PUMPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.005184,
+  "sl": 0.004843499999999999,
+  "tp": 0.005732,
+  "tpSrc": "WH",
+  "slPct": 6.57,
+  "gainPct": 10.57,
+  "rr": 1.61,
+  "lev": 9,
+  "signalTime": 1790684100000,
   "status": "pending",
-  "createdAt": 1790683250192
+  "createdAt": 1790684137186
  }
 ]
