@@ -28980,5 +28980,22 @@
    "open"
   ],
   "fillTime": 1790714700000
+ },
+ {
+  "id": "CVXUSDT::LONG::ChoCh::1790717400000",
+  "symbol": "CVXUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 2.237,
+  "sl": 2.1755000000000004,
+  "tp": 2.398,
+  "tpSrc": "WH",
+  "slPct": 2.75,
+  "gainPct": 7.2,
+  "rr": 2.62,
+  "lev": 21,
+  "signalTime": 1790717400000,
+  "status": "pending",
+  "createdAt": 1790717441678
  }
 ]
