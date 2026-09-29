@@ -28607,12 +28607,15 @@
   "rr": 2.74,
   "lev": 17,
   "signalTime": 1790639100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790639133693,
   "fillTime": 1790639100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.74,
+  "resolvedTime": 1790698500000
  },
  {
   "id": "WUSDT::LONG::BoS::1790657100000",
