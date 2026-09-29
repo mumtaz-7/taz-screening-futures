@@ -28878,12 +28878,15 @@
   "rr": 3.27,
   "lev": 18,
   "signalTime": 1790690400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790690451745,
   "fillTime": 1790690400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790701200000
  },
  {
   "id": "MARSCOINUSDT::LONG::BoS::1790691300000",
