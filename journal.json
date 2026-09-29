@@ -28953,5 +28953,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "QIUSDT::LONG::ChoCh::1790713800000",
+  "symbol": "QIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.003039,
+  "sl": 0.0029924999999999995,
+  "tp": 0.0033215,
+  "tpSrc": "EQ",
+  "slPct": 1.53,
+  "gainPct": 9.3,
+  "rr": 6.08,
+  "lev": 25,
+  "signalTime": 1790713800000,
+  "status": "pending",
+  "createdAt": 1790713841987
  }
 ]
