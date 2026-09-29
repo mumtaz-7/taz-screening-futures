@@ -28652,5 +28652,22 @@
   "status": "pending",
   "createdAt": 1790663442502,
   "notified": []
+ },
+ {
+  "id": "PUMPUSDT::LONG::ChoCh::1790667900000",
+  "symbol": "PUMPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.004997,
+  "sl": 0.0045185,
+  "tp": 0.005564,
+  "tpSrc": "WH",
+  "slPct": 9.58,
+  "gainPct": 11.35,
+  "rr": 1.18,
+  "lev": 6,
+  "signalTime": 1790667900000,
+  "status": "pending",
+  "createdAt": 1790667934800
  }
 ]
