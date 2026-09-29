@@ -28498,12 +28498,15 @@
   "rr": 2.98,
   "lev": 16,
   "signalTime": 1790630100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790630136633,
   "fillTime": 1790630100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790649900000
  },
  {
   "id": "FETUSDT::SHORT::ChoCh::1790631900000",
