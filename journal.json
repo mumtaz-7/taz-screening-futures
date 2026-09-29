@@ -23076,12 +23076,15 @@
   "rr": 2.06,
   "lev": 9,
   "signalTime": 1789949700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1789949752523,
   "fillTime": 1789949700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790647200000
  },
  {
   "id": "FILUSDT::LONG::ChoCh::1789949700000",
