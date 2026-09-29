@@ -1,7 +1,7 @@
 {
   "ready": [
     "COTIUSDT::LONG::ChoCh",
-    "PHAUSDT::LONG::BoS"
+    "ENAUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-09-29T23:30:40.963Z"
+  "at": "2026-09-29T23:45:35.464Z"
 }

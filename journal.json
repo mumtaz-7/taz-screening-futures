@@ -23031,7 +23031,7 @@
   "rr": 3,
   "lev": 15,
   "signalTime": 1789947900000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1789947934329,
   "fillTime": 1789947900000,
   "notified": [
@@ -29037,5 +29037,22 @@
   "status": "pending",
   "createdAt": 1790723733243,
   "notified": []
+ },
+ {
+  "id": "ENAUSDT::SHORT::ChoCh::1790725500000",
+  "symbol": "ENAUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.2492,
+  "sl": 0.25444999999999995,
+  "tp": 0.2217,
+  "tpSrc": "OB",
+  "slPct": 2.11,
+  "gainPct": 11.04,
+  "rr": 5.24,
+  "lev": 25,
+  "signalTime": 1790725500000,
+  "status": "pending",
+  "createdAt": 1790725535465
  }
 ]
