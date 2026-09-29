@@ -28670,12 +28670,15 @@
   "rr": 1.18,
   "lev": 6,
   "signalTime": 1790667900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790667934800,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790668800000
+  "fillTime": 1790668800000,
+  "R": 1.18,
+  "resolvedTime": 1790682300000
  },
  {
   "id": "CFGUSDT::LONG::BoS::1790670600000",
@@ -28751,9 +28754,12 @@
   "rr": 2.1,
   "lev": 11,
   "signalTime": 1790681400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790681441289,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790682300000
  },
  {
   "id": "SEIUSDT::LONG::BoS::1790682300000",
@@ -28770,6 +28776,24 @@
   "lev": 19,
   "signalTime": 1790682300000,
   "status": "pending",
-  "createdAt": 1790682334620
+  "createdAt": 1790682334620,
+  "notified": []
+ },
+ {
+  "id": "GRTUSDT::LONG::BoS::1790683200000",
+  "symbol": "GRTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.03085,
+  "sl": 0.03016,
+  "tp": 0.0367,
+  "tpSrc": "WH",
+  "slPct": 2.24,
+  "gainPct": 18.96,
+  "rr": 8.48,
+  "lev": 25,
+  "signalTime": 1790683200000,
+  "status": "pending",
+  "createdAt": 1790683250192
  }
 ]
