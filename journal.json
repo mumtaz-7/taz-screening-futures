@@ -28851,5 +28851,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "牛来USDT::LONG::ChoCh::1790690400000",
+  "symbol": "牛来USDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.10966,
+  "sl": 0.10603000000000001,
+  "tp": 0.12154,
+  "tpSrc": "WH",
+  "slPct": 3.31,
+  "gainPct": 10.83,
+  "rr": 3.27,
+  "lev": 18,
+  "signalTime": 1790690400000,
+  "status": "pending",
+  "createdAt": 1790690451745
  }
 ]
