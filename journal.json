@@ -28752,6 +28752,24 @@
   "lev": 11,
   "signalTime": 1790681400000,
   "status": "pending",
-  "createdAt": 1790681441289
+  "createdAt": 1790681441289,
+  "notified": []
+ },
+ {
+  "id": "SEIUSDT::LONG::BoS::1790682300000",
+  "symbol": "SEIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.07555,
+  "sl": 0.073255,
+  "tp": 0.08658,
+  "tpSrc": "WH",
+  "slPct": 3.04,
+  "gainPct": 14.6,
+  "rr": 4.81,
+  "lev": 19,
+  "signalTime": 1790682300000,
+  "status": "pending",
+  "createdAt": 1790682334620
  }
 ]
