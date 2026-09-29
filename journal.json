@@ -28713,7 +28713,8 @@
   "lev": 9,
   "signalTime": 1790676900000,
   "status": "pending",
-  "createdAt": 1790676938988
+  "createdAt": 1790676938988,
+  "notified": []
  },
  {
   "id": "PROMUSDT::SHORT::BoS::1790676900000",
@@ -28730,6 +28731,7 @@
   "lev": 11,
   "signalTime": 1790676900000,
   "status": "pending",
-  "createdAt": 1790676938988
+  "createdAt": 1790676938988,
+  "notified": []
  }
 ]
