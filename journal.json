@@ -22406,7 +22406,7 @@
   "rr": 4.16,
   "lev": 10,
   "signalTime": 1789885800000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1789885880252,
   "fillTime": 1789885800000,
   "notified": [
@@ -28634,5 +28634,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "2ZUSDT::LONG::BoS::1790663400000",
+  "symbol": "2ZUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.06809,
+  "sl": 0.06218,
+  "tp": 0.08074,
+  "tpSrc": "WH",
+  "slPct": 8.68,
+  "gainPct": 18.58,
+  "rr": 2.14,
+  "lev": 7,
+  "signalTime": 1790663400000,
+  "status": "pending",
+  "createdAt": 1790663442502
  }
 ]
