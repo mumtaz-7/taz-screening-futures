@@ -28902,12 +28902,15 @@
   "rr": 2.39,
   "lev": 11,
   "signalTime": 1790691300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790691337354,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790694900000
+  "fillTime": 1790694900000,
+  "R": -1,
+  "resolvedTime": 1790702100000
  },
  {
   "id": "RUNEUSDT::SHORT::BoS::1790696700000",
