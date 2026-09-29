@@ -25329,12 +25329,15 @@
   "rr": 2.71,
   "lev": 10,
   "signalTime": 1790226900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790226934632,
   "fillTime": 1790226900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790645400000
  },
  {
   "id": "PENGUUSDT::LONG::BoS::1790226900000",
@@ -28210,12 +28213,15 @@
   "rr": 3.42,
   "lev": 11,
   "signalTime": 1790599500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790599535409,
   "fillTime": 1790599500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790645400000
  },
  {
   "id": "JTOUSDT::LONG::ChoCh::1790600400000",
@@ -28399,12 +28405,15 @@
   "rr": 1.96,
   "lev": 8,
   "signalTime": 1790622900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790622939009,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790623800000
+  "fillTime": 1790623800000,
+  "R": -1,
+  "resolvedTime": 1790645400000
  },
  {
   "id": "RAREUSDT::SHORT::BoS::1790622900000",
