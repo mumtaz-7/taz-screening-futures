@@ -28754,12 +28754,15 @@
   "rr": 2.1,
   "lev": 11,
   "signalTime": 1790681400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790681441289,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790682300000
+  "fillTime": 1790682300000,
+  "R": -1,
+  "resolvedTime": 1790688600000
  },
  {
   "id": "SEIUSDT::LONG::BoS::1790682300000",
@@ -28796,12 +28799,15 @@
   "rr": 8.48,
   "lev": 25,
   "signalTime": 1790683200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790683250192,
   "fillTime": 1790683200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790688600000
  },
  {
   "id": "PUMPUSDT::LONG::BoS::1790684100000",
@@ -28839,7 +28845,11 @@
   "rr": 1.17,
   "lev": 9,
   "signalTime": 1790688600000,
-  "status": "pending",
-  "createdAt": 1790688641300
+  "status": "open",
+  "createdAt": 1790688641300,
+  "fillTime": 1790688600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
