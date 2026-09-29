@@ -28736,5 +28736,22 @@
   "status": "pending",
   "createdAt": 1790676938988,
   "notified": []
+ },
+ {
+  "id": "WUSDT::LONG::ChoCh::1790681400000",
+  "symbol": "WUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01461,
+  "sl": 0.013845,
+  "tp": 0.01622,
+  "tpSrc": "WH",
+  "slPct": 5.24,
+  "gainPct": 11.02,
+  "rr": 2.1,
+  "lev": 11,
+  "signalTime": 1790681400000,
+  "status": "pending",
+  "createdAt": 1790681441289
  }
 ]
