@@ -28902,5 +28902,22 @@
    "open"
   ],
   "fillTime": 1790694900000
+ },
+ {
+  "id": "RUNEUSDT::SHORT::BoS::1790696700000",
+  "symbol": "RUNEUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.767,
+  "sl": 0.8075000000000001,
+  "tp": 0.646,
+  "tpSrc": "OB",
+  "slPct": 5.28,
+  "gainPct": 15.78,
+  "rr": 2.99,
+  "lev": 11,
+  "signalTime": 1790696700000,
+  "status": "pending",
+  "createdAt": 1790696735459
  }
 ]
