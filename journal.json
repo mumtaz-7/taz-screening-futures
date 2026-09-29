@@ -28866,7 +28866,28 @@
   "rr": 3.27,
   "lev": 18,
   "signalTime": 1790690400000,
+  "status": "open",
+  "createdAt": 1790690451745,
+  "fillTime": 1790690400000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "MARSCOINUSDT::LONG::BoS::1790691300000",
+  "symbol": "MARSCOINUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1501,
+  "sl": 0.14215,
+  "tp": 0.1691,
+  "tpSrc": "WH",
+  "slPct": 5.3,
+  "gainPct": 12.66,
+  "rr": 2.39,
+  "lev": 11,
+  "signalTime": 1790691300000,
   "status": "pending",
-  "createdAt": 1790690451745
+  "createdAt": 1790691337354
  }
 ]
