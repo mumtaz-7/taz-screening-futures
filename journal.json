@@ -28824,5 +28824,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "PARTIUSDT::LONG::ChoCh::1790688600000",
+  "symbol": "PARTIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0265,
+  "sl": 0.0247,
+  "tp": 0.0286,
+  "tpSrc": "WH",
+  "slPct": 6.79,
+  "gainPct": 7.92,
+  "rr": 1.17,
+  "lev": 9,
+  "signalTime": 1790688600000,
+  "status": "pending",
+  "createdAt": 1790688641300
  }
 ]
