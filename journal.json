@@ -28613,5 +28613,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "WUSDT::LONG::BoS::1790657100000",
+  "symbol": "WUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01402,
+  "sl": 0.012955000000000001,
+  "tp": 0.01622,
+  "tpSrc": "WH",
+  "slPct": 7.6,
+  "gainPct": 15.69,
+  "rr": 2.07,
+  "lev": 8,
+  "signalTime": 1790657100000,
+  "status": "pending",
+  "createdAt": 1790657132676
  }
 ]
