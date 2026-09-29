@@ -28712,9 +28712,12 @@
   "rr": 3.1,
   "lev": 9,
   "signalTime": 1790676900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790676938988,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790678700000
  },
  {
   "id": "PROMUSDT::SHORT::BoS::1790676900000",
