@@ -28715,12 +28715,15 @@
   "rr": 3.1,
   "lev": 9,
   "signalTime": 1790676900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790676938988,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790678700000
+  "fillTime": 1790678700000,
+  "R": -1,
+  "resolvedTime": 1790694900000
  },
  {
   "id": "PROMUSDT::SHORT::BoS::1790676900000",
@@ -28781,12 +28784,15 @@
   "rr": 4.81,
   "lev": 19,
   "signalTime": 1790682300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790682334620,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790683200000
+  "fillTime": 1790683200000,
+  "R": -1,
+  "resolvedTime": 1790694900000
  },
  {
   "id": "GRTUSDT::LONG::BoS::1790683200000",
@@ -28890,8 +28896,11 @@
   "rr": 2.39,
   "lev": 11,
   "signalTime": 1790691300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790691337354,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790694900000
  }
 ]
