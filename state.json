@@ -1,9 +1,7 @@
 {
   "ready": [
     "GRTUSDT::LONG::BoS",
-    "PUMPUSDT::LONG::BoS",
-    "SEIUSDT::LONG::BoS",
-    "WUSDT::LONG::ChoCh"
+    "PUMPUSDT::LONG::BoS"
   ],
-  "at": "2026-09-29T12:45:40.237Z"
+  "at": "2026-09-29T13:00:50.387Z"
 }
