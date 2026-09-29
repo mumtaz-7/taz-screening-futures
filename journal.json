@@ -28649,9 +28649,12 @@
   "rr": 2.14,
   "lev": 7,
   "signalTime": 1790663400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790663442502,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790668800000
  },
  {
   "id": "PUMPUSDT::LONG::ChoCh::1790667900000",
@@ -28667,8 +28670,11 @@
   "rr": 1.18,
   "lev": 6,
   "signalTime": 1790667900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790667934800,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790668800000
  }
 ]
