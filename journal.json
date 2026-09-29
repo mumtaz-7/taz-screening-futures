@@ -29001,5 +29001,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PHAUSDT::LONG::BoS::1790720100000",
+  "symbol": "PHAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.07,
+  "sl": 0.06534999999999999,
+  "tp": 0.0832,
+  "tpSrc": "OB",
+  "slPct": 6.64,
+  "gainPct": 18.86,
+  "rr": 2.84,
+  "lev": 9,
+  "signalTime": 1790720100000,
+  "status": "pending",
+  "createdAt": 1790720135542
  }
 ]
