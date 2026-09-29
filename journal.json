@@ -28676,5 +28676,22 @@
    "open"
   ],
   "fillTime": 1790668800000
+ },
+ {
+  "id": "CFGUSDT::LONG::BoS::1790670600000",
+  "symbol": "CFGUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1595,
+  "sl": 0.14540000000000003,
+  "tp": 0.1769,
+  "tpSrc": "WH",
+  "slPct": 8.84,
+  "gainPct": 10.91,
+  "rr": 1.23,
+  "lev": 7,
+  "signalTime": 1790670600000,
+  "status": "pending",
+  "createdAt": 1790670643563
  }
 ]
