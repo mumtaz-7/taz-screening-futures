@@ -28736,9 +28736,12 @@
   "rr": 2.31,
   "lev": 11,
   "signalTime": 1790676900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790676938988,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790692200000
  },
  {
   "id": "WUSDT::LONG::ChoCh::1790681400000",
