@@ -28697,5 +28697,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "NMRUSDT::LONG::BoS::1790676900000",
+  "symbol": "NMRUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 12.94,
+  "sl": 12.115000000000002,
+  "tp": 15.5,
+  "tpSrc": "WH",
+  "slPct": 6.38,
+  "gainPct": 19.78,
+  "rr": 3.1,
+  "lev": 9,
+  "signalTime": 1790676900000,
+  "status": "pending",
+  "createdAt": 1790676938988
+ },
+ {
+  "id": "PROMUSDT::SHORT::BoS::1790676900000",
+  "symbol": "PROMUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 6.092,
+  "sl": 6.429500000000001,
+  "tp": 5.312,
+  "tpSrc": "OB",
+  "slPct": 5.54,
+  "gainPct": 12.8,
+  "rr": 2.31,
+  "lev": 11,
+  "signalTime": 1790676900000,
+  "status": "pending",
+  "createdAt": 1790676938988
  }
 ]
