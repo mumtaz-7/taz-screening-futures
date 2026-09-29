@@ -28327,12 +28327,15 @@
   "rr": 6.22,
   "lev": 14,
   "signalTime": 1790606700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790606770649,
   "fillTime": 1790606700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790715600000
  },
  {
   "id": "2ZUSDT::LONG::ChoCh::1790612100000",
@@ -28435,12 +28438,15 @@
   "rr": 4.38,
   "lev": 10,
   "signalTime": 1790622900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790622939009,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790625600000
+  "fillTime": 1790625600000,
+  "R": -1,
+  "resolvedTime": 1790715600000
  },
  {
   "id": "BCHUSDT::SHORT::ChoCh::1790624700000",
