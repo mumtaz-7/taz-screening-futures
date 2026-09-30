@@ -29091,5 +29091,22 @@
    "open"
   ],
   "fillTime": 1790732700000
+ },
+ {
+  "id": "ONDOUSDT::SHORT::BoS::1790735400000",
+  "symbol": "ONDOUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.4984,
+  "sl": 0.5164,
+  "tp": 0.4219,
+  "tpSrc": "OB",
+  "slPct": 3.61,
+  "gainPct": 15.35,
+  "rr": 4.25,
+  "lev": 16,
+  "signalTime": 1790735400000,
+  "status": "pending",
+  "createdAt": 1790735442247
  }
 ]
