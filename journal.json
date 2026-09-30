@@ -29395,8 +29395,12 @@
   "rr": 2.12,
   "lev": 8,
   "signalTime": 1790778600000,
-  "status": "pending",
-  "createdAt": 1790778644484
+  "status": "open",
+  "createdAt": 1790778644484,
+  "fillTime": 1790778600000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "PENGUUSDT::SHORT::ChoCh::1790778600000",
@@ -29413,6 +29417,7 @@
   "lev": 12,
   "signalTime": 1790778600000,
   "status": "pending",
-  "createdAt": 1790778644484
+  "createdAt": 1790778644484,
+  "notified": []
  }
 ]
