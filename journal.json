@@ -29176,9 +29176,12 @@
   "rr": 2.78,
   "lev": 14,
   "signalTime": 1790748900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790748936603,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790750700000
  },
  {
   "id": "LDOUSDT::SHORT::ChoCh::1790750700000",
@@ -29195,6 +29198,7 @@
   "lev": 15,
   "signalTime": 1790750700000,
   "status": "pending",
-  "createdAt": 1790750735629
+  "createdAt": 1790750735629,
+  "notified": []
  }
 ]
