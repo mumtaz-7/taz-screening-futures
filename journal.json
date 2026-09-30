@@ -29416,9 +29416,12 @@
   "rr": 2,
   "lev": 12,
   "signalTime": 1790778600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790778644484,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790784000000
  },
  {
   "id": "LTCUSDT::SHORT::ChoCh::1790784000000",
@@ -29434,7 +29437,11 @@
   "rr": 2.1,
   "lev": 16,
   "signalTime": 1790784000000,
-  "status": "pending",
-  "createdAt": 1790784048291
+  "status": "open",
+  "createdAt": 1790784048291,
+  "fillTime": 1790784000000,
+  "notified": [
+   "open"
+  ]
  }
 ]
