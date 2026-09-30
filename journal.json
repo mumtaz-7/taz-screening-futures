@@ -28555,12 +28555,15 @@
   "rr": 2.49,
   "lev": 11,
   "signalTime": 1790632800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790632847061,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790634600000
+  "fillTime": 1790634600000,
+  "R": -1,
+  "resolvedTime": 1790774100000
  },
  {
   "id": "NMRUSDT::LONG::BoS::1790632800000",
@@ -29330,6 +29333,24 @@
   "lev": 24,
   "signalTime": 1790774100000,
   "status": "pending",
-  "createdAt": 1790774137553
+  "createdAt": 1790774137553,
+  "notified": []
+ },
+ {
+  "id": "ARUSDT::LONG::BoS::1790775000000",
+  "symbol": "ARUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 4.29,
+  "sl": 4.125,
+  "tp": 4.674,
+  "tpSrc": "OB",
+  "slPct": 3.85,
+  "gainPct": 8.95,
+  "rr": 2.33,
+  "lev": 15,
+  "signalTime": 1790775000000,
+  "status": "pending",
+  "createdAt": 1790775045560
  }
 ]
