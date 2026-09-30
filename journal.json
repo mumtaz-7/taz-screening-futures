@@ -29540,7 +29540,8 @@
   "lev": 25,
   "signalTime": 1790807400000,
   "status": "pending",
-  "createdAt": 1790807442061
+  "createdAt": 1790807442061,
+  "notified": []
  },
  {
   "id": "MORPHOUSDT::LONG::BoS::1790807400000",
@@ -29557,7 +29558,8 @@
   "lev": 25,
   "signalTime": 1790807400000,
   "status": "pending",
-  "createdAt": 1790807442061
+  "createdAt": 1790807442061,
+  "notified": []
  },
  {
   "id": "NILUSDT::LONG::ChoCh::1790807400000",
@@ -29574,6 +29576,24 @@
   "lev": 25,
   "signalTime": 1790807400000,
   "status": "pending",
-  "createdAt": 1790807442061
+  "createdAt": 1790807442061,
+  "notified": []
+ },
+ {
+  "id": "GTCUSDT::LONG::ChoCh::1790808300000",
+  "symbol": "GTCUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.09517,
+  "sl": 0.091645,
+  "tp": 0.105435,
+  "tpSrc": "EQ",
+  "slPct": 3.7,
+  "gainPct": 10.79,
+  "rr": 2.91,
+  "lev": 16,
+  "signalTime": 1790808300000,
+  "status": "pending",
+  "createdAt": 1790808333370
  }
 ]
