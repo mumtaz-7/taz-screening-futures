@@ -29022,9 +29022,12 @@
   "rr": 2.84,
   "lev": 9,
   "signalTime": 1790720100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790720135542,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790730000000
  },
  {
   "id": "COTIUSDT::LONG::ChoCh::1790723700000",
@@ -29067,5 +29070,22 @@
    "open"
   ],
   "fillTime": 1790726400000
+ },
+ {
+  "id": "ALGOUSDT::LONG::ChoCh::1790730900000",
+  "symbol": "ALGOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1263,
+  "sl": 0.12390000000000001,
+  "tp": 0.1405,
+  "tpSrc": "WH",
+  "slPct": 1.9,
+  "gainPct": 11.24,
+  "rr": 5.92,
+  "lev": 25,
+  "signalTime": 1790730900000,
+  "status": "pending",
+  "createdAt": 1790730932571
  }
 ]
