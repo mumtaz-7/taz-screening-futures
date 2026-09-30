@@ -28944,12 +28944,15 @@
   "rr": 2.99,
   "lev": 11,
   "signalTime": 1790696700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790696735459,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790712000000
+  "fillTime": 1790712000000,
+  "R": -1,
+  "resolvedTime": 1790784900000
  },
  {
   "id": "COTIUSDT::LONG::BoS::1790703900000",
