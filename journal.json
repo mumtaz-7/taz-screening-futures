@@ -29112,5 +29112,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "FETUSDT::SHORT::BoS::1790739000000",
+  "symbol": "FETUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.2204,
+  "sl": 0.2282,
+  "tp": 0.1962,
+  "tpSrc": "OB",
+  "slPct": 3.54,
+  "gainPct": 10.98,
+  "rr": 3.1,
+  "lev": 17,
+  "signalTime": 1790739000000,
+  "status": "pending",
+  "createdAt": 1790739039104
  }
 ]
