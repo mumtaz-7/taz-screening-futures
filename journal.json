@@ -28465,12 +28465,15 @@
   "rr": 4.92,
   "lev": 24,
   "signalTime": 1790624700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790624735588,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790625600000
+  "fillTime": 1790625600000,
+  "R": -1,
+  "resolvedTime": 1790772300000
  },
  {
   "id": "ONDOUSDT::SHORT::ChoCh::1790624700000",
