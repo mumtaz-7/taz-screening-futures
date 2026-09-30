@@ -28354,12 +28354,15 @@
   "rr": 1.72,
   "lev": 12,
   "signalTime": 1790612100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790612136609,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790613000000
+  "fillTime": 1790613000000,
+  "R": -1,
+  "resolvedTime": 1790791200000
  },
  {
   "id": "AEROUSDT::LONG::ChoCh::1790613000000",
@@ -28667,12 +28670,15 @@
   "rr": 2.14,
   "lev": 7,
   "signalTime": 1790663400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790663442502,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790668800000
+  "fillTime": 1790668800000,
+  "R": -1,
+  "resolvedTime": 1790791200000
  },
  {
   "id": "PUMPUSDT::LONG::ChoCh::1790667900000",
