@@ -29476,9 +29476,12 @@
   "rr": 8.87,
   "lev": 21,
   "signalTime": 1790788500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790788536493,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "NMRUSDT::LONG::ChoCh::1790799300000",
