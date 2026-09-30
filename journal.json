@@ -29356,12 +29356,15 @@
   "rr": 2.33,
   "lev": 15,
   "signalTime": 1790775000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790775045560,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790777700000
+  "fillTime": 1790777700000,
+  "R": -1,
+  "resolvedTime": 1790789400000
  },
  {
   "id": "INITUSDT::LONG::ChoCh::1790776800000",
