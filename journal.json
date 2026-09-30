@@ -29067,12 +29067,15 @@
   "rr": 5.24,
   "lev": 25,
   "signalTime": 1790725500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790725535465,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790726400000
+  "fillTime": 1790726400000,
+  "R": -1,
+  "resolvedTime": 1790756100000
  },
  {
   "id": "ALGOUSDT::LONG::ChoCh::1790730900000",
