@@ -28649,12 +28649,15 @@
   "rr": 2.07,
   "lev": 8,
   "signalTime": 1790657100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790657132676,
   "fillTime": 1790657100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790793000000
  },
  {
   "id": "2ZUSDT::LONG::BoS::1790663400000",
