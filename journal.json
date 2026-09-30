@@ -29503,5 +29503,22 @@
   ],
   "R": -1,
   "resolvedTime": 1790800200000
+ },
+ {
+  "id": "BLURUSDT::LONG::BoS::1790802900000",
+  "symbol": "BLURUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.02244,
+  "sl": 0.020714999999999997,
+  "tp": 0.0242,
+  "tpSrc": "WH",
+  "slPct": 7.69,
+  "gainPct": 7.84,
+  "rr": 1.02,
+  "lev": 8,
+  "signalTime": 1790802900000,
+  "status": "pending",
+  "createdAt": 1790802936606
  }
 ]
