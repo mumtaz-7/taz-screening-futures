@@ -29257,5 +29257,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CFGUSDT::SHORT::BoS::1790766900000",
+  "symbol": "CFGUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1506,
+  "sl": 0.15435000000000001,
+  "tp": 0.1367,
+  "tpSrc": "OB",
+  "slPct": 2.49,
+  "gainPct": 9.23,
+  "rr": 3.71,
+  "lev": 23,
+  "signalTime": 1790766900000,
+  "status": "pending",
+  "createdAt": 1790766937142
  }
 ]
