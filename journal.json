@@ -27581,12 +27581,15 @@
   "rr": 2.11,
   "lev": 6,
   "signalTime": 1790506800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790506847990,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790509500000
+  "fillTime": 1790509500000,
+  "R": -1,
+  "resolvedTime": 1790749800000
  },
  {
   "id": "MUBARAKUSDT::LONG::ChoCh::1790510400000",
@@ -29176,5 +29179,22 @@
   "status": "pending",
   "createdAt": 1790748936603,
   "notified": []
+ },
+ {
+  "id": "LDOUSDT::SHORT::ChoCh::1790750700000",
+  "symbol": "LDOUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.4684,
+  "sl": 0.48655,
+  "tp": 0.42,
+  "tpSrc": "OB",
+  "slPct": 3.87,
+  "gainPct": 10.33,
+  "rr": 2.67,
+  "lev": 15,
+  "signalTime": 1790750700000,
+  "status": "pending",
+  "createdAt": 1790750735629
  }
 ]
