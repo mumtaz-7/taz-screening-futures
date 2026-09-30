@@ -1,6 +1,8 @@
 {
   "ready": [
-    "INITUSDT::LONG::ChoCh"
+    "INITUSDT::LONG::ChoCh",
+    "ONDOUSDT::SHORT::BoS",
+    "PENGUUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-09-30T14:15:35.623Z"
+  "at": "2026-09-30T14:30:44.483Z"
 }
