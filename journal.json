@@ -28998,12 +28998,15 @@
   "rr": 2.62,
   "lev": 21,
   "signalTime": 1790717400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790717441678,
   "fillTime": 1790717400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790726400000
  },
  {
   "id": "PHAUSDT::LONG::BoS::1790720100000",
@@ -29037,9 +29040,12 @@
   "rr": 4.19,
   "lev": 18,
   "signalTime": 1790723700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790723733243,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790726400000
  },
  {
   "id": "ENAUSDT::SHORT::ChoCh::1790725500000",
@@ -29055,8 +29061,11 @@
   "rr": 5.24,
   "lev": 25,
   "signalTime": 1790725500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790725535465,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790726400000
  }
 ]
