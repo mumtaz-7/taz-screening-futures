@@ -28751,12 +28751,15 @@
   "rr": 2.31,
   "lev": 11,
   "signalTime": 1790676900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790676938988,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790692200000
+  "fillTime": 1790692200000,
+  "R": -1,
+  "resolvedTime": 1790763300000
  },
  {
   "id": "WUSDT::LONG::ChoCh::1790681400000",
