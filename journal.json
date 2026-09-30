@@ -23662,7 +23662,7 @@
   "rr": 6.22,
   "lev": 12,
   "signalTime": 1790023500000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1790023534819,
   "fillTime": 1790023500000,
   "notified": [
@@ -29494,11 +29494,14 @@
   "rr": 2.05,
   "lev": 14,
   "signalTime": 1790799300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790799333965,
   "fillTime": 1790799300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790800200000
  }
 ]
