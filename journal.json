@@ -29209,12 +29209,15 @@
   "rr": 2.67,
   "lev": 15,
   "signalTime": 1790750700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790750735629,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790752500000
+  "fillTime": 1790752500000,
+  "R": -1,
+  "resolvedTime": 1790767800000
  },
  {
   "id": "SEIUSDT::SHORT::ChoCh::1790757900000",
@@ -29278,5 +29281,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MARSCOINUSDT::SHORT::BoS::1790768700000",
+  "symbol": "MARSCOINUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1405,
+  "sl": 0.16149999999999998,
+  "tp": 0.1142,
+  "tpSrc": "OB",
+  "slPct": 14.95,
+  "gainPct": 18.72,
+  "rr": 1.25,
+  "lev": 4,
+  "signalTime": 1790768700000,
+  "status": "pending",
+  "createdAt": 1790768736381
  }
 ]
