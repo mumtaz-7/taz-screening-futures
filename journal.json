@@ -29209,5 +29209,22 @@
    "open"
   ],
   "fillTime": 1790752500000
+ },
+ {
+  "id": "SEIUSDT::SHORT::ChoCh::1790757900000",
+  "symbol": "SEIUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.07352,
+  "sl": 0.07583000000000001,
+  "tp": 0.06712,
+  "tpSrc": "OB",
+  "slPct": 3.14,
+  "gainPct": 8.71,
+  "rr": 2.77,
+  "lev": 19,
+  "signalTime": 1790757900000,
+  "status": "pending",
+  "createdAt": 1790757936270
  }
 ]
