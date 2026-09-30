@@ -29419,5 +29419,22 @@
   "status": "pending",
   "createdAt": 1790778644484,
   "notified": []
+ },
+ {
+  "id": "LTCUSDT::SHORT::ChoCh::1790784000000",
+  "symbol": "LTCUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 66.6,
+  "sl": 69.12,
+  "tp": 61.32,
+  "tpSrc": "OB",
+  "slPct": 3.78,
+  "gainPct": 7.93,
+  "rr": 2.1,
+  "lev": 16,
+  "signalTime": 1790784000000,
+  "status": "pending",
+  "createdAt": 1790784048291
  }
 ]
