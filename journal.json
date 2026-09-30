@@ -28974,12 +28974,15 @@
   "rr": 6.08,
   "lev": 25,
   "signalTime": 1790713800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790713841987,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790714700000
+  "fillTime": 1790714700000,
+  "R": 6.08,
+  "resolvedTime": 1790725500000
  },
  {
   "id": "CVXUSDT::LONG::ChoCh::1790717400000",
@@ -29053,6 +29056,7 @@
   "lev": 25,
   "signalTime": 1790725500000,
   "status": "pending",
-  "createdAt": 1790725535465
+  "createdAt": 1790725535465,
+  "notified": []
  }
 ]
