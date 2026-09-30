@@ -29332,9 +29332,12 @@
   "rr": 3.58,
   "lev": 24,
   "signalTime": 1790774100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790774137553,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790775000000
  },
  {
   "id": "ARUSDT::LONG::BoS::1790775000000",
@@ -29351,6 +29354,7 @@
   "lev": 15,
   "signalTime": 1790775000000,
   "status": "pending",
-  "createdAt": 1790775045560
+  "createdAt": 1790775045560,
+  "notified": []
  }
 ]
