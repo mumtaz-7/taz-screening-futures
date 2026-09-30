@@ -29085,12 +29085,15 @@
   "rr": 5.92,
   "lev": 25,
   "signalTime": 1790730900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790730932571,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790732700000
+  "fillTime": 1790732700000,
+  "R": -1,
+  "resolvedTime": 1790747100000
  },
  {
   "id": "ONDOUSDT::SHORT::BoS::1790735400000",
