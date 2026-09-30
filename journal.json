@@ -29314,5 +29314,22 @@
    "open"
   ],
   "fillTime": 1790771400000
+ },
+ {
+  "id": "CELOUSDT::LONG::ChoCh::1790774100000",
+  "symbol": "CELOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.09998,
+  "sl": 0.09755,
+  "tp": 0.10869,
+  "tpSrc": "EQ",
+  "slPct": 2.43,
+  "gainPct": 8.71,
+  "rr": 3.58,
+  "lev": 24,
+  "signalTime": 1790774100000,
+  "status": "pending",
+  "createdAt": 1790774137553
  }
 ]
