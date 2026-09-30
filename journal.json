@@ -29121,12 +29121,15 @@
   "rr": 4.25,
   "lev": 16,
   "signalTime": 1790735400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790735442247,
   "fillTime": 1790735400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790771400000
  },
  {
   "id": "FETUSDT::SHORT::BoS::1790739000000",
@@ -29142,12 +29145,15 @@
   "rr": 3.1,
   "lev": 17,
   "signalTime": 1790739000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790739039104,
   "fillTime": 1790739000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790771400000
  },
  {
   "id": "MOVRUSDT::LONG::BoS::1790746200000",
@@ -29275,12 +29281,15 @@
   "rr": 3.71,
   "lev": 23,
   "signalTime": 1790766900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790766937142,
   "fillTime": 1790766900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790771400000
  },
  {
   "id": "MARSCOINUSDT::SHORT::BoS::1790768700000",
@@ -29296,8 +29305,11 @@
   "rr": 1.25,
   "lev": 4,
   "signalTime": 1790768700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790768736381,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790771400000
  }
 ]
