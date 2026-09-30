@@ -29479,5 +29479,22 @@
   "status": "pending",
   "createdAt": 1790788536493,
   "notified": []
+ },
+ {
+  "id": "NMRUSDT::LONG::ChoCh::1790799300000",
+  "symbol": "NMRUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 11.43,
+  "sl": 10.934999999999999,
+  "tp": 12.445,
+  "tpSrc": "EQ",
+  "slPct": 4.33,
+  "gainPct": 8.88,
+  "rr": 2.05,
+  "lev": 14,
+  "signalTime": 1790799300000,
+  "status": "pending",
+  "createdAt": 1790799333965
  }
 ]
