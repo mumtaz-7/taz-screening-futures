@@ -29446,5 +29446,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "RAREUSDT::SHORT::ChoCh::1790788500000",
+  "symbol": "RAREUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.01757,
+  "sl": 0.018064999999999998,
+  "tp": 0.01318,
+  "tpSrc": "OB",
+  "slPct": 2.82,
+  "gainPct": 24.99,
+  "rr": 8.87,
+  "lev": 21,
+  "signalTime": 1790788500000,
+  "status": "pending",
+  "createdAt": 1790788536493
  }
 ]
