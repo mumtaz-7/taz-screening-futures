@@ -29344,12 +29344,15 @@
   "rr": 3.58,
   "lev": 24,
   "signalTime": 1790774100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790774137553,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790775000000
+  "fillTime": 1790775000000,
+  "R": -1,
+  "resolvedTime": 1790795700000
  },
  {
   "id": "ARUSDT::LONG::BoS::1790775000000",
