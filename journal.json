@@ -29830,5 +29830,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "0GUSDT::LONG::ChoCh::1790843400000",
+  "symbol": "0GUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.3095,
+  "sl": 0.2963,
+  "tp": 0.3646,
+  "tpSrc": "WH",
+  "slPct": 4.26,
+  "gainPct": 17.8,
+  "rr": 4.17,
+  "lev": 14,
+  "signalTime": 1790843400000,
+  "status": "pending",
+  "createdAt": 1790843441716
  }
 ]
