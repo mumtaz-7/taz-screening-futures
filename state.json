@@ -1,6 +1,7 @@
 {
   "ready": [
-    "GLMRUSDT::LONG::ChoCh"
+    "GLMRUSDT::LONG::ChoCh",
+    "NILUSDT::LONG::BoS"
   ],
-  "at": "2026-10-01T12:45:38.018Z"
+  "at": "2026-10-01T13:00:51.902Z"
 }
