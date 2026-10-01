@@ -26123,12 +26123,15 @@
   "rr": 2.84,
   "lev": 5,
   "signalTime": 1790318700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790318735610,
   "fillTime": 1790318700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.84,
+  "resolvedTime": 1790839800000
  },
  {
   "id": "BROCCOLI714USDT::LONG::ChoCh::1790320500000",
@@ -29665,9 +29668,12 @@
   "rr": 5.29,
   "lev": 25,
   "signalTime": 1790818200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790818240871,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "HBARUSDT::LONG::ChoCh::1790824500000",
@@ -29794,5 +29800,22 @@
    "open"
   ],
   "fillTime": 1790838900000
+ },
+ {
+  "id": "ARKUSDT::SHORT::ChoCh::1790840700000",
+  "symbol": "ARKUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.2569,
+  "sl": 0.2674,
+  "tp": 0.2072,
+  "tpSrc": "WL",
+  "slPct": 4.09,
+  "gainPct": 19.35,
+  "rr": 4.73,
+  "lev": 15,
+  "signalTime": 1790840700000,
+  "status": "pending",
+  "createdAt": 1790840734952
  }
 ]
