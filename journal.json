@@ -28180,12 +28180,15 @@
   "rr": 1.82,
   "lev": 14,
   "signalTime": 1790597700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790597733791,
   "fillTime": 1790597700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.82,
+  "resolvedTime": 1790840700000
  },
  {
   "id": "GRTUSDT::LONG::ChoCh::1790598600000",
@@ -29815,7 +29818,11 @@
   "rr": 4.73,
   "lev": 15,
   "signalTime": 1790840700000,
-  "status": "pending",
-  "createdAt": 1790840734952
+  "status": "open",
+  "createdAt": 1790840734952,
+  "fillTime": 1790840700000,
+  "notified": [
+   "open"
+  ]
  }
 ]
