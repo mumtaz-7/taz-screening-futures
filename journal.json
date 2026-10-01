@@ -30051,12 +30051,15 @@
   "rr": 2.79,
   "lev": 16,
   "signalTime": 1790868600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790868647171,
   "fillTime": 1790868600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790883000000
  },
  {
   "id": "MEGAUSDT::LONG::BoS::1790871300000",
