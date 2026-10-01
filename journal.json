@@ -29668,8 +29668,12 @@
   "rr": 5.17,
   "lev": 25,
   "signalTime": 1790824500000,
-  "status": "pending",
-  "createdAt": 1790824536970
+  "status": "open",
+  "createdAt": 1790824536970,
+  "fillTime": 1790824500000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "NILUSDT::LONG::BoS::1790824500000",
@@ -29685,7 +29689,11 @@
   "rr": 4.08,
   "lev": 11,
   "signalTime": 1790824500000,
-  "status": "pending",
-  "createdAt": 1790824536970
+  "status": "open",
+  "createdAt": 1790824536970,
+  "fillTime": 1790824500000,
+  "notified": [
+   "open"
+  ]
  }
 ]
