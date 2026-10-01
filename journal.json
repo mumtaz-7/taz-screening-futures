@@ -29755,12 +29755,15 @@
   "rr": 4.37,
   "lev": 25,
   "signalTime": 1790834400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790834450335,
   "fillTime": 1790834400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790873100000
  },
  {
   "id": "NMRUSDT::LONG::ChoCh::1790837100000",
@@ -30063,9 +30066,13 @@
   "rr": 2.68,
   "lev": 13,
   "signalTime": 1790871300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790871338044,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790873100000
  },
  {
   "id": "ZROUSDT::LONG::BoS::1790871300000",
