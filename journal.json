@@ -29846,6 +29846,41 @@
   "lev": 14,
   "signalTime": 1790843400000,
   "status": "pending",
-  "createdAt": 1790843441716
+  "createdAt": 1790843441716,
+  "notified": []
+ },
+ {
+  "id": "ETHFIUSDT::SHORT::ChoCh::1790844300000",
+  "symbol": "ETHFIUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.77,
+  "sl": 0.7922,
+  "tp": 0.6756,
+  "tpSrc": "OB",
+  "slPct": 2.88,
+  "gainPct": 12.26,
+  "rr": 4.25,
+  "lev": 20,
+  "signalTime": 1790844300000,
+  "status": "pending",
+  "createdAt": 1790844333648
+ },
+ {
+  "id": "JASMYUSDT::LONG::ChoCh::1790844300000",
+  "symbol": "JASMYUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00546,
+  "sl": 0.004830000000000001,
+  "tp": 0.0061,
+  "tpSrc": "WH",
+  "slPct": 11.54,
+  "gainPct": 11.72,
+  "rr": 1.02,
+  "lev": 5,
+  "signalTime": 1790844300000,
+  "status": "pending",
+  "createdAt": 1790844333648
  }
 ]
