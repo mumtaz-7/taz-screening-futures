@@ -29864,7 +29864,8 @@
   "lev": 20,
   "signalTime": 1790844300000,
   "status": "pending",
-  "createdAt": 1790844333648
+  "createdAt": 1790844333648,
+  "notified": []
  },
  {
   "id": "JASMYUSDT::LONG::ChoCh::1790844300000",
@@ -29881,6 +29882,7 @@
   "lev": 5,
   "signalTime": 1790844300000,
   "status": "pending",
-  "createdAt": 1790844333648
+  "createdAt": 1790844333648,
+  "notified": []
  }
 ]
