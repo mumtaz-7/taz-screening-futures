@@ -28300,12 +28300,15 @@
   "rr": 2.04,
   "lev": 6,
   "signalTime": 1790605800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790605844993,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790608500000
+  "fillTime": 1790608500000,
+  "R": -1,
+  "resolvedTime": 1790841600000
  },
  {
   "id": "XPLUSDT::SHORT::BoS::1790605800000",
@@ -29713,12 +29716,15 @@
   "rr": 4.08,
   "lev": 11,
   "signalTime": 1790824500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790824536970,
   "fillTime": 1790824500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790841600000
  },
  {
   "id": "BCHUSDT::LONG::BoS::1790834400000",
