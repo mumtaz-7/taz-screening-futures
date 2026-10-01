@@ -29878,9 +29878,12 @@
   "rr": 4.25,
   "lev": 20,
   "signalTime": 1790844300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790844333648,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "JASMYUSDT::LONG::ChoCh::1790844300000",
@@ -29993,5 +29996,22 @@
   ],
   "R": -1,
   "resolvedTime": 1790862300000
+ },
+ {
+  "id": "ALICEUSDT::LONG::BoS::1790866800000",
+  "symbol": "ALICEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1719,
+  "sl": 0.16725,
+  "tp": 0.2034,
+  "tpSrc": "WH",
+  "slPct": 2.71,
+  "gainPct": 18.32,
+  "rr": 6.77,
+  "lev": 21,
+  "signalTime": 1790866800000,
+  "status": "pending",
+  "createdAt": 1790866850371
  }
 ]
