@@ -25314,12 +25314,15 @@
   "rr": 2,
   "lev": 11,
   "signalTime": 1790219700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790219733449,
   "fillTime": 1790219700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790860500000
  },
  {
   "id": "BONKUSDT::LONG::BoS::1790226900000",
