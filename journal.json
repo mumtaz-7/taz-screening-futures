@@ -29719,5 +29719,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "NMRUSDT::LONG::ChoCh::1790837100000",
+  "symbol": "NMRUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 11.43,
+  "sl": 10.875,
+  "tp": 12.445,
+  "tpSrc": "EQ",
+  "slPct": 4.86,
+  "gainPct": 8.88,
+  "rr": 1.83,
+  "lev": 12,
+  "signalTime": 1790837100000,
+  "status": "pending",
+  "createdAt": 1790837135959
+ },
+ {
+  "id": "PENGUUSDT::SHORT::BoS::1790837100000",
+  "symbol": "PENGUUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.00982,
+  "sl": 0.010015,
+  "tp": 0.008992,
+  "tpSrc": "WL",
+  "slPct": 1.99,
+  "gainPct": 8.43,
+  "rr": 4.25,
+  "lev": 25,
+  "signalTime": 1790837100000,
+  "status": "pending",
+  "createdAt": 1790837135959
  }
 ]
