@@ -29632,5 +29632,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "AAVEUSDT::LONG::BoS::1790818200000",
+  "symbol": "AAVEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 160.24,
+  "sl": 157.20999999999998,
+  "tp": 176.28,
+  "tpSrc": "WH",
+  "slPct": 1.89,
+  "gainPct": 10.01,
+  "rr": 5.29,
+  "lev": 25,
+  "signalTime": 1790818200000,
+  "status": "pending",
+  "createdAt": 1790818240871
  }
 ]
