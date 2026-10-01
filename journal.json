@@ -29704,12 +29704,15 @@
   "rr": 5.17,
   "lev": 25,
   "signalTime": 1790824500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790824536970,
   "fillTime": 1790824500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790866800000
  },
  {
   "id": "NILUSDT::LONG::BoS::1790824500000",
@@ -29770,12 +29773,15 @@
   "rr": 1.83,
   "lev": 12,
   "signalTime": 1790837100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790837135959,
   "fillTime": 1790837100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790866800000
  },
  {
   "id": "PENGUUSDT::SHORT::BoS::1790837100000",
@@ -30011,7 +30017,12 @@
   "rr": 6.77,
   "lev": 21,
   "signalTime": 1790866800000,
-  "status": "pending",
-  "createdAt": 1790866850371
+  "status": "void",
+  "createdAt": 1790866850371,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790866800000,
+  "notified": [
+   "void"
+  ]
  }
 ]
