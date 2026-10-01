@@ -30048,5 +30048,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MEGAUSDT::LONG::BoS::1790871300000",
+  "symbol": "MEGAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.04781,
+  "sl": 0.045665,
+  "tp": 0.05356,
+  "tpSrc": "WH",
+  "slPct": 4.49,
+  "gainPct": 12.03,
+  "rr": 2.68,
+  "lev": 13,
+  "signalTime": 1790871300000,
+  "status": "pending",
+  "createdAt": 1790871338044
+ },
+ {
+  "id": "ZROUSDT::LONG::BoS::1790871300000",
+  "symbol": "ZROUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1.708,
+  "sl": 1.6059999999999999,
+  "tp": 1.885,
+  "tpSrc": "WH",
+  "slPct": 5.97,
+  "gainPct": 10.36,
+  "rr": 1.74,
+  "lev": 10,
+  "signalTime": 1790871300000,
+  "status": "pending",
+  "createdAt": 1790871338044
  }
 ]
