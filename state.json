@@ -1,6 +1,7 @@
 {
   "ready": [
-    "NILUSDT::LONG::BoS"
+    "NILUSDT::LONG::BoS",
+    "QNTUSDT::SHORT::BoS"
   ],
-  "at": "2026-10-01T21:30:39.576Z"
+  "at": "2026-10-01T21:45:34.482Z"
 }

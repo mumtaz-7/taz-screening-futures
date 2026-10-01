@@ -29824,12 +29824,15 @@
   "rr": 3.69,
   "lev": 25,
   "signalTime": 1790838000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790838050904,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790838900000
+  "fillTime": 1790838900000,
+  "R": -1,
+  "resolvedTime": 1790890200000
  },
  {
   "id": "ARKUSDT::SHORT::ChoCh::1790840700000",
@@ -30163,5 +30166,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "QNTUSDT::SHORT::BoS::1790891100000",
+  "symbol": "QNTUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 250.61,
+  "sl": 263.255,
+  "tp": 185.5,
+  "tpSrc": "OB",
+  "slPct": 5.05,
+  "gainPct": 25.98,
+  "rr": 5.15,
+  "lev": 12,
+  "signalTime": 1790891100000,
+  "status": "pending",
+  "createdAt": 1790891134483
  }
 ]
