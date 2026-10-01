@@ -29542,9 +29542,12 @@
   "rr": 6.22,
   "lev": 25,
   "signalTime": 1790807400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790807442061,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790811900000
  },
  {
   "id": "MORPHOUSDT::LONG::BoS::1790807400000",

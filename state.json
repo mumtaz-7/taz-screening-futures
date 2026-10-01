@@ -1,9 +1,6 @@
 {
   "ready": [
-    "AAVEUSDT::LONG::ChoCh",
-    "GTCUSDT::LONG::ChoCh",
-    "MORPHOUSDT::LONG::BoS",
-    "NILUSDT::LONG::ChoCh"
+    "GTCUSDT::LONG::ChoCh"
   ],
-  "at": "2026-09-30T23:45:34.548Z"
+  "at": "2026-10-01T00:00:49.605Z"
 }
