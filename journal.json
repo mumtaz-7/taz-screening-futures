@@ -29845,12 +29845,15 @@
   "rr": 4.73,
   "lev": 15,
   "signalTime": 1790840700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790840734952,
   "fillTime": 1790840700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790875800000
  },
  {
   "id": "0GUSDT::LONG::ChoCh::1790843400000",
@@ -29957,12 +29960,15 @@
   "rr": 3.19,
   "lev": 8,
   "signalTime": 1790849700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790849738751,
   "fillTime": 1790849700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790875800000
  },
  {
   "id": "GLMRUSDT::LONG::ChoCh::1790858700000",
@@ -30107,6 +30113,7 @@
   "lev": 11,
   "signalTime": 1790875800000,
   "status": "pending",
-  "createdAt": 1790875843237
+  "createdAt": 1790875843237,
+  "notified": []
  }
 ]
