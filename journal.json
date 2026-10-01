@@ -29945,5 +29945,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GLMRUSDT::LONG::ChoCh::1790858700000",
+  "symbol": "GLMRUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00957,
+  "sl": 0.008928000000000002,
+  "tp": 0.010951,
+  "tpSrc": "WH",
+  "slPct": 6.71,
+  "gainPct": 14.43,
+  "rr": 2.15,
+  "lev": 9,
+  "signalTime": 1790858700000,
+  "status": "pending",
+  "createdAt": 1790858738019
  }
 ]
