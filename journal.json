@@ -30100,9 +30100,12 @@
   "rr": 1.74,
   "lev": 10,
   "signalTime": 1790871300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790871338044,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "0GUSDT::LONG::BoS::1790875800000",
@@ -30181,8 +30184,11 @@
   "rr": 5.15,
   "lev": 12,
   "signalTime": 1790891100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790891134483,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790892900000
  }
 ]
