@@ -1,46 +1,46 @@
 {
-  "updatedAt": "2026-10-01T07:00:52.558Z",
+  "updatedAt": "2026-10-01T07:15:38.289Z",
   "all": {
-    "n": 914,
-    "wins": 213,
-    "losses": 701,
+    "n": 917,
+    "wins": 214,
+    "losses": 703,
     "win": 23.3,
     "er": -0.14,
     "avgWin": 2.68
   },
   "LONG": {
-    "n": 639,
-    "wins": 145,
+    "n": 640,
+    "wins": 146,
     "losses": 494,
-    "win": 22.7,
-    "er": -0.17,
+    "win": 22.8,
+    "er": -0.16,
     "avgWin": 2.67
   },
   "SHORT": {
-    "n": 275,
+    "n": 277,
     "wins": 68,
-    "losses": 207,
-    "win": 24.7,
-    "er": -0.08,
+    "losses": 209,
+    "win": 24.5,
+    "er": -0.09,
     "avgWin": 2.72
   },
   "ChoCh": {
-    "n": 501,
+    "n": 502,
     "wins": 117,
-    "losses": 384,
-    "win": 23.4,
+    "losses": 385,
+    "win": 23.3,
     "er": -0.17,
     "avgWin": 2.57
   },
   "BoS": {
-    "n": 413,
-    "wins": 96,
-    "losses": 317,
-    "win": 23.2,
+    "n": 415,
+    "wins": 97,
+    "losses": 318,
+    "win": 23.4,
     "er": -0.11,
-    "avgWin": 2.81
+    "avgWin": 2.82
   },
-  "open": 40,
+  "open": 37,
   "pending": 2,
   "void": 293,
   "expired": 31,

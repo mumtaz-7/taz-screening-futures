@@ -1,8 +1,6 @@
 {
   "ready": [
-    "CAKEUSDT::LONG::ChoCh",
-    "NMRUSDT::LONG::ChoCh",
-    "PENGUUSDT::SHORT::BoS"
+    "NOMUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-01T07:00:50.903Z"
+  "at": "2026-10-01T07:15:36.342Z"
 }
