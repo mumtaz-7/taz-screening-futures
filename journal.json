@@ -29845,9 +29845,12 @@
   "rr": 4.17,
   "lev": 14,
   "signalTime": 1790843400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790843441716,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790845200000
  },
  {
   "id": "ETHFIUSDT::SHORT::ChoCh::1790844300000",
@@ -29884,5 +29887,22 @@
   "status": "pending",
   "createdAt": 1790844333648,
   "notified": []
+ },
+ {
+  "id": "NILUSDT::LONG::ChoCh::1790846100000",
+  "symbol": "NILUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.08756,
+  "sl": 0.084935,
+  "tp": 0.09948,
+  "tpSrc": "WH",
+  "slPct": 3,
+  "gainPct": 13.61,
+  "rr": 4.54,
+  "lev": 20,
+  "signalTime": 1790846100000,
+  "status": "pending",
+  "createdAt": 1790846136745
  }
 ]
