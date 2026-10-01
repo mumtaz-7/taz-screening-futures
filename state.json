@@ -1,4 +1,7 @@
 {
-  "ready": [],
-  "at": "2026-10-01T03:00:48.248Z"
+  "ready": [
+    "HBARUSDT::LONG::ChoCh",
+    "NILUSDT::LONG::BoS"
+  ],
+  "at": "2026-10-01T03:15:36.932Z"
 }

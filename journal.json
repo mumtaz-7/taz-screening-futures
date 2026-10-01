@@ -29653,5 +29653,39 @@
   "status": "pending",
   "createdAt": 1790818240871,
   "notified": []
+ },
+ {
+  "id": "HBARUSDT::LONG::ChoCh::1790824500000",
+  "symbol": "HBARUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.10495,
+  "sl": 0.10280500000000001,
+  "tp": 0.11604,
+  "tpSrc": "EQ",
+  "slPct": 2.04,
+  "gainPct": 10.57,
+  "rr": 5.17,
+  "lev": 25,
+  "signalTime": 1790824500000,
+  "status": "pending",
+  "createdAt": 1790824536970
+ },
+ {
+  "id": "NILUSDT::LONG::BoS::1790824500000",
+  "symbol": "NILUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.08816,
+  "sl": 0.08345,
+  "tp": 0.10738,
+  "tpSrc": "OB",
+  "slPct": 5.34,
+  "gainPct": 21.8,
+  "rr": 4.08,
+  "lev": 11,
+  "signalTime": 1790824500000,
+  "status": "pending",
+  "createdAt": 1790824536970
  }
 ]
