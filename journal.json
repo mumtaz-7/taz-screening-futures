@@ -29584,12 +29584,15 @@
   "rr": 8.48,
   "lev": 25,
   "signalTime": 1790807400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790807442061,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790808300000
+  "fillTime": 1790808300000,
+  "R": -1,
+  "resolvedTime": 1790820000000
  },
  {
   "id": "GTCUSDT::LONG::ChoCh::1790808300000",
