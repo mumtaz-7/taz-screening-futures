@@ -29884,9 +29884,13 @@
   "rr": 1.02,
   "lev": 5,
   "signalTime": 1790844300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790844333648,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790846100000
  },
  {
   "id": "NILUSDT::LONG::ChoCh::1790846100000",
@@ -29902,7 +29906,11 @@
   "rr": 4.54,
   "lev": 20,
   "signalTime": 1790846100000,
-  "status": "pending",
-  "createdAt": 1790846136745
+  "status": "open",
+  "createdAt": 1790846136745,
+  "fillTime": 1790846100000,
+  "notified": [
+   "open"
+  ]
  }
 ]
