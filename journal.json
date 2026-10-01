@@ -30118,5 +30118,22 @@
    "open"
   ],
   "fillTime": 1790877600000
+ },
+ {
+  "id": "SUIUSDT::LONG::ChoCh::1790881200000",
+  "symbol": "SUIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1.1787,
+  "sl": 1.1013,
+  "tp": 1.267,
+  "tpSrc": "OB",
+  "slPct": 6.57,
+  "gainPct": 7.49,
+  "rr": 1.14,
+  "lev": 9,
+  "signalTime": 1790881200000,
+  "status": "pending",
+  "createdAt": 1790881247752
  }
 ]
