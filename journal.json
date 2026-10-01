@@ -29698,5 +29698,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BCHUSDT::LONG::BoS::1790834400000",
+  "symbol": "BCHUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 308.6,
+  "sl": 303.5,
+  "tp": 330.9,
+  "tpSrc": "OB",
+  "slPct": 1.65,
+  "gainPct": 7.23,
+  "rr": 4.37,
+  "lev": 25,
+  "signalTime": 1790834400000,
+  "status": "pending",
+  "createdAt": 1790834450335
  }
 ]
