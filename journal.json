@@ -29530,12 +29530,15 @@
   "rr": 1.02,
   "lev": 8,
   "signalTime": 1790802900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790802936606,
   "fillTime": 1790802900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790838900000
  },
  {
   "id": "AAVEUSDT::LONG::ChoCh::1790807400000",
@@ -29785,8 +29788,11 @@
   "rr": 3.69,
   "lev": 25,
   "signalTime": 1790838000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790838050904,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790838900000
  }
 ]
