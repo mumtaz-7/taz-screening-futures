@@ -1,8 +1,8 @@
 {
   "ready": [
-    "0GUSDT::LONG::ChoCh",
     "MARSCOINUSDT::SHORT::BoS",
-    "NILUSDT::LONG::ChoCh"
+    "NILUSDT::LONG::ChoCh",
+    "ONDOUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-10-01T09:45:33.669Z"
+  "at": "2026-10-01T10:00:50.115Z"
 }
