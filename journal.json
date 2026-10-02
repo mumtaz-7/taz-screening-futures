@@ -30268,12 +30268,15 @@
   "rr": 1.78,
   "lev": 7,
   "signalTime": 1790906400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790906448493,
   "fillTime": 1790906400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.78,
+  "resolvedTime": 1790940600000
  },
  {
   "id": "ZENUSDT::LONG::BoS::1790907300000",
@@ -30352,12 +30355,15 @@
   "rr": 1.87,
   "lev": 8,
   "signalTime": 1790918100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790918133560,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790919000000
+  "fillTime": 1790919000000,
+  "R": 1.87,
+  "resolvedTime": 1790940600000
  },
  {
   "id": "JASMYUSDT::SHORT::BoS::1790923500000",
