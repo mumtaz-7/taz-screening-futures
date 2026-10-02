@@ -1,7 +1,8 @@
 {
   "ready": [
     "GTCUSDT::LONG::ChoCh",
-    "RESOLVUSDT::LONG::ChoCh"
+    "RESOLVUSDT::LONG::ChoCh",
+    "SCRUSDT::LONG::BoS"
   ],
-  "at": "2026-10-02T17:30:41.934Z"
+  "at": "2026-10-02T17:45:35.268Z"
 }

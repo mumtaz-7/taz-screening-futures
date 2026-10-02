@@ -30337,12 +30337,15 @@
   "rr": 4.42,
   "lev": 18,
   "signalTime": 1790915400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790915442077,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790919000000
+  "fillTime": 1790919000000,
+  "R": -1,
+  "resolvedTime": 1790962200000
  },
  {
   "id": "NIGHTUSDT::LONG::BoS::1790918100000",
@@ -30531,12 +30534,15 @@
   "rr": 2.21,
   "lev": 13,
   "signalTime": 1790948700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790948738249,
   "fillTime": 1790948700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790962200000
  },
  {
   "id": "2ZUSDT::SHORT::ChoCh::1790955000000",
@@ -30625,5 +30631,22 @@
    "open"
   ],
   "fillTime": 1790961300000
+ },
+ {
+  "id": "SCRUSDT::LONG::BoS::1790963100000",
+  "symbol": "SCRUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.02895,
+  "sl": 0.026265,
+  "tp": 0.03779,
+  "tpSrc": "WH",
+  "slPct": 9.27,
+  "gainPct": 30.54,
+  "rr": 3.29,
+  "lev": 6,
+  "signalTime": 1790963100000,
+  "status": "pending",
+  "createdAt": 1790963135269
  }
 ]
