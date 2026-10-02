@@ -30749,12 +30749,15 @@
   "rr": 3.29,
   "lev": 21,
   "signalTime": 1790976600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790976645499,
   "fillTime": 1790976600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790983800000
  },
  {
   "id": "SANDUSDT::LONG::BoS::1790983800000",
@@ -30771,6 +30774,24 @@
   "lev": 9,
   "signalTime": 1790983800000,
   "status": "pending",
-  "createdAt": 1790983842495
+  "createdAt": 1790983842495,
+  "notified": []
+ },
+ {
+  "id": "SPKUSDT::LONG::ChoCh::1790984700000",
+  "symbol": "SPKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.025839,
+  "sl": 0.0248295,
+  "tp": 0.028469,
+  "tpSrc": "WH",
+  "slPct": 3.91,
+  "gainPct": 10.18,
+  "rr": 2.61,
+  "lev": 15,
+  "signalTime": 1790984700000,
+  "status": "pending",
+  "createdAt": 1790984735738
  }
 ]
