@@ -30468,5 +30468,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "SYNUSDT::LONG::ChoCh::1790947800000",
+  "symbol": "SYNUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.17905,
+  "sl": 0.169945,
+  "tp": 0.20646,
+  "tpSrc": "WH",
+  "slPct": 5.09,
+  "gainPct": 15.31,
+  "rr": 3.01,
+  "lev": 12,
+  "signalTime": 1790947800000,
+  "status": "pending",
+  "createdAt": 1790947844140
  }
 ]
