@@ -30304,5 +30304,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PLUMEUSDT::LONG::BoS::1790915400000",
+  "symbol": "PLUMEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01866,
+  "sl": 0.018045,
+  "tp": 0.02138,
+  "tpSrc": "WH",
+  "slPct": 3.3,
+  "gainPct": 14.58,
+  "rr": 4.42,
+  "lev": 18,
+  "signalTime": 1790915400000,
+  "status": "pending",
+  "createdAt": 1790915442077
  }
 ]
