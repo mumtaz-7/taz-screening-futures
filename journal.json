@@ -30379,5 +30379,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "EIGENUSDT::LONG::BoS::1790930700000",
+  "symbol": "EIGENUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.2558,
+  "sl": 0.24874999999999997,
+  "tp": 0.28,
+  "tpSrc": "OB",
+  "slPct": 2.76,
+  "gainPct": 9.46,
+  "rr": 3.43,
+  "lev": 21,
+  "signalTime": 1790930700000,
+  "status": "pending",
+  "createdAt": 1790930770990
  }
 ]
