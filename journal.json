@@ -30400,9 +30400,12 @@
   "rr": 3.43,
   "lev": 21,
   "signalTime": 1790930700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790930770990,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "MAGICUSDT::LONG::BoS::1790932500000",
