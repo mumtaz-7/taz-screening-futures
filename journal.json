@@ -30446,5 +30446,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ENJUSDT::LONG::BoS::1790943300000",
+  "symbol": "ENJUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0338,
+  "sl": 0.030155000000000005,
+  "tp": 0.04027,
+  "tpSrc": "WH",
+  "slPct": 10.78,
+  "gainPct": 19.14,
+  "rr": 1.78,
+  "lev": 5,
+  "signalTime": 1790943300000,
+  "status": "pending",
+  "createdAt": 1790943335721
  }
 ]
