@@ -1,7 +1,7 @@
 {
   "ready": [
-    "NOMUSDT::LONG::ChoCh",
-    "ZAMAUSDT::LONG::ChoCh"
+    "0GUSDT::LONG::BoS",
+    "NOMUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-02T01:30:40.526Z"
+  "at": "2026-10-02T01:45:34.828Z"
 }
