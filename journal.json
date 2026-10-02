@@ -30574,12 +30574,15 @@
   "rr": 2,
   "lev": 11,
   "signalTime": 1790955000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790955044507,
   "fillTime": 1790955000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790959500000
  },
  {
   "id": "RESOLVUSDT::LONG::ChoCh::1790959500000",
@@ -30595,7 +30598,28 @@
   "rr": 2.58,
   "lev": 13,
   "signalTime": 1790959500000,
+  "status": "open",
+  "createdAt": 1790959535875,
+  "fillTime": 1790959500000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "GTCUSDT::LONG::ChoCh::1790960400000",
+  "symbol": "GTCUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.14085,
+  "sl": 0.11109000000000001,
+  "tp": 0.184,
+  "tpSrc": "WH",
+  "slPct": 21.13,
+  "gainPct": 30.64,
+  "rr": 1.45,
+  "lev": 3,
+  "signalTime": 1790960400000,
   "status": "pending",
-  "createdAt": 1790959535875
+  "createdAt": 1790960449219
  }
 ]
