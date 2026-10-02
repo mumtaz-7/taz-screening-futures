@@ -26315,12 +26315,15 @@
   "rr": 1.84,
   "lev": 14,
   "signalTime": 1790345700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790345736643,
   "fillTime": 1790345700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.84,
+  "resolvedTime": 1790965800000
  },
  {
   "id": "ZAMAUSDT::SHORT::ChoCh::1790345700000",
@@ -29350,12 +29353,15 @@
   "rr": 1.25,
   "lev": 4,
   "signalTime": 1790768700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790768736381,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790771400000
+  "fillTime": 1790771400000,
+  "R": 1.25,
+  "resolvedTime": 1790965800000
  },
  {
   "id": "CELOUSDT::LONG::ChoCh::1790774100000",
@@ -29461,12 +29467,15 @@
   "rr": 2,
   "lev": 12,
   "signalTime": 1790778600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790778644484,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790784000000
+  "fillTime": 1790784000000,
+  "R": 2,
+  "resolvedTime": 1790965800000
  },
  {
   "id": "LTCUSDT::SHORT::ChoCh::1790784000000",
@@ -30495,12 +30504,15 @@
   "rr": 3.01,
   "lev": 12,
   "signalTime": 1790947800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790947844140,
   "fillTime": 1790947800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790965800000
  },
  {
   "id": "MEGAUSDT::LONG::ChoCh::1790948700000",
@@ -30516,12 +30528,15 @@
   "rr": 2.92,
   "lev": 12,
   "signalTime": 1790948700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790948738249,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790950500000
+  "fillTime": 1790950500000,
+  "R": -1,
+  "resolvedTime": 1790965800000
  },
  {
   "id": "XPLUSDT::LONG::BoS::1790948700000",
@@ -30607,12 +30622,15 @@
   "rr": 2.58,
   "lev": 13,
   "signalTime": 1790959500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790959535875,
   "fillTime": 1790959500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790965800000
  },
  {
   "id": "GTCUSDT::LONG::ChoCh::1790960400000",
@@ -30649,8 +30667,45 @@
   "rr": 3.29,
   "lev": 6,
   "signalTime": 1790963100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790963135269,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790965800000
+ },
+ {
+  "id": "PUMPUSDT::SHORT::BoS::1790966700000",
+  "symbol": "PUMPUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.005772,
+  "sl": 0.0063465,
+  "tp": 0.005028,
+  "tpSrc": "OB",
+  "slPct": 9.95,
+  "gainPct": 12.89,
+  "rr": 1.3,
+  "lev": 6,
+  "signalTime": 1790966700000,
+  "status": "pending",
+  "createdAt": 1790966734059
+ },
+ {
+  "id": "牛来USDT::SHORT::ChoCh::1790966700000",
+  "symbol": "牛来USDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.09655,
+  "sl": 0.10177,
+  "tp": 0.0856,
+  "tpSrc": "WL",
+  "slPct": 5.41,
+  "gainPct": 11.34,
+  "rr": 2.1,
+  "lev": 11,
+  "signalTime": 1790966700000,
+  "status": "pending",
+  "createdAt": 1790966734060
  }
 ]

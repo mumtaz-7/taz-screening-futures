@@ -1,6 +1,8 @@
 {
   "ready": [
-    "SCRUSDT::LONG::BoS"
+    "PUMPUSDT::SHORT::BoS",
+    "SCRUSDT::LONG::BoS",
+    "牛来USDT::SHORT::ChoCh"
   ],
-  "at": "2026-10-02T18:30:41.000Z"
+  "at": "2026-10-02T18:45:34.058Z"
 }
