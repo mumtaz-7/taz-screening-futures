@@ -30232,12 +30232,15 @@
   "rr": 4.2,
   "lev": 15,
   "signalTime": 1790902800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790902845896,
   "fillTime": 1790902800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790911800000
  },
  {
   "id": "NIGHTUSDT::LONG::ChoCh::1790906400000",
@@ -30280,5 +30283,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MARSCOINUSDT::SHORT::ChoCh::1790912700000",
+  "symbol": "MARSCOINUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.1247,
+  "sl": 0.13385,
+  "tp": 0.1142,
+  "tpSrc": "OB",
+  "slPct": 7.34,
+  "gainPct": 8.42,
+  "rr": 1.15,
+  "lev": 8,
+  "signalTime": 1790912700000,
+  "status": "pending",
+  "createdAt": 1790912735292
  }
 ]
