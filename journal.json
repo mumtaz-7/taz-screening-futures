@@ -30419,5 +30419,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1790934300000
+ },
+ {
+  "id": "NEARUSDT::SHORT::ChoCh::1790936100000",
+  "symbol": "NEARUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 4.925,
+  "sl": 5.111000000000001,
+  "tp": 4.498,
+  "tpSrc": "OB",
+  "slPct": 3.78,
+  "gainPct": 8.67,
+  "rr": 2.3,
+  "lev": 16,
+  "signalTime": 1790936100000,
+  "status": "pending",
+  "createdAt": 1790936140205
  }
 ]
