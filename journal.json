@@ -30483,7 +30483,45 @@
   "rr": 3.01,
   "lev": 12,
   "signalTime": 1790947800000,
+  "status": "open",
+  "createdAt": 1790947844140,
+  "fillTime": 1790947800000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "MEGAUSDT::LONG::ChoCh::1790948700000",
+  "symbol": "MEGAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.04879,
+  "sl": 0.04627,
+  "tp": 0.05616,
+  "tpSrc": "WH",
+  "slPct": 5.16,
+  "gainPct": 15.11,
+  "rr": 2.92,
+  "lev": 12,
+  "signalTime": 1790948700000,
   "status": "pending",
-  "createdAt": 1790947844140
+  "createdAt": 1790948738249
+ },
+ {
+  "id": "XPLUSDT::LONG::BoS::1790948700000",
+  "symbol": "XPLUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.10088,
+  "sl": 0.09629000000000001,
+  "tp": 0.11102,
+  "tpSrc": "OB",
+  "slPct": 4.55,
+  "gainPct": 10.05,
+  "rr": 2.21,
+  "lev": 13,
+  "signalTime": 1790948700000,
+  "status": "pending",
+  "createdAt": 1790948738249
  }
 ]

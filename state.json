@@ -1,7 +1,8 @@
 {
   "ready": [
-    "ENJUSDT::LONG::BoS",
-    "SYNUSDT::LONG::ChoCh"
+    "MEGAUSDT::LONG::ChoCh",
+    "SYNUSDT::LONG::ChoCh",
+    "XPLUSDT::LONG::BoS"
   ],
-  "at": "2026-10-02T13:30:44.139Z"
+  "at": "2026-10-02T13:45:38.248Z"
 }
