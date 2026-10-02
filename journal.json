@@ -30716,5 +30716,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1790968500000
+ },
+ {
+  "id": "NMRUSDT::LONG::ChoCh::1790972100000",
+  "symbol": "NMRUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 11.54,
+  "sl": 10.97,
+  "tp": 13.05,
+  "tpSrc": "OB",
+  "slPct": 4.94,
+  "gainPct": 13.08,
+  "rr": 2.65,
+  "lev": 12,
+  "signalTime": 1790972100000,
+  "status": "pending",
+  "createdAt": 1790972134634
  }
 ]
