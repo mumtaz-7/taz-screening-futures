@@ -30755,5 +30755,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SANDUSDT::LONG::BoS::1790983800000",
+  "symbol": "SANDUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.06598,
+  "sl": 0.06174999999999999,
+  "tp": 0.0735,
+  "tpSrc": "WH",
+  "slPct": 6.41,
+  "gainPct": 11.4,
+  "rr": 1.78,
+  "lev": 9,
+  "signalTime": 1790983800000,
+  "status": "pending",
+  "createdAt": 1790983842495
  }
 ]
