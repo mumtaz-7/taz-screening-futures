@@ -1,6 +1,7 @@
 {
   "ready": [
-    "EIGENUSDT::LONG::BoS"
+    "EIGENUSDT::LONG::BoS",
+    "MAGICUSDT::LONG::BoS"
   ],
-  "at": "2026-10-02T09:00:48.423Z"
+  "at": "2026-10-02T09:15:34.883Z"
 }
