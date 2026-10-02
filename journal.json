@@ -30319,9 +30319,12 @@
   "rr": 4.42,
   "lev": 18,
   "signalTime": 1790915400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790915442077,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790919000000
  },
  {
   "id": "NIGHTUSDT::LONG::BoS::1790918100000",
@@ -30337,8 +30340,11 @@
   "rr": 1.87,
   "lev": 8,
   "signalTime": 1790918100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790918133560,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790919000000
  }
 ]
