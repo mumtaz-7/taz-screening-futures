@@ -30169,12 +30169,15 @@
   "rr": 12.59,
   "lev": 25,
   "signalTime": 1790887500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790887534647,
   "fillTime": 1790887500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790910900000
  },
  {
   "id": "QNTUSDT::SHORT::BoS::1790891100000",
