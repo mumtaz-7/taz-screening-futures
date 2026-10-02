@@ -1,8 +1,6 @@
 {
   "ready": [
-    "NIGHTUSDT::LONG::BoS",
-    "PLUMEUSDT::LONG::BoS",
-    "ZENUSDT::LONG::BoS"
+    "NIGHTUSDT::LONG::BoS"
   ],
-  "at": "2026-10-02T05:45:32.537Z"
+  "at": "2026-10-02T06:00:50.555Z"
 }
