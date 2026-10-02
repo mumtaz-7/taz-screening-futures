@@ -30214,9 +30214,12 @@
   "rr": 4.71,
   "lev": 23,
   "signalTime": 1790900100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790900133156,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "NOMUSDT::LONG::ChoCh::1790902800000",
