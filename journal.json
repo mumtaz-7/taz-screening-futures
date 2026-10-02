@@ -30250,7 +30250,28 @@
   "rr": 1.78,
   "lev": 7,
   "signalTime": 1790906400000,
+  "status": "open",
+  "createdAt": 1790906448493,
+  "fillTime": 1790906400000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ZENUSDT::LONG::BoS::1790907300000",
+  "symbol": "ZENUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 7.13,
+  "sl": 7.0235,
+  "tp": 7.955,
+  "tpSrc": "OB",
+  "slPct": 1.49,
+  "gainPct": 11.57,
+  "rr": 7.75,
+  "lev": 25,
+  "signalTime": 1790907300000,
   "status": "pending",
-  "createdAt": 1790906448493
+  "createdAt": 1790907335279
  }
 ]
