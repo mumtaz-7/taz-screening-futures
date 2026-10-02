@@ -30534,5 +30534,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "2ZUSDT::SHORT::ChoCh::1790955000000",
+  "symbol": "2ZUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.0581,
+  "sl": 0.06032,
+  "tp": 0.05188,
+  "tpSrc": "WL",
+  "slPct": 3.82,
+  "gainPct": 10.71,
+  "rr": 2.8,
+  "lev": 16,
+  "signalTime": 1790955000000,
+  "status": "pending",
+  "createdAt": 1790955044507
+ },
+ {
+  "id": "MAGICUSDT::LONG::BoS::1790955000000",
+  "symbol": "MAGICUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0623,
+  "sl": 0.05885,
+  "tp": 0.0692,
+  "tpSrc": "WH",
+  "slPct": 5.54,
+  "gainPct": 11.08,
+  "rr": 2,
+  "lev": 11,
+  "signalTime": 1790955000000,
+  "status": "pending",
+  "createdAt": 1790955044507
  }
 ]
