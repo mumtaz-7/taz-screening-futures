@@ -29812,12 +29812,15 @@
   "rr": 4.25,
   "lev": 25,
   "signalTime": 1790837100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790837135959,
   "fillTime": 1790837100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790928900000
  },
  {
   "id": "CAKEUSDT::LONG::ChoCh::1790838000000",
