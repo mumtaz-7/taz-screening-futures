@@ -1,7 +1,8 @@
 {
   "ready": [
     "JASMYUSDT::SHORT::BoS",
+    "NIGHTUSDT::LONG::BoS",
     "QNTUSDT::SHORT::BoS"
   ],
-  "at": "2026-10-02T07:00:47.602Z"
+  "at": "2026-10-02T07:15:33.957Z"
 }
