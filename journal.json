@@ -29287,12 +29287,15 @@
   "rr": 2.77,
   "lev": 19,
   "signalTime": 1790757900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790757936270,
   "fillTime": 1790757900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.77,
+  "resolvedTime": 1790966700000
  },
  {
   "id": "ALGOUSDT::LONG::ChoCh::1790761500000",
@@ -30689,7 +30692,8 @@
   "lev": 6,
   "signalTime": 1790966700000,
   "status": "pending",
-  "createdAt": 1790966734059
+  "createdAt": 1790966734059,
+  "notified": []
  },
  {
   "id": "牛来USDT::SHORT::ChoCh::1790966700000",
@@ -30706,6 +30710,7 @@
   "lev": 11,
   "signalTime": 1790966700000,
   "status": "pending",
-  "createdAt": 1790966734060
+  "createdAt": 1790966734060,
+  "notified": []
  }
 ]
