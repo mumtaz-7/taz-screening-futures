@@ -30552,9 +30552,13 @@
   "rr": 2.8,
   "lev": 16,
   "signalTime": 1790955000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790955044507,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1790958600000
  },
  {
   "id": "MAGICUSDT::LONG::BoS::1790955000000",
@@ -30576,5 +30580,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "RESOLVUSDT::LONG::ChoCh::1790959500000",
+  "symbol": "RESOLVUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.02026,
+  "sl": 0.019315000000000002,
+  "tp": 0.0227,
+  "tpSrc": "WH",
+  "slPct": 4.66,
+  "gainPct": 12.04,
+  "rr": 2.58,
+  "lev": 13,
+  "signalTime": 1790959500000,
+  "status": "pending",
+  "createdAt": 1790959535875
  }
 ]
