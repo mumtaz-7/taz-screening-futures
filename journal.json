@@ -30349,5 +30349,22 @@
    "open"
   ],
   "fillTime": 1790919000000
+ },
+ {
+  "id": "JASMYUSDT::SHORT::BoS::1790923500000",
+  "symbol": "JASMYUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0055,
+  "sl": 0.0058449999999999995,
+  "tp": 0.00494,
+  "tpSrc": "OB",
+  "slPct": 6.27,
+  "gainPct": 10.18,
+  "rr": 1.62,
+  "lev": 10,
+  "signalTime": 1790923500000,
+  "status": "pending",
+  "createdAt": 1790923535133
  }
 ]
