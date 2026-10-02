@@ -29479,12 +29479,15 @@
   "rr": 2.1,
   "lev": 16,
   "signalTime": 1790784000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790784048291,
   "fillTime": 1790784000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1790901900000
  },
  {
   "id": "RAREUSDT::SHORT::ChoCh::1790788500000",
@@ -30208,5 +30211,22 @@
   "status": "pending",
   "createdAt": 1790900133156,
   "notified": []
+ },
+ {
+  "id": "NOMUSDT::LONG::ChoCh::1790902800000",
+  "symbol": "NOMUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.002793,
+  "sl": 0.0026804999999999997,
+  "tp": 0.003266,
+  "tpSrc": "WH",
+  "slPct": 4.03,
+  "gainPct": 16.94,
+  "rr": 4.2,
+  "lev": 15,
+  "signalTime": 1790902800000,
+  "status": "pending",
+  "createdAt": 1790902845896
  }
 ]
