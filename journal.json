@@ -30902,8 +30902,12 @@
   "rr": 3.17,
   "lev": 15,
   "signalTime": 1790999100000,
-  "status": "pending",
-  "createdAt": 1790999141557
+  "status": "open",
+  "createdAt": 1790999141557,
+  "fillTime": 1790999100000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "SANDUSDT::LONG::BoS::1790999100000",
@@ -30920,6 +30924,7 @@
   "lev": 4,
   "signalTime": 1790999100000,
   "status": "pending",
-  "createdAt": 1790999141557
+  "createdAt": 1790999141557,
+  "notified": []
  }
 ]
