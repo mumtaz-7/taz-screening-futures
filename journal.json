@@ -30884,12 +30884,15 @@
   "rr": 3.78,
   "lev": 20,
   "signalTime": 1790997300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790997334866,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1791000000000
+  "fillTime": 1791000000000,
+  "R": 3.78,
+  "resolvedTime": 1791004500000
  },
  {
   "id": "APEUSDT::LONG::BoS::1790999100000",
