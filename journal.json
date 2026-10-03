@@ -31210,5 +31210,22 @@
   "status": "pending",
   "createdAt": 1791048642692,
   "notified": []
+ },
+ {
+  "id": "MANAUSDT::LONG::ChoCh::1791050400000",
+  "symbol": "MANAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1052,
+  "sl": 0.09905,
+  "tp": 0.1162,
+  "tpSrc": "WH",
+  "slPct": 5.85,
+  "gainPct": 10.46,
+  "rr": 1.79,
+  "lev": 10,
+  "signalTime": 1791050400000,
+  "status": "pending",
+  "createdAt": 1791050447170
  }
 ]

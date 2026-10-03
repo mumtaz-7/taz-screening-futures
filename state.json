@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ETHFIUSDT::LONG::BoS"
+    "ETHFIUSDT::LONG::BoS",
+    "MANAUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-03T17:45:35.465Z"
+  "at": "2026-10-03T18:00:47.169Z"
 }
