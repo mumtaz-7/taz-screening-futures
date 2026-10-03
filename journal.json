@@ -28914,12 +28914,15 @@
   "rr": 1.17,
   "lev": 9,
   "signalTime": 1790688600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790688641300,
   "fillTime": 1790688600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.17,
+  "resolvedTime": 1791033300000
  },
  {
   "id": "牛来USDT::LONG::ChoCh::1790690400000",
