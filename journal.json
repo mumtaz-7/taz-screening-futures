@@ -31036,5 +31036,22 @@
    "open"
   ],
   "fillTime": 1791017100000
+ },
+ {
+  "id": "ARUSDT::LONG::ChoCh::1791019800000",
+  "symbol": "ARUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 4.392,
+  "sl": 4.17,
+  "tp": 4.72,
+  "tpSrc": "WH",
+  "slPct": 5.05,
+  "gainPct": 7.47,
+  "rr": 1.48,
+  "lev": 12,
+  "signalTime": 1791019800000,
+  "status": "pending",
+  "createdAt": 1791019842558
  }
 ]
