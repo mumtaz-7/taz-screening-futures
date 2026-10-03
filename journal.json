@@ -30978,12 +30978,15 @@
   "rr": 7.8,
   "lev": 15,
   "signalTime": 1791010800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791010846073,
   "fillTime": 1791010800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791015300000
  },
  {
   "id": "ONEUSDT::LONG::BoS::1791014400000",
@@ -31002,5 +31005,22 @@
   "status": "pending",
   "createdAt": 1791014452107,
   "notified": []
+ },
+ {
+  "id": "GTCUSDT::SHORT::BoS::1791016200000",
+  "symbol": "GTCUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1237,
+  "sl": 0.13415500000000002,
+  "tp": 0.09871,
+  "tpSrc": "OB",
+  "slPct": 8.45,
+  "gainPct": 20.2,
+  "rr": 2.39,
+  "lev": 7,
+  "signalTime": 1791016200000,
+  "status": "pending",
+  "createdAt": 1791016246028
  }
 ]
