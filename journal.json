@@ -30911,12 +30911,15 @@
   "rr": 3.17,
   "lev": 15,
   "signalTime": 1790999100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790999141557,
   "fillTime": 1790999100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791014400000
  },
  {
   "id": "SANDUSDT::LONG::BoS::1790999100000",
@@ -30997,6 +31000,7 @@
   "lev": 9,
   "signalTime": 1791014400000,
   "status": "pending",
-  "createdAt": 1791014452107
+  "createdAt": 1791014452107,
+  "notified": []
  }
 ]
