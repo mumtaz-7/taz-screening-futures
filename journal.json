@@ -30884,9 +30884,12 @@
   "rr": 3.78,
   "lev": 20,
   "signalTime": 1790997300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790997334866,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791000000000
  },
  {
   "id": "APEUSDT::LONG::BoS::1790999100000",
