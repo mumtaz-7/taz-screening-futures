@@ -30794,8 +30794,28 @@
   "rr": 2.61,
   "lev": 15,
   "signalTime": 1790984700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790984735738,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1790987400000
+ },
+ {
+  "id": "MEGAUSDT::LONG::BoS::1790988300000",
+  "symbol": "MEGAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.04662,
+  "sl": 0.04428,
+  "tp": 0.05616,
+  "tpSrc": "WH",
+  "slPct": 5.02,
+  "gainPct": 20.46,
+  "rr": 4.08,
+  "lev": 12,
+  "signalTime": 1790988300000,
+  "status": "pending",
+  "createdAt": 1790988334957
  }
 ]
