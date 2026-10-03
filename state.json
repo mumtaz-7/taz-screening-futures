@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ALICEUSDT::LONG::ChoCh"
+    "ALICEUSDT::LONG::ChoCh",
+    "RESOLVUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-03T03:00:50.447Z"
+  "at": "2026-10-03T03:15:34.865Z"
 }

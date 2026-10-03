@@ -30867,6 +30867,24 @@
   "lev": 19,
   "signalTime": 1790996400000,
   "status": "pending",
-  "createdAt": 1790996450449
+  "createdAt": 1790996450449,
+  "notified": []
+ },
+ {
+  "id": "RESOLVUSDT::LONG::ChoCh::1790997300000",
+  "symbol": "RESOLVUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.02043,
+  "sl": 0.01983,
+  "tp": 0.0227,
+  "tpSrc": "WH",
+  "slPct": 2.94,
+  "gainPct": 11.11,
+  "rr": 3.78,
+  "lev": 20,
+  "signalTime": 1790997300000,
+  "status": "pending",
+  "createdAt": 1790997334866
  }
 ]
