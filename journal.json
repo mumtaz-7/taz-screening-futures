@@ -30926,9 +30926,13 @@
   "rr": 1.02,
   "lev": 4,
   "signalTime": 1790999100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790999141557,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791003600000
  },
  {
   "id": "MOVRUSDT::LONG::ChoCh::1791003600000",
@@ -30944,7 +30948,11 @@
   "rr": 7.31,
   "lev": 6,
   "signalTime": 1791003600000,
-  "status": "pending",
-  "createdAt": 1791003648678
+  "status": "open",
+  "createdAt": 1791003648678,
+  "fillTime": 1791003600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
