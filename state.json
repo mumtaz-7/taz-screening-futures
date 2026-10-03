@@ -1,8 +1,6 @@
 {
   "ready": [
-    "ALICEUSDT::LONG::ChoCh",
-    "ATUSDT::SHORT::BoS",
     "MUBARAKUSDT::LONG::BoS"
   ],
-  "at": "2026-10-03T20:00:45.430Z"
+  "at": "2026-10-03T20:15:34.500Z"
 }
