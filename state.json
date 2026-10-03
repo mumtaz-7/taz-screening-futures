@@ -1,8 +1,7 @@
 {
   "ready": [
-    "ALICEUSDT::LONG::ChoCh",
     "APEUSDT::LONG::BoS",
-    "SANDUSDT::LONG::BoS"
+    "RESOLVUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-03T04:15:33.916Z"
+  "at": "2026-10-03T04:30:42.988Z"
 }
