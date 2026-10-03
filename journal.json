@@ -31183,7 +31183,11 @@
   "rr": 1.3,
   "lev": 9,
   "signalTime": 1791040500000,
-  "status": "pending",
-  "createdAt": 1791040534675
+  "status": "open",
+  "createdAt": 1791040534675,
+  "fillTime": 1791040500000,
+  "notified": [
+   "open"
+  ]
  }
 ]
