@@ -30963,12 +30963,15 @@
   "rr": 7.31,
   "lev": 6,
   "signalTime": 1791003600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791003648678,
   "fillTime": 1791003600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791032400000
  },
  {
   "id": "ALICEUSDT::LONG::BoS::1791010800000",
