@@ -31076,5 +31076,22 @@
   "status": "pending",
   "createdAt": 1791020735281,
   "notified": []
+ },
+ {
+  "id": "MEGAUSDT::LONG::ChoCh::1791026100000",
+  "symbol": "MEGAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0468,
+  "sl": 0.044789999999999996,
+  "tp": 0.05061,
+  "tpSrc": "EQ",
+  "slPct": 4.29,
+  "gainPct": 8.14,
+  "rr": 1.9,
+  "lev": 14,
+  "signalTime": 1791026100000,
+  "status": "pending",
+  "createdAt": 1791026133894
  }
 ]
