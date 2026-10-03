@@ -30655,12 +30655,15 @@
   "rr": 1.45,
   "lev": 3,
   "signalTime": 1790960400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790960449219,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790961300000
+  "fillTime": 1790961300000,
+  "R": -1,
+  "resolvedTime": 1791054000000
  },
  {
   "id": "SCRUSDT::LONG::BoS::1790963100000",
@@ -31234,5 +31237,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ATUSDT::SHORT::BoS::1791054900000",
+  "symbol": "ATUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1305,
+  "sl": 0.14925,
+  "tp": 0.1082,
+  "tpSrc": "WL",
+  "slPct": 14.37,
+  "gainPct": 17.09,
+  "rr": 1.19,
+  "lev": 4,
+  "signalTime": 1791054900000,
+  "status": "pending",
+  "createdAt": 1791054938251
  }
 ]
