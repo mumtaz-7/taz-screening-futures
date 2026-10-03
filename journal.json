@@ -30734,9 +30734,12 @@
   "rr": 2.65,
   "lev": 12,
   "signalTime": 1790972100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790972134634,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "CRVUSDT::SHORT::BoS::1790976600000",
@@ -30839,7 +30842,11 @@
   "rr": 2.97,
   "lev": 23,
   "signalTime": 1790993700000,
-  "status": "pending",
-  "createdAt": 1790993735453
+  "status": "open",
+  "createdAt": 1790993735453,
+  "fillTime": 1790993700000,
+  "notified": [
+   "open"
+  ]
  }
 ]
