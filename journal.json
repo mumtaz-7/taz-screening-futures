@@ -31252,7 +31252,29 @@
   "rr": 1.19,
   "lev": 4,
   "signalTime": 1791054900000,
+  "status": "void",
+  "createdAt": 1791054938251,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791054900000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "MUBARAKUSDT::LONG::BoS::1791055800000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.06308,
+  "sl": 0.06077,
+  "tp": 0.0694,
+  "tpSrc": "WH",
+  "slPct": 3.66,
+  "gainPct": 10.02,
+  "rr": 2.74,
+  "lev": 16,
+  "signalTime": 1791055800000,
   "status": "pending",
-  "createdAt": 1791054938251
+  "createdAt": 1791055840640
  }
 ]
