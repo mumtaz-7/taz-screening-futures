@@ -31213,9 +31213,12 @@
   "rr": 4.76,
   "lev": 25,
   "signalTime": 1791048600000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791048642692,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "MANAUSDT::LONG::ChoCh::1791050400000",
