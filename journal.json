@@ -31097,5 +31097,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BMTUSDT::LONG::BoS::1791029700000",
+  "symbol": "BMTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01928,
+  "sl": 0.01844,
+  "tp": 0.02209,
+  "tpSrc": "WH",
+  "slPct": 4.36,
+  "gainPct": 14.57,
+  "rr": 3.35,
+  "lev": 14,
+  "signalTime": 1791029700000,
+  "status": "pending",
+  "createdAt": 1791029736386
  }
 ]
