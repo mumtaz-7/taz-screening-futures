@@ -31162,8 +31162,28 @@
   "rr": 2.27,
   "lev": 17,
   "signalTime": 1791037800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791037843823,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791039600000
+ },
+ {
+  "id": "SUPERUSDT::LONG::BoS::1791040500000",
+  "symbol": "SUPERUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.2614,
+  "sl": 0.24415,
+  "tp": 0.2839,
+  "tpSrc": "WH",
+  "slPct": 6.6,
+  "gainPct": 8.61,
+  "rr": 1.3,
+  "lev": 9,
+  "signalTime": 1791040500000,
+  "status": "pending",
+  "createdAt": 1791040534675
  }
 ]
