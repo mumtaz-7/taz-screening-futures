@@ -31112,7 +31112,30 @@
   "rr": 3.35,
   "lev": 14,
   "signalTime": 1791029700000,
+  "status": "loss",
+  "createdAt": 1791029736386,
+  "R": -1,
+  "fillTime": 1791029700000,
+  "resolvedTime": 1791029700000,
+  "notified": [
+   "loss"
+  ]
+ },
+ {
+  "id": "ENJUSDT::LONG::ChoCh::1791030600000",
+  "symbol": "ENJUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.03371,
+  "sl": 0.03263,
+  "tp": 0.03621,
+  "tpSrc": "EQ",
+  "slPct": 3.2,
+  "gainPct": 7.42,
+  "rr": 2.31,
+  "lev": 18,
+  "signalTime": 1791030600000,
   "status": "pending",
-  "createdAt": 1791029736386
+  "createdAt": 1791030745978
  }
 ]
