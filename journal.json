@@ -30691,9 +30691,12 @@
   "rr": 1.3,
   "lev": 6,
   "signalTime": 1790966700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1790966734059,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "牛来USDT::SHORT::ChoCh::1790966700000",
@@ -30815,7 +30818,11 @@
   "rr": 4.08,
   "lev": 12,
   "signalTime": 1790988300000,
-  "status": "pending",
-  "createdAt": 1790988334957
+  "status": "open",
+  "createdAt": 1790988334957,
+  "fillTime": 1790988300000,
+  "notified": [
+   "open"
+  ]
  }
 ]
