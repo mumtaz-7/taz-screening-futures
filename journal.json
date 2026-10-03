@@ -25437,7 +25437,7 @@
   "rr": 5.56,
   "lev": 15,
   "signalTime": 1790239500000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1790239534946,
   "fillTime": 1790239500000,
   "notified": [
@@ -30673,12 +30673,15 @@
   "rr": 3.29,
   "lev": 6,
   "signalTime": 1790963100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790963135269,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790965800000
+  "fillTime": 1790965800000,
+  "R": -1,
+  "resolvedTime": 1791016200000
  },
  {
   "id": "PUMPUSDT::SHORT::BoS::1790966700000",
@@ -31021,6 +31024,7 @@
   "lev": 7,
   "signalTime": 1791016200000,
   "status": "pending",
-  "createdAt": 1791016246028
+  "createdAt": 1791016246028,
+  "notified": []
  }
 ]
