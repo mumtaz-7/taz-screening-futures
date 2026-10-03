@@ -25661,7 +25661,7 @@
   "rr": 1.24,
   "lev": 8,
   "signalTime": 1790273700000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1790273734921,
   "notified": [
    "open"
@@ -30812,12 +30812,15 @@
   "rr": 2.61,
   "lev": 15,
   "signalTime": 1790984700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790984735738,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790987400000
+  "fillTime": 1790987400000,
+  "R": -1,
+  "resolvedTime": 1791050400000
  },
  {
   "id": "MEGAUSDT::LONG::BoS::1790988300000",
@@ -31225,7 +31228,11 @@
   "rr": 1.79,
   "lev": 10,
   "signalTime": 1791050400000,
-  "status": "pending",
-  "createdAt": 1791050447170
+  "status": "open",
+  "createdAt": 1791050447170,
+  "fillTime": 1791050400000,
+  "notified": [
+   "open"
+  ]
  }
 ]
