@@ -30981,5 +30981,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ONEUSDT::LONG::BoS::1791014400000",
+  "symbol": "ONEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00225,
+  "sl": 0.0020925000000000006,
+  "tp": 0.002786,
+  "tpSrc": "OB",
+  "slPct": 7,
+  "gainPct": 23.82,
+  "rr": 3.4,
+  "lev": 9,
+  "signalTime": 1791014400000,
+  "status": "pending",
+  "createdAt": 1791014452107
  }
 ]
