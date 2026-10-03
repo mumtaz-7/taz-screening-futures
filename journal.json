@@ -30872,9 +30872,12 @@
   "rr": 5.21,
   "lev": 19,
   "signalTime": 1790996400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1790996450449,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791018000000
  },
  {
   "id": "RESOLVUSDT::LONG::ChoCh::1790997300000",
@@ -31005,9 +31008,13 @@
   "rr": 3.4,
   "lev": 9,
   "signalTime": 1791014400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791014452107,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791018000000
  },
  {
   "id": "GTCUSDT::SHORT::BoS::1791016200000",
