@@ -31557,9 +31557,12 @@
   "rr": 1.19,
   "lev": 6,
   "signalTime": 1791101700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791101736778,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "BEAMXUSDT::LONG::ChoCh::1791102600000",
