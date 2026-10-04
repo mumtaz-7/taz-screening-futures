@@ -31165,12 +31165,15 @@
   "rr": 2.31,
   "lev": 18,
   "signalTime": 1791030600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791030745978,
   "fillTime": 1791030600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791135000000
  },
  {
   "id": "APTUSDT::LONG::BoS::1791037800000",
