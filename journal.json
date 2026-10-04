@@ -31346,5 +31346,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ALICEUSDT::LONG::BoS::1791076500000",
+  "symbol": "ALICEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1735,
+  "sl": 0.17065000000000002,
+  "tp": 0.2156,
+  "tpSrc": "OB",
+  "slPct": 1.64,
+  "gainPct": 24.27,
+  "rr": 14.77,
+  "lev": 25,
+  "signalTime": 1791076500000,
+  "status": "pending",
+  "createdAt": 1791076539192
  }
 ]
