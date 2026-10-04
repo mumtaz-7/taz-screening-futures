@@ -31542,12 +31542,15 @@
   "rr": 5.49,
   "lev": 17,
   "signalTime": 1791099900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791099935224,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791100800000
+  "fillTime": 1791100800000,
+  "R": -1,
+  "resolvedTime": 1791140400000
  },
  {
   "id": "ONEUSDT::SHORT::BoS::1791101700000",
@@ -31660,5 +31663,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ATUSDT::LONG::ChoCh::1791141300000",
+  "symbol": "ATUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1299,
+  "sl": 0.12675,
+  "tp": 0.143,
+  "tpSrc": "WH",
+  "slPct": 2.42,
+  "gainPct": 10.08,
+  "rr": 4.16,
+  "lev": 24,
+  "signalTime": 1791141300000,
+  "status": "pending",
+  "createdAt": 1791141335597
  }
 ]
