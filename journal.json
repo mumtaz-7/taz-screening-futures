@@ -30863,12 +30863,15 @@
   "rr": 2.97,
   "lev": 23,
   "signalTime": 1790993700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790993735453,
   "fillTime": 1790993700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.97,
+  "resolvedTime": 1791100800000
  },
  {
   "id": "ALICEUSDT::LONG::ChoCh::1790996400000",
@@ -31512,8 +31515,28 @@
   "rr": 5.49,
   "lev": 17,
   "signalTime": 1791099900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791099935224,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791100800000
+ },
+ {
+  "id": "ONEUSDT::SHORT::BoS::1791101700000",
+  "symbol": "ONEUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.002464,
+  "sl": 0.00271,
+  "tp": 0.002171,
+  "tpSrc": "OB",
+  "slPct": 9.98,
+  "gainPct": 11.89,
+  "rr": 1.19,
+  "lev": 6,
+  "signalTime": 1791101700000,
+  "status": "pending",
+  "createdAt": 1791101736778
  }
 ]
