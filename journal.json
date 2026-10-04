@@ -31612,5 +31612,22 @@
   ],
   "R": -1,
   "resolvedTime": 1791122400000
+ },
+ {
+  "id": "ONEUSDT::SHORT::BoS::1791134100000",
+  "symbol": "ONEUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.002365,
+  "sl": 0.0024595,
+  "tp": 0.002171,
+  "tpSrc": "OB",
+  "slPct": 4,
+  "gainPct": 8.2,
+  "rr": 2.05,
+  "lev": 15,
+  "signalTime": 1791134100000,
+  "status": "pending",
+  "createdAt": 1791134134537
  }
 ]
