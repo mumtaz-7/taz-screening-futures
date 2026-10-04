@@ -31319,7 +31319,28 @@
   "rr": 17.73,
   "lev": 25,
   "signalTime": 1791072000000,
+  "status": "open",
+  "createdAt": 1791072053905,
+  "fillTime": 1791072000000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ARUSDT::LONG::BoS::1791072900000",
+  "symbol": "ARUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 4.519,
+  "sl": 4.4155,
+  "tp": 5.073,
+  "tpSrc": "OB",
+  "slPct": 2.29,
+  "gainPct": 12.26,
+  "rr": 5.35,
+  "lev": 25,
+  "signalTime": 1791072900000,
   "status": "pending",
-  "createdAt": 1791072053905
+  "createdAt": 1791072936481
  }
 ]
