@@ -31051,12 +31051,15 @@
   "rr": 2.39,
   "lev": 7,
   "signalTime": 1791016200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791016246028,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791017100000
+  "fillTime": 1791017100000,
+  "R": -1,
+  "resolvedTime": 1791131400000
  },
  {
   "id": "ARUSDT::LONG::ChoCh::1791019800000",
