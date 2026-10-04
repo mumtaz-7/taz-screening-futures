@@ -31201,12 +31201,15 @@
   "rr": 1.3,
   "lev": 9,
   "signalTime": 1791040500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791040534675,
   "fillTime": 1791040500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791120600000
  },
  {
   "id": "ETHFIUSDT::LONG::BoS::1791048600000",
