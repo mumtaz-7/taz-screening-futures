@@ -31286,12 +31286,15 @@
   "rr": 2.74,
   "lev": 16,
   "signalTime": 1791055800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791055840640,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1791056700000
+  "fillTime": 1791056700000,
+  "R": 2.74,
+  "resolvedTime": 1791117000000
  },
  {
   "id": "SANDUSDT::LONG::BoS::1791062100000",
@@ -31503,12 +31506,15 @@
   "rr": 4.29,
   "lev": 20,
   "signalTime": 1791098100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791098134931,
   "fillTime": 1791098100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791117000000
  },
  {
   "id": "ATUSDT::SHORT::BoS::1791099900000",
