@@ -31678,9 +31678,12 @@
   "rr": 4.16,
   "lev": 24,
   "signalTime": 1791141300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791141335597,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791144000000
  },
  {
   "id": "NOMUSDT::SHORT::ChoCh::1791144000000",
@@ -31697,6 +31700,7 @@
   "lev": 7,
   "signalTime": 1791144000000,
   "status": "pending",
-  "createdAt": 1791144050868
+  "createdAt": 1791144050868,
+  "notified": []
  }
 ]
