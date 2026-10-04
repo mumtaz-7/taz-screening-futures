@@ -31412,9 +31412,12 @@
   "rr": 4.23,
   "lev": 12,
   "signalTime": 1791082800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791082847352,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791101700000
  },
  {
   "id": "AXSUSDT::LONG::BoS::1791088200000",
@@ -31537,6 +31540,24 @@
   "lev": 6,
   "signalTime": 1791101700000,
   "status": "pending",
-  "createdAt": 1791101736778
+  "createdAt": 1791101736778,
+  "notified": []
+ },
+ {
+  "id": "BEAMXUSDT::LONG::ChoCh::1791102600000",
+  "symbol": "BEAMXUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.002403,
+  "sl": 0.0021884999999999995,
+  "tp": 0.002895,
+  "tpSrc": "WH",
+  "slPct": 8.93,
+  "gainPct": 20.47,
+  "rr": 2.29,
+  "lev": 7,
+  "signalTime": 1791102600000,
+  "status": "pending",
+  "createdAt": 1791102639594
  }
 ]
