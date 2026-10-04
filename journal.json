@@ -31476,5 +31476,22 @@
   "fillTime": 1791092700000,
   "R": -1,
   "resolvedTime": 1791096300000
+ },
+ {
+  "id": "SUPERUSDT::LONG::ChoCh::1791098100000",
+  "symbol": "SUPERUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.2524,
+  "sl": 0.24505,
+  "tp": 0.2839,
+  "tpSrc": "WH",
+  "slPct": 2.91,
+  "gainPct": 12.48,
+  "rr": 4.29,
+  "lev": 20,
+  "signalTime": 1791098100000,
+  "status": "pending",
+  "createdAt": 1791098134931
  }
 ]
