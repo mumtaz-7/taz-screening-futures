@@ -31304,5 +31304,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GRAMUSDT::LONG::BoS::1791072000000",
+  "symbol": "GRAMUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1.515,
+  "sl": 1.5075,
+  "tp": 1.648,
+  "tpSrc": "OB",
+  "slPct": 0.5,
+  "gainPct": 8.78,
+  "rr": 17.73,
+  "lev": 25,
+  "signalTime": 1791072000000,
+  "status": "pending",
+  "createdAt": 1791072053905
  }
 ]
