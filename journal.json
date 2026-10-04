@@ -31681,5 +31681,22 @@
   "status": "pending",
   "createdAt": 1791141335597,
   "notified": []
+ },
+ {
+  "id": "NOMUSDT::SHORT::ChoCh::1791144000000",
+  "symbol": "NOMUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.002546,
+  "sl": 0.002777,
+  "tp": 0.002281,
+  "tpSrc": "WL",
+  "slPct": 9.07,
+  "gainPct": 10.41,
+  "rr": 1.15,
+  "lev": 7,
+  "signalTime": 1791144000000,
+  "status": "pending",
+  "createdAt": 1791144050868
  }
 ]

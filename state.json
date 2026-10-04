@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ATUSDT::LONG::ChoCh"
+    "ATUSDT::LONG::ChoCh",
+    "NOMUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-10-04T19:45:35.528Z"
+  "at": "2026-10-04T20:00:50.840Z"
 }
