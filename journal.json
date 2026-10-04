@@ -31497,5 +31497,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ATUSDT::SHORT::BoS::1791099900000",
+  "symbol": "ATUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1322,
+  "sl": 0.1367,
+  "tp": 0.1075,
+  "tpSrc": "WL",
+  "slPct": 3.4,
+  "gainPct": 18.68,
+  "rr": 5.49,
+  "lev": 17,
+  "signalTime": 1791099900000,
+  "status": "pending",
+  "createdAt": 1791099935224
  }
 ]
