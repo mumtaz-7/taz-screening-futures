@@ -1,9 +1,7 @@
 {
   "ready": [
     "ATUSDT::SHORT::BoS",
-    "BEAMXUSDT::LONG::ChoCh",
-    "ONEUSDT::SHORT::BoS",
-    "SUPERUSDT::LONG::ChoCh"
+    "ONEUSDT::SHORT::BoS"
   ],
-  "at": "2026-10-04T08:30:39.593Z"
+  "at": "2026-10-04T08:45:33.877Z"
 }
