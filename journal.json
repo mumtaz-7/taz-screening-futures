@@ -31109,12 +31109,15 @@
   "rr": 1.9,
   "lev": 14,
   "signalTime": 1791026100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791026133894,
   "fillTime": 1791026100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.9,
+  "resolvedTime": 1791090000000
  },
  {
   "id": "BMTUSDT::LONG::BoS::1791029700000",
@@ -31443,6 +31446,7 @@
   "lev": 24,
   "signalTime": 1791090000000,
   "status": "pending",
-  "createdAt": 1791090047720
+  "createdAt": 1791090047720,
+  "notified": []
  }
 ]
