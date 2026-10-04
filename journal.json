@@ -29431,12 +29431,15 @@
   "rr": 2.63,
   "lev": 13,
   "signalTime": 1790776800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790776853423,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790777700000
+  "fillTime": 1790777700000,
+  "R": 2.63,
+  "resolvedTime": 1791081900000
  },
  {
   "id": "ONDOUSDT::SHORT::BoS::1790778600000",
@@ -31388,5 +31391,22 @@
    "open"
   ],
   "fillTime": 1791081000000
+ },
+ {
+  "id": "QIUSDT::LONG::ChoCh::1791082800000",
+  "symbol": "QIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.002916,
+  "sl": 0.002766,
+  "tp": 0.00355,
+  "tpSrc": "WH",
+  "slPct": 5.14,
+  "gainPct": 21.74,
+  "rr": 4.23,
+  "lev": 12,
+  "signalTime": 1791082800000,
+  "status": "pending",
+  "createdAt": 1791082847352
  }
 ]
