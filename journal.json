@@ -31895,12 +31895,15 @@
   "rr": 4.03,
   "lev": 10,
   "signalTime": 1791191700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791191738390,
   "fillTime": 1791191700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791227700000
  },
  {
   "id": "GALAUSDT::SHORT::ChoCh::1791198900000",
