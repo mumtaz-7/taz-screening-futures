@@ -1,6 +1,7 @@
 {
   "ready": [
-    "QNTUSDT::LONG::BoS"
+    "QNTUSDT::LONG::BoS",
+    "UMAUSDT::LONG::BoS"
   ],
-  "at": "2026-10-05T13:00:50.197Z"
+  "at": "2026-10-05T13:15:34.673Z"
 }

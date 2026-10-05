@@ -31967,7 +31967,28 @@
   "rr": 3.22,
   "lev": 13,
   "signalTime": 1791205200000,
+  "status": "open",
+  "createdAt": 1791205250198,
+  "fillTime": 1791205200000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "UMAUSDT::LONG::BoS::1791206100000",
+  "symbol": "UMAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.428,
+  "sl": 0.39649999999999996,
+  "tp": 0.493,
+  "tpSrc": "WH",
+  "slPct": 7.36,
+  "gainPct": 15.19,
+  "rr": 2.06,
+  "lev": 8,
+  "signalTime": 1791206100000,
   "status": "pending",
-  "createdAt": 1791205250198
+  "createdAt": 1791206134674
  }
 ]
