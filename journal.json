@@ -32102,5 +32102,39 @@
    "open"
   ],
   "fillTime": 1791221400000
+ },
+ {
+  "id": "NIGHTUSDT::LONG::BoS::1791232200000",
+  "symbol": "NIGHTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.04777,
+  "sl": 0.045849999999999995,
+  "tp": 0.05197,
+  "tpSrc": "OB",
+  "slPct": 4.02,
+  "gainPct": 8.79,
+  "rr": 2.19,
+  "lev": 15,
+  "signalTime": 1791232200000,
+  "status": "pending",
+  "createdAt": 1791232868185
+ },
+ {
+  "id": "ZAMAUSDT::SHORT::ChoCh::1791232200000",
+  "symbol": "ZAMAUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.08314,
+  "sl": 0.08473,
+  "tp": 0.076,
+  "tpSrc": "OB",
+  "slPct": 1.91,
+  "gainPct": 8.59,
+  "rr": 4.49,
+  "lev": 25,
+  "signalTime": 1791232200000,
+  "status": "pending",
+  "createdAt": 1791232868185
  }
 ]

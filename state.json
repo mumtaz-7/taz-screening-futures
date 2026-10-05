@@ -1,6 +1,7 @@
 {
   "ready": [
-    "UMAUSDT::LONG::BoS"
+    "NIGHTUSDT::LONG::BoS",
+    "ZAMAUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-10-05T19:31:10.876Z"
+  "at": "2026-10-05T20:41:08.184Z"
 }
