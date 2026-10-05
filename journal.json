@@ -31349,12 +31349,15 @@
   "rr": 17.73,
   "lev": 25,
   "signalTime": 1791072000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791072053905,
   "fillTime": 1791072000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791215100000
  },
  {
   "id": "ARUSDT::LONG::BoS::1791072900000",
