@@ -31322,12 +31322,15 @@
   "rr": 2.28,
   "lev": 12,
   "signalTime": 1791062100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791062133557,
   "fillTime": 1791062100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791171000000
  },
  {
   "id": "GRAMUSDT::LONG::BoS::1791072000000",
@@ -31729,12 +31732,15 @@
   "rr": 4.56,
   "lev": 25,
   "signalTime": 1791149400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791149444538,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791166500000
+  "fillTime": 1791166500000,
+  "R": -1,
+  "resolvedTime": 1791171000000
  },
  {
   "id": "MAGICUSDT::LONG::ChoCh::1791160200000",
@@ -31799,5 +31805,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SANDUSDT::SHORT::ChoCh::1791171900000",
+  "symbol": "SANDUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.07284,
+  "sl": 0.07503000000000001,
+  "tp": 0.06694,
+  "tpSrc": "OB",
+  "slPct": 3.01,
+  "gainPct": 8.1,
+  "rr": 2.69,
+  "lev": 19,
+  "signalTime": 1791171900000,
+  "status": "pending",
+  "createdAt": 1791171934417
  }
 ]
