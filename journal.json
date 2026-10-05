@@ -31729,9 +31729,12 @@
   "rr": 4.56,
   "lev": 25,
   "signalTime": 1791149400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791149444538,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791166500000
  },
  {
   "id": "MAGICUSDT::LONG::ChoCh::1791160200000",
@@ -31790,7 +31793,11 @@
   "rr": 3.66,
   "lev": 16,
   "signalTime": 1791166500000,
-  "status": "pending",
-  "createdAt": 1791166534516
+  "status": "open",
+  "createdAt": 1791166534516,
+  "fillTime": 1791166500000,
+  "notified": [
+   "open"
+  ]
  }
 ]
