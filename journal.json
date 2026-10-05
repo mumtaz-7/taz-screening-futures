@@ -32120,9 +32120,13 @@
   "rr": 2.19,
   "lev": 15,
   "signalTime": 1791232200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791232868185,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791243000000
  },
  {
   "id": "ZAMAUSDT::SHORT::ChoCh::1791232200000",
