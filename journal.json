@@ -31931,9 +31931,12 @@
   "rr": 2.45,
   "lev": 20,
   "signalTime": 1791203400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791203444785,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791208800000
  },
  {
   "id": "ONEUSDT::SHORT::ChoCh::1791204300000",
