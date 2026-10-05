@@ -30476,12 +30476,15 @@
   "rr": 2.3,
   "lev": 16,
   "signalTime": 1790936100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790936140205,
   "fillTime": 1790936100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791184500000
  },
  {
   "id": "ENJUSDT::LONG::BoS::1790943300000",
