@@ -31916,5 +31916,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SANDUSDT::SHORT::BoS::1791203400000",
+  "symbol": "SANDUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.07216,
+  "sl": 0.07429000000000001,
+  "tp": 0.06694,
+  "tpSrc": "OB",
+  "slPct": 2.95,
+  "gainPct": 7.23,
+  "rr": 2.45,
+  "lev": 20,
+  "signalTime": 1791203400000,
+  "status": "pending",
+  "createdAt": 1791203444785
  }
 ]
