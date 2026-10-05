@@ -32069,12 +32069,15 @@
   "rr": 4.47,
   "lev": 11,
   "signalTime": 1791213300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791213335518,
   "fillTime": 1791213300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791224100000
  },
  {
   "id": "NOMUSDT::SHORT::BoS::1791220500000",

@@ -1,6 +1,7 @@
 {
   "ready": [
-    "NOMUSDT::SHORT::BoS"
+    "NOMUSDT::SHORT::BoS",
+    "UMAUSDT::LONG::BoS"
   ],
-  "at": "2026-10-05T18:15:37.438Z"
+  "at": "2026-10-05T18:30:45.393Z"
 }
