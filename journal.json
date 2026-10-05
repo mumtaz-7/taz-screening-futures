@@ -31775,5 +31775,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "PORTALUSDT::LONG::BoS::1791166500000",
+  "symbol": "PORTALUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01911,
+  "sl": 0.018405,
+  "tp": 0.02169,
+  "tpSrc": "WH",
+  "slPct": 3.69,
+  "gainPct": 13.5,
+  "rr": 3.66,
+  "lev": 16,
+  "signalTime": 1791166500000,
+  "status": "pending",
+  "createdAt": 1791166534516
  }
 ]
