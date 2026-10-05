@@ -31829,12 +31829,15 @@
   "rr": 2.69,
   "lev": 19,
   "signalTime": 1791171900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791171934417,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1791173700000
+  "fillTime": 1791173700000,
+  "R": 2.69,
+  "resolvedTime": 1791216000000
  },
  {
   "id": "BEAMXUSDT::LONG::ChoCh::1791180900000",
@@ -31934,12 +31937,15 @@
   "rr": 2.45,
   "lev": 20,
   "signalTime": 1791203400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791203444785,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1791208800000
+  "fillTime": 1791208800000,
+  "R": 2.45,
+  "resolvedTime": 1791216000000
  },
  {
   "id": "ONEUSDT::SHORT::ChoCh::1791204300000",
