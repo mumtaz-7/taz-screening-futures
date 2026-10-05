@@ -32036,9 +32036,12 @@
   "rr": 1.36,
   "lev": 6,
   "signalTime": 1791211500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791211537937,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791213300000
  },
  {
   "id": "GLMRUSDT::LONG::BoS::1791213300000",
@@ -32054,7 +32057,11 @@
   "rr": 4.47,
   "lev": 11,
   "signalTime": 1791213300000,
-  "status": "pending",
-  "createdAt": 1791213335518
+  "status": "open",
+  "createdAt": 1791213335518,
+  "fillTime": 1791213300000,
+  "notified": [
+   "open"
+  ]
  }
 ]
