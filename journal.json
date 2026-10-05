@@ -28634,12 +28634,15 @@
   "rr": 1.33,
   "lev": 11,
   "signalTime": 1790638200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790638241042,
   "fillTime": 1790638200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791232200000
  },
  {
   "id": "SKYUSDT::LONG::ChoCh::1790639100000",
@@ -32118,7 +32121,8 @@
   "lev": 15,
   "signalTime": 1791232200000,
   "status": "pending",
-  "createdAt": 1791232868185
+  "createdAt": 1791232868185,
+  "notified": []
  },
  {
   "id": "ZAMAUSDT::SHORT::ChoCh::1791232200000",
@@ -32134,7 +32138,30 @@
   "rr": 4.49,
   "lev": 25,
   "signalTime": 1791232200000,
+  "status": "loss",
+  "createdAt": 1791232868185,
+  "R": -1,
+  "fillTime": 1791232200000,
+  "resolvedTime": 1791233100000,
+  "notified": [
+   "loss"
+  ]
+ },
+ {
+  "id": "STRKUSDT::LONG::ChoCh::1791234000000",
+  "symbol": "STRKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.05307,
+  "sl": 0.051615,
+  "tp": 0.06086,
+  "tpSrc": "WH",
+  "slPct": 2.74,
+  "gainPct": 14.68,
+  "rr": 5.35,
+  "lev": 21,
+  "signalTime": 1791234000000,
   "status": "pending",
-  "createdAt": 1791232868185
+  "createdAt": 1791234357581
  }
 ]
