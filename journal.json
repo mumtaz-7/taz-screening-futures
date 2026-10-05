@@ -31829,5 +31829,22 @@
    "open"
   ],
   "fillTime": 1791173700000
+ },
+ {
+  "id": "BEAMXUSDT::LONG::ChoCh::1791180900000",
+  "symbol": "BEAMXUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.002567,
+  "sl": 0.002351,
+  "tp": 0.00305,
+  "tpSrc": "WH",
+  "slPct": 8.41,
+  "gainPct": 18.82,
+  "rr": 2.24,
+  "lev": 7,
+  "signalTime": 1791180900000,
+  "status": "pending",
+  "createdAt": 1791180935822
  }
 ]
