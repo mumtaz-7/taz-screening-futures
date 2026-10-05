@@ -31950,6 +31950,24 @@
   "lev": 17,
   "signalTime": 1791204300000,
   "status": "pending",
-  "createdAt": 1791204334913
+  "createdAt": 1791204334913,
+  "notified": []
+ },
+ {
+  "id": "QNTUSDT::LONG::BoS::1791205200000",
+  "symbol": "QNTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 258.32,
+  "sl": 246.065,
+  "tp": 297.73,
+  "tpSrc": "OB",
+  "slPct": 4.74,
+  "gainPct": 15.26,
+  "rr": 3.22,
+  "lev": 13,
+  "signalTime": 1791205200000,
+  "status": "pending",
+  "createdAt": 1791205250198
  }
 ]
