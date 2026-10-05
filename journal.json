@@ -31895,5 +31895,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GALAUSDT::SHORT::ChoCh::1791198900000",
+  "symbol": "GALAUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.002508,
+  "sl": 0.0025995000000000002,
+  "tp": 0.002264,
+  "tpSrc": "OB",
+  "slPct": 3.65,
+  "gainPct": 9.73,
+  "rr": 2.67,
+  "lev": 16,
+  "signalTime": 1791198900000,
+  "status": "pending",
+  "createdAt": 1791198935736
  }
 ]
