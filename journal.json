@@ -31799,12 +31799,15 @@
   "rr": 3.66,
   "lev": 16,
   "signalTime": 1791166500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791166534516,
   "fillTime": 1791166500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791171900000
  },
  {
   "id": "SANDUSDT::SHORT::ChoCh::1791171900000",
@@ -31821,6 +31824,7 @@
   "lev": 19,
   "signalTime": 1791171900000,
   "status": "pending",
-  "createdAt": 1791171934417
+  "createdAt": 1791171934417,
+  "notified": []
  }
 ]
