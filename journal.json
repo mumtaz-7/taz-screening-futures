@@ -32012,12 +32012,15 @@
   "rr": 3.56,
   "lev": 24,
   "signalTime": 1791210600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791210645407,
   "fillTime": 1791210600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791212400000
  },
  {
   "id": "OGNUSDT::LONG::BoS::1791211500000",
@@ -32036,5 +32039,22 @@
   "status": "pending",
   "createdAt": 1791211537937,
   "notified": []
+ },
+ {
+  "id": "GLMRUSDT::LONG::BoS::1791213300000",
+  "symbol": "GLMRUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01162,
+  "sl": 0.011008,
+  "tp": 0.014355,
+  "tpSrc": "WH",
+  "slPct": 5.27,
+  "gainPct": 23.54,
+  "rr": 4.47,
+  "lev": 11,
+  "signalTime": 1791213300000,
+  "status": "pending",
+  "createdAt": 1791213335518
  }
 ]
