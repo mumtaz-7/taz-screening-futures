@@ -31853,5 +31853,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ZROUSDT::LONG::BoS::1791189000000",
+  "symbol": "ZROUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1.944,
+  "sl": 1.8765,
+  "tp": 2.146,
+  "tpSrc": "WH",
+  "slPct": 3.47,
+  "gainPct": 10.39,
+  "rr": 2.99,
+  "lev": 17,
+  "signalTime": 1791189000000,
+  "status": "pending",
+  "createdAt": 1791189043016
  }
 ]
