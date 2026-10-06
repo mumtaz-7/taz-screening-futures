@@ -32443,5 +32443,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MAGICUSDT::LONG::ChoCh::1791324900000",
+  "symbol": "MAGICUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0684,
+  "sl": 0.06495000000000001,
+  "tp": 0.0732,
+  "tpSrc": "WH",
+  "slPct": 5.04,
+  "gainPct": 7.02,
+  "rr": 1.39,
+  "lev": 12,
+  "signalTime": 1791324900000,
+  "status": "pending",
+  "createdAt": 1791324936234
  }
 ]
