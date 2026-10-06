@@ -32190,6 +32190,24 @@
   "lev": 7,
   "signalTime": 1791247500000,
   "status": "pending",
-  "createdAt": 1791247537194
+  "createdAt": 1791247537194,
+  "notified": []
+ },
+ {
+  "id": "GTCUSDT::LONG::ChoCh::1791248400000",
+  "symbol": "GTCUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.19254,
+  "sl": 0.1779,
+  "tp": 0.24902,
+  "tpSrc": "WH",
+  "slPct": 7.6,
+  "gainPct": 29.33,
+  "rr": 3.86,
+  "lev": 8,
+  "signalTime": 1791248400000,
+  "status": "pending",
+  "createdAt": 1791248447805
  }
 ]
