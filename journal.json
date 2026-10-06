@@ -32419,9 +32419,13 @@
   "rr": 2.05,
   "lev": 7,
   "signalTime": 1791308700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791308736749,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791324900000
  },
  {
   "id": "DIAUSDT::LONG::BoS::1791314100000",
@@ -32459,6 +32463,7 @@
   "lev": 12,
   "signalTime": 1791324900000,
   "status": "pending",
-  "createdAt": 1791324936234
+  "createdAt": 1791324936234,
+  "notified": []
  }
 ]
