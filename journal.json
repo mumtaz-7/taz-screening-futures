@@ -32174,5 +32174,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ORCAUSDT::LONG::BoS::1791247500000",
+  "symbol": "ORCAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 2.298,
+  "sl": 2.0999999999999996,
+  "tp": 2.507,
+  "tpSrc": "WH",
+  "slPct": 8.62,
+  "gainPct": 9.09,
+  "rr": 1.06,
+  "lev": 7,
+  "signalTime": 1791247500000,
+  "status": "pending",
+  "createdAt": 1791247537194
  }
 ]
