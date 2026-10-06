@@ -32313,5 +32313,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BIOUSDT::LONG::BoS::1791280800000",
+  "symbol": "BIOUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.03146,
+  "sl": 0.030649999999999997,
+  "tp": 0.03378,
+  "tpSrc": "WH",
+  "slPct": 2.57,
+  "gainPct": 7.37,
+  "rr": 2.86,
+  "lev": 22,
+  "signalTime": 1791280800000,
+  "status": "pending",
+  "createdAt": 1791280852296
  }
 ]
