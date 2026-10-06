@@ -32211,12 +32211,15 @@
   "rr": 3.86,
   "lev": 8,
   "signalTime": 1791248400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791248447805,
   "fillTime": 1791248400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791265500000
  },
  {
   "id": "MOVRUSDT::LONG::ChoCh::1791249300000",
@@ -32258,5 +32261,22 @@
   "status": "pending",
   "createdAt": 1791264641624,
   "notified": []
+ },
+ {
+  "id": "MUBARAKUSDT::SHORT::BoS::1791266400000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0741,
+  "sl": 0.07650000000000001,
+  "tp": 0.06581,
+  "tpSrc": "OB",
+  "slPct": 3.24,
+  "gainPct": 11.19,
+  "rr": 3.45,
+  "lev": 18,
+  "signalTime": 1791266400000,
+  "status": "pending",
+  "createdAt": 1791266449191
  }
 ]
