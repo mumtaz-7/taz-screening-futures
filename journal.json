@@ -32261,9 +32261,13 @@
   "rr": 2.46,
   "lev": 5,
   "signalTime": 1791264600000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791264641624,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791270000000
  },
  {
   "id": "MUBARAKUSDT::SHORT::BoS::1791266400000",
