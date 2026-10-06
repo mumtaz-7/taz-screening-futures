@@ -32236,5 +32236,22 @@
   "notified": [
    "loss"
   ]
+ },
+ {
+  "id": "RLCUSDT::LONG::ChoCh::1791264600000",
+  "symbol": "RLCUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.733,
+  "sl": 0.6473499999999999,
+  "tp": 0.9434,
+  "tpSrc": "WH",
+  "slPct": 11.68,
+  "gainPct": 28.7,
+  "rr": 2.46,
+  "lev": 5,
+  "signalTime": 1791264600000,
+  "status": "pending",
+  "createdAt": 1791264641624
  }
 ]
