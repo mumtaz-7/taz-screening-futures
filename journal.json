@@ -32328,9 +32328,12 @@
   "rr": 2.86,
   "lev": 22,
   "signalTime": 1791280800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791280852296,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791296100000
  },
  {
   "id": "ETHFIUSDT::LONG::BoS::1791292500000",
