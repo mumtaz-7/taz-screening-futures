@@ -32289,5 +32289,22 @@
    "open"
   ],
   "fillTime": 1791267300000
+ },
+ {
+  "id": "ZAMAUSDT::SHORT::ChoCh::1791271800000",
+  "symbol": "ZAMAUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.08295,
+  "sl": 0.08658,
+  "tp": 0.076,
+  "tpSrc": "OB",
+  "slPct": 4.38,
+  "gainPct": 8.38,
+  "rr": 1.91,
+  "lev": 14,
+  "signalTime": 1791271800000,
+  "status": "pending",
+  "createdAt": 1791271842158
  }
 ]
