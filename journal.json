@@ -32416,5 +32416,22 @@
   "status": "pending",
   "createdAt": 1791308736749,
   "notified": []
+ },
+ {
+  "id": "DIAUSDT::LONG::BoS::1791314100000",
+  "symbol": "DIAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1741,
+  "sl": 0.1693,
+  "tp": 0.1974,
+  "tpSrc": "WH",
+  "slPct": 2.76,
+  "gainPct": 13.38,
+  "rr": 4.85,
+  "lev": 21,
+  "signalTime": 1791314100000,
+  "status": "pending",
+  "createdAt": 1791314136194
  }
 ]
