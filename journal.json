@@ -32331,5 +32331,22 @@
   "status": "pending",
   "createdAt": 1791280852296,
   "notified": []
+ },
+ {
+  "id": "ETHFIUSDT::LONG::BoS::1791292500000",
+  "symbol": "ETHFIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.7431,
+  "sl": 0.7176,
+  "tp": 0.8022,
+  "tpSrc": "OB",
+  "slPct": 3.43,
+  "gainPct": 7.95,
+  "rr": 2.32,
+  "lev": 17,
+  "signalTime": 1791292500000,
+  "status": "pending",
+  "createdAt": 1791292537317
  }
 ]
