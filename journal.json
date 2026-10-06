@@ -32207,7 +32207,28 @@
   "rr": 3.86,
   "lev": 8,
   "signalTime": 1791248400000,
+  "status": "open",
+  "createdAt": 1791248447805,
+  "fillTime": 1791248400000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "MOVRUSDT::LONG::ChoCh::1791249300000",
+  "symbol": "MOVRUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 2.03,
+  "sl": 1.9685000000000001,
+  "tp": 2.39,
+  "tpSrc": "WH",
+  "slPct": 3.03,
+  "gainPct": 17.73,
+  "rr": 5.85,
+  "lev": 19,
+  "signalTime": 1791249300000,
   "status": "pending",
-  "createdAt": 1791248447805
+  "createdAt": 1791249346843
  }
 ]
