@@ -32168,12 +32168,15 @@
   "rr": 5.35,
   "lev": 21,
   "signalTime": 1791234000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791234357581,
   "fillTime": 1791234000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791266400000
  },
  {
   "id": "ORCAUSDT::LONG::BoS::1791247500000",
@@ -32277,6 +32280,7 @@
   "lev": 18,
   "signalTime": 1791266400000,
   "status": "pending",
-  "createdAt": 1791266449191
+  "createdAt": 1791266449191,
+  "notified": []
  }
 ]
