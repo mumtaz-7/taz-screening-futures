@@ -32349,9 +32349,12 @@
   "rr": 2.32,
   "lev": 17,
   "signalTime": 1791292500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791292537317,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "PENGUUSDT::LONG::BoS::1791294300000",
@@ -32431,7 +32434,11 @@
   "rr": 4.85,
   "lev": 21,
   "signalTime": 1791314100000,
-  "status": "pending",
-  "createdAt": 1791314136194
+  "status": "open",
+  "createdAt": 1791314136194,
+  "fillTime": 1791314100000,
+  "notified": [
+   "open"
+  ]
  }
 ]
