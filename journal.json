@@ -28411,7 +28411,7 @@
   "rr": 2.56,
   "lev": 9,
   "signalTime": 1790613000000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1790613040794,
   "notified": [
    "open"
@@ -32711,12 +32711,15 @@
   "rr": 1.23,
   "lev": 4,
   "signalTime": 1791363600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791363652417,
   "fillTime": 1791363600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791389700000
  },
  {
   "id": "STRKUSDT::SHORT::ChoCh::1791363600000",
@@ -32817,12 +32820,15 @@
   "rr": 1.88,
   "lev": 13,
   "signalTime": 1791375300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791375337064,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1791379800000
+  "fillTime": 1791379800000,
+  "R": 1.88,
+  "resolvedTime": 1791389700000
  },
  {
   "id": "SANDUSDT::SHORT::ChoCh::1791375300000",
