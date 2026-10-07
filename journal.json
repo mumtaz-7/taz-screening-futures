@@ -32560,7 +32560,8 @@
   "lev": 25,
   "signalTime": 1791340200000,
   "status": "pending",
-  "createdAt": 1791340245092
+  "createdAt": 1791340245092,
+  "notified": []
  },
  {
   "id": "ORDIUSDT::SHORT::BoS::1791340200000",
@@ -32577,7 +32578,8 @@
   "lev": 25,
   "signalTime": 1791340200000,
   "status": "pending",
-  "createdAt": 1791340245092
+  "createdAt": 1791340245092,
+  "notified": []
  },
  {
   "id": "VTHOUSDT::SHORT::BoS::1791340200000",
@@ -32593,8 +32595,12 @@
   "rr": 1.75,
   "lev": 14,
   "signalTime": 1791340200000,
-  "status": "pending",
-  "createdAt": 1791340245092
+  "status": "open",
+  "createdAt": 1791340245092,
+  "fillTime": 1791340200000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "牛来USDT::SHORT::ChoCh::1791340200000",
@@ -32610,7 +32616,11 @@
   "rr": 1.65,
   "lev": 14,
   "signalTime": 1791340200000,
-  "status": "pending",
-  "createdAt": 1791340245092
+  "status": "open",
+  "createdAt": 1791340245092,
+  "fillTime": 1791340200000,
+  "notified": [
+   "open"
+  ]
  }
 ]
