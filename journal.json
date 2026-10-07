@@ -32748,5 +32748,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1791365400000
+ },
+ {
+  "id": "PROMUSDT::LONG::BoS::1791369000000",
+  "symbol": "PROMUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 5.556,
+  "sl": 5.265000000000001,
+  "tp": 6.543,
+  "tpSrc": "OB",
+  "slPct": 5.24,
+  "gainPct": 17.76,
+  "rr": 3.39,
+  "lev": 11,
+  "signalTime": 1791369000000,
+  "status": "pending",
+  "createdAt": 1791369045053
  }
 ]

@@ -1,8 +1,6 @@
 {
   "ready": [
-    "GLMRUSDT::LONG::BoS",
-    "GTCUSDT::LONG::BoS",
-    "STRKUSDT::SHORT::ChoCh"
+    "PROMUSDT::LONG::BoS"
   ],
-  "at": "2026-10-07T10:15:38.672Z"
+  "at": "2026-10-07T10:30:45.049Z"
 }
