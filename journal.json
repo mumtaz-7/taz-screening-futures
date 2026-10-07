@@ -32806,7 +32806,8 @@
   "lev": 13,
   "signalTime": 1791375300000,
   "status": "pending",
-  "createdAt": 1791375337064
+  "createdAt": 1791375337064,
+  "notified": []
  },
  {
   "id": "SANDUSDT::SHORT::ChoCh::1791375300000",
@@ -32822,7 +32823,11 @@
   "rr": 1.17,
   "lev": 9,
   "signalTime": 1791375300000,
-  "status": "pending",
-  "createdAt": 1791375337064
+  "status": "open",
+  "createdAt": 1791375337064,
+  "fillTime": 1791375300000,
+  "notified": [
+   "open"
+  ]
  }
 ]
