@@ -32641,11 +32641,14 @@
   "rr": 1.75,
   "lev": 7,
   "signalTime": 1791342900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791342936082,
   "fillTime": 1791342900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.75,
+  "resolvedTime": 1791351000000
  }
 ]
