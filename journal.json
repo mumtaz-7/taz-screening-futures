@@ -32675,5 +32675,39 @@
   "status": "pending",
   "createdAt": 1791357338730,
   "notified": []
+ },
+ {
+  "id": "GTCUSDT::LONG::BoS::1791363600000",
+  "symbol": "GTCUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.2078,
+  "sl": 0.17420000000000002,
+  "tp": 0.24902,
+  "tpSrc": "WH",
+  "slPct": 16.17,
+  "gainPct": 19.84,
+  "rr": 1.23,
+  "lev": 4,
+  "signalTime": 1791363600000,
+  "status": "pending",
+  "createdAt": 1791363652417
+ },
+ {
+  "id": "STRKUSDT::SHORT::ChoCh::1791363600000",
+  "symbol": "STRKUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.05102,
+  "sl": 0.05189,
+  "tp": 0.04297,
+  "tpSrc": "OB",
+  "slPct": 1.71,
+  "gainPct": 15.78,
+  "rr": 9.25,
+  "lev": 25,
+  "signalTime": 1791363600000,
+  "status": "pending",
+  "createdAt": 1791363652417
  }
 ]
