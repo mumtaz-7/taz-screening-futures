@@ -32732,9 +32732,12 @@
   "rr": 9.25,
   "lev": 25,
   "signalTime": 1791363600000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791363652417,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "GLMRUSDT::LONG::BoS::1791364500000",
@@ -32859,5 +32862,22 @@
   "status": "pending",
   "createdAt": 1791378056913,
   "notified": []
+ },
+ {
+  "id": "PARTIUSDT::LONG::ChoCh::1791387000000",
+  "symbol": "PARTIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0336,
+  "sl": 0.031200000000000002,
+  "tp": 0.0368,
+  "tpSrc": "WH",
+  "slPct": 7.14,
+  "gainPct": 9.52,
+  "rr": 1.33,
+  "lev": 8,
+  "signalTime": 1791387000000,
+  "status": "pending",
+  "createdAt": 1791387047340
  }
 ]
