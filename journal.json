@@ -32577,9 +32577,13 @@
   "rr": 5.75,
   "lev": 25,
   "signalTime": 1791340200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791340245092,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791345600000
  },
  {
   "id": "VTHOUSDT::SHORT::BoS::1791340200000",
