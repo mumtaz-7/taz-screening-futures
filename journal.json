@@ -28033,12 +28033,15 @@
   "rr": 2.16,
   "lev": 10,
   "signalTime": 1790580600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790580640683,
   "fillTime": 1790580600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.16,
+  "resolvedTime": 1791337500000
  },
  {
   "id": "JUVUSDT::LONG::BoS::1790582400000",
@@ -28336,12 +28339,15 @@
   "rr": 1.37,
   "lev": 7,
   "signalTime": 1790605800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1790605844993,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1790612100000
+  "fillTime": 1790612100000,
+  "R": 1.37,
+  "resolvedTime": 1791337500000
  },
  {
   "id": "RAREUSDT::SHORT::ChoCh::1790606700000",
@@ -32331,12 +32337,15 @@
   "rr": 2.86,
   "lev": 22,
   "signalTime": 1791280800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791280852296,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791296100000
+  "fillTime": 1791296100000,
+  "R": -1,
+  "resolvedTime": 1791337500000
  },
  {
   "id": "ETHFIUSDT::LONG::BoS::1791292500000",
