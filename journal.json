@@ -32790,5 +32790,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "METUSDT::LONG::ChoCh::1791375300000",
+  "symbol": "METUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.319,
+  "sl": 0.30415,
+  "tp": 0.3469,
+  "tpSrc": "WH",
+  "slPct": 4.66,
+  "gainPct": 8.75,
+  "rr": 1.88,
+  "lev": 13,
+  "signalTime": 1791375300000,
+  "status": "pending",
+  "createdAt": 1791375337064
+ },
+ {
+  "id": "SANDUSDT::SHORT::ChoCh::1791375300000",
+  "symbol": "SANDUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.07069,
+  "sl": 0.075655,
+  "tp": 0.0649,
+  "tpSrc": "WL",
+  "slPct": 7.02,
+  "gainPct": 8.19,
+  "rr": 1.17,
+  "lev": 9,
+  "signalTime": 1791375300000,
+  "status": "pending",
+  "createdAt": 1791375337064
  }
 ]
