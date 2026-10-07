@@ -32645,12 +32645,15 @@
   "rr": 1.65,
   "lev": 14,
   "signalTime": 1791340200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791340245092,
   "fillTime": 1791340200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.65,
+  "resolvedTime": 1791395100000
  },
  {
   "id": "GTCUSDT::LONG::ChoCh::1791342900000",
