@@ -30914,12 +30914,15 @@
   "rr": 5.21,
   "lev": 19,
   "signalTime": 1790996400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790996450449,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791018000000
+  "fillTime": 1791018000000,
+  "R": -1,
+  "resolvedTime": 1791379800000
  },
  {
   "id": "RESOLVUSDT::LONG::ChoCh::1790997300000",
@@ -31424,12 +31427,15 @@
   "rr": 14.77,
   "lev": 25,
   "signalTime": 1791076500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791076539192,
   "fillTime": 1791076500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791379800000
  },
  {
   "id": "QNTUSDT::LONG::BoS::1791078300000",
@@ -32808,9 +32814,12 @@
   "rr": 1.88,
   "lev": 13,
   "signalTime": 1791375300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791375337064,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791379800000
  },
  {
   "id": "SANDUSDT::SHORT::ChoCh::1791375300000",
