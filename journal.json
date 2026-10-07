@@ -32859,9 +32859,12 @@
   "rr": 4.76,
   "lev": 21,
   "signalTime": 1791378000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791378056913,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791387000000
  },
  {
   "id": "PARTIUSDT::LONG::ChoCh::1791387000000",
@@ -32877,7 +32880,11 @@
   "rr": 1.33,
   "lev": 8,
   "signalTime": 1791387000000,
-  "status": "pending",
-  "createdAt": 1791387047340
+  "status": "open",
+  "createdAt": 1791387047340,
+  "fillTime": 1791387000000,
+  "notified": [
+   "open"
+  ]
  }
 ]
