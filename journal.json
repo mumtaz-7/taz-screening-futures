@@ -32096,12 +32096,15 @@
   "rr": 1.36,
   "lev": 6,
   "signalTime": 1791211500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791211537937,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791213300000
+  "fillTime": 1791213300000,
+  "R": -1,
+  "resolvedTime": 1791367200000
  },
  {
   "id": "GLMRUSDT::LONG::BoS::1791213300000",
@@ -32678,9 +32681,12 @@
   "rr": 3.85,
   "lev": 24,
   "signalTime": 1791357300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791357338730,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791367200000
  },
  {
   "id": "GTCUSDT::LONG::BoS::1791363600000",
