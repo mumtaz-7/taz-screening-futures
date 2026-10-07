@@ -32838,12 +32838,15 @@
   "rr": 1.17,
   "lev": 9,
   "signalTime": 1791375300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791375337064,
   "fillTime": 1791375300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791387900000
  },
  {
   "id": "STRKUSDT::SHORT::BoS::1791378000000",
