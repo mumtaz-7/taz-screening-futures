@@ -32000,12 +32000,15 @@
   "rr": 2.86,
   "lev": 17,
   "signalTime": 1791204300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791204334913,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1791214200000
+  "fillTime": 1791214200000,
+  "R": 2.86,
+  "resolvedTime": 1791354600000
  },
  {
   "id": "QNTUSDT::LONG::BoS::1791205200000",
