@@ -32550,12 +32550,15 @@
   "rr": 1.09,
   "lev": 5,
   "signalTime": 1791335700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791335741028,
   "fillTime": 1791335700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791372600000
  },
  {
   "id": "OPUSDT::SHORT::BoS::1791340200000",
