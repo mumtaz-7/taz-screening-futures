@@ -32469,5 +32469,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1791328500000
+ },
+ {
+  "id": "FETUSDT::SHORT::BoS::1791333900000",
+  "symbol": "FETUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.2403,
+  "sl": 0.24675000000000002,
+  "tp": 0.2184,
+  "tpSrc": "OB",
+  "slPct": 2.68,
+  "gainPct": 9.11,
+  "rr": 3.4,
+  "lev": 22,
+  "signalTime": 1791333900000,
+  "status": "pending",
+  "createdAt": 1791333936991
  }
 ]
