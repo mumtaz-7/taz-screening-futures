@@ -32766,9 +32766,12 @@
   "rr": 3.39,
   "lev": 11,
   "signalTime": 1791369000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791369045053,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791378000000
  },
  {
   "id": "MOVRUSDT::LONG::BoS::1791369900000",
@@ -32845,6 +32848,7 @@
   "lev": 21,
   "signalTime": 1791378000000,
   "status": "pending",
-  "createdAt": 1791378056913
+  "createdAt": 1791378056913,
+  "notified": []
  }
 ]
