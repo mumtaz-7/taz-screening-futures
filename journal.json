@@ -32490,5 +32490,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "API3USDT::LONG::ChoCh::1791335700000",
+  "symbol": "API3USDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.359,
+  "sl": 0.31415000000000004,
+  "tp": 0.4077,
+  "tpSrc": "WH",
+  "slPct": 12.49,
+  "gainPct": 13.57,
+  "rr": 1.09,
+  "lev": 5,
+  "signalTime": 1791335700000,
+  "status": "pending",
+  "createdAt": 1791335741028
  }
 ]
