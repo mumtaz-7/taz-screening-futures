@@ -32898,5 +32898,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "METUSDT::LONG::BoS::1791393300000",
+  "symbol": "METUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.3363,
+  "sl": 0.30105000000000004,
+  "tp": 0.3742,
+  "tpSrc": "WH",
+  "slPct": 10.48,
+  "gainPct": 11.27,
+  "rr": 1.08,
+  "lev": 6,
+  "signalTime": 1791393300000,
+  "status": "pending",
+  "createdAt": 1791393338483
  }
 ]
