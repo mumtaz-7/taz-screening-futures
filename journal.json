@@ -32781,12 +32781,15 @@
   "rr": 3.39,
   "lev": 11,
   "signalTime": 1791369000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791369045053,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791378000000
+  "fillTime": 1791378000000,
+  "R": -1,
+  "resolvedTime": 1791393300000
  },
  {
   "id": "MOVRUSDT::LONG::BoS::1791369900000",
@@ -32913,7 +32916,12 @@
   "rr": 1.08,
   "lev": 6,
   "signalTime": 1791393300000,
-  "status": "pending",
-  "createdAt": 1791393338483
+  "status": "void",
+  "createdAt": 1791393338483,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791393300000,
+  "notified": [
+   "void"
+  ]
  }
 ]
