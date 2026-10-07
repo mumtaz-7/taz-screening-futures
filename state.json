@@ -1,7 +1,6 @@
 {
   "ready": [
-    "METUSDT::LONG::ChoCh",
-    "SANDUSDT::SHORT::ChoCh"
+    "STRKUSDT::SHORT::BoS"
   ],
-  "at": "2026-10-07T12:45:36.615Z"
+  "at": "2026-10-07T13:00:56.912Z"
 }

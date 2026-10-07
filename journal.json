@@ -32829,5 +32829,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "STRKUSDT::SHORT::BoS::1791378000000",
+  "symbol": "STRKUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0494,
+  "sl": 0.050749999999999997,
+  "tp": 0.04297,
+  "tpSrc": "OB",
+  "slPct": 2.73,
+  "gainPct": 13.02,
+  "rr": 4.76,
+  "lev": 21,
+  "signalTime": 1791378000000,
+  "status": "pending",
+  "createdAt": 1791378056913
  }
 ]
