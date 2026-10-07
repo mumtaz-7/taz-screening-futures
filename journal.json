@@ -32544,5 +32544,73 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "OPUSDT::SHORT::BoS::1791340200000",
+  "symbol": "OPUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1298,
+  "sl": 0.13190000000000002,
+  "tp": 0.1206,
+  "tpSrc": "WL",
+  "slPct": 1.62,
+  "gainPct": 7.09,
+  "rr": 4.38,
+  "lev": 25,
+  "signalTime": 1791340200000,
+  "status": "pending",
+  "createdAt": 1791340245092
+ },
+ {
+  "id": "ORDIUSDT::SHORT::BoS::1791340200000",
+  "symbol": "ORDIUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 4.578,
+  "sl": 4.635,
+  "tp": 4.25,
+  "tpSrc": "WL",
+  "slPct": 1.25,
+  "gainPct": 7.16,
+  "rr": 5.75,
+  "lev": 25,
+  "signalTime": 1791340200000,
+  "status": "pending",
+  "createdAt": 1791340245092
+ },
+ {
+  "id": "VTHOUSDT::SHORT::BoS::1791340200000",
+  "symbol": "VTHOUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.000713,
+  "sl": 0.0007444999999999999,
+  "tp": 0.000658,
+  "tpSrc": "OB",
+  "slPct": 4.42,
+  "gainPct": 7.71,
+  "rr": 1.75,
+  "lev": 14,
+  "signalTime": 1791340200000,
+  "status": "pending",
+  "createdAt": 1791340245092
+ },
+ {
+  "id": "牛来USDT::SHORT::ChoCh::1791340200000",
+  "symbol": "牛来USDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.07822,
+  "sl": 0.081595,
+  "tp": 0.07266,
+  "tpSrc": "WL",
+  "slPct": 4.31,
+  "gainPct": 7.11,
+  "rr": 1.65,
+  "lev": 14,
+  "signalTime": 1791340200000,
+  "status": "pending",
+  "createdAt": 1791340245092
  }
 ]
