@@ -31955,12 +31955,15 @@
   "rr": 2.67,
   "lev": 16,
   "signalTime": 1791198900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791198935736,
   "fillTime": 1791198900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.67,
+  "resolvedTime": 1791365400000
  },
  {
   "id": "SANDUSDT::SHORT::BoS::1791203400000",
@@ -32024,12 +32027,15 @@
   "rr": 3.22,
   "lev": 13,
   "signalTime": 1791205200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791205250198,
   "fillTime": 1791205200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791365400000
  },
  {
   "id": "UMAUSDT::LONG::BoS::1791206100000",
@@ -32729,8 +32735,12 @@
   "rr": 1.08,
   "lev": 5,
   "signalTime": 1791364500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791364537990,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791365400000
  }
 ]
