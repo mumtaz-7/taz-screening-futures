@@ -32764,6 +32764,24 @@
   "lev": 11,
   "signalTime": 1791369000000,
   "status": "pending",
-  "createdAt": 1791369045053
+  "createdAt": 1791369045053,
+  "notified": []
+ },
+ {
+  "id": "MOVRUSDT::LONG::BoS::1791369900000",
+  "symbol": "MOVRUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 2.002,
+  "sl": 1.7935,
+  "tp": 2.971,
+  "tpSrc": "OB",
+  "slPct": 10.41,
+  "gainPct": 48.4,
+  "rr": 4.65,
+  "lev": 6,
+  "signalTime": 1791369900000,
+  "status": "pending",
+  "createdAt": 1791369937350
  }
 ]
