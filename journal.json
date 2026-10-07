@@ -32562,9 +32562,13 @@
   "rr": 4.38,
   "lev": 25,
   "signalTime": 1791340200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791340245092,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791360000000
  },
  {
   "id": "ORDIUSDT::SHORT::BoS::1791340200000",
