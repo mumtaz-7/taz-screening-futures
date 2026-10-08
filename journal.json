@@ -33186,5 +33186,22 @@
   "status": "pending",
   "createdAt": 1791432934219,
   "notified": []
+ },
+ {
+  "id": "MOVRUSDT::LONG::ChoCh::1791434700000",
+  "symbol": "MOVRUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1.989,
+  "sl": 1.9154999999999998,
+  "tp": 2.903,
+  "tpSrc": "OB",
+  "slPct": 3.7,
+  "gainPct": 45.95,
+  "rr": 12.44,
+  "lev": 16,
+  "signalTime": 1791434700000,
+  "status": "pending",
+  "createdAt": 1791434734836
  }
 ]
