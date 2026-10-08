@@ -33253,6 +33253,24 @@
   "lev": 5,
   "signalTime": 1791445500000,
   "status": "pending",
-  "createdAt": 1791445537230
+  "createdAt": 1791445537230,
+  "notified": []
+ },
+ {
+  "id": "MANAUSDT::SHORT::BoS::1791446400000",
+  "symbol": "MANAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0994,
+  "sl": 0.10269999999999999,
+  "tp": 0.0894,
+  "tpSrc": "OB",
+  "slPct": 3.32,
+  "gainPct": 10.06,
+  "rr": 3.03,
+  "lev": 18,
+  "signalTime": 1791446400000,
+  "status": "pending",
+  "createdAt": 1791446452401
  }
 ]
