@@ -33382,12 +33382,15 @@
   "rr": 2.24,
   "lev": 9,
   "signalTime": 1791465300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791465332228,
   "fillTime": 1791465300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791470700000
  },
  {
   "id": "SKLUSDT::LONG::BoS::1791468000000",
@@ -33403,8 +33406,12 @@
   "rr": 4.22,
   "lev": 15,
   "signalTime": 1791468000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791468050451,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791470700000
  }
 ]
