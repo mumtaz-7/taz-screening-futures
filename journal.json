@@ -33013,5 +33013,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "API3USDT::LONG::ChoCh::1791419400000",
+  "symbol": "API3USDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.3125,
+  "sl": 0.308,
+  "tp": 0.35135,
+  "tpSrc": "EQ",
+  "slPct": 1.44,
+  "gainPct": 12.43,
+  "rr": 8.63,
+  "lev": 25,
+  "signalTime": 1791419400000,
+  "status": "pending",
+  "createdAt": 1791419444117
+ },
+ {
+  "id": "ORCAUSDT::LONG::ChoCh::1791419400000",
+  "symbol": "ORCAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 2.95,
+  "sl": 2.617,
+  "tp": 3.335,
+  "tpSrc": "WH",
+  "slPct": 11.29,
+  "gainPct": 13.05,
+  "rr": 1.16,
+  "lev": 5,
+  "signalTime": 1791419400000,
+  "status": "pending",
+  "createdAt": 1791419444117
  }
 ]
