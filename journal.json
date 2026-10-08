@@ -33082,12 +33082,15 @@
   "rr": 6.84,
   "lev": 20,
   "signalTime": 1791421200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791421250440,
   "fillTime": 1791421200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791447300000
  },
  {
   "id": "SANDUSDT::LONG::ChoCh::1791421200000",
