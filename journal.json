@@ -33555,11 +33555,14 @@
   "rr": 6.02,
   "lev": 25,
   "signalTime": 1791494100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791494131466,
   "fillTime": 1791494100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791496800000
  }
 ]
