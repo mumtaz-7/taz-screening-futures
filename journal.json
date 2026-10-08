@@ -33198,9 +33198,12 @@
   "rr": 2.81,
   "lev": 14,
   "signalTime": 1791432900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791432934219,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "MOVRUSDT::LONG::ChoCh::1791434700000",
