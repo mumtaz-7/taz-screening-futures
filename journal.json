@@ -33267,9 +33267,12 @@
   "rr": 1.06,
   "lev": 5,
   "signalTime": 1791445500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791445537230,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791456300000
  },
  {
   "id": "MANAUSDT::SHORT::BoS::1791446400000",
@@ -33337,5 +33340,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "PUMPUSDT::SHORT::ChoCh::1791457200000",
+  "symbol": "PUMPUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.005917,
+  "sl": 0.0063415,
+  "tp": 0.005484,
+  "tpSrc": "OB",
+  "slPct": 7.17,
+  "gainPct": 7.32,
+  "rr": 1.02,
+  "lev": 8,
+  "signalTime": 1791457200000,
+  "status": "pending",
+  "createdAt": 1791457243844
  }
 ]
