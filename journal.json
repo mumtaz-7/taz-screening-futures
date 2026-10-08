@@ -33513,8 +33513,12 @@
   "rr": 1.04,
   "lev": 4,
   "signalTime": 1791487800000,
-  "status": "pending",
-  "createdAt": 1791487837222
+  "status": "open",
+  "createdAt": 1791487837222,
+  "fillTime": 1791487800000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "PYTHUSDT::LONG::ChoCh::1791487800000",
@@ -33531,6 +33535,7 @@
   "lev": 7,
   "signalTime": 1791487800000,
   "status": "pending",
-  "createdAt": 1791487837222
+  "createdAt": 1791487837222,
+  "notified": []
  }
 ]
