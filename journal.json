@@ -33028,8 +33028,12 @@
   "rr": 8.63,
   "lev": 25,
   "signalTime": 1791419400000,
-  "status": "pending",
-  "createdAt": 1791419444117
+  "status": "open",
+  "createdAt": 1791419444117,
+  "fillTime": 1791419400000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "ORCAUSDT::LONG::ChoCh::1791419400000",
@@ -33046,6 +33050,7 @@
   "lev": 5,
   "signalTime": 1791419400000,
   "status": "pending",
-  "createdAt": 1791419444117
+  "createdAt": 1791419444117,
+  "notified": []
  }
 ]
