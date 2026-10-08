@@ -29022,12 +29022,15 @@
   "rr": 1.67,
   "lev": 9,
   "signalTime": 1790703900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790703935485,
   "fillTime": 1790703900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791472500000
  },
  {
   "id": "QIUSDT::LONG::ChoCh::1790713800000",
@@ -30172,12 +30175,15 @@
   "rr": 4.05,
   "lev": 11,
   "signalTime": 1790875800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1790875843237,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1790877600000
+  "fillTime": 1790877600000,
+  "R": -1,
+  "resolvedTime": 1791472500000
  },
  {
   "id": "SUIUSDT::LONG::ChoCh::1790881200000",
@@ -32547,12 +32553,15 @@
   "rr": 3.4,
   "lev": 22,
   "signalTime": 1791333900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791333936991,
   "fillTime": 1791333900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.4,
+  "resolvedTime": 1791472500000
  },
  {
   "id": "API3USDT::LONG::ChoCh::1791335700000",
@@ -32823,12 +32832,15 @@
   "rr": 4.65,
   "lev": 6,
   "signalTime": 1791369900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791369937350,
   "fillTime": 1791369900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791472500000
  },
  {
   "id": "METUSDT::LONG::ChoCh::1791375300000",
@@ -33004,12 +33016,15 @@
   "rr": 1.84,
   "lev": 9,
   "signalTime": 1791409500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791409536714,
   "fillTime": 1791409500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791472500000
  },
  {
   "id": "GTCUSDT::LONG::ChoCh::1791413100000",
@@ -33364,9 +33379,13 @@
   "rr": 1.02,
   "lev": 8,
   "signalTime": 1791457200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791457243844,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791472500000
  },
  {
   "id": "AEVOUSDT::LONG::BoS::1791465300000",
@@ -33413,5 +33432,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1791470700000
+ },
+ {
+  "id": "NMRUSDT::SHORT::BoS::1791473400000",
+  "symbol": "NMRUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 13.77,
+  "sl": 14.79,
+  "tp": 11.85,
+  "tpSrc": "OB",
+  "slPct": 7.41,
+  "gainPct": 13.94,
+  "rr": 1.88,
+  "lev": 8,
+  "signalTime": 1791473400000,
+  "status": "pending",
+  "createdAt": 1791473440391
  }
 ]
