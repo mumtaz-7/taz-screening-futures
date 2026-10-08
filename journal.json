@@ -33165,5 +33165,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PUMPUSDT::SHORT::ChoCh::1791432900000",
+  "symbol": "PUMPUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.006212,
+  "sl": 0.0064715,
+  "tp": 0.005484,
+  "tpSrc": "OB",
+  "slPct": 4.18,
+  "gainPct": 11.72,
+  "rr": 2.81,
+  "lev": 14,
+  "signalTime": 1791432900000,
+  "status": "pending",
+  "createdAt": 1791432934219
  }
 ]
