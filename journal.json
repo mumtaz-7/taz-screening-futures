@@ -33498,5 +33498,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CTSIUSDT::LONG::BoS::1791487800000",
+  "symbol": "CTSIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.03696,
+  "sl": 0.03138,
+  "tp": 0.04277,
+  "tpSrc": "WH",
+  "slPct": 15.1,
+  "gainPct": 15.72,
+  "rr": 1.04,
+  "lev": 4,
+  "signalTime": 1791487800000,
+  "status": "pending",
+  "createdAt": 1791487837222
+ },
+ {
+  "id": "PYTHUSDT::LONG::ChoCh::1791487800000",
+  "symbol": "PYTHUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.07748,
+  "sl": 0.07075999999999999,
+  "tp": 0.08603,
+  "tpSrc": "WH",
+  "slPct": 8.67,
+  "gainPct": 11.04,
+  "rr": 1.27,
+  "lev": 7,
+  "signalTime": 1791487800000,
+  "status": "pending",
+  "createdAt": 1791487837222
  }
 ]
