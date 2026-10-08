@@ -33306,12 +33306,15 @@
   "rr": 5.32,
   "lev": 16,
   "signalTime": 1791450900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791450943712,
   "fillTime": 1791450900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791455400000
  },
  {
   "id": "PROMUSDT::SHORT::ChoCh::1791450900000",
