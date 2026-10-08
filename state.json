@@ -1,7 +1,9 @@
 {
   "ready": [
     "API3USDT::LONG::ChoCh",
-    "ORCAUSDT::LONG::ChoCh"
+    "ORCAUSDT::LONG::ChoCh",
+    "PROMUSDT::LONG::BoS",
+    "SANDUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-08T00:45:36.628Z"
+  "at": "2026-10-08T01:00:50.431Z"
 }

@@ -33052,5 +33052,39 @@
   "status": "pending",
   "createdAt": 1791419444117,
   "notified": []
+ },
+ {
+  "id": "PROMUSDT::LONG::BoS::1791421200000",
+  "symbol": "PROMUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 5.476,
+  "sl": 5.32,
+  "tp": 6.543,
+  "tpSrc": "OB",
+  "slPct": 2.85,
+  "gainPct": 19.49,
+  "rr": 6.84,
+  "lev": 20,
+  "signalTime": 1791421200000,
+  "status": "pending",
+  "createdAt": 1791421250440
+ },
+ {
+  "id": "SANDUSDT::LONG::ChoCh::1791421200000",
+  "symbol": "SANDUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.07892,
+  "sl": 0.075665,
+  "tp": 0.08806,
+  "tpSrc": "WH",
+  "slPct": 4.12,
+  "gainPct": 11.58,
+  "rr": 2.81,
+  "lev": 14,
+  "signalTime": 1791421200000,
+  "status": "pending",
+  "createdAt": 1791421250440
  }
 ]
