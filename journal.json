@@ -32971,12 +32971,15 @@
   "rr": 1.75,
   "lev": 10,
   "signalTime": 1791405000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791405043994,
   "fillTime": 1791405000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.75,
+  "resolvedTime": 1791441900000
  },
  {
   "id": "GLMRUSDT::LONG::BoS::1791409500000",
@@ -33204,12 +33207,15 @@
   "rr": 12.44,
   "lev": 16,
   "signalTime": 1791434700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791434734836,
   "fillTime": 1791434700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791441900000
  },
  {
   "id": "STRKUSDT::SHORT::ChoCh::1791439200000",
