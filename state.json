@@ -1,6 +1,7 @@
 {
   "ready": [
+    "AUDIOUSDT::LONG::BoS",
     "NMRUSDT::SHORT::BoS"
   ],
-  "at": "2026-10-08T15:45:37.300Z"
+  "at": "2026-10-08T16:00:46.520Z"
 }
