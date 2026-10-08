@@ -33028,12 +33028,15 @@
   "rr": 8.63,
   "lev": 25,
   "signalTime": 1791419400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791419444117,
   "fillTime": 1791419400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791421200000
  },
  {
   "id": "ORCAUSDT::LONG::ChoCh::1791419400000",
@@ -33067,8 +33070,12 @@
   "rr": 6.84,
   "lev": 20,
   "signalTime": 1791421200000,
-  "status": "pending",
-  "createdAt": 1791421250440
+  "status": "open",
+  "createdAt": 1791421250440,
+  "fillTime": 1791421200000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "SANDUSDT::LONG::ChoCh::1791421200000",
@@ -33084,7 +33091,13 @@
   "rr": 2.81,
   "lev": 14,
   "signalTime": 1791421200000,
-  "status": "pending",
-  "createdAt": 1791421250440
+  "status": "loss",
+  "createdAt": 1791421250440,
+  "R": -1,
+  "fillTime": 1791421200000,
+  "resolvedTime": 1791421200000,
+  "notified": [
+   "loss"
+  ]
  }
 ]
