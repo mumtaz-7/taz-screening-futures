@@ -32630,12 +32630,15 @@
   "rr": 1.75,
   "lev": 14,
   "signalTime": 1791340200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791340245092,
   "fillTime": 1791340200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.75,
+  "resolvedTime": 1791438300000
  },
  {
   "id": "牛来USDT::SHORT::ChoCh::1791340200000",
@@ -33207,5 +33210,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "STRKUSDT::SHORT::ChoCh::1791439200000",
+  "symbol": "STRKUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.04862,
+  "sl": 0.050225,
+  "tp": 0.04297,
+  "tpSrc": "OB",
+  "slPct": 3.3,
+  "gainPct": 11.62,
+  "rr": 3.52,
+  "lev": 18,
+  "signalTime": 1791439200000,
+  "status": "pending",
+  "createdAt": 1791439250155
  }
 ]
