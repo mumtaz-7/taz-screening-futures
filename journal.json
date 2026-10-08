@@ -33388,5 +33388,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SKLUSDT::LONG::BoS::1791468000000",
+  "symbol": "SKLUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00453,
+  "sl": 0.00435,
+  "tp": 0.00529,
+  "tpSrc": "WH",
+  "slPct": 3.97,
+  "gainPct": 16.78,
+  "rr": 4.22,
+  "lev": 15,
+  "signalTime": 1791468000000,
+  "status": "pending",
+  "createdAt": 1791468050451
  }
 ]
