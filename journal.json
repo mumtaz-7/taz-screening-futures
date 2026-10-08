@@ -33288,5 +33288,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ORCAUSDT::LONG::BoS::1791450900000",
+  "symbol": "ORCAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 2.776,
+  "sl": 2.6710000000000003,
+  "tp": 3.335,
+  "tpSrc": "WH",
+  "slPct": 3.78,
+  "gainPct": 20.14,
+  "rr": 5.32,
+  "lev": 16,
+  "signalTime": 1791450900000,
+  "status": "pending",
+  "createdAt": 1791450943712
+ },
+ {
+  "id": "PROMUSDT::SHORT::ChoCh::1791450900000",
+  "symbol": "PROMUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 5.479,
+  "sl": 5.602,
+  "tp": 4.906,
+  "tpSrc": "WL",
+  "slPct": 2.24,
+  "gainPct": 10.46,
+  "rr": 4.66,
+  "lev": 25,
+  "signalTime": 1791450900000,
+  "status": "pending",
+  "createdAt": 1791450943712
  }
 ]
