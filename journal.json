@@ -32886,12 +32886,15 @@
   "rr": 4.76,
   "lev": 21,
   "signalTime": 1791378000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791378056913,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791387000000
+  "fillTime": 1791387000000,
+  "R": -1,
+  "resolvedTime": 1791448200000
  },
  {
   "id": "PARTIUSDT::LONG::ChoCh::1791387000000",
@@ -33153,9 +33156,12 @@
   "rr": 3.29,
   "lev": 25,
   "signalTime": 1791426600000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791426647160,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "NMRUSDT::SHORT::ChoCh::1791428400000",
@@ -33234,12 +33240,15 @@
   "rr": 3.52,
   "lev": 18,
   "signalTime": 1791439200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791439250155,
   "fillTime": 1791439200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791448200000
  },
  {
   "id": "METUSDT::LONG::ChoCh::1791445500000",
