@@ -33144,5 +33144,22 @@
   "status": "pending",
   "createdAt": 1791426647160,
   "notified": []
+ },
+ {
+  "id": "NMRUSDT::SHORT::ChoCh::1791428400000",
+  "symbol": "NMRUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 14.57,
+  "sl": 16.325,
+  "tp": 11.85,
+  "tpSrc": "OB",
+  "slPct": 12.05,
+  "gainPct": 18.67,
+  "rr": 1.55,
+  "lev": 5,
+  "signalTime": 1791428400000,
+  "status": "pending",
+  "createdAt": 1791428450304
  }
 ]
