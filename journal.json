@@ -33117,11 +33117,31 @@
   "rr": 3.81,
   "lev": 13,
   "signalTime": 1791423000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791423043752,
   "fillTime": 1791423000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791425700000
+ },
+ {
+  "id": "MANAUSDT::SHORT::ChoCh::1791426600000",
+  "symbol": "MANAUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.103,
+  "sl": 0.1054,
+  "tp": 0.0951,
+  "tpSrc": "WL",
+  "slPct": 2.33,
+  "gainPct": 7.67,
+  "rr": 3.29,
+  "lev": 25,
+  "signalTime": 1791426600000,
+  "status": "pending",
+  "createdAt": 1791426647160
  }
 ]
