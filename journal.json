@@ -33052,9 +33052,12 @@
   "rr": 1.16,
   "lev": 5,
   "signalTime": 1791419400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791419444117,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791422100000
  },
  {
   "id": "PROMUSDT::LONG::BoS::1791421200000",
@@ -33099,5 +33102,22 @@
   "notified": [
    "loss"
   ]
+ },
+ {
+  "id": "RLCUSDT::SHORT::ChoCh::1791423000000",
+  "symbol": "RLCUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.6714,
+  "sl": 0.702,
+  "tp": 0.5547,
+  "tpSrc": "OB",
+  "slPct": 4.56,
+  "gainPct": 17.38,
+  "rr": 3.81,
+  "lev": 13,
+  "signalTime": 1791423000000,
+  "status": "pending",
+  "createdAt": 1791423043752
  }
 ]
