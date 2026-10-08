@@ -31478,12 +31478,15 @@
   "rr": 4.23,
   "lev": 12,
   "signalTime": 1791082800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791082847352,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791101700000
+  "fillTime": 1791101700000,
+  "R": -1,
+  "resolvedTime": 1791466200000
  },
  {
   "id": "AXSUSDT::LONG::BoS::1791088200000",
