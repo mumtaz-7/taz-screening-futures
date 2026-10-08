@@ -33364,5 +33364,22 @@
   "status": "pending",
   "createdAt": 1791457243844,
   "notified": []
+ },
+ {
+  "id": "AEVOUSDT::LONG::BoS::1791465300000",
+  "symbol": "AEVOUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0278,
+  "sl": 0.025865,
+  "tp": 0.03213,
+  "tpSrc": "WH",
+  "slPct": 6.96,
+  "gainPct": 15.58,
+  "rr": 2.24,
+  "lev": 9,
+  "signalTime": 1791465300000,
+  "status": "pending",
+  "createdAt": 1791465332228
  }
 ]
