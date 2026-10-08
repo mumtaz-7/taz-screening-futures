@@ -32057,12 +32057,15 @@
   "rr": 2.06,
   "lev": 8,
   "signalTime": 1791206100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791206134674,
   "fillTime": 1791206100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791432900000
  },
  {
   "id": "NEARUSDT::LONG::ChoCh::1791210600000",
@@ -33181,6 +33184,7 @@
   "lev": 14,
   "signalTime": 1791432900000,
   "status": "pending",
-  "createdAt": 1791432934219
+  "createdAt": 1791432934219,
+  "notified": []
  }
 ]
