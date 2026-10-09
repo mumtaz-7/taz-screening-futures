@@ -33537,9 +33537,12 @@
   "rr": 1.27,
   "lev": 7,
   "signalTime": 1791487800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791487837222,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "JSTUSDT::SHORT::BoS::1791494100000",
