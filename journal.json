@@ -29476,7 +29476,7 @@
   "rr": 2.12,
   "lev": 8,
   "signalTime": 1790778600000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1790778644484,
   "fillTime": 1790778600000,
   "notified": [
@@ -33962,7 +33962,12 @@
   "rr": 2.37,
   "lev": 8,
   "signalTime": 1791555300000,
-  "status": "pending",
-  "createdAt": 1791555335563
+  "status": "void",
+  "createdAt": 1791555335563,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791555300000,
+  "notified": [
+   "void"
+  ]
  }
 ]
