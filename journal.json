@@ -33920,9 +33920,12 @@
   "rr": 2.12,
   "lev": 7,
   "signalTime": 1791547200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791547244190,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791554400000
  },
  {
   "id": "ZECUSDT::SHORT::ChoCh::1791553500000",
@@ -33944,5 +33947,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "RADUSDT::LONG::BoS::1791555300000",
+  "symbol": "RADUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.318,
+  "sl": 0.294,
+  "tp": 0.375,
+  "tpSrc": "WH",
+  "slPct": 7.55,
+  "gainPct": 17.92,
+  "rr": 2.37,
+  "lev": 8,
+  "signalTime": 1791555300000,
+  "status": "pending",
+  "createdAt": 1791555335563
  }
 ]
