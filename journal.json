@@ -33702,12 +33702,15 @@
   "rr": 2.45,
   "lev": 14,
   "signalTime": 1791516600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791516637423,
   "fillTime": 1791516600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791566100000
  },
  {
   "id": "OGNUSDT::LONG::ChoCh::1791519300000",
