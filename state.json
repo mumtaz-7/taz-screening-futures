@@ -1,10 +1,7 @@
 {
   "ready": [
-    "ACEUSDT::LONG::BoS",
-    "MAGICUSDT::LONG::BoS",
-    "METUSDT::LONG::ChoCh",
-    "NIGHTUSDT::SHORT::BoS",
-    "PROMUSDT::LONG::BoS"
+    "KAIAUSDT::LONG::ChoCh",
+    "NIGHTUSDT::SHORT::BoS"
   ],
-  "at": "2026-10-09T08:00:41.218Z"
+  "at": "2026-10-09T08:15:33.429Z"
 }

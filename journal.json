@@ -33297,12 +33297,15 @@
   "rr": 1.06,
   "lev": 5,
   "signalTime": 1791445500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791445537230,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791456300000
+  "fillTime": 1791456300000,
+  "R": -1,
+  "resolvedTime": 1791532800000
  },
  {
   "id": "MANAUSDT::SHORT::BoS::1791446400000",
@@ -33720,12 +33723,15 @@
   "rr": 1.88,
   "lev": 6,
   "signalTime": 1791519300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791519330985,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791521100000
+  "fillTime": 1791521100000,
+  "R": -1,
+  "resolvedTime": 1791532800000
  },
  {
   "id": "SKLUSDT::LONG::BoS::1791520200000",
