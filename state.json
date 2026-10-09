@@ -1,6 +1,8 @@
 {
   "ready": [
+    "ACEUSDT::LONG::BoS",
+    "PROMUSDT::LONG::BoS",
     "RLCUSDT::LONG::BoS"
   ],
-  "at": "2026-10-09T06:30:37.005Z"
+  "at": "2026-10-09T06:45:32.812Z"
 }
