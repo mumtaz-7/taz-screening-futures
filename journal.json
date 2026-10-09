@@ -33630,5 +33630,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PROMUSDT::LONG::BoS::1791514800000",
+  "symbol": "PROMUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 5.217,
+  "sl": 5.0715,
+  "tp": 6.025,
+  "tpSrc": "OB",
+  "slPct": 2.79,
+  "gainPct": 15.49,
+  "rr": 5.55,
+  "lev": 21,
+  "signalTime": 1791514800000,
+  "status": "pending",
+  "createdAt": 1791514843048
+ },
+ {
+  "id": "RLCUSDT::LONG::BoS::1791514800000",
+  "symbol": "RLCUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.9156,
+  "sl": 0.8097,
+  "tp": 1.0845,
+  "tpSrc": "WH",
+  "slPct": 11.57,
+  "gainPct": 18.45,
+  "rr": 1.59,
+  "lev": 5,
+  "signalTime": 1791514800000,
+  "status": "pending",
+  "createdAt": 1791514843048
  }
 ]
