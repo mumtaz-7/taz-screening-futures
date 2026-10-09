@@ -33582,12 +33582,15 @@
   "rr": 4.93,
   "lev": 23,
   "signalTime": 1791504000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791504045781,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791506700000
+  "fillTime": 1791506700000,
+  "R": -1,
+  "resolvedTime": 1791513000000
  },
  {
   "id": "HEMIUSDT::LONG::BoS::1791508500000",
