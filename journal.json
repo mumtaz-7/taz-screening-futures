@@ -33612,9 +33612,12 @@
   "rr": 9.92,
   "lev": 25,
   "signalTime": 1791508500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791508531655,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ACEUSDT::LONG::ChoCh::1791512100000",
@@ -33799,7 +33802,29 @@
   "rr": 2.54,
   "lev": 11,
   "signalTime": 1791530100000,
+  "status": "void",
+  "createdAt": 1791530136753,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791530100000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "NIGHTUSDT::SHORT::BoS::1791531000000",
+  "symbol": "NIGHTUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.04514,
+  "sl": 0.04635499999999999,
+  "tp": 0.0401,
+  "tpSrc": "OB",
+  "slPct": 2.69,
+  "gainPct": 11.17,
+  "rr": 4.15,
+  "lev": 22,
+  "signalTime": 1791531000000,
   "status": "pending",
-  "createdAt": 1791530136753
+  "createdAt": 1791531037893
  }
 ]

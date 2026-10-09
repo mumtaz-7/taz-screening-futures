@@ -2,8 +2,9 @@
   "ready": [
     "ACEUSDT::LONG::BoS",
     "MAGICUSDT::LONG::BoS",
-    "PROMUSDT::LONG::BoS",
-    "RLCUSDT::LONG::BoS"
+    "METUSDT::LONG::ChoCh",
+    "NIGHTUSDT::SHORT::BoS",
+    "PROMUSDT::LONG::BoS"
   ],
-  "at": "2026-10-09T07:15:36.748Z"
+  "at": "2026-10-09T07:30:37.892Z"
 }
