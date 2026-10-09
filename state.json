@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ETHFIUSDT::SHORT::ChoCh"
+    "ENAUSDT::SHORT::ChoCh",
+    "ZROUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-10-09T11:30:36.210Z"
+  "at": "2026-10-09T11:45:33.520Z"
 }

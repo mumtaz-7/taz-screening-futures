@@ -33860,5 +33860,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ENAUSDT::SHORT::ChoCh::1791546300000",
+  "symbol": "ENAUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.2152,
+  "sl": 0.2206,
+  "tp": 0.1941,
+  "tpSrc": "WL",
+  "slPct": 2.51,
+  "gainPct": 9.8,
+  "rr": 3.91,
+  "lev": 23,
+  "signalTime": 1791546300000,
+  "status": "pending",
+  "createdAt": 1791546333521
+ },
+ {
+  "id": "ZROUSDT::SHORT::ChoCh::1791546300000",
+  "symbol": "ZROUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 2.131,
+  "sl": 2.2105000000000006,
+  "tp": 1.92,
+  "tpSrc": "WL",
+  "slPct": 3.73,
+  "gainPct": 9.9,
+  "rr": 2.65,
+  "lev": 16,
+  "signalTime": 1791546300000,
+  "status": "pending",
+  "createdAt": 1791546333521
  }
 ]
