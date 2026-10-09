@@ -33923,5 +33923,22 @@
   "status": "pending",
   "createdAt": 1791547244190,
   "notified": []
+ },
+ {
+  "id": "ZECUSDT::SHORT::ChoCh::1791553500000",
+  "symbol": "ZECUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 1215.62,
+  "sl": 1263.56,
+  "tp": 1112.77,
+  "tpSrc": "WL",
+  "slPct": 3.94,
+  "gainPct": 8.46,
+  "rr": 2.15,
+  "lev": 15,
+  "signalTime": 1791553500000,
+  "status": "pending",
+  "createdAt": 1791553534459
  }
 ]
