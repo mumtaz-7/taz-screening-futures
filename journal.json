@@ -33669,12 +33669,15 @@
   "rr": 1.59,
   "lev": 5,
   "signalTime": 1791514800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791514843048,
   "fillTime": 1791514800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.59,
+  "resolvedTime": 1791524700000
  },
  {
   "id": "AEVOUSDT::SHORT::BoS::1791516600000",
