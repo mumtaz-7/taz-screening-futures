@@ -33585,5 +33585,22 @@
    "open"
   ],
   "fillTime": 1791506700000
+ },
+ {
+  "id": "HEMIUSDT::LONG::BoS::1791508500000",
+  "symbol": "HEMIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00584,
+  "sl": 0.005720000000000001,
+  "tp": 0.00703,
+  "tpSrc": "WH",
+  "slPct": 2.05,
+  "gainPct": 20.38,
+  "rr": 9.92,
+  "lev": 25,
+  "signalTime": 1791508500000,
+  "status": "pending",
+  "createdAt": 1791508531655
  }
 ]
