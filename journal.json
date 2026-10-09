@@ -34183,5 +34183,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "STRKUSDT::LONG::ChoCh::1791588600000",
+  "symbol": "STRKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.07173,
+  "sl": 0.066915,
+  "tp": 0.07716,
+  "tpSrc": "WH",
+  "slPct": 6.71,
+  "gainPct": 7.57,
+  "rr": 1.13,
+  "lev": 9,
+  "signalTime": 1791588600000,
+  "status": "pending",
+  "createdAt": 1791588642239
  }
 ]
