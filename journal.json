@@ -33875,8 +33875,12 @@
   "rr": 3.91,
   "lev": 23,
   "signalTime": 1791546300000,
-  "status": "pending",
-  "createdAt": 1791546333521
+  "status": "open",
+  "createdAt": 1791546333521,
+  "fillTime": 1791546300000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "ZROUSDT::SHORT::ChoCh::1791546300000",
@@ -33892,7 +33896,28 @@
   "rr": 2.65,
   "lev": 16,
   "signalTime": 1791546300000,
+  "status": "open",
+  "createdAt": 1791546333521,
+  "fillTime": 1791546300000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "SKLUSDT::LONG::ChoCh::1791547200000",
+  "symbol": "SKLUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00522,
+  "sl": 0.0048000000000000004,
+  "tp": 0.00611,
+  "tpSrc": "WH",
+  "slPct": 8.05,
+  "gainPct": 17.05,
+  "rr": 2.12,
+  "lev": 7,
+  "signalTime": 1791547200000,
   "status": "pending",
-  "createdAt": 1791546333521
+  "createdAt": 1791547244190
  }
 ]
