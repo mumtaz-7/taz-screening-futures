@@ -34073,6 +34073,24 @@
   "lev": 13,
   "signalTime": 1791573300000,
   "status": "pending",
-  "createdAt": 1791573331510
+  "createdAt": 1791573331510,
+  "notified": []
+ },
+ {
+  "id": "OGNUSDT::LONG::ChoCh::1791574200000",
+  "symbol": "OGNUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0391,
+  "sl": 0.033385,
+  "tp": 0.05345,
+  "tpSrc": "WH",
+  "slPct": 14.62,
+  "gainPct": 36.7,
+  "rr": 2.51,
+  "lev": 4,
+  "signalTime": 1791574200000,
+  "status": "pending",
+  "createdAt": 1791574239716
  }
 ]
