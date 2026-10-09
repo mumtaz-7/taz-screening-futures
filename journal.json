@@ -33712,6 +33712,24 @@
   "lev": 6,
   "signalTime": 1791519300000,
   "status": "pending",
-  "createdAt": 1791519330985
+  "createdAt": 1791519330985,
+  "notified": []
+ },
+ {
+  "id": "SKLUSDT::LONG::BoS::1791520200000",
+  "symbol": "SKLUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00523,
+  "sl": 0.00481,
+  "tp": 0.00597,
+  "tpSrc": "WH",
+  "slPct": 8.03,
+  "gainPct": 14.15,
+  "rr": 1.76,
+  "lev": 7,
+  "signalTime": 1791520200000,
+  "status": "pending",
+  "createdAt": 1791520236877
  }
 ]
