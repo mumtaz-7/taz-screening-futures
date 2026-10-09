@@ -33994,5 +33994,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1791560700000
+ },
+ {
+  "id": "NEARUSDT::SHORT::BoS::1791564300000",
+  "symbol": "NEARUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 4.739,
+  "sl": 5.0135,
+  "tp": 4.301,
+  "tpSrc": "WL",
+  "slPct": 5.79,
+  "gainPct": 9.24,
+  "rr": 1.6,
+  "lev": 10,
+  "signalTime": 1791564300000,
+  "status": "pending",
+  "createdAt": 1791564332938
  }
 ]
