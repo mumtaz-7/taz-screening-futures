@@ -34136,7 +34136,8 @@
   "lev": 17,
   "signalTime": 1791576900000,
   "status": "pending",
-  "createdAt": 1791576930659
+  "createdAt": 1791576930659,
+  "notified": []
  },
  {
   "id": "RADUSDT::LONG::BoS::1791576900000",
@@ -34152,7 +34153,11 @@
   "rr": 1.31,
   "lev": 4,
   "signalTime": 1791576900000,
-  "status": "pending",
-  "createdAt": 1791576930659
+  "status": "open",
+  "createdAt": 1791576930659,
+  "fillTime": 1791576900000,
+  "notified": [
+   "open"
+  ]
  }
 ]
