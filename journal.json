@@ -34034,6 +34034,24 @@
   "lev": 19,
   "signalTime": 1791569700000,
   "status": "pending",
-  "createdAt": 1791569730982
+  "createdAt": 1791569730982,
+  "notified": []
+ },
+ {
+  "id": "ENAUSDT::SHORT::ChoCh::1791570600000",
+  "symbol": "ENAUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.2133,
+  "sl": 0.22440000000000002,
+  "tp": 0.1941,
+  "tpSrc": "WL",
+  "slPct": 5.2,
+  "gainPct": 9,
+  "rr": 1.73,
+  "lev": 12,
+  "signalTime": 1791570600000,
+  "status": "pending",
+  "createdAt": 1791570637056
  }
 ]
