@@ -33564,5 +33564,22 @@
   ],
   "R": -1,
   "resolvedTime": 1791496800000
+ },
+ {
+  "id": "ZROUSDT::SHORT::BoS::1791504000000",
+  "symbol": "ZROUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 1.981,
+  "sl": 2.0304999999999995,
+  "tp": 1.737,
+  "tpSrc": "OB",
+  "slPct": 2.5,
+  "gainPct": 12.32,
+  "rr": 4.93,
+  "lev": 23,
+  "signalTime": 1791504000000,
+  "status": "pending",
+  "createdAt": 1791504045781
  }
 ]
