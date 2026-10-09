@@ -34162,5 +34162,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CTSIUSDT::LONG::ChoCh::1791582300000",
+  "symbol": "CTSIUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.03424,
+  "sl": 0.033100000000000004,
+  "tp": 0.036815,
+  "tpSrc": "EQ",
+  "slPct": 3.33,
+  "gainPct": 7.52,
+  "rr": 2.26,
+  "lev": 18,
+  "signalTime": 1791582300000,
+  "status": "pending",
+  "createdAt": 1791582331127
  }
 ]
