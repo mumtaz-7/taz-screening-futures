@@ -33839,5 +33839,22 @@
    "open"
   ],
   "fillTime": 1791537300000
+ },
+ {
+  "id": "ETHFIUSDT::SHORT::ChoCh::1791540900000",
+  "symbol": "ETHFIUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.7043,
+  "sl": 0.73295,
+  "tp": 0.6284,
+  "tpSrc": "WL",
+  "slPct": 4.07,
+  "gainPct": 10.78,
+  "rr": 2.65,
+  "lev": 15,
+  "signalTime": 1791540900000,
+  "status": "pending",
+  "createdAt": 1791540932843
  }
 ]
