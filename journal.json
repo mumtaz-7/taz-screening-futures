@@ -33784,5 +33784,22 @@
   "status": "pending",
   "createdAt": 1791528332813,
   "notified": []
+ },
+ {
+  "id": "MAGICUSDT::LONG::BoS::1791530100000",
+  "symbol": "MAGICUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0682,
+  "sl": 0.06430000000000001,
+  "tp": 0.0781,
+  "tpSrc": "WH",
+  "slPct": 5.72,
+  "gainPct": 14.52,
+  "rr": 2.54,
+  "lev": 11,
+  "signalTime": 1791530100000,
+  "status": "pending",
+  "createdAt": 1791530136753
  }
 ]
