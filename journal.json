@@ -33648,9 +33648,12 @@
   "rr": 5.55,
   "lev": 21,
   "signalTime": 1791514800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791514843048,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791516600000
  },
  {
   "id": "RLCUSDT::LONG::BoS::1791514800000",
@@ -33687,7 +33690,11 @@
   "rr": 2.45,
   "lev": 14,
   "signalTime": 1791516600000,
-  "status": "pending",
-  "createdAt": 1791516637423
+  "status": "open",
+  "createdAt": 1791516637423,
+  "fillTime": 1791516600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
