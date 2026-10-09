@@ -33905,12 +33905,15 @@
   "rr": 2.65,
   "lev": 16,
   "signalTime": 1791546300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791546333521,
   "fillTime": 1791546300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.65,
+  "resolvedTime": 1791574200000
  },
  {
   "id": "SKLUSDT::LONG::ChoCh::1791547200000",
@@ -34091,6 +34094,7 @@
   "lev": 4,
   "signalTime": 1791574200000,
   "status": "pending",
-  "createdAt": 1791574239716
+  "createdAt": 1791574239716,
+  "notified": []
  }
 ]
