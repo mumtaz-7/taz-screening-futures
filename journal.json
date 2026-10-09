@@ -33495,12 +33495,15 @@
   "rr": 3.13,
   "lev": 22,
   "signalTime": 1791486000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791486046272,
   "fillTime": 1791486000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791514800000
  },
  {
   "id": "CTSIUSDT::LONG::BoS::1791487800000",
@@ -33646,7 +33649,8 @@
   "lev": 21,
   "signalTime": 1791514800000,
   "status": "pending",
-  "createdAt": 1791514843048
+  "createdAt": 1791514843048,
+  "notified": []
  },
  {
   "id": "RLCUSDT::LONG::BoS::1791514800000",
@@ -33662,7 +33666,11 @@
   "rr": 1.59,
   "lev": 5,
   "signalTime": 1791514800000,
-  "status": "pending",
-  "createdAt": 1791514843048
+  "status": "open",
+  "createdAt": 1791514843048,
+  "fillTime": 1791514800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
