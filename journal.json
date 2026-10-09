@@ -33453,12 +33453,15 @@
   "rr": 1.88,
   "lev": 8,
   "signalTime": 1791473400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791473440391,
   "fillTime": 1791473400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791528300000
  },
  {
   "id": "AUDIOUSDT::LONG::BoS::1791475200000",
@@ -33779,6 +33782,7 @@
   "lev": 19,
   "signalTime": 1791528300000,
   "status": "pending",
-  "createdAt": 1791528332813
+  "createdAt": 1791528332813,
+  "notified": []
  }
 ]
