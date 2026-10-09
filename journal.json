@@ -34018,5 +34018,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ETHFIUSDT::SHORT::BoS::1791569700000",
+  "symbol": "ETHFIUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.683,
+  "sl": 0.7043,
+  "tp": 0.6284,
+  "tpSrc": "WL",
+  "slPct": 3.12,
+  "gainPct": 7.99,
+  "rr": 2.56,
+  "lev": 19,
+  "signalTime": 1791569700000,
+  "status": "pending",
+  "createdAt": 1791569730982
  }
 ]
