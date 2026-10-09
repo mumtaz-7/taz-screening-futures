@@ -33711,9 +33711,12 @@
   "rr": 1.88,
   "lev": 6,
   "signalTime": 1791519300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791519330985,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791521100000
  },
  {
   "id": "SKLUSDT::LONG::BoS::1791520200000",
