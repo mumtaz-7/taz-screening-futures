@@ -33747,12 +33747,15 @@
   "rr": 1.76,
   "lev": 7,
   "signalTime": 1791520200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791520236877,
   "fillTime": 1791520200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791534600000
  },
  {
   "id": "RLCUSDT::LONG::BoS::1791526500000",
