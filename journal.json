@@ -34620,5 +34620,22 @@
    "open"
   ],
   "fillTime": 1791632700000
+ },
+ {
+  "id": "WUSDT::LONG::BoS::1791636300000",
+  "symbol": "WUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01711,
+  "sl": 0.01639,
+  "tp": 0.0187,
+  "tpSrc": "WH",
+  "slPct": 4.21,
+  "gainPct": 9.29,
+  "rr": 2.21,
+  "lev": 14,
+  "signalTime": 1791636300000,
+  "status": "pending",
+  "createdAt": 1791636330960
  }
 ]
