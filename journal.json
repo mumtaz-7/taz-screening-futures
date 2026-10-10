@@ -34323,5 +34323,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "QNTUSDT::SHORT::BoS::1791610200000",
+  "symbol": "QNTUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 246.02,
+  "sl": 251.95999999999998,
+  "tp": 220.63,
+  "tpSrc": "WL",
+  "slPct": 2.41,
+  "gainPct": 10.32,
+  "rr": 4.27,
+  "lev": 24,
+  "signalTime": 1791610200000,
+  "status": "pending",
+  "createdAt": 1791610236602
  }
 ]
