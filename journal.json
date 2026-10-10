@@ -34500,5 +34500,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "RONINUSDT::LONG::BoS::1791622800000",
+  "symbol": "RONINUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0689,
+  "sl": 0.06575,
+  "tp": 0.0857,
+  "tpSrc": "WH",
+  "slPct": 4.57,
+  "gainPct": 24.38,
+  "rr": 5.33,
+  "lev": 13,
+  "signalTime": 1791622800000,
+  "status": "pending",
+  "createdAt": 1791622839487
  }
 ]
