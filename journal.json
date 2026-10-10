@@ -34724,9 +34724,12 @@
   "rr": 2.96,
   "lev": 23,
   "signalTime": 1791648000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791648042092,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791653400000
  },
  {
   "id": "TIAUSDT::LONG::BoS::1791648000000",
@@ -34787,5 +34790,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CHIPUSDT::LONG::ChoCh::1791654300000",
+  "symbol": "CHIPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.05247,
+  "sl": 0.051734999999999996,
+  "tp": 0.05868,
+  "tpSrc": "WH",
+  "slPct": 1.4,
+  "gainPct": 11.84,
+  "rr": 8.45,
+  "lev": 25,
+  "signalTime": 1791654300000,
+  "status": "pending",
+  "createdAt": 1791654334356
  }
 ]
