@@ -34663,12 +34663,15 @@
   "rr": 1.55,
   "lev": 5,
   "signalTime": 1791639900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791639930973,
   "fillTime": 1791639900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791661500000
  },
  {
   "id": "STRKUSDT::LONG::BoS::1791642600000",
