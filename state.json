@@ -1,7 +1,6 @@
 {
   "ready": [
-    "CRVUSDT::SHORT::BoS",
-    "RAYUSDT::LONG::ChoCh"
+    "WALUSDT::LONG::BoS"
   ],
-  "at": "2026-10-10T10:45:32.283Z"
+  "at": "2026-10-10T11:00:41.770Z"
 }

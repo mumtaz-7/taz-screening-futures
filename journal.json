@@ -34566,8 +34566,12 @@
   "rr": 2.53,
   "lev": 18,
   "signalTime": 1791629100000,
-  "status": "pending",
-  "createdAt": 1791629132284
+  "status": "open",
+  "createdAt": 1791629132284,
+  "fillTime": 1791629100000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "RAYUSDT::LONG::ChoCh::1791629100000",
@@ -34583,7 +34587,28 @@
   "rr": 2.91,
   "lev": 21,
   "signalTime": 1791629100000,
+  "status": "open",
+  "createdAt": 1791629132284,
+  "fillTime": 1791629100000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "WALUSDT::LONG::BoS::1791630000000",
+  "symbol": "WALUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.03818,
+  "sl": 0.03476,
+  "tp": 0.04476,
+  "tpSrc": "WH",
+  "slPct": 8.96,
+  "gainPct": 17.23,
+  "rr": 1.92,
+  "lev": 7,
+  "signalTime": 1791630000000,
   "status": "pending",
-  "createdAt": 1791629132284
+  "createdAt": 1791630041771
  }
 ]
