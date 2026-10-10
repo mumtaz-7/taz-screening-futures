@@ -1,7 +1,6 @@
 {
   "ready": [
-    "OPUSDT::LONG::BoS",
-    "TIAUSDT::LONG::BoS"
+    "PYTHUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-10T16:00:42.091Z"
+  "at": "2026-10-10T16:15:29.599Z"
 }

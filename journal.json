@@ -34725,7 +34725,8 @@
   "lev": 23,
   "signalTime": 1791648000000,
   "status": "pending",
-  "createdAt": 1791648042092
+  "createdAt": 1791648042092,
+  "notified": []
  },
  {
   "id": "TIAUSDT::LONG::BoS::1791648000000",
@@ -34742,6 +34743,24 @@
   "lev": 15,
   "signalTime": 1791648000000,
   "status": "pending",
-  "createdAt": 1791648042092
+  "createdAt": 1791648042092,
+  "notified": []
+ },
+ {
+  "id": "PYTHUSDT::LONG::ChoCh::1791648900000",
+  "symbol": "PYTHUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.07871,
+  "sl": 0.07771999999999998,
+  "tp": 0.08754,
+  "tpSrc": "WH",
+  "slPct": 1.26,
+  "gainPct": 11.22,
+  "rr": 8.92,
+  "lev": 25,
+  "signalTime": 1791648900000,
+  "status": "pending",
+  "createdAt": 1791648929600
  }
 ]
