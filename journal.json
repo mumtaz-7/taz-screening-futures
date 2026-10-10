@@ -34709,5 +34709,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "OPUSDT::LONG::BoS::1791648000000",
+  "symbol": "OPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1374,
+  "sl": 0.13395,
+  "tp": 0.1476,
+  "tpSrc": "WH",
+  "slPct": 2.51,
+  "gainPct": 7.42,
+  "rr": 2.96,
+  "lev": 23,
+  "signalTime": 1791648000000,
+  "status": "pending",
+  "createdAt": 1791648042092
+ },
+ {
+  "id": "TIAUSDT::LONG::BoS::1791648000000",
+  "symbol": "TIAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.4911,
+  "sl": 0.4719,
+  "tp": 0.5303,
+  "tpSrc": "WH",
+  "slPct": 3.91,
+  "gainPct": 7.98,
+  "rr": 2.04,
+  "lev": 15,
+  "signalTime": 1791648000000,
+  "status": "pending",
+  "createdAt": 1791648042092
  }
 ]

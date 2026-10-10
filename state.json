@@ -1,6 +1,7 @@
 {
   "ready": [
-    "TRUMPUSDT::LONG::ChoCh"
+    "OPUSDT::LONG::BoS",
+    "TIAUSDT::LONG::BoS"
   ],
-  "at": "2026-10-10T15:45:29.719Z"
+  "at": "2026-10-10T16:00:42.091Z"
 }
