@@ -34419,9 +34419,12 @@
   "rr": 1.04,
   "lev": 4,
   "signalTime": 1791618300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791618331583,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791631800000
  },
  {
   "id": "ARPAUSDT::LONG::BoS::1791619200000",
