@@ -34228,5 +34228,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ERAUSDT::LONG::BoS::1791594000000",
+  "symbol": "ERAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0663,
+  "sl": 0.06345,
+  "tp": 0.0795,
+  "tpSrc": "WH",
+  "slPct": 4.3,
+  "gainPct": 19.91,
+  "rr": 4.63,
+  "lev": 14,
+  "signalTime": 1791594000000,
+  "status": "pending",
+  "createdAt": 1791594041522
  }
 ]
