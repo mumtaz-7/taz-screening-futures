@@ -34295,7 +34295,29 @@
   "rr": 2.38,
   "lev": 12,
   "signalTime": 1791602100000,
+  "status": "void",
+  "createdAt": 1791602132211,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791602100000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "MINAUSDT::LONG::BoS::1791603000000",
+  "symbol": "MINAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0846,
+  "sl": 0.07515,
+  "tp": 0.0968,
+  "tpSrc": "OB",
+  "slPct": 11.17,
+  "gainPct": 14.42,
+  "rr": 1.29,
+  "lev": 5,
+  "signalTime": 1791603000000,
   "status": "pending",
-  "createdAt": 1791602132211
+  "createdAt": 1791603036488
  }
 ]
