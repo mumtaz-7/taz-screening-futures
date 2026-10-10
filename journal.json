@@ -34036,9 +34036,12 @@
   "rr": 2.56,
   "lev": 19,
   "signalTime": 1791569700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791569730982,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ENAUSDT::SHORT::ChoCh::1791570600000",
