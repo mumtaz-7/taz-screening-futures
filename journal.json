@@ -34653,7 +34653,11 @@
   "rr": 1.55,
   "lev": 5,
   "signalTime": 1791639900000,
-  "status": "pending",
-  "createdAt": 1791639930973
+  "status": "open",
+  "createdAt": 1791639930973,
+  "fillTime": 1791639900000,
+  "notified": [
+   "open"
+  ]
  }
 ]
