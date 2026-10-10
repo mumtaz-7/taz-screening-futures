@@ -34360,7 +34360,8 @@
   "lev": 5,
   "signalTime": 1791613800000,
   "status": "pending",
-  "createdAt": 1791613834738
+  "createdAt": 1791613834738,
+  "notified": []
  },
  {
   "id": "METUSDT::LONG::ChoCh::1791613800000",
@@ -34376,7 +34377,11 @@
   "rr": 5.42,
   "lev": 10,
   "signalTime": 1791613800000,
-  "status": "pending",
-  "createdAt": 1791613834738
+  "status": "open",
+  "createdAt": 1791613834738,
+  "fillTime": 1791613800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
