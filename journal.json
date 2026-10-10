@@ -34760,7 +34760,28 @@
   "rr": 8.92,
   "lev": 25,
   "signalTime": 1791648900000,
+  "status": "open",
+  "createdAt": 1791648929600,
+  "fillTime": 1791648900000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "RLCUSDT::LONG::ChoCh::1791649800000",
+  "symbol": "RLCUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.9918,
+  "sl": 0.8971499999999999,
+  "tp": 1.1985,
+  "tpSrc": "WH",
+  "slPct": 9.54,
+  "gainPct": 20.84,
+  "rr": 2.18,
+  "lev": 6,
+  "signalTime": 1791649800000,
   "status": "pending",
-  "createdAt": 1791648929600
+  "createdAt": 1791649835956
  }
 ]
