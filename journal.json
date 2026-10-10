@@ -34819,5 +34819,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "币安人生USDT::LONG::ChoCh::1791658800000",
+  "symbol": "币安人生USDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.5663,
+  "sl": 0.55145,
+  "tp": 0.6097,
+  "tpSrc": "WH",
+  "slPct": 2.62,
+  "gainPct": 7.66,
+  "rr": 2.92,
+  "lev": 22,
+  "signalTime": 1791658800000,
+  "status": "pending",
+  "createdAt": 1791658840222
  }
 ]
