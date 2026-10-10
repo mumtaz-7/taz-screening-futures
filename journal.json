@@ -34204,5 +34204,22 @@
   "status": "pending",
   "createdAt": 1791588642239,
   "notified": []
+ },
+ {
+  "id": "ZECUSDT::SHORT::BoS::1791590400000",
+  "symbol": "ZECUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 1207.38,
+  "sl": 1220.295,
+  "tp": 1112.77,
+  "tpSrc": "WL",
+  "slPct": 1.07,
+  "gainPct": 7.84,
+  "rr": 7.33,
+  "lev": 25,
+  "signalTime": 1791590400000,
+  "status": "pending",
+  "createdAt": 1791590444385
  }
 ]
