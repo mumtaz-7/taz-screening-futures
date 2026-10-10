@@ -34189,12 +34189,15 @@
   "rr": 2.26,
   "lev": 18,
   "signalTime": 1791582300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791582331127,
   "fillTime": 1791582300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791617400000
  },
  {
   "id": "STRKUSDT::LONG::ChoCh::1791588600000",
@@ -34389,5 +34392,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CTSIUSDT::SHORT::ChoCh::1791618300000",
+  "symbol": "CTSIUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.03366,
+  "sl": 0.038294999999999996,
+  "tp": 0.02884,
+  "tpSrc": "OB",
+  "slPct": 13.77,
+  "gainPct": 14.32,
+  "rr": 1.04,
+  "lev": 4,
+  "signalTime": 1791618300000,
+  "status": "pending",
+  "createdAt": 1791618331583
  }
 ]
