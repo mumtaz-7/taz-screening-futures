@@ -1,7 +1,8 @@
 {
   "ready": [
     "CTSIUSDT::LONG::BoS",
-    "SKLUSDT::LONG::ChoCh"
+    "SKLUSDT::LONG::ChoCh",
+    "XAIUSDT::LONG::BoS"
   ],
-  "at": "2026-10-10T03:00:41.894Z"
+  "at": "2026-10-10T03:15:32.210Z"
 }

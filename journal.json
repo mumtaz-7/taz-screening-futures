@@ -34280,5 +34280,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "XAIUSDT::LONG::BoS::1791602100000",
+  "symbol": "XAIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01003,
+  "sl": 0.009535,
+  "tp": 0.01121,
+  "tpSrc": "WH",
+  "slPct": 4.94,
+  "gainPct": 11.76,
+  "rr": 2.38,
+  "lev": 12,
+  "signalTime": 1791602100000,
+  "status": "pending",
+  "createdAt": 1791602132211
  }
 ]
