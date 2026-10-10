@@ -34344,5 +34344,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "LPTUSDT::LONG::BoS::1791613800000",
+  "symbol": "LPTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1.949,
+  "sl": 1.7359999999999998,
+  "tp": 2.175,
+  "tpSrc": "WH",
+  "slPct": 10.93,
+  "gainPct": 11.6,
+  "rr": 1.06,
+  "lev": 5,
+  "signalTime": 1791613800000,
+  "status": "pending",
+  "createdAt": 1791613834738
+ },
+ {
+  "id": "METUSDT::LONG::ChoCh::1791613800000",
+  "symbol": "METUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.4168,
+  "sl": 0.3928,
+  "tp": 0.5468,
+  "tpSrc": "WH",
+  "slPct": 5.76,
+  "gainPct": 31.19,
+  "rr": 5.42,
+  "lev": 10,
+  "signalTime": 1791613800000,
+  "status": "pending",
+  "createdAt": 1791613834738
  }
 ]
