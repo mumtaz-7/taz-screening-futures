@@ -34422,12 +34422,15 @@
   "rr": 1.04,
   "lev": 4,
   "signalTime": 1791618300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791618331583,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791631800000
+  "fillTime": 1791631800000,
+  "R": -1,
+  "resolvedTime": 1791656100000
  },
  {
   "id": "ARPAUSDT::LONG::BoS::1791619200000",
@@ -34745,9 +34748,13 @@
   "rr": 2.04,
   "lev": 15,
   "signalTime": 1791648000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791648042092,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791656100000
  },
  {
   "id": "PYTHUSDT::LONG::ChoCh::1791648900000",
