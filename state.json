@@ -1,9 +1,7 @@
 {
   "ready": [
     "MINAUSDT::LONG::BoS",
-    "RADUSDT::LONG::BoS",
-    "SKLUSDT::LONG::ChoCh",
-    "XAIUSDT::LONG::BoS"
+    "RADUSDT::LONG::BoS"
   ],
-  "at": "2026-10-10T04:15:30.082Z"
+  "at": "2026-10-10T04:30:34.583Z"
 }
