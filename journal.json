@@ -34222,12 +34222,15 @@
   "rr": 7.33,
   "lev": 25,
   "signalTime": 1791590400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791590444385,
   "fillTime": 1791590400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791595800000
  },
  {
   "id": "ERAUSDT::LONG::BoS::1791594000000",
@@ -34261,7 +34264,11 @@
   "rr": 6.42,
   "lev": 25,
   "signalTime": 1791595800000,
-  "status": "pending",
-  "createdAt": 1791595838180
+  "status": "open",
+  "createdAt": 1791595838180,
+  "fillTime": 1791595800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
