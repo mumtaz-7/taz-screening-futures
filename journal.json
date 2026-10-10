@@ -34858,9 +34858,12 @@
   "rr": 2.53,
   "lev": 14,
   "signalTime": 1791659700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791659730253,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791662400000
  },
  {
   "id": "OGNUSDT::SHORT::ChoCh::1791660600000",
