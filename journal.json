@@ -34638,9 +34638,13 @@
   "rr": 2.21,
   "lev": 14,
   "signalTime": 1791636300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791636330960,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791644400000
  },
  {
   "id": "LUMIAUSDT::LONG::BoS::1791639900000",
