@@ -34174,12 +34174,15 @@
   "rr": 1.31,
   "lev": 4,
   "signalTime": 1791576900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791576930659,
   "fillTime": 1791576900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791630000000
  },
  {
   "id": "CTSIUSDT::LONG::ChoCh::1791582300000",
@@ -34609,6 +34612,7 @@
   "lev": 7,
   "signalTime": 1791630000000,
   "status": "pending",
-  "createdAt": 1791630041771
+  "createdAt": 1791630041771,
+  "notified": []
  }
 ]
