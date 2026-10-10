@@ -1,8 +1,7 @@
 {
   "ready": [
-    "CTSIUSDT::SHORT::ChoCh",
-    "LUMIAUSDT::LONG::ChoCh",
-    "METUSDT::LONG::ChoCh"
+    "ARPAUSDT::LONG::BoS",
+    "LUMIAUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-10T07:45:31.581Z"
+  "at": "2026-10-10T08:00:39.280Z"
 }

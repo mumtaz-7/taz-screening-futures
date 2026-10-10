@@ -34408,6 +34408,24 @@
   "lev": 4,
   "signalTime": 1791618300000,
   "status": "pending",
-  "createdAt": 1791618331583
+  "createdAt": 1791618331583,
+  "notified": []
+ },
+ {
+  "id": "ARPAUSDT::LONG::BoS::1791619200000",
+  "symbol": "ARPAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0117,
+  "sl": 0.011325,
+  "tp": 0.01395,
+  "tpSrc": "WH",
+  "slPct": 3.21,
+  "gainPct": 19.23,
+  "rr": 6,
+  "lev": 18,
+  "signalTime": 1791619200000,
+  "status": "pending",
+  "createdAt": 1791619239281
  }
 ]
