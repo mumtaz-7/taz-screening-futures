@@ -34688,5 +34688,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1791643500000
+ },
+ {
+  "id": "TRUMPUSDT::LONG::ChoCh::1791646200000",
+  "symbol": "TRUMPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1.898,
+  "sl": 1.8845,
+  "tp": 2.065,
+  "tpSrc": "OB",
+  "slPct": 0.71,
+  "gainPct": 8.8,
+  "rr": 12.37,
+  "lev": 25,
+  "signalTime": 1791646200000,
+  "status": "pending",
+  "createdAt": 1791646236296
  }
 ]
