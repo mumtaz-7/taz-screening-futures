@@ -34426,6 +34426,24 @@
   "lev": 18,
   "signalTime": 1791619200000,
   "status": "pending",
-  "createdAt": 1791619239281
+  "createdAt": 1791619239281,
+  "notified": []
+ },
+ {
+  "id": "OGNUSDT::LONG::BoS::1791620100000",
+  "symbol": "OGNUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.03772,
+  "sl": 0.03520000000000001,
+  "tp": 0.05345,
+  "tpSrc": "WH",
+  "slPct": 6.68,
+  "gainPct": 41.7,
+  "rr": 6.24,
+  "lev": 9,
+  "signalTime": 1791620100000,
+  "status": "pending",
+  "createdAt": 1791620130020
  }
 ]
