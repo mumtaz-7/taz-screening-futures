@@ -34434,9 +34434,13 @@
   "rr": 6,
   "lev": 18,
   "signalTime": 1791619200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791619239281,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791626400000
  },
  {
   "id": "OGNUSDT::LONG::BoS::1791620100000",
