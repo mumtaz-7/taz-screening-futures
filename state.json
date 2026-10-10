@@ -1,6 +1,7 @@
 {
   "ready": [
-    "OGNUSDT::LONG::BoS"
+    "AMPUSDT::SHORT::ChoCh",
+    "ERAUSDT::LONG::BoS"
   ],
-  "at": "2026-10-10T08:15:30.019Z"
+  "at": "2026-10-10T08:30:35.453Z"
 }

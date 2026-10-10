@@ -34443,7 +34443,47 @@
   "rr": 6.24,
   "lev": 9,
   "signalTime": 1791620100000,
+  "status": "loss",
+  "createdAt": 1791620130020,
+  "R": -1,
+  "fillTime": 1791620100000,
+  "resolvedTime": 1791620100000,
+  "notified": [
+   "loss"
+  ]
+ },
+ {
+  "id": "AMPUSDT::SHORT::ChoCh::1791621000000",
+  "symbol": "AMPUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.00065,
+  "sl": 0.0006845,
+  "tp": 0.000573,
+  "tpSrc": "OB",
+  "slPct": 5.31,
+  "gainPct": 11.85,
+  "rr": 2.23,
+  "lev": 11,
+  "signalTime": 1791621000000,
   "status": "pending",
-  "createdAt": 1791620130020
+  "createdAt": 1791621035453
+ },
+ {
+  "id": "ERAUSDT::LONG::BoS::1791621000000",
+  "symbol": "ERAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0699,
+  "sl": 0.0654,
+  "tp": 0.0825,
+  "tpSrc": "WH",
+  "slPct": 6.44,
+  "gainPct": 18.03,
+  "rr": 2.8,
+  "lev": 9,
+  "signalTime": 1791621000000,
+  "status": "pending",
+  "createdAt": 1791621035454
  }
 ]
