@@ -34834,7 +34834,28 @@
   "rr": 2.92,
   "lev": 22,
   "signalTime": 1791658800000,
+  "status": "open",
+  "createdAt": 1791658840222,
+  "fillTime": 1791658800000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "C98USDT::SHORT::ChoCh::1791659700000",
+  "symbol": "C98USDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.01779,
+  "sl": 0.01854,
+  "tp": 0.01589,
+  "tpSrc": "OB",
+  "slPct": 4.22,
+  "gainPct": 10.68,
+  "rr": 2.53,
+  "lev": 14,
+  "signalTime": 1791659700000,
   "status": "pending",
-  "createdAt": 1791658840222
+  "createdAt": 1791659730253
  }
 ]
