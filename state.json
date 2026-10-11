@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ACTUSDT::LONG::BoS"
+    "ACTUSDT::LONG::BoS",
+    "OGNUSDT::SHORT::BoS"
   ],
-  "at": "2026-10-11T15:15:30.833Z"
+  "at": "2026-10-11T15:30:36.892Z"
 }
