@@ -35452,9 +35452,12 @@
   "rr": 2.41,
   "lev": 16,
   "signalTime": 1791738900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791738936442,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "MAGICUSDT::LONG::BoS::1791740700000",
@@ -35491,8 +35494,11 @@
   "rr": 1.44,
   "lev": 8,
   "signalTime": 1791754200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791754236506,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791760500000
  }
 ]
