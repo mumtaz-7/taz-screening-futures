@@ -35081,8 +35081,28 @@
   "rr": 10.24,
   "lev": 10,
   "signalTime": 1791693000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791693036229,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791693900000
+ },
+ {
+  "id": "ACTUSDT::LONG::ChoCh::1791694800000",
+  "symbol": "ACTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0109,
+  "sl": 0.01051,
+  "tp": 0.01223,
+  "tpSrc": "WH",
+  "slPct": 3.58,
+  "gainPct": 12.2,
+  "rr": 3.41,
+  "lev": 17,
+  "signalTime": 1791694800000,
+  "status": "pending",
+  "createdAt": 1791694839240
  }
 ]
