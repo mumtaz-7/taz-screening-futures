@@ -1,9 +1,8 @@
 {
   "ready": [
     "ICPUSDT::LONG::BoS",
-    "LUMIAUSDT::LONG::ChoCh",
     "MAGICUSDT::LONG::ChoCh",
     "OGNUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-10-11T13:15:28.150Z"
+  "at": "2026-10-11T13:30:33.504Z"
 }

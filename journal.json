@@ -35313,11 +35313,14 @@
   "rr": 1.75,
   "lev": 7,
   "signalTime": 1791723600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791723641792,
   "fillTime": 1791723600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791724500000
  }
 ]
