@@ -35178,5 +35178,22 @@
    "open"
   ],
   "fillTime": 1791702900000
+ },
+ {
+  "id": "RLCUSDT::LONG::BoS::1791711000000",
+  "symbol": "RLCUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1.0372,
+  "sl": 0.9625000000000001,
+  "tp": 1.1985,
+  "tpSrc": "WH",
+  "slPct": 7.2,
+  "gainPct": 15.55,
+  "rr": 2.16,
+  "lev": 8,
+  "signalTime": 1791711000000,
+  "status": "pending",
+  "createdAt": 1791711035163
  }
 ]
