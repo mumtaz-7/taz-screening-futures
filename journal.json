@@ -35337,5 +35337,22 @@
   ],
   "R": -1,
   "resolvedTime": 1791724500000
+ },
+ {
+  "id": "ACTUSDT::LONG::BoS::1791729000000",
+  "symbol": "ACTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01104,
+  "sl": 0.010485000000000001,
+  "tp": 0.01223,
+  "tpSrc": "WH",
+  "slPct": 5.03,
+  "gainPct": 10.78,
+  "rr": 2.14,
+  "lev": 12,
+  "signalTime": 1791729000000,
+  "status": "pending",
+  "createdAt": 1791729035545
  }
 ]
