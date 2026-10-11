@@ -35127,9 +35127,12 @@
   "rr": 4.44,
   "lev": 14,
   "signalTime": 1791698400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791698441607,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791708300000
  },
  {
   "id": "HBARUSDT::LONG::ChoCh::1791702000000",
