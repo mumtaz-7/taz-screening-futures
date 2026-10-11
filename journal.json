@@ -35313,7 +35313,11 @@
   "rr": 1.75,
   "lev": 7,
   "signalTime": 1791723600000,
-  "status": "pending",
-  "createdAt": 1791723641792
+  "status": "open",
+  "createdAt": 1791723641792,
+  "fillTime": 1791723600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
