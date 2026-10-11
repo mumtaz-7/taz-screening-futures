@@ -35214,9 +35214,12 @@
   "rr": 5.44,
   "lev": 25,
   "signalTime": 1791711900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791711929812,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791722700000
  },
  {
   "id": "CHIPUSDT::LONG::ChoCh::1791716400000",
@@ -35295,5 +35298,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "LUMIAUSDT::LONG::ChoCh::1791723600000",
+  "symbol": "LUMIAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1594,
+  "sl": 0.14575,
+  "tp": 0.1833,
+  "tpSrc": "WH",
+  "slPct": 8.56,
+  "gainPct": 14.99,
+  "rr": 1.75,
+  "lev": 7,
+  "signalTime": 1791723600000,
+  "status": "pending",
+  "createdAt": 1791723641792
  }
 ]
