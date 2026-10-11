@@ -35130,5 +35130,39 @@
   "status": "pending",
   "createdAt": 1791698441607,
   "notified": []
+ },
+ {
+  "id": "HBARUSDT::LONG::ChoCh::1791702000000",
+  "symbol": "HBARUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.09177,
+  "sl": 0.09048,
+  "tp": 0.10148,
+  "tpSrc": "OB",
+  "slPct": 1.41,
+  "gainPct": 10.58,
+  "rr": 7.53,
+  "lev": 25,
+  "signalTime": 1791702000000,
+  "status": "pending",
+  "createdAt": 1791702044106
+ },
+ {
+  "id": "ICPUSDT::LONG::ChoCh::1791702000000",
+  "symbol": "ICPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 3.072,
+  "sl": 3.018,
+  "tp": 3.435,
+  "tpSrc": "OB",
+  "slPct": 1.76,
+  "gainPct": 11.82,
+  "rr": 6.72,
+  "lev": 25,
+  "signalTime": 1791702000000,
+  "status": "pending",
+  "createdAt": 1791702044106
  }
 ]
