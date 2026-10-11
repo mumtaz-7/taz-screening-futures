@@ -34581,12 +34581,15 @@
   "rr": 2.53,
   "lev": 18,
   "signalTime": 1791629100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791629132284,
   "fillTime": 1791629100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791725400000
  },
  {
   "id": "RAYUSDT::LONG::ChoCh::1791629100000",
@@ -35002,12 +35005,15 @@
   "rr": 6.19,
   "lev": 20,
   "signalTime": 1791688500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791688530540,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791692100000
+  "fillTime": 1791692100000,
+  "R": -1,
+  "resolvedTime": 1791725400000
  },
  {
   "id": "LUMIAUSDT::LONG::ChoCh::1791692100000",
@@ -35235,9 +35241,12 @@
   "rr": 2.18,
   "lev": 13,
   "signalTime": 1791716400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791716440172,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791725400000
  },
  {
   "id": "MBLUSDT::LONG::ChoCh::1791717300000",
@@ -35253,12 +35262,15 @@
   "rr": 4.07,
   "lev": 8,
   "signalTime": 1791717300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791717329871,
   "fillTime": 1791717300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791725400000
  },
  {
   "id": "ICPUSDT::LONG::BoS::1791720900000",

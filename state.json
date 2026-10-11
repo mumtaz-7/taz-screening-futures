@@ -1,8 +1,7 @@
 {
   "ready": [
-    "ICPUSDT::LONG::BoS",
     "MAGICUSDT::LONG::ChoCh",
     "OGNUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-10-11T13:30:33.504Z"
+  "at": "2026-10-11T13:45:29.400Z"
 }
