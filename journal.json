@@ -33956,12 +33956,15 @@
   "rr": 2.15,
   "lev": 15,
   "signalTime": 1791553500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791553534459,
   "fillTime": 1791553500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791734400000
  },
  {
   "id": "RADUSDT::LONG::BoS::1791555300000",
@@ -34876,12 +34879,15 @@
   "rr": 2.53,
   "lev": 14,
   "signalTime": 1791659700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791659730253,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791662400000
+  "fillTime": 1791662400000,
+  "R": -1,
+  "resolvedTime": 1791734400000
  },
  {
   "id": "OGNUSDT::SHORT::ChoCh::1791660600000",
@@ -35394,7 +35400,12 @@
   "rr": 2.48,
   "lev": 11,
   "signalTime": 1791734400000,
-  "status": "pending",
-  "createdAt": 1791734440634
+  "status": "void",
+  "createdAt": 1791734440634,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791734400000,
+  "notified": [
+   "void"
+  ]
  }
 ]
