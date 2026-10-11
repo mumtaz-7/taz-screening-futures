@@ -2,8 +2,7 @@
   "ready": [
     "MAVUSDT::LONG::BoS",
     "MINAUSDT::LONG::BoS",
-    "OGNUSDT::SHORT::BoS",
     "RLCUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-11T01:45:30.078Z"
+  "at": "2026-10-11T02:00:40.610Z"
 }
