@@ -35410,5 +35410,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ENAUSDT::LONG::BoS::1791737100000",
+  "symbol": "ENAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.2268,
+  "sl": 0.22065,
+  "tp": 0.2498,
+  "tpSrc": "OB",
+  "slPct": 2.71,
+  "gainPct": 10.14,
+  "rr": 3.74,
+  "lev": 21,
+  "signalTime": 1791737100000,
+  "status": "pending",
+  "createdAt": 1791737130693
  }
 ]
