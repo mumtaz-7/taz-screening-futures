@@ -1,7 +1,10 @@
 {
   "ready": [
+    "ARPAUSDT::LONG::ChoCh",
+    "ERAUSDT::LONG::ChoCh",
     "LUMIAUSDT::LONG::ChoCh",
+    "MAGICUSDT::LONG::ChoCh",
     "NEARUSDT::SHORT::BoS"
   ],
-  "at": "2026-10-11T04:15:29.508Z"
+  "at": "2026-10-11T04:30:36.229Z"
 }

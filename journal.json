@@ -34999,9 +34999,12 @@
   "rr": 6.19,
   "lev": 20,
   "signalTime": 1791688500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791688530540,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791692100000
  },
  {
   "id": "LUMIAUSDT::LONG::ChoCh::1791692100000",
@@ -35017,7 +35020,63 @@
   "rr": 4.15,
   "lev": 8,
   "signalTime": 1791692100000,
+  "status": "void",
+  "createdAt": 1791692129509,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791692100000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "ARPAUSDT::LONG::ChoCh::1791693000000",
+  "symbol": "ARPAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01211,
+  "sl": 0.011420000000000001,
+  "tp": 0.01401,
+  "tpSrc": "WH",
+  "slPct": 5.7,
+  "gainPct": 15.69,
+  "rr": 2.75,
+  "lev": 11,
+  "signalTime": 1791693000000,
   "status": "pending",
-  "createdAt": 1791692129509
+  "createdAt": 1791693036229
+ },
+ {
+  "id": "ERAUSDT::LONG::ChoCh::1791693000000",
+  "symbol": "ERAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0786,
+  "sl": 0.07350000000000001,
+  "tp": 0.0869,
+  "tpSrc": "EQ",
+  "slPct": 6.49,
+  "gainPct": 10.56,
+  "rr": 1.63,
+  "lev": 9,
+  "signalTime": 1791693000000,
+  "status": "pending",
+  "createdAt": 1791693036229
+ },
+ {
+  "id": "MAGICUSDT::LONG::ChoCh::1791693000000",
+  "symbol": "MAGICUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1009,
+  "sl": 0.09475,
+  "tp": 0.1639,
+  "tpSrc": "WH",
+  "slPct": 6.1,
+  "gainPct": 62.44,
+  "rr": 10.24,
+  "lev": 10,
+  "signalTime": 1791693000000,
+  "status": "pending",
+  "createdAt": 1791693036229
  }
 ]
