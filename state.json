@@ -1,7 +1,8 @@
 {
   "ready": [
     "MINAUSDT::LONG::BoS",
-    "OGNUSDT::SHORT::BoS"
+    "OGNUSDT::SHORT::BoS",
+    "RLCUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-11T01:15:28.929Z"
+  "at": "2026-10-11T01:30:33.717Z"
 }
