@@ -1,6 +1,7 @@
 {
   "ready": [
-    "OGNUSDT::SHORT::BoS"
+    "OGNUSDT::SHORT::BoS",
+    "SENTUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-10-11T21:15:29.390Z"
+  "at": "2026-10-11T21:30:36.505Z"
 }
