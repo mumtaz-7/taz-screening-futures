@@ -33863,12 +33863,15 @@
   "rr": 2.65,
   "lev": 15,
   "signalTime": 1791540900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791540932843,
   "fillTime": 1791540900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791733500000
  },
  {
   "id": "ENAUSDT::SHORT::ChoCh::1791546300000",
@@ -35376,5 +35379,22 @@
   "status": "pending",
   "createdAt": 1791732636945,
   "notified": []
+ },
+ {
+  "id": "BATUSDT::LONG::ChoCh::1791734400000",
+  "symbol": "BATUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.148,
+  "sl": 0.1396,
+  "tp": 0.1688,
+  "tpSrc": "WH",
+  "slPct": 5.68,
+  "gainPct": 14.05,
+  "rr": 2.48,
+  "lev": 11,
+  "signalTime": 1791734400000,
+  "status": "pending",
+  "createdAt": 1791734440634
  }
 ]
