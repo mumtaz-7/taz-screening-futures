@@ -1,8 +1,6 @@
 {
   "ready": [
-    "HBARUSDT::LONG::ChoCh",
-    "ICPUSDT::LONG::ChoCh",
     "NEARUSDT::SHORT::BoS"
   ],
-  "at": "2026-10-11T08:15:28.817Z"
+  "at": "2026-10-11T08:30:32.440Z"
 }
