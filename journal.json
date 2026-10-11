@@ -35298,9 +35298,12 @@
   "rr": 7.05,
   "lev": 25,
   "signalTime": 1791720900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791720930094,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "OGNUSDT::SHORT::ChoCh::1791721800000",
