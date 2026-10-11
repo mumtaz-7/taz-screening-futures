@@ -35233,6 +35233,24 @@
   "lev": 13,
   "signalTime": 1791716400000,
   "status": "pending",
-  "createdAt": 1791716440172
+  "createdAt": 1791716440172,
+  "notified": []
+ },
+ {
+  "id": "MBLUSDT::LONG::ChoCh::1791717300000",
+  "symbol": "MBLUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00107,
+  "sl": 0.0009935,
+  "tp": 0.001381,
+  "tpSrc": "WH",
+  "slPct": 7.15,
+  "gainPct": 29.07,
+  "rr": 4.07,
+  "lev": 8,
+  "signalTime": 1791717300000,
+  "status": "pending",
+  "createdAt": 1791717329871
  }
 ]
