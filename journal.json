@@ -35272,6 +35272,24 @@
   "lev": 25,
   "signalTime": 1791720900000,
   "status": "pending",
-  "createdAt": 1791720930094
+  "createdAt": 1791720930094,
+  "notified": []
+ },
+ {
+  "id": "OGNUSDT::SHORT::ChoCh::1791721800000",
+  "symbol": "OGNUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.03375,
+  "sl": 0.03948,
+  "tp": 0.02288,
+  "tpSrc": "OB",
+  "slPct": 16.98,
+  "gainPct": 32.21,
+  "rr": 1.9,
+  "lev": 3,
+  "signalTime": 1791721800000,
+  "status": "pending",
+  "createdAt": 1791721834590
  }
 ]

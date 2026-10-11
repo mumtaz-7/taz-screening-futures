@@ -2,7 +2,7 @@
   "ready": [
     "ARPAUSDT::LONG::ChoCh",
     "ICPUSDT::LONG::BoS",
-    "MBLUSDT::LONG::ChoCh"
+    "OGNUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-10-11T12:15:30.093Z"
+  "at": "2026-10-11T12:30:34.589Z"
 }
