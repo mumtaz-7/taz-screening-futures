@@ -35145,9 +35145,12 @@
   "rr": 7.53,
   "lev": 25,
   "signalTime": 1791702000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791702044106,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791702900000
  },
  {
   "id": "ICPUSDT::LONG::ChoCh::1791702000000",
@@ -35163,8 +35166,11 @@
   "rr": 6.72,
   "lev": 25,
   "signalTime": 1791702000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791702044106,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791702900000
  }
 ]
