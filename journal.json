@@ -34849,12 +34849,15 @@
   "rr": 2.92,
   "lev": 22,
   "signalTime": 1791658800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791658840222,
   "fillTime": 1791658800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.92,
+  "resolvedTime": 1791726300000
  },
  {
   "id": "C98USDT::SHORT::ChoCh::1791659700000",
