@@ -35431,9 +35431,12 @@
   "rr": 3.74,
   "lev": 21,
   "signalTime": 1791737100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791737130693,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ZROUSDT::LONG::BoS::1791738900000",
