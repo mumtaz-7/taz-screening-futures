@@ -34984,5 +34984,22 @@
    "open"
   ],
   "fillTime": 1791684000000
+ },
+ {
+  "id": "NEARUSDT::SHORT::BoS::1791688500000",
+  "symbol": "NEARUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 5.258,
+  "sl": 5.4125,
+  "tp": 4.301,
+  "tpSrc": "WL",
+  "slPct": 2.94,
+  "gainPct": 18.2,
+  "rr": 6.19,
+  "lev": 20,
+  "signalTime": 1791688500000,
+  "status": "pending",
+  "createdAt": 1791688530540
  }
 ]
