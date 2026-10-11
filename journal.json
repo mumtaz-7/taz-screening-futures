@@ -35193,7 +35193,28 @@
   "rr": 2.16,
   "lev": 8,
   "signalTime": 1791711000000,
+  "status": "open",
+  "createdAt": 1791711035163,
+  "fillTime": 1791711000000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ZROUSDT::LONG::ChoCh::1791711900000",
+  "symbol": "ZROUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 2.007,
+  "sl": 1.9620000000000002,
+  "tp": 2.252,
+  "tpSrc": "OB",
+  "slPct": 2.24,
+  "gainPct": 12.21,
+  "rr": 5.44,
+  "lev": 25,
+  "signalTime": 1791711900000,
   "status": "pending",
-  "createdAt": 1791711035163
+  "createdAt": 1791711929812
  }
 ]

@@ -1,6 +1,7 @@
 {
   "ready": [
-    "RLCUSDT::LONG::BoS"
+    "RLCUSDT::LONG::BoS",
+    "ZROUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-11T09:30:35.162Z"
+  "at": "2026-10-11T09:45:29.811Z"
 }
