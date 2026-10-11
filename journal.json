@@ -35042,8 +35042,12 @@
   "rr": 2.75,
   "lev": 11,
   "signalTime": 1791693000000,
-  "status": "pending",
-  "createdAt": 1791693036229
+  "status": "open",
+  "createdAt": 1791693036229,
+  "fillTime": 1791693000000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "ERAUSDT::LONG::ChoCh::1791693000000",
@@ -35060,7 +35064,8 @@
   "lev": 9,
   "signalTime": 1791693000000,
   "status": "pending",
-  "createdAt": 1791693036229
+  "createdAt": 1791693036229,
+  "notified": []
  },
  {
   "id": "MAGICUSDT::LONG::ChoCh::1791693000000",
@@ -35077,6 +35082,7 @@
   "lev": 10,
   "signalTime": 1791693000000,
   "status": "pending",
-  "createdAt": 1791693036229
+  "createdAt": 1791693036229,
+  "notified": []
  }
 ]
