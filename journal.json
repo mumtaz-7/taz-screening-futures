@@ -35382,9 +35382,12 @@
   "rr": 1.41,
   "lev": 3,
   "signalTime": 1791732600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791732636945,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791735300000
  },
  {
   "id": "BATUSDT::LONG::ChoCh::1791734400000",
