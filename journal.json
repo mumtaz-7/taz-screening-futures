@@ -34888,12 +34888,15 @@
   "rr": 3.95,
   "lev": 7,
   "signalTime": 1791660600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791660635724,
   "fillTime": 1791660600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791709200000
  },
  {
   "id": "GTCUSDT::LONG::BoS::1791665100000",
