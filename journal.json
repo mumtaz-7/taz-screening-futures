@@ -35146,7 +35146,8 @@
   "lev": 25,
   "signalTime": 1791702000000,
   "status": "pending",
-  "createdAt": 1791702044106
+  "createdAt": 1791702044106,
+  "notified": []
  },
  {
   "id": "ICPUSDT::LONG::ChoCh::1791702000000",
@@ -35163,6 +35164,7 @@
   "lev": 25,
   "signalTime": 1791702000000,
   "status": "pending",
-  "createdAt": 1791702044106
+  "createdAt": 1791702044106,
+  "notified": []
  }
 ]
