@@ -35256,5 +35256,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ICPUSDT::LONG::BoS::1791720900000",
+  "symbol": "ICPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 3.086,
+  "sl": 3.0365,
+  "tp": 3.435,
+  "tpSrc": "OB",
+  "slPct": 1.6,
+  "gainPct": 11.31,
+  "rr": 7.05,
+  "lev": 25,
+  "signalTime": 1791720900000,
+  "status": "pending",
+  "createdAt": 1791720930094
  }
 ]
