@@ -34954,12 +34954,15 @@
   "rr": 17.37,
   "lev": 25,
   "signalTime": 1791678600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791678636268,
   "fillTime": 1791678600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791684900000
  },
  {
   "id": "MAVUSDT::LONG::BoS::1791683100000",
