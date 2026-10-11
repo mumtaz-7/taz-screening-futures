@@ -34960,5 +34960,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "MAVUSDT::LONG::BoS::1791683100000",
+  "symbol": "MAVUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01211,
+  "sl": 0.011779999999999999,
+  "tp": 0.01344,
+  "tpSrc": "WH",
+  "slPct": 2.73,
+  "gainPct": 10.98,
+  "rr": 4.03,
+  "lev": 21,
+  "signalTime": 1791683100000,
+  "status": "pending",
+  "createdAt": 1791683130093
  }
 ]
