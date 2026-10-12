@@ -35485,12 +35485,15 @@
   "rr": 2.33,
   "lev": 6,
   "signalTime": 1791740700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791740731099,
   "fillTime": 1791740700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791779400000
  },
  {
   "id": "SENTUSDT::SHORT::ChoCh::1791754200000",
