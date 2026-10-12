@@ -35244,12 +35244,15 @@
   "rr": 5.44,
   "lev": 25,
   "signalTime": 1791711900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791711929812,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1791722700000
+  "fillTime": 1791722700000,
+  "R": 5.44,
+  "resolvedTime": 1791778500000
  },
  {
   "id": "CHIPUSDT::LONG::ChoCh::1791716400000",
