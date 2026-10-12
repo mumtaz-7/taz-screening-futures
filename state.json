@@ -1,7 +1,8 @@
 {
   "ready": [
     "KAIAUSDT::SHORT::BoS",
-    "MAGICUSDT::LONG::BoS"
+    "MAGICUSDT::LONG::BoS",
+    "METUSDT::LONG::BoS"
   ],
-  "at": "2026-10-12T00:30:35.964Z"
+  "at": "2026-10-12T00:45:29.545Z"
 }
