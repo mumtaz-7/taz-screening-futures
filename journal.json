@@ -35518,8 +35518,13 @@
   "rr": 18.93,
   "lev": 25,
   "signalTime": 1791765000000,
-  "status": "pending",
+  "status": "loss",
   "createdAt": 1791765035965,
-  "notified": []
+  "notified": [
+   "loss"
+  ],
+  "R": -1,
+  "fillTime": 1791766800000,
+  "resolvedTime": 1791766800000
  }
 ]
