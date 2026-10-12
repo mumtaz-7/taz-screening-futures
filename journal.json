@@ -34766,12 +34766,15 @@
   "rr": 2.96,
   "lev": 23,
   "signalTime": 1791648000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791648042092,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791653400000
+  "fillTime": 1791653400000,
+  "R": -1,
+  "resolvedTime": 1791823500000
  },
  {
   "id": "TIAUSDT::LONG::BoS::1791648000000",
@@ -35817,5 +35820,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ARBUSDT::SHORT::BoS::1791824400000",
+  "symbol": "ARBUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1875,
+  "sl": 0.19125,
+  "tp": 0.1621,
+  "tpSrc": "WL",
+  "slPct": 2,
+  "gainPct": 13.55,
+  "rr": 6.77,
+  "lev": 25,
+  "signalTime": 1791824400000,
+  "status": "pending",
+  "createdAt": 1791824449976
+ },
+ {
+  "id": "BATUSDT::SHORT::ChoCh::1791824400000",
+  "symbol": "BATUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.1467,
+  "sl": 0.15675,
+  "tp": 0.1062,
+  "tpSrc": "OB",
+  "slPct": 6.85,
+  "gainPct": 27.61,
+  "rr": 4.03,
+  "lev": 9,
+  "signalTime": 1791824400000,
+  "status": "pending",
+  "createdAt": 1791824449977
  }
 ]
