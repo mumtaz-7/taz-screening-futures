@@ -35582,5 +35582,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "KAIAUSDT::SHORT::BoS::1791783000000",
+  "symbol": "KAIAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.05,
+  "sl": 0.0566,
+  "tp": 0.0375,
+  "tpSrc": "OB",
+  "slPct": 13.2,
+  "gainPct": 25,
+  "rr": 1.89,
+  "lev": 4,
+  "signalTime": 1791783000000,
+  "status": "pending",
+  "createdAt": 1791783035579
  }
 ]

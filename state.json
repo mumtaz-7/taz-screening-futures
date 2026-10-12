@@ -1,6 +1,8 @@
 {
   "ready": [
+    "KAIAUSDT::SHORT::BoS",
+    "OGNUSDT::SHORT::BoS",
     "RSRUSDT::LONG::BoS"
   ],
-  "at": "2026-10-12T05:15:29.328Z"
+  "at": "2026-10-12T05:30:35.578Z"
 }
