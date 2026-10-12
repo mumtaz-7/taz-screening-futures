@@ -35181,12 +35181,15 @@
   "rr": 4.44,
   "lev": 14,
   "signalTime": 1791698400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791698441607,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791708300000
+  "fillTime": 1791708300000,
+  "R": -1,
+  "resolvedTime": 1791815400000
  },
  {
   "id": "HBARUSDT::LONG::ChoCh::1791702000000",
@@ -35202,12 +35205,15 @@
   "rr": 7.53,
   "lev": 25,
   "signalTime": 1791702000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791702044106,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791702900000
+  "fillTime": 1791702900000,
+  "R": -1,
+  "resolvedTime": 1791815400000
  },
  {
   "id": "ICPUSDT::LONG::ChoCh::1791702000000",
