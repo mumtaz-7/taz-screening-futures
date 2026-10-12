@@ -34620,12 +34620,15 @@
   "rr": 2.91,
   "lev": 21,
   "signalTime": 1791629100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791629132284,
   "fillTime": 1791629100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791808200000
  },
  {
   "id": "WALUSDT::LONG::BoS::1791630000000",
@@ -35145,12 +35148,15 @@
   "rr": 3.41,
   "lev": 17,
   "signalTime": 1791694800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791694839240,
   "fillTime": 1791694800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791808200000
  },
  {
   "id": "WALUSDT::LONG::ChoCh::1791698400000",
@@ -35391,12 +35397,15 @@
   "rr": 2.14,
   "lev": 12,
   "signalTime": 1791729000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791729035545,
   "fillTime": 1791729000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791808200000
  },
  {
   "id": "OGNUSDT::SHORT::BoS::1791732600000",
