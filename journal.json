@@ -34999,12 +34999,15 @@
   "rr": 4.03,
   "lev": 21,
   "signalTime": 1791683100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791683130093,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791684000000
+  "fillTime": 1791684000000,
+  "R": -1,
+  "resolvedTime": 1791767700000
  },
  {
   "id": "NEARUSDT::SHORT::BoS::1791688500000",
