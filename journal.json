@@ -35603,5 +35603,22 @@
   "status": "pending",
   "createdAt": 1791783035579,
   "notified": []
+ },
+ {
+  "id": "SUSDT::LONG::ChoCh::1791787500000",
+  "symbol": "SUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.06236,
+  "sl": 0.05699,
+  "tp": 0.06901,
+  "tpSrc": "WH",
+  "slPct": 8.61,
+  "gainPct": 10.66,
+  "rr": 1.24,
+  "lev": 7,
+  "signalTime": 1791787500000,
+  "status": "pending",
+  "createdAt": 1791787533561
  }
 ]
