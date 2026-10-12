@@ -35630,5 +35630,22 @@
   ],
   "R": -1,
   "resolvedTime": 1791793800000
+ },
+ {
+  "id": "CFXUSDT::LONG::ChoCh::1791798300000",
+  "symbol": "CFXUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.06401,
+  "sl": 0.06281,
+  "tp": 0.0728,
+  "tpSrc": "WH",
+  "slPct": 1.87,
+  "gainPct": 13.73,
+  "rr": 7.33,
+  "lev": 25,
+  "signalTime": 1791798300000,
+  "status": "pending",
+  "createdAt": 1791798334206
  }
 ]
