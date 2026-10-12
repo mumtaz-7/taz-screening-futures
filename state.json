@@ -1,6 +1,7 @@
 {
   "ready": [
-    "GTCUSDT::LONG::BoS"
+    "GTCUSDT::LONG::BoS",
+    "MAGICUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-12T10:30:36.918Z"
+  "at": "2026-10-12T10:45:35.216Z"
 }
