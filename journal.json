@@ -35836,7 +35836,8 @@
   "lev": 25,
   "signalTime": 1791824400000,
   "status": "pending",
-  "createdAt": 1791824449976
+  "createdAt": 1791824449976,
+  "notified": []
  },
  {
   "id": "BATUSDT::SHORT::ChoCh::1791824400000",
@@ -35852,7 +35853,28 @@
   "rr": 4.03,
   "lev": 9,
   "signalTime": 1791824400000,
+  "status": "open",
+  "createdAt": 1791824449977,
+  "fillTime": 1791824400000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ZKUSDT::SHORT::BoS::1791825300000",
+  "symbol": "ZKUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.01486,
+  "sl": 0.015550000000000001,
+  "tp": 0.01139,
+  "tpSrc": "OB",
+  "slPct": 4.64,
+  "gainPct": 23.35,
+  "rr": 5.03,
+  "lev": 13,
+  "signalTime": 1791825300000,
   "status": "pending",
-  "createdAt": 1791824449977
+  "createdAt": 1791825332281
  }
 ]
