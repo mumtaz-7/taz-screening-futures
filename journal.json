@@ -35841,9 +35841,12 @@
   "rr": 6.77,
   "lev": 25,
   "signalTime": 1791824400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791824449976,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791832500000
  },
  {
   "id": "BATUSDT::SHORT::ChoCh::1791824400000",
@@ -35886,5 +35889,22 @@
    "open"
   ],
   "fillTime": 1791826200000
+ },
+ {
+  "id": "币安人生USDT::LONG::ChoCh::1791833400000",
+  "symbol": "币安人生USDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.5777,
+  "sl": 0.572,
+  "tp": 0.6403,
+  "tpSrc": "WH",
+  "slPct": 0.99,
+  "gainPct": 10.84,
+  "rr": 10.98,
+  "lev": 25,
+  "signalTime": 1791833400000,
+  "status": "pending",
+  "createdAt": 1791833439861
  }
 ]
