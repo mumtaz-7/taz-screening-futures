@@ -35705,9 +35705,12 @@
   "rr": 21.39,
   "lev": 10,
   "signalTime": 1791800100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791800131135,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "MUBARAKUSDT::SHORT::BoS::1791802800000",
