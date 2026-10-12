@@ -35600,9 +35600,12 @@
   "rr": 1.89,
   "lev": 4,
   "signalTime": 1791783000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791783035579,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791789300000
  },
  {
   "id": "SUSDT::LONG::ChoCh::1791787500000",
