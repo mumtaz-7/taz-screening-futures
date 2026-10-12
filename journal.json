@@ -34659,12 +34659,15 @@
   "rr": 1.92,
   "lev": 7,
   "signalTime": 1791630000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791630041771,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791632700000
+  "fillTime": 1791632700000,
+  "R": -1,
+  "resolvedTime": 1791846000000
  },
  {
   "id": "WUSDT::LONG::BoS::1791636300000",
@@ -35985,12 +35988,15 @@
   "rr": 9,
   "lev": 17,
   "signalTime": 1791837000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791837038466,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791840600000
+  "fillTime": 1791840600000,
+  "R": -1,
+  "resolvedTime": 1791846000000
  },
  {
   "id": "STRKUSDT::SHORT::BoS::1791843300000",
