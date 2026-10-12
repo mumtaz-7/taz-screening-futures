@@ -34144,12 +34144,15 @@
   "rr": 6.91,
   "lev": 25,
   "signalTime": 1791576000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791576040896,
   "fillTime": 1791576000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791810000000
  },
  {
   "id": "AMPUSDT::LONG::ChoCh::1791576900000",
@@ -35750,5 +35753,22 @@
   "status": "pending",
   "createdAt": 1791805531883,
   "notified": []
+ },
+ {
+  "id": "STRKUSDT::SHORT::BoS::1791810900000",
+  "symbol": "STRKUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1039,
+  "sl": 0.108805,
+  "tp": 0.09551,
+  "tpSrc": "OB",
+  "slPct": 4.72,
+  "gainPct": 8.08,
+  "rr": 1.71,
+  "lev": 13,
+  "signalTime": 1791810900000,
+  "status": "pending",
+  "createdAt": 1791810933755
  }
 ]
