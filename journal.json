@@ -35958,12 +35958,15 @@
   "rr": 2.81,
   "lev": 14,
   "signalTime": 1791836100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791836134948,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791837900000
+  "fillTime": 1791837900000,
+  "R": -1,
+  "resolvedTime": 1791841500000
  },
  {
   "id": "LUMIAUSDT::LONG::ChoCh::1791837000000",
