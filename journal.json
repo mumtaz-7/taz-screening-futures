@@ -35913,12 +35913,15 @@
   "rr": 10.98,
   "lev": 25,
   "signalTime": 1791833400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791833439861,
   "fillTime": 1791833400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791845100000
  },
  {
   "id": "EIGENUSDT::LONG::ChoCh::1791836100000",
