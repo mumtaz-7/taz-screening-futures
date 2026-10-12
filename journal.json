@@ -34304,12 +34304,15 @@
   "rr": 6.42,
   "lev": 25,
   "signalTime": 1791595800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791595838180,
   "fillTime": 1791595800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791800100000
  },
  {
   "id": "XAIUSDT::LONG::BoS::1791602100000",
@@ -35670,6 +35673,7 @@
   "lev": 10,
   "signalTime": 1791800100000,
   "status": "pending",
-  "createdAt": 1791800131135
+  "createdAt": 1791800131135,
+  "notified": []
  }
 ]
