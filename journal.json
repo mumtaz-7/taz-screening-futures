@@ -35696,9 +35696,12 @@
   "rr": 1.97,
   "lev": 8,
   "signalTime": 1791802800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791802844946,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791805500000
  },
  {
   "id": "ATOMUSDT::SHORT::BoS::1791805500000",
@@ -35714,8 +35717,12 @@
   "rr": 1.69,
   "lev": 10,
   "signalTime": 1791805500000,
-  "status": "pending",
-  "createdAt": 1791805531883
+  "status": "open",
+  "createdAt": 1791805531883,
+  "fillTime": 1791805500000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "METUSDT::SHORT::BoS::1791805500000",
@@ -35732,6 +35739,7 @@
   "lev": 3,
   "signalTime": 1791805500000,
   "status": "pending",
-  "createdAt": 1791805531883
+  "createdAt": 1791805531883,
+  "notified": []
  }
 ]
