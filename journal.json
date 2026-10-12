@@ -34578,12 +34578,15 @@
   "rr": 3.23,
   "lev": 7,
   "signalTime": 1791623700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791623731149,
   "fillTime": 1791623700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791810900000
  },
  {
   "id": "CRVUSDT::SHORT::BoS::1791629100000",
@@ -35769,6 +35772,7 @@
   "lev": 13,
   "signalTime": 1791810900000,
   "status": "pending",
-  "createdAt": 1791810933755
+  "createdAt": 1791810933755,
+  "notified": []
  }
 ]
