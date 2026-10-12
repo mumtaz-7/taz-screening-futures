@@ -35560,5 +35560,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "RSRUSDT::LONG::BoS::1791781200000",
+  "symbol": "RSRUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.001665,
+  "sl": 0.001614,
+  "tp": 0.002812,
+  "tpSrc": "WH",
+  "slPct": 3.06,
+  "gainPct": 68.89,
+  "rr": 22.49,
+  "lev": 19,
+  "signalTime": 1791781200000,
+  "status": "pending",
+  "createdAt": 1791781242498
  }
 ]

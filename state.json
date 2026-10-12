@@ -1,6 +1,7 @@
 {
   "ready": [
-    "METUSDT::LONG::BoS"
+    "METUSDT::LONG::BoS",
+    "RSRUSDT::LONG::BoS"
   ],
-  "at": "2026-10-12T04:45:29.558Z"
+  "at": "2026-10-12T05:00:42.497Z"
 }
