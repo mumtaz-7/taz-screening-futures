@@ -35762,9 +35762,12 @@
   "rr": 1,
   "lev": 3,
   "signalTime": 1791805500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791805531883,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791816300000
  },
  {
   "id": "STRKUSDT::SHORT::BoS::1791810900000",
@@ -35787,5 +35790,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1791811800000
+ },
+ {
+  "id": "REDUSDT::LONG::BoS::1791817200000",
+  "symbol": "REDUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1675,
+  "sl": 0.15205000000000002,
+  "tp": 0.1876,
+  "tpSrc": "WH",
+  "slPct": 9.22,
+  "gainPct": 12,
+  "rr": 1.3,
+  "lev": 6,
+  "signalTime": 1791817200000,
+  "status": "pending",
+  "createdAt": 1791817245119
  }
 ]
