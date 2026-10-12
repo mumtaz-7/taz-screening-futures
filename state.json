@@ -1,8 +1,7 @@
 {
   "ready": [
     "ATOMUSDT::SHORT::BoS",
-    "METUSDT::SHORT::BoS",
-    "MUBARAKUSDT::SHORT::BoS"
+    "METUSDT::SHORT::BoS"
   ],
-  "at": "2026-10-12T12:15:30.751Z"
+  "at": "2026-10-12T12:30:42.441Z"
 }
