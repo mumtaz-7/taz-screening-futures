@@ -1,8 +1,8 @@
 {
   "ready": [
     "KAIAUSDT::SHORT::BoS",
-    "MAGICUSDT::LONG::BoS",
-    "METUSDT::LONG::BoS"
+    "METUSDT::LONG::BoS",
+    "RLCUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-12T01:30:35.611Z"
+  "at": "2026-10-12T01:45:31.365Z"
 }
