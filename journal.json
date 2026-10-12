@@ -34398,12 +34398,15 @@
   "rr": 1.06,
   "lev": 5,
   "signalTime": 1791613800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791613834738,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791615600000
+  "fillTime": 1791615600000,
+  "R": -1,
+  "resolvedTime": 1791811800000
  },
  {
   "id": "METUSDT::LONG::ChoCh::1791613800000",
@@ -35771,8 +35774,12 @@
   "rr": 1.71,
   "lev": 13,
   "signalTime": 1791810900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791810933755,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791811800000
  }
 ]
