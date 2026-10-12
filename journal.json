@@ -35621,11 +35621,14 @@
   "rr": 1.24,
   "lev": 7,
   "signalTime": 1791787500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791787533561,
   "fillTime": 1791787500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791793800000
  }
 ]
