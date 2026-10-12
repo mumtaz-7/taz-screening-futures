@@ -35253,12 +35253,15 @@
   "rr": 2.16,
   "lev": 8,
   "signalTime": 1791711000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791711035163,
   "fillTime": 1791711000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791820800000
  },
  {
   "id": "ZROUSDT::LONG::ChoCh::1791711900000",
