@@ -35075,12 +35075,15 @@
   "rr": 2.75,
   "lev": 11,
   "signalTime": 1791693000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791693036229,
   "fillTime": 1791693000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791802800000
  },
  {
   "id": "ERAUSDT::LONG::ChoCh::1791693000000",
@@ -35691,6 +35694,7 @@
   "lev": 8,
   "signalTime": 1791802800000,
   "status": "pending",
-  "createdAt": 1791802844946
+  "createdAt": 1791802844946,
+  "notified": []
  }
 ]
