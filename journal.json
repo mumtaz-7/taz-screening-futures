@@ -35862,12 +35862,15 @@
   "rr": 4.03,
   "lev": 9,
   "signalTime": 1791824400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791824449977,
   "fillTime": 1791824400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791836100000
  },
  {
   "id": "ZKUSDT::SHORT::BoS::1791825300000",
@@ -35926,7 +35929,8 @@
   "lev": 25,
   "signalTime": 1791836100000,
   "status": "pending",
-  "createdAt": 1791836134948
+  "createdAt": 1791836134948,
+  "notified": []
  },
  {
   "id": "PLUMEUSDT::LONG::ChoCh::1791836100000",
@@ -35943,6 +35947,24 @@
   "lev": 14,
   "signalTime": 1791836100000,
   "status": "pending",
-  "createdAt": 1791836134948
+  "createdAt": 1791836134948,
+  "notified": []
+ },
+ {
+  "id": "LUMIAUSDT::LONG::ChoCh::1791837000000",
+  "symbol": "LUMIAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1083,
+  "sl": 0.10455,
+  "tp": 0.14205,
+  "tpSrc": "EQ",
+  "slPct": 3.46,
+  "gainPct": 31.16,
+  "rr": 9,
+  "lev": 17,
+  "signalTime": 1791837000000,
+  "status": "pending",
+  "createdAt": 1791837038466
  }
 ]
