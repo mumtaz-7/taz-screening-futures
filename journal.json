@@ -34416,12 +34416,15 @@
   "rr": 5.42,
   "lev": 10,
   "signalTime": 1791613800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791613834738,
   "fillTime": 1791613800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791804600000
  },
  {
   "id": "CTSIUSDT::SHORT::ChoCh::1791618300000",
@@ -35696,5 +35699,39 @@
   "status": "pending",
   "createdAt": 1791802844946,
   "notified": []
+ },
+ {
+  "id": "ATOMUSDT::SHORT::BoS::1791805500000",
+  "symbol": "ATOMUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 1.857,
+  "sl": 1.9725,
+  "tp": 1.662,
+  "tpSrc": "OB",
+  "slPct": 6.22,
+  "gainPct": 10.5,
+  "rr": 1.69,
+  "lev": 10,
+  "signalTime": 1791805500000,
+  "status": "pending",
+  "createdAt": 1791805531883
+ },
+ {
+  "id": "METUSDT::SHORT::BoS::1791805500000",
+  "symbol": "METUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.3945,
+  "sl": 0.4659,
+  "tp": 0.3228,
+  "tpSrc": "OB",
+  "slPct": 18.1,
+  "gainPct": 18.17,
+  "rr": 1,
+  "lev": 3,
+  "signalTime": 1791805500000,
+  "status": "pending",
+  "createdAt": 1791805531883
  }
 ]
