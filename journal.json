@@ -35500,5 +35500,22 @@
    "open"
   ],
   "fillTime": 1791760500000
+ },
+ {
+  "id": "KAIAUSDT::SHORT::BoS::1791765000000",
+  "symbol": "KAIAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0517,
+  "sl": 0.052450000000000004,
+  "tp": 0.0375,
+  "tpSrc": "OB",
+  "slPct": 1.45,
+  "gainPct": 27.47,
+  "rr": 18.93,
+  "lev": 25,
+  "signalTime": 1791765000000,
+  "status": "pending",
+  "createdAt": 1791765035965
  }
 ]
