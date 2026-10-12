@@ -33657,12 +33657,15 @@
   "rr": 5.55,
   "lev": 21,
   "signalTime": 1791514800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791514843048,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791516600000
+  "fillTime": 1791516600000,
+  "R": -1,
+  "resolvedTime": 1791773100000
  },
  {
   "id": "RLCUSDT::LONG::BoS::1791514800000",
@@ -35529,5 +35532,22 @@
   "R": -1,
   "fillTime": 1791766800000,
   "resolvedTime": 1791766800000
+ },
+ {
+  "id": "WUSDT::LONG::BoS::1791774000000",
+  "symbol": "WUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.02337,
+  "sl": 0.018,
+  "tp": 0.02945,
+  "tpSrc": "WH",
+  "slPct": 22.98,
+  "gainPct": 26.02,
+  "rr": 1.13,
+  "lev": 2,
+  "signalTime": 1791774000000,
+  "status": "pending",
+  "createdAt": 1791774045184
  }
 ]
