@@ -32165,12 +32165,15 @@
   "rr": 4.05,
   "lev": 15,
   "signalTime": 1791220500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791220538417,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1791221400000
+  "fillTime": 1791221400000,
+  "R": 4.05,
+  "resolvedTime": 1791840600000
  },
  {
   "id": "NIGHTUSDT::LONG::BoS::1791232200000",
@@ -35931,12 +35934,15 @@
   "rr": 6.4,
   "lev": 25,
   "signalTime": 1791836100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791836134948,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791837000000
+  "fillTime": 1791837000000,
+  "R": -1,
+  "resolvedTime": 1791840600000
  },
  {
   "id": "PLUMEUSDT::LONG::ChoCh::1791836100000",
@@ -35973,8 +35979,11 @@
   "rr": 9,
   "lev": 17,
   "signalTime": 1791837000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791837038466,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791840600000
  }
 ]

@@ -1,8 +1,6 @@
 {
   "ready": [
-    "EIGENUSDT::LONG::ChoCh",
-    "LUMIAUSDT::LONG::ChoCh",
-    "PLUMEUSDT::LONG::ChoCh"
+    "LUMIAUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-12T21:30:38.653Z"
+  "at": "2026-10-12T21:45:34.835Z"
 }
