@@ -34951,12 +34951,15 @@
   "rr": 3,
   "lev": 14,
   "signalTime": 1791668700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791668730614,
   "fillTime": 1791668700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791765900000
  },
  {
   "id": "OGNUSDT::SHORT::BoS::1791678600000",
