@@ -34515,12 +34515,15 @@
   "rr": 2.23,
   "lev": 11,
   "signalTime": 1791621000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791621035453,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791628200000
+  "fillTime": 1791628200000,
+  "R": -1,
+  "resolvedTime": 1791837000000
  },
  {
   "id": "ERAUSDT::LONG::BoS::1791621000000",
@@ -35928,9 +35931,12 @@
   "rr": 6.4,
   "lev": 25,
   "signalTime": 1791836100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791836134948,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791837000000
  },
  {
   "id": "PLUMEUSDT::LONG::ChoCh::1791836100000",
@@ -35965,6 +35971,7 @@
   "lev": 17,
   "signalTime": 1791837000000,
   "status": "pending",
-  "createdAt": 1791837038466
+  "createdAt": 1791837038466,
+  "notified": []
  }
 ]
