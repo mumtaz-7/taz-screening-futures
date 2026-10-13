@@ -36362,7 +36362,8 @@
   "lev": 6,
   "signalTime": 1791887400000,
   "status": "pending",
-  "createdAt": 1791887440559
+  "createdAt": 1791887440559,
+  "notified": []
  },
  {
   "id": "MANTAUSDT::SHORT::BoS::1791887400000",
@@ -36379,6 +36380,7 @@
   "lev": 22,
   "signalTime": 1791887400000,
   "status": "pending",
-  "createdAt": 1791887440559
+  "createdAt": 1791887440559,
+  "notified": []
  }
 ]
