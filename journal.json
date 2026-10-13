@@ -36265,9 +36265,12 @@
   "rr": 2.12,
   "lev": 6,
   "signalTime": 1791875700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791875733671,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791895500000
  },
  {
   "id": "CYBERUSDT::SHORT::BoS::1791881100000",
@@ -36412,7 +36415,12 @@
   "rr": 1.61,
   "lev": 8,
   "signalTime": 1791895500000,
-  "status": "pending",
-  "createdAt": 1791895546857
+  "status": "void",
+  "createdAt": 1791895546857,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791895500000,
+  "notified": [
+   "void"
+  ]
  }
 ]
