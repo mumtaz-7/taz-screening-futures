@@ -31904,12 +31904,15 @@
   "rr": 2.24,
   "lev": 7,
   "signalTime": 1791180900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791180935822,
   "fillTime": 1791180900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.24,
+  "resolvedTime": 1791921600000
  },
  {
   "id": "ZROUSDT::LONG::BoS::1791189000000",
@@ -36597,6 +36600,7 @@
   "lev": 22,
   "signalTime": 1791921600000,
   "status": "pending",
-  "createdAt": 1791921645607
+  "createdAt": 1791921645607,
+  "notified": []
  }
 ]
