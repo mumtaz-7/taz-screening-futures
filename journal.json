@@ -36539,5 +36539,22 @@
    "open"
   ],
   "fillTime": 1791914400000
+ },
+ {
+  "id": "CHIPUSDT::SHORT::ChoCh::1791918900000",
+  "symbol": "CHIPUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.05682,
+  "sl": 0.06063,
+  "tp": 0.05172,
+  "tpSrc": "OB",
+  "slPct": 6.71,
+  "gainPct": 8.98,
+  "rr": 1.34,
+  "lev": 9,
+  "signalTime": 1791918900000,
+  "status": "pending",
+  "createdAt": 1791918933843
  }
 ]
