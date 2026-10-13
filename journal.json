@@ -36109,9 +36109,12 @@
   "rr": 1.59,
   "lev": 14,
   "signalTime": 1791863100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791863132786,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791864900000
  },
  {
   "id": "CKBUSDT::LONG::ChoCh::1791864900000",
@@ -36128,6 +36131,24 @@
   "lev": 6,
   "signalTime": 1791864900000,
   "status": "pending",
-  "createdAt": 1791864933090
+  "createdAt": 1791864933090,
+  "notified": []
+ },
+ {
+  "id": "XAIUSDT::LONG::BoS::1791865800000",
+  "symbol": "XAIUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00962,
+  "sl": 0.00884,
+  "tp": 0.01086,
+  "tpSrc": "OB",
+  "slPct": 8.11,
+  "gainPct": 12.89,
+  "rr": 1.59,
+  "lev": 7,
+  "signalTime": 1791865800000,
+  "status": "pending",
+  "createdAt": 1791865839911
  }
 ]
