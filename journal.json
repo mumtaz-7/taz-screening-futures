@@ -33324,12 +33324,15 @@
   "rr": 3.03,
   "lev": 18,
   "signalTime": 1791446400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791446452401,
   "fillTime": 1791446400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.03,
+  "resolvedTime": 1791851400000
  },
  {
   "id": "ORCAUSDT::LONG::BoS::1791450900000",
@@ -36037,6 +36040,24 @@
   "lev": 23,
   "signalTime": 1791851400000,
   "status": "pending",
-  "createdAt": 1791851437254
+  "createdAt": 1791851437254,
+  "notified": []
+ },
+ {
+  "id": "METUSDT::SHORT::ChoCh::1791852300000",
+  "symbol": "METUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.3801,
+  "sl": 0.41400000000000003,
+  "tp": 0.3194,
+  "tpSrc": "OB",
+  "slPct": 8.92,
+  "gainPct": 15.97,
+  "rr": 1.79,
+  "lev": 7,
+  "signalTime": 1791852300000,
+  "status": "pending",
+  "createdAt": 1791852333198
  }
 ]
