@@ -36659,5 +36659,22 @@
    "open"
   ],
   "fillTime": 1791927000000
+ },
+ {
+  "id": "CFXUSDT::SHORT::ChoCh::1791933300000",
+  "symbol": "CFXUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.05745,
+  "sl": 0.058515000000000005,
+  "tp": 0.05075,
+  "tpSrc": "OB",
+  "slPct": 1.85,
+  "gainPct": 11.66,
+  "rr": 6.29,
+  "lev": 25,
+  "signalTime": 1791933300000,
+  "status": "pending",
+  "createdAt": 1791933331080
  }
 ]
