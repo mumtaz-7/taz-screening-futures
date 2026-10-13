@@ -36415,12 +36415,15 @@
   "rr": 4.84,
   "lev": 22,
   "signalTime": 1791887400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791887440559,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791892800000
+  "fillTime": 1791892800000,
+  "R": -1,
+  "resolvedTime": 1791931500000
  },
  {
   "id": "SUSDT::LONG::BoS::1791895500000",
