@@ -34854,12 +34854,15 @@
   "rr": 2.18,
   "lev": 6,
   "signalTime": 1791649800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791649835956,
   "fillTime": 1791649800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791914400000
  },
  {
   "id": "CHIPUSDT::LONG::ChoCh::1791654300000",
@@ -36530,8 +36533,11 @@
   "rr": 3.53,
   "lev": 11,
   "signalTime": 1791913500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791913533951,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791914400000
  }
 ]
