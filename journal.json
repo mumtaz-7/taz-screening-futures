@@ -36024,9 +36024,12 @@
   "rr": 1.2,
   "lev": 4,
   "signalTime": 1791843300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791843331929,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791855000000
  },
  {
   "id": "币安人生USDT::SHORT::ChoCh::1791851400000",
@@ -36067,5 +36070,22 @@
   "status": "pending",
   "createdAt": 1791852333198,
   "notified": []
+ },
+ {
+  "id": "MAGICUSDT::LONG::BoS::1791855900000",
+  "symbol": "MAGICUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.123,
+  "sl": 0.1119,
+  "tp": 0.1556,
+  "tpSrc": "OB",
+  "slPct": 9.02,
+  "gainPct": 26.5,
+  "rr": 2.94,
+  "lev": 7,
+  "signalTime": 1791855900000,
+  "status": "pending",
+  "createdAt": 1791855933283
  }
 ]
