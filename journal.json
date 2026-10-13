@@ -35868,12 +35868,15 @@
   "rr": 6.77,
   "lev": 25,
   "signalTime": 1791824400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791824449976,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791832500000
+  "fillTime": 1791832500000,
+  "R": -1,
+  "resolvedTime": 1791923400000
  },
  {
   "id": "BATUSDT::SHORT::ChoCh::1791824400000",
