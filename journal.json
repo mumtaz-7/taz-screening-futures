@@ -36190,12 +36190,15 @@
   "rr": 6.05,
   "lev": 22,
   "signalTime": 1791869400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791869438819,
   "fillTime": 1791869400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791874800000
  },
  {
   "id": "PLUMEUSDT::LONG::ChoCh::1791873000000",
@@ -36238,5 +36241,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "RSRUSDT::SHORT::BoS::1791875700000",
+  "symbol": "RSRUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.002087,
+  "sl": 0.0022985,
+  "tp": 0.001639,
+  "tpSrc": "OB",
+  "slPct": 10.13,
+  "gainPct": 21.47,
+  "rr": 2.12,
+  "lev": 6,
+  "signalTime": 1791875700000,
+  "status": "pending",
+  "createdAt": 1791875733671
  }
 ]
