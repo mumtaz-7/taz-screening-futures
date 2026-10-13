@@ -36301,5 +36301,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "RADUSDT::LONG::BoS::1791885600000",
+  "symbol": "RADUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.306,
+  "sl": 0.2985,
+  "tp": 0.359,
+  "tpSrc": "WH",
+  "slPct": 2.45,
+  "gainPct": 17.32,
+  "rr": 7.07,
+  "lev": 23,
+  "signalTime": 1791885600000,
+  "status": "pending",
+  "createdAt": 1791885644127
  }
 ]
