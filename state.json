@@ -1,6 +1,7 @@
 {
   "ready": [
-    "GTCUSDT::LONG::BoS"
+    "GTCUSDT::LONG::BoS",
+    "LUMIAUSDT::SHORT::BoS"
   ],
-  "at": "2026-10-13T14:45:36.885Z"
+  "at": "2026-10-13T15:00:47.986Z"
 }

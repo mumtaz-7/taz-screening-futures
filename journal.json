@@ -36440,7 +36440,28 @@
   "rr": 6.59,
   "lev": 7,
   "signalTime": 1791902700000,
+  "status": "open",
+  "createdAt": 1791902736885,
+  "fillTime": 1791902700000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "LUMIAUSDT::SHORT::BoS::1791903600000",
+  "symbol": "LUMIAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1074,
+  "sl": 0.11670000000000001,
+  "tp": 0.0829,
+  "tpSrc": "OB",
+  "slPct": 8.66,
+  "gainPct": 22.81,
+  "rr": 2.63,
+  "lev": 7,
+  "signalTime": 1791903600000,
   "status": "pending",
-  "createdAt": 1791902736885
+  "createdAt": 1791903647987
  }
 ]
