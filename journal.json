@@ -36148,8 +36148,28 @@
   "rr": 1.59,
   "lev": 7,
   "signalTime": 1791865800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791865839911,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791867600000
+ },
+ {
+  "id": "GTCUSDT::LONG::ChoCh::1791868500000",
+  "symbol": "GTCUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.246,
+  "sl": 0.22500000000000003,
+  "tp": 0.27476500000000004,
+  "tpSrc": "EQ",
+  "slPct": 8.54,
+  "gainPct": 11.69,
+  "rr": 1.37,
+  "lev": 7,
+  "signalTime": 1791868500000,
+  "status": "pending",
+  "createdAt": 1791868542938
  }
 ]
