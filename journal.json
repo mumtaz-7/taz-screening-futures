@@ -36109,12 +36109,15 @@
   "rr": 1.59,
   "lev": 14,
   "signalTime": 1791863100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791863132786,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791864900000
+  "fillTime": 1791864900000,
+  "R": -1,
+  "resolvedTime": 1791892800000
  },
  {
   "id": "CKBUSDT::LONG::ChoCh::1791864900000",
@@ -36322,12 +36325,15 @@
   "rr": 7.07,
   "lev": 23,
   "signalTime": 1791885600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791885644127,
   "fillTime": 1791885600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791892800000
  },
  {
   "id": "WUSDT::LONG::ChoCh::1791886500000",
@@ -36385,8 +36391,11 @@
   "rr": 4.84,
   "lev": 22,
   "signalTime": 1791887400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791887440559,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791892800000
  }
 ]
