@@ -36217,12 +36217,15 @@
   "rr": 3.75,
   "lev": 17,
   "signalTime": 1791873000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791873037350,
   "fillTime": 1791873000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791889200000
  },
  {
   "id": "IOUSDT::LONG::BoS::1791873900000",
