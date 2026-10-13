@@ -36094,5 +36094,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "RADUSDT::LONG::ChoCh::1791863100000",
+  "symbol": "RADUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.307,
+  "sl": 0.2935,
+  "tp": 0.3285,
+  "tpSrc": "EQ",
+  "slPct": 4.4,
+  "gainPct": 7,
+  "rr": 1.59,
+  "lev": 14,
+  "signalTime": 1791863100000,
+  "status": "pending",
+  "createdAt": 1791863132786
  }
 ]
