@@ -1,7 +1,8 @@
 {
   "ready": [
     "GTCUSDT::SHORT::ChoCh",
+    "RSRUSDT::SHORT::ChoCh",
     "STRKUSDT::SHORT::BoS"
   ],
-  "at": "2026-10-13T17:30:38.910Z"
+  "at": "2026-10-13T17:45:33.950Z"
 }

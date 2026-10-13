@@ -36510,6 +36510,24 @@
   "lev": 5,
   "signalTime": 1791912600000,
   "status": "pending",
-  "createdAt": 1791912638911
+  "createdAt": 1791912638911,
+  "notified": []
+ },
+ {
+  "id": "RSRUSDT::SHORT::ChoCh::1791913500000",
+  "symbol": "RSRUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.002015,
+  "sl": 0.0021215,
+  "tp": 0.001639,
+  "tpSrc": "OB",
+  "slPct": 5.29,
+  "gainPct": 18.66,
+  "rr": 3.53,
+  "lev": 11,
+  "signalTime": 1791913500000,
+  "status": "pending",
+  "createdAt": 1791913533951
  }
 ]
