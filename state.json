@@ -1,6 +1,8 @@
 {
   "ready": [
-    "PLUMEUSDT::LONG::ChoCh"
+    "AVAUSDT::LONG::BoS",
+    "PLUMEUSDT::LONG::ChoCh",
+    "牛来USDT::SHORT::ChoCh"
   ],
-  "at": "2026-10-13T21:00:44.349Z"
+  "at": "2026-10-13T21:15:32.868Z"
 }

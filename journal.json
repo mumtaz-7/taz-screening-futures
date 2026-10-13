@@ -36482,9 +36482,12 @@
   "rr": 2.63,
   "lev": 7,
   "signalTime": 1791903600000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791903647987,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "CTKUSDT::SHORT::BoS::1791909000000",
@@ -36605,5 +36608,39 @@
   "status": "pending",
   "createdAt": 1791921645607,
   "notified": []
+ },
+ {
+  "id": "AVAUSDT::LONG::BoS::1791926100000",
+  "symbol": "AVAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.2363,
+  "sl": 0.2213,
+  "tp": 0.3043,
+  "tpSrc": "WH",
+  "slPct": 6.35,
+  "gainPct": 28.78,
+  "rr": 4.53,
+  "lev": 9,
+  "signalTime": 1791926100000,
+  "status": "pending",
+  "createdAt": 1791926132869
+ },
+ {
+  "id": "牛来USDT::SHORT::ChoCh::1791926100000",
+  "symbol": "牛来USDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.0745,
+  "sl": 0.07594000000000001,
+  "tp": 0.0668,
+  "tpSrc": "WL",
+  "slPct": 1.93,
+  "gainPct": 10.34,
+  "rr": 5.35,
+  "lev": 25,
+  "signalTime": 1791926100000,
+  "status": "pending",
+  "createdAt": 1791926132869
  }
 ]
