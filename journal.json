@@ -36259,5 +36259,39 @@
   "status": "pending",
   "createdAt": 1791875733671,
   "notified": []
+ },
+ {
+  "id": "CYBERUSDT::SHORT::BoS::1791881100000",
+  "symbol": "CYBERUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.36,
+  "sl": 0.3765,
+  "tp": 0.325,
+  "tpSrc": "OB",
+  "slPct": 4.58,
+  "gainPct": 9.72,
+  "rr": 2.12,
+  "lev": 13,
+  "signalTime": 1791881100000,
+  "status": "pending",
+  "createdAt": 1791881132412
+ },
+ {
+  "id": "RLCUSDT::SHORT::ChoCh::1791881100000",
+  "symbol": "RLCUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.9409,
+  "sl": 0.9803499999999999,
+  "tp": 0.8523,
+  "tpSrc": "OB",
+  "slPct": 4.19,
+  "gainPct": 9.42,
+  "rr": 2.25,
+  "lev": 14,
+  "signalTime": 1791881100000,
+  "status": "pending",
+  "createdAt": 1791881132412
  }
 ]

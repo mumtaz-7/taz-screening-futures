@@ -1,6 +1,7 @@
 {
   "ready": [
-    "RSRUSDT::SHORT::BoS"
+    "CYBERUSDT::SHORT::BoS",
+    "RLCUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-10-13T08:30:39.023Z"
+  "at": "2026-10-13T08:45:32.411Z"
 }
