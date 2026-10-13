@@ -36130,9 +36130,12 @@
   "rr": 1.57,
   "lev": 6,
   "signalTime": 1791864900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791864933090,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791885600000
  },
  {
   "id": "XAIUSDT::LONG::BoS::1791865800000",
@@ -36316,7 +36319,28 @@
   "rr": 7.07,
   "lev": 23,
   "signalTime": 1791885600000,
+  "status": "open",
+  "createdAt": 1791885644127,
+  "fillTime": 1791885600000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "WUSDT::LONG::ChoCh::1791886500000",
+  "symbol": "WUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01987,
+  "sl": 0.01756,
+  "tp": 0.02435,
+  "tpSrc": "EQ",
+  "slPct": 11.63,
+  "gainPct": 22.55,
+  "rr": 1.94,
+  "lev": 5,
+  "signalTime": 1791886500000,
   "status": "pending",
-  "createdAt": 1791885644127
+  "createdAt": 1791886532019
  }
 ]
