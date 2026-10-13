@@ -1,7 +1,9 @@
 {
   "ready": [
+    "LUMIAUSDT::SHORT::ChoCh",
+    "MANTAUSDT::SHORT::BoS",
     "RADUSDT::LONG::BoS",
     "WUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-13T10:15:32.018Z"
+  "at": "2026-10-13T10:30:40.558Z"
 }
