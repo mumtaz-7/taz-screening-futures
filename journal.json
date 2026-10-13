@@ -36470,5 +36470,22 @@
   "status": "pending",
   "createdAt": 1791903647987,
   "notified": []
+ },
+ {
+  "id": "CTKUSDT::SHORT::BoS::1791909000000",
+  "symbol": "CTKUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1217,
+  "sl": 0.12995,
+  "tp": 0.11,
+  "tpSrc": "WL",
+  "slPct": 6.78,
+  "gainPct": 9.61,
+  "rr": 1.42,
+  "lev": 9,
+  "signalTime": 1791909000000,
+  "status": "pending",
+  "createdAt": 1791909039239
  }
 ]
