@@ -36067,9 +36067,12 @@
   "rr": 1.79,
   "lev": 7,
   "signalTime": 1791852300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791852333198,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791856800000
  },
  {
   "id": "MAGICUSDT::LONG::BoS::1791855900000",
