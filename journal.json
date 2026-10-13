@@ -36355,12 +36355,15 @@
   "rr": 1.94,
   "lev": 5,
   "signalTime": 1791886500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791886532019,
   "fillTime": 1791886500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791905400000
  },
  {
   "id": "LUMIAUSDT::SHORT::ChoCh::1791887400000",
