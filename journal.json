@@ -36169,7 +36169,28 @@
   "rr": 1.37,
   "lev": 7,
   "signalTime": 1791868500000,
+  "status": "open",
+  "createdAt": 1791868542938,
+  "fillTime": 1791868500000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ZROUSDT::LONG::BoS::1791869400000",
+  "symbol": "ZROUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 2.138,
+  "sl": 2.0810000000000004,
+  "tp": 2.483,
+  "tpSrc": "WH",
+  "slPct": 2.67,
+  "gainPct": 16.14,
+  "rr": 6.05,
+  "lev": 22,
+  "signalTime": 1791869400000,
   "status": "pending",
-  "createdAt": 1791868542938
+  "createdAt": 1791869438819
  }
 ]

@@ -2,7 +2,8 @@
   "ready": [
     "CKBUSDT::LONG::ChoCh",
     "GTCUSDT::LONG::ChoCh",
-    "XAIUSDT::LONG::BoS"
+    "XAIUSDT::LONG::BoS",
+    "ZROUSDT::LONG::BoS"
   ],
-  "at": "2026-10-13T05:15:42.937Z"
+  "at": "2026-10-13T05:30:38.818Z"
 }
