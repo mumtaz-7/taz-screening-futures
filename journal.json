@@ -36364,9 +36364,12 @@
   "rr": 1.17,
   "lev": 6,
   "signalTime": 1791887400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791887440559,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791891900000
  },
  {
   "id": "MANTAUSDT::SHORT::BoS::1791887400000",
