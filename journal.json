@@ -36608,9 +36608,12 @@
   "rr": 6.15,
   "lev": 22,
   "signalTime": 1791921600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791921645607,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791928800000
  },
  {
   "id": "AVAUSDT::LONG::BoS::1791926100000",
