@@ -33642,12 +33642,15 @@
   "rr": 3.78,
   "lev": 18,
   "signalTime": 1791512100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791512166485,
   "fillTime": 1791512100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791852300000
  },
  {
   "id": "PROMUSDT::LONG::BoS::1791514800000",
@@ -36039,9 +36042,13 @@
   "rr": 4.08,
   "lev": 23,
   "signalTime": 1791851400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791851437254,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1791852300000
  },
  {
   "id": "METUSDT::SHORT::ChoCh::1791852300000",
@@ -36058,6 +36065,7 @@
   "lev": 7,
   "signalTime": 1791852300000,
   "status": "pending",
-  "createdAt": 1791852333198
+  "createdAt": 1791852333198,
+  "notified": []
  }
 ]
