@@ -36211,7 +36211,28 @@
   "rr": 3.75,
   "lev": 17,
   "signalTime": 1791873000000,
+  "status": "open",
+  "createdAt": 1791873037350,
+  "fillTime": 1791873000000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "IOUSDT::LONG::BoS::1791873900000",
+  "symbol": "IOUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.169,
+  "sl": 0.15414999999999998,
+  "tp": 0.1983,
+  "tpSrc": "WH",
+  "slPct": 8.79,
+  "gainPct": 17.34,
+  "rr": 1.97,
+  "lev": 7,
+  "signalTime": 1791873900000,
   "status": "pending",
-  "createdAt": 1791873037350
+  "createdAt": 1791873935015
  }
 ]
