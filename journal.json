@@ -36232,7 +36232,11 @@
   "rr": 1.97,
   "lev": 7,
   "signalTime": 1791873900000,
-  "status": "pending",
-  "createdAt": 1791873935015
+  "status": "open",
+  "createdAt": 1791873935015,
+  "fillTime": 1791873900000,
+  "notified": [
+   "open"
+  ]
  }
 ]
