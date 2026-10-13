@@ -35907,12 +35907,15 @@
   "rr": 5.03,
   "lev": 13,
   "signalTime": 1791825300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791825332281,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791826200000
+  "fillTime": 1791826200000,
+  "R": -1,
+  "resolvedTime": 1791897300000
  },
  {
   "id": "币安人生USDT::LONG::ChoCh::1791833400000",
