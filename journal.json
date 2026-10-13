@@ -36542,12 +36542,15 @@
   "rr": 3.53,
   "lev": 11,
   "signalTime": 1791913500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791913533951,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791914400000
+  "fillTime": 1791914400000,
+  "R": -1,
+  "resolvedTime": 1791926100000
  },
  {
   "id": "CHIPUSDT::SHORT::ChoCh::1791918900000",
@@ -36623,8 +36626,12 @@
   "rr": 4.53,
   "lev": 9,
   "signalTime": 1791926100000,
-  "status": "pending",
-  "createdAt": 1791926132869
+  "status": "open",
+  "createdAt": 1791926132869,
+  "fillTime": 1791926100000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "牛来USDT::SHORT::ChoCh::1791926100000",
@@ -36641,6 +36648,7 @@
   "lev": 25,
   "signalTime": 1791926100000,
   "status": "pending",
-  "createdAt": 1791926132869
+  "createdAt": 1791926132869,
+  "notified": []
  }
 ]
