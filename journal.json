@@ -36112,5 +36112,22 @@
   "status": "pending",
   "createdAt": 1791863132786,
   "notified": []
+ },
+ {
+  "id": "CKBUSDT::LONG::ChoCh::1791864900000",
+  "symbol": "CKBUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.001553,
+  "sl": 0.0014030000000000002,
+  "tp": 0.001788,
+  "tpSrc": "EQ",
+  "slPct": 9.66,
+  "gainPct": 15.13,
+  "rr": 1.57,
+  "lev": 6,
+  "signalTime": 1791864900000,
+  "status": "pending",
+  "createdAt": 1791864933090
  }
 ]
