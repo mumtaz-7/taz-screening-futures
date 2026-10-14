@@ -36731,5 +36731,22 @@
    "open"
   ],
   "fillTime": 1791949500000
+ },
+ {
+  "id": "LDOUSDT::SHORT::ChoCh::1791952200000",
+  "symbol": "LDOUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.4292,
+  "sl": 0.44,
+  "tp": 0.3853,
+  "tpSrc": "WL",
+  "slPct": 2.52,
+  "gainPct": 10.23,
+  "rr": 4.06,
+  "lev": 23,
+  "signalTime": 1791952200000,
+  "status": "pending",
+  "createdAt": 1791952238104
  }
 ]
