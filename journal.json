@@ -35584,12 +35584,15 @@
   "rr": 1.44,
   "lev": 8,
   "signalTime": 1791754200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791754236506,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1791760500000
+  "fillTime": 1791760500000,
+  "R": 1.44,
+  "resolvedTime": 1791986400000
  },
  {
   "id": "KAIAUSDT::SHORT::BoS::1791765000000",
@@ -36728,12 +36731,15 @@
   "rr": 1.86,
   "lev": 12,
   "signalTime": 1791938700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791938736069,
   "fillTime": 1791938700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791986400000
  },
  {
   "id": "GTCUSDT::SHORT::BoS::1791941400000",
