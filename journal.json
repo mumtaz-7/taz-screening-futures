@@ -36776,9 +36776,12 @@
   "rr": 3.2,
   "lev": 17,
   "signalTime": 1791954900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1791954931035,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1791964800000
  },
  {
   "id": "CFXUSDT::SHORT::BoS::1791956700000",
