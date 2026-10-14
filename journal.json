@@ -36644,12 +36644,15 @@
   "rr": 4.53,
   "lev": 9,
   "signalTime": 1791926100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791926132869,
   "fillTime": 1791926100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 4.53,
+  "resolvedTime": 1791963900000
  },
  {
   "id": "牛来USDT::SHORT::ChoCh::1791926100000",
