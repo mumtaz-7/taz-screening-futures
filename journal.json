@@ -35759,12 +35759,15 @@
   "rr": 1.97,
   "lev": 8,
   "signalTime": 1791802800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791802844946,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1791805500000
+  "fillTime": 1791805500000,
+  "R": 1.97,
+  "resolvedTime": 1791952200000
  },
  {
   "id": "ATOMUSDT::SHORT::BoS::1791805500000",
@@ -36746,7 +36749,11 @@
   "rr": 4.06,
   "lev": 23,
   "signalTime": 1791952200000,
-  "status": "pending",
-  "createdAt": 1791952238104
+  "status": "open",
+  "createdAt": 1791952238104,
+  "fillTime": 1791952200000,
+  "notified": [
+   "open"
+  ]
  }
 ]
