@@ -36331,12 +36331,15 @@
   "rr": 2.25,
   "lev": 14,
   "signalTime": 1791881100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791881132412,
   "fillTime": 1791881100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.25,
+  "resolvedTime": 1791982800000
  },
  {
   "id": "RADUSDT::LONG::BoS::1791885600000",
@@ -36605,12 +36608,15 @@
   "rr": 1.97,
   "lev": 13,
   "signalTime": 1791919800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791919839995,
   "fillTime": 1791919800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791982800000
  },
  {
   "id": "PLUMEUSDT::LONG::ChoCh::1791921600000",
@@ -36626,12 +36632,15 @@
   "rr": 6.15,
   "lev": 22,
   "signalTime": 1791921600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791921645607,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791928800000
+  "fillTime": 1791928800000,
+  "R": -1,
+  "resolvedTime": 1791982800000
  },
  {
   "id": "AVAUSDT::LONG::BoS::1791926100000",
@@ -36887,12 +36896,15 @@
   "rr": 1.97,
   "lev": 15,
   "signalTime": 1791980100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791980133672,
   "fillTime": 1791980100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791982800000
  },
  {
   "id": "ACEUSDT::SHORT::BoS::1791981900000",
@@ -36911,5 +36923,22 @@
   "status": "pending",
   "createdAt": 1791981931727,
   "notified": []
+ },
+ {
+  "id": "MUBARAKUSDT::SHORT::BoS::1791983700000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.06151,
+  "sl": 0.066595,
+  "tp": 0.05438,
+  "tpSrc": "WL",
+  "slPct": 8.27,
+  "gainPct": 11.59,
+  "rr": 1.4,
+  "lev": 7,
+  "signalTime": 1791983700000,
+  "status": "pending",
+  "createdAt": 1791983732035
  }
 ]
