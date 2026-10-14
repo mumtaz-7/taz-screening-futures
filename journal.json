@@ -37048,5 +37048,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GLMRUSDT::LONG::BoS::1792021500000",
+  "symbol": "GLMRUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01035,
+  "sl": 0.009426,
+  "tp": 0.012397,
+  "tpSrc": "OB",
+  "slPct": 8.93,
+  "gainPct": 19.78,
+  "rr": 2.22,
+  "lev": 7,
+  "signalTime": 1792021500000,
+  "status": "pending",
+  "createdAt": 1792021532285
  }
 ]
