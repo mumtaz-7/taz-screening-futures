@@ -36316,12 +36316,15 @@
   "rr": 2.12,
   "lev": 13,
   "signalTime": 1791881100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791881132412,
   "fillTime": 1791881100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.12,
+  "resolvedTime": 1791993600000
  },
  {
   "id": "RLCUSDT::SHORT::ChoCh::1791881100000",
