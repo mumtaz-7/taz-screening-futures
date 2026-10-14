@@ -36596,12 +36596,15 @@
   "rr": 1.34,
   "lev": 9,
   "signalTime": 1791918900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791918933843,
   "fillTime": 1791918900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.34,
+  "resolvedTime": 1792017900000
  },
  {
   "id": "ZROUSDT::LONG::ChoCh::1791919800000",
