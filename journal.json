@@ -36957,5 +36957,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1791987300000
+ },
+ {
+  "id": "OGNUSDT::SHORT::BoS::1791992700000",
+  "symbol": "OGNUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.03232,
+  "sl": 0.033055,
+  "tp": 0.02288,
+  "tpSrc": "OB",
+  "slPct": 2.27,
+  "gainPct": 29.21,
+  "rr": 12.84,
+  "lev": 25,
+  "signalTime": 1791992700000,
+  "status": "pending",
+  "createdAt": 1791992732876
  }
 ]

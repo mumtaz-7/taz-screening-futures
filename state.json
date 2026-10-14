@@ -1,6 +1,7 @@
 {
   "ready": [
-    "KAIAUSDT::SHORT::BoS"
+    "KAIAUSDT::SHORT::BoS",
+    "OGNUSDT::SHORT::BoS"
   ],
-  "at": "2026-10-14T15:30:38.545Z"
+  "at": "2026-10-14T15:45:32.875Z"
 }
