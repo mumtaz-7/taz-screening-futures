@@ -1,8 +1,6 @@
 {
   "ready": [
-    "CFXUSDT::SHORT::BoS",
-    "MAGICUSDT::SHORT::BoS",
-    "STRKUSDT::SHORT::ChoCh"
+    "ATOMUSDT::SHORT::BoS"
   ],
-  "at": "2026-10-14T07:00:48.407Z"
+  "at": "2026-10-14T07:15:31.806Z"
 }
