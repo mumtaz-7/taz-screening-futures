@@ -33534,12 +33534,15 @@
   "rr": 1.04,
   "lev": 4,
   "signalTime": 1791487800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791487837222,
   "fillTime": 1791487800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791976500000
  },
  {
   "id": "PYTHUSDT::LONG::ChoCh::1791487800000",
