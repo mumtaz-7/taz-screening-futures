@@ -37021,5 +37021,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "RLCUSDT::SHORT::BoS::1792008900000",
+  "symbol": "RLCUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.8278,
+  "sl": 0.8553999999999999,
+  "tp": 0.6663,
+  "tpSrc": "OB",
+  "slPct": 3.33,
+  "gainPct": 19.51,
+  "rr": 5.85,
+  "lev": 18,
+  "signalTime": 1792008900000,
+  "status": "pending",
+  "createdAt": 1792008931078
  }
 ]
