@@ -36755,5 +36755,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "APTUSDT::SHORT::ChoCh::1791954900000",
+  "symbol": "APTUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.8302,
+  "sl": 0.8593,
+  "tp": 0.7371,
+  "tpSrc": "OB",
+  "slPct": 3.51,
+  "gainPct": 11.21,
+  "rr": 3.2,
+  "lev": 17,
+  "signalTime": 1791954900000,
+  "status": "pending",
+  "createdAt": 1791954931035
  }
 ]
