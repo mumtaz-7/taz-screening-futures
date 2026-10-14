@@ -36103,12 +36103,15 @@
   "rr": 2.94,
   "lev": 7,
   "signalTime": 1791855900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791855933283,
   "fillTime": 1791855900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1791956700000
  },
  {
   "id": "RADUSDT::LONG::ChoCh::1791863100000",
@@ -36789,7 +36792,8 @@
   "lev": 17,
   "signalTime": 1791956700000,
   "status": "pending",
-  "createdAt": 1791956732363
+  "createdAt": 1791956732363,
+  "notified": []
  },
  {
   "id": "MAGICUSDT::SHORT::BoS::1791956700000",
@@ -36805,8 +36809,12 @@
   "rr": 1.79,
   "lev": 9,
   "signalTime": 1791956700000,
-  "status": "pending",
-  "createdAt": 1791956732363
+  "status": "open",
+  "createdAt": 1791956732363,
+  "fillTime": 1791956700000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "STRKUSDT::SHORT::ChoCh::1791956700000",
@@ -36823,6 +36831,7 @@
   "lev": 7,
   "signalTime": 1791956700000,
   "status": "pending",
-  "createdAt": 1791956732363
+  "createdAt": 1791956732363,
+  "notified": []
  }
 ]
