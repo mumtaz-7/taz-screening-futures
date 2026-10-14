@@ -1,9 +1,8 @@
 {
   "ready": [
-    "APTUSDT::SHORT::ChoCh",
     "CFXUSDT::SHORT::BoS",
     "MAGICUSDT::SHORT::BoS",
     "STRKUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-10-14T06:30:38.353Z"
+  "at": "2026-10-14T06:45:34.792Z"
 }
