@@ -36656,12 +36656,15 @@
   "rr": 5.35,
   "lev": 25,
   "signalTime": 1791926100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791926132869,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791927000000
+  "fillTime": 1791927000000,
+  "R": -1,
+  "resolvedTime": 1791936900000
  },
  {
   "id": "CFXUSDT::SHORT::ChoCh::1791933300000",
