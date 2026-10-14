@@ -36686,5 +36686,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "SUSDT::LONG::ChoCh::1791938700000",
+  "symbol": "SUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.05787,
+  "sl": 0.05505,
+  "tp": 0.06312,
+  "tpSrc": "EQ",
+  "slPct": 4.87,
+  "gainPct": 9.07,
+  "rr": 1.86,
+  "lev": 12,
+  "signalTime": 1791938700000,
+  "status": "pending",
+  "createdAt": 1791938736069
  }
 ]
