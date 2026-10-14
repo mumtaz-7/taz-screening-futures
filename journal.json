@@ -36893,5 +36893,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ACEUSDT::SHORT::BoS::1791981900000",
+  "symbol": "ACEUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1914,
+  "sl": 0.2019,
+  "tp": 0.1692,
+  "tpSrc": "OB",
+  "slPct": 5.49,
+  "gainPct": 11.6,
+  "rr": 2.11,
+  "lev": 11,
+  "signalTime": 1791981900000,
+  "status": "pending",
+  "createdAt": 1791981931727
  }
 ]
