@@ -36975,9 +36975,12 @@
   "rr": 12.84,
   "lev": 25,
   "signalTime": 1791992700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1791992732876,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "WALUSDT::LONG::BoS::1791996300000",
