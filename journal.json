@@ -37000,5 +37000,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "INJUSDT::LONG::ChoCh::1792004400000",
+  "symbol": "INJUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 7.749,
+  "sl": 7.506,
+  "tp": 8.456,
+  "tpSrc": "WH",
+  "slPct": 3.14,
+  "gainPct": 9.12,
+  "rr": 2.91,
+  "lev": 19,
+  "signalTime": 1792004400000,
+  "status": "pending",
+  "createdAt": 1792004446069
  }
 ]
