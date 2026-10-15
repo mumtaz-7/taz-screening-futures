@@ -37668,5 +37668,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BLURUSDT::SHORT::BoS::1792106100000",
+  "symbol": "BLURUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.01098,
+  "sl": 0.01143,
+  "tp": 0.00974,
+  "tpSrc": "WL",
+  "slPct": 4.1,
+  "gainPct": 11.29,
+  "rr": 2.76,
+  "lev": 15,
+  "signalTime": 1792106100000,
+  "status": "pending",
+  "createdAt": 1792106132568
  }
 ]
