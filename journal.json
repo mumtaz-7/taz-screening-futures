@@ -37084,8 +37084,12 @@
   "rr": 4.38,
   "lev": 13,
   "signalTime": 1792023300000,
-  "status": "pending",
-  "createdAt": 1792023330643
+  "status": "open",
+  "createdAt": 1792023330643,
+  "fillTime": 1792023300000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "OPUSDT::LONG::ChoCh::1792023300000",
@@ -37101,7 +37105,28 @@
   "rr": 3.96,
   "lev": 16,
   "signalTime": 1792023300000,
+  "status": "open",
+  "createdAt": 1792023330643,
+  "fillTime": 1792023300000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "GNSUSDT::LONG::ChoCh::1792024200000",
+  "symbol": "GNSUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.541,
+  "sl": 0.5095000000000001,
+  "tp": 0.6025,
+  "tpSrc": "EQ",
+  "slPct": 5.82,
+  "gainPct": 11.37,
+  "rr": 1.95,
+  "lev": 10,
+  "signalTime": 1792024200000,
   "status": "pending",
-  "createdAt": 1792023330643
+  "createdAt": 1792024237618
  }
 ]
