@@ -36289,12 +36289,15 @@
   "rr": 1.97,
   "lev": 7,
   "signalTime": 1791873900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791873935015,
   "fillTime": 1791873900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792071900000
  },
  {
   "id": "RSRUSDT::SHORT::BoS::1791875700000",
@@ -37255,12 +37258,15 @@
   "rr": 6.51,
   "lev": 15,
   "signalTime": 1792047600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792047642147,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792050300000
+  "fillTime": 1792050300000,
+  "R": -1,
+  "resolvedTime": 1792071900000
  },
  {
   "id": "EPICUSDT::SHORT::BoS::1792052100000",
@@ -37339,12 +37345,15 @@
   "rr": 3.13,
   "lev": 20,
   "signalTime": 1792064700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792064733441,
   "fillTime": 1792064700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792071900000
  },
  {
   "id": "OSMOUSDT::LONG::BoS::1792065600000",
@@ -37387,5 +37396,22 @@
    "open"
   ],
   "fillTime": 1792069200000
+ },
+ {
+  "id": "SUSDT::SHORT::ChoCh::1792072800000",
+  "symbol": "SUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.0525,
+  "sl": 0.05487,
+  "tp": 0.04645,
+  "tpSrc": "OB",
+  "slPct": 4.51,
+  "gainPct": 11.52,
+  "rr": 2.55,
+  "lev": 13,
+  "signalTime": 1792072800000,
+  "status": "pending",
+  "createdAt": 1792072846230
  }
 ]
