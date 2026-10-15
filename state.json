@@ -1,6 +1,7 @@
 {
   "ready": [
-    "PYTHUSDT::LONG::BoS"
+    "PYTHUSDT::LONG::BoS",
+    "STRKUSDT::LONG::BoS"
   ],
-  "at": "2026-10-15T15:45:33.712Z"
+  "at": "2026-10-15T16:00:46.651Z"
 }
