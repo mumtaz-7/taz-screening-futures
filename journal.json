@@ -33213,12 +33213,15 @@
   "rr": 1.55,
   "lev": 5,
   "signalTime": 1791428400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791428450304,
   "fillTime": 1791428400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.55,
+  "resolvedTime": 1792030500000
  },
  {
   "id": "PUMPUSDT::SHORT::ChoCh::1791432900000",
@@ -33953,12 +33956,15 @@
   "rr": 2.12,
   "lev": 7,
   "signalTime": 1791547200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791547244190,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791554400000
+  "fillTime": 1791554400000,
+  "R": -1,
+  "resolvedTime": 1792030500000
  },
  {
   "id": "ZECUSDT::SHORT::ChoCh::1791553500000",
@@ -36782,12 +36788,15 @@
   "rr": 4.06,
   "lev": 23,
   "signalTime": 1791952200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791952238104,
   "fillTime": 1791952200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 4.06,
+  "resolvedTime": 1792030500000
  },
  {
   "id": "APTUSDT::SHORT::ChoCh::1791954900000",
@@ -37021,12 +37030,15 @@
   "rr": 2.91,
   "lev": 19,
   "signalTime": 1792004400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792004446069,
   "fillTime": 1792004400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792030500000
  },
  {
   "id": "RLCUSDT::SHORT::BoS::1792008900000",
@@ -37105,12 +37117,15 @@
   "rr": 3.96,
   "lev": 16,
   "signalTime": 1792023300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792023330643,
   "fillTime": 1792023300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792030500000
  },
  {
   "id": "GNSUSDT::LONG::ChoCh::1792024200000",
