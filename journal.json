@@ -37468,9 +37468,12 @@
   "rr": 3.88,
   "lev": 14,
   "signalTime": 1792074600000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792074641101,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "PYTHUSDT::LONG::BoS::1792078200000",
