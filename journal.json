@@ -37303,5 +37303,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "STXUSDT::SHORT::BoS::1792060200000",
+  "symbol": "STXUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.4129,
+  "sl": 0.43285000000000007,
+  "tp": 0.3747,
+  "tpSrc": "OB",
+  "slPct": 4.83,
+  "gainPct": 9.25,
+  "rr": 1.91,
+  "lev": 12,
+  "signalTime": 1792060200000,
+  "status": "pending",
+  "createdAt": 1792060241622
  }
 ]
