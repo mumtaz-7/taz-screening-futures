@@ -37123,12 +37123,15 @@
   "rr": 4.38,
   "lev": 13,
   "signalTime": 1792023300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792023330643,
   "fillTime": 1792023300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 4.38,
+  "resolvedTime": 1792089900000
  },
  {
   "id": "OPUSDT::LONG::ChoCh::1792023300000",
@@ -37309,12 +37312,15 @@
   "rr": 2.08,
   "lev": 7,
   "signalTime": 1792054800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792054844276,
   "fillTime": 1792054800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.08,
+  "resolvedTime": 1792089900000
  },
  {
   "id": "STXUSDT::SHORT::BoS::1792060200000",
