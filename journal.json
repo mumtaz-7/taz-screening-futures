@@ -36863,12 +36863,15 @@
   "rr": 1.79,
   "lev": 9,
   "signalTime": 1791956700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791956732363,
   "fillTime": 1791956700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792045800000
  },
  {
   "id": "STRKUSDT::SHORT::ChoCh::1791956700000",
