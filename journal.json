@@ -37336,12 +37336,15 @@
   "rr": 1.91,
   "lev": 12,
   "signalTime": 1792060200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792060241622,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792076400000
+  "fillTime": 1792076400000,
+  "R": -1,
+  "resolvedTime": 1792101600000
  },
  {
   "id": "OPUSDT::LONG::ChoCh::1792064700000",
