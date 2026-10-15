@@ -37569,7 +37569,28 @@
   "rr": 1.65,
   "lev": 9,
   "signalTime": 1792093500000,
+  "status": "open",
+  "createdAt": 1792093533276,
+  "fillTime": 1792093500000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "OSMOUSDT::LONG::ChoCh::1792094400000",
+  "symbol": "OSMOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.046,
+  "sl": 0.042550000000000004,
+  "tp": 0.054,
+  "tpSrc": "WH",
+  "slPct": 7.5,
+  "gainPct": 17.39,
+  "rr": 2.32,
+  "lev": 8,
+  "signalTime": 1792094400000,
   "status": "pending",
-  "createdAt": 1792093533276
+  "createdAt": 1792094445382
  }
 ]
