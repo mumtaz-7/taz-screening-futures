@@ -37647,5 +37647,22 @@
    "open"
   ],
   "fillTime": 1792098900000
+ },
+ {
+  "id": "PEPEUSDT::SHORT::BoS::1792103400000",
+  "symbol": "PEPEUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.00000413,
+  "sl": 0.0000042049999999999996,
+  "tp": 0.00000381,
+  "tpSrc": "WL",
+  "slPct": 1.82,
+  "gainPct": 7.75,
+  "rr": 4.27,
+  "lev": 25,
+  "signalTime": 1792103400000,
+  "status": "pending",
+  "createdAt": 1792103440198
  }
 ]
