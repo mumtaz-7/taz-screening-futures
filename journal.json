@@ -37234,9 +37234,12 @@
   "rr": 1.83,
   "lev": 10,
   "signalTime": 1792043100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792043131880,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792049400000
  },
  {
   "id": "AMPUSDT::LONG::BoS::1792047600000",
