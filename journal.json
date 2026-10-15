@@ -37132,5 +37132,22 @@
    "open"
   ],
   "fillTime": 1792027800000
+ },
+ {
+  "id": "AMPUSDT::LONG::ChoCh::1792029600000",
+  "symbol": "AMPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.000673,
+  "sl": 0.0006594999999999999,
+  "tp": 0.0007295,
+  "tpSrc": "EQ",
+  "slPct": 2.01,
+  "gainPct": 8.4,
+  "rr": 4.19,
+  "lev": 25,
+  "signalTime": 1792029600000,
+  "status": "pending",
+  "createdAt": 1792029643001
  }
 ]

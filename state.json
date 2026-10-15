@@ -1,6 +1,7 @@
 {
   "ready": [
-    "GNSUSDT::LONG::ChoCh"
+    "AMPUSDT::LONG::ChoCh",
+    "APTUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-10-15T01:45:32.261Z"
+  "at": "2026-10-15T02:00:42.994Z"
 }
