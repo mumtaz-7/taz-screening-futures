@@ -37150,12 +37150,15 @@
   "rr": 1.95,
   "lev": 10,
   "signalTime": 1792024200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792024237618,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792027800000
+  "fillTime": 1792027800000,
+  "R": -1,
+  "resolvedTime": 1792041300000
  },
  {
   "id": "AMPUSDT::LONG::ChoCh::1792029600000",
