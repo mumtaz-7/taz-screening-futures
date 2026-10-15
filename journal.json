@@ -33492,12 +33492,15 @@
   "rr": 1.57,
   "lev": 7,
   "signalTime": 1791475200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791475246521,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791477000000
+  "fillTime": 1791477000000,
+  "R": -1,
+  "resolvedTime": 1792035000000
  },
  {
   "id": "JSTUSDT::SHORT::ChoCh::1791486000000",
@@ -36944,12 +36947,15 @@
   "rr": 2.11,
   "lev": 11,
   "signalTime": 1791981900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791981931727,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1791984600000
+  "fillTime": 1791984600000,
+  "R": 2.11,
+  "resolvedTime": 1792035000000
  },
  {
   "id": "MUBARAKUSDT::SHORT::BoS::1791983700000",
@@ -37174,5 +37180,22 @@
   ],
   "R": -1,
   "resolvedTime": 1792033200000
+ },
+ {
+  "id": "ZKUSDT::LONG::ChoCh::1792035900000",
+  "symbol": "ZKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01589,
+  "sl": 0.014464999999999999,
+  "tp": 0.01757,
+  "tpSrc": "WH",
+  "slPct": 8.97,
+  "gainPct": 10.57,
+  "rr": 1.18,
+  "lev": 7,
+  "signalTime": 1792035900000,
+  "status": "pending",
+  "createdAt": 1792035932201
  }
 ]
