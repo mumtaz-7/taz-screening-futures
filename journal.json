@@ -35798,12 +35798,15 @@
   "rr": 1.69,
   "lev": 10,
   "signalTime": 1791805500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791805531883,
   "fillTime": 1791805500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.69,
+  "resolvedTime": 1792044000000
  },
  {
   "id": "METUSDT::SHORT::BoS::1791805500000",
@@ -36054,12 +36057,15 @@
   "rr": 1.2,
   "lev": 4,
   "signalTime": 1791843300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791843331929,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1791855000000
+  "fillTime": 1791855000000,
+  "R": 1.2,
+  "resolvedTime": 1792044000000
  },
  {
   "id": "币安人生USDT::SHORT::ChoCh::1791851400000",
@@ -36878,12 +36884,15 @@
   "rr": 1.37,
   "lev": 7,
   "signalTime": 1791956700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791956732363,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1791959400000
+  "fillTime": 1791959400000,
+  "R": 1.37,
+  "resolvedTime": 1792044000000
  },
  {
   "id": "MARSCOINUSDT::LONG::BoS::1791978300000",
