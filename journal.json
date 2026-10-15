@@ -37459,5 +37459,22 @@
   "status": "pending",
   "createdAt": 1792074641101,
   "notified": []
+ },
+ {
+  "id": "PYTHUSDT::LONG::BoS::1792078200000",
+  "symbol": "PYTHUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.08804,
+  "sl": 0.076925,
+  "tp": 0.09992,
+  "tpSrc": "WH",
+  "slPct": 12.62,
+  "gainPct": 13.49,
+  "rr": 1.07,
+  "lev": 5,
+  "signalTime": 1792078200000,
+  "status": "pending",
+  "createdAt": 1792078240908
  }
 ]
