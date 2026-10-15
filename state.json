@@ -1,7 +1,9 @@
 {
   "ready": [
     "BLURUSDT::SHORT::ChoCh",
-    "OSMOUSDT::LONG::ChoCh"
+    "IOUSDT::LONG::ChoCh",
+    "OSMOUSDT::LONG::ChoCh",
+    "ZAMAUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-10-15T20:45:30.444Z"
+  "at": "2026-10-15T21:00:48.337Z"
 }

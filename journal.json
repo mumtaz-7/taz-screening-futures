@@ -37602,5 +37602,39 @@
    "open"
   ],
   "fillTime": 1792095300000
+ },
+ {
+  "id": "IOUSDT::LONG::ChoCh::1792098000000",
+  "symbol": "IOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1678,
+  "sl": 0.16285,
+  "tp": 0.1911,
+  "tpSrc": "OB",
+  "slPct": 2.95,
+  "gainPct": 13.89,
+  "rr": 4.71,
+  "lev": 20,
+  "signalTime": 1792098000000,
+  "status": "pending",
+  "createdAt": 1792098048338
+ },
+ {
+  "id": "ZAMAUSDT::SHORT::ChoCh::1792098000000",
+  "symbol": "ZAMAUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.07427,
+  "sl": 0.076325,
+  "tp": 0.06515,
+  "tpSrc": "WL",
+  "slPct": 2.77,
+  "gainPct": 12.28,
+  "rr": 4.44,
+  "lev": 21,
+  "signalTime": 1792098000000,
+  "status": "pending",
+  "createdAt": 1792098048338
  }
 ]
