@@ -37207,5 +37207,22 @@
   ],
   "R": 1.18,
   "resolvedTime": 1792037700000
+ },
+ {
+  "id": "MUBARAKUSDT::SHORT::ChoCh::1792043100000",
+  "symbol": "MUBARAKUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.05866,
+  "sl": 0.06211,
+  "tp": 0.05235,
+  "tpSrc": "WL",
+  "slPct": 5.88,
+  "gainPct": 10.76,
+  "rr": 1.83,
+  "lev": 10,
+  "signalTime": 1792043100000,
+  "status": "pending",
+  "createdAt": 1792043131880
  }
 ]
