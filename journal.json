@@ -37261,5 +37261,22 @@
    "open"
   ],
   "fillTime": 1792050300000
+ },
+ {
+  "id": "EPICUSDT::SHORT::BoS::1792052100000",
+  "symbol": "EPICUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.301,
+  "sl": 0.3235,
+  "tp": 0.2598,
+  "tpSrc": "WL",
+  "slPct": 7.48,
+  "gainPct": 13.69,
+  "rr": 1.83,
+  "lev": 8,
+  "signalTime": 1792052100000,
+  "status": "pending",
+  "createdAt": 1792052133050
  }
 ]

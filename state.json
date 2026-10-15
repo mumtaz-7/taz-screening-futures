@@ -1,6 +1,7 @@
 {
   "ready": [
-    "AMPUSDT::LONG::BoS"
+    "AMPUSDT::LONG::BoS",
+    "EPICUSDT::SHORT::BoS"
   ],
-  "at": "2026-10-15T08:00:42.696Z"
+  "at": "2026-10-15T08:15:33.049Z"
 }
