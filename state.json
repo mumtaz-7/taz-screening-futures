@@ -1,6 +1,7 @@
 {
   "ready": [
-    "AVAUSDT::LONG::ChoCh"
+    "AVAUSDT::LONG::ChoCh",
+    "BLURUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-10-15T19:30:38.736Z"
+  "at": "2026-10-15T19:45:33.275Z"
 }

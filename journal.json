@@ -37554,5 +37554,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BLURUSDT::SHORT::ChoCh::1792093500000",
+  "symbol": "BLURUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.011,
+  "sl": 0.011765,
+  "tp": 0.00974,
+  "tpSrc": "WL",
+  "slPct": 6.95,
+  "gainPct": 11.45,
+  "rr": 1.65,
+  "lev": 9,
+  "signalTime": 1792093500000,
+  "status": "pending",
+  "createdAt": 1792093533276
  }
 ]
