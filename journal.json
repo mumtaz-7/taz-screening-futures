@@ -37411,7 +37411,28 @@
   "rr": 2.55,
   "lev": 13,
   "signalTime": 1792072800000,
+  "status": "open",
+  "createdAt": 1792072846230,
+  "fillTime": 1792072800000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "TIAUSDT::LONG::BoS::1792073700000",
+  "symbol": "TIAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.5381,
+  "sl": 0.5168,
+  "tp": 0.6331,
+  "tpSrc": "WH",
+  "slPct": 3.96,
+  "gainPct": 17.65,
+  "rr": 4.46,
+  "lev": 15,
+  "signalTime": 1792073700000,
   "status": "pending",
-  "createdAt": 1792072846230
+  "createdAt": 1792073732990
  }
 ]
