@@ -37063,8 +37063,45 @@
   "rr": 2.22,
   "lev": 7,
   "signalTime": 1792021500000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792021532285,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792022400000
+ },
+ {
+  "id": "BATUSDT::LONG::ChoCh::1792023300000",
+  "symbol": "BATUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1731,
+  "sl": 0.1653,
+  "tp": 0.2073,
+  "tpSrc": "WH",
+  "slPct": 4.51,
+  "gainPct": 19.76,
+  "rr": 4.38,
+  "lev": 13,
+  "signalTime": 1792023300000,
+  "status": "pending",
+  "createdAt": 1792023330643
+ },
+ {
+  "id": "OPUSDT::LONG::ChoCh::1792023300000",
+  "symbol": "OPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1417,
+  "sl": 0.13645,
+  "tp": 0.1625,
+  "tpSrc": "WH",
+  "slPct": 3.71,
+  "gainPct": 14.68,
+  "rr": 3.96,
+  "lev": 16,
+  "signalTime": 1792023300000,
+  "status": "pending",
+  "createdAt": 1792023330643
  }
 ]
