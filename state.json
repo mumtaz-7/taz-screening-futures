@@ -1,8 +1,6 @@
 {
   "ready": [
-    "BATUSDT::LONG::ChoCh",
-    "GNSUSDT::LONG::ChoCh",
-    "OPUSDT::LONG::ChoCh"
+    "GNSUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-15T01:30:36.800Z"
+  "at": "2026-10-15T01:45:32.261Z"
 }
