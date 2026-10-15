@@ -1,4 +1,7 @@
 {
-  "ready": [],
-  "at": "2026-10-15T18:00:45.035Z"
+  "ready": [
+    "GLMRUSDT::LONG::BoS",
+    "MUBARAKUSDT::SHORT::BoS"
+  ],
+  "at": "2026-10-15T18:15:34.063Z"
 }
