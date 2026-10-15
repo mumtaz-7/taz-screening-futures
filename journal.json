@@ -37054,12 +37054,15 @@
   "rr": 5.85,
   "lev": 18,
   "signalTime": 1792008900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792008931078,
   "fillTime": 1792008900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792033200000
  },
  {
   "id": "GLMRUSDT::LONG::BoS::1792021500000",
@@ -37162,11 +37165,14 @@
   "rr": 4.19,
   "lev": 25,
   "signalTime": 1792029600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792029643001,
   "fillTime": 1792029600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792033200000
  }
 ]
