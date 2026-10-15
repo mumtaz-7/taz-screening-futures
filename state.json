@@ -1,7 +1,6 @@
 {
   "ready": [
-    "BATUSDT::LONG::BoS",
-    "EPICUSDT::SHORT::BoS"
+    "BATUSDT::LONG::BoS"
   ],
-  "at": "2026-10-15T09:30:40.317Z"
+  "at": "2026-10-15T09:45:32.478Z"
 }
