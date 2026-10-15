@@ -37327,9 +37327,12 @@
   "rr": 1.91,
   "lev": 12,
   "signalTime": 1792060200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792060241622,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792076400000
  },
  {
   "id": "OPUSDT::LONG::ChoCh::1792064700000",
@@ -37411,12 +37414,15 @@
   "rr": 2.55,
   "lev": 13,
   "signalTime": 1792072800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792072846230,
   "fillTime": 1792072800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792076400000
  },
  {
   "id": "TIAUSDT::LONG::BoS::1792073700000",
