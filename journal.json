@@ -37276,12 +37276,15 @@
   "rr": 1.83,
   "lev": 8,
   "signalTime": 1792052100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792052133050,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1792053000000
+  "fillTime": 1792053000000,
+  "R": 1.83,
+  "resolvedTime": 1792062900000
  },
  {
   "id": "BATUSDT::LONG::BoS::1792054800000",
