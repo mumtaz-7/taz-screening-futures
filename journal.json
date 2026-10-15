@@ -37366,5 +37366,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GTCUSDT::SHORT::ChoCh::1792067400000",
+  "symbol": "GTCUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.19485,
+  "sl": 0.21547500000000003,
+  "tp": 0.16615,
+  "tpSrc": "OB",
+  "slPct": 10.59,
+  "gainPct": 14.73,
+  "rr": 1.39,
+  "lev": 6,
+  "signalTime": 1792067400000,
+  "status": "pending",
+  "createdAt": 1792067440648
  }
 ]
