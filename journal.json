@@ -37433,6 +37433,24 @@
   "lev": 15,
   "signalTime": 1792073700000,
   "status": "pending",
-  "createdAt": 1792073732990
+  "createdAt": 1792073732990,
+  "notified": []
+ },
+ {
+  "id": "RLCUSDT::LONG::BoS::1792074600000",
+  "symbol": "RLCUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.8563,
+  "sl": 0.8210500000000001,
+  "tp": 0.993,
+  "tpSrc": "WH",
+  "slPct": 4.12,
+  "gainPct": 15.96,
+  "rr": 3.88,
+  "lev": 14,
+  "signalTime": 1792074600000,
+  "status": "pending",
+  "createdAt": 1792074641101
  }
 ]
