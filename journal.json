@@ -38028,9 +38028,12 @@
   "rr": 3.45,
   "lev": 20,
   "signalTime": 1792156500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792156532060,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "BATUSDT::LONG::ChoCh::1792160100000",
