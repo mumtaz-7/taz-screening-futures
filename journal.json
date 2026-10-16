@@ -38106,5 +38106,22 @@
   "status": "pending",
   "createdAt": 1792165531219,
   "notified": []
+ },
+ {
+  "id": "ICPUSDT::SHORT::BoS::1792169100000",
+  "symbol": "ICPUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 3.042,
+  "sl": 3.117,
+  "tp": 2.824,
+  "tpSrc": "WL",
+  "slPct": 2.47,
+  "gainPct": 7.17,
+  "rr": 2.91,
+  "lev": 23,
+  "signalTime": 1792169100000,
+  "status": "pending",
+  "createdAt": 1792169132535
  }
 ]
