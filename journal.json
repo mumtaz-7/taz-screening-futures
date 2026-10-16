@@ -38227,5 +38227,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "VELODROMEUSDT::LONG::ChoCh::1792190700000",
+  "symbol": "VELODROMEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.03844,
+  "sl": 0.03739000000000001,
+  "tp": 0.042120000000000005,
+  "tpSrc": "EQ",
+  "slPct": 2.73,
+  "gainPct": 9.57,
+  "rr": 3.5,
+  "lev": 21,
+  "signalTime": 1792190700000,
+  "status": "pending",
+  "createdAt": 1792190731509
  }
 ]
