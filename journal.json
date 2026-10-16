@@ -37908,7 +37908,45 @@
   "rr": 4.85,
   "lev": 25,
   "signalTime": 1792145700000,
+  "status": "open",
+  "createdAt": 1792145732134,
+  "fillTime": 1792145700000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "PYTHUSDT::SHORT::BoS::1792146600000",
+  "symbol": "PYTHUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.09254,
+  "sl": 0.09675500000000001,
+  "tp": 0.08208,
+  "tpSrc": "OB",
+  "slPct": 4.55,
+  "gainPct": 11.3,
+  "rr": 2.48,
+  "lev": 13,
+  "signalTime": 1792146600000,
   "status": "pending",
-  "createdAt": 1792145732134
+  "createdAt": 1792146638270
+ },
+ {
+  "id": "牛来USDT::SHORT::ChoCh::1792146600000",
+  "symbol": "牛来USDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.06768,
+  "sl": 0.07122,
+  "tp": 0.06052,
+  "tpSrc": "WL",
+  "slPct": 5.23,
+  "gainPct": 10.58,
+  "rr": 2.02,
+  "lev": 11,
+  "signalTime": 1792146600000,
+  "status": "pending",
+  "createdAt": 1792146638270
  }
 ]
