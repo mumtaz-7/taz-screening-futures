@@ -38152,9 +38152,12 @@
   "rr": 1.62,
   "lev": 10,
   "signalTime": 1792170000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792170045105,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792171800000
  },
  {
   "id": "WALUSDT::SHORT::ChoCh::1792170900000",
