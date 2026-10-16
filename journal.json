@@ -38088,5 +38088,22 @@
   "status": "pending",
   "createdAt": 1792163732842,
   "notified": []
+ },
+ {
+  "id": "AMPUSDT::LONG::BoS::1792165500000",
+  "symbol": "AMPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00071,
+  "sl": 0.0006485,
+  "tp": 0.00083,
+  "tpSrc": "WH",
+  "slPct": 8.66,
+  "gainPct": 16.9,
+  "rr": 1.95,
+  "lev": 7,
+  "signalTime": 1792165500000,
+  "status": "pending",
+  "createdAt": 1792165531219
  }
 ]
