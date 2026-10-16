@@ -37980,9 +37980,12 @@
   "rr": 3.18,
   "lev": 21,
   "signalTime": 1792152000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792152044620,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792162800000
  },
  {
   "id": "CHIPUSDT::SHORT::ChoCh::1792152900000",
@@ -38055,7 +38058,28 @@
   "rr": 14.46,
   "lev": 18,
   "signalTime": 1792162800000,
+  "status": "open",
+  "createdAt": 1792162847765,
+  "fillTime": 1792162800000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ENAUSDT::SHORT::BoS::1792163700000",
+  "symbol": "ENAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.2042,
+  "sl": 0.21065,
+  "tp": 0.1825,
+  "tpSrc": "WL",
+  "slPct": 3.16,
+  "gainPct": 10.63,
+  "rr": 3.36,
+  "lev": 19,
+  "signalTime": 1792163700000,
   "status": "pending",
-  "createdAt": 1792162847765
+  "createdAt": 1792163732842
  }
 ]

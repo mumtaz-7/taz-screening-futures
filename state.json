@@ -1,7 +1,8 @@
 {
   "ready": [
     "BATUSDT::LONG::ChoCh",
+    "ENAUSDT::SHORT::BoS",
     "WALUSDT::LONG::BoS"
   ],
-  "at": "2026-10-16T15:00:47.764Z"
+  "at": "2026-10-16T15:15:32.841Z"
 }
