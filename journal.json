@@ -37770,8 +37770,12 @@
   "rr": 1.46,
   "lev": 8,
   "signalTime": 1792119600000,
-  "status": "pending",
-  "createdAt": 1792119644289
+  "status": "open",
+  "createdAt": 1792119644289,
+  "fillTime": 1792119600000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "USUALUSDT::SHORT::BoS::1792119600000",
@@ -37787,7 +37791,11 @@
   "rr": 7.13,
   "lev": 25,
   "signalTime": 1792119600000,
-  "status": "pending",
-  "createdAt": 1792119644289
+  "status": "open",
+  "createdAt": 1792119644289,
+  "fillTime": 1792119600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
