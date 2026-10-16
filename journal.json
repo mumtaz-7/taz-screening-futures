@@ -37959,5 +37959,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "OPUSDT::LONG::BoS::1792152000000",
+  "symbol": "OPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1396,
+  "sl": 0.13570000000000002,
+  "tp": 0.152,
+  "tpSrc": "OB",
+  "slPct": 2.79,
+  "gainPct": 8.88,
+  "rr": 3.18,
+  "lev": 21,
+  "signalTime": 1792152000000,
+  "status": "pending",
+  "createdAt": 1792152044620
  }
 ]
