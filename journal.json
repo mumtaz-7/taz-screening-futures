@@ -36827,12 +36827,15 @@
   "rr": 3.2,
   "lev": 17,
   "signalTime": 1791954900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791954931035,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791964800000
+  "fillTime": 1791964800000,
+  "R": -1,
+  "resolvedTime": 1792127700000
  },
  {
   "id": "CFXUSDT::SHORT::BoS::1791956700000",
