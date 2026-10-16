@@ -38140,9 +38140,12 @@
   "rr": 2.91,
   "lev": 23,
   "signalTime": 1792169100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792169132535,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "PENDLEUSDT::SHORT::ChoCh::1792170000000",
@@ -38243,6 +38246,24 @@
   "lev": 21,
   "signalTime": 1792190700000,
   "status": "pending",
-  "createdAt": 1792190731509
+  "createdAt": 1792190731509,
+  "notified": []
+ },
+ {
+  "id": "NEARUSDT::LONG::ChoCh::1792191600000",
+  "symbol": "NEARUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 5.057,
+  "sl": 4.8995,
+  "tp": 5.44,
+  "tpSrc": "WH",
+  "slPct": 3.11,
+  "gainPct": 7.57,
+  "rr": 2.43,
+  "lev": 19,
+  "signalTime": 1792191600000,
+  "status": "pending",
+  "createdAt": 1792191643295
  }
 ]
