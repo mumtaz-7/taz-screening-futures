@@ -37930,7 +37930,8 @@
   "lev": 13,
   "signalTime": 1792146600000,
   "status": "pending",
-  "createdAt": 1792146638270
+  "createdAt": 1792146638270,
+  "notified": []
  },
  {
   "id": "牛来USDT::SHORT::ChoCh::1792146600000",
@@ -37946,7 +37947,11 @@
   "rr": 2.02,
   "lev": 11,
   "signalTime": 1792146600000,
-  "status": "pending",
-  "createdAt": 1792146638270
+  "status": "open",
+  "createdAt": 1792146638270,
+  "fillTime": 1792146600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
