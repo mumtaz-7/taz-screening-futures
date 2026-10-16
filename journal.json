@@ -37641,12 +37641,15 @@
   "rr": 4.44,
   "lev": 21,
   "signalTime": 1792098000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792098048338,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792098900000
+  "fillTime": 1792098900000,
+  "R": -1,
+  "resolvedTime": 1792112400000
  },
  {
   "id": "PEPEUSDT::SHORT::BoS::1792103400000",
@@ -37707,5 +37710,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "RLCUSDT::LONG::BoS::1792113300000",
+  "symbol": "RLCUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.8789,
+  "sl": 0.8508499999999999,
+  "tp": 1.0185,
+  "tpSrc": "OB",
+  "slPct": 3.19,
+  "gainPct": 15.88,
+  "rr": 4.98,
+  "lev": 18,
+  "signalTime": 1792113300000,
+  "status": "pending",
+  "createdAt": 1792113334985
  }
 ]
