@@ -37980,12 +37980,15 @@
   "rr": 3.18,
   "lev": 21,
   "signalTime": 1792152000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792152044620,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792162800000
+  "fillTime": 1792162800000,
+  "R": -1,
+  "resolvedTime": 1792170000000
  },
  {
   "id": "CHIPUSDT::SHORT::ChoCh::1792152900000",
@@ -38040,12 +38043,15 @@
   "rr": 2.78,
   "lev": 15,
   "signalTime": 1792160100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792160131654,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792163700000
+  "fillTime": 1792163700000,
+  "R": -1,
+  "resolvedTime": 1792170000000
  },
  {
   "id": "WALUSDT::LONG::BoS::1792162800000",
@@ -38103,9 +38109,13 @@
   "rr": 1.95,
   "lev": 7,
   "signalTime": 1792165500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792165531219,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1792170000000
  },
  {
   "id": "ICPUSDT::SHORT::BoS::1792169100000",
@@ -38140,6 +38150,24 @@
   "lev": 10,
   "signalTime": 1792170000000,
   "status": "pending",
-  "createdAt": 1792170045105
+  "createdAt": 1792170045105,
+  "notified": []
+ },
+ {
+  "id": "WALUSDT::SHORT::ChoCh::1792170900000",
+  "symbol": "WALUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.04476,
+  "sl": 0.046485,
+  "tp": 0.03824,
+  "tpSrc": "OB",
+  "slPct": 3.85,
+  "gainPct": 14.57,
+  "rr": 3.78,
+  "lev": 15,
+  "signalTime": 1792170900000,
+  "status": "pending",
+  "createdAt": 1792170930337
  }
 ]
