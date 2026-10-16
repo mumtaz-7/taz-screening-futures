@@ -38200,9 +38200,12 @@
   "rr": 3.29,
   "lev": 18,
   "signalTime": 1792181700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792181730282,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792186200000
  },
  {
   "id": "FILUSDT::SHORT::BoS::1792185300000",
