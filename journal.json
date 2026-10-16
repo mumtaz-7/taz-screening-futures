@@ -37848,5 +37848,22 @@
   "status": "pending",
   "createdAt": 1792125932363,
   "notified": []
+ },
+ {
+  "id": "RAYUSDT::LONG::ChoCh::1792134000000",
+  "symbol": "RAYUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1.8519,
+  "sl": 1.80045,
+  "tp": 2.0052,
+  "tpSrc": "OB",
+  "slPct": 2.78,
+  "gainPct": 8.28,
+  "rr": 2.98,
+  "lev": 21,
+  "signalTime": 1792134000000,
+  "status": "pending",
+  "createdAt": 1792134042949
  }
 ]
