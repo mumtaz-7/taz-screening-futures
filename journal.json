@@ -37908,12 +37908,15 @@
   "rr": 4.85,
   "lev": 25,
   "signalTime": 1792145700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792145732134,
   "fillTime": 1792145700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792149300000
  },
  {
   "id": "PYTHUSDT::SHORT::BoS::1792146600000",
