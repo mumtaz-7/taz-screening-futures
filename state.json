@@ -1,9 +1,8 @@
 {
   "ready": [
-    "AVAUSDT::LONG::BoS",
-    "EPICUSDT::SHORT::BoS",
     "GTCUSDT::SHORT::BoS",
-    "USUALUSDT::SHORT::BoS"
+    "USUALUSDT::SHORT::BoS",
+    "ZECUSDT::SHORT::BoS"
   ],
-  "at": "2026-10-16T03:30:38.487Z"
+  "at": "2026-10-16T03:45:32.234Z"
 }
