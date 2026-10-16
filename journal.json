@@ -37797,12 +37797,15 @@
   "rr": 7.13,
   "lev": 25,
   "signalTime": 1792119600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792119644289,
   "fillTime": 1792119600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792126800000
  },
  {
   "id": "ZECUSDT::SHORT::BoS::1792122300000",
