@@ -37851,12 +37851,15 @@
   "rr": 3.28,
   "lev": 14,
   "signalTime": 1792125900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792125932363,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792135800000
+  "fillTime": 1792135800000,
+  "R": -1,
+  "resolvedTime": 1792170900000
  },
  {
   "id": "RAYUSDT::LONG::ChoCh::1792134000000",
@@ -38167,7 +38170,11 @@
   "rr": 3.78,
   "lev": 15,
   "signalTime": 1792170900000,
-  "status": "pending",
-  "createdAt": 1792170930337
+  "status": "open",
+  "createdAt": 1792170930337,
+  "fillTime": 1792170900000,
+  "notified": [
+   "open"
+  ]
  }
 ]
