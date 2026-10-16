@@ -37893,5 +37893,22 @@
    "open"
   ],
   "fillTime": 1792142100000
+ },
+ {
+  "id": "ENAUSDT::SHORT::BoS::1792145700000",
+  "symbol": "ENAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.2036,
+  "sl": 0.20794999999999997,
+  "tp": 0.1825,
+  "tpSrc": "WL",
+  "slPct": 2.14,
+  "gainPct": 10.36,
+  "rr": 4.85,
+  "lev": 25,
+  "signalTime": 1792145700000,
+  "status": "pending",
+  "createdAt": 1792145732134
  }
 ]
