@@ -38040,5 +38040,22 @@
   "status": "pending",
   "createdAt": 1792160131654,
   "notified": []
+ },
+ {
+  "id": "WALUSDT::LONG::BoS::1792162800000",
+  "symbol": "WALUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.04638,
+  "sl": 0.044895000000000004,
+  "tp": 0.06786,
+  "tpSrc": "WH",
+  "slPct": 3.2,
+  "gainPct": 46.31,
+  "rr": 14.46,
+  "lev": 18,
+  "signalTime": 1792162800000,
+  "status": "pending",
+  "createdAt": 1792162847765
  }
 ]
