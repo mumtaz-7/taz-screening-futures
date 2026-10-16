@@ -37869,9 +37869,12 @@
   "rr": 2.98,
   "lev": 21,
   "signalTime": 1792134000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792134042949,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "NIGHTUSDT::LONG::ChoCh::1792140300000",
@@ -37998,5 +38001,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "牛来USDT::SHORT::BoS::1792156500000",
+  "symbol": "牛来USDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0674,
+  "sl": 0.069395,
+  "tp": 0.06052,
+  "tpSrc": "WL",
+  "slPct": 2.96,
+  "gainPct": 10.21,
+  "rr": 3.45,
+  "lev": 20,
+  "signalTime": 1792156500000,
+  "status": "pending",
+  "createdAt": 1792156532060
  }
 ]
