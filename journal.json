@@ -37686,5 +37686,22 @@
   "status": "pending",
   "createdAt": 1792106132568,
   "notified": []
+ },
+ {
+  "id": "ICPUSDT::SHORT::ChoCh::1792111500000",
+  "symbol": "ICPUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 3.046,
+  "sl": 3.1270000000000002,
+  "tp": 2.824,
+  "tpSrc": "WL",
+  "slPct": 2.66,
+  "gainPct": 7.29,
+  "rr": 2.74,
+  "lev": 22,
+  "signalTime": 1792111500000,
+  "status": "pending",
+  "createdAt": 1792111531792
  }
 ]
