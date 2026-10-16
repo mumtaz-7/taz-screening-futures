@@ -37599,12 +37599,15 @@
   "rr": 2.32,
   "lev": 8,
   "signalTime": 1792094400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792094445382,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792095300000
+  "fillTime": 1792095300000,
+  "R": -1,
+  "resolvedTime": 1792125900000
  },
  {
   "id": "IOUSDT::LONG::ChoCh::1792098000000",
@@ -37837,6 +37840,7 @@
   "lev": 14,
   "signalTime": 1792125900000,
   "status": "pending",
-  "createdAt": 1792125932363
+  "createdAt": 1792125932363,
+  "notified": []
  }
 ]
