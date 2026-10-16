@@ -37975,6 +37975,24 @@
   "lev": 21,
   "signalTime": 1792152000000,
   "status": "pending",
-  "createdAt": 1792152044620
+  "createdAt": 1792152044620,
+  "notified": []
+ },
+ {
+  "id": "CHIPUSDT::SHORT::ChoCh::1792152900000",
+  "symbol": "CHIPUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.0492,
+  "sl": 0.051210000000000006,
+  "tp": 0.04242,
+  "tpSrc": "WL",
+  "slPct": 4.09,
+  "gainPct": 13.78,
+  "rr": 3.37,
+  "lev": 15,
+  "signalTime": 1792152900000,
+  "status": "pending",
+  "createdAt": 1792152933671
  }
 ]
