@@ -37821,5 +37821,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "WALUSDT::LONG::ChoCh::1792125900000",
+  "symbol": "WALUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.04622,
+  "sl": 0.044285,
+  "tp": 0.05256,
+  "tpSrc": "EQ",
+  "slPct": 4.19,
+  "gainPct": 13.72,
+  "rr": 3.28,
+  "lev": 14,
+  "signalTime": 1792125900000,
+  "status": "pending",
+  "createdAt": 1792125932363
  }
 ]
