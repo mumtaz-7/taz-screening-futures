@@ -37872,5 +37872,22 @@
   "status": "pending",
   "createdAt": 1792134042949,
   "notified": []
+ },
+ {
+  "id": "NIGHTUSDT::LONG::ChoCh::1792140300000",
+  "symbol": "NIGHTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.04306,
+  "sl": 0.040659999999999995,
+  "tp": 0.05017,
+  "tpSrc": "OB",
+  "slPct": 5.57,
+  "gainPct": 16.51,
+  "rr": 2.96,
+  "lev": 11,
+  "signalTime": 1792140300000,
+  "status": "pending",
+  "createdAt": 1792140331296
  }
 ]
