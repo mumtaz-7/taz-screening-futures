@@ -37779,12 +37779,15 @@
   "rr": 1.46,
   "lev": 8,
   "signalTime": 1792119600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792119644289,
   "fillTime": 1792119600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.46,
+  "resolvedTime": 1792135800000
  },
  {
   "id": "USUALUSDT::SHORT::BoS::1792119600000",
@@ -37845,9 +37848,12 @@
   "rr": 3.28,
   "lev": 14,
   "signalTime": 1792125900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792125932363,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792135800000
  },
  {
   "id": "RAYUSDT::LONG::ChoCh::1792134000000",
