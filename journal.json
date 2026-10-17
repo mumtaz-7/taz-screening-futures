@@ -38416,12 +38416,15 @@
   "rr": 3.63,
   "lev": 20,
   "signalTime": 1792214100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792214133061,
   "fillTime": 1792214100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792242900000
  },
  {
   "id": "VELODROMEUSDT::LONG::BoS::1792217700000",
@@ -38489,5 +38492,22 @@
    "open"
   ],
   "fillTime": 1792241100000
+ },
+ {
+  "id": "AMPUSDT::LONG::ChoCh::1792243800000",
+  "symbol": "AMPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.000753,
+  "sl": 0.0006795,
+  "tp": 0.000849,
+  "tpSrc": "WH",
+  "slPct": 9.76,
+  "gainPct": 12.75,
+  "rr": 1.31,
+  "lev": 6,
+  "signalTime": 1792243800000,
+  "status": "pending",
+  "createdAt": 1792243840662
  }
 ]
