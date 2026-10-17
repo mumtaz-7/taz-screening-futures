@@ -38266,12 +38266,15 @@
   "rr": 3.5,
   "lev": 21,
   "signalTime": 1792190700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792190731509,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792196100000
+  "fillTime": 1792196100000,
+  "R": -1,
+  "resolvedTime": 1792251900000
  },
  {
   "id": "NEARUSDT::LONG::ChoCh::1792191600000",
@@ -38287,12 +38290,15 @@
   "rr": 2.43,
   "lev": 19,
   "signalTime": 1792191600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792191643295,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792195200000
+  "fillTime": 1792195200000,
+  "R": -1,
+  "resolvedTime": 1792251900000
  },
  {
   "id": "APTUSDT::LONG::ChoCh::1792195200000",
