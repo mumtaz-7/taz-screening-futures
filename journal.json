@@ -38603,5 +38603,22 @@
    "open"
   ],
   "fillTime": 1792269900000
+ },
+ {
+  "id": "TIAUSDT::SHORT::BoS::1792274400000",
+  "symbol": "TIAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.6471,
+  "sl": 0.6979500000000001,
+  "tp": 0.592,
+  "tpSrc": "OB",
+  "slPct": 7.86,
+  "gainPct": 8.51,
+  "rr": 1.08,
+  "lev": 8,
+  "signalTime": 1792274400000,
+  "status": "pending",
+  "createdAt": 1792274442844
  }
 ]
