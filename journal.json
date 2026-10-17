@@ -37569,12 +37569,15 @@
   "rr": 5.14,
   "lev": 13,
   "signalTime": 1792091700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792091733979,
   "fillTime": 1792091700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 5.14,
+  "resolvedTime": 1792249200000
  },
  {
   "id": "BLURUSDT::SHORT::ChoCh::1792093500000",
@@ -37770,12 +37773,15 @@
   "rr": 1.91,
   "lev": 8,
   "signalTime": 1792116900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792116933349,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1792117800000
+  "fillTime": 1792117800000,
+  "R": 1.91,
+  "resolvedTime": 1792249200000
  },
  {
   "id": "EPICUSDT::SHORT::BoS::1792119600000",
@@ -38528,7 +38534,11 @@
   "rr": 7.19,
   "lev": 25,
   "signalTime": 1792249200000,
-  "status": "pending",
-  "createdAt": 1792249241733
+  "status": "open",
+  "createdAt": 1792249241733,
+  "fillTime": 1792249200000,
+  "notified": [
+   "open"
+  ]
  }
 ]
