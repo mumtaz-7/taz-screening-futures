@@ -36782,12 +36782,15 @@
   "rr": 3.61,
   "lev": 9,
   "signalTime": 1791941400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791941437862,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791949500000
+  "fillTime": 1791949500000,
+  "R": -1,
+  "resolvedTime": 1792215000000
  },
  {
   "id": "LDOUSDT::SHORT::ChoCh::1791952200000",
