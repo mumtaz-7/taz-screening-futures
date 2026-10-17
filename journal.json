@@ -37390,12 +37390,15 @@
   "rr": 1.76,
   "lev": 4,
   "signalTime": 1792065600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792065649506,
   "fillTime": 1792065600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792221300000
  },
  {
   "id": "GTCUSDT::SHORT::ChoCh::1792067400000",
