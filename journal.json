@@ -38203,12 +38203,15 @@
   "rr": 3.29,
   "lev": 18,
   "signalTime": 1792181700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792181730282,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792186200000
+  "fillTime": 1792186200000,
+  "R": -1,
+  "resolvedTime": 1792196100000
  },
  {
   "id": "FILUSDT::SHORT::BoS::1792185300000",
@@ -38245,9 +38248,12 @@
   "rr": 3.5,
   "lev": 21,
   "signalTime": 1792190700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792190731509,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792196100000
  },
  {
   "id": "NEARUSDT::LONG::ChoCh::1792191600000",
@@ -38290,5 +38296,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "KMNOUSDT::LONG::ChoCh::1792197000000",
+  "symbol": "KMNOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0385,
+  "sl": 0.037720000000000004,
+  "tp": 0.04377,
+  "tpSrc": "WH",
+  "slPct": 2.03,
+  "gainPct": 13.69,
+  "rr": 6.76,
+  "lev": 25,
+  "signalTime": 1792197000000,
+  "status": "pending",
+  "createdAt": 1792197037832
  }
 ]
