@@ -38320,9 +38320,12 @@
   "rr": 6.76,
   "lev": 25,
   "signalTime": 1792197000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792197037832,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "EPICUSDT::SHORT::BoS::1792198800000",
