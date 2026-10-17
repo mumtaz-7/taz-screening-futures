@@ -38513,5 +38513,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GRAMUSDT::LONG::ChoCh::1792249200000",
+  "symbol": "GRAMUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1.351,
+  "sl": 1.3375000000000001,
+  "tp": 1.448,
+  "tpSrc": "OB",
+  "slPct": 1,
+  "gainPct": 7.18,
+  "rr": 7.19,
+  "lev": 25,
+  "signalTime": 1792249200000,
+  "status": "pending",
+  "createdAt": 1792249241733
  }
 ]
