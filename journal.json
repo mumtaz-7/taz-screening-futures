@@ -38266,5 +38266,22 @@
   "status": "pending",
   "createdAt": 1792191643295,
   "notified": []
+ },
+ {
+  "id": "APTUSDT::LONG::ChoCh::1792195200000",
+  "symbol": "APTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.8488,
+  "sl": 0.8266,
+  "tp": 0.9144,
+  "tpSrc": "OB",
+  "slPct": 2.62,
+  "gainPct": 7.73,
+  "rr": 2.95,
+  "lev": 22,
+  "signalTime": 1792195200000,
+  "status": "pending",
+  "createdAt": 1792195246682
  }
 ]
