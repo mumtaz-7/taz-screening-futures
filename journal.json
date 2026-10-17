@@ -38440,5 +38440,22 @@
    "open"
   ],
   "fillTime": 1792223100000
+ },
+ {
+  "id": "ERAUSDT::LONG::BoS::1792227600000",
+  "symbol": "ERAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0603,
+  "sl": 0.05865000000000001,
+  "tp": 0.0687,
+  "tpSrc": "WH",
+  "slPct": 2.74,
+  "gainPct": 13.93,
+  "rr": 5.09,
+  "lev": 21,
+  "signalTime": 1792227600000,
+  "status": "pending",
+  "createdAt": 1792227641726
  }
 ]
