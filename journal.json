@@ -38299,12 +38299,15 @@
   "rr": 2.95,
   "lev": 22,
   "signalTime": 1792195200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792195246682,
   "fillTime": 1792195200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792220400000
  },
  {
   "id": "KMNOUSDT::LONG::ChoCh::1792197000000",
