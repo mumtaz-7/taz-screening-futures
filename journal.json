@@ -38329,7 +38329,11 @@
   "rr": 2.1,
   "lev": 11,
   "signalTime": 1792198800000,
-  "status": "pending",
-  "createdAt": 1792198841242
+  "status": "open",
+  "createdAt": 1792198841242,
+  "fillTime": 1792198800000,
+  "notified": [
+   "open"
+  ]
  }
 ]
