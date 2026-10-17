@@ -37686,12 +37686,15 @@
   "rr": 4.27,
   "lev": 25,
   "signalTime": 1792103400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792103440198,
   "fillTime": 1792103400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 4.27,
+  "resolvedTime": 1792272600000
  },
  {
   "id": "BLURUSDT::SHORT::BoS::1792106100000",
@@ -38031,12 +38034,15 @@
   "rr": 3.37,
   "lev": 15,
   "signalTime": 1792152900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792152933671,
   "fillTime": 1792152900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.37,
+  "resolvedTime": 1792272600000
  },
  {
   "id": "牛来USDT::SHORT::BoS::1792156500000",
