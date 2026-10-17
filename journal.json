@@ -37911,12 +37911,15 @@
   "rr": 2.96,
   "lev": 11,
   "signalTime": 1792140300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792140331296,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792142100000
+  "fillTime": 1792142100000,
+  "R": -1,
+  "resolvedTime": 1792256400000
  },
  {
   "id": "ENAUSDT::SHORT::BoS::1792145700000",
