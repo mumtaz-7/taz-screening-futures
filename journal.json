@@ -37956,12 +37956,15 @@
   "rr": 2.48,
   "lev": 13,
   "signalTime": 1792146600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792146638270,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1792148400000
+  "fillTime": 1792148400000,
+  "R": 2.48,
+  "resolvedTime": 1792253700000
  },
  {
   "id": "牛来USDT::SHORT::ChoCh::1792146600000",
@@ -37977,12 +37980,15 @@
   "rr": 2.02,
   "lev": 11,
   "signalTime": 1792146600000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792146638270,
   "fillTime": 1792146600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.02,
+  "resolvedTime": 1792253700000
  },
  {
   "id": "OPUSDT::LONG::BoS::1792152000000",
@@ -38546,5 +38552,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PROMUSDT::SHORT::BoS::1792254600000",
+  "symbol": "PROMUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 4.97,
+  "sl": 5.1545000000000005,
+  "tp": 4.407,
+  "tpSrc": "WL",
+  "slPct": 3.71,
+  "gainPct": 11.33,
+  "rr": 3.05,
+  "lev": 16,
+  "signalTime": 1792254600000,
+  "status": "pending",
+  "createdAt": 1792254638449
  }
 ]
