@@ -38335,5 +38335,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "WALUSDT::SHORT::BoS::1792204200000",
+  "symbol": "WALUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.04395,
+  "sl": 0.046334999999999994,
+  "tp": 0.03824,
+  "tpSrc": "OB",
+  "slPct": 5.43,
+  "gainPct": 12.99,
+  "rr": 2.39,
+  "lev": 11,
+  "signalTime": 1792204200000,
+  "status": "pending",
+  "createdAt": 1792204235717
  }
 ]
