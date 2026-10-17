@@ -38263,9 +38263,12 @@
   "rr": 2.43,
   "lev": 19,
   "signalTime": 1792191600000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792191643295,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792195200000
  },
  {
   "id": "APTUSDT::LONG::ChoCh::1792195200000",
@@ -38281,7 +38284,11 @@
   "rr": 2.95,
   "lev": 22,
   "signalTime": 1792195200000,
-  "status": "pending",
-  "createdAt": 1792195246682
+  "status": "open",
+  "createdAt": 1792195246682,
+  "fillTime": 1792195200000,
+  "notified": [
+   "open"
+  ]
  }
 ]
