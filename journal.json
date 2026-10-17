@@ -38350,7 +38350,11 @@
   "rr": 2.39,
   "lev": 11,
   "signalTime": 1792204200000,
-  "status": "pending",
-  "createdAt": 1792204235717
+  "status": "open",
+  "createdAt": 1792204235717,
+  "fillTime": 1792204200000,
+  "notified": [
+   "open"
+  ]
  }
 ]
