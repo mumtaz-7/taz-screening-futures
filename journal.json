@@ -38338,12 +38338,15 @@
   "rr": 2.1,
   "lev": 11,
   "signalTime": 1792198800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792198841242,
   "fillTime": 1792198800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792215900000
  },
  {
   "id": "WALUSDT::SHORT::BoS::1792204200000",
