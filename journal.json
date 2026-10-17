@@ -37408,12 +37408,15 @@
   "rr": 1.39,
   "lev": 6,
   "signalTime": 1792067400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792067440648,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792069200000
+  "fillTime": 1792069200000,
+  "R": -1,
+  "resolvedTime": 1792208700000
  },
  {
   "id": "SUSDT::SHORT::ChoCh::1792072800000",
