@@ -38657,12 +38657,15 @@
   "rr": 1.08,
   "lev": 8,
   "signalTime": 1792274400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792274442844,
   "fillTime": 1792274400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.08,
+  "resolvedTime": 1792356300000
  },
  {
   "id": "RSRUSDT::LONG::ChoCh::1792279800000",
