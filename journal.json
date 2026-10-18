@@ -37863,12 +37863,15 @@
   "rr": 3.65,
   "lev": 19,
   "signalTime": 1792122300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792122332281,
   "fillTime": 1792122300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.65,
+  "resolvedTime": 1792350000000
  },
  {
   "id": "WALUSDT::LONG::ChoCh::1792125900000",
