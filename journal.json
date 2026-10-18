@@ -38803,5 +38803,22 @@
    "open"
   ],
   "fillTime": 1792326600000
+ },
+ {
+  "id": "AMPUSDT::LONG::BoS::1792347300000",
+  "symbol": "AMPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.000779,
+  "sl": 0.000719,
+  "tp": 0.000849,
+  "tpSrc": "WH",
+  "slPct": 7.7,
+  "gainPct": 8.99,
+  "rr": 1.17,
+  "lev": 8,
+  "signalTime": 1792347300000,
+  "status": "pending",
+  "createdAt": 1792347329506
  }
 ]
