@@ -36743,12 +36743,15 @@
   "rr": 6.29,
   "lev": 25,
   "signalTime": 1791933300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791933331080,
   "fillTime": 1791933300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 6.29,
+  "resolvedTime": 1792351800000
  },
  {
   "id": "SUSDT::LONG::ChoCh::1791938700000",
@@ -36860,12 +36863,15 @@
   "rr": 3,
   "lev": 17,
   "signalTime": 1791956700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791956732363,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1791957600000
+  "fillTime": 1791957600000,
+  "R": 3,
+  "resolvedTime": 1792351800000
  },
  {
   "id": "MAGICUSDT::SHORT::BoS::1791956700000",
@@ -38230,12 +38236,15 @@
   "rr": 3.78,
   "lev": 15,
   "signalTime": 1792170900000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792170930337,
   "fillTime": 1792170900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.78,
+  "resolvedTime": 1792351800000
  },
  {
   "id": "ZROUSDT::LONG::ChoCh::1792181700000",
@@ -38416,12 +38425,15 @@
   "rr": 2.39,
   "lev": 11,
   "signalTime": 1792204200000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792204235717,
   "fillTime": 1792204200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.39,
+  "resolvedTime": 1792351800000
  },
  {
   "id": "ZROUSDT::LONG::BoS::1792210500000",
@@ -38621,12 +38633,15 @@
   "rr": 2.85,
   "lev": 18,
   "signalTime": 1792269000000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792269035144,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1792269900000
+  "fillTime": 1792269900000,
+  "R": 2.85,
+  "resolvedTime": 1792351800000
  },
  {
   "id": "TIAUSDT::SHORT::BoS::1792274400000",
