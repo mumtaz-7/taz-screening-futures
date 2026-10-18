@@ -1,8 +1,7 @@
 {
   "ready": [
     "BATUSDT::SHORT::BoS",
-    "GTCUSDT::LONG::BoS",
-    "RSRUSDT::LONG::ChoCh"
+    "GTCUSDT::LONG::BoS"
   ],
-  "at": "2026-10-18T00:45:28.735Z"
+  "at": "2026-10-18T01:00:42.293Z"
 }
