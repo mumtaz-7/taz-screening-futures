@@ -38690,5 +38690,22 @@
   ],
   "R": -1,
   "resolvedTime": 1792287000000
+ },
+ {
+  "id": "SANDUSDT::LONG::ChoCh::1792291500000",
+  "symbol": "SANDUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.06072,
+  "sl": 0.05691,
+  "tp": 0.06686,
+  "tpSrc": "WH",
+  "slPct": 6.27,
+  "gainPct": 10.11,
+  "rr": 1.61,
+  "lev": 10,
+  "signalTime": 1792291500000,
+  "status": "pending",
+  "createdAt": 1792291531890
  }
 ]
