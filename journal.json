@@ -38758,5 +38758,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BATUSDT::SHORT::ChoCh::1792324800000",
+  "symbol": "BATUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.1784,
+  "sl": 0.1853,
+  "tp": 0.1532,
+  "tpSrc": "OB",
+  "slPct": 3.87,
+  "gainPct": 14.13,
+  "rr": 3.65,
+  "lev": 15,
+  "signalTime": 1792324800000,
+  "status": "pending",
+  "createdAt": 1792324843456
  }
 ]
