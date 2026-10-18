@@ -36109,12 +36109,15 @@
   "rr": 1.79,
   "lev": 7,
   "signalTime": 1791852300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1791852333198,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1791856800000
+  "fillTime": 1791856800000,
+  "R": 1.79,
+  "resolvedTime": 1792333800000
  },
  {
   "id": "MAGICUSDT::LONG::BoS::1791855900000",
@@ -38567,12 +38570,15 @@
   "rr": 7.19,
   "lev": 25,
   "signalTime": 1792249200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792249241733,
   "fillTime": 1792249200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792333800000
  },
  {
   "id": "PROMUSDT::SHORT::BoS::1792254600000",
