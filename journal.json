@@ -38666,5 +38666,22 @@
    "open"
   ],
   "fillTime": 1792281600000
+ },
+ {
+  "id": "BATUSDT::SHORT::BoS::1792284300000",
+  "symbol": "BATUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1777,
+  "sl": 0.18325000000000002,
+  "tp": 0.1532,
+  "tpSrc": "OB",
+  "slPct": 3.12,
+  "gainPct": 13.79,
+  "rr": 4.41,
+  "lev": 19,
+  "signalTime": 1792284300000,
+  "status": "pending",
+  "createdAt": 1792284328736
  }
 ]
