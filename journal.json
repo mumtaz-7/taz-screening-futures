@@ -38513,12 +38513,15 @@
   "rr": 1.86,
   "lev": 10,
   "signalTime": 1792238400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792238442659,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1792241100000
+  "fillTime": 1792241100000,
+  "R": 1.86,
+  "resolvedTime": 1792305000000
  },
  {
   "id": "AMPUSDT::LONG::ChoCh::1792243800000",
@@ -38705,8 +38708,12 @@
   "rr": 1.61,
   "lev": 10,
   "signalTime": 1792291500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792291531890,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1792305000000
  }
 ]
