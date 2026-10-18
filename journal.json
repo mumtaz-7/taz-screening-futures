@@ -37743,12 +37743,15 @@
   "rr": 2.74,
   "lev": 22,
   "signalTime": 1792111500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792111531792,
   "fillTime": 1792111500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.74,
+  "resolvedTime": 1792337400000
  },
  {
   "id": "RLCUSDT::LONG::BoS::1792113300000",
