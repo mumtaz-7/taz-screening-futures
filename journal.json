@@ -38651,12 +38651,15 @@
   "rr": 1.75,
   "lev": 8,
   "signalTime": 1792279800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792279836040,
   "fillTime": 1792279800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792332000000
  },
  {
   "id": "GTCUSDT::LONG::BoS::1792280700000",
