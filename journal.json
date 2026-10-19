@@ -38863,12 +38863,15 @@
   "rr": 3.4,
   "lev": 12,
   "signalTime": 1792368900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792368933458,
   "fillTime": 1792368900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792382400000
  },
  {
   "id": "QKCUSDT::LONG::BoS::1792368900000",
