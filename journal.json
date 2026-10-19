@@ -38860,8 +38860,12 @@
   "rr": 3.4,
   "lev": 12,
   "signalTime": 1792368900000,
-  "status": "pending",
-  "createdAt": 1792368933458
+  "status": "open",
+  "createdAt": 1792368933458,
+  "fillTime": 1792368900000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "QKCUSDT::LONG::BoS::1792368900000",
@@ -38877,7 +38881,11 @@
   "rr": 2.84,
   "lev": 5,
   "signalTime": 1792368900000,
-  "status": "pending",
-  "createdAt": 1792368933458
+  "status": "open",
+  "createdAt": 1792368933458,
+  "fillTime": 1792368900000,
+  "notified": [
+   "open"
+  ]
  }
 ]
