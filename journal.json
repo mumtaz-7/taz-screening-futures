@@ -38567,12 +38567,15 @@
   "rr": 1.31,
   "lev": 6,
   "signalTime": 1792243800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792243840662,
   "fillTime": 1792243800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.31,
+  "resolvedTime": 1792386900000
  },
  {
   "id": "GRAMUSDT::LONG::ChoCh::1792249200000",
@@ -38842,12 +38845,15 @@
   "rr": 1.17,
   "lev": 8,
   "signalTime": 1792347300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792347329506,
   "fillTime": 1792347300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.17,
+  "resolvedTime": 1792386900000
  },
  {
   "id": "EPICUSDT::SHORT::BoS::1792368900000",
