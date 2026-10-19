@@ -38705,12 +38705,15 @@
   "rr": 5.44,
   "lev": 10,
   "signalTime": 1792280700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792280731085,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1792281600000
+  "fillTime": 1792281600000,
+  "R": 5.44,
+  "resolvedTime": 1792377900000
  },
  {
   "id": "BATUSDT::SHORT::BoS::1792284300000",
