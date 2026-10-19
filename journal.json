@@ -39044,5 +39044,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BATUSDT::LONG::BoS::1792440900000",
+  "symbol": "BATUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1843,
+  "sl": 0.1759,
+  "tp": 0.2025,
+  "tpSrc": "OB",
+  "slPct": 4.56,
+  "gainPct": 9.88,
+  "rr": 2.17,
+  "lev": 13,
+  "signalTime": 1792440900000,
+  "status": "pending",
+  "createdAt": 1792440932482
  }
 ]
