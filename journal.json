@@ -38938,9 +38938,14 @@
   "rr": 3.86,
   "lev": 25,
   "signalTime": 1792403100000,
-  "status": "pending",
+  "status": "loss",
   "createdAt": 1792403131408,
-  "notified": []
+  "notified": [
+   "loss"
+  ],
+  "R": -1,
+  "fillTime": 1792422000000,
+  "resolvedTime": 1792422000000
  },
  {
   "id": "EPICUSDT::SHORT::BoS::1792421100000",
