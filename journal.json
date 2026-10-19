@@ -38991,7 +38991,29 @@
   "rr": 1.06,
   "lev": 5,
   "signalTime": 1792431000000,
+  "status": "void",
+  "createdAt": 1792431041916,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1792431000000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "PHAUSDT::LONG::BoS::1792431900000",
+  "symbol": "PHAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0512,
+  "sl": 0.04955,
+  "tp": 0.0591,
+  "tpSrc": "WH",
+  "slPct": 3.22,
+  "gainPct": 15.43,
+  "rr": 4.79,
+  "lev": 18,
+  "signalTime": 1792431900000,
   "status": "pending",
-  "createdAt": 1792431041916
+  "createdAt": 1792431933750
  }
 ]
