@@ -39062,5 +39062,22 @@
   "status": "pending",
   "createdAt": 1792440932482,
   "notified": []
+ },
+ {
+  "id": "SENTUSDT::LONG::ChoCh::1792442700000",
+  "symbol": "SENTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.02188,
+  "sl": 0.020965,
+  "tp": 0.02377,
+  "tpSrc": "WH",
+  "slPct": 4.18,
+  "gainPct": 8.64,
+  "rr": 2.07,
+  "lev": 14,
+  "signalTime": 1792442700000,
+  "status": "pending",
+  "createdAt": 1792442731100
  }
 ]
