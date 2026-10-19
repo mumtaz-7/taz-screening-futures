@@ -39116,9 +39116,12 @@
   "rr": 4.85,
   "lev": 25,
   "signalTime": 1792448100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792448132141,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792450800000
  },
  {
   "id": "ZECUSDT::LONG::ChoCh::1792448100000",
@@ -39134,8 +39137,11 @@
   "rr": 1.8,
   "lev": 14,
   "signalTime": 1792448100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792448132141,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792450800000
  }
 ]
