@@ -37261,12 +37261,15 @@
   "rr": 1.83,
   "lev": 10,
   "signalTime": 1792043100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792043131880,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1792049400000
+  "fillTime": 1792049400000,
+  "R": 1.83,
+  "resolvedTime": 1792426500000
  },
  {
   "id": "AMPUSDT::LONG::BoS::1792047600000",
@@ -37560,12 +37563,15 @@
   "rr": 4.06,
   "lev": 23,
   "signalTime": 1792088100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792088134064,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1792089000000
+  "fillTime": 1792089000000,
+  "R": 4.06,
+  "resolvedTime": 1792426500000
  },
  {
   "id": "AVAUSDT::LONG::ChoCh::1792091700000",
