@@ -39020,5 +39020,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1792432800000
+ },
+ {
+  "id": "PUMPUSDT::SHORT::BoS::1792434600000",
+  "symbol": "PUMPUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.00438,
+  "sl": 0.0046065,
+  "tp": 0.003832,
+  "tpSrc": "WL",
+  "slPct": 5.17,
+  "gainPct": 12.51,
+  "rr": 2.42,
+  "lev": 12,
+  "signalTime": 1792434600000,
+  "status": "pending",
+  "createdAt": 1792434637659
  }
 ]
