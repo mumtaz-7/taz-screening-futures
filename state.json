@@ -1,6 +1,8 @@
 {
   "ready": [
-    "QNTUSDT::LONG::ChoCh"
+    "QNTUSDT::LONG::ChoCh",
+    "TAOUSDT::LONG::ChoCh",
+    "ZECUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-19T22:00:44.950Z"
+  "at": "2026-10-19T22:15:32.140Z"
 }

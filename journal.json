@@ -39095,7 +39095,45 @@
   "rr": 4.57,
   "lev": 25,
   "signalTime": 1792447200000,
+  "status": "open",
+  "createdAt": 1792447244951,
+  "fillTime": 1792447200000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "TAOUSDT::LONG::ChoCh::1792448100000",
+  "symbol": "TAOUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 267,
+  "sl": 263.09999999999997,
+  "tp": 285.9,
+  "tpSrc": "OB",
+  "slPct": 1.46,
+  "gainPct": 7.08,
+  "rr": 4.85,
+  "lev": 25,
+  "signalTime": 1792448100000,
   "status": "pending",
-  "createdAt": 1792447244951
+  "createdAt": 1792448132141
+ },
+ {
+  "id": "ZECUSDT::LONG::ChoCh::1792448100000",
+  "symbol": "ZECUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1147.59,
+  "sl": 1097.8200000000002,
+  "tp": 1237.25,
+  "tpSrc": "OB",
+  "slPct": 4.34,
+  "gainPct": 7.81,
+  "rr": 1.8,
+  "lev": 14,
+  "signalTime": 1792448100000,
+  "status": "pending",
+  "createdAt": 1792448132141
  }
 ]
