@@ -35178,12 +35178,15 @@
   "rr": 10.24,
   "lev": 10,
   "signalTime": 1791693000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1791693036229,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1791693900000
+  "fillTime": 1791693900000,
+  "R": -1,
+  "resolvedTime": 1792439100000
  },
  {
   "id": "ACTUSDT::LONG::ChoCh::1791694800000",
