@@ -38824,12 +38824,15 @@
   "rr": 3.65,
   "lev": 15,
   "signalTime": 1792324800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792324843456,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792326600000
+  "fillTime": 1792326600000,
+  "R": -1,
+  "resolvedTime": 1792395900000
  },
  {
   "id": "AMPUSDT::LONG::BoS::1792347300000",
