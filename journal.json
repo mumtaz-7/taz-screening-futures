@@ -39170,12 +39170,15 @@
   "rr": 1.98,
   "lev": 6,
   "signalTime": 1792454400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792454445870,
   "fillTime": 1792454400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792484100000
  },
  {
   "id": "ALTUSDT::LONG::BoS::1792467900000",
