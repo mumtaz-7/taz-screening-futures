@@ -39059,9 +39059,12 @@
   "rr": 2.17,
   "lev": 13,
   "signalTime": 1792440900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792440932482,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "SENTUSDT::LONG::ChoCh::1792442700000",
