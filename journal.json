@@ -38624,12 +38624,15 @@
   "rr": 3.05,
   "lev": 16,
   "signalTime": 1792254600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792254638449,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792257300000
+  "fillTime": 1792257300000,
+  "R": -1,
+  "resolvedTime": 1792512000000
  },
  {
   "id": "NILUSDT::SHORT::BoS::1792269000000",
