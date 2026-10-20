@@ -39077,9 +39077,12 @@
   "rr": 2.07,
   "lev": 14,
   "signalTime": 1792442700000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792442731100,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792458000000
  },
  {
   "id": "QNTUSDT::LONG::ChoCh::1792447200000",
@@ -39095,12 +39098,15 @@
   "rr": 4.57,
   "lev": 25,
   "signalTime": 1792447200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792447244951,
   "fillTime": 1792447200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792458000000
  },
  {
   "id": "TAOUSDT::LONG::ChoCh::1792448100000",
@@ -39116,12 +39122,15 @@
   "rr": 4.85,
   "lev": 25,
   "signalTime": 1792448100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792448132141,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792450800000
+  "fillTime": 1792450800000,
+  "R": -1,
+  "resolvedTime": 1792458000000
  },
  {
   "id": "ZECUSDT::LONG::ChoCh::1792448100000",
