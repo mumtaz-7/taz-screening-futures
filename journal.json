@@ -39158,12 +39158,15 @@
   "rr": 1.8,
   "lev": 14,
   "signalTime": 1792448100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792448132141,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1792450800000
+  "fillTime": 1792450800000,
+  "R": 1.8,
+  "resolvedTime": 1792528200000
  },
  {
   "id": "OSMOUSDT::LONG::ChoCh::1792454400000",
@@ -39425,8 +39428,11 @@
   "rr": 4.18,
   "lev": 15,
   "signalTime": 1792527300000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792527333209,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792528200000
  }
 ]
