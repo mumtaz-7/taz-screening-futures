@@ -39218,5 +39218,22 @@
   ],
   "R": -1,
   "resolvedTime": 1792476000000
+ },
+ {
+  "id": "AVAUSDT::LONG::ChoCh::1792483200000",
+  "symbol": "AVAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.4037,
+  "sl": 0.37250000000000005,
+  "tp": 0.4487,
+  "tpSrc": "WH",
+  "slPct": 7.73,
+  "gainPct": 11.15,
+  "rr": 1.44,
+  "lev": 8,
+  "signalTime": 1792483200000,
+  "status": "pending",
+  "createdAt": 1792483242563
  }
 ]
