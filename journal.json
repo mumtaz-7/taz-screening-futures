@@ -39404,7 +39404,28 @@
   "rr": 1.12,
   "lev": 8,
   "signalTime": 1792526400000,
+  "status": "open",
+  "createdAt": 1792526445544,
+  "fillTime": 1792526400000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "ERAUSDT::LONG::BoS::1792527300000",
+  "symbol": "ERAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0742,
+  "sl": 0.07135,
+  "tp": 0.0861,
+  "tpSrc": "WH",
+  "slPct": 3.84,
+  "gainPct": 16.04,
+  "rr": 4.18,
+  "lev": 15,
+  "signalTime": 1792527300000,
   "status": "pending",
-  "createdAt": 1792526445544
+  "createdAt": 1792527333209
  }
 ]
