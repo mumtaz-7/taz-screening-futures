@@ -39194,9 +39194,12 @@
   "rr": 3.76,
   "lev": 12,
   "signalTime": 1792467900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792467931861,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ZECUSDT::LONG::BoS::1792473300000",
@@ -39275,7 +39278,11 @@
   "rr": 3.67,
   "lev": 20,
   "signalTime": 1792489500000,
-  "status": "pending",
-  "createdAt": 1792489531967
+  "status": "open",
+  "createdAt": 1792489531967,
+  "fillTime": 1792489500000,
+  "notified": [
+   "open"
+  ]
  }
 ]
