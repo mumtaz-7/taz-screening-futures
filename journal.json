@@ -39176,5 +39176,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ALTUSDT::LONG::BoS::1792467900000",
+  "symbol": "ALTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00932,
+  "sl": 0.008855000000000002,
+  "tp": 0.01107,
+  "tpSrc": "WH",
+  "slPct": 4.99,
+  "gainPct": 18.78,
+  "rr": 3.76,
+  "lev": 12,
+  "signalTime": 1792467900000,
+  "status": "pending",
+  "createdAt": 1792467931861
  }
 ]
