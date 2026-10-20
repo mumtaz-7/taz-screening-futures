@@ -39041,12 +39041,15 @@
   "rr": 2.42,
   "lev": 12,
   "signalTime": 1792434600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792434637659,
   "fillTime": 1792434600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792504800000
  },
  {
   "id": "BATUSDT::LONG::BoS::1792440900000",
@@ -39284,12 +39287,15 @@
   "rr": 3.67,
   "lev": 20,
   "signalTime": 1792489500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792489531967,
   "fillTime": 1792489500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792504800000
  },
  {
   "id": "BMTUSDT::LONG::ChoCh::1792492200000",
@@ -39333,5 +39339,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ENAUSDT::LONG::BoS::1792505700000",
+  "symbol": "ENAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1886,
+  "sl": 0.18259999999999998,
+  "tp": 0.2026,
+  "tpSrc": "WH",
+  "slPct": 3.18,
+  "gainPct": 7.42,
+  "rr": 2.33,
+  "lev": 18,
+  "signalTime": 1792505700000,
+  "status": "pending",
+  "createdAt": 1792505733087
  }
 ]
