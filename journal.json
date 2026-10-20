@@ -39242,5 +39242,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ERAUSDT::LONG::ChoCh::1792488600000",
+  "symbol": "ERAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0726,
+  "sl": 0.06555,
+  "tp": 0.0861,
+  "tpSrc": "WH",
+  "slPct": 9.71,
+  "gainPct": 18.6,
+  "rr": 1.91,
+  "lev": 6,
+  "signalTime": 1792488600000,
+  "status": "pending",
+  "createdAt": 1792488639876
  }
 ]
