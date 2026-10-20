@@ -39389,5 +39389,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "PUMPUSDT::LONG::BoS::1792526400000",
+  "symbol": "PUMPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.004691,
+  "sl": 0.00434,
+  "tp": 0.005085,
+  "tpSrc": "OB",
+  "slPct": 7.48,
+  "gainPct": 8.4,
+  "rr": 1.12,
+  "lev": 8,
+  "signalTime": 1792526400000,
+  "status": "pending",
+  "createdAt": 1792526445544
  }
 ]
