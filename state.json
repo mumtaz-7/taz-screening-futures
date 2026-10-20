@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ERAUSDT::LONG::BoS"
+    "ERAUSDT::LONG::BoS",
+    "IOSTUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-20T20:45:32.592Z"
+  "at": "2026-10-20T21:00:48.538Z"
 }
