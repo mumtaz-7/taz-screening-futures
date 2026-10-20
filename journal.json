@@ -39194,5 +39194,22 @@
   "status": "pending",
   "createdAt": 1792467931861,
   "notified": []
+ },
+ {
+  "id": "ZECUSDT::LONG::BoS::1792473300000",
+  "symbol": "ZECUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 1153.62,
+  "sl": 1131.285,
+  "tp": 1237.25,
+  "tpSrc": "OB",
+  "slPct": 1.94,
+  "gainPct": 7.25,
+  "rr": 3.74,
+  "lev": 25,
+  "signalTime": 1792473300000,
+  "status": "pending",
+  "createdAt": 1792473330802
  }
 ]
