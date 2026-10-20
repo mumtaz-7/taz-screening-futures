@@ -39456,5 +39456,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "ZROUSDT::LONG::ChoCh::1792532700000",
+  "symbol": "ZROUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1.992,
+  "sl": 1.8150000000000002,
+  "tp": 2.241,
+  "tpSrc": "OB",
+  "slPct": 8.89,
+  "gainPct": 12.5,
+  "rr": 1.41,
+  "lev": 7,
+  "signalTime": 1792532700000,
+  "status": "pending",
+  "createdAt": 1792532732276
  }
 ]
