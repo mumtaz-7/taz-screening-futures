@@ -39239,12 +39239,15 @@
   "rr": 1.44,
   "lev": 8,
   "signalTime": 1792483200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792483242563,
   "fillTime": 1792483200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792491300000
  },
  {
   "id": "ERAUSDT::LONG::ChoCh::1792488600000",
@@ -39284,5 +39287,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "BMTUSDT::LONG::ChoCh::1792492200000",
+  "symbol": "BMTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01781,
+  "sl": 0.01718,
+  "tp": 0.01965,
+  "tpSrc": "WH",
+  "slPct": 3.54,
+  "gainPct": 10.33,
+  "rr": 2.92,
+  "lev": 17,
+  "signalTime": 1792492200000,
+  "status": "pending",
+  "createdAt": 1792492237729
  }
 ]
