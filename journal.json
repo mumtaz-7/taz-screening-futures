@@ -39631,5 +39631,39 @@
   "status": "pending",
   "createdAt": 1792583131234,
   "notified": []
+ },
+ {
+  "id": "ATUSDT::LONG::BoS::1792585800000",
+  "symbol": "ATUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1432,
+  "sl": 0.133,
+  "tp": 0.1653,
+  "tpSrc": "WH",
+  "slPct": 7.12,
+  "gainPct": 15.43,
+  "rr": 2.17,
+  "lev": 8,
+  "signalTime": 1792585800000,
+  "status": "pending",
+  "createdAt": 1792585839664
+ },
+ {
+  "id": "ZROUSDT::LONG::ChoCh::1792585800000",
+  "symbol": "ZROUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 2.023,
+  "sl": 1.9674999999999998,
+  "tp": 2.241,
+  "tpSrc": "OB",
+  "slPct": 2.74,
+  "gainPct": 10.78,
+  "rr": 3.93,
+  "lev": 21,
+  "signalTime": 1792585800000,
+  "status": "pending",
+  "createdAt": 1792585839664
  }
 ]
