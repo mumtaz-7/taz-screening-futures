@@ -39428,12 +39428,15 @@
   "rr": 4.18,
   "lev": 15,
   "signalTime": 1792527300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792527333209,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792528200000
+  "fillTime": 1792528200000,
+  "R": -1,
+  "resolvedTime": 1792549800000
  },
  {
   "id": "IOSTUSDT::LONG::ChoCh::1792530000000",
