@@ -39631,9 +39631,12 @@
   "rr": 3.55,
   "lev": 11,
   "signalTime": 1792583100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792583131234,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ATUSDT::LONG::BoS::1792585800000",
