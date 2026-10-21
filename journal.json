@@ -39474,9 +39474,12 @@
   "rr": 1.41,
   "lev": 7,
   "signalTime": 1792532700000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792532732276,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ALTUSDT::LONG::ChoCh::1792540800000",
