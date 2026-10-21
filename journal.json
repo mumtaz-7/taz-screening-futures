@@ -39410,12 +39410,15 @@
   "rr": 1.12,
   "lev": 8,
   "signalTime": 1792526400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792526445544,
   "fillTime": 1792526400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.12,
+  "resolvedTime": 1792608300000
  },
  {
   "id": "ERAUSDT::LONG::BoS::1792527300000",
@@ -39743,8 +39746,28 @@
   "rr": 4.13,
   "lev": 15,
   "signalTime": 1792603800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792603837674,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792608300000
+ },
+ {
+  "id": "OPUSDT::LONG::BoS::1792609200000",
+  "symbol": "OPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1325,
+  "sl": 0.12560000000000002,
+  "tp": 0.1418,
+  "tpSrc": "OB",
+  "slPct": 5.21,
+  "gainPct": 7.02,
+  "rr": 1.35,
+  "lev": 12,
+  "signalTime": 1792609200000,
+  "status": "pending",
+  "createdAt": 1792609245532
  }
 ]
