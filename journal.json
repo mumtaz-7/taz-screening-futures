@@ -39495,12 +39495,15 @@
   "rr": 3.1,
   "lev": 17,
   "signalTime": 1792540800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792540853659,
   "fillTime": 1792540800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792582200000
  },
  {
   "id": "BMTUSDT::LONG::ChoCh::1792551600000",
@@ -39610,5 +39613,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1792579500000
+ },
+ {
+  "id": "PHAUSDT::LONG::ChoCh::1792583100000",
+  "symbol": "PHAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.058,
+  "sl": 0.0547,
+  "tp": 0.0697,
+  "tpSrc": "WH",
+  "slPct": 5.69,
+  "gainPct": 20.17,
+  "rr": 3.55,
+  "lev": 11,
+  "signalTime": 1792583100000,
+  "status": "pending",
+  "createdAt": 1792583131234
  }
 ]
