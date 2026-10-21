@@ -1,6 +1,7 @@
 {
   "ready": [
-    "CHIPUSDT::LONG::ChoCh"
+    "CHIPUSDT::LONG::ChoCh",
+    "ZROUSDT::LONG::BoS"
   ],
-  "at": "2026-10-21T06:30:37.072Z"
+  "at": "2026-10-21T06:45:31.339Z"
 }
