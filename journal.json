@@ -39585,12 +39585,15 @@
   "rr": 4.46,
   "lev": 11,
   "signalTime": 1792570500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792570532132,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792571400000
+  "fillTime": 1792571400000,
+  "R": -1,
+  "resolvedTime": 1792586700000
  },
  {
   "id": "MITOUSDT::SHORT::BoS::1792577700000",
@@ -39667,8 +39670,11 @@
   "rr": 3.93,
   "lev": 21,
   "signalTime": 1792585800000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792585839664,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792586700000
  }
 ]
