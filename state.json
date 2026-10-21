@@ -1,8 +1,6 @@
 {
   "ready": [
-    "ATUSDT::LONG::BoS",
-    "WUSDT::LONG::BoS",
-    "ZROUSDT::LONG::ChoCh"
+    "WUSDT::LONG::BoS"
   ],
-  "at": "2026-10-21T13:45:31.266Z"
+  "at": "2026-10-21T14:00:43.277Z"
 }
