@@ -39588,5 +39588,22 @@
    "open"
   ],
   "fillTime": 1792571400000
+ },
+ {
+  "id": "MITOUSDT::SHORT::BoS::1792577700000",
+  "symbol": "MITOUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.01304,
+  "sl": 0.013325,
+  "tp": 0.00979,
+  "tpSrc": "WL",
+  "slPct": 2.19,
+  "gainPct": 24.92,
+  "rr": 11.4,
+  "lev": 25,
+  "signalTime": 1792577700000,
+  "status": "pending",
+  "createdAt": 1792577730324
  }
 ]
