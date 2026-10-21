@@ -39342,12 +39342,15 @@
   "rr": 2.41,
   "lev": 17,
   "signalTime": 1792499400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792499439002,
   "fillTime": 1792499400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.41,
+  "resolvedTime": 1792606500000
  },
  {
   "id": "ENAUSDT::LONG::BoS::1792505700000",
@@ -39543,12 +39546,15 @@
   "rr": 1.42,
   "lev": 9,
   "signalTime": 1792561500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792561530581,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1792563300000
+  "fillTime": 1792563300000,
+  "R": 1.42,
+  "resolvedTime": 1792606500000
  },
  {
   "id": "ZROUSDT::LONG::BoS::1792565100000",
