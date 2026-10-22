@@ -39851,9 +39851,12 @@
   "rr": 2.93,
   "lev": 16,
   "signalTime": 1792636200000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792636238126,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "GTCUSDT::LONG::ChoCh::1792636200000",
