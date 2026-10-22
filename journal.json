@@ -39900,5 +39900,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1792655100000
+ },
+ {
+  "id": "LUMIAUSDT::SHORT::BoS::1792666800000",
+  "symbol": "LUMIAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0773,
+  "sl": 0.08375000000000002,
+  "tp": 0.0672,
+  "tpSrc": "WL",
+  "slPct": 8.34,
+  "gainPct": 13.07,
+  "rr": 1.57,
+  "lev": 7,
+  "signalTime": 1792666800000,
+  "status": "pending",
+  "createdAt": 1792666843995
  }
 ]
