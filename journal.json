@@ -40099,5 +40099,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "CHIPUSDT::SHORT::ChoCh::1792701900000",
+  "symbol": "CHIPUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.04349,
+  "sl": 0.04571,
+  "tp": 0.03907,
+  "tpSrc": "OB",
+  "slPct": 5.1,
+  "gainPct": 10.16,
+  "rr": 1.99,
+  "lev": 12,
+  "signalTime": 1792701900000,
+  "status": "pending",
+  "createdAt": 1792701930594
+ },
+ {
+  "id": "ERAUSDT::SHORT::BoS::1792701900000",
+  "symbol": "ERAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0663,
+  "sl": 0.06764999999999999,
+  "tp": 0.0595,
+  "tpSrc": "OB",
+  "slPct": 2.04,
+  "gainPct": 10.26,
+  "rr": 5.04,
+  "lev": 25,
+  "signalTime": 1792701900000,
+  "status": "pending",
+  "createdAt": 1792701930594
  }
 ]
