@@ -40078,5 +40078,22 @@
    "open"
   ],
   "fillTime": 1792689300000
+ },
+ {
+  "id": "AVAUSDT::LONG::BoS::1792700100000",
+  "symbol": "AVAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.365,
+  "sl": 0.33724999999999994,
+  "tp": 0.4007,
+  "tpSrc": "OB",
+  "slPct": 7.6,
+  "gainPct": 9.78,
+  "rr": 1.29,
+  "lev": 8,
+  "signalTime": 1792700100000,
+  "status": "pending",
+  "createdAt": 1792700131717
  }
 ]
