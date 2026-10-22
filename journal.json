@@ -39936,9 +39936,13 @@
   "rr": 1.39,
   "lev": 5,
   "signalTime": 1792671300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792671331675,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1792675800000
  },
  {
   "id": "ENAUSDT::LONG::BoS::1792672200000",
