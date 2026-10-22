@@ -39837,7 +39837,8 @@
   "lev": 16,
   "signalTime": 1792636200000,
   "status": "pending",
-  "createdAt": 1792636238126
+  "createdAt": 1792636238126,
+  "notified": []
  },
  {
   "id": "GTCUSDT::LONG::ChoCh::1792636200000",
@@ -39853,7 +39854,11 @@
   "rr": 3.14,
   "lev": 12,
   "signalTime": 1792636200000,
-  "status": "pending",
-  "createdAt": 1792636238126
+  "status": "open",
+  "createdAt": 1792636238126,
+  "fillTime": 1792636200000,
+  "notified": [
+   "open"
+  ]
  }
 ]
