@@ -39818,9 +39818,12 @@
   "rr": 1.94,
   "lev": 7,
   "signalTime": 1792629000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792629036247,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792639800000
  },
  {
   "id": "COMPUSDT::SHORT::BoS::1792636200000",
