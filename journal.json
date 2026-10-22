@@ -40003,5 +40003,22 @@
    "open"
   ],
   "fillTime": 1792680300000
+ },
+ {
+  "id": "CHIPUSDT::SHORT::BoS::1792683000000",
+  "symbol": "CHIPUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.04314,
+  "sl": 0.044805,
+  "tp": 0.03907,
+  "tpSrc": "OB",
+  "slPct": 3.86,
+  "gainPct": 9.43,
+  "rr": 2.44,
+  "lev": 15,
+  "signalTime": 1792683000000,
+  "status": "pending",
+  "createdAt": 1792683037550
  }
 ]
