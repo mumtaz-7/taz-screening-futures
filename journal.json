@@ -37123,12 +37123,15 @@
   "rr": 2.22,
   "lev": 7,
   "signalTime": 1792021500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792021532285,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792022400000
+  "fillTime": 1792022400000,
+  "R": -1,
+  "resolvedTime": 1792632600000
  },
  {
   "id": "BATUSDT::LONG::ChoCh::1792023300000",
