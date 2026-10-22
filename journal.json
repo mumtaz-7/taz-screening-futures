@@ -40027,12 +40027,15 @@
   "rr": 2.44,
   "lev": 15,
   "signalTime": 1792683000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792683037550,
   "fillTime": 1792683000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792696500000
  },
  {
   "id": "DASHUSDT::LONG::BoS::1792687500000",
