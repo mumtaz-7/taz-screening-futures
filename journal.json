@@ -39985,9 +39985,12 @@
   "rr": 8.28,
   "lev": 14,
   "signalTime": 1792674000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792674046882,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "CRVUSDT::SHORT::ChoCh::1792677600000",
