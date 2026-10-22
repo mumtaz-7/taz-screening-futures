@@ -1,4 +1,7 @@
 {
-  "ready": [],
-  "at": "2026-10-22T02:15:30.564Z"
+  "ready": [
+    "COMPUSDT::SHORT::BoS",
+    "GTCUSDT::LONG::ChoCh"
+  ],
+  "at": "2026-10-22T02:30:38.124Z"
 }

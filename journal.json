@@ -39776,12 +39776,15 @@
   "rr": 1.35,
   "lev": 12,
   "signalTime": 1792609200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792609245532,
   "fillTime": 1792609200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792635300000
  },
  {
   "id": "MITOUSDT::SHORT::ChoCh::1792622700000",
@@ -39818,5 +39821,39 @@
   "status": "pending",
   "createdAt": 1792629036247,
   "notified": []
+ },
+ {
+  "id": "COMPUSDT::SHORT::BoS::1792636200000",
+  "symbol": "COMPUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 25.51,
+  "sl": 26.455,
+  "tp": 22.74,
+  "tpSrc": "OB",
+  "slPct": 3.7,
+  "gainPct": 10.86,
+  "rr": 2.93,
+  "lev": 16,
+  "signalTime": 1792636200000,
+  "status": "pending",
+  "createdAt": 1792636238126
+ },
+ {
+  "id": "GTCUSDT::LONG::ChoCh::1792636200000",
+  "symbol": "GTCUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.2733,
+  "sl": 0.26007,
+  "tp": 0.31488,
+  "tpSrc": "EQ",
+  "slPct": 4.84,
+  "gainPct": 15.21,
+  "rr": 3.14,
+  "lev": 12,
+  "signalTime": 1792636200000,
+  "status": "pending",
+  "createdAt": 1792636238126
  }
 ]
