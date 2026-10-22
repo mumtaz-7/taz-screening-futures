@@ -40153,7 +40153,28 @@
   "rr": 2.56,
   "lev": 17,
   "signalTime": 1792707300000,
+  "status": "open",
+  "createdAt": 1792707331119,
+  "fillTime": 1792707300000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "CRVUSDT::SHORT::BoS::1792708200000",
+  "symbol": "CRVUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.3635,
+  "sl": 0.37295,
+  "tp": 0.3321,
+  "tpSrc": "OB",
+  "slPct": 2.6,
+  "gainPct": 8.64,
+  "rr": 3.32,
+  "lev": 22,
+  "signalTime": 1792708200000,
   "status": "pending",
-  "createdAt": 1792707331119
+  "createdAt": 1792708237559
  }
 ]

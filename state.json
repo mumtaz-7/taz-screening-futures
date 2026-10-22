@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ARKMUSDT::LONG::ChoCh"
+    "ARKMUSDT::LONG::ChoCh",
+    "CRVUSDT::SHORT::BoS"
   ],
-  "at": "2026-10-22T22:15:31.118Z"
+  "at": "2026-10-22T22:30:37.558Z"
 }
