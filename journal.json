@@ -39958,12 +39958,15 @@
   "rr": 7.39,
   "lev": 25,
   "signalTime": 1792672200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792672241285,
   "fillTime": 1792672200000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792687500000
  },
  {
   "id": "GTCUSDT::LONG::BoS::1792674000000",
@@ -40039,7 +40042,28 @@
   "rr": 2.35,
   "lev": 19,
   "signalTime": 1792687500000,
+  "status": "open",
+  "createdAt": 1792687529713,
+  "fillTime": 1792687500000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "RAYUSDT::SHORT::BoS::1792688400000",
+  "symbol": "RAYUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 1.858,
+  "sl": 1.88635,
+  "tp": 1.7256,
+  "tpSrc": "OB",
+  "slPct": 1.53,
+  "gainPct": 7.13,
+  "rr": 4.67,
+  "lev": 25,
+  "signalTime": 1792688400000,
   "status": "pending",
-  "createdAt": 1792687529713
+  "createdAt": 1792688448818
  }
 ]
