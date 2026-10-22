@@ -36325,7 +36325,7 @@
   "rr": 2.12,
   "lev": 6,
   "signalTime": 1791875700000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1791875733671,
   "notified": [
    "open"
@@ -39872,5 +39872,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ALTUSDT::SHORT::BoS::1792653300000",
+  "symbol": "ALTUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.01175,
+  "sl": 0.01304,
+  "tp": 0.00909,
+  "tpSrc": "OB",
+  "slPct": 10.98,
+  "gainPct": 22.64,
+  "rr": 2.06,
+  "lev": 5,
+  "signalTime": 1792653300000,
+  "status": "pending",
+  "createdAt": 1792653332560
  }
 ]
