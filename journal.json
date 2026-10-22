@@ -40138,5 +40138,22 @@
   "status": "pending",
   "createdAt": 1792701930594,
   "notified": []
+ },
+ {
+  "id": "ARKMUSDT::LONG::ChoCh::1792707300000",
+  "symbol": "ARKMUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1327,
+  "sl": 0.1282,
+  "tp": 0.1442,
+  "tpSrc": "WH",
+  "slPct": 3.39,
+  "gainPct": 8.67,
+  "rr": 2.56,
+  "lev": 17,
+  "signalTime": 1792707300000,
+  "status": "pending",
+  "createdAt": 1792707331119
  }
 ]
