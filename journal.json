@@ -40099,12 +40099,15 @@
   "rr": 1.29,
   "lev": 8,
   "signalTime": 1792700100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792700131717,
   "fillTime": 1792700100000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.29,
+  "resolvedTime": 1792765800000
  },
  {
   "id": "CHIPUSDT::SHORT::ChoCh::1792701900000",
