@@ -40051,12 +40051,15 @@
   "rr": 2.35,
   "lev": 19,
   "signalTime": 1792687500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792687529713,
   "fillTime": 1792687500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.35,
+  "resolvedTime": 1792714500000
  },
  {
   "id": "RAYUSDT::SHORT::BoS::1792688400000",
