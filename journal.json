@@ -40237,9 +40237,12 @@
   "rr": 1.67,
   "lev": 13,
   "signalTime": 1792720800000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792720842307,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "BMTUSDT::LONG::ChoCh::1792721700000",
