@@ -39092,12 +39092,15 @@
   "rr": 2.07,
   "lev": 14,
   "signalTime": 1792442700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792442731100,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1792458000000
+  "fillTime": 1792458000000,
+  "R": 2.07,
+  "resolvedTime": 1792768500000
  },
  {
   "id": "QNTUSDT::LONG::ChoCh::1792447200000",
