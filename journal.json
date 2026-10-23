@@ -40425,5 +40425,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1792749600000
+ },
+ {
+  "id": "CHIPUSDT::SHORT::ChoCh::1792761300000",
+  "symbol": "CHIPUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.04435,
+  "sl": 0.0475,
+  "tp": 0.03907,
+  "tpSrc": "OB",
+  "slPct": 7.1,
+  "gainPct": 11.91,
+  "rr": 1.68,
+  "lev": 8,
+  "signalTime": 1792761300000,
+  "status": "pending",
+  "createdAt": 1792761331732
  }
 ]
