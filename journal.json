@@ -40394,5 +40394,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "PEPEUSDT::LONG::BoS::1792746900000",
+  "symbol": "PEPEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00000465,
+  "sl": 0.000004395,
+  "tp": 0.00000498,
+  "tpSrc": "WH",
+  "slPct": 5.48,
+  "gainPct": 7.1,
+  "rr": 1.29,
+  "lev": 11,
+  "signalTime": 1792746900000,
+  "status": "pending",
+  "createdAt": 1792746931285
  }
 ]
