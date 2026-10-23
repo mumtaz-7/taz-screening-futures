@@ -40204,11 +40204,14 @@
   "rr": 4.22,
   "lev": 25,
   "signalTime": 1792713600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792713646311,
   "fillTime": 1792713600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792716300000
  }
 ]
