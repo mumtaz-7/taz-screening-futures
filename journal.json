@@ -40367,9 +40367,12 @@
   "rr": 19.57,
   "lev": 19,
   "signalTime": 1792736100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792736130196,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792745100000
  },
  {
   "id": "IOSTUSDT::LONG::BoS::1792741500000",
