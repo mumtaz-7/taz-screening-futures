@@ -40475,5 +40475,22 @@
   "notified": [
    "loss"
   ]
+ },
+ {
+  "id": "牛来USDT::SHORT::ChoCh::1792786500000",
+  "symbol": "牛来USDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.05937,
+  "sl": 0.061739999999999996,
+  "tp": 0.05399,
+  "tpSrc": "WL",
+  "slPct": 3.99,
+  "gainPct": 9.06,
+  "rr": 2.27,
+  "lev": 15,
+  "signalTime": 1792786500000,
+  "status": "pending",
+  "createdAt": 1792786530675
  }
 ]
