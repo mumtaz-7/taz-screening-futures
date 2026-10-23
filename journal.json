@@ -40075,12 +40075,15 @@
   "rr": 4.67,
   "lev": 25,
   "signalTime": 1792688400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792688448818,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792689300000
+  "fillTime": 1792689300000,
+  "R": -1,
+  "resolvedTime": 1792727100000
  },
  {
   "id": "AVAUSDT::LONG::BoS::1792700100000",
