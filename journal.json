@@ -40493,9 +40493,13 @@
   "rr": 2.27,
   "lev": 15,
   "signalTime": 1792786500000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792786530675,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1792798200000
  },
  {
   "id": "ERAUSDT::LONG::BoS::1792787400000",
