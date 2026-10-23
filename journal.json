@@ -40120,12 +40120,15 @@
   "rr": 1.99,
   "lev": 12,
   "signalTime": 1792701900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792701930594,
   "fillTime": 1792701900000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792736100000
  },
  {
   "id": "ERAUSDT::SHORT::BoS::1792701900000",
@@ -40359,6 +40362,7 @@
   "lev": 19,
   "signalTime": 1792736100000,
   "status": "pending",
-  "createdAt": 1792736130196
+  "createdAt": 1792736130196,
+  "notified": []
  }
 ]
