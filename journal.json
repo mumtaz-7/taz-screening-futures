@@ -40271,6 +40271,24 @@
   "lev": 25,
   "signalTime": 1792722600000,
   "status": "pending",
-  "createdAt": 1792722637829
+  "createdAt": 1792722637829,
+  "notified": []
+ },
+ {
+  "id": "ZECUSDT::LONG::ChoCh::1792723500000",
+  "symbol": "ZECUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 1226.25,
+  "sl": 1192.4850000000001,
+  "tp": 1368.4,
+  "tpSrc": "WH",
+  "slPct": 2.75,
+  "gainPct": 11.59,
+  "rr": 4.21,
+  "lev": 21,
+  "signalTime": 1792723500000,
+  "status": "pending",
+  "createdAt": 1792723530154
  }
 ]
