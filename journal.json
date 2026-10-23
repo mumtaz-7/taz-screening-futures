@@ -40249,12 +40249,15 @@
   "rr": 1.51,
   "lev": 10,
   "signalTime": 1792721700000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792721730038,
   "fillTime": 1792721700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.51,
+  "resolvedTime": 1792724400000
  },
  {
   "id": "RUNEUSDT::LONG::BoS::1792722600000",
