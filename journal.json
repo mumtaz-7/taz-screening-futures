@@ -40367,5 +40367,22 @@
   "status": "pending",
   "createdAt": 1792736130196,
   "notified": []
+ },
+ {
+  "id": "IOSTUSDT::LONG::BoS::1792741500000",
+  "symbol": "IOSTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.000842,
+  "sl": 0.000809,
+  "tp": 0.001908,
+  "tpSrc": "WH",
+  "slPct": 3.92,
+  "gainPct": 126.6,
+  "rr": 32.3,
+  "lev": 15,
+  "signalTime": 1792741500000,
+  "status": "pending",
+  "createdAt": 1792741530964
  }
 ]
