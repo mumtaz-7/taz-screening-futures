@@ -40180,5 +40180,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ZAMAUSDT::SHORT::BoS::1792713600000",
+  "symbol": "ZAMAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.07305,
+  "sl": 0.074415,
+  "tp": 0.06729,
+  "tpSrc": "OB",
+  "slPct": 1.87,
+  "gainPct": 7.89,
+  "rr": 4.22,
+  "lev": 25,
+  "signalTime": 1792713600000,
+  "status": "pending",
+  "createdAt": 1792713646311
  }
 ]
