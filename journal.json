@@ -40388,12 +40388,15 @@
   "rr": 32.3,
   "lev": 15,
   "signalTime": 1792741500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792741530964,
   "fillTime": 1792741500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792746900000
  },
  {
   "id": "PEPEUSDT::LONG::BoS::1792746900000",
@@ -40410,6 +40413,7 @@
   "lev": 11,
   "signalTime": 1792746900000,
   "status": "pending",
-  "createdAt": 1792746931285
+  "createdAt": 1792746931285,
+  "notified": []
  }
 ]
