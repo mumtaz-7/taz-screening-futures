@@ -40249,7 +40249,28 @@
   "rr": 1.51,
   "lev": 10,
   "signalTime": 1792721700000,
+  "status": "open",
+  "createdAt": 1792721730038,
+  "fillTime": 1792721700000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "RUNEUSDT::LONG::BoS::1792722600000",
+  "symbol": "RUNEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.644,
+  "sl": 0.635,
+  "tp": 0.712,
+  "tpSrc": "WH",
+  "slPct": 1.4,
+  "gainPct": 10.56,
+  "rr": 7.56,
+  "lev": 25,
+  "signalTime": 1792722600000,
   "status": "pending",
-  "createdAt": 1792721730038
+  "createdAt": 1792722637829
  }
 ]
