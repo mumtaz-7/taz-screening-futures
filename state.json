@@ -1,6 +1,7 @@
 {
   "ready": [
-    "AIUSDT::LONG::ChoCh"
+    "AVAUSDT::LONG::BoS",
+    "BMTUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-23T02:00:42.306Z"
+  "at": "2026-10-23T02:15:30.037Z"
 }
