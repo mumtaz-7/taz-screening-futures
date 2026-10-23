@@ -40452,5 +40452,22 @@
    "open"
   ],
   "fillTime": 1792762200000
+ },
+ {
+  "id": "INITUSDT::SHORT::ChoCh::1792773000000",
+  "symbol": "INITUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.13316,
+  "sl": 0.13650500000000002,
+  "tp": 0.11337,
+  "tpSrc": "WL",
+  "slPct": 2.51,
+  "gainPct": 14.86,
+  "rr": 5.92,
+  "lev": 23,
+  "signalTime": 1792773000000,
+  "status": "pending",
+  "createdAt": 1792773043663
  }
 ]
