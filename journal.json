@@ -40514,5 +40514,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "INITUSDT::SHORT::BoS::1792793700000",
+  "symbol": "INITUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.14703,
+  "sl": 0.15903,
+  "tp": 0.11337,
+  "tpSrc": "WL",
+  "slPct": 8.16,
+  "gainPct": 22.89,
+  "rr": 2.8,
+  "lev": 7,
+  "signalTime": 1792793700000,
+  "status": "pending",
+  "createdAt": 1792793729629
  }
 ]
