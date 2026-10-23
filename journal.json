@@ -40322,5 +40322,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1792728000000
+ },
+ {
+  "id": "ARKMUSDT::LONG::ChoCh::1792732500000",
+  "symbol": "ARKMUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1297,
+  "sl": 0.12579999999999997,
+  "tp": 0.1442,
+  "tpSrc": "WH",
+  "slPct": 3.01,
+  "gainPct": 11.18,
+  "rr": 3.72,
+  "lev": 19,
+  "signalTime": 1792732500000,
+  "status": "pending",
+  "createdAt": 1792732530295
  }
 ]
