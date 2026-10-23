@@ -40135,9 +40135,12 @@
   "rr": 5.04,
   "lev": 25,
   "signalTime": 1792701900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792701930594,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792713600000
  },
  {
   "id": "ARKMUSDT::LONG::ChoCh::1792707300000",
@@ -40195,7 +40198,11 @@
   "rr": 4.22,
   "lev": 25,
   "signalTime": 1792713600000,
-  "status": "pending",
-  "createdAt": 1792713646311
+  "status": "open",
+  "createdAt": 1792713646311,
+  "fillTime": 1792713600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
