@@ -40138,12 +40138,15 @@
   "rr": 5.04,
   "lev": 25,
   "signalTime": 1792701900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792701930594,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792713600000
+  "fillTime": 1792713600000,
+  "R": -1,
+  "resolvedTime": 1792715400000
  },
  {
   "id": "ARKMUSDT::LONG::ChoCh::1792707300000",
