@@ -40515,12 +40515,15 @@
   "rr": 1.63,
   "lev": 6,
   "signalTime": 1792787400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792787438913,
   "fillTime": 1792787400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.63,
+  "resolvedTime": 1792802700000
  },
  {
   "id": "INITUSDT::SHORT::BoS::1792793700000",
@@ -40563,5 +40566,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ERAUSDT::LONG::ChoCh::1792803600000",
+  "symbol": "ERAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0823,
+  "sl": 0.07569999999999999,
+  "tp": 0.0912,
+  "tpSrc": "WH",
+  "slPct": 8.02,
+  "gainPct": 10.81,
+  "rr": 1.35,
+  "lev": 7,
+  "signalTime": 1792803600000,
+  "status": "pending",
+  "createdAt": 1792803643606
  }
 ]

@@ -1,6 +1,7 @@
 {
   "ready": [
-    "BMTUSDT::LONG::ChoCh"
+    "BMTUSDT::LONG::ChoCh",
+    "ERAUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-24T00:45:31.890Z"
+  "at": "2026-10-24T01:00:43.605Z"
 }
