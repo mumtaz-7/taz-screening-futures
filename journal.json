@@ -40742,5 +40742,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "GTCUSDT::SHORT::BoS::1792835100000",
+  "symbol": "GTCUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.26,
+  "sl": 0.269645,
+  "tp": 0.229,
+  "tpSrc": "OB",
+  "slPct": 3.71,
+  "gainPct": 11.92,
+  "rr": 3.21,
+  "lev": 16,
+  "signalTime": 1792835100000,
+  "status": "pending",
+  "createdAt": 1792835133711
  }
 ]
