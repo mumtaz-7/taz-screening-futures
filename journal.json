@@ -40790,5 +40790,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ARKMUSDT::SHORT::ChoCh::1792846800000",
+  "symbol": "ARKMUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.1269,
+  "sl": 0.1305,
+  "tp": 0.1157,
+  "tpSrc": "OB",
+  "slPct": 2.84,
+  "gainPct": 8.83,
+  "rr": 3.11,
+  "lev": 21,
+  "signalTime": 1792846800000,
+  "status": "pending",
+  "createdAt": 1792846845783
  }
 ]
