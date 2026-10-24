@@ -40721,5 +40721,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ZKCUSDT::LONG::BoS::1792832400000",
+  "symbol": "ZKCUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0364,
+  "sl": 0.034300000000000004,
+  "tp": 0.0393,
+  "tpSrc": "WH",
+  "slPct": 5.77,
+  "gainPct": 7.97,
+  "rr": 1.38,
+  "lev": 10,
+  "signalTime": 1792832400000,
+  "status": "pending",
+  "createdAt": 1792832442078
  }
 ]
