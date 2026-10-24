@@ -40588,5 +40588,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "BMTUSDT::LONG::BoS::1792806300000",
+  "symbol": "BMTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.02301,
+  "sl": 0.021435000000000003,
+  "tp": 0.03015,
+  "tpSrc": "WH",
+  "slPct": 6.84,
+  "gainPct": 31.03,
+  "rr": 4.53,
+  "lev": 9,
+  "signalTime": 1792806300000,
+  "status": "pending",
+  "createdAt": 1792806331694
  }
 ]
