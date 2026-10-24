@@ -40670,12 +40670,15 @@
   "rr": 3.18,
   "lev": 14,
   "signalTime": 1792812600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792812636246,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792813500000
+  "fillTime": 1792813500000,
+  "R": -1,
+  "resolvedTime": 1792826100000
  },
  {
   "id": "IOSTUSDT::LONG::BoS::1792823400000",
@@ -40694,5 +40697,22 @@
   "status": "pending",
   "createdAt": 1792823437832,
   "notified": []
+ },
+ {
+  "id": "LUMIAUSDT::LONG::BoS::1792827000000",
+  "symbol": "LUMIAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0776,
+  "sl": 0.0716,
+  "tp": 0.0973,
+  "tpSrc": "OB",
+  "slPct": 7.73,
+  "gainPct": 25.39,
+  "rr": 3.28,
+  "lev": 8,
+  "signalTime": 1792827000000,
+  "status": "pending",
+  "createdAt": 1792827038413
  }
 ]

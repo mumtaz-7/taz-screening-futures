@@ -1,6 +1,7 @@
 {
   "ready": [
-    "IOSTUSDT::LONG::BoS"
+    "IOSTUSDT::LONG::BoS",
+    "LUMIAUSDT::LONG::BoS"
   ],
-  "at": "2026-10-24T07:15:29.755Z"
+  "at": "2026-10-24T07:30:38.412Z"
 }
