@@ -40763,9 +40763,12 @@
   "rr": 3.21,
   "lev": 16,
   "signalTime": 1792835100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792835133711,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792844100000
  },
  {
   "id": "KATUSDT::LONG::ChoCh::1792842300000",
