@@ -40838,5 +40838,22 @@
   "status": "pending",
   "createdAt": 1792866637994,
   "notified": []
+ },
+ {
+  "id": "ARKUSDT::LONG::ChoCh::1792868400000",
+  "symbol": "ARKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1837,
+  "sl": 0.1789,
+  "tp": 0.2082,
+  "tpSrc": "EQ",
+  "slPct": 2.61,
+  "gainPct": 13.34,
+  "rr": 5.1,
+  "lev": 22,
+  "signalTime": 1792868400000,
+  "status": "pending",
+  "createdAt": 1792868442479
  }
 ]
