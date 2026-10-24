@@ -1,7 +1,8 @@
 {
   "ready": [
     "CRVUSDT::LONG::ChoCh",
+    "ENAUSDT::LONG::BoS",
     "IOSTUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-24T03:15:31.202Z"
+  "at": "2026-10-24T03:30:36.245Z"
 }

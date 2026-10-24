@@ -40628,9 +40628,12 @@
   "rr": 17.14,
   "lev": 14,
   "signalTime": 1792808100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792808129533,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792811700000
  },
  {
   "id": "CRVUSDT::LONG::ChoCh::1792811700000",
@@ -40647,6 +40650,24 @@
   "lev": 25,
   "signalTime": 1792811700000,
   "status": "pending",
-  "createdAt": 1792811731203
+  "createdAt": 1792811731203,
+  "notified": []
+ },
+ {
+  "id": "ENAUSDT::LONG::BoS::1792812600000",
+  "symbol": "ENAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1998,
+  "sl": 0.19155,
+  "tp": 0.226,
+  "tpSrc": "WH",
+  "slPct": 4.13,
+  "gainPct": 13.11,
+  "rr": 3.18,
+  "lev": 14,
+  "signalTime": 1792812600000,
+  "status": "pending",
+  "createdAt": 1792812636246
  }
 ]
