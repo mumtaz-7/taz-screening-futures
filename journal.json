@@ -40606,9 +40606,13 @@
   "rr": 4.53,
   "lev": 9,
   "signalTime": 1792806300000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792806331694,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1792809000000
  },
  {
   "id": "IOSTUSDT::LONG::ChoCh::1792808100000",
