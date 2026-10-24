@@ -40697,9 +40697,12 @@
   "rr": 69.94,
   "lev": 25,
   "signalTime": 1792823400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792823437832,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792835100000
  },
  {
   "id": "LUMIAUSDT::LONG::BoS::1792827000000",
@@ -40758,6 +40761,7 @@
   "lev": 16,
   "signalTime": 1792835100000,
   "status": "pending",
-  "createdAt": 1792835133711
+  "createdAt": 1792835133711,
+  "notified": []
  }
 ]
