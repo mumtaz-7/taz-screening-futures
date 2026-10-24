@@ -40652,12 +40652,15 @@
   "rr": 6.45,
   "lev": 25,
   "signalTime": 1792811700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792811731203,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792814400000
+  "fillTime": 1792814400000,
+  "R": -1,
+  "resolvedTime": 1792851300000
  },
  {
   "id": "ENAUSDT::LONG::BoS::1792812600000",
@@ -40697,12 +40700,15 @@
   "rr": 69.94,
   "lev": 25,
   "signalTime": 1792823400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792823437832,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792835100000
+  "fillTime": 1792835100000,
+  "R": -1,
+  "resolvedTime": 1792851300000
  },
  {
   "id": "LUMIAUSDT::LONG::BoS::1792827000000",
@@ -40763,12 +40769,15 @@
   "rr": 3.21,
   "lev": 16,
   "signalTime": 1792835100000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792835133711,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792844100000
+  "fillTime": 1792844100000,
+  "R": -1,
+  "resolvedTime": 1792851300000
  },
  {
   "id": "KATUSDT::LONG::ChoCh::1792842300000",
