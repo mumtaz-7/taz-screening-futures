@@ -40676,5 +40676,22 @@
    "open"
   ],
   "fillTime": 1792813500000
+ },
+ {
+  "id": "IOSTUSDT::LONG::BoS::1792823400000",
+  "symbol": "IOSTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.000754,
+  "sl": 0.0007374999999999999,
+  "tp": 0.001908,
+  "tpSrc": "WH",
+  "slPct": 2.19,
+  "gainPct": 153.05,
+  "rr": 69.94,
+  "lev": 25,
+  "signalTime": 1792823400000,
+  "status": "pending",
+  "createdAt": 1792823437832
  }
 ]
