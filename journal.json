@@ -40739,12 +40739,15 @@
   "rr": 1.38,
   "lev": 10,
   "signalTime": 1792832400000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792832442078,
   "fillTime": 1792832400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.38,
+  "resolvedTime": 1792841400000
  },
  {
   "id": "GTCUSDT::SHORT::BoS::1792835100000",
@@ -40763,5 +40766,22 @@
   "status": "pending",
   "createdAt": 1792835133711,
   "notified": []
+ },
+ {
+  "id": "KATUSDT::LONG::ChoCh::1792842300000",
+  "symbol": "KATUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00494,
+  "sl": 0.003994999999999999,
+  "tp": 0.00636,
+  "tpSrc": "WH",
+  "slPct": 19.13,
+  "gainPct": 28.74,
+  "rr": 1.5,
+  "lev": 3,
+  "signalTime": 1792842300000,
+  "status": "pending",
+  "createdAt": 1792842332226
  }
 ]
