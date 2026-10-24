@@ -40542,12 +40542,15 @@
   "rr": 2.8,
   "lev": 7,
   "signalTime": 1792793700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792793729629,
   "fillTime": 1792793700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792877400000
  },
  {
   "id": "BMTUSDT::LONG::ChoCh::1792800900000",
