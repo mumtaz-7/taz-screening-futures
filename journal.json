@@ -40856,12 +40856,15 @@
   "rr": 5.1,
   "lev": 22,
   "signalTime": 1792868400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792868442479,
   "fillTime": 1792868400000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792880100000
  },
  {
   "id": "AVAUSDT::LONG::ChoCh::1792876500000",
@@ -40880,5 +40883,22 @@
   "status": "pending",
   "createdAt": 1792876536133,
   "notified": []
+ },
+ {
+  "id": "BMTUSDT::LONG::ChoCh::1792881000000",
+  "symbol": "BMTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.03972,
+  "sl": 0.036435,
+  "tp": 0.05144,
+  "tpSrc": "WH",
+  "slPct": 8.27,
+  "gainPct": 29.51,
+  "rr": 3.57,
+  "lev": 7,
+  "signalTime": 1792881000000,
+  "status": "pending",
+  "createdAt": 1792881039857
  }
 ]
