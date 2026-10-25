@@ -40953,5 +40953,22 @@
   "status": "pending",
   "createdAt": 1792890044813,
   "notified": []
+ },
+ {
+  "id": "REZUSDT::LONG::ChoCh::1792900800000",
+  "symbol": "REZUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.004261,
+  "sl": 0.004098999999999999,
+  "tp": 0.004745,
+  "tpSrc": "WH",
+  "slPct": 3.8,
+  "gainPct": 11.36,
+  "rr": 2.99,
+  "lev": 16,
+  "signalTime": 1792900800000,
+  "status": "pending",
+  "createdAt": 1792900844055
  }
 ]
