@@ -40995,5 +40995,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "IOSTUSDT::LONG::BoS::1792905300000",
+  "symbol": "IOSTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.000791,
+  "sl": 0.0007235,
+  "tp": 0.000893,
+  "tpSrc": "WH",
+  "slPct": 8.53,
+  "gainPct": 12.9,
+  "rr": 1.51,
+  "lev": 7,
+  "signalTime": 1792905300000,
+  "status": "pending",
+  "createdAt": 1792905331303
  }
 ]
