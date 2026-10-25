@@ -40995,12 +40995,15 @@
   "rr": 8.59,
   "lev": 14,
   "signalTime": 1792902600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792902638284,
   "fillTime": 1792902600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792916100000
  },
  {
   "id": "IOSTUSDT::LONG::BoS::1792905300000",
