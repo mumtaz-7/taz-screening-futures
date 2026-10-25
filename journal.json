@@ -41010,7 +41010,12 @@
   "rr": 1.51,
   "lev": 7,
   "signalTime": 1792905300000,
-  "status": "pending",
-  "createdAt": 1792905331303
+  "status": "void",
+  "createdAt": 1792905331303,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1792905300000,
+  "notified": [
+   "void"
+  ]
  }
 ]
