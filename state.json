@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ARKUSDT::LONG::ChoCh"
+    "ARKUSDT::LONG::ChoCh",
+    "LUMIAUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-25T00:45:32.239Z"
+  "at": "2026-10-25T01:00:44.812Z"
 }
