@@ -38227,7 +38227,7 @@
   "rr": 1.62,
   "lev": 10,
   "signalTime": 1792170000000,
-  "status": "open",
+  "status": "expired",
   "createdAt": 1792170045105,
   "notified": [
    "open"
@@ -41129,6 +41129,7 @@
   "lev": 8,
   "signalTime": 1792946700000,
   "status": "pending",
-  "createdAt": 1792946729608
+  "createdAt": 1792946729608,
+  "notified": []
  }
 ]
