@@ -41020,5 +41020,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "XECUSDT::LONG::BoS::1792913400000",
+  "symbol": "XECUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00000688,
+  "sl": 0.0000064,
+  "tp": 0.000008,
+  "tpSrc": "WH",
+  "slPct": 6.98,
+  "gainPct": 16.28,
+  "rr": 2.33,
+  "lev": 9,
+  "signalTime": 1792913400000,
+  "status": "pending",
+  "createdAt": 1792913443627
  }
 ]
