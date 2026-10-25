@@ -41044,5 +41044,22 @@
   "status": "pending",
   "createdAt": 1792913443627,
   "notified": []
+ },
+ {
+  "id": "BMTUSDT::SHORT::ChoCh::1792924200000",
+  "symbol": "BMTUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.03095,
+  "sl": 0.037565,
+  "tp": 0.02269,
+  "tpSrc": "OB",
+  "slPct": 21.37,
+  "gainPct": 26.69,
+  "rr": 1.25,
+  "lev": 3,
+  "signalTime": 1792924200000,
+  "status": "pending",
+  "createdAt": 1792924237388
  }
 ]
