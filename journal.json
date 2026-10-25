@@ -41041,9 +41041,12 @@
   "rr": 2.33,
   "lev": 9,
   "signalTime": 1792913400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792913443627,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792925100000
  },
  {
   "id": "BMTUSDT::SHORT::ChoCh::1792924200000",
