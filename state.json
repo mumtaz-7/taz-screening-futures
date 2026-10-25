@@ -1,7 +1,8 @@
 {
   "ready": [
     "ANIMEUSDT::LONG::BoS",
+    "LUMIAUSDT::LONG::BoS",
     "REZUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-25T04:30:38.283Z"
+  "at": "2026-10-25T04:45:31.115Z"
 }
