@@ -40838,9 +40838,12 @@
   "rr": 2.08,
   "lev": 10,
   "signalTime": 1792866600000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1792866637994,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "ARKUSDT::LONG::ChoCh::1792868400000",
@@ -40907,5 +40910,22 @@
   ],
   "R": -1,
   "resolvedTime": 1792886400000
+ },
+ {
+  "id": "ARKUSDT::LONG::ChoCh::1792889100000",
+  "symbol": "ARKUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.1851,
+  "sl": 0.1743,
+  "tp": 0.2082,
+  "tpSrc": "EQ",
+  "slPct": 5.83,
+  "gainPct": 12.48,
+  "rr": 2.14,
+  "lev": 10,
+  "signalTime": 1792889100000,
+  "status": "pending",
+  "createdAt": 1792889132257
  }
 ]
