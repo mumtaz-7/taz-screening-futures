@@ -41137,5 +41137,22 @@
    "open"
   ],
   "fillTime": 1792949400000
+ },
+ {
+  "id": "STEEMUSDT::LONG::ChoCh::1792962900000",
+  "symbol": "STEEMUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.04979,
+  "sl": 0.047165,
+  "tp": 0.0586,
+  "tpSrc": "EQ",
+  "slPct": 5.27,
+  "gainPct": 17.69,
+  "rr": 3.36,
+  "lev": 11,
+  "signalTime": 1792962900000,
+  "status": "pending",
+  "createdAt": 1792962930064
  }
 ]
