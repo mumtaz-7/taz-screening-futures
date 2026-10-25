@@ -41062,8 +41062,28 @@
   "rr": 1.25,
   "lev": 3,
   "signalTime": 1792924200000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792924237388,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792935900000
+ },
+ {
+  "id": "INITUSDT::LONG::BoS::1792936800000",
+  "symbol": "INITUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1523,
+  "sl": 0.14573,
+  "tp": 0.168,
+  "tpSrc": "WH",
+  "slPct": 4.31,
+  "gainPct": 10.31,
+  "rr": 2.39,
+  "lev": 14,
+  "signalTime": 1792936800000,
+  "status": "pending",
+  "createdAt": 1792936841252
  }
 ]
