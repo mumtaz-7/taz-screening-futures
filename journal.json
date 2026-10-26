@@ -41304,5 +41304,39 @@
   "status": "pending",
   "createdAt": 1793007037951,
   "notified": []
+ },
+ {
+  "id": "COMPUSDT::LONG::ChoCh::1793027700000",
+  "symbol": "COMPUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 21.12,
+  "sl": 20.535,
+  "tp": 26.01,
+  "tpSrc": "OB",
+  "slPct": 2.77,
+  "gainPct": 23.15,
+  "rr": 8.36,
+  "lev": 21,
+  "signalTime": 1793027700000,
+  "status": "pending",
+  "createdAt": 1793027731351
+ },
+ {
+  "id": "ERAUSDT::LONG::ChoCh::1793027700000",
+  "symbol": "ERAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.0869,
+  "sl": 0.08074999999999999,
+  "tp": 0.1031,
+  "tpSrc": "WH",
+  "slPct": 7.08,
+  "gainPct": 18.64,
+  "rr": 2.63,
+  "lev": 8,
+  "signalTime": 1793027700000,
+  "status": "pending",
+  "createdAt": 1793027731351
  }
 ]
