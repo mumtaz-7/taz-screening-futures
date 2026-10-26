@@ -1,8 +1,7 @@
 {
   "ready": [
     "COMPUSDT::LONG::ChoCh",
-    "ERAUSDT::LONG::ChoCh",
-    "INJUSDT::LONG::BoS"
+    "ERAUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-26T16:00:42.336Z"
+  "at": "2026-10-26T16:15:30.153Z"
 }
