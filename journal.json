@@ -41273,7 +41273,8 @@
   "lev": 13,
   "signalTime": 1793007000000,
   "status": "pending",
-  "createdAt": 1793007037951
+  "createdAt": 1793007037951,
+  "notified": []
  },
  {
   "id": "ZAMAUSDT::LONG::ChoCh::1793007000000",
@@ -41290,6 +41291,7 @@
   "lev": 16,
   "signalTime": 1793007000000,
   "status": "pending",
-  "createdAt": 1793007037951
+  "createdAt": 1793007037951,
+  "notified": []
  }
 ]
