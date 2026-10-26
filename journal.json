@@ -41218,5 +41218,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "QNTUSDT::LONG::ChoCh::1793003400000",
+  "symbol": "QNTUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 194.92,
+  "sl": 184.225,
+  "tp": 209.8,
+  "tpSrc": "OB",
+  "slPct": 5.49,
+  "gainPct": 7.63,
+  "rr": 1.39,
+  "lev": 11,
+  "signalTime": 1793003400000,
+  "status": "pending",
+  "createdAt": 1793003438864
  }
 ]
