@@ -41155,8 +41155,45 @@
   "rr": 3.36,
   "lev": 11,
   "signalTime": 1792962900000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1792962930064,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1792973700000
+ },
+ {
+  "id": "BABYUSDT::LONG::BoS::1792974600000",
+  "symbol": "BABYUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.01332,
+  "sl": 0.012839999999999999,
+  "tp": 0.01507,
+  "tpSrc": "WH",
+  "slPct": 3.6,
+  "gainPct": 13.14,
+  "rr": 3.65,
+  "lev": 16,
+  "signalTime": 1792974600000,
+  "status": "pending",
+  "createdAt": 1792974636823
+ },
+ {
+  "id": "ERAUSDT::LONG::BoS::1792974600000",
+  "symbol": "ERAUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.0817,
+  "sl": 0.07675,
+  "tp": 0.1031,
+  "tpSrc": "WH",
+  "slPct": 6.06,
+  "gainPct": 26.19,
+  "rr": 4.32,
+  "lev": 10,
+  "signalTime": 1792974600000,
+  "status": "pending",
+  "createdAt": 1792974636823
  }
 ]
