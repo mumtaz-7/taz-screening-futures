@@ -41161,12 +41161,15 @@
   "rr": 3.36,
   "lev": 11,
   "signalTime": 1792962900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792962930064,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792973700000
+  "fillTime": 1792973700000,
+  "R": -1,
+  "resolvedTime": 1792983600000
  },
  {
   "id": "BABYUSDT::LONG::BoS::1792974600000",
