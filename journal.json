@@ -40823,12 +40823,15 @@
   "rr": 3.11,
   "lev": 21,
   "signalTime": 1792846800000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1792846845783,
   "fillTime": 1792846800000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 3.11,
+  "resolvedTime": 1792996200000
  },
  {
   "id": "GTCUSDT::SHORT::BoS::1792866600000",
