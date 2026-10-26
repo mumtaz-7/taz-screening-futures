@@ -41301,9 +41301,12 @@
   "rr": 3.11,
   "lev": 16,
   "signalTime": 1793007000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1793007037951,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "COMPUSDT::LONG::ChoCh::1793027700000",
@@ -41319,8 +41322,12 @@
   "rr": 8.36,
   "lev": 21,
   "signalTime": 1793027700000,
-  "status": "pending",
-  "createdAt": 1793027731351
+  "status": "open",
+  "createdAt": 1793027731351,
+  "fillTime": 1793028600000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "ERAUSDT::LONG::ChoCh::1793027700000",
@@ -41337,6 +41344,7 @@
   "lev": 8,
   "signalTime": 1793027700000,
   "status": "pending",
-  "createdAt": 1793027731351
+  "createdAt": 1793027731351,
+  "notified": []
  }
 ]
