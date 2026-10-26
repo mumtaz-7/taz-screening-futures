@@ -41068,12 +41068,15 @@
   "rr": 1.25,
   "lev": 3,
   "signalTime": 1792924200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792924237388,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792935900000
+  "fillTime": 1792935900000,
+  "R": -1,
+  "resolvedTime": 1792981800000
  },
  {
   "id": "INITUSDT::LONG::BoS::1792936800000",
