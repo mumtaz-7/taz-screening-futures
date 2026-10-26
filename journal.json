@@ -41234,6 +41234,24 @@
   "lev": 11,
   "signalTime": 1793003400000,
   "status": "pending",
-  "createdAt": 1793003438864
+  "createdAt": 1793003438864,
+  "notified": []
+ },
+ {
+  "id": "INJUSDT::LONG::BoS::1793004300000",
+  "symbol": "INJUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 7.724,
+  "sl": 7.4285,
+  "tp": 8.663,
+  "tpSrc": "OB",
+  "slPct": 3.83,
+  "gainPct": 12.16,
+  "rr": 3.18,
+  "lev": 16,
+  "signalTime": 1793004300000,
+  "status": "pending",
+  "createdAt": 1793004331548
  }
 ]
