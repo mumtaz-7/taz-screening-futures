@@ -41349,5 +41349,22 @@
    "open"
   ],
   "fillTime": 1793030400000
+ },
+ {
+  "id": "BMTUSDT::SHORT::ChoCh::1793035800000",
+  "symbol": "BMTUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.02863,
+  "sl": 0.031135000000000003,
+  "tp": 0.02269,
+  "tpSrc": "OB",
+  "slPct": 8.75,
+  "gainPct": 20.75,
+  "rr": 2.37,
+  "lev": 7,
+  "signalTime": 1793035800000,
+  "status": "pending",
+  "createdAt": 1793035839955
  }
 ]
