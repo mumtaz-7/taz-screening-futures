@@ -41382,8 +41382,28 @@
   "rr": 3.28,
   "lev": 25,
   "signalTime": 1793051100000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1793051130494,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1793052000000
+ },
+ {
+  "id": "DODOUSDT::LONG::BoS::1793052900000",
+  "symbol": "DODOUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.02429,
+  "sl": 0.023495000000000002,
+  "tp": 0.02988,
+  "tpSrc": "WH",
+  "slPct": 3.27,
+  "gainPct": 23.01,
+  "rr": 7.03,
+  "lev": 18,
+  "signalTime": 1793052900000,
+  "status": "pending",
+  "createdAt": 1793052931309
  }
 ]

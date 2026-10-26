@@ -1,6 +1,7 @@
 {
   "ready": [
-    "ZAMAUSDT::LONG::ChoCh"
+    "DODOUSDT::LONG::BoS",
+    "ERAUSDT::LONG::BoS"
   ],
-  "at": "2026-10-26T22:00:43.377Z"
+  "at": "2026-10-26T22:15:31.308Z"
 }
