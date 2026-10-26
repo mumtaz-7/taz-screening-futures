@@ -41409,5 +41409,22 @@
   "status": "pending",
   "createdAt": 1793052931309,
   "notified": []
+ },
+ {
+  "id": "NILUSDT::LONG::BoS::1793058300000",
+  "symbol": "NILUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.08964,
+  "sl": 0.086775,
+  "tp": 0.0974,
+  "tpSrc": "WH",
+  "slPct": 3.2,
+  "gainPct": 8.66,
+  "rr": 2.71,
+  "lev": 18,
+  "signalTime": 1793058300000,
+  "status": "pending",
+  "createdAt": 1793058329935
  }
 ]
