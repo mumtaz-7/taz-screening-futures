@@ -41176,8 +41176,12 @@
   "rr": 3.65,
   "lev": 16,
   "signalTime": 1792974600000,
-  "status": "pending",
-  "createdAt": 1792974636823
+  "status": "open",
+  "createdAt": 1792974636823,
+  "fillTime": 1792974600000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "ERAUSDT::LONG::BoS::1792974600000",
@@ -41193,7 +41197,11 @@
   "rr": 4.32,
   "lev": 10,
   "signalTime": 1792974600000,
-  "status": "pending",
-  "createdAt": 1792974636823
+  "status": "open",
+  "createdAt": 1792974636823,
+  "fillTime": 1792974600000,
+  "notified": [
+   "open"
+  ]
  }
 ]
