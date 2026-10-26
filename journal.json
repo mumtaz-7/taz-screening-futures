@@ -41179,12 +41179,15 @@
   "rr": 3.65,
   "lev": 16,
   "signalTime": 1792974600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792974636823,
   "fillTime": 1792974600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1792980900000
  },
  {
   "id": "ERAUSDT::LONG::BoS::1792974600000",
