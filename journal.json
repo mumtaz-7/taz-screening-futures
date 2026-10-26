@@ -40455,12 +40455,15 @@
   "rr": 1.68,
   "lev": 8,
   "signalTime": 1792761300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792761331732,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792762200000
+  "fillTime": 1792762200000,
+  "R": -1,
+  "resolvedTime": 1793008800000
  },
  {
   "id": "INITUSDT::SHORT::ChoCh::1792773000000",
@@ -41233,9 +41236,13 @@
   "rr": 1.39,
   "lev": 11,
   "signalTime": 1793003400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1793003438864,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1793008800000
  },
  {
   "id": "INJUSDT::LONG::BoS::1793004300000",
@@ -41272,9 +41279,13 @@
   "rr": 3.63,
   "lev": 13,
   "signalTime": 1793007000000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1793007037951,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1793008800000
  },
  {
   "id": "ZAMAUSDT::LONG::ChoCh::1793007000000",
