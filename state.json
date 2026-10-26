@@ -1,6 +1,8 @@
 {
   "ready": [
-    "INJUSDT::LONG::BoS"
+    "HUMAUSDT::SHORT::ChoCh",
+    "INJUSDT::LONG::BoS",
+    "ZAMAUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-26T09:15:31.591Z"
+  "at": "2026-10-26T09:30:37.950Z"
 }

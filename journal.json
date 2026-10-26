@@ -41257,5 +41257,39 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HUMAUSDT::SHORT::ChoCh::1793007000000",
+  "symbol": "HUMAUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.02195,
+  "sl": 0.022940000000000002,
+  "tp": 0.01836,
+  "tpSrc": "WL",
+  "slPct": 4.51,
+  "gainPct": 16.36,
+  "rr": 3.63,
+  "lev": 13,
+  "signalTime": 1793007000000,
+  "status": "pending",
+  "createdAt": 1793007037951
+ },
+ {
+  "id": "ZAMAUSDT::LONG::ChoCh::1793007000000",
+  "symbol": "ZAMAUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.06977,
+  "sl": 0.06726499999999999,
+  "tp": 0.07756,
+  "tpSrc": "OB",
+  "slPct": 3.59,
+  "gainPct": 11.17,
+  "rr": 3.11,
+  "lev": 16,
+  "signalTime": 1793007000000,
+  "status": "pending",
+  "createdAt": 1793007037951
  }
 ]
