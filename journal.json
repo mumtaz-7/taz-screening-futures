@@ -41391,12 +41391,15 @@
   "rr": 3.28,
   "lev": 25,
   "signalTime": 1793051100000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1793051130494,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1793052000000
+  "fillTime": 1793052000000,
+  "R": 3.28,
+  "resolvedTime": 1793133900000
  },
  {
   "id": "DODOUSDT::LONG::BoS::1793052900000",
