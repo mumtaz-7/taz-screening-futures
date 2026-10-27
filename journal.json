@@ -41503,5 +41503,39 @@
    "open"
   ],
   "fillTime": 1793072700000
+ },
+ {
+  "id": "BMTUSDT::SHORT::BoS::1793079000000",
+  "symbol": "BMTUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0288,
+  "sl": 0.03105,
+  "tp": 0.02269,
+  "tpSrc": "OB",
+  "slPct": 7.81,
+  "gainPct": 21.22,
+  "rr": 2.72,
+  "lev": 8,
+  "signalTime": 1793079000000,
+  "status": "pending",
+  "createdAt": 1793079036943
+ },
+ {
+  "id": "CHIPUSDT::LONG::BoS::1793079000000",
+  "symbol": "CHIPUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.05177,
+  "sl": 0.049760000000000006,
+  "tp": 0.05725,
+  "tpSrc": "WH",
+  "slPct": 3.88,
+  "gainPct": 10.59,
+  "rr": 2.73,
+  "lev": 15,
+  "signalTime": 1793079000000,
+  "status": "pending",
+  "createdAt": 1793079036943
  }
 ]
