@@ -41424,7 +41424,28 @@
   "rr": 2.71,
   "lev": 18,
   "signalTime": 1793058300000,
+  "status": "open",
+  "createdAt": 1793058329935,
+  "fillTime": 1793058300000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "HUMAUSDT::SHORT::BoS::1793059200000",
+  "symbol": "HUMAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.02364,
+  "sl": 0.02712,
+  "tp": 0.01753,
+  "tpSrc": "WL",
+  "slPct": 14.72,
+  "gainPct": 25.85,
+  "rr": 1.76,
+  "lev": 4,
+  "signalTime": 1793059200000,
   "status": "pending",
-  "createdAt": 1793058329935
+  "createdAt": 1793059242737
  }
 ]
