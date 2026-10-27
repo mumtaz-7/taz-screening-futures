@@ -41433,12 +41433,15 @@
   "rr": 2.71,
   "lev": 18,
   "signalTime": 1793058300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1793058329935,
   "fillTime": 1793058300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 2.71,
+  "resolvedTime": 1793085300000
  },
  {
   "id": "HUMAUSDT::SHORT::BoS::1793059200000",
