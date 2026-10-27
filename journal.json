@@ -41466,5 +41466,22 @@
   "status": "pending",
   "createdAt": 1793062844449,
   "notified": []
+ },
+ {
+  "id": "KATUSDT::LONG::ChoCh::1793067300000",
+  "symbol": "KATUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.00446,
+  "sl": 0.004039999999999999,
+  "tp": 0.00506,
+  "tpSrc": "WH",
+  "slPct": 9.42,
+  "gainPct": 13.45,
+  "rr": 1.43,
+  "lev": 6,
+  "signalTime": 1793067300000,
+  "status": "pending",
+  "createdAt": 1793067329803
  }
 ]
