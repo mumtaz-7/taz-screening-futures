@@ -41612,5 +41612,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "INJUSDT::LONG::ChoCh::1793099700000",
+  "symbol": "INJUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 7.862,
+  "sl": 7.661,
+  "tp": 8.663,
+  "tpSrc": "OB",
+  "slPct": 2.56,
+  "gainPct": 10.19,
+  "rr": 3.99,
+  "lev": 23,
+  "signalTime": 1793099700000,
+  "status": "pending",
+  "createdAt": 1793099730903
  }
 ]
