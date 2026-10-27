@@ -41588,5 +41588,22 @@
   ],
   "voidReason": "tp-duluan",
   "resolvedTime": 1793090700000
+ },
+ {
+  "id": "TREEUSDT::SHORT::ChoCh::1793092500000",
+  "symbol": "TREEUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.0381,
+  "sl": 0.0402,
+  "tp": 0.0349,
+  "tpSrc": "WL",
+  "slPct": 5.51,
+  "gainPct": 8.4,
+  "rr": 1.52,
+  "lev": 11,
+  "signalTime": 1793092500000,
+  "status": "pending",
+  "createdAt": 1793092530551
  }
 ]
