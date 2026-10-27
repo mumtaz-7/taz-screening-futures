@@ -41518,8 +41518,12 @@
   "rr": 2.72,
   "lev": 8,
   "signalTime": 1793079000000,
-  "status": "pending",
-  "createdAt": 1793079036943
+  "status": "open",
+  "createdAt": 1793079036943,
+  "fillTime": 1793079000000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "CHIPUSDT::LONG::BoS::1793079000000",
@@ -41535,7 +41539,11 @@
   "rr": 2.73,
   "lev": 15,
   "signalTime": 1793079000000,
-  "status": "pending",
-  "createdAt": 1793079036943
+  "status": "open",
+  "createdAt": 1793079036943,
+  "fillTime": 1793079000000,
+  "notified": [
+   "open"
+  ]
  }
 ]
