@@ -41566,9 +41566,12 @@
   "rr": 18.98,
   "lev": 20,
   "signalTime": 1793087100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1793087131742,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "REZUSDT::LONG::BoS::1793088900000",
