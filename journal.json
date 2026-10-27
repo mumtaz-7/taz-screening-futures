@@ -41651,9 +41651,12 @@
   "rr": 4.24,
   "lev": 12,
   "signalTime": 1793124000000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1793124046741,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1793128500000
  },
  {
   "id": "TIAUSDT::LONG::ChoCh::1793128500000",
@@ -41669,7 +41672,11 @@
   "rr": 3.69,
   "lev": 18,
   "signalTime": 1793128500000,
-  "status": "pending",
-  "createdAt": 1793128531602
+  "status": "open",
+  "createdAt": 1793128531602,
+  "fillTime": 1793128500000,
+  "notified": [
+   "open"
+  ]
  }
 ]
