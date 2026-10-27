@@ -41457,12 +41457,15 @@
   "rr": 1.76,
   "lev": 4,
   "signalTime": 1793059200000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793059242737,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1793077200000
+  "fillTime": 1793077200000,
+  "R": -1,
+  "resolvedTime": 1793097900000
  },
  {
   "id": "BANKUSDT::LONG::ChoCh::1793062800000",
