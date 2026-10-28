@@ -41829,9 +41829,13 @@
   "rr": 1.25,
   "lev": 8,
   "signalTime": 1793178900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1793178933462,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1793184300000
  },
  {
   "id": "GTCUSDT::LONG::BoS::1793181600000",
