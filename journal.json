@@ -41349,12 +41349,15 @@
   "rr": 2.63,
   "lev": 8,
   "signalTime": 1793027700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793027731351,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1793030400000
+  "fillTime": 1793030400000,
+  "R": -1,
+  "resolvedTime": 1793144700000
  },
  {
   "id": "BMTUSDT::SHORT::ChoCh::1793035800000",
