@@ -41759,7 +41759,29 @@
   "rr": 3.67,
   "lev": 25,
   "signalTime": 1793152800000,
+  "status": "void",
+  "createdAt": 1793152844937,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1793152800000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "IOSTUSDT::LONG::BoS::1793153700000",
+  "symbol": "IOSTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.000818,
+  "sl": 0.0007819999999999999,
+  "tp": 0.000902,
+  "tpSrc": "OB",
+  "slPct": 4.4,
+  "gainPct": 10.27,
+  "rr": 2.33,
+  "lev": 14,
+  "signalTime": 1793153700000,
   "status": "pending",
-  "createdAt": 1793152844937
+  "createdAt": 1793153730296
  }
 ]
