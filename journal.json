@@ -41373,12 +41373,15 @@
   "rr": 2.37,
   "lev": 7,
   "signalTime": 1793035800000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793035839955,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1793054700000
+  "fillTime": 1793054700000,
+  "R": -1,
+  "resolvedTime": 1793196000000
  },
  {
   "id": "ZAMAUSDT::LONG::ChoCh::1793051100000",
