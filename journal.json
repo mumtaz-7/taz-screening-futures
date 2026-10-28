@@ -41221,12 +41221,15 @@
   "rr": 4.32,
   "lev": 10,
   "signalTime": 1792974600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792974636823,
   "fillTime": 1792974600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1793212200000
  },
  {
   "id": "QNTUSDT::LONG::ChoCh::1793003400000",
