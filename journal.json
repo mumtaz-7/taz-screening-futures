@@ -41790,5 +41790,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ANIMEUSDT::LONG::BoS::1793169000000",
+  "symbol": "ANIMEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00304,
+  "sl": 0.002935,
+  "tp": 0.00333,
+  "tpSrc": "WH",
+  "slPct": 3.45,
+  "gainPct": 9.54,
+  "rr": 2.76,
+  "lev": 17,
+  "signalTime": 1793169000000,
+  "status": "pending",
+  "createdAt": 1793169037776
  }
 ]
