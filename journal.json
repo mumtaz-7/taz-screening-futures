@@ -41690,12 +41690,15 @@
   "rr": 3.69,
   "lev": 18,
   "signalTime": 1793128500000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793128531602,
   "fillTime": 1793128500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1793207700000
  },
  {
   "id": "ANIMEUSDT::LONG::ChoCh::1793147400000",
