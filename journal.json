@@ -41860,5 +41860,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HAEDALUSDT::LONG::BoS::1793187000000",
+  "symbol": "HAEDALUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.03015,
+  "sl": 0.026729999999999997,
+  "tp": 0.03395,
+  "tpSrc": "WH",
+  "slPct": 11.34,
+  "gainPct": 12.6,
+  "rr": 1.11,
+  "lev": 5,
+  "signalTime": 1793187000000,
+  "status": "pending",
+  "createdAt": 1793187039379
  }
 ]
