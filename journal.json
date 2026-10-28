@@ -41914,5 +41914,22 @@
    "open"
   ],
   "fillTime": 1793201400000
+ },
+ {
+  "id": "PLUMEUSDT::LONG::ChoCh::1793205000000",
+  "symbol": "PLUMEUSDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.01588,
+  "sl": 0.015415000000000002,
+  "tp": 0.01726,
+  "tpSrc": "OB",
+  "slPct": 2.93,
+  "gainPct": 8.69,
+  "rr": 2.97,
+  "lev": 20,
+  "signalTime": 1793205000000,
+  "status": "pending",
+  "createdAt": 1793205037978
  }
 ]
