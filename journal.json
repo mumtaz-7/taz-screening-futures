@@ -41884,5 +41884,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ZROUSDT::SHORT::ChoCh::1793192400000",
+  "symbol": "ZROUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 1.719,
+  "sl": 1.7550000000000001,
+  "tp": 1.597,
+  "tpSrc": "WL",
+  "slPct": 2.09,
+  "gainPct": 7.1,
+  "rr": 3.39,
+  "lev": 25,
+  "signalTime": 1793192400000,
+  "status": "pending",
+  "createdAt": 1793192447594
  }
 ]
