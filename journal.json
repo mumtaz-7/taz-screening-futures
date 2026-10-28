@@ -41717,12 +41717,15 @@
   "rr": 8,
   "lev": 25,
   "signalTime": 1793147400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793147441614,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1793159100000
+  "fillTime": 1793159100000,
+  "R": -1,
+  "resolvedTime": 1793228400000
  },
  {
   "id": "PLUMEUSDT::LONG::ChoCh::1793151000000",
@@ -41983,7 +41986,28 @@
   "rr": 2.2,
   "lev": 17,
   "signalTime": 1793228400000,
+  "status": "open",
+  "createdAt": 1793228447133,
+  "fillTime": 1793228400000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "INITUSDT::LONG::BoS::1793229300000",
+  "symbol": "INITUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.21886,
+  "sl": 0.206245,
+  "tp": 0.25793,
+  "tpSrc": "WH",
+  "slPct": 5.76,
+  "gainPct": 17.85,
+  "rr": 3.1,
+  "lev": 10,
+  "signalTime": 1793229300000,
   "status": "pending",
-  "createdAt": 1793228447133
+  "createdAt": 1793229331581
  }
 ]
