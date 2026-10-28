@@ -41720,7 +41720,28 @@
   "rr": 3.78,
   "lev": 25,
   "signalTime": 1793151000000,
+  "status": "open",
+  "createdAt": 1793151037624,
+  "fillTime": 1793151000000,
+  "notified": [
+   "open"
+  ]
+ },
+ {
+  "id": "LTCUSDT::LONG::BoS::1793151900000",
+  "symbol": "LTCUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 57.29,
+  "sl": 56.87,
+  "tp": 61.52,
+  "tpSrc": "OB",
+  "slPct": 0.73,
+  "gainPct": 7.38,
+  "rr": 10.07,
+  "lev": 25,
+  "signalTime": 1793151900000,
   "status": "pending",
-  "createdAt": 1793151037624
+  "createdAt": 1793151932106
  }
 ]
