@@ -41944,5 +41944,22 @@
    "open"
   ],
   "fillTime": 1793205900000
+ },
+ {
+  "id": "牛来USDT::LONG::ChoCh::1793218500000",
+  "symbol": "牛来USDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.05838,
+  "sl": 0.05713499999999999,
+  "tp": 0.06349,
+  "tpSrc": "WH",
+  "slPct": 2.13,
+  "gainPct": 8.75,
+  "rr": 4.1,
+  "lev": 25,
+  "signalTime": 1793218500000,
+  "status": "pending",
+  "createdAt": 1793218533006
  }
 ]
