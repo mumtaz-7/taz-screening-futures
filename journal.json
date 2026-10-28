@@ -41914,12 +41914,15 @@
   "rr": 3.39,
   "lev": 25,
   "signalTime": 1793192400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793192447594,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1793201400000
+  "fillTime": 1793201400000,
+  "R": -1,
+  "resolvedTime": 1793216700000
  },
  {
   "id": "PLUMEUSDT::LONG::ChoCh::1793205000000",
