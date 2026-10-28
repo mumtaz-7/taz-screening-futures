@@ -41726,12 +41726,15 @@
   "rr": 3.78,
   "lev": 25,
   "signalTime": 1793151000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793151037624,
   "fillTime": 1793151000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1793189700000
  },
  {
   "id": "LTCUSDT::LONG::BoS::1793151900000",
