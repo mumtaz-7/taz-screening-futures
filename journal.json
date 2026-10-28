@@ -41702,9 +41702,12 @@
   "rr": 8,
   "lev": 25,
   "signalTime": 1793147400000,
-  "status": "pending",
+  "status": "open",
   "createdAt": 1793147441614,
-  "notified": []
+  "notified": [
+   "open"
+  ],
+  "fillTime": 1793159100000
  },
  {
   "id": "PLUMEUSDT::LONG::ChoCh::1793151000000",
