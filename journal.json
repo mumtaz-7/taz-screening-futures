@@ -41884,12 +41884,15 @@
   "rr": 1.11,
   "lev": 5,
   "signalTime": 1793187000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793187039379,
   "fillTime": 1793187000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1793202300000
  },
  {
   "id": "ZROUSDT::SHORT::ChoCh::1793192400000",
