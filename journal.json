@@ -41530,12 +41530,15 @@
   "rr": 2.72,
   "lev": 8,
   "signalTime": 1793079000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793079036943,
   "fillTime": 1793079000000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1793195100000
  },
  {
   "id": "CHIPUSDT::LONG::BoS::1793079000000",
