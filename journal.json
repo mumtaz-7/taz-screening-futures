@@ -41742,6 +41742,24 @@
   "lev": 25,
   "signalTime": 1793151900000,
   "status": "pending",
-  "createdAt": 1793151932106
+  "createdAt": 1793151932106,
+  "notified": []
+ },
+ {
+  "id": "PEPEUSDT::LONG::BoS::1793152800000",
+  "symbol": "PEPEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.00000462,
+  "sl": 0.000004530000000000001,
+  "tp": 0.00000495,
+  "tpSrc": "WH",
+  "slPct": 1.95,
+  "gainPct": 7.14,
+  "rr": 3.67,
+  "lev": 25,
+  "signalTime": 1793152800000,
+  "status": "pending",
+  "createdAt": 1793152844937
  }
 ]
