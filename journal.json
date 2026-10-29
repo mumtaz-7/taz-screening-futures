@@ -41515,12 +41515,15 @@
   "rr": 1.43,
   "lev": 6,
   "signalTime": 1793067300000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1793067329803,
   "notified": [
-   "open"
+   "open",
+   "win"
   ],
-  "fillTime": 1793072700000
+  "fillTime": 1793072700000,
+  "R": 1.43,
+  "resolvedTime": 1793259000000
  },
  {
   "id": "BMTUSDT::SHORT::BoS::1793079000000",
