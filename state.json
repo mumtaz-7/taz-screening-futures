@@ -1,6 +1,7 @@
 {
   "ready": [
-    "HAEDALUSDT::SHORT::BoS"
+    "HAEDALUSDT::SHORT::BoS",
+    "PARTIUSDT::LONG::ChoCh"
   ],
-  "at": "2026-10-29T17:30:38.595Z"
+  "at": "2026-10-29T17:45:33.153Z"
 }
