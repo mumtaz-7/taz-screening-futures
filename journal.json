@@ -42160,5 +42160,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "HYPEUSDT::LONG::BoS::1793274300000",
+  "symbol": "HYPEUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 79.6,
+  "sl": 78.08500000000001,
+  "tp": 87.31,
+  "tpSrc": "WH",
+  "slPct": 1.9,
+  "gainPct": 9.69,
+  "rr": 5.09,
+  "lev": 25,
+  "signalTime": 1793274300000,
+  "status": "pending",
+  "createdAt": 1793274331124
  }
 ]
