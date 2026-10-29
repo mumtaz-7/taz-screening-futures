@@ -41648,12 +41648,15 @@
   "rr": 3.99,
   "lev": 23,
   "signalTime": 1793099700000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793099730903,
   "fillTime": 1793099700000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1793240100000
  },
  {
   "id": "NILUSDT::LONG::ChoCh::1793124000000",
