@@ -41950,12 +41950,15 @@
   "rr": 2.97,
   "lev": 20,
   "signalTime": 1793205000000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793205037978,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1793205900000
+  "fillTime": 1793205900000,
+  "R": -1,
+  "resolvedTime": 1793241000000
  },
  {
   "id": "牛来USDT::LONG::ChoCh::1793218500000",
@@ -42073,5 +42076,22 @@
   "notified": [
    "open"
   ]
+ },
+ {
+  "id": "ENAUSDT::SHORT::BoS::1793241900000",
+  "symbol": "ENAUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.2074,
+  "sl": 0.2113,
+  "tp": 0.1902,
+  "tpSrc": "OB",
+  "slPct": 1.88,
+  "gainPct": 8.29,
+  "rr": 4.41,
+  "lev": 25,
+  "signalTime": 1793241900000,
+  "status": "pending",
+  "createdAt": 1793241931028
  }
 ]
