@@ -42094,5 +42094,22 @@
   "status": "pending",
   "createdAt": 1793241931028,
   "notified": []
+ },
+ {
+  "id": "牛来USDT::LONG::ChoCh::1793250900000",
+  "symbol": "牛来USDT",
+  "dir": "LONG",
+  "setup": "ChoCh",
+  "entry": 0.05645,
+  "sl": 0.054755,
+  "tp": 0.06349,
+  "tpSrc": "WH",
+  "slPct": 3,
+  "gainPct": 12.47,
+  "rr": 4.15,
+  "lev": 19,
+  "signalTime": 1793250900000,
+  "status": "pending",
+  "createdAt": 1793250934427
  }
 ]
