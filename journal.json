@@ -42094,9 +42094,12 @@
   "rr": 4.41,
   "lev": 25,
   "signalTime": 1793241900000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1793241931028,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "牛来USDT::LONG::ChoCh::1793250900000",
