@@ -42363,7 +42363,8 @@
   "lev": 8,
   "signalTime": 1793307600000,
   "status": "pending",
-  "createdAt": 1793307646852
+  "createdAt": 1793307646852,
+  "notified": []
  },
  {
   "id": "OPUSDT::SHORT::ChoCh::1793307600000",
@@ -42380,6 +42381,24 @@
   "lev": 8,
   "signalTime": 1793307600000,
   "status": "pending",
-  "createdAt": 1793307646852
+  "createdAt": 1793307646852,
+  "notified": []
+ },
+ {
+  "id": "TLMUSDT::SHORT::ChoCh::1793308500000",
+  "symbol": "TLMUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.001198,
+  "sl": 0.0012685,
+  "tp": 0.001064,
+  "tpSrc": "WL",
+  "slPct": 5.88,
+  "gainPct": 11.19,
+  "rr": 1.9,
+  "lev": 10,
+  "signalTime": 1793308500000,
+  "status": "pending",
+  "createdAt": 1793308533333
  }
 ]
