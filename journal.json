@@ -41059,12 +41059,15 @@
   "rr": 2.33,
   "lev": 9,
   "signalTime": 1792913400000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1792913443627,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1792925100000
+  "fillTime": 1792925100000,
+  "R": -1,
+  "resolvedTime": 1793305800000
  },
  {
   "id": "BMTUSDT::SHORT::ChoCh::1792924200000",
@@ -41630,12 +41633,15 @@
   "rr": 1.52,
   "lev": 11,
   "signalTime": 1793092500000,
-  "status": "open",
+  "status": "win",
   "createdAt": 1793092530551,
   "fillTime": 1793092500000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "win"
+  ],
+  "R": 1.52,
+  "resolvedTime": 1793305800000
  },
  {
   "id": "INJUSDT::LONG::ChoCh::1793099700000",
@@ -42294,5 +42300,39 @@
   "status": "pending",
   "createdAt": 1793291439709,
   "notified": []
+ },
+ {
+  "id": "ARBUSDT::SHORT::BoS::1793306700000",
+  "symbol": "ARBUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.1675,
+  "sl": 0.18024999999999997,
+  "tp": 0.1546,
+  "tpSrc": "WL",
+  "slPct": 7.61,
+  "gainPct": 7.7,
+  "rr": 1.01,
+  "lev": 8,
+  "signalTime": 1793306700000,
+  "status": "pending",
+  "createdAt": 1793306733628
+ },
+ {
+  "id": "BNBUSDT::SHORT::BoS::1793306700000",
+  "symbol": "BNBUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 742.62,
+  "sl": 760.125,
+  "tp": 689,
+  "tpSrc": "WL",
+  "slPct": 2.36,
+  "gainPct": 7.22,
+  "rr": 3.06,
+  "lev": 24,
+  "signalTime": 1793306700000,
+  "status": "pending",
+  "createdAt": 1793306733628
  }
 ]

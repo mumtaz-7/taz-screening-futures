@@ -1,4 +1,7 @@
 {
-  "ready": [],
-  "at": "2026-10-29T20:30:41.662Z"
+  "ready": [
+    "ARBUSDT::SHORT::BoS",
+    "BNBUSDT::SHORT::BoS"
+  ],
+  "at": "2026-10-29T20:45:33.627Z"
 }
