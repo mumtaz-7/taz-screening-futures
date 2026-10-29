@@ -42271,5 +42271,22 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "HAEDALUSDT::SHORT::BoS::1793291400000",
+  "symbol": "HAEDALUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.02478,
+  "sl": 0.025604999999999996,
+  "tp": 0.02133,
+  "tpSrc": "OB",
+  "slPct": 3.33,
+  "gainPct": 13.92,
+  "rr": 4.18,
+  "lev": 18,
+  "signalTime": 1793291400000,
+  "status": "pending",
+  "createdAt": 1793291439709
  }
 ]
