@@ -41270,12 +41270,15 @@
   "rr": 3.18,
   "lev": 16,
   "signalTime": 1793004300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793004331548,
   "fillTime": 1793004300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1793306700000
  },
  {
   "id": "HUMAUSDT::SHORT::ChoCh::1793007000000",
@@ -42315,8 +42318,13 @@
   "rr": 1.01,
   "lev": 8,
   "signalTime": 1793306700000,
-  "status": "pending",
-  "createdAt": 1793306733628
+  "status": "void",
+  "createdAt": 1793306733628,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1793306700000,
+  "notified": [
+   "void"
+  ]
  },
  {
   "id": "BNBUSDT::SHORT::BoS::1793306700000",
@@ -42332,7 +42340,46 @@
   "rr": 3.06,
   "lev": 24,
   "signalTime": 1793306700000,
+  "status": "void",
+  "createdAt": 1793306733628,
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1793306700000,
+  "notified": [
+   "void"
+  ]
+ },
+ {
+  "id": "LDOUSDT::SHORT::ChoCh::1793307600000",
+  "symbol": "LDOUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.3628,
+  "sl": 0.39085000000000003,
+  "tp": 0.3288,
+  "tpSrc": "WL",
+  "slPct": 7.73,
+  "gainPct": 9.37,
+  "rr": 1.21,
+  "lev": 8,
+  "signalTime": 1793307600000,
   "status": "pending",
-  "createdAt": 1793306733628
+  "createdAt": 1793307646852
+ },
+ {
+  "id": "OPUSDT::SHORT::ChoCh::1793307600000",
+  "symbol": "OPUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.1095,
+  "sl": 0.11745,
+  "tp": 0.0993,
+  "tpSrc": "WL",
+  "slPct": 7.26,
+  "gainPct": 9.32,
+  "rr": 1.28,
+  "lev": 8,
+  "signalTime": 1793307600000,
+  "status": "pending",
+  "createdAt": 1793307646852
  }
 ]
