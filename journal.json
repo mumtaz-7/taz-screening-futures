@@ -42200,12 +42200,15 @@
   "rr": 4.15,
   "lev": 19,
   "signalTime": 1793283300000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793283333866,
   "fillTime": 1793283300000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1793286000000
  },
  {
   "id": "PARTIUSDT::SHORT::BoS::1793283300000",
