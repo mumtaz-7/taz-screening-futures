@@ -42300,9 +42300,13 @@
   "rr": 4.18,
   "lev": 18,
   "signalTime": 1793291400000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1793291439709,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "tp-duluan",
+  "resolvedTime": 1793310300000
  },
  {
   "id": "ARBUSDT::SHORT::BoS::1793306700000",
@@ -42435,6 +42439,7 @@
   "lev": 9,
   "signalTime": 1793310300000,
   "status": "pending",
-  "createdAt": 1793310333283
+  "createdAt": 1793310333283,
+  "notified": []
  }
 ]
