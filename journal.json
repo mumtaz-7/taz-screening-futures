@@ -42200,8 +42200,12 @@
   "rr": 4.15,
   "lev": 19,
   "signalTime": 1793283300000,
-  "status": "pending",
-  "createdAt": 1793283333866
+  "status": "open",
+  "createdAt": 1793283333866,
+  "fillTime": 1793283300000,
+  "notified": [
+   "open"
+  ]
  },
  {
   "id": "PARTIUSDT::SHORT::BoS::1793283300000",
@@ -42218,6 +42222,7 @@
   "lev": 9,
   "signalTime": 1793283300000,
   "status": "pending",
-  "createdAt": 1793283333866
+  "createdAt": 1793283333866,
+  "notified": []
  }
 ]
