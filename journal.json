@@ -42115,5 +42115,22 @@
    "open"
   ],
   "fillTime": 1793253600000
+ },
+ {
+  "id": "BMTUSDT::SHORT::BoS::1793258100000",
+  "symbol": "BMTUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.02699,
+  "sl": 0.028429999999999997,
+  "tp": 0.02269,
+  "tpSrc": "OB",
+  "slPct": 5.34,
+  "gainPct": 15.93,
+  "rr": 2.99,
+  "lev": 11,
+  "signalTime": 1793258100000,
+  "status": "pending",
+  "createdAt": 1793258133457
  }
 ]
