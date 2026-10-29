@@ -42224,9 +42224,14 @@
   "rr": 2.7,
   "lev": 9,
   "signalTime": 1793283300000,
-  "status": "pending",
+  "status": "loss",
   "createdAt": 1793283333866,
-  "notified": []
+  "notified": [
+   "loss"
+  ],
+  "R": -1,
+  "fillTime": 1793291400000,
+  "resolvedTime": 1793291400000
  },
  {
   "id": "LSKUSDT::LONG::BoS::1793285100000",
@@ -42287,6 +42292,7 @@
   "lev": 18,
   "signalTime": 1793291400000,
   "status": "pending",
-  "createdAt": 1793291439709
+  "createdAt": 1793291439709,
+  "notified": []
  }
 ]
