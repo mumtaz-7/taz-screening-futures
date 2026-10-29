@@ -1,7 +1,8 @@
 {
   "ready": [
     "BMTUSDT::SHORT::BoS",
+    "LSKUSDT::LONG::BoS",
     "PARTIUSDT::SHORT::BoS"
   ],
-  "at": "2026-10-29T14:30:40.498Z"
+  "at": "2026-10-29T14:45:32.992Z"
 }

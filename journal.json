@@ -42224,5 +42224,22 @@
   "status": "pending",
   "createdAt": 1793283333866,
   "notified": []
+ },
+ {
+  "id": "LSKUSDT::LONG::BoS::1793285100000",
+  "symbol": "LSKUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.1753,
+  "sl": 0.16135,
+  "tp": 0.2059,
+  "tpSrc": "WH",
+  "slPct": 7.96,
+  "gainPct": 17.46,
+  "rr": 2.19,
+  "lev": 8,
+  "signalTime": 1793285100000,
+  "status": "pending",
+  "createdAt": 1793285132993
  }
 ]
