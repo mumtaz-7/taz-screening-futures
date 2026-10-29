@@ -1,8 +1,6 @@
 {
   "ready": [
-    "ARBUSDT::SHORT::BoS",
-    "LDOUSDT::SHORT::ChoCh",
-    "OPUSDT::SHORT::ChoCh"
+    "HBARUSDT::SHORT::ChoCh"
   ],
-  "at": "2026-10-29T21:30:40.098Z"
+  "at": "2026-10-29T21:45:33.282Z"
 }

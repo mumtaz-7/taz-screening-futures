@@ -42417,6 +42417,24 @@
   "lev": 8,
   "signalTime": 1793309400000,
   "status": "pending",
-  "createdAt": 1793309440099
+  "createdAt": 1793309440099,
+  "notified": []
+ },
+ {
+  "id": "HBARUSDT::SHORT::ChoCh::1793310300000",
+  "symbol": "HBARUSDT",
+  "dir": "SHORT",
+  "setup": "ChoCh",
+  "entry": 0.07243,
+  "sl": 0.07750000000000001,
+  "tp": 0.06601,
+  "tpSrc": "WL",
+  "slPct": 7,
+  "gainPct": 8.86,
+  "rr": 1.27,
+  "lev": 9,
+  "signalTime": 1793310300000,
+  "status": "pending",
+  "createdAt": 1793310333283
  }
 ]
