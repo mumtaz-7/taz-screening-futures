@@ -42139,5 +42139,22 @@
   "status": "pending",
   "createdAt": 1793258133457,
   "notified": []
+ },
+ {
+  "id": "INITUSDT::LONG::BoS::1793268900000",
+  "symbol": "INITUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.22176,
+  "sl": 0.19528500000000001,
+  "tp": 0.25793,
+  "tpSrc": "WH",
+  "slPct": 11.94,
+  "gainPct": 16.31,
+  "rr": 1.37,
+  "lev": 5,
+  "signalTime": 1793268900000,
+  "status": "pending",
+  "createdAt": 1793268932301
  }
 ]
