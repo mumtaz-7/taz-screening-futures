@@ -42010,5 +42010,22 @@
   "status": "pending",
   "createdAt": 1793229331581,
   "notified": []
+ },
+ {
+  "id": "BMTUSDT::LONG::BoS::1793232000000",
+  "symbol": "BMTUSDT",
+  "dir": "LONG",
+  "setup": "BoS",
+  "entry": 0.02855,
+  "sl": 0.027635,
+  "tp": 0.03266,
+  "tpSrc": "WH",
+  "slPct": 3.2,
+  "gainPct": 14.4,
+  "rr": 4.49,
+  "lev": 18,
+  "signalTime": 1793232000000,
+  "status": "pending",
+  "createdAt": 1793232046111
  }
 ]
