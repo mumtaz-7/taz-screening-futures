@@ -42136,9 +42136,12 @@
   "rr": 2.99,
   "lev": 11,
   "signalTime": 1793258100000,
-  "status": "pending",
+  "status": "void",
   "createdAt": 1793258133457,
-  "notified": []
+  "notified": [
+   "void"
+  ],
+  "voidReason": "ga-retest"
  },
  {
   "id": "INITUSDT::LONG::BoS::1793268900000",
