@@ -42185,5 +42185,39 @@
   "notified": [
    "void"
   ]
+ },
+ {
+  "id": "BMTUSDT::SHORT::BoS::1793283300000",
+  "symbol": "BMTUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.02605,
+  "sl": 0.02686,
+  "tp": 0.02269,
+  "tpSrc": "OB",
+  "slPct": 3.11,
+  "gainPct": 12.9,
+  "rr": 4.15,
+  "lev": 19,
+  "signalTime": 1793283300000,
+  "status": "pending",
+  "createdAt": 1793283333866
+ },
+ {
+  "id": "PARTIUSDT::SHORT::BoS::1793283300000",
+  "symbol": "PARTIUSDT",
+  "dir": "SHORT",
+  "setup": "BoS",
+  "entry": 0.0386,
+  "sl": 0.041299999999999996,
+  "tp": 0.0313,
+  "tpSrc": "WL",
+  "slPct": 6.99,
+  "gainPct": 18.91,
+  "rr": 2.7,
+  "lev": 9,
+  "signalTime": 1793283300000,
+  "status": "pending",
+  "createdAt": 1793283333866
  }
 ]
