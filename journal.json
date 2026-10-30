@@ -41893,12 +41893,15 @@
   "rr": 1.18,
   "lev": 4,
   "signalTime": 1793181600000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793181645933,
   "fillTime": 1793181600000,
   "notified": [
-   "open"
-  ]
+   "open",
+   "loss"
+  ],
+  "R": -1,
+  "resolvedTime": 1793317500000
  },
  {
   "id": "HAEDALUSDT::LONG::BoS::1793187000000",
@@ -42124,12 +42127,15 @@
   "rr": 4.15,
   "lev": 19,
   "signalTime": 1793250900000,
-  "status": "open",
+  "status": "loss",
   "createdAt": 1793250934427,
   "notified": [
-   "open"
+   "open",
+   "loss"
   ],
-  "fillTime": 1793253600000
+  "fillTime": 1793253600000,
+  "R": -1,
+  "resolvedTime": 1793317500000
  },
  {
   "id": "BMTUSDT::SHORT::BoS::1793258100000",
